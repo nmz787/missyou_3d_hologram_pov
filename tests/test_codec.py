@@ -7,14 +7,14 @@ import numpy as np
 
 from povbin.codec import Encoder, GAMMA, OFFSET, PROFILES, make_header, parse_header
 
-EVIDENCE = Path(__file__).resolve().parents[1] / "docs" / "evidence"
+FIXTURES = Path(__file__).resolve().parent / "fixtures"
 
 
 class OriginalMethodParity(unittest.TestCase):
     """Goldens produced by invoking the extracted original assembly, not Python."""
 
     def test_original_methods_all_eleven_profiles(self):
-        manifest = json.loads((EVIDENCE / "original-replay.json").read_text())
+        manifest = json.loads((FIXTURES / "original-replay.json").read_text())
         y, x, c = np.indices((672, 672, 3))
         rgb = ((x * 17 + y * 31 + c * 73) & 255).astype(np.uint8)[..., ::-1]
         digest = lambda data: hashlib.sha256(data).hexdigest().upper()
@@ -33,7 +33,7 @@ class OriginalMethodParity(unittest.TestCase):
                 self.assertEqual(parse_header(header)["header_bytes"], original["headerLength"])
 
     def test_tables_match_artifact_initializer_bytes(self):
-        tables = json.loads((EVIDENCE / "luts.json").read_text())
+        tables = json.loads((FIXTURES / "luts.json").read_text())
         self.assertEqual(GAMMA.tolist(), tables["gamma_tab"])
         self.assertEqual(list(OFFSET), tables["offset_image"])
 

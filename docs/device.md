@@ -1,106 +1,199 @@
-# Display operations from Python and the CLI
+# Device connections and operations
 
-`povbin device` implements the operational functions recovered from
-`5D-Holo-android.apk` 1.0.85: information, files, playback, upload, deletion,
-looping, power, BLE, card formatting and HTTP-family settings. It uses Python's
-standard library; ADB is needed only for the phone transport.
+These examples use `povbin` from an activated virtual environment. See the
+[README](../README.md) for installation and a complete quick start.
 
-## Use the phone's Wi-Fi connection
+## Connect directly from a computer
 
-Keep the authorized USB phone connected to the display Wi-Fi. The computer
-can use its regular network. Put connection options **before** the operation:
+Connect the computer to the display's Wi-Fi hotspot. Direct mode is the default:
 
 ```bash
-.venv/bin/povbin device --adb info
-.venv/bin/povbin device --adb files
-.venv/bin/povbin device --adb play 1
-.venv/bin/povbin device --adb pause
-.venv/bin/povbin device --adb resume
-.venv/bin/povbin device --adb upload cd.bin --name CD.BIN
+povbin device info
+povbin device files
 ```
 
-For multiple phones, use `--serial SERIAL` instead of `--adb`. For a computer
-connected directly to the display Wi-Fi, omit `--adb`. The default target is
-`192.168.4.1`. `--host ADDRESS` selects another target. Automatic protocol
-selection tries HTTP, then legacy TCP; `--protocol legacy` forces the family
-confirmed on this unit. `--raw` includes the original notification bytes.
-
-A playback target can be a returned filename or the firmware's **index**.
-An index does not mean the number at the start of a filename. For example,
-`13_TRA~1.bin` was returned at index15 before the card was formatted.
-Legacy commands have no explicit success ACK; `sent` reports transmission and
-`requested_state_observed` reports a later matching playback state. Controls
-are separated from following heartbeats and polled because firmware can apply
-them asynchronously.
-
-Additional operations:
+The default address is 192.168.4.1. Ordinary network routing determines the
+interface, so a Wi-Fi or Ethernet connection works whenever it can reach that
+address. The CLI does not change your network connection or require a display
+Ethernet port. Choose a different reachable IP with `--host`:
 
 ```bash
-.venv/bin/povbin device --adb next
-.venv/bin/povbin device --adb previous
-.venv/bin/povbin device --adb loop single
-.venv/bin/povbin device --adb loop all
-.venv/bin/povbin device --adb power off
-.venv/bin/povbin device --adb power on
-.venv/bin/povbin device --adb settings
-.venv/bin/povbin device --adb set ble off
-.venv/bin/povbin device --adb delete CD.BIN --yes
-.venv/bin/povbin device --adb format-card --yes
+povbin device --host 192.168.4.1 --protocol legacy info
 ```
 
-Formatting erases the whole card. Its result includes
-`directory_empty_observed`; this checks a complete empty firmware listing.
-Deletion and formatting require explicit `--yes`. Upload refuses a filename
-collision unless `--overwrite` is supplied. It also refuses an incomplete
-listing unless `--overwrite` authorizes proceeding despite that uncertainty.
-FAT alias collisions are checked conservatively; ASCII 8.3 names are useful.
+The address must be a hostname/IP, not a URL. Automatic mode tries HTTP first,
+then legacy TCP. Force `legacy` for compatible older firmware or `http` for
+HTTP-family firmware. Connection failure is not proof that the device is absent
+if you are connected to the wrong network.
 
-Legacy settings readback has not been recovered: `settings` returns null for
-`ble`, `switcher` and `loop`, meaning unknown current values. Those three
-settings are writable; `switcher` maps to power. Legacy brightness, volume and
-Wi-Fi changes are not implemented because no corresponding command has been
-established. The HTTP family supports recovered `/ctrl/get` and `/ctrl/set`
-settings, cookies, GBK-hex names and multipart uploads; it has local wire tests
-but has not been observed on this display. Unsupported operations fail clearly.
+## Connect through an Android phone
 
-## Upload behavior and live limits
+The phone must be connected to the display's Wi-Fi, attached over USB and
+already authorized for ADB. Android platform tools must provide `adb` on PATH.
+The computer can remain on its ordinary network.
 
-Legacy uploads reproduce the APK's native framing: a GBK filename and padded
-length, 1440-byte data blocks, ACKs every20 blocks and at the last block, then
-completion. The original ARM64 library was also executed in an analysis harness
-on the phone: all249 data packets for `cd.bin` matched the Python construction
-byte-for-byte. The harness suppresses logging and bypasses JNI setup; it is
-separate from execution of the full app.
+```bash
+adb devices
+povbin device --adb info
+povbin device --adb upload CLIP.BIN
+```
 
-Before formatting, ACK middle fields changed from `ffff` to `0000`, a scratch
-filename appeared temporarily, and the directory later lost that entry. The
-original native sender still reported success because it ignores ACK middle
-fields. The Python client stops on `0000` based on those failed live observations;
-the firmware definition of that value remains unknown. After the user-requested
-format, uploads received `ffff` throughout and retained the filename in delayed
-checks. The clean directory also removed the malformed list response.
+`--adb` selects the sole authorized phone. For multiple phones, use
+`--serial SERIAL`; this also enables the phone transport. ADB mode uses the
+phone's network through its Toybox netcat utility, rather than USB file copying.
 
-Upload JSON distinguishes transfer completion, repeated filename listing,
-content verification, persistence and actual playback. A listing alone does
-not establish stored-byte equality, survival across a power cycle, or visible
-video/audio playback. No legacy download API was recovered for readback.
+## Connection options
+
+Put these **before** the operation: `device [OPTIONS] OPERATION ...`.
+
+| Option | Default | Effect |
+| --- | --- | --- |
+| `--host ADDRESS` | `192.168.4.1` | Target display hostname/IP. |
+| `--protocol auto\|legacy\|http` | `auto` | Automatic fallback or an explicit protocol. |
+| `--adb` | Off | Connect through the sole authorized USB phone. |
+| `--serial SERIAL` | None | Select an ADB phone and enable phone transport. |
+| `--timeout SECONDS` | `5` | Positive network timeout. |
+| `--raw` | Off | Include raw notification bytes in JSON for diagnostics. |
+
+## Upload and select a file
+
+```bash
+povbin device upload CLIP.BIN
+povbin device upload local-output.bin --name CLIP.BIN
+povbin device play CLIP.BIN
+```
+
+`--name` changes only the destination filename; it does not rename the local
+file or encode it again. Use ASCII 8.3 names such as `CLIP.BIN` to avoid tilde
+aliases in legacy directories. Legacy filenames must be representable in GBK;
+the client also checks filename/size limits.
+
+Uploads refuse existing names and possible short-name collisions. Add
+`--overwrite` to authorize replacement. If the device returns an incomplete
+list, replacement cannot be ruled out and upload also refuses to proceed
+without `--overwrite`. Check `files` and its `issues` before using that override.
+
+Upload reports distinguish transferred bytes, protocol completion and repeated
+filename listing. `verified:false` and the content/persistence/playback flags
+mean the client has not read stored bytes back, power-cycled the hardware or
+observed physical video/audio playback. A listed name alone is not that proof.
+
+A playback target can be a listed filename or a decimal firmware index:
+
+```bash
+povbin device files
+povbin device play 1
+```
+
+Use the returned `index`, which can differ from a filename's number. Legacy
+lists may contain FAT short aliases rather than the original long filenames.
+Recovered entries in an incomplete directory carry diagnostics.
+
+## Playback, power and loop controls
+
+| Operation | Effect |
+| --- | --- |
+| `info` | Identify the connected display/protocol. |
+| `status` | Read playback state and diagnostics. |
+| `files` | Read filenames and firmware indices. |
+| `play TARGET` | Select a listed name or index. |
+| `pause` | Pause playback. |
+| `resume` | Resume playback; unsupported on the HTTP family. |
+| `next` | Advance; unsupported on the HTTP family. |
+| `previous` | Select the previous file. |
+| `power on` / `power off` | Set display power state. |
+| `loop all` | Loop the playlist. |
+| `loop single` | Repeat one file. |
+
+```bash
+povbin device pause
+povbin device resume
+povbin device power off
+povbin device power on
+povbin device loop single
+```
+
+Legacy controls have no explicit success ACK. `sent:true` reports transmission;
+`requested_state_observed` reports a later matching playback/directory state
+where available. Firmware can apply controls asynchronously, so the client
+spaces requests and polls status. Not every setting has readback.
+
+## Settings
+
+```bash
+povbin device settings
+povbin device set ble off
+povbin device set switcher on
+povbin device set loop all
+```
+
+| Legacy key | Accepted values | Effect |
+| --- | --- | --- |
+| `ble` | `on`, `off`, `true`, `false` | Bluetooth setting. |
+| `switcher` | `on`, `off`, `true`, `false` | Display power. |
+| `loop` | `all`, `one` | Playlist or single-file looping. |
+
+Legacy `settings` returns null values because current-value readback is not
+available. Null means unknown. Legacy brightness, volume and Wi-Fi settings
+are unsupported.
+
+HTTP-family `settings` reads the firmware's configuration. `set KEY VALUE`
+submits a key/value supported by that firmware; available keys are device-specific.
+Values are parsed as JSON when possible, otherwise as text. Use quoted strings
+for values containing spaces. Boolean power/BLE/loop values are mapped to the
+corresponding firmware strings. Do not assume a key shown by another model works
+on yours.
+
+## Delete or format
+
+```bash
+povbin device delete CLIP.BIN --yes
+povbin device format-card --yes
+```
+
+Deletion removes one file. Formatting **erases every file on the display's SD
+card**. Both commands require `--yes`; formatting is not part of normal uploads.
+The legacy format result includes `directory_empty_observed`, based on a complete
+empty directory response. A sent command is insufficient evidence of formatting.
+
+## Troubleshooting
+
+- Cannot connect: verify the computer/phone is on the display network, then check
+  `--host`. Try `--protocol legacy` if automatic detection is unsuitable.
+- ADB phone unavailable: check `adb devices`, USB authorization and `--serial`.
+- Slow replies: try a larger `--timeout`, for example `device --timeout 10 files`.
+- Missing entries or wrong app model: read CLI `files`/`info` diagnostics. The client
+  can recover later entries from some malformed legacy lists, but an incomplete
+  response cannot establish the full directory.
+- Upload status 0000: the client stops because observed transfers with this field
+  did not retain their listings. Its firmware meaning is unknown. Check the card
+  and directory rather than treating the sender's transmission as proof of success.
+- Repeated upload failures: preserve needed files and inspect the card. Formatting
+  resolved a malformed-directory case in hardware tests, but is destructive and
+  is not a diagnosis or required fix for every failure.
+
+Hardware tests cover F-Mini11 legacy connection, listing, upload, playback,
+deletion and formatting. Direct sockets, HTTP operations and other control
+packets have local wire tests. Physical effects of power, loop and BLE commands,
+and HTTP-family hardware behavior, have not been verified.
 
 ## Python API
 
 ```python
 from povbin import DeviceClient
 
-with DeviceClient(adb_serial="YOUR_ADB_SERIAL", protocol="legacy") as display:
+# Omit adb_serial for a direct network connection.
+with DeviceClient(host="192.168.4.1", protocol="legacy") as display:
     print(display.info())
     print(display.files())
-    print(display.upload("cd.bin", name="CD.BIN"))
-    print(display.play("CD.BIN"))
+    print(display.upload("CLIP.BIN"))
+    print(display.play("CLIP.BIN"))
 ```
 
-The transport uses `adb shell -T ... toybox nc` with binary pipes. On the tested
-ADB version, `exec-out` did not forward input; `-T` avoids terminal translation.
-
-See [live findings and retained captures](evidence/android/live/device-findings.md),
-[the missing-file parser evidence](evidence/android/live/packet-findings.md),
-[the exact control path](evidence/android/live/control-path-findings.md), and
-[the native upload call chain](evidence/android/live/native-upload-path-findings.md).
+For phone transport, add `adb_serial="YOUR_DEVICE_SERIAL"`. Other methods include
+`status()`, `settings()`, `set_setting(key, value)`, `pause()`, `resume()`,
+`next()`, `previous()`, `power(bool)`, `loop(bool)`, `delete(target)` and
+`format_card()`. The Python API does not require the CLI's `--yes` flags; calling
+a destructive method directly is explicit intent. `upload(..., overwrite=True)`
+authorizes replacement. Network/protocol errors raise `DeviceError` subclasses;
+input validation can raise `ValueError` or `FileExistsError`.

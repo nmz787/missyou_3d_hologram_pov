@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "missyou-povbin"
 version = "0.1.0"
-description = "Video conversion for the legacy 5DDisplayer POV binary format"
+description = "Video conversion and network control for MISSYOU POV displays"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "Pillow>=9"]
 

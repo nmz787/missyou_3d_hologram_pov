@@ -129,7 +129,7 @@ class LegacyWireTests(unittest.TestCase):
                             upload_port=upload.port if upload else 1)
 
     def test_fragmented_notification_keeps_all_names_and_gbk(self):
-        names = ['00_B.bin', '13_tractor.bin', '01春节.bin']
+        names = ['00_B.bin', '13_example.bin', '01春节.bin']
         with TCPStandIn(control_handler(names, lambda b: [b[:2], b[2:11], b[11:b.index('春'.encode('gbk')) + 1], b[b.index('春'.encode('gbk')) + 1:-3], b[-3:]])) as control:
             with self.client(control) as client:
                 result = client.files()['files']
@@ -137,16 +137,16 @@ class LegacyWireTests(unittest.TestCase):
                 self.assertEqual([f['index'] for f in result], [0, 1, 2])
 
     def test_coalesced_notifications_do_not_create_spurious_records(self):
-        names = ['00_B.bin', '13_tractor.bin']
+        names = ['00_B.bin', '13_example.bin']
         with TCPStandIn(control_handler(names, lambda b: [b + b])) as control:
             with self.client(control) as client:
                 self.assertEqual([f['name'] for f in client.files()['files']], names)
 
     def test_control_messages_use_device_index_not_filename_prefix(self):
         commands = []
-        with TCPStandIn(control_handler(['00_B.bin', '13_tractor.bin'], commands=commands)) as control:
+        with TCPStandIn(control_handler(['00_B.bin', '13_example.bin'], commands=commands)) as control:
             with self.client(control) as client:
-                client.play('13_tractor.bin')
+                client.play('13_example.bin')
                 client.pause()
                 client.resume()
                 client.next()
@@ -163,13 +163,13 @@ class LegacyWireTests(unittest.TestCase):
                 self.assertIn(expected, commands)
 
     def test_recorded_firmware_length_bug_salvages_later_files_and_model(self):
-        # Exact observed read-only notification, retained in device-live evidence.
-        # Record6 advertises length16 but is truncated; length13/index12 follows.
-        # APK stops at this record and fails to reach the tractor at device index15.
-        packet = (b'c30c38arh130101.00_B.bin170202.01CHRI~1.bin'
-                  b'140303.01_LC.bin170404.02FATH~1.bin170505.03FATH~1.bin'
-                  b'160606.04in131212.10CD.bin171313.11CC30~1.bin'
-                  b'171414.12E8F9~1.bin171515.13_TRA~1.bin15H711a4a8c2e3')
+        # Regression fixture for an observed malformed directory; names generalized.
+        # Record 6 advertises length16 but overlaps the length13/index12 row.
+        # APK stops at this record and fails to reach the later entry at device index 15.
+        packet = (b'c30c38arh130101.00_B.bin170202.01DEMO~1.bin'
+                  b'140303.01_AB.bin170404.02DEMO~1.bin170505.03DEMO~1.bin'
+                  b'160606.04in131212.10AB.bin171313.11DEMO~1.bin'
+                  b'171414.12DEMO~1.bin171515.13_DEM~1.bin15H711a4a8c2e3')
         def handle(conn):
             while True:
                 command = conn.recv(4096)
@@ -185,13 +185,13 @@ class LegacyWireTests(unittest.TestCase):
                 self.assertEqual(status['current_index'], 15)
                 self.assertTrue(status['is_playing'])
                 entries = client.files()['files']
-                tractor = next(f for f in entries if f['name'] == '13_TRA~1.bin')
-                self.assertEqual(tractor['index'], 15)
-                self.assertIn('10CD.bin', [f['name'] for f in entries])
+                later_file = next(f for f in entries if f['name'] == '13_DEM~1.bin')
+                self.assertEqual(later_file['index'], 15)
+                self.assertIn('10AB.bin', [f['name'] for f in entries])
                 self.assertNotIn('04in131212.', [f['name'] for f in entries])
 
     def test_unknown_model_does_not_hide_otherwise_valid_files(self):
-        names = ['13_tractor.bin', '01春节.bin']
+        names = ['13_example.bin', '01春节.bin']
         with TCPStandIn(control_handler(names, tail=b'00H911')) as control:
             with self.client(control) as client:
                 status = client.status()
@@ -206,7 +206,7 @@ class LegacyWireTests(unittest.TestCase):
                 data = conn.recv(4096)
                 if not data:
                     return
-                conn.sendall(b'c30c38abc1300---00_B.binXX01---13_tractor.bin00711' + END)
+                conn.sendall(b'c30c38abc1300---00_B.binXX01---13_example.bin00711' + END)
         touched = threading.Event()
         def unexpected_upload(conn):
             touched.set()
@@ -294,7 +294,7 @@ class LegacyWireTests(unittest.TestCase):
         # This exercises real binary pipe I/O without invoking adb or a phone.
         real_popen = subprocess.Popen
         commands = []
-        with TCPStandIn(control_handler(['01春节.bin', '13_tractor.bin'])) as control:
+        with TCPStandIn(control_handler(['01春节.bin', '13_example.bin'])) as control:
             bridge = """
 import os, select, socket
 s = socket.create_connection(('127.0.0.1', LOCAL_PORT))
@@ -319,7 +319,7 @@ s.close()
                                   adb_serial='TEST-SERIAL', control_port=control.port,
                                   timeout=1) as client:
                     entries = client.files()['files']
-                    self.assertEqual([f['name'] for f in entries], ['01春节.bin', '13_tractor.bin'])
+                    self.assertEqual([f['name'] for f in entries], ['01春节.bin', '13_example.bin'])
             self.assertTrue(commands)
             command = commands[0]
             self.assertEqual(command[:3], ['adb', '-s', 'TEST-SERIAL'])

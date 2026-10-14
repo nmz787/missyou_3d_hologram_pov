@@ -1,0 +1,21 @@
+# Python environments and build outputs
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+/build/
+/dist/
+
+# Local media and editor settings
+*.bin
+*.mp4
+*.mov
+*.wav
+*.code-workspace
+
+# Local reverse-engineering inputs, SDKs and generated working files
+/analysis/
+/tools/
+/5DDisplayer.exe
+/5D-Holo-android.apk
