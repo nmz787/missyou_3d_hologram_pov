@@ -11,11 +11,17 @@ The supplied APK is `com.sp.holographic`, version **1.0.85**, version code **105
 Its React Native application logic is compiled into a **Hermes 96** bytecode
 bundle. The investigated receive/display path does not discard tractor-style
 filenames. The SD copy of `13_tractor.bin` is structurally valid and matches the
-local file byte-for-byte. The strongest current explanation for the incomplete
-app list is a device-response/parser compatibility problem; the actual device
-response is still needed to distinguish a firmware omission from an app parsing
-failure. There is a demonstrated receive/framing defect in this APK, but it has
-not been proved to be the cause on this particular connection.
+local file byte-for-byte. The later live notification contains the tractor entry but a malformed earlier
+record causes the recovered APK parser to stop before reaching it. Its subsequent
+unanchored status match also produces the false F1. [Exact captured bytes and
+parser replays](evidence/android/live/packet-findings.md) establish both failures.
+The CLI now recovers those later entries and reads the real final Mini11 field.
+
+The sections below retain the initial static investigation and its then-open
+questions. The later [live report](evidence/android/live/device-findings.md) and
+[operational CLI](device.md) supersede statements that runtime captures or network
+functions were unavailable. The card was subsequently formatted at the user's
+explicit request; clean listings and successful protocol uploads followed.
 
 The user clarified that **neither `13…` nor `14…` appears** after reconnecting;
 the app shows only the earlier reported labels (`00.B`, `01CHRI~1`, `01.LC`,
@@ -330,4 +336,4 @@ provider/tool identities, raw responses, coverage, and limitations.
 | Whether tractor was copied incompletely or has a standard-format defect | checked; no such defect found |
 | Whether the traced app list path filters tractor by its filename | checked; no such filter found |
 | Concrete legacy parser failure mechanisms | demonstrated statically and in bounded synthetic replay |
-| Exact reason this display's real list omits tractor and CD | partially answered; actual response required |
+| Exact reason this display's real list omits tractor and CD | captured malformed record + original-parser replay explain omitted later entries; upstream corruption cause unknown |

@@ -1,0 +1,647 @@
+{
+  "evidence_kind": "static request construction, response parsing, and call graph from shipped APK",
+  "base_http": "http://{ConnectionManager.host}:80",
+  "default_host": "192.168.4.1",
+  "websocket_port": 9000,
+  "filename_encoding": {
+    "encode_function": [
+      {
+        "function_id": 7837,
+        "name": "encodeGBKToHexString",
+        "offset": "0x27bbb3",
+        "raw_bytecode_sha256": "937d13739e2c606635c54256f330d10ce746f29bd722bbc1c8ed3d45e7cfc12b"
+      },
+      {
+        "function_id": 7838,
+        "name": "",
+        "offset": "0x27bc52",
+        "raw_bytecode_sha256": "8da2e4594223c4d03d405f30d326d824d958f846983e855a4306414dec90eaf1"
+      }
+    ],
+    "decode_function": [
+      {
+        "function_id": 7839,
+        "name": "decodeGBKHexString",
+        "offset": "0x27bc77",
+        "raw_bytecode_sha256": "215eb5e99f65930aa5d3180b749b512816470eb69933a19a8d470b1292b735aa"
+      }
+    ],
+    "algorithm": "iconv.encode(name,\"gbk\") -> each byte.toString(16).padStart(2,\"0\") -> join(\"\"); reverse parses 2-character hex groups -> Buffer.from -> iconv.decode(\"gbk\")",
+    "independent_reference_examples": [
+      {
+        "name": "cd.bin",
+        "gbk_hex": "63642e62696e"
+      },
+      {
+        "name": "13_tractor.bin",
+        "gbk_hex": "31335f74726163746f722e62696e"
+      },
+      {
+        "name": "01春节.bin",
+        "gbk_hex": "3031b4babdda2e62696e"
+      }
+    ],
+    "example_limit": "These examples use Python GBK as an independent reference; not device/Android execution."
+  },
+  "commands": [
+    {
+      "operation": "obtain session",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/session",
+      "request": {
+        "body": null
+      },
+      "response_handling": "Transport callback success and response.code === 0 trigger requestInfo; gotSession becomes requestInfo result.",
+      "anchors": [
+        {
+          "function_id": 9065,
+          "name": "requestSession",
+          "offset": "0x29b95b",
+          "raw_bytecode_sha256": "90b4e7d1432ca35e3ef38b1a4eb0a6effc25dfada80e2ee485269a3ccbccf054"
+        },
+        {
+          "function_id": 9066,
+          "name": "",
+          "offset": "0x29b9b8",
+          "raw_bytecode_sha256": "a925515052d1c595e0eaad6831614abc78556cbbb788c361be0386dc9b7dea34"
+        },
+        {
+          "function_id": 9067,
+          "name": "",
+          "offset": "0x29baa5",
+          "raw_bytecode_sha256": "7efdc4f9ec778bbf18baaa88b40b2fc0a84c8eb89d639f784a7cac268b68d8b8"
+        }
+      ]
+    },
+    {
+      "operation": "read device information",
+      "transport": "HTTP GET",
+      "path_or_url": "/info",
+      "request": {
+        "body": null
+      },
+      "response_handling": "Stores deviceInfo and updates connected timestamp/state; code===1 resets defaults. Admission is permissive for other code values.",
+      "anchors": [
+        {
+          "function_id": 9063,
+          "name": "requestInfo",
+          "offset": "0x29b7df",
+          "raw_bytecode_sha256": "dbbcf0c16460889105e8fbd742ece695297ad5c13d00e9e7b458883c33c93b30"
+        },
+        {
+          "function_id": 9064,
+          "name": "",
+          "offset": "0x29b83c",
+          "raw_bytecode_sha256": "60606d5dcd29aba72e51a1b37304695b29d786b817088fc46e6b2175803001eb"
+        }
+      ]
+    },
+    {
+      "operation": "quit session",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/session?action=quit",
+      "request": {
+        "body": null
+      },
+      "response_handling": "Transport callback success and code===0 set newer connection false (legacy state retained).",
+      "anchors": [
+        {
+          "function_id": 9068,
+          "name": "quitSession",
+          "offset": "0x29bacb",
+          "raw_bytecode_sha256": "7b5c8ad148f54586fa8e408c52958086352ca3aae8df50612d7e1ca3c9395207"
+        },
+        {
+          "function_id": 9069,
+          "name": "",
+          "offset": "0x29bb21",
+          "raw_bytecode_sha256": "50618476ae8a1aafe2de001bc5dca0a7a839af6a5a188d974e350fb087c7742d"
+        }
+      ]
+    },
+    {
+      "operation": "read playback status",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/play?action=status",
+      "request": {
+        "body": null
+      },
+      "response_handling": "code===0 copies response object to playInfo and calls listener. This path does not decode current filename, unlike WS update.",
+      "anchors": [
+        {
+          "function_id": 9061,
+          "name": "requestPlayInfo",
+          "offset": "0x29b6ec",
+          "raw_bytecode_sha256": "4a94703d830f5edc5ed95ae215e96fac43b79d54718b5fc1c70b276aeac544ed"
+        },
+        {
+          "function_id": 9062,
+          "name": "",
+          "offset": "0x29b70d",
+          "raw_bytecode_sha256": "decb29caea62c646b3ad305d4aa9a6dd44f908cc53ac9d816b95c34f65fe9d88"
+        }
+      ]
+    },
+    {
+      "operation": "list files",
+      "transport": "HTTP GET",
+      "path_or_url": "/DCIM",
+      "request": {
+        "body": null
+      },
+      "response_handling": "code===0 and truthy files: maps files array entries through decodeGBKHexString into {index,name}, then formatting helper. Failure reports empty list.",
+      "anchors": [
+        {
+          "function_id": 9134,
+          "name": "requestDeviceDCIM",
+          "offset": "0x29d6ed",
+          "raw_bytecode_sha256": "96157722b9ff2128cc5c29090d906452a4f21ea97386742eac83a5b391462933"
+        },
+        {
+          "function_id": 9135,
+          "name": "",
+          "offset": "0x29d73e",
+          "raw_bytecode_sha256": "3f48d053aae91ac7e5218420ca4b8c784341ee7cfe4a68be7b7bbfafc7b5f875"
+        },
+        {
+          "function_id": 9136,
+          "name": "",
+          "offset": "0x29d7ea",
+          "raw_bytecode_sha256": "d207b8b2a96128fd71055ad4f35773a68ba5ae652a0e4bfd2066fc154019485a"
+        },
+        {
+          "function_id": 9132,
+          "name": "_handleDeviceFileList",
+          "offset": "0x29d5d9",
+          "raw_bytecode_sha256": "778aedc2eb2e10c94e71f4f871699069df5a25a0ba329fc0fe101fbe69d3abfd"
+        },
+        {
+          "function_id": 9133,
+          "name": "",
+          "offset": "0x29d631",
+          "raw_bytecode_sha256": "2db7f1e2f02b0409978bf802fb6ee3abeaaa21e71fec2fad0551aa24e8ff886f"
+        }
+      ]
+    },
+    {
+      "operation": "play named file",
+      "transport": "HTTP GET",
+      "path_or_url": "/DCIM/{GBK_HEX_FILENAME}?act=play",
+      "request": {
+        "filename_encoding": "lowercase hex of GBK bytes"
+      },
+      "response_handling": "Callback truthy transport and code===0 reports success.",
+      "anchors": [
+        {
+          "function_id": 9112,
+          "name": "playFile",
+          "offset": "0x29cfc9",
+          "raw_bytecode_sha256": "33ec9d9d116f3aa1dbe9ddcb3a09635f058c49223d3f31bd317f48dab53928a7"
+        },
+        {
+          "function_id": 9115,
+          "name": "",
+          "offset": "0x29d0e2",
+          "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429"
+        }
+      ]
+    },
+    {
+      "operation": "delete named file",
+      "transport": "HTTP GET",
+      "path_or_url": "/DCIM/{GBK_HEX_FILENAME}?act=rm",
+      "request": {
+        "filename_encoding": "lowercase hex of GBK bytes"
+      },
+      "response_handling": "Callback truthy transport and code===0 reports success.",
+      "anchors": [
+        {
+          "function_id": 9124,
+          "name": "deleteFile",
+          "offset": "0x29d2d1",
+          "raw_bytecode_sha256": "372495fd862548a2f86448bc13e6b96fc40a68c2138ed18acaf0e35576c5ff4b"
+        },
+        {
+          "function_id": 9127,
+          "name": "",
+          "offset": "0x29d0e2",
+          "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429"
+        }
+      ]
+    },
+    {
+      "operation": "previous file",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/play?action=previous",
+      "request": {
+        "body": null
+      },
+      "response_handling": "Uses generic session-gated GET; nested callback references global block rather than a declared argument.",
+      "anchors": [
+        {
+          "function_id": 9116,
+          "name": "playPrevious",
+          "offset": "0x29d115",
+          "raw_bytecode_sha256": "1a82ad5773b5241825d4ed3ffed3f955ca1b73579a6fca125a8bdfe82c52903c"
+        },
+        {
+          "function_id": 9119,
+          "name": "",
+          "offset": "0x29d1e4",
+          "raw_bytecode_sha256": "de694bf8d371afa5d863db50eef9c548b1adf3c4c904e573ee8c8d8fe753eb79"
+        }
+      ]
+    },
+    {
+      "operation": "pause playback",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/play?action=pause",
+      "request": {
+        "body": null
+      },
+      "response_handling": "Callback truthy transport and code===0 reports success. No resume/next HTTP route in the examined ConnectionManager.",
+      "anchors": [
+        {
+          "function_id": 9120,
+          "name": "playPause",
+          "offset": "0x29d21a",
+          "raw_bytecode_sha256": "9e22bcc40e0a0fac00170ffe22ae25bdd9683bf667fe808f60a92fb3852b11b6"
+        },
+        {
+          "function_id": 9123,
+          "name": "",
+          "offset": "0x29d0e2",
+          "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429"
+        }
+      ]
+    },
+    {
+      "operation": "read all settings",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/get?k=all",
+      "request": {
+        "body": null
+      },
+      "response_handling": "code===0: response.data passed to caller and interpreted as array of config objects.",
+      "anchors": [
+        {
+          "function_id": 9137,
+          "name": "loadAllConfig",
+          "offset": "0x29d813",
+          "raw_bytecode_sha256": "2352fae2f00584d9d748c95fd483034eb357d6eb532ddad004cae025bd143e36"
+        },
+        {
+          "function_id": 9140,
+          "name": "",
+          "offset": "0x29d9d7",
+          "raw_bytecode_sha256": "7817658db112100f9b5495c04acf625cbe77871f969fad9146eb068aef6f2a32"
+        },
+        {
+          "function_id": 15339,
+          "name": "?anon_0_",
+          "offset": "0x33cd7f",
+          "raw_bytecode_sha256": "c2e473b045caca08cea02d9c6ea03ca54181652953fa69af8dcd1d8802e504df"
+        },
+        {
+          "function_id": 15340,
+          "name": "",
+          "offset": "0x33cddc",
+          "raw_bytecode_sha256": "720d9d3f470a372328d497b2404a8fd03e8af14cc016443b5b946307f31693b4"
+        }
+      ]
+    },
+    {
+      "operation": "read one setting",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/get?k={KEY}",
+      "request": {
+        "key": "config.key; directly concatenated"
+      },
+      "response_handling": "SettingsPage updates config from the returned response including response.value.",
+      "anchors": [
+        {
+          "function_id": 15349,
+          "name": "getConfig",
+          "offset": "0x33d095",
+          "raw_bytecode_sha256": "b8974601f4c40360261af9b375abf93186cca32d41fe2bbd71b1b023e8a42700"
+        },
+        {
+          "function_id": 15350,
+          "name": "",
+          "offset": "0x33d0e7",
+          "raw_bytecode_sha256": "41a4e6a51baaba613d4b73c2fbde379f76c6accc8314f2f12f804f48d179b0e4"
+        }
+      ]
+    },
+    {
+      "operation": "write setting",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/set?{KEY}={VALUE}",
+      "request": {
+        "key": "config.key",
+        "value": "config.value",
+        "escaping": "Neither key nor value URL-encoded in these callers."
+      },
+      "response_handling": "code===0; SettingsPage stores edited config then re-reads key. Config objects carry key,type,ro,value and opts/min/max/step depending on type.",
+      "anchors": [
+        {
+          "function_id": 9128,
+          "name": "setConfig",
+          "offset": "0x29d3cf",
+          "raw_bytecode_sha256": "3ca18a2b003ff70ce85f68754d29be51ed1ec955cb961429ca392293c20bfd8f"
+        },
+        {
+          "function_id": 9131,
+          "name": "",
+          "offset": "0x29d598",
+          "raw_bytecode_sha256": "95b69a81848a990178dbe54fbc1e0f172e848828d57f5affdbeb2728137dda95"
+        },
+        {
+          "function_id": 15346,
+          "name": "setConfig",
+          "offset": "0x33cf25",
+          "raw_bytecode_sha256": "ec97ba25ff62826273dc6dc71b298e5841c29bc27bae323b365f22ad97fe0bd9"
+        },
+        {
+          "function_id": 15347,
+          "name": "",
+          "offset": "0x33cfec",
+          "raw_bytecode_sha256": "7c90eeeab50a83fa68a78b5450176d106d13c842df583f566a628d0f8c52fa5e"
+        },
+        {
+          "function_id": 15348,
+          "name": "",
+          "offset": "0x33d034",
+          "raw_bytecode_sha256": "61ac86b9e1f4ef70d340ee808bb4568b7b1b84a7912d44437fc8fb2ea576103e"
+        }
+      ]
+    },
+    {
+      "operation": "format SD card",
+      "transport": "HTTP GET",
+      "path_or_url": "/ctrl/card?action=format",
+      "request": {
+        "body": null,
+        "ui_gate": "SettingsPage key=format,type=3 -> confirm dialog -> action function invokes GET."
+      },
+      "response_handling": "Response callback dismisses processing overlay; this callback does not inspect code.",
+      "anchors": [
+        {
+          "function_id": 15354,
+          "name": "showConfirmDialog",
+          "offset": "0x33d25a",
+          "raw_bytecode_sha256": "1f2cad07fd589cc99072bb6fa137b2ab8d7a80b980467b7b8d621db91e0a1640"
+        },
+        {
+          "function_id": 15356,
+          "name": "func",
+          "offset": "0x33d40d",
+          "raw_bytecode_sha256": "8d2adad39ea0ec011617a41485c8e2c71e12e03cb057c1a3e3cdb6ffb358f006"
+        },
+        {
+          "function_id": 15357,
+          "name": "",
+          "offset": "0x33d47d",
+          "raw_bytecode_sha256": "fc94b226c17590cfa2ad49f0f2d985067f0710787e9f0b2e9fcf7318ae857c4d"
+        },
+        {
+          "function_id": 15358,
+          "name": "",
+          "offset": "0x33d499",
+          "raw_bytecode_sha256": "4afa4bdeeebd2903824c9c1511ff0725fa97b5bd3912f0be8aaed27abf2720d4"
+        }
+      ]
+    },
+    {
+      "operation": "upload file (XHR)",
+      "transport": "HTTP POST multipart/form-data",
+      "path_or_url": "/DCIM/upload",
+      "request": {
+        "form_fields": {
+          "name": "GBK_HEX_FILENAME",
+          "file": {
+            "uri": "local file URI",
+            "type": "application/octet-stream",
+            "name": "GBK_HEX_FILENAME"
+          }
+        },
+        "headers": {
+          "Cache-Control": "no-cache",
+          "Pragma": "no-cache",
+          "Expires": "0"
+        },
+        "timeout_ms": 3600000
+      },
+      "response_handling": "XHR HTTP200 JSON parse + code===0 required by ConnectionManager; progress Math.round(loaded/total*100). Errors/timeout invoke failure.",
+      "anchors": [
+        {
+          "function_id": 9098,
+          "name": "POST_UPLOAD_FILE",
+          "offset": "0x29c6b1",
+          "raw_bytecode_sha256": "8d08b7443c56c2bd044b40d0f5c79cac2229568780fa9ea78cad168e7e819125"
+        },
+        {
+          "function_id": 9099,
+          "name": "",
+          "offset": "0x29c78e",
+          "raw_bytecode_sha256": "cac9fa8b1f997c9aa52f4eb475de75b25fd52355b6fb73c82a78b344f62a5412"
+        },
+        {
+          "function_id": 7525,
+          "name": "POST_UPLOAD_FILE",
+          "offset": "0x274941",
+          "raw_bytecode_sha256": "3fa38f38b3392fe1b4219afc0c42bc9758377b03102788bf9009531bb38ca5da"
+        },
+        {
+          "function_id": 7526,
+          "name": "",
+          "offset": "0x274aa2",
+          "raw_bytecode_sha256": "7b85987109fbe5e935966ffadfb69f2ce269720b1e6cfd8241953a81424cebf6"
+        },
+        {
+          "function_id": 7527,
+          "name": "",
+          "offset": "0x274af0",
+          "raw_bytecode_sha256": "1c2f4f48a117efc391257185c31f07fb14ef9500438bed6c1132430313b408a7"
+        },
+        {
+          "function_id": 7528,
+          "name": "",
+          "offset": "0x274bfb",
+          "raw_bytecode_sha256": "ff63013ed1017d12ce5d3b1f2eded1b5876979d9943c7d80601af8ea140ab06d"
+        },
+        {
+          "function_id": 7529,
+          "name": "",
+          "offset": "0x274c81",
+          "raw_bytecode_sha256": "4293b742c15fd512546e6780cb50e0e5c3a406b192be1f9776a02efd729570a7"
+        }
+      ]
+    },
+    {
+      "operation": "upload file to specific discovered host (XHR)",
+      "transport": "HTTP POST multipart/form-data",
+      "path_or_url": "http://{targetHost}:80/DCIM/upload",
+      "request": {
+        "parameters": "uploadFileToDevice(targetHost,name,path,{onProgress,onResult})",
+        "name_encoding": "GBK hex",
+        "body": "same API multipart upload helper"
+      },
+      "response_handling": "Transport success and response.code===0 invoke onResult(true).",
+      "anchors": [
+        {
+          "function_id": 9103,
+          "name": "uploadFileToDevice",
+          "offset": "0x29c9ac",
+          "raw_bytecode_sha256": "a4ef46ba3ed86ec3da3849ba7fe7a647af411e623619a5e2713308972c7bfe96"
+        },
+        {
+          "function_id": 9104,
+          "name": "",
+          "offset": "0x29ca78",
+          "raw_bytecode_sha256": "a58bef10b91875b60255a47d95f918bef029783e753f112e1a3c87369a646337"
+        },
+        {
+          "function_id": 7525,
+          "name": "POST_UPLOAD_FILE",
+          "offset": "0x274941",
+          "raw_bytecode_sha256": "3fa38f38b3392fe1b4219afc0c42bc9758377b03102788bf9009531bb38ca5da"
+        }
+      ]
+    },
+    {
+      "operation": "upload file V2 native bridge",
+      "transport": "JS-to-native boundary",
+      "path_or_url": "MEDIA_MODULE + MEDIA_FUNC_UPLOAD_V2",
+      "request": {
+        "json_payload": {
+          "url": "http://{host}:80/DCIM/upload",
+          "name": "GBK_HEX_FILENAME",
+          "path": "local filesystem path with leading file:// removed"
+        },
+        "numeric_argument": 0
+      },
+      "response_handling": "Promise result.result passed to onResult (false when missing); MEDIA_EVENT listener forwards event.progress || 0. Listener removed after completion/error.",
+      "anchors": [
+        {
+          "function_id": 9107,
+          "name": "uploadFileV2",
+          "offset": "0x21eda4",
+          "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb"
+        },
+        {
+          "function_id": 9109,
+          "name": "?anon_0_",
+          "offset": "0x29cc3b",
+          "raw_bytecode_sha256": "d23c961cacdcfdd2ce2e245ea9a05359d0030cf9da0a3496e3c42c9d96eedaf2"
+        },
+        {
+          "function_id": 9110,
+          "name": "",
+          "offset": "0x29ce97",
+          "raw_bytecode_sha256": "91643dd6ef0928b47e35304766d7f2d44020da384741ef3a612233068f049f64"
+        },
+        {
+          "function_id": 9111,
+          "name": "postResult",
+          "offset": "0x29cf1d",
+          "raw_bytecode_sha256": "014324375b24ce6023a2789bc359f37f63bc8f78a19ee6254ee392e4fa473f51"
+        }
+      ],
+      "native_wire_format": "Not established by this JS trace; multipart XHR route above established separately."
+    },
+    {
+      "operation": "WebSocket connect",
+      "transport": "WS handshake",
+      "path_or_url": "ws://{host}:9000",
+      "request": {
+        "prerequisite": "gotSession true",
+        "protocol_arguments": "No subprotocol/header/token argument in retained constructor."
+      },
+      "response_handling": "onopen resets send/receive timestamps and calls requestPlayInfo. 5000ms timer only logs connection timeout.",
+      "anchors": [
+        {
+          "function_id": 9054,
+          "name": "startWebsocket",
+          "offset": "0x29b264",
+          "raw_bytecode_sha256": "6764ae4434a7bb23ff8ec967f92aac92b7beb763228035738dab24a910a417c8"
+        },
+        {
+          "function_id": 9055,
+          "name": "",
+          "offset": "0x29b3a4",
+          "raw_bytecode_sha256": "51a03814579cb79144a0e2704f3115916afc47621698052131880d1fa533c8aa"
+        },
+        {
+          "function_id": 9056,
+          "name": "",
+          "offset": "0x29b3f9",
+          "raw_bytecode_sha256": "acf0b87801d5b51c7a081103ae8189ff2f3559a174ee72b2dd5653f80e68a675"
+        }
+      ]
+    },
+    {
+      "operation": "WebSocket heartbeat",
+      "transport": "WS JSON send",
+      "path_or_url": "ws://{host}:9000",
+      "request": {
+        "json": {
+          "msgId": "String(Utils.getRandomTime8())",
+          "cmd": "heartbeat"
+        },
+        "schedule": "checkConnect every3000ms; sends when open and elapsed since last send >15000ms"
+      },
+      "response_handling": "Received cmd=heartbeat updates timestamp and marks newer connection true.",
+      "anchors": [
+        {
+          "function_id": 9072,
+          "name": "checkConnect",
+          "offset": "0x29bc5c",
+          "raw_bytecode_sha256": "9c4506718445046b576d4bfca66d0e826a973606e234527ee3c5d624a1ddc1c8"
+        },
+        {
+          "function_id": 9057,
+          "name": "",
+          "offset": "0x29b44c",
+          "raw_bytecode_sha256": "e1714c6aa5bd767066ad821a5aeab66645ff94e03d547bff9e5d35b06db4ed0e"
+        },
+        {
+          "function_id": 9087,
+          "name": "startTimer",
+          "offset": "0x29c178",
+          "raw_bytecode_sha256": "28bcac20f2cb42004ef6be73528b9645a1c1f7a2a6b4011a3a95be41a215a584"
+        }
+      ]
+    },
+    {
+      "operation": "WebSocket playback update",
+      "transport": "WS JSON receive",
+      "path_or_url": "cmd=onPlayInfoUpdate",
+      "request": {
+        "outbound_request": null
+      },
+      "response_handling": "Parses JSON, merges message with forced code:0 and current:decodeGBKHexString(message.current), stores playInfo, updates receive timestamp and calls listener. Other cmd values ignored.",
+      "anchors": [
+        {
+          "function_id": 9057,
+          "name": "",
+          "offset": "0x29b44c",
+          "raw_bytecode_sha256": "e1714c6aa5bd767066ad821a5aeab66645ff94e03d547bff9e5d35b06db4ed0e"
+        }
+      ]
+    }
+  ],
+  "search_boundary": [
+    "All ConnectionManager methods and nested bodies in function IDs9050..9144.",
+    "HTTP API request/queue/upload helpers7505..7534.",
+    "GBK helpers7837..7839.",
+    "SettingsPage route callers15335..15358.",
+    "DevicePage selected connection/list callback bodies12253..12257,12268,12339..12346."
+  ],
+  "limits": [
+    "No network/device/Android app execution performed.",
+    "This does not establish which protocol a particular connected unit uses.",
+    "Native MEDIA_FUNC_UPLOAD_V2 wire body is outside retained JS boundary evidence.",
+    "AP/UDP/BLE/LAN discovery handled by separate report."
+  ]
+}

@@ -2,7 +2,9 @@
 
 Python CLI for the **offline `.bin` format in the supplied 5DDisplayer 1.0.2 installer**.
 Supports all eleven original device profiles, video trimming, square cropping or
-letterboxing, audio, file inspection, and a sampled-frame preview.
+letterboxing, audio, file inspection, and a sampled-frame preview. It also implements
+[display operations over Wi-Fi or an ADB-connected phone](docs/device.md): files,
+uploads, playback, settings, deletion and card formatting.
 
 Your connected phone app reports **F-Mini11**, which maps to **device type 7**.
 Use that as the initial profile even though the paper manual says MS2 (Mini12).
@@ -63,16 +65,72 @@ The subsequent [Android APK investigation](docs/android.md)
 found the app's own punctuation transform: `00_B.bin` becomes `00.B`, and
 `13_TRA~1.bin` would become `13.TRA~1`. This mapper retains every entry.
 It also found legacy response parsing defects that can lose lists or publish
-only a prefix; the actual response is still needed to explain your missing
-tractor/CD entries. Short names improve labels but are not a confirmed fix
-for those omissions.
+only a prefix; the captured live reply now explains your missing tractor/CD entries and false F1:
+a malformed record makes the original parser stop early, then mistake filename
+text for model status. The new client recovers the later entries and correctly
+reads F-Mini11. See [the byte-level evidence](docs/evidence/android/live/packet-findings.md).
 
 ```bash
 .venv/bin/povbin convert input.mp4 CD.BIN --device-type 7
 ```
 
 On inspection the card had about 3.6 GiB free (7% used); its earlier Wi-Fi upload
-failures have not been diagnosed. No SD-card files were changed during this check.
+failures were subsequently reproduced with both the CLI and the APK’s original
+native uploader. At your request, the card was formatted through the recovered
+API; the directory became empty and well formed, and subsequent uploads received
+`ffff` throughout. See [live findings](docs/evidence/android/live/device-findings.md).
+
+## Upload the converted tractor video
+
+The earlier converted file is `13_tractor.bin` in this project folder. Upload it
+as `TRACTOR.BIN` to keep its basename within eight characters and avoid a FAT
+short-name tilde alias. No conversion is needed again.
+
+With the USB phone connected to the display's Wi-Fi:
+
+```bash
+.venv/bin/povbin device --adb --protocol legacy upload 13_tractor.bin --name TRACTOR.BIN
+.venv/bin/povbin device --adb --protocol legacy play TRACTOR.BIN
+```
+
+### Use the laptop's Wi-Fi or Ethernet directly
+
+**Direct networking is supported.** Connect the laptop to the display's Wi-Fi
+hotspot, then omit `--adb`:
+
+```bash
+.venv/bin/povbin device --protocol legacy info
+.venv/bin/povbin device --protocol legacy upload 13_tractor.bin --name TRACTOR.BIN
+.venv/bin/povbin device --protocol legacy play TRACTOR.BIN
+```
+
+The default display address is `192.168.4.1`. Direct mode uses ordinary sockets
+and the laptop's network routes, so Ethernet also works if that network can
+reach the display. This does not require or imply an Ethernet port on the
+display. For a different reachable display address, put `--host ADDRESS` before
+the operation, for example:
+
+```bash
+.venv/bin/povbin device --host 192.168.4.1 --protocol legacy files
+```
+
+Use either the phone or direct-network upload command. If `TRACTOR.BIN` already
+exists, upload refuses replacement; add `--overwrite` only when you want to
+replace it. Formatting is not needed for each upload. Direct socket transport
+has local wire tests; the recorded hardware tests used the phone transport.
+
+## Other display operations
+
+```bash
+.venv/bin/povbin device --adb info
+.venv/bin/povbin device --adb files
+.venv/bin/povbin device --adb upload output.bin --name CD.BIN
+.venv/bin/povbin device --adb play CD.BIN
+.venv/bin/povbin device --adb pause
+.venv/bin/povbin device --adb resume
+```
+
+Connection options go before the operation. See [all operations and limitations](docs/device.md).
 
 ## Evidence and verification
 

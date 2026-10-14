@@ -222,8 +222,25 @@ or firmware. All limitations are retained in
 The [communication evidence index](evidence/android/comms/evidence-index.json)
 records retained file hashes, exact-range checks and native REA Evidence IDs.
 
-No live display requests, upload, card format, deletion or settings changes were
-performed. The existing [legacy capture helper](../tools/capture_legacy_file_list.py)
-is available for a later real notification capture after connecting the computer
-to the display network. The converter currently handles media/BIN creation;
-an active network-control/upload client has not been added to it in this pass.
+## Live follow-up and implementation
+
+The later authorized ADB tests confirmed this unit uses legacy TCP5233/5499 at
+192.168.4.1; HTTP80 and WebSocket9000 were refused. The computer reaches it through
+the phone's Wi-Fi using non-PTY `adb shell -T` binary pipes.
+
+The captured reply proves both missing later filenames and false F1 in the
+original parser; see [packet findings](evidence/android/live/packet-findings.md).
+The new [Python/CLI client](device.md) handles split/coalesced packets, recovers
+bounded later entries while reporting incomplete lists, and anchors model status
+to the final field. Exact [control-path tracing](evidence/android/live/control-path-findings.md)
+found no additional handshake or wire encoding. Commands need separation from
+following heartbeats on the tested firmware, and matching states are polled.
+
+The original native upload was executed in a separate on-phone analysis harness.
+All249 packets for cd.bin matched the Python construction. Before formatting,
+the native sender returned success despite later `0000` ACK fields and loss of
+the scratch filename from the directory. Following the user's explicit format
+request, the directory became empty and well formed and transfers returned
+`ffff` throughout. The precise ACK middle-field meanings and original directory
+corruption cause remain unknown. Retained captures, methods, conditions and
+limitations are in [live device findings](evidence/android/live/device-findings.md).
