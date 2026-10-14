@@ -1,0 +1,4132 @@
+Artifact: /home/nathan/git/5d_pov/analysis/application/5DDisplayer.exe
+Artifact SHA-256: 678a03614e6f25819c15a2a5d90d7637fddf79f12efd38f9d924482af27868be
+Module MVID: 74a69eeb-4027-4f36-9516-a409bdfb74bf
+Evidence: decoded static CIL, no target execution. IL labels are code-relative (method header excluded).
+
+F20AD.TransformWindow::.ctor token 0x0600022d
+RVA=0x193cc file_offset=0x175cc header_size=12 IL_size=677
+IL_SHA256=e8820bbda0568fdb44bd2fff3e699a104381d28e6ca100e7d41f4e16afcb606c signature_blob=200001
+  IL_0000: ldarg.0
+  IL_0001: ldc.r8 1.0
+  IL_000a: stfld 0x040001d9 F20AD.TransformWindow::scale
+  IL_000f: ldarg.0
+  IL_0010: ldc.i4 840
+  IL_0015: stfld 0x040001da F20AD.TransformWindow::sWidth
+  IL_001a: ldarg.0
+  IL_001b: ldc.i4 600
+  IL_0020: stfld 0x040001db F20AD.TransformWindow::sHeight
+  IL_0025: ldarg.0
+  IL_0026: ldstr 0x700001b3 ''
+  IL_002b: stfld 0x040001de F20AD.TransformWindow::filePath
+  IL_0030: ldarg.0
+  IL_0031: ldstr 0x700001b3 ''
+  IL_0036: stfld 0x040001e0 F20AD.TransformWindow::fileName
+  IL_003b: ldarg.0
+  IL_003c: newobj 0x0a00006a System.Windows.Threading.DispatcherTimer::.ctor
+  IL_0041: stfld 0x040001e6 F20AD.TransformWindow::SliderTimer
+  IL_0046: ldarg.0
+  IL_0047: newobj 0x0a00006a System.Windows.Threading.DispatcherTimer::.ctor
+  IL_004c: stfld 0x040001ea F20AD.TransformWindow::pTimer
+  IL_0051: ldarg.0
+  IL_0052: newobj 0x0a00010b signature:151280b9010e::.ctor
+  IL_0057: stfld 0x040001eb F20AD.TransformWindow::fileList
+  IL_005c: ldarg.0
+  IL_005d: ldc.i4.s 20
+  IL_005f: stfld 0x040001ec F20AD.TransformWindow::max_fps
+  IL_0064: ldarg.0
+  IL_0065: ldc.i4 672
+  IL_006a: stfld 0x040001ed F20AD.TransformWindow::jpg_size
+  IL_006f: ldarg.0
+  IL_0070: newobj 0x0a00004d signature:151280dd011283c4::.ctor
+  IL_0075: stfld 0x040001ee F20AD.TransformWindow::deviceData
+  IL_007a: ldarg.0
+  IL_007b: ldstr 0x700001b3 ''
+  IL_0080: stfld 0x040001f3 F20AD.TransformWindow::exportPath
+  IL_0085: ldarg.0
+  IL_0086: newobj 0x0a0001fa signature:151280b1020e128141::.ctor
+  IL_008b: stfld 0x040001f8 F20AD.TransformWindow::templates
+  IL_0090: ldarg.0
+  IL_0091: newobj 0x0a00004d signature:151280dd011283c4::.ctor
+  IL_0096: stfld 0x040001fe F20AD.TransformWindow::LGComboData
+  IL_009b: ldarg.0
+  IL_009c: call 0x0a00004e System.Windows.Window::.ctor
+  IL_00a1: ldarg.0
+  IL_00a2: call 0x06000251 F20AD.TransformWindow::initLanguage
+  IL_00a7: ldarg.0
+  IL_00a8: ldc.i4.1
+  IL_00a9: call 0x0a0001fb System.Windows.Window::set_WindowStartupLocation
+  IL_00ae: ldarg.0
+  IL_00af: call 0x0600025e F20AD.TransformWindow::InitializeComponent
+  IL_00b4: ldarg.0
+  IL_00b5: call 0x06000240 F20AD.TransformWindow::clearFile
+  IL_00ba: ldarg.0
+  IL_00bb: call 0x06000235 F20AD.TransformWindow::GenerateSingle
+  IL_00c0: ldc.i4.0
+  IL_00c1: stloc.0
+  IL_00c2: br IL_01db
+  IL_00c7: newobj 0x0600074c .MultiCbxBaseData::.ctor
+  IL_00cc: stloc.1
+  IL_00cd: ldarg.0
+  IL_00ce: ldfld 0x040001ee F20AD.TransformWindow::deviceData
+  IL_00d3: ldloc.1
+  IL_00d4: callvirt 0x0a000055 signature:151283d1011283c4::Add
+  IL_00d9: ldloc.0
+  IL_00da: switch IL_0110, IL_0110, IL_0110, IL_01af, IL_01c4, IL_014b, IL_015f, IL_0187, IL_0173, IL_0134, IL_019b
+  IL_010b: br IL_01d7
+  IL_0110: ldloc.1
+  IL_0111: ldstr 0x70001ccb 'F{0}'
+  IL_0116: ldloc.0
+  IL_0117: ldc.i4.1
+  IL_0118: add
+  IL_0119: box 0x010000f0 System::Int32
+  IL_011e: call 0x0a000054 System.String::Format
+  IL_0123: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_0128: ldloc.1
+  IL_0129: ldloc.0
+  IL_012a: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_012f: br IL_01d7
+  IL_0134: ldloc.1
+  IL_0135: ldstr 0x70001cd5 'F-Mini18'
+  IL_013a: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_013f: ldloc.1
+  IL_0140: ldc.i4.3
+  IL_0141: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_0146: br IL_01d7
+  IL_014b: ldloc.1
+  IL_014c: ldstr 0x70001ce7 'F-360A'
+  IL_0151: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_0156: ldloc.1
+  IL_0157: ldc.i4.4
+  IL_0158: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_015d: br.s IL_01d7
+  IL_015f: ldloc.1
+  IL_0160: ldstr 0x70001cf5 'F-360B'
+  IL_0165: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_016a: ldloc.1
+  IL_016b: ldc.i4.5
+  IL_016c: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_0171: br.s IL_01d7
+  IL_0173: ldloc.1
+  IL_0174: ldstr 0x70001d03 'F-Mini11'
+  IL_0179: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_017e: ldloc.1
+  IL_017f: ldc.i4.6
+  IL_0180: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_0185: br.s IL_01d7
+  IL_0187: ldloc.1
+  IL_0188: ldstr 0x70001d15 'F-360C'
+  IL_018d: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_0192: ldloc.1
+  IL_0193: ldc.i4.7
+  IL_0194: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_0199: br.s IL_01d7
+  IL_019b: ldloc.1
+  IL_019c: ldstr 0x70001d23 'F-Mini20'
+  IL_01a1: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_01a6: ldloc.1
+  IL_01a7: ldc.i4.8
+  IL_01a8: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_01ad: br.s IL_01d7
+  IL_01af: ldloc.1
+  IL_01b0: ldstr 0x70001d35 'F4'
+  IL_01b5: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_01ba: ldloc.1
+  IL_01bb: ldc.i4.s 9
+  IL_01bd: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_01c2: br.s IL_01d7
+  IL_01c4: ldloc.1
+  IL_01c5: ldstr 0x70001d3b 'F5'
+  IL_01ca: callvirt 0x06000747 .MultiCbxBaseData::set_ViewName
+  IL_01cf: ldloc.1
+  IL_01d0: ldc.i4.s 10
+  IL_01d2: callvirt 0x06000745 .MultiCbxBaseData::set_ID
+  IL_01d7: ldloc.0
+  IL_01d8: ldc.i4.1
+  IL_01d9: add
+  IL_01da: stloc.0
+  IL_01db: ldloc.0
+  IL_01dc: ldc.i4.s 11
+  IL_01de: blt IL_00c7
+  IL_01e3: ldarg.0
+  IL_01e4: ldfld 0x04000204 F20AD.TransformWindow::ComboBox_Device
+  IL_01e9: ldarg.0
+  IL_01ea: ldfld 0x040001ee F20AD.TransformWindow::deviceData
+  IL_01ef: callvirt 0x0a000057 System.Windows.Controls.ItemsControl::set_ItemsSource
+  IL_01f4: ldarg.0
+  IL_01f5: ldfld 0x04000204 F20AD.TransformWindow::ComboBox_Device
+  IL_01fa: ldstr 0x70000075 'ID'
+  IL_01ff: callvirt 0x0a000058 System.Windows.Controls.Primitives.Selector::set_SelectedValuePath
+  IL_0204: ldarg.0
+  IL_0205: ldfld 0x04000204 F20AD.TransformWindow::ComboBox_Device
+  IL_020a: ldstr 0x7000007b 'ViewName'
+  IL_020f: callvirt 0x0a000059 System.Windows.Controls.ItemsControl::set_DisplayMemberPath
+  IL_0214: ldarg.0
+  IL_0215: ldfld 0x0400020d F20AD.TransformWindow::CheckBox_UD
+  IL_021a: ldsfld 0x040001f1 F20AD.TransformWindow::isUDAoc
+  IL_021f: newobj 0x0a000104 signature:151180b50102::.ctor
+  IL_0224: callvirt 0x0a000105 System.Windows.Controls.Primitives.ToggleButton::set_IsChecked
+  IL_0229: ldarg.0
+  IL_022a: ldfld 0x0400020e F20AD.TransformWindow::CheckBox_LR
+  IL_022f: ldsfld 0x040001f2 F20AD.TransformWindow::isLRAoc
+  IL_0234: newobj 0x0a000104 signature:151180b50102::.ctor
+  IL_0239: callvirt 0x0a000105 System.Windows.Controls.Primitives.ToggleButton::set_IsChecked
+  IL_023e: ldarg.0
+  IL_023f: ldfld 0x040001e6 F20AD.TransformWindow::SliderTimer
+  IL_0244: ldc.i4.0
+  IL_0245: ldc.i4.0
+  IL_0246: ldc.i4.0
+  IL_0247: ldc.i4.0
+  IL_0248: ldc.i4 1000
+  IL_024d: newobj 0x0a00006b System.TimeSpan::.ctor
+  IL_0252: callvirt 0x0a00006c System.Windows.Threading.DispatcherTimer::set_Interval
+  IL_0257: ldarg.0
+  IL_0258: ldfld 0x040001e6 F20AD.TransformWindow::SliderTimer
+  IL_025d: ldarg.0
+  IL_025e: ldftn 0x06000243 F20AD.TransformWindow::Play_Reset
+  IL_0264: newobj 0x0a00006d System.EventHandler::.ctor
+  IL_0269: callvirt 0x0a00006e System.Windows.Threading.DispatcherTimer::add_Tick
+  IL_026e: ldarg.0
+  IL_026f: ldfld 0x040001ea F20AD.TransformWindow::pTimer
+  IL_0274: ldc.i4.0
+  IL_0275: ldc.i4.0
+  IL_0276: ldc.i4.1
+  IL_0277: newobj 0x0a0000c7 System.TimeSpan::.ctor
+  IL_027c: callvirt 0x0a00006c System.Windows.Threading.DispatcherTimer::set_Interval
+  IL_0281: ldarg.0
+  IL_0282: ldfld 0x040001ea F20AD.TransformWindow::pTimer
+  IL_0287: ldarg.0
+  IL_0288: ldftn 0x06000241 F20AD.TransformWindow::progressTimer
+  IL_028e: newobj 0x0a00006d System.EventHandler::.ctor
+  IL_0293: callvirt 0x0a00006e System.Windows.Threading.DispatcherTimer::add_Tick
+  IL_0298: ldarg.0
+  IL_0299: call 0x06000250 F20AD.TransformWindow::initDevice
+  IL_029e: ldarg.0
+  IL_029f: call 0x06000253 F20AD.TransformWindow::initLanuages
+  IL_02a4: ret
+
+F20AD.TransformWindow::Device_SelectionChanged token 0x06000247
+RVA=0x1a974 file_offset=0x18b74 header_size=12 IL_size=146
+IL_SHA256=d431d7b5800c331979edb17084913817c769a8e8f8a752d6efc5c22c8f89e741 signature_blob=2002011c1280f1
+  IL_0000: ldarg.2
+  IL_0001: callvirt 0x0a00005c System.Windows.Controls.SelectionChangedEventArgs::get_AddedItems
+  IL_0006: ldc.i4.0
+  IL_0007: callvirt 0x0a00005d System.Collections.IList::get_Item
+  IL_000c: isinst 0x020000f1 ::MultiCbxBaseData
+  IL_0011: dup
+  IL_0012: callvirt 0x06000744 .MultiCbxBaseData::get_ID
+  IL_0017: call 0x0a00019e System.Console::WriteLine
+  IL_001c: callvirt 0x06000744 .MultiCbxBaseData::get_ID
+  IL_0021: ldc.i4.1
+  IL_0022: add
+  IL_0023: stsfld 0x040001ef F20AD.TransformWindow::DEVICETYPE
+  IL_0028: ldstr 0x70001d83 'device type: '
+  IL_002d: ldsflda 0x040001ef F20AD.TransformWindow::DEVICETYPE
+  IL_0032: call 0x0a000102 System.Int32::ToString
+  IL_0037: call 0x0a000069 System.String::Concat
+  IL_003c: call 0x0a0000ad System.Console::WriteLine
+  IL_0041: call 0x0600058d F20AD.DataBase.SharedPreferences::getInstance
+  IL_0046: ldstr 0x70001d9f 'Device_Type'
+  IL_004b: ldsflda 0x040001ef F20AD.TransformWindow::DEVICETYPE
+  IL_0050: call 0x0a000102 System.Int32::ToString
+  IL_0055: dup
+  IL_0056: brtrue.s IL_005e
+  IL_0058: pop
+  IL_0059: ldstr 0x700001b3 ''
+  IL_005e: callvirt 0x06000590 F20AD.DataBase.SharedPreferences::put
+  IL_0063: pop
+  IL_0064: ldarg.0
+  IL_0065: ldfld 0x04000201 F20AD.TransformWindow::Grid_Draw
+  IL_006a: callvirt 0x0a00007b System.Windows.Controls.Panel::get_Children
+  IL_006f: callvirt 0x0a0000d9 System.Windows.Controls.UIElementCollection::Clear
+  IL_0074: ldarg.0
+  IL_0075: ldfld 0x04000201 F20AD.TransformWindow::Grid_Draw
+  IL_007a: callvirt 0x0a00007b System.Windows.Controls.Panel::get_Children
+  IL_007f: ldarg.0
+  IL_0080: ldfld 0x04000202 F20AD.TransformWindow::Image_Draw
+  IL_0085: callvirt 0x0a0000dc System.Windows.Controls.UIElementCollection::Add
+  IL_008a: pop
+  IL_008b: ldarg.0
+  IL_008c: call 0x06000235 F20AD.TransformWindow::GenerateSingle
+  IL_0091: ret
+
+F20AD.TransformWindow::SendWork token 0x0600024b
+RVA=0x1aeac file_offset=0x190ac header_size=12 IL_size=448
+IL_SHA256=b5cde702c1c7f1260542aab695811a34c589e8d6aa8113d09181a2c0051675e7 signature_blob=2002011c12819d
+  IL_0000: ldc.i4.0
+  IL_0001: stsfld 0x04000216 F20AD.App::isExtractAudioFinish
+  IL_0006: ldarg.0
+  IL_0007: ldfld 0x040001f7 F20AD.TransformWindow::_workDevice
+  IL_000c: callvirt 0x060002e3 F20AD.WorkDevice::get_file
+  IL_0011: stloc.0
+  IL_0012: ldarg.0
+  IL_0013: ldfld 0x040001f7 F20AD.TransformWindow::_workDevice
+  IL_0018: callvirt 0x060002e5 F20AD.WorkDevice::get_devices
+  IL_001d: stloc.1
+  IL_001e: ldarg.0
+  IL_001f: ldnull
+  IL_0020: newobj 0x06000533 F20AD.FFYTPlayer.YTPlayer::.ctor
+  IL_0025: stfld 0x040001e5 F20AD.TransformWindow::player
+  IL_002a: ldarg.0
+  IL_002b: ldfld 0x040001e5 F20AD.TransformWindow::player
+  IL_0030: ldloc.0
+  IL_0031: callvirt 0x06000573 F20AD.Entity.SendFile::get_path
+  IL_0036: callvirt 0x06000534 F20AD.FFYTPlayer.YTPlayer::SetVideo
+  IL_003b: pop
+  IL_003c: ldstr 0x70001e27 'has audio:{0}'
+  IL_0041: ldarg.0
+  IL_0042: ldfld 0x040001e5 F20AD.TransformWindow::player
+  IL_0047: ldfld 0x040003ae F20AD.FFYTPlayer.YTPlayer::containsAudio
+  IL_004c: box 0x0100011c System::Boolean
+  IL_0051: call 0x0a000054 System.String::Format
+  IL_0056: call 0x0a0000ad System.Console::WriteLine
+  IL_005b: call 0x0a0000b1 System.Windows.Forms.Application::get_StartupPath
+  IL_0060: ldstr 0x70000706 '/tmp/audio.wav'
+  IL_0065: call 0x0a000069 System.String::Concat
+  IL_006a: stloc.2
+  IL_006b: ldloc.2
+  IL_006c: call 0x0a0001b3 System.IO.File::Exists
+  IL_0071: brfalse.s IL_0082
+  IL_0073: ldc.i4.1
+  IL_0074: newarr 0x010000f2 System::String
+  IL_0079: dup
+  IL_007a: ldc.i4.0
+  IL_007b: ldloc.2
+  IL_007c: stelem.ref
+  IL_007d: call 0x06000448 F20AD.Utils.FileTool::DeleteFiles
+  IL_0082: ldloc.0
+  IL_0083: callvirt 0x06000581 F20AD.Entity.SendFile::get_end
+  IL_0088: ldloc.0
+  IL_0089: callvirt 0x0600057f F20AD.Entity.SendFile::get_start
+  IL_008e: sub
+  IL_008f: ldc.i4.s 20
+  IL_0091: mul
+  IL_0092: stloc.3
+  IL_0093: ldarg.0
+  IL_0094: ldc.i4.0
+  IL_0095: stfld 0x040001fd F20AD.TransformWindow::isCancelClipImage
+  IL_009a: ldarg.0
+  IL_009b: ldc.i4.1
+  IL_009c: ldc.i4.1
+  IL_009d: ldloc.3
+  IL_009e: ldc.i4.3
+  IL_009f: div
+  IL_00a0: ldc.i4.1
+  IL_00a1: call 0x0600024d F20AD.TransformWindow::runClipImageThread
+  IL_00a6: ldarg.0
+  IL_00a7: ldloc.3
+  IL_00a8: ldc.i4.3
+  IL_00a9: div
+  IL_00aa: ldc.i4.1
+  IL_00ab: add
+  IL_00ac: ldc.i4.1
+  IL_00ad: ldloc.3
+  IL_00ae: ldc.i4.2
+  IL_00af: mul
+  IL_00b0: ldc.i4.3
+  IL_00b1: div
+  IL_00b2: ldc.i4.2
+  IL_00b3: call 0x0600024d F20AD.TransformWindow::runClipImageThread
+  IL_00b8: ldarg.0
+  IL_00b9: ldloc.3
+  IL_00ba: ldc.i4.2
+  IL_00bb: mul
+  IL_00bc: ldc.i4.3
+  IL_00bd: div
+  IL_00be: ldc.i4.1
+  IL_00bf: add
+  IL_00c0: ldc.i4.1
+  IL_00c1: ldloc.3
+  IL_00c2: ldc.i4.3
+  IL_00c3: call 0x0600024d F20AD.TransformWindow::runClipImageThread
+  IL_00c8: ldc.i4 1000
+  IL_00cd: ldloc.0
+  IL_00ce: callvirt 0x06000577 F20AD.Entity.SendFile::get_time
+  IL_00d3: div
+  IL_00d4: stloc.s local(0x0004)
+  IL_00d6: ldarg.0
+  IL_00d7: ldfld 0x040001e5 F20AD.TransformWindow::player
+  IL_00dc: ldloc.0
+  IL_00dd: callvirt 0x0600057f F20AD.Entity.SendFile::get_start
+  IL_00e2: ldloc.0
+  IL_00e3: callvirt 0x06000581 F20AD.Entity.SendFile::get_end
+  IL_00e8: ldloc.s local(0x0004)
+  IL_00ea: ldstr 0x70001e43 'tmp/video/'
+  IL_00ef: ldloc.1
+  IL_00f0: ldloc.0
+  IL_00f1: callvirt 0x0600057b F20AD.Entity.SendFile::get_width
+  IL_00f6: ldloc.0
+  IL_00f7: callvirt 0x0600057d F20AD.Entity.SendFile::get_height
+  IL_00fc: callvirt 0x0600053d F20AD.FFYTPlayer.YTPlayer::GetFrames
+  IL_0101: ldarg.0
+  IL_0102: ldfld 0x040001e5 F20AD.TransformWindow::player
+  IL_0107: ldfld 0x040003ae F20AD.FFYTPlayer.YTPlayer::containsAudio
+  IL_010c: brfalse.s IL_0136
+  IL_010e: ldarg.0
+  IL_010f: ldfld 0x040001fd F20AD.TransformWindow::isCancelClipImage
+  IL_0114: brtrue.s IL_0136
+  IL_0116: ldarg.0
+  IL_0117: ldfld 0x040001e5 F20AD.TransformWindow::player
+  IL_011c: ldloc.2
+  IL_011d: ldloc.0
+  IL_011e: callvirt 0x0600057f F20AD.Entity.SendFile::get_start
+  IL_0123: ldloc.0
+  IL_0124: callvirt 0x06000581 F20AD.Entity.SendFile::get_end
+  IL_0129: ldloc.0
+  IL_012a: callvirt 0x0600057f F20AD.Entity.SendFile::get_start
+  IL_012f: sub
+  IL_0130: callvirt 0x0600053c F20AD.FFYTPlayer.YTPlayer::cutOutAudio
+  IL_0135: pop
+  IL_0136: ldc.i4.1
+  IL_0137: stsfld 0x04000216 F20AD.App::isExtractAudioFinish
+  IL_013c: call 0x0600049f F20AD.Utils.Times::GetHexId
+  IL_0141: stloc.s local(0x0005)
+  IL_0143: ldsfld 0x040001fc F20AD.TransformWindow::exportServers
+  IL_0148: callvirt 0x0a000077 signature:151280b901128224::GetEnumerator
+  IL_014d: stloc.s local(0x0006)
+  IL_014f: br.s IL_01a6
+  IL_0151: ldloca.s local(0x0006)
+  IL_0153: call 0x0a000078 signature:1511811101128224::get_Current
+  IL_0158: stloc.s local(0x0007)
+  IL_015a: ldarg.0
+  IL_015b: ldfld 0x040001f9 F20AD.TransformWindow::_sendOffset
+  IL_0160: ldc.i4.1
+  IL_0161: bge.s IL_01a6
+  IL_0163: ldloc.s local(0x0007)
+  IL_0165: ldloc.0
+  IL_0166: callvirt 0x0600056f F20AD.Entity.SendFile::get_name
+  IL_016b: ldloc.0
+  IL_016c: callvirt 0x06000577 F20AD.Entity.SendFile::get_time
+  IL_0171: ldloc.0
+  IL_0172: callvirt 0x06000579 F20AD.Entity.SendFile::get_frames
+  IL_0177: ldloc.s local(0x0005)
+  IL_0179: ldloc.0
+  IL_017a: callvirt 0x06000575 F20AD.Entity.SendFile::get_type
+  IL_017f: ldarg.0
+  IL_0180: ldfld 0x040001f3 F20AD.TransformWindow::exportPath
+  IL_0185: callvirt 0x06000619 F20AD.Connect.TcpServer::SendFile
+  IL_018a: ldarg.0
+  IL_018b: ldarg.0
+  IL_018c: ldfld 0x040001f9 F20AD.TransformWindow::_sendOffset
+  IL_0191: ldc.i4.1
+  IL_0192: add
+  IL_0193: stfld 0x040001f9 F20AD.TransformWindow::_sendOffset
+  IL_0198: ldarg.0
+  IL_0199: ldarg.0
+  IL_019a: ldfld 0x040001fa F20AD.TransformWindow::_sendCount
+  IL_019f: ldc.i4.1
+  IL_01a0: add
+  IL_01a1: stfld 0x040001fa F20AD.TransformWindow::_sendCount
+  IL_01a6: ldloca.s local(0x0006)
+  IL_01a8: call 0x0a00007a signature:1511811101128224::MoveNext
+  IL_01ad: brtrue.s IL_0151
+  IL_01af: leave.s IL_01bf
+  IL_01b1: ldloca.s local(0x0006)
+  IL_01b3: constrained. 0x1b00000f ::signature:1511811101128224
+  IL_01b9: callvirt 0x0a000017 System.IDisposable::Dispose
+  IL_01be: endfinally
+  IL_01bf: ret
+
+F20AD.Utils.Bin::.ctor token 0x060003e6
+RVA=0x23c34 file_offset=0x21e34 header_size=12 IL_size=639
+IL_SHA256=561181801e48c5e3db931697faa5a60c37861b279e1bca7c7410792dc6627b01 signature_blob=20010108
+  IL_0000: ldarg.0
+  IL_0001: call 0x0a00002c System.Object::.ctor
+  IL_0006: ldarg.1
+  IL_0007: ldc.i4.1
+  IL_0008: sub
+  IL_0009: switch IL_003f, IL_006f, IL_00a2, IL_00d5, IL_0105, IL_0135, IL_0168, IL_0198, IL_01cb, IL_01fc, IL_0230
+  IL_003a: br IL_0264
+  IL_003f: ldarg.0
+  IL_0040: ldc.i4 520
+  IL_0045: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_004a: ldarg.0
+  IL_004b: ldc.i4.s 116
+  IL_004d: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0052: ldarg.0
+  IL_0053: ldc.i4.6
+  IL_0054: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_0059: ldarg.0
+  IL_005a: ldc.i4.1
+  IL_005b: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0060: ldarg.0
+  IL_0061: ldc.i4.1
+  IL_0062: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_0067: ldarg.0
+  IL_0068: ldc.i4.1
+  IL_0069: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_006e: ret
+  IL_006f: ldarg.0
+  IL_0070: ldc.i4 520
+  IL_0075: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_007a: ldarg.0
+  IL_007b: ldc.i4 144
+  IL_0080: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0085: ldarg.0
+  IL_0086: ldc.i4.6
+  IL_0087: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_008c: ldarg.0
+  IL_008d: ldc.i4.2
+  IL_008e: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0093: ldarg.0
+  IL_0094: ldc.i4.1
+  IL_0095: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_009a: ldarg.0
+  IL_009b: ldc.i4.1
+  IL_009c: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_00a1: ret
+  IL_00a2: ldarg.0
+  IL_00a3: ldc.i4 520
+  IL_00a8: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_00ad: ldarg.0
+  IL_00ae: ldc.i4 200
+  IL_00b3: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_00b8: ldarg.0
+  IL_00b9: ldc.i4.6
+  IL_00ba: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_00bf: ldarg.0
+  IL_00c0: ldc.i4.3
+  IL_00c1: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_00c6: ldarg.0
+  IL_00c7: ldc.i4.1
+  IL_00c8: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_00cd: ldarg.0
+  IL_00ce: ldc.i4.1
+  IL_00cf: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_00d4: ret
+  IL_00d5: ldarg.0
+  IL_00d6: ldc.i4 360
+  IL_00db: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_00e0: ldarg.0
+  IL_00e1: ldc.i4.s 80
+  IL_00e3: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_00e8: ldarg.0
+  IL_00e9: ldc.i4.5
+  IL_00ea: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_00ef: ldarg.0
+  IL_00f0: ldc.i4.4
+  IL_00f1: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_00f6: ldarg.0
+  IL_00f7: ldc.i4.1
+  IL_00f8: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_00fd: ldarg.0
+  IL_00fe: ldc.i4.1
+  IL_00ff: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_0104: ret
+  IL_0105: ldarg.0
+  IL_0106: ldc.i4 520
+  IL_010b: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0110: ldarg.0
+  IL_0111: ldc.i4.s 80
+  IL_0113: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0118: ldarg.0
+  IL_0119: ldc.i4.6
+  IL_011a: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_011f: ldarg.0
+  IL_0120: ldc.i4.5
+  IL_0121: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0126: ldarg.0
+  IL_0127: ldc.i4.1
+  IL_0128: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_012d: ldarg.0
+  IL_012e: ldc.i4.0
+  IL_012f: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_0134: ret
+  IL_0135: ldarg.0
+  IL_0136: ldc.i4 520
+  IL_013b: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0140: ldarg.0
+  IL_0141: ldc.i4 144
+  IL_0146: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_014b: ldarg.0
+  IL_014c: ldc.i4.6
+  IL_014d: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_0152: ldarg.0
+  IL_0153: ldc.i4.6
+  IL_0154: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0159: ldarg.0
+  IL_015a: ldc.i4.1
+  IL_015b: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_0160: ldarg.0
+  IL_0161: ldc.i4.0
+  IL_0162: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_0167: ret
+  IL_0168: ldarg.0
+  IL_0169: ldc.i4 300
+  IL_016e: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0173: ldarg.0
+  IL_0174: ldc.i4.s 48
+  IL_0176: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_017b: ldarg.0
+  IL_017c: ldc.i4.5
+  IL_017d: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_0182: ldarg.0
+  IL_0183: ldc.i4.7
+  IL_0184: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0189: ldarg.0
+  IL_018a: ldc.i4.1
+  IL_018b: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_0190: ldarg.0
+  IL_0191: ldc.i4.1
+  IL_0192: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_0197: ret
+  IL_0198: ldarg.0
+  IL_0199: ldc.i4 520
+  IL_019e: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_01a3: ldarg.0
+  IL_01a4: ldc.i4 200
+  IL_01a9: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_01ae: ldarg.0
+  IL_01af: ldc.i4.6
+  IL_01b0: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_01b5: ldarg.0
+  IL_01b6: ldc.i4.8
+  IL_01b7: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_01bc: ldarg.0
+  IL_01bd: ldc.i4.1
+  IL_01be: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_01c3: ldarg.0
+  IL_01c4: ldc.i4.0
+  IL_01c5: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_01ca: ret
+  IL_01cb: ldarg.0
+  IL_01cc: ldc.i4 360
+  IL_01d1: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_01d6: ldarg.0
+  IL_01d7: ldc.i4.s 96
+  IL_01d9: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_01de: ldarg.0
+  IL_01df: ldc.i4.5
+  IL_01e0: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_01e5: ldarg.0
+  IL_01e6: ldc.i4.s 9
+  IL_01e8: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_01ed: ldarg.0
+  IL_01ee: ldc.i4.1
+  IL_01ef: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_01f4: ldarg.0
+  IL_01f5: ldc.i4.1
+  IL_01f6: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_01fb: ret
+  IL_01fc: ldarg.0
+  IL_01fd: ldc.i4 450
+  IL_0202: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0207: ldarg.0
+  IL_0208: ldc.i4 171
+  IL_020d: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0212: ldarg.0
+  IL_0213: ldc.i4.6
+  IL_0214: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_0219: ldarg.0
+  IL_021a: ldc.i4.s 10
+  IL_021c: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0221: ldarg.0
+  IL_0222: ldc.i4.1
+  IL_0223: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_0228: ldarg.0
+  IL_0229: ldc.i4.1
+  IL_022a: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_022f: ret
+  IL_0230: ldarg.0
+  IL_0231: ldc.i4 520
+  IL_0236: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_023b: ldarg.0
+  IL_023c: ldc.i4 133
+  IL_0241: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0246: ldarg.0
+  IL_0247: ldc.i4.6
+  IL_0248: stfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_024d: ldarg.0
+  IL_024e: ldc.i4.s 11
+  IL_0250: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_0255: ldarg.0
+  IL_0256: ldc.i4.1
+  IL_0257: stfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_025c: ldarg.0
+  IL_025d: ldc.i4.1
+  IL_025e: stfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_0263: ret
+  IL_0264: ldarg.0
+  IL_0265: ldc.i4 450
+  IL_026a: stfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_026f: ldarg.0
+  IL_0270: ldc.i4.s 112
+  IL_0272: stfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0277: ldarg.0
+  IL_0278: ldc.i4.1
+  IL_0279: stfld 0x040002f1 F20AD.Utils.Bin::type
+  IL_027e: ret
+
+F20AD.Utils.Bin::getFrameLen token 0x060003e7
+RVA=0x23ebf file_offset=0x220bf header_size=1 IL_size=55
+IL_SHA256=de7d52ad00a9888448a32090e14fddfac5c247347ed073d952f7c387bae73777 signature_blob=200008
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0006: ldarg.0
+  IL_0007: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_000c: conv.r8
+  IL_000d: ldc.r8 3.0
+  IL_0016: mul
+  IL_0017: conv.r8
+  IL_0018: ldc.r8 8.0
+  IL_0021: div
+  IL_0022: call 0x0a000151 System.Math::Ceiling
+  IL_0027: conv.i4
+  IL_0028: mul
+  IL_0029: ldarg.0
+  IL_002a: ldfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_002f: mul
+  IL_0030: ldc.i4 1600
+  IL_0035: add
+  IL_0036: ret
+
+F20AD.Utils.Bin::getHeader token 0x060003e8
+RVA=0x23ef8 file_offset=0x220f8 header_size=12 IL_size=220
+IL_SHA256=2fffcb7ecce361f2195533f4b92df0f1bbc170d0c1c1c5a9289a3eda64edbfa4 signature_blob=20001d05
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0006: pop
+  IL_0007: ldarg.0
+  IL_0008: ldfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_000d: pop
+  IL_000e: ldc.i4 238
+  IL_0013: stloc.0
+  IL_0014: ldarg.0
+  IL_0015: ldflda 0x040002f1 F20AD.Utils.Bin::type
+  IL_001a: call 0x0a000102 System.Int32::ToString
+  IL_001f: dup
+  IL_0020: brtrue.s IL_0028
+  IL_0022: pop
+  IL_0023: ldstr 0x700001b3 ''
+  IL_0028: ldc.i4.1
+  IL_0029: call 0x060004b4 F20AD.Utils.TypeConversion::GetBytes
+  IL_002e: ldc.i4.0
+  IL_002f: ldelem.u1
+  IL_0030: stloc.1
+  IL_0031: newobj 0x0a0002e2 System.Random::.ctor
+  IL_0036: dup
+  IL_0037: ldc.i4 255
+  IL_003c: callvirt 0x0a0002e3 System.Random::Next
+  IL_0041: ldc.i4.0
+  IL_0042: call 0x060004b3 F20AD.Utils.TypeConversion::GetBytes
+  IL_0047: ldc.i4.3
+  IL_0048: ldelem.u1
+  IL_0049: stloc.2
+  IL_004a: ldc.i4 255
+  IL_004f: callvirt 0x0a0002e3 System.Random::Next
+  IL_0054: ldc.i4.0
+  IL_0055: call 0x060004b3 F20AD.Utils.TypeConversion::GetBytes
+  IL_005a: ldc.i4.3
+  IL_005b: ldelem.u1
+  IL_005c: stloc.3
+  IL_005d: ldc.i4.2
+  IL_005e: newarr 0x0100013b System::Byte
+  IL_0063: dup
+  IL_0064: ldc.i4.0
+  IL_0065: ldloc.1
+  IL_0066: ldloc.2
+  IL_0067: xor
+  IL_0068: ldloc.3
+  IL_0069: xor
+  IL_006a: conv.u1
+  IL_006b: stelem.i1
+  IL_006c: ldc.i4.0
+  IL_006d: call 0x0a0002e4 System.BitConverter::ToInt16
+  IL_0072: stloc.s local(0x0004)
+  IL_0074: ldc.i4.2
+  IL_0075: newarr 0x0100013b System::Byte
+  IL_007a: dup
+  IL_007b: ldc.i4.0
+  IL_007c: ldsfld 0x040002ee F20AD.Utils.Bin::offset_image
+  IL_0081: ldloc.s local(0x0004)
+  IL_0083: ldelem.u1
+  IL_0084: stelem.i1
+  IL_0085: ldc.i4.0
+  IL_0086: call 0x0a0002e4 System.BitConverter::ToInt16
+  IL_008b: ldc.i4.1
+  IL_008c: add
+  IL_008d: ldc.i4.4
+  IL_008e: mul
+  IL_008f: newarr 0x0100013b System::Byte
+  IL_0094: stloc.s local(0x0005)
+  IL_0096: ldloc.s local(0x0005)
+  IL_0098: ldc.i4.0
+  IL_0099: ldloc.0
+  IL_009a: stelem.i1
+  IL_009b: ldloc.s local(0x0005)
+  IL_009d: ldc.i4.1
+  IL_009e: ldloc.1
+  IL_009f: stelem.i1
+  IL_00a0: ldloc.s local(0x0005)
+  IL_00a2: ldc.i4.2
+  IL_00a3: ldloc.2
+  IL_00a4: stelem.i1
+  IL_00a5: ldloc.s local(0x0005)
+  IL_00a7: ldc.i4.3
+  IL_00a8: ldloc.3
+  IL_00a9: stelem.i1
+  IL_00aa: ldc.i4.4
+  IL_00ab: stloc.s local(0x0006)
+  IL_00ad: br.s IL_00d1
+  IL_00af: ldloc.s local(0x0005)
+  IL_00b1: ldloc.s local(0x0006)
+  IL_00b3: ldloc.s local(0x0005)
+  IL_00b5: ldloc.s local(0x0006)
+  IL_00b7: ldc.i4.1
+  IL_00b8: sub
+  IL_00b9: ldelem.u1
+  IL_00ba: ldsfld 0x040002ee F20AD.Utils.Bin::offset_image
+  IL_00bf: ldloc.s local(0x0006)
+  IL_00c1: ldc.i4 255
+  IL_00c6: rem
+  IL_00c7: ldelem.u1
+  IL_00c8: xor
+  IL_00c9: conv.u1
+  IL_00ca: stelem.i1
+  IL_00cb: ldloc.s local(0x0006)
+  IL_00cd: ldc.i4.1
+  IL_00ce: add
+  IL_00cf: stloc.s local(0x0006)
+  IL_00d1: ldloc.s local(0x0006)
+  IL_00d3: ldloc.s local(0x0005)
+  IL_00d5: ldlen
+  IL_00d6: conv.i4
+  IL_00d7: blt.s IL_00af
+  IL_00d9: ldloc.s local(0x0005)
+  IL_00db: ret
+
+F20AD.Utils.Bin::getRGBBytes token 0x060003e9
+RVA=0x23fe0 file_offset=0x221e0 header_size=12 IL_size=76
+IL_SHA256=ee5bce4c86d86db4a1a970042c95e43c6958f805f412b25c78148b625024741c signature_blob=00011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldc.i4.0
+  IL_0002: ldc.i4.0
+  IL_0003: ldarg.0
+  IL_0004: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_0009: ldarg.0
+  IL_000a: callvirt 0x0a0000cf System.Drawing.Image::get_Height
+  IL_000f: newobj 0x0a0002e5 System.Drawing.Rectangle::.ctor
+  IL_0014: ldc.i4.3
+  IL_0015: ldc.i4 137224
+  IL_001a: callvirt 0x0a0002e6 System.Drawing.Bitmap::LockBits
+  IL_001f: stloc.0
+  IL_0020: ldarg.0
+  IL_0021: ldloc.0
+  IL_0022: callvirt 0x0a0002e7 System.Drawing.Bitmap::UnlockBits
+  IL_0027: ldloc.0
+  IL_0028: callvirt 0x0a0002e8 System.Drawing.Imaging.BitmapData::get_Stride
+  IL_002d: ldloc.0
+  IL_002e: callvirt 0x0a0002e9 System.Drawing.Imaging.BitmapData::get_Height
+  IL_0033: mul
+  IL_0034: stloc.1
+  IL_0035: ldloc.1
+  IL_0036: newarr 0x0100013b System::Byte
+  IL_003b: stloc.2
+  IL_003c: ldloc.0
+  IL_003d: callvirt 0x0a0002ea System.Drawing.Imaging.BitmapData::get_Scan0
+  IL_0042: ldloc.2
+  IL_0043: ldc.i4.0
+  IL_0044: ldloc.1
+  IL_0045: call 0x0a0002eb System.Runtime.InteropServices.Marshal::Copy
+  IL_004a: ldloc.2
+  IL_004b: ret
+
+F20AD.Utils.Bin::bgrToBin token 0x060003ea
+RVA=0x24038 file_offset=0x22238 header_size=12 IL_size=371
+IL_SHA256=b8be6432b7b9cf21057c29f5cc9e5860dc31a51a8b550e56aadc1c103f2c10c4 signature_blob=20011d051d05
+  IL_0000: ldc.i4.8
+  IL_0001: ldarg.0
+  IL_0002: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0007: ldc.i4.3
+  IL_0008: mul
+  IL_0009: ldc.i4.8
+  IL_000a: rem
+  IL_000b: sub
+  IL_000c: stloc.0
+  IL_000d: ldloc.0
+  IL_000e: ldc.i4.8
+  IL_000f: beq.s IL_0014
+  IL_0011: ldloc.0
+  IL_0012: br.s IL_0015
+  IL_0014: ldc.i4.0
+  IL_0015: stloc.0
+  IL_0016: ldarg.0
+  IL_0017: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_001c: ldarg.0
+  IL_001d: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0022: conv.r8
+  IL_0023: ldc.r8 3.0
+  IL_002c: mul
+  IL_002d: conv.r8
+  IL_002e: ldc.r8 8.0
+  IL_0037: div
+  IL_0038: call 0x0a000151 System.Math::Ceiling
+  IL_003d: conv.i4
+  IL_003e: mul
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_0045: mul
+  IL_0046: ldarg.0
+  IL_0047: ldfld 0x040002f2 F20AD.Utils.Bin::bit
+  IL_004c: stloc.1
+  IL_004d: newarr 0x0100013b System::Byte
+  IL_0052: stloc.2
+  IL_0053: ldc.i4 128
+  IL_0058: stloc.3
+  IL_0059: ldc.i4.0
+  IL_005a: stloc.s local(0x0004)
+  IL_005c: ldc.i4.0
+  IL_005d: stloc.s local(0x0005)
+  IL_005f: br IL_0164
+  IL_0064: ldc.i4 128
+  IL_0069: stloc.s local(0x0006)
+  IL_006b: ldc.i4.0
+  IL_006c: stloc.s local(0x0007)
+  IL_006e: br IL_0156
+  IL_0073: ldc.i4 128
+  IL_0078: ldloc.0
+  IL_0079: ldc.i4.s 31
+  IL_007b: and
+  IL_007c: shr
+  IL_007d: conv.u1
+  IL_007e: stloc.3
+  IL_007f: ldc.i4.0
+  IL_0080: stloc.s local(0x0008)
+  IL_0082: br IL_0134
+  IL_0087: ldloc.s local(0x0005)
+  IL_0089: ldarg.0
+  IL_008a: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_008f: mul
+  IL_0090: ldloc.s local(0x0008)
+  IL_0092: add
+  IL_0093: ldc.i4.3
+  IL_0094: mul
+  IL_0095: stloc.s local(0x0009)
+  IL_0097: ldarg.1
+  IL_0098: ldloc.s local(0x0009)
+  IL_009a: ldelem.u1
+  IL_009b: ldloc.s local(0x0006)
+  IL_009d: and
+  IL_009e: brfalse.s IL_00ae
+  IL_00a0: ldloc.2
+  IL_00a1: ldloc.s local(0x0004)
+  IL_00a3: ldelema 0x0100013b System::Byte
+  IL_00a8: dup
+  IL_00a9: ldind.u1
+  IL_00aa: ldloc.3
+  IL_00ab: or
+  IL_00ac: conv.u1
+  IL_00ad: stind.i1
+  IL_00ae: ldloc.3
+  IL_00af: ldc.i4.1
+  IL_00b0: shr
+  IL_00b1: conv.u1
+  IL_00b2: stloc.3
+  IL_00b3: ldloc.3
+  IL_00b4: ldc.i4.s 127
+  IL_00b6: and
+  IL_00b7: conv.u1
+  IL_00b8: stloc.3
+  IL_00b9: ldloc.3
+  IL_00ba: brtrue.s IL_00c8
+  IL_00bc: ldc.i4 128
+  IL_00c1: stloc.3
+  IL_00c2: ldloc.s local(0x0004)
+  IL_00c4: ldc.i4.1
+  IL_00c5: add
+  IL_00c6: stloc.s local(0x0004)
+  IL_00c8: ldarg.1
+  IL_00c9: ldloc.s local(0x0009)
+  IL_00cb: ldc.i4.1
+  IL_00cc: add
+  IL_00cd: ldelem.u1
+  IL_00ce: ldloc.s local(0x0006)
+  IL_00d0: and
+  IL_00d1: brfalse.s IL_00e1
+  IL_00d3: ldloc.2
+  IL_00d4: ldloc.s local(0x0004)
+  IL_00d6: ldelema 0x0100013b System::Byte
+  IL_00db: dup
+  IL_00dc: ldind.u1
+  IL_00dd: ldloc.3
+  IL_00de: or
+  IL_00df: conv.u1
+  IL_00e0: stind.i1
+  IL_00e1: ldloc.3
+  IL_00e2: ldc.i4.1
+  IL_00e3: shr
+  IL_00e4: conv.u1
+  IL_00e5: stloc.3
+  IL_00e6: ldloc.3
+  IL_00e7: ldc.i4.s 127
+  IL_00e9: and
+  IL_00ea: conv.u1
+  IL_00eb: stloc.3
+  IL_00ec: ldloc.3
+  IL_00ed: brtrue.s IL_00fb
+  IL_00ef: ldc.i4 128
+  IL_00f4: stloc.3
+  IL_00f5: ldloc.s local(0x0004)
+  IL_00f7: ldc.i4.1
+  IL_00f8: add
+  IL_00f9: stloc.s local(0x0004)
+  IL_00fb: ldarg.1
+  IL_00fc: ldloc.s local(0x0009)
+  IL_00fe: ldc.i4.2
+  IL_00ff: add
+  IL_0100: ldelem.u1
+  IL_0101: ldloc.s local(0x0006)
+  IL_0103: and
+  IL_0104: brfalse.s IL_0114
+  IL_0106: ldloc.2
+  IL_0107: ldloc.s local(0x0004)
+  IL_0109: ldelema 0x0100013b System::Byte
+  IL_010e: dup
+  IL_010f: ldind.u1
+  IL_0110: ldloc.3
+  IL_0111: or
+  IL_0112: conv.u1
+  IL_0113: stind.i1
+  IL_0114: ldloc.3
+  IL_0115: ldc.i4.1
+  IL_0116: shr
+  IL_0117: conv.u1
+  IL_0118: stloc.3
+  IL_0119: ldloc.3
+  IL_011a: ldc.i4.s 127
+  IL_011c: and
+  IL_011d: conv.u1
+  IL_011e: stloc.3
+  IL_011f: ldloc.3
+  IL_0120: brtrue.s IL_012e
+  IL_0122: ldc.i4 128
+  IL_0127: stloc.3
+  IL_0128: ldloc.s local(0x0004)
+  IL_012a: ldc.i4.1
+  IL_012b: add
+  IL_012c: stloc.s local(0x0004)
+  IL_012e: ldloc.s local(0x0008)
+  IL_0130: ldc.i4.1
+  IL_0131: add
+  IL_0132: stloc.s local(0x0008)
+  IL_0134: ldloc.s local(0x0008)
+  IL_0136: ldarg.0
+  IL_0137: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_013c: blt IL_0087
+  IL_0141: ldloc.s local(0x0006)
+  IL_0143: ldc.i4.1
+  IL_0144: shr
+  IL_0145: conv.u1
+  IL_0146: stloc.s local(0x0006)
+  IL_0148: ldloc.s local(0x0006)
+  IL_014a: ldc.i4.s 127
+  IL_014c: and
+  IL_014d: conv.u1
+  IL_014e: stloc.s local(0x0006)
+  IL_0150: ldloc.s local(0x0007)
+  IL_0152: ldc.i4.1
+  IL_0153: add
+  IL_0154: stloc.s local(0x0007)
+  IL_0156: ldloc.s local(0x0007)
+  IL_0158: ldloc.1
+  IL_0159: blt IL_0073
+  IL_015e: ldloc.s local(0x0005)
+  IL_0160: ldc.i4.1
+  IL_0161: add
+  IL_0162: stloc.s local(0x0005)
+  IL_0164: ldloc.s local(0x0005)
+  IL_0166: ldarg.0
+  IL_0167: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_016c: blt IL_0064
+  IL_0171: ldloc.2
+  IL_0172: ret
+
+F20AD.Utils.Bin::makeModelNotRotate token 0x060003eb
+RVA=0x241b8 file_offset=0x223b8 header_size=12 IL_size=252
+IL_SHA256=9b557b725508a784a60365f59dfedbe2c56a5f43c8521f8ee9b66c091f4e983c signature_blob=20061d051d050808080808
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0006: ldarg.0
+  IL_0007: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_000c: mul
+  IL_000d: ldc.i4.3
+  IL_000e: mul
+  IL_000f: newarr 0x0100013b System::Byte
+  IL_0014: stloc.0
+  IL_0015: ldarg.s argument(0x0005)
+  IL_0017: conv.r8
+  IL_0018: ldarg.0
+  IL_0019: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_001e: conv.r8
+  IL_001f: div
+  IL_0020: stloc.1
+  IL_0021: ldarg.s argument(0x0006)
+  IL_0023: conv.r8
+  IL_0024: ldarg.0
+  IL_0025: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_002a: conv.r8
+  IL_002b: div
+  IL_002c: stloc.2
+  IL_002d: ldc.i4.0
+  IL_002e: stloc.s local(0x0005)
+  IL_0030: ldc.i4.0
+  IL_0031: stloc.s local(0x0006)
+  IL_0033: br IL_00ed
+  IL_0038: ldc.i4.0
+  IL_0039: stloc.s local(0x0007)
+  IL_003b: br IL_00da
+  IL_0040: ldloc.s local(0x0006)
+  IL_0042: conv.r8
+  IL_0043: ldloc.1
+  IL_0044: mul
+  IL_0045: conv.i4
+  IL_0046: ldarg.2
+  IL_0047: add
+  IL_0048: stloc.3
+  IL_0049: ldloc.s local(0x0007)
+  IL_004b: conv.r8
+  IL_004c: ldloc.2
+  IL_004d: mul
+  IL_004e: conv.i4
+  IL_004f: ldarg.3
+  IL_0050: add
+  IL_0051: ldc.i4.1
+  IL_0052: add
+  IL_0053: stloc.s local(0x0004)
+  IL_0055: ldloc.3
+  IL_0056: ldc.i4.0
+  IL_0057: ble.s IL_00ce
+  IL_0059: ldloc.3
+  IL_005a: ldarg.s argument(0x0005)
+  IL_005c: bge.s IL_00ce
+  IL_005e: ldloc.s local(0x0004)
+  IL_0060: ldc.i4.0
+  IL_0061: ble.s IL_00ce
+  IL_0063: ldloc.s local(0x0004)
+  IL_0065: ldarg.s argument(0x0005)
+  IL_0067: bge.s IL_00ce
+  IL_0069: ldloc.0
+  IL_006a: ldloc.s local(0x0005)
+  IL_006c: ldc.i4.2
+  IL_006d: add
+  IL_006e: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_0073: ldarg.1
+  IL_0074: ldloc.s local(0x0004)
+  IL_0076: ldc.i4.1
+  IL_0077: sub
+  IL_0078: ldarg.s argument(0x0005)
+  IL_007a: mul
+  IL_007b: ldloc.3
+  IL_007c: add
+  IL_007d: ldc.i4.1
+  IL_007e: sub
+  IL_007f: ldc.i4.3
+  IL_0080: mul
+  IL_0081: ldc.i4.2
+  IL_0082: add
+  IL_0083: ldelem.u1
+  IL_0084: ldc.i4 255
+  IL_0089: and
+  IL_008a: ldelem.u1
+  IL_008b: stelem.i1
+  IL_008c: ldloc.0
+  IL_008d: ldloc.s local(0x0005)
+  IL_008f: ldc.i4.1
+  IL_0090: add
+  IL_0091: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_0096: ldarg.1
+  IL_0097: ldloc.s local(0x0004)
+  IL_0099: ldc.i4.1
+  IL_009a: sub
+  IL_009b: ldarg.s argument(0x0005)
+  IL_009d: mul
+  IL_009e: ldloc.3
+  IL_009f: add
+  IL_00a0: ldc.i4.1
+  IL_00a1: sub
+  IL_00a2: ldc.i4.3
+  IL_00a3: mul
+  IL_00a4: ldc.i4.1
+  IL_00a5: add
+  IL_00a6: ldelem.u1
+  IL_00a7: ldc.i4 255
+  IL_00ac: and
+  IL_00ad: ldelem.u1
+  IL_00ae: stelem.i1
+  IL_00af: ldloc.0
+  IL_00b0: ldloc.s local(0x0005)
+  IL_00b2: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_00b7: ldarg.1
+  IL_00b8: ldloc.s local(0x0004)
+  IL_00ba: ldc.i4.1
+  IL_00bb: sub
+  IL_00bc: ldarg.s argument(0x0005)
+  IL_00be: mul
+  IL_00bf: ldloc.3
+  IL_00c0: add
+  IL_00c1: ldc.i4.1
+  IL_00c2: sub
+  IL_00c3: ldc.i4.3
+  IL_00c4: mul
+  IL_00c5: ldelem.u1
+  IL_00c6: ldc.i4 255
+  IL_00cb: and
+  IL_00cc: ldelem.u1
+  IL_00cd: stelem.i1
+  IL_00ce: ldloc.s local(0x0005)
+  IL_00d0: ldc.i4.3
+  IL_00d1: add
+  IL_00d2: stloc.s local(0x0005)
+  IL_00d4: ldloc.s local(0x0007)
+  IL_00d6: ldc.i4.1
+  IL_00d7: add
+  IL_00d8: stloc.s local(0x0007)
+  IL_00da: ldloc.s local(0x0007)
+  IL_00dc: ldarg.0
+  IL_00dd: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_00e2: blt IL_0040
+  IL_00e7: ldloc.s local(0x0006)
+  IL_00e9: ldc.i4.1
+  IL_00ea: add
+  IL_00eb: stloc.s local(0x0006)
+  IL_00ed: ldloc.s local(0x0006)
+  IL_00ef: ldarg.0
+  IL_00f0: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_00f5: blt IL_0038
+  IL_00fa: ldloc.0
+  IL_00fb: ret
+
+F20AD.Utils.Bin::makeModel token 0x060003ec
+RVA=0x242c0 file_offset=0x224c0 header_size=12 IL_size=383
+IL_SHA256=b1ec61df417d9bd89b17b52f7330a86ef5782cbecdf63a767db587d0f9ddc08e signature_blob=20061d051d050808080808
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0006: ldarg.0
+  IL_0007: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_000c: mul
+  IL_000d: ldc.i4.3
+  IL_000e: mul
+  IL_000f: newarr 0x0100013b System::Byte
+  IL_0014: stloc.0
+  IL_0015: ldc.r8 360.0
+  IL_001e: ldarg.0
+  IL_001f: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0024: conv.r8
+  IL_0025: div
+  IL_0026: stloc.1
+  IL_0027: ldc.r8 0.0
+  IL_0030: stloc.2
+  IL_0031: ldc.r8 0.0
+  IL_003a: stloc.3
+  IL_003b: ldarg.s argument(0x0004)
+  IL_003d: ldc.i4.4
+  IL_003e: sub
+  IL_003f: conv.r8
+  IL_0040: ldc.r8 2.0
+  IL_0049: div
+  IL_004a: stloc.s local(0x0004)
+  IL_004c: ldloc.s local(0x0004)
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0054: conv.r8
+  IL_0055: div
+  IL_0056: stloc.s local(0x0005)
+  IL_0058: ldc.r8 0.0
+  IL_0061: stloc.s local(0x0006)
+  IL_0063: ldc.i4.0
+  IL_0064: stloc.s local(0x0009)
+  IL_0066: ldc.i4.0
+  IL_0067: stloc.s local(0x000A)
+  IL_0069: br IL_0170
+  IL_006e: ldloc.s local(0x0004)
+  IL_0070: stloc.s local(0x000B)
+  IL_0072: ldloc.s local(0x0006)
+  IL_0074: ldc.r8 3.141592653589793
+  IL_007d: mul
+  IL_007e: ldc.r8 180.0
+  IL_0087: div
+  IL_0088: call 0x0a0002ec System.Math::Cos
+  IL_008d: stloc.2
+  IL_008e: ldloc.s local(0x0006)
+  IL_0090: ldc.r8 3.141592653589793
+  IL_0099: mul
+  IL_009a: ldc.r8 180.0
+  IL_00a3: div
+  IL_00a4: call 0x0a0002ed System.Math::Sin
+  IL_00a9: stloc.3
+  IL_00aa: ldc.i4.0
+  IL_00ab: stloc.s local(0x000C)
+  IL_00ad: br IL_0157
+  IL_00b2: ldloc.s local(0x000B)
+  IL_00b4: ldloc.2
+  IL_00b5: mul
+  IL_00b6: ldarg.2
+  IL_00b7: conv.r8
+  IL_00b8: add
+  IL_00b9: conv.i4
+  IL_00ba: stloc.s local(0x0007)
+  IL_00bc: ldarg.3
+  IL_00bd: conv.r8
+  IL_00be: ldloc.s local(0x000B)
+  IL_00c0: ldloc.3
+  IL_00c1: mul
+  IL_00c2: sub
+  IL_00c3: conv.i4
+  IL_00c4: stloc.s local(0x0008)
+  IL_00c6: ldloc.s local(0x000B)
+  IL_00c8: ldloc.s local(0x0005)
+  IL_00ca: sub
+  IL_00cb: stloc.s local(0x000B)
+  IL_00cd: ldloc.s local(0x0007)
+  IL_00cf: ldc.i4.0
+  IL_00d0: ble.s IL_014b
+  IL_00d2: ldloc.s local(0x0007)
+  IL_00d4: ldarg.s argument(0x0005)
+  IL_00d6: bge.s IL_014b
+  IL_00d8: ldloc.s local(0x0008)
+  IL_00da: ldc.i4.0
+  IL_00db: ble.s IL_014b
+  IL_00dd: ldloc.s local(0x0008)
+  IL_00df: ldarg.s argument(0x0006)
+  IL_00e1: bge.s IL_014b
+  IL_00e3: ldloc.0
+  IL_00e4: ldloc.s local(0x0009)
+  IL_00e6: ldc.i4.2
+  IL_00e7: add
+  IL_00e8: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_00ed: ldarg.1
+  IL_00ee: ldloc.s local(0x0008)
+  IL_00f0: ldc.i4.1
+  IL_00f1: sub
+  IL_00f2: ldarg.s argument(0x0005)
+  IL_00f4: mul
+  IL_00f5: ldloc.s local(0x0007)
+  IL_00f7: add
+  IL_00f8: ldc.i4.1
+  IL_00f9: sub
+  IL_00fa: ldc.i4.3
+  IL_00fb: mul
+  IL_00fc: ldc.i4.2
+  IL_00fd: add
+  IL_00fe: ldelem.u1
+  IL_00ff: ldc.i4 255
+  IL_0104: and
+  IL_0105: ldelem.u1
+  IL_0106: stelem.i1
+  IL_0107: ldloc.0
+  IL_0108: ldloc.s local(0x0009)
+  IL_010a: ldc.i4.1
+  IL_010b: add
+  IL_010c: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_0111: ldarg.1
+  IL_0112: ldloc.s local(0x0008)
+  IL_0114: ldc.i4.1
+  IL_0115: sub
+  IL_0116: ldarg.s argument(0x0005)
+  IL_0118: mul
+  IL_0119: ldloc.s local(0x0007)
+  IL_011b: add
+  IL_011c: ldc.i4.1
+  IL_011d: sub
+  IL_011e: ldc.i4.3
+  IL_011f: mul
+  IL_0120: ldc.i4.1
+  IL_0121: add
+  IL_0122: ldelem.u1
+  IL_0123: ldc.i4 255
+  IL_0128: and
+  IL_0129: ldelem.u1
+  IL_012a: stelem.i1
+  IL_012b: ldloc.0
+  IL_012c: ldloc.s local(0x0009)
+  IL_012e: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_0133: ldarg.1
+  IL_0134: ldloc.s local(0x0008)
+  IL_0136: ldc.i4.1
+  IL_0137: sub
+  IL_0138: ldarg.s argument(0x0005)
+  IL_013a: mul
+  IL_013b: ldloc.s local(0x0007)
+  IL_013d: add
+  IL_013e: ldc.i4.1
+  IL_013f: sub
+  IL_0140: ldc.i4.3
+  IL_0141: mul
+  IL_0142: ldelem.u1
+  IL_0143: ldc.i4 255
+  IL_0148: and
+  IL_0149: ldelem.u1
+  IL_014a: stelem.i1
+  IL_014b: ldloc.s local(0x0009)
+  IL_014d: ldc.i4.3
+  IL_014e: add
+  IL_014f: stloc.s local(0x0009)
+  IL_0151: ldloc.s local(0x000C)
+  IL_0153: ldc.i4.1
+  IL_0154: add
+  IL_0155: stloc.s local(0x000C)
+  IL_0157: ldloc.s local(0x000C)
+  IL_0159: ldarg.0
+  IL_015a: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_015f: blt IL_00b2
+  IL_0164: ldloc.s local(0x0006)
+  IL_0166: ldloc.1
+  IL_0167: add
+  IL_0168: stloc.s local(0x0006)
+  IL_016a: ldloc.s local(0x000A)
+  IL_016c: ldc.i4.1
+  IL_016d: add
+  IL_016e: stloc.s local(0x000A)
+  IL_0170: ldloc.s local(0x000A)
+  IL_0172: ldarg.0
+  IL_0173: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0178: blt IL_006e
+  IL_017d: ldloc.0
+  IL_017e: ret
+
+F20AD.Utils.Bin::makeModelBGR token 0x060003ed
+RVA=0x2444c file_offset=0x2264c header_size=12 IL_size=383
+IL_SHA256=a339d4760bbcc2119c318dc37b0ba4350ababe476723fa2e4021b6006ed5357a signature_blob=20061d051d050808080808
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0006: ldarg.0
+  IL_0007: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_000c: mul
+  IL_000d: ldc.i4.3
+  IL_000e: mul
+  IL_000f: newarr 0x0100013b System::Byte
+  IL_0014: stloc.0
+  IL_0015: ldc.r8 360.0
+  IL_001e: ldarg.0
+  IL_001f: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0024: conv.r8
+  IL_0025: div
+  IL_0026: stloc.1
+  IL_0027: ldc.r8 0.0
+  IL_0030: stloc.2
+  IL_0031: ldc.r8 0.0
+  IL_003a: stloc.3
+  IL_003b: ldarg.s argument(0x0004)
+  IL_003d: ldc.i4.4
+  IL_003e: sub
+  IL_003f: conv.r8
+  IL_0040: ldc.r8 2.0
+  IL_0049: div
+  IL_004a: stloc.s local(0x0004)
+  IL_004c: ldloc.s local(0x0004)
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_0054: conv.r8
+  IL_0055: div
+  IL_0056: stloc.s local(0x0005)
+  IL_0058: ldc.r8 0.0
+  IL_0061: stloc.s local(0x0006)
+  IL_0063: ldc.i4.0
+  IL_0064: stloc.s local(0x0009)
+  IL_0066: ldc.i4.0
+  IL_0067: stloc.s local(0x000A)
+  IL_0069: br IL_0170
+  IL_006e: ldloc.s local(0x0004)
+  IL_0070: stloc.s local(0x000B)
+  IL_0072: ldloc.s local(0x0006)
+  IL_0074: ldc.r8 3.141592653589793
+  IL_007d: mul
+  IL_007e: ldc.r8 180.0
+  IL_0087: div
+  IL_0088: call 0x0a0002ec System.Math::Cos
+  IL_008d: stloc.2
+  IL_008e: ldloc.s local(0x0006)
+  IL_0090: ldc.r8 3.141592653589793
+  IL_0099: mul
+  IL_009a: ldc.r8 180.0
+  IL_00a3: div
+  IL_00a4: call 0x0a0002ed System.Math::Sin
+  IL_00a9: stloc.3
+  IL_00aa: ldc.i4.0
+  IL_00ab: stloc.s local(0x000C)
+  IL_00ad: br IL_0157
+  IL_00b2: ldloc.s local(0x000B)
+  IL_00b4: ldloc.2
+  IL_00b5: mul
+  IL_00b6: ldarg.2
+  IL_00b7: conv.r8
+  IL_00b8: add
+  IL_00b9: conv.i4
+  IL_00ba: stloc.s local(0x0007)
+  IL_00bc: ldarg.3
+  IL_00bd: conv.r8
+  IL_00be: ldloc.s local(0x000B)
+  IL_00c0: ldloc.3
+  IL_00c1: mul
+  IL_00c2: sub
+  IL_00c3: conv.i4
+  IL_00c4: stloc.s local(0x0008)
+  IL_00c6: ldloc.s local(0x000B)
+  IL_00c8: ldloc.s local(0x0005)
+  IL_00ca: sub
+  IL_00cb: stloc.s local(0x000B)
+  IL_00cd: ldloc.s local(0x0007)
+  IL_00cf: ldc.i4.0
+  IL_00d0: ble.s IL_014b
+  IL_00d2: ldloc.s local(0x0007)
+  IL_00d4: ldarg.s argument(0x0005)
+  IL_00d6: bge.s IL_014b
+  IL_00d8: ldloc.s local(0x0008)
+  IL_00da: ldc.i4.0
+  IL_00db: ble.s IL_014b
+  IL_00dd: ldloc.s local(0x0008)
+  IL_00df: ldarg.s argument(0x0006)
+  IL_00e1: bge.s IL_014b
+  IL_00e3: ldloc.0
+  IL_00e4: ldloc.s local(0x0009)
+  IL_00e6: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_00eb: ldarg.1
+  IL_00ec: ldloc.s local(0x0008)
+  IL_00ee: ldc.i4.1
+  IL_00ef: sub
+  IL_00f0: ldarg.s argument(0x0005)
+  IL_00f2: mul
+  IL_00f3: ldloc.s local(0x0007)
+  IL_00f5: add
+  IL_00f6: ldc.i4.1
+  IL_00f7: sub
+  IL_00f8: ldc.i4.3
+  IL_00f9: mul
+  IL_00fa: ldc.i4.2
+  IL_00fb: add
+  IL_00fc: ldelem.u1
+  IL_00fd: ldc.i4 255
+  IL_0102: and
+  IL_0103: ldelem.u1
+  IL_0104: stelem.i1
+  IL_0105: ldloc.0
+  IL_0106: ldloc.s local(0x0009)
+  IL_0108: ldc.i4.1
+  IL_0109: add
+  IL_010a: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_010f: ldarg.1
+  IL_0110: ldloc.s local(0x0008)
+  IL_0112: ldc.i4.1
+  IL_0113: sub
+  IL_0114: ldarg.s argument(0x0005)
+  IL_0116: mul
+  IL_0117: ldloc.s local(0x0007)
+  IL_0119: add
+  IL_011a: ldc.i4.1
+  IL_011b: sub
+  IL_011c: ldc.i4.3
+  IL_011d: mul
+  IL_011e: ldc.i4.1
+  IL_011f: add
+  IL_0120: ldelem.u1
+  IL_0121: ldc.i4 255
+  IL_0126: and
+  IL_0127: ldelem.u1
+  IL_0128: stelem.i1
+  IL_0129: ldloc.0
+  IL_012a: ldloc.s local(0x0009)
+  IL_012c: ldc.i4.2
+  IL_012d: add
+  IL_012e: ldsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_0133: ldarg.1
+  IL_0134: ldloc.s local(0x0008)
+  IL_0136: ldc.i4.1
+  IL_0137: sub
+  IL_0138: ldarg.s argument(0x0005)
+  IL_013a: mul
+  IL_013b: ldloc.s local(0x0007)
+  IL_013d: add
+  IL_013e: ldc.i4.1
+  IL_013f: sub
+  IL_0140: ldc.i4.3
+  IL_0141: mul
+  IL_0142: ldelem.u1
+  IL_0143: ldc.i4 255
+  IL_0148: and
+  IL_0149: ldelem.u1
+  IL_014a: stelem.i1
+  IL_014b: ldloc.s local(0x0009)
+  IL_014d: ldc.i4.3
+  IL_014e: add
+  IL_014f: stloc.s local(0x0009)
+  IL_0151: ldloc.s local(0x000C)
+  IL_0153: ldc.i4.1
+  IL_0154: add
+  IL_0155: stloc.s local(0x000C)
+  IL_0157: ldloc.s local(0x000C)
+  IL_0159: ldarg.0
+  IL_015a: ldfld 0x040002f0 F20AD.Utils.Bin::col_num
+  IL_015f: blt IL_00b2
+  IL_0164: ldloc.s local(0x0006)
+  IL_0166: ldloc.1
+  IL_0167: add
+  IL_0168: stloc.s local(0x0006)
+  IL_016a: ldloc.s local(0x000A)
+  IL_016c: ldc.i4.1
+  IL_016d: add
+  IL_016e: stloc.s local(0x000A)
+  IL_0170: ldloc.s local(0x000A)
+  IL_0172: ldarg.0
+  IL_0173: ldfld 0x040002ef F20AD.Utils.Bin::row_num
+  IL_0178: blt IL_006e
+  IL_017d: ldloc.0
+  IL_017e: ret
+
+F20AD.Utils.Bin::bitmapToBin token 0x060003ee
+RVA=0x245d8 file_offset=0x227d8 header_size=12 IL_size=114
+IL_SHA256=382d966e3143a0974d06e1b2480f7029f5ec24dd47dbc3125da0aa8154844d56 signature_blob=20041d05128141080808
+  IL_0000: ldarg.1
+  IL_0001: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_0006: stloc.0
+  IL_0007: ldarg.1
+  IL_0008: callvirt 0x0a0000cf System.Drawing.Image::get_Height
+  IL_000d: stloc.1
+  IL_000e: ldarg.1
+  IL_000f: call 0x060003e9 F20AD.Utils.Bin::getRGBBytes
+  IL_0014: stloc.2
+  IL_0015: ldarg.0
+  IL_0016: ldfld 0x040002f4 F20AD.Utils.Bin::isRotate
+  IL_001b: brfalse.s IL_0045
+  IL_001d: ldarg.0
+  IL_001e: ldfld 0x040002f3 F20AD.Utils.Bin::isRGB
+  IL_0023: brfalse.s IL_0035
+  IL_0025: ldarg.0
+  IL_0026: ldloc.2
+  IL_0027: ldarg.2
+  IL_0028: ldarg.3
+  IL_0029: ldarg.s argument(0x0004)
+  IL_002b: ldloc.0
+  IL_002c: ldloc.1
+  IL_002d: call 0x060003ec F20AD.Utils.Bin::makeModel
+  IL_0032: stloc.3
+  IL_0033: br.s IL_0064
+  IL_0035: ldarg.0
+  IL_0036: ldloc.2
+  IL_0037: ldarg.2
+  IL_0038: ldarg.3
+  IL_0039: ldarg.s argument(0x0004)
+  IL_003b: ldloc.0
+  IL_003c: ldloc.1
+  IL_003d: call 0x060003ed F20AD.Utils.Bin::makeModelBGR
+  IL_0042: stloc.3
+  IL_0043: br.s IL_0064
+  IL_0045: ldloc.0
+  IL_0046: ldc.i4.3
+  IL_0047: div
+  IL_0048: stloc.s local(0x0004)
+  IL_004a: ldloc.1
+  IL_004b: ldloc.s local(0x0004)
+  IL_004d: sub
+  IL_004e: ldc.i4.2
+  IL_004f: div
+  IL_0050: ldc.i4.1
+  IL_0051: add
+  IL_0052: stloc.s local(0x0005)
+  IL_0054: ldarg.0
+  IL_0055: ldloc.2
+  IL_0056: ldc.i4.1
+  IL_0057: ldloc.s local(0x0005)
+  IL_0059: ldarg.s argument(0x0004)
+  IL_005b: ldloc.0
+  IL_005c: ldloc.s local(0x0004)
+  IL_005e: call 0x060003eb F20AD.Utils.Bin::makeModelNotRotate
+  IL_0063: stloc.3
+  IL_0064: ldarg.0
+  IL_0065: ldloc.3
+  IL_0066: call 0x060003ea F20AD.Utils.Bin::bgrToBin
+  IL_006b: ldarg.1
+  IL_006c: callvirt 0x0a00019b System.Drawing.Image::Dispose
+  IL_0071: ret
+
+F20AD.Utils.Bin::.cctor token 0x060003ef
+RVA=0x24656 file_offset=0x22856 header_size=1 IL_size=53
+IL_SHA256=0944ebdf0b15791158638be3ad9fb47e7ca06544fa0e6668ead53f693a1d1feb signature_blob=000001
+  IL_0000: ldc.i4 256
+  IL_0005: newarr 0x0100013b System::Byte
+  IL_000a: dup
+  IL_000b: ldtoken 0x040004b8 .<PrivateImplementationDetails>::4FE1CDB64658F8DCF02C2507A1085B12ABE75F5EFC089CB120E213B6253620EC
+  IL_0010: call 0x0a0002ee System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray
+  IL_0015: stsfld 0x040002ed F20AD.Utils.Bin::gamma_tab
+  IL_001a: ldc.i4 256
+  IL_001f: newarr 0x0100013b System::Byte
+  IL_0024: dup
+  IL_0025: ldtoken 0x040004b7 .<PrivateImplementationDetails>::2F1EE281848602F6204161D2571044C5EF136C0D6E609643B9A8074BCA4F1B44
+  IL_002a: call 0x0a0002ee System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray
+  IL_002f: stsfld 0x040002ee F20AD.Utils.Bin::offset_image
+  IL_0034: ret
+
+F20AD.Utils.DrawTool::ImageClip token 0x06000415
+RVA=0x259ac file_offset=0x23bac header_size=12 IL_size=414
+IL_SHA256=62062e31f547413698afb76bed826aa1f7a7294f83755b6c29ebe9aa2f4dbe15 signature_blob=0005021281dc0e0e0808
+  IL_0000: ldarg.1
+  IL_0001: newobj 0x0a0000cd System.Drawing.Bitmap::.ctor
+  IL_0006: stloc.0
+  IL_0007: ldarg.3
+  IL_0008: ldarg.s argument(0x0004)
+  IL_000a: newobj 0x0a0001a1 System.Drawing.Bitmap::.ctor
+  IL_000f: stloc.1
+  IL_0010: ldloc.1
+  IL_0011: call 0x0a0001a2 System.Drawing.Graphics::FromImage
+  IL_0016: dup
+  IL_0017: call 0x0a000315 System.Drawing.Color::get_Transparent
+  IL_001c: callvirt 0x0a00030b System.Drawing.Graphics::Clear
+  IL_0021: dup
+  IL_0022: ldc.i4.3
+  IL_0023: callvirt 0x0a000307 System.Drawing.Graphics::set_SmoothingMode
+  IL_0028: ldloc.0
+  IL_0029: ldc.i4.0
+  IL_002a: ldc.i4.0
+  IL_002b: ldarg.3
+  IL_002c: ldarg.s argument(0x0004)
+  IL_002e: callvirt 0x0a0001a3 System.Drawing.Graphics::DrawImage
+  IL_0033: newobj 0x0a000304 System.Drawing.Drawing2D.GraphicsPath::.ctor
+  IL_0038: stloc.2
+  IL_0039: ldarg.0
+  IL_003a: callvirt 0x0600054d F20AD.Entity.DeviceCircle::get_RelativePosition
+  IL_003f: callvirt 0x06000556 F20AD.Entity.CirclePosition::get_dia
+  IL_0044: pop
+  IL_0045: ldsfld 0x04000304 F20AD.Utils.DrawTool::imageWidth
+  IL_004a: conv.r8
+  IL_004b: ldarg.0
+  IL_004c: callvirt 0x0600054d F20AD.Entity.DeviceCircle::get_RelativePosition
+  IL_0051: callvirt 0x06000556 F20AD.Entity.CirclePosition::get_dia
+  IL_0056: div
+  IL_0057: stloc.3
+  IL_0058: ldloc.2
+  IL_0059: ldc.i4.s -9
+  IL_005b: ldc.i4.s -9
+  IL_005d: ldsfld 0x04000304 F20AD.Utils.DrawTool::imageWidth
+  IL_0062: ldc.i4.s 18
+  IL_0064: add
+  IL_0065: ldsfld 0x04000304 F20AD.Utils.DrawTool::imageWidth
+  IL_006a: ldc.i4.s 18
+  IL_006c: add
+  IL_006d: newobj 0x0a0002e5 System.Drawing.Rectangle::.ctor
+  IL_0072: callvirt 0x0a000305 System.Drawing.Drawing2D.GraphicsPath::AddRectangle
+  IL_0077: ldsfld 0x04000304 F20AD.Utils.DrawTool::imageWidth
+  IL_007c: ldsfld 0x04000304 F20AD.Utils.DrawTool::imageWidth
+  IL_0081: newobj 0x0a0001a1 System.Drawing.Bitmap::.ctor
+  IL_0086: stloc.s local(0x0004)
+  IL_0088: ldloc.s local(0x0004)
+  IL_008a: call 0x0a0001a2 System.Drawing.Graphics::FromImage
+  IL_008f: stloc.s local(0x0005)
+  IL_0091: ldloc.s local(0x0005)
+  IL_0093: call 0x0a000315 System.Drawing.Color::get_Transparent
+  IL_0098: callvirt 0x0a00030b System.Drawing.Graphics::Clear
+  IL_009d: ldloc.s local(0x0005)
+  IL_009f: ldc.i4.1
+  IL_00a0: callvirt 0x0a000306 System.Drawing.Graphics::set_InterpolationMode
+  IL_00a5: ldloc.s local(0x0005)
+  IL_00a7: ldc.i4.1
+  IL_00a8: callvirt 0x0a000307 System.Drawing.Graphics::set_SmoothingMode
+  IL_00ad: ldloc.s local(0x0005)
+  IL_00af: ldc.i4.1
+  IL_00b0: callvirt 0x0a000308 System.Drawing.Graphics::set_CompositingQuality
+  IL_00b5: ldsfld 0x04000306 F20AD.Utils.DrawTool::noClipping
+  IL_00ba: brtrue.s IL_00c4
+  IL_00bc: ldloc.s local(0x0005)
+  IL_00be: ldloc.2
+  IL_00bf: callvirt 0x0a000309 System.Drawing.Graphics::SetClip
+  IL_00c4: ldloc.s local(0x0005)
+  IL_00c6: ldloc.1
+  IL_00c7: ldc.r8 0.0
+  IL_00d0: ldloc.3
+  IL_00d1: ldarg.0
+  IL_00d2: callvirt 0x0600054d F20AD.Entity.DeviceCircle::get_RelativePosition
+  IL_00d7: callvirt 0x06000552 F20AD.Entity.CirclePosition::get_x
+  IL_00dc: mul
+  IL_00dd: sub
+  IL_00de: conv.r4
+  IL_00df: ldc.r8 0.0
+  IL_00e8: ldloc.3
+  IL_00e9: ldarg.0
+  IL_00ea: callvirt 0x0600054d F20AD.Entity.DeviceCircle::get_RelativePosition
+  IL_00ef: callvirt 0x06000554 F20AD.Entity.CirclePosition::get_y
+  IL_00f4: mul
+  IL_00f5: sub
+  IL_00f6: conv.r4
+  IL_00f7: ldarg.3
+  IL_00f8: conv.r8
+  IL_00f9: ldloc.3
+  IL_00fa: mul
+  IL_00fb: conv.r4
+  IL_00fc: ldarg.s argument(0x0004)
+  IL_00fe: conv.r8
+  IL_00ff: ldloc.3
+  IL_0100: mul
+  IL_0101: conv.r4
+  IL_0102: callvirt 0x0a00030c System.Drawing.Graphics::DrawImage
+  IL_0107: ldloc.2
+  IL_0108: callvirt 0x0a00030f System.Drawing.Drawing2D.GraphicsPath::Dispose
+  IL_010d: ldloc.s local(0x0005)
+  IL_010f: callvirt 0x0a0001a4 System.Drawing.Graphics::Dispose
+  IL_0114: ldloc.s local(0x0004)
+  IL_0116: ldc.i4.5
+  IL_0117: newarr 0x010000f2 System::String
+  IL_011c: dup
+  IL_011d: ldc.i4.0
+  IL_011e: ldstr 0x70003590 'tmp/'
+  IL_0123: stelem.ref
+  IL_0124: dup
+  IL_0125: ldc.i4.1
+  IL_0126: ldarg.0
+  IL_0127: callvirt 0x06000549 F20AD.Entity.DeviceCircle::get_Mac
+  IL_012c: stelem.ref
+  IL_012d: dup
+  IL_012e: ldc.i4.2
+  IL_012f: ldstr 0x7000053b '/'
+  IL_0134: stelem.ref
+  IL_0135: dup
+  IL_0136: ldc.i4.3
+  IL_0137: ldarg.2
+  IL_0138: stelem.ref
+  IL_0139: dup
+  IL_013a: ldc.i4.4
+  IL_013b: ldstr 0x7000049b '.jpg'
+  IL_0140: stelem.ref
+  IL_0141: call 0x0a000272 System.String::Concat
+  IL_0146: ldc.i4.s 80
+  IL_0148: call 0x060004a2 F20AD.Utils.TurboLibjpeg::BitmapSaveToJpeg
+  IL_014d: ldloc.s local(0x0004)
+  IL_014f: callvirt 0x0a00019b System.Drawing.Image::Dispose
+  IL_0154: ldc.i4.1
+  IL_0155: stloc.s local(0x0006)
+  IL_0157: leave.s IL_019b
+  IL_0159: stloc.s local(0x0007)
+  IL_015b: ldstr 0x7000359a '取图'
+  IL_0160: ldloc.s local(0x0007)
+  IL_0162: dup
+  IL_0163: brtrue.s IL_0169
+  IL_0165: pop
+  IL_0166: ldnull
+  IL_0167: br.s IL_016e
+  IL_0169: callvirt 0x0a00004c System.Object::ToString
+  IL_016e: call 0x0a000069 System.String::Concat
+  IL_0173: call 0x0600043f F20AD.Utils.ErrorLog::Write
+  IL_0178: ldstr 0x700035a0 '错误: '
+  IL_017d: ldloc.s local(0x0007)
+  IL_017f: dup
+  IL_0180: brtrue.s IL_0186
+  IL_0182: pop
+  IL_0183: ldnull
+  IL_0184: br.s IL_018b
+  IL_0186: callvirt 0x0a00004c System.Object::ToString
+  IL_018b: call 0x0a000069 System.String::Concat
+  IL_0190: call 0x0a0000e7 System.Windows.MessageBox::Show
+  IL_0195: pop
+  IL_0196: ldc.i4.0
+  IL_0197: stloc.s local(0x0006)
+  IL_0199: leave.s IL_019b
+  IL_019b: ldloc.s local(0x0006)
+  IL_019d: ret
+
+F20AD.Utils.TypeConversion::GetBytes token 0x060004b1
+RVA=0x29dc0 file_offset=0x27fc0 header_size=12 IL_size=25
+IL_SHA256=305c96cfef0bab58ddc29b1dd89acf8e774047fd19e22526e0e841c17f3b9770 signature_blob=00021d050a02
+  IL_0000: ldarg.0
+  IL_0001: call 0x0a0003a4 System.BitConverter::GetBytes
+  IL_0006: stloc.0
+  IL_0007: ldsfld 0x0a0003a5 System.BitConverter::IsLittleEndian
+  IL_000c: ldarg.1
+  IL_000d: bne.un.s IL_0011
+  IL_000f: ldloc.0
+  IL_0010: ret
+  IL_0011: ldloc.0
+  IL_0012: call 0x0a0003a6 System.Array::Reverse
+  IL_0017: ldloc.0
+  IL_0018: ret
+
+F20AD.Utils.TypeConversion::GetBytes token 0x060004b2
+RVA=0x29de8 file_offset=0x27fe8 header_size=12 IL_size=25
+IL_SHA256=450653ae30702f2628ba18ca7d583e9fc3a7b0707ec24b15ccdd2de2e4692a11 signature_blob=00021d050602
+  IL_0000: ldarg.0
+  IL_0001: call 0x0a0003a7 System.BitConverter::GetBytes
+  IL_0006: stloc.0
+  IL_0007: ldsfld 0x0a0003a5 System.BitConverter::IsLittleEndian
+  IL_000c: ldarg.1
+  IL_000d: bne.un.s IL_0011
+  IL_000f: ldloc.0
+  IL_0010: ret
+  IL_0011: ldloc.0
+  IL_0012: call 0x0a0003a6 System.Array::Reverse
+  IL_0017: ldloc.0
+  IL_0018: ret
+
+F20AD.Utils.TypeConversion::GetBytes token 0x060004b3
+RVA=0x29e10 file_offset=0x28010 header_size=12 IL_size=25
+IL_SHA256=90e12073eac513c574ce0c415e8c6b3c08a3d9832558c916b9ebfdffa6fe6a9a signature_blob=00021d050802
+  IL_0000: ldarg.0
+  IL_0001: call 0x0a0003a8 System.BitConverter::GetBytes
+  IL_0006: stloc.0
+  IL_0007: ldsfld 0x0a0003a5 System.BitConverter::IsLittleEndian
+  IL_000c: ldarg.1
+  IL_000d: bne.un.s IL_0011
+  IL_000f: ldloc.0
+  IL_0010: ret
+  IL_0011: ldloc.0
+  IL_0012: call 0x0a0003a6 System.Array::Reverse
+  IL_0017: ldloc.0
+  IL_0018: ret
+
+F20AD.Utils.TypeConversion::GetBytes token 0x060004b4
+RVA=0x29e38 file_offset=0x28038 header_size=12 IL_size=127
+IL_SHA256=740c53b7aa1699b47c3ac1bb5a0e8ab28b5dcf012732ef062ab7c27b7ff492ad signature_blob=00021d050e08
+  IL_0000: call 0x0a0001b4 System.Text.Encoding::get_UTF8
+  IL_0005: ldarg.0
+  IL_0006: callvirt 0x0a0001ca System.Text.Encoding::GetBytes
+  IL_000b: stloc.0
+  IL_000c: ldloc.0
+  IL_000d: ldlen
+  IL_000e: conv.i4
+  IL_000f: ldarg.1
+  IL_0010: bgt.s IL_0017
+  IL_0012: ldloc.0
+  IL_0013: stloc.s local(0x0004)
+  IL_0015: leave.s IL_007c
+  IL_0017: ldarg.1
+  IL_0018: newarr 0x0100013b System::Byte
+  IL_001d: stloc.1
+  IL_001e: ldloc.0
+  IL_001f: ldloc.1
+  IL_0020: ldarg.1
+  IL_0021: call 0x0a0003a9 System.Array::Copy
+  IL_0026: call 0x0a0001b4 System.Text.Encoding::get_UTF8
+  IL_002b: ldloc.1
+  IL_002c: callvirt 0x0a0001b5 System.Text.Encoding::GetString
+  IL_0031: callvirt 0x0a00011c System.String::get_Length
+  IL_0036: stloc.2
+  IL_0037: call 0x0a0001b4 System.Text.Encoding::get_UTF8
+  IL_003c: ldarg.0
+  IL_003d: ldc.i4.0
+  IL_003e: ldloc.2
+  IL_003f: ldloc.0
+  IL_0040: ldc.i4.0
+  IL_0041: callvirt 0x0a0003aa System.Text.Encoding::GetBytes
+  IL_0046: stloc.3
+  IL_0047: ldloc.3
+  IL_0048: ldarg.1
+  IL_0049: ble.s IL_005d
+  IL_004b: call 0x0a0001b4 System.Text.Encoding::get_UTF8
+  IL_0050: ldarg.0
+  IL_0051: ldc.i4.0
+  IL_0052: ldloc.2
+  IL_0053: ldc.i4.1
+  IL_0054: sub
+  IL_0055: ldloc.0
+  IL_0056: ldc.i4.0
+  IL_0057: callvirt 0x0a0003aa System.Text.Encoding::GetBytes
+  IL_005c: stloc.3
+  IL_005d: ldloc.3
+  IL_005e: newarr 0x0100013b System::Byte
+  IL_0063: stloc.1
+  IL_0064: ldloc.0
+  IL_0065: ldloc.1
+  IL_0066: ldloc.3
+  IL_0067: call 0x0a0003a9 System.Array::Copy
+  IL_006c: ldloc.1
+  IL_006d: stloc.s local(0x0004)
+  IL_006f: leave.s IL_007c
+  IL_0071: pop
+  IL_0072: ldc.i4.0
+  IL_0073: newarr 0x0100013b System::Byte
+  IL_0078: stloc.s local(0x0004)
+  IL_007a: leave.s IL_007c
+  IL_007c: ldloc.s local(0x0004)
+  IL_007e: ret
+
+F20AD.FFYTPlayer.VideoStreamDecoder::extractAudio token 0x06000513
+RVA=0x2b83c file_offset=0x29a3c header_size=12 IL_size=958
+IL_SHA256=869335dbf12ce3b80b4b35b63258d4f104546d727647cb8640b5cc842b532aed signature_blob=2003010e0808
+  IL_0000: ldc.i4.3
+  IL_0001: conv.i8
+  IL_0002: stloc.1
+  IL_0003: ldc.i4.4
+  IL_0004: conv.i8
+  IL_0005: stloc.2
+  IL_0006: ldc.i4.0
+  IL_0007: stloc.3
+  IL_0008: ldc.i4.0
+  IL_0009: stloc.s local(0x0004)
+  IL_000b: ldc.i4.0
+  IL_000c: stloc.s local(0x0005)
+  IL_000e: ldc.i4 32000
+  IL_0013: stloc.s local(0x0006)
+  IL_0015: ldc.i4.0
+  IL_0016: stloc.s local(0x0007)
+  IL_0018: ldarg.2
+  IL_0019: ldarg.0
+  IL_001a: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_001f: ldflda 0x0a0003ef FFmpeg.AutoGen.AVCodecContext::pkt_timebase
+  IL_0024: ldfld 0x0a0000e5 FFmpeg.AutoGen.AVRational::den
+  IL_0029: mul
+  IL_002a: ldarg.0
+  IL_002b: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_0030: ldflda 0x0a0003ef FFmpeg.AutoGen.AVCodecContext::pkt_timebase
+  IL_0035: ldfld 0x0a0000e6 FFmpeg.AutoGen.AVRational::num
+  IL_003a: div
+  IL_003b: conv.i8
+  IL_003c: stloc.s local(0x0008)
+  IL_003e: ldarg.0
+  IL_003f: ldfld 0x0400037f F20AD.FFYTPlayer.VideoStreamDecoder::_pFormatContext
+  IL_0044: ldarg.0
+  IL_0045: ldfld 0x04000383 F20AD.FFYTPlayer.VideoStreamDecoder::_audioStreamIndex
+  IL_004a: ldloc.s local(0x0008)
+  IL_004c: ldc.i4.1
+  IL_004d: call 0x0a0003f0 FFmpeg.AutoGen.ffmpeg::av_seek_frame
+  IL_0052: call 0x0600050b F20AD.FFYTPlayer.FFmpegHelper::ThrowExceptionIfError
+  IL_0057: pop
+  IL_0058: ldarg.0
+  IL_0059: ldfld 0x0400037f F20AD.FFYTPlayer.VideoStreamDecoder::_pFormatContext
+  IL_005e: ldfld 0x0a0003de FFmpeg.AutoGen.AVFormatContext::streams
+  IL_0063: ldarg.0
+  IL_0064: ldfld 0x04000383 F20AD.FFYTPlayer.VideoStreamDecoder::_audioStreamIndex
+  IL_0069: conv.i
+  IL_006a: sizeof 0x1b000061 ::signature:0f11832d
+  IL_0070: mul
+  IL_0071: add
+  IL_0072: ldind.i
+  IL_0073: ldfld 0x0a0003df FFmpeg.AutoGen.AVStream::codec
+  IL_0078: call 0x0a0003f1 FFmpeg.AutoGen.ffmpeg::avcodec_flush_buffers
+  IL_007d: call 0x0a0003f2 FFmpeg.AutoGen.ffmpeg::swr_alloc
+  IL_0082: stloc.s local(0x0009)
+  IL_0084: ldarg.0
+  IL_0085: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_008a: ldfld 0x0a0003f3 FFmpeg.AutoGen.AVCodecContext::channel_layout
+  IL_008f: conv.i4
+  IL_0090: brfalse.s IL_00bd
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_0098: ldfld 0x0a0003f4 FFmpeg.AutoGen.AVCodecContext::channels
+  IL_009d: ldarg.0
+  IL_009e: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_00a3: ldfld 0x0a0003f3 FFmpeg.AutoGen.AVCodecContext::channel_layout
+  IL_00a8: call 0x0a0003f5 FFmpeg.AutoGen.ffmpeg::av_get_channel_layout_nb_channels
+  IL_00ad: bne.un.s IL_00bd
+  IL_00af: ldarg.0
+  IL_00b0: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_00b5: ldfld 0x0a0003f3 FFmpeg.AutoGen.AVCodecContext::channel_layout
+  IL_00ba: stloc.1
+  IL_00bb: br.s IL_00ce
+  IL_00bd: ldarg.0
+  IL_00be: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_00c3: ldfld 0x0a0003f4 FFmpeg.AutoGen.AVCodecContext::channels
+  IL_00c8: call 0x0a0003f6 FFmpeg.AutoGen.ffmpeg::av_get_default_channel_layout
+  IL_00cd: stloc.1
+  IL_00ce: ldloc.1
+  IL_00cf: ldc.i4.0
+  IL_00d0: conv.i8
+  IL_00d1: bgt.s IL_00d8
+  IL_00d3: leave IL_03bd
+  IL_00d8: ldloc.s local(0x0006)
+  IL_00da: ldc.i4.2
+  IL_00db: mul
+  IL_00dc: call 0x0a000396 System.Runtime.InteropServices.Marshal::AllocHGlobal
+  IL_00e1: call 0x0a00032c System.IntPtr::op_Explicit
+  IL_00e6: stloc.s local(0x000A)
+  IL_00e8: ldc.i4.0
+  IL_00e9: stloc.s local(0x000B)
+  IL_00eb: ldloc.s local(0x0009)
+  IL_00ed: ldloc.2
+  IL_00ee: ldloc.s local(0x000B)
+  IL_00f0: ldloc.s local(0x0006)
+  IL_00f2: ldloc.1
+  IL_00f3: ldarg.0
+  IL_00f4: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_00f9: ldfld 0x0a0003f7 FFmpeg.AutoGen.AVCodecContext::sample_fmt
+  IL_00fe: ldarg.0
+  IL_00ff: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_0104: ldfld 0x0a0003f8 FFmpeg.AutoGen.AVCodecContext::sample_rate
+  IL_0109: ldc.i4.0
+  IL_010a: ldc.i4.0
+  IL_010b: conv.u
+  IL_010c: call 0x0a0003f9 FFmpeg.AutoGen.ffmpeg::swr_alloc_set_opts
+  IL_0111: pop
+  IL_0112: ldloc.s local(0x0009)
+  IL_0114: call 0x0a0003fa FFmpeg.AutoGen.ffmpeg::swr_init
+  IL_0119: pop
+  IL_011a: ldc.i4.4
+  IL_011b: conv.i8
+  IL_011c: call 0x0a0003f5 FFmpeg.AutoGen.ffmpeg::av_get_channel_layout_nb_channels
+  IL_0121: stloc.3
+  IL_0122: newobj 0x060004bd F20AD.Utils.WAV::.ctor
+  IL_0127: stloc.s local(0x000C)
+  IL_0129: ldloc.s local(0x000C)
+  IL_012b: ldc.i4.1
+  IL_012c: ldc.i4.1
+  IL_012d: ldloc.s local(0x0006)
+  IL_012f: ldc.i4.8
+  IL_0130: callvirt 0x060004be F20AD.Utils.WAV::setFormat
+  IL_0135: ldarg.1
+  IL_0136: ldc.i4.4
+  IL_0137: ldc.i4.2
+  IL_0138: newobj 0x0a0003fb System.IO.FileStream::.ctor
+  IL_013d: stloc.s local(0x000D)
+  IL_013f: ldloc.s local(0x000D)
+  IL_0141: ldc.i4.s 44
+  IL_0143: newarr 0x0100013b System::Byte
+  IL_0148: ldc.i4.0
+  IL_0149: ldc.i4.s 44
+  IL_014b: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_0150: ldc.i4.0
+  IL_0151: stloc.s local(0x000E)
+  IL_0153: ldarg.0
+  IL_0154: ldfld 0x04000381 F20AD.FFYTPlayer.VideoStreamDecoder::_aStream
+  IL_0159: ldflda 0x0a0003fc FFmpeg.AutoGen.AVStream::time_base
+  IL_015e: ldfld 0x0a0000e6 FFmpeg.AutoGen.AVRational::num
+  IL_0163: stloc.s local(0x000F)
+  IL_0165: ldarg.0
+  IL_0166: ldfld 0x04000381 F20AD.FFYTPlayer.VideoStreamDecoder::_aStream
+  IL_016b: ldflda 0x0a0003fc FFmpeg.AutoGen.AVStream::time_base
+  IL_0170: ldfld 0x0a0000e5 FFmpeg.AutoGen.AVRational::den
+  IL_0175: stloc.s local(0x0010)
+  IL_0177: br IL_0318
+  IL_017c: ldarg.0
+  IL_017d: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_0182: ldfld 0x0a0003fd FFmpeg.AutoGen.AVPacket::stream_index
+  IL_0187: ldarg.0
+  IL_0188: ldfld 0x04000383 F20AD.FFYTPlayer.VideoStreamDecoder::_audioStreamIndex
+  IL_018d: bne.un IL_0318
+  IL_0192: ldarg.0
+  IL_0193: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_0198: ldarg.0
+  IL_0199: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_019e: call 0x0a0003fe FFmpeg.AutoGen.ffmpeg::avcodec_send_packet
+  IL_01a3: stloc.0
+  IL_01a4: ldloc.0
+  IL_01a5: ldsfld 0x0a0003ff FFmpeg.AutoGen.ffmpeg::AVERROR_EOF
+  IL_01aa: bne.un IL_0302
+  IL_01af: br IL_032f
+  IL_01b4: ldarg.0
+  IL_01b5: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_01ba: ldfld 0x0a000400 FFmpeg.AutoGen.AVFrame::pts
+  IL_01bf: ldloc.s local(0x000F)
+  IL_01c1: conv.i8
+  IL_01c2: mul
+  IL_01c3: ldloc.s local(0x0010)
+  IL_01c5: conv.i8
+  IL_01c6: div
+  IL_01c7: conv.i4
+  IL_01c8: stloc.s local(0x0011)
+  IL_01ca: ldloc.s local(0x0011)
+  IL_01cc: ldarg.2
+  IL_01cd: blt IL_0302
+  IL_01d2: ldarg.0
+  IL_01d3: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_01d8: ldfld 0x0a000401 FFmpeg.AutoGen.AVFrame::nb_samples
+  IL_01dd: stloc.s local(0x0004)
+  IL_01df: ldloc.s local(0x0009)
+  IL_01e1: ldarg.0
+  IL_01e2: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_01e7: ldfld 0x0a0003f8 FFmpeg.AutoGen.AVCodecContext::sample_rate
+  IL_01ec: conv.i8
+  IL_01ed: call 0x0a000402 FFmpeg.AutoGen.ffmpeg::swr_get_delay
+  IL_01f2: ldloc.s local(0x0004)
+  IL_01f4: conv.i8
+  IL_01f5: add
+  IL_01f6: ldloc.s local(0x0006)
+  IL_01f8: conv.i8
+  IL_01f9: ldarg.0
+  IL_01fa: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_01ff: ldfld 0x0a0003f8 FFmpeg.AutoGen.AVCodecContext::sample_rate
+  IL_0204: conv.i8
+  IL_0205: ldc.i4.3
+  IL_0206: call 0x0a000403 FFmpeg.AutoGen.ffmpeg::av_rescale_rnd
+  IL_020b: conv.i4
+  IL_020c: stloc.s local(0x0005)
+  IL_020e: ldloca.s local(0x000A)
+  IL_0210: conv.u
+  IL_0211: ldloca.s local(0x0007)
+  IL_0213: conv.u
+  IL_0214: ldloc.3
+  IL_0215: ldloc.s local(0x0005)
+  IL_0217: ldloc.s local(0x000B)
+  IL_0219: ldc.i4.1
+  IL_021a: call 0x0a000404 FFmpeg.AutoGen.ffmpeg::av_samples_alloc
+  IL_021f: stloc.0
+  IL_0220: ldloc.s local(0x0009)
+  IL_0222: ldloca.s local(0x000A)
+  IL_0224: conv.u
+  IL_0225: ldloc.s local(0x0005)
+  IL_0227: ldarg.0
+  IL_0228: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_022d: ldflda 0x0a0003cf FFmpeg.AutoGen.AVFrame::data
+  IL_0232: conv.u
+  IL_0233: ldarg.0
+  IL_0234: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_0239: ldfld 0x0a000401 FFmpeg.AutoGen.AVFrame::nb_samples
+  IL_023e: call 0x0a000405 FFmpeg.AutoGen.ffmpeg::swr_convert
+  IL_0243: stloc.0
+  IL_0244: ldloca.s local(0x0007)
+  IL_0246: conv.u
+  IL_0247: ldloc.3
+  IL_0248: ldloc.0
+  IL_0249: ldloc.s local(0x000B)
+  IL_024b: ldc.i4.1
+  IL_024c: call 0x0a000406 FFmpeg.AutoGen.ffmpeg::av_samples_get_buffer_size
+  IL_0251: stloc.s local(0x0012)
+  IL_0253: ldloc.s local(0x0012)
+  IL_0255: newarr 0x0100013b System::Byte
+  IL_025a: stloc.s local(0x0013)
+  IL_025c: ldloc.s local(0x000A)
+  IL_025e: call 0x0a0003a1 System.IntPtr::op_Explicit
+  IL_0263: ldloc.s local(0x0013)
+  IL_0265: ldc.i4.0
+  IL_0266: ldloc.s local(0x0012)
+  IL_0268: call 0x0a0002eb System.Runtime.InteropServices.Marshal::Copy
+  IL_026d: ldloc.s local(0x000D)
+  IL_026f: ldloc.s local(0x0013)
+  IL_0271: ldc.i4.0
+  IL_0272: ldloc.s local(0x0013)
+  IL_0274: ldlen
+  IL_0275: conv.i4
+  IL_0276: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_027b: ldloc.s local(0x000E)
+  IL_027d: ldloc.s local(0x0012)
+  IL_027f: add
+  IL_0280: stloc.s local(0x000E)
+  IL_0282: ldloc.s local(0x0011)
+  IL_0284: ldarg.2
+  IL_0285: ldarg.3
+  IL_0286: add
+  IL_0287: ldc.i4.1
+  IL_0288: sub
+  IL_0289: ble.s IL_0302
+  IL_028b: ldloc.s local(0x000C)
+  IL_028d: ldloc.s local(0x000E)
+  IL_028f: callvirt 0x060004bf F20AD.Utils.WAV::setDataSize
+  IL_0294: ldloc.s local(0x000D)
+  IL_0296: ldc.i4.0
+  IL_0297: conv.i8
+  IL_0298: ldc.i4.0
+  IL_0299: callvirt 0x0a000227 System.IO.Stream::Seek
+  IL_029e: pop
+  IL_029f: ldloc.s local(0x000D)
+  IL_02a1: ldloc.s local(0x000C)
+  IL_02a3: callvirt 0x060004c0 F20AD.Utils.WAV::getHeaderData
+  IL_02a8: ldc.i4.0
+  IL_02a9: ldc.i4.s 44
+  IL_02ab: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_02b0: ldloc.s local(0x000D)
+  IL_02b2: callvirt 0x0a000407 System.IO.Stream::Flush
+  IL_02b7: ldloc.s local(0x000D)
+  IL_02b9: callvirt 0x0a00020e System.IO.Stream::Close
+  IL_02be: ldloc.s local(0x000D)
+  IL_02c0: callvirt 0x0a000408 System.IO.Stream::Dispose
+  IL_02c5: ldarg.0
+  IL_02c6: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_02cb: call 0x0a000409 FFmpeg.AutoGen.ffmpeg::av_frame_unref
+  IL_02d0: ldarg.0
+  IL_02d1: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_02d6: call 0x0a00040a FFmpeg.AutoGen.ffmpeg::av_free
+  IL_02db: ldarg.0
+  IL_02dc: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_02e1: call 0x0a00040b FFmpeg.AutoGen.ffmpeg::av_packet_unref
+  IL_02e6: ldarg.0
+  IL_02e7: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_02ec: call 0x0a00040a FFmpeg.AutoGen.ffmpeg::av_free
+  IL_02f1: ldarg.0
+  IL_02f2: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_02f7: call 0x0a00040c FFmpeg.AutoGen.ffmpeg::avcodec_close
+  IL_02fc: pop
+  IL_02fd: leave IL_03bd
+  IL_0302: ldarg.0
+  IL_0303: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_0308: ldarg.0
+  IL_0309: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_030e: call 0x0a00040d FFmpeg.AutoGen.ffmpeg::avcodec_receive_frame
+  IL_0313: brfalse IL_01b4
+  IL_0318: ldarg.0
+  IL_0319: ldfld 0x0400037f F20AD.FFYTPlayer.VideoStreamDecoder::_pFormatContext
+  IL_031e: ldarg.0
+  IL_031f: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_0324: call 0x0a00040e FFmpeg.AutoGen.ffmpeg::av_read_frame
+  IL_0329: ldc.i4.0
+  IL_032a: bge IL_017c
+  IL_032f: ldloc.s local(0x000C)
+  IL_0331: ldloc.s local(0x000E)
+  IL_0333: callvirt 0x060004bf F20AD.Utils.WAV::setDataSize
+  IL_0338: ldloc.s local(0x000D)
+  IL_033a: ldc.i4.0
+  IL_033b: conv.i8
+  IL_033c: ldc.i4.0
+  IL_033d: callvirt 0x0a000227 System.IO.Stream::Seek
+  IL_0342: pop
+  IL_0343: ldloc.s local(0x000D)
+  IL_0345: ldloc.s local(0x000C)
+  IL_0347: callvirt 0x060004c0 F20AD.Utils.WAV::getHeaderData
+  IL_034c: ldc.i4.0
+  IL_034d: ldc.i4.s 44
+  IL_034f: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_0354: ldloc.s local(0x000D)
+  IL_0356: callvirt 0x0a000407 System.IO.Stream::Flush
+  IL_035b: ldloc.s local(0x000D)
+  IL_035d: callvirt 0x0a00020e System.IO.Stream::Close
+  IL_0362: ldloc.s local(0x000D)
+  IL_0364: callvirt 0x0a000408 System.IO.Stream::Dispose
+  IL_0369: ldarg.0
+  IL_036a: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_036f: call 0x0a000409 FFmpeg.AutoGen.ffmpeg::av_frame_unref
+  IL_0374: ldarg.0
+  IL_0375: ldfld 0x04000386 F20AD.FFYTPlayer.VideoStreamDecoder::_aFrame
+  IL_037a: call 0x0a00040a FFmpeg.AutoGen.ffmpeg::av_free
+  IL_037f: ldarg.0
+  IL_0380: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_0385: call 0x0a00040b FFmpeg.AutoGen.ffmpeg::av_packet_unref
+  IL_038a: ldarg.0
+  IL_038b: ldfld 0x04000387 F20AD.FFYTPlayer.VideoStreamDecoder::_aPacket
+  IL_0390: call 0x0a00040a FFmpeg.AutoGen.ffmpeg::av_free
+  IL_0395: ldarg.0
+  IL_0396: ldfld 0x0400037e F20AD.FFYTPlayer.VideoStreamDecoder::_aCodecContext
+  IL_039b: call 0x0a00040c FFmpeg.AutoGen.ffmpeg::avcodec_close
+  IL_03a0: pop
+  IL_03a1: leave.s IL_03bd
+  IL_03a3: stloc.s local(0x0014)
+  IL_03a5: ldstr 0x70004a3a '音频提取失败:'
+  IL_03aa: ldloc.s local(0x0014)
+  IL_03ac: callvirt 0x0a000184 System.Exception::get_Message
+  IL_03b1: call 0x0a000069 System.String::Concat
+  IL_03b6: call 0x0a0000ad System.Console::WriteLine
+  IL_03bb: leave.s IL_03bd
+  IL_03bd: ret
+
+F20AD.FFYTPlayer.YTPlayer::GetFrames token 0x0600053d
+RVA=0x2c8c0 file_offset=0x2aac0 header_size=12 IL_size=578
+IL_SHA256=34e39b38cb97ca726b859fabcb4f2ab1527ab148bb174d7efa556a24521fd1e4 signature_blob=2007010808080e151280b9011281dc0808
+  IL_0000: ldarg.0
+  IL_0001: ldc.i4.0
+  IL_0002: stfld 0x040003b4 F20AD.FFYTPlayer.YTPlayer::_isCancelGetFrames
+  IL_0007: ldarg.0
+  IL_0008: ldfld 0x040003a2 F20AD.FFYTPlayer.YTPlayer::VSD
+  IL_000d: ldarg.1
+  IL_000e: conv.r8
+  IL_000f: callvirt 0x06000517 F20AD.FFYTPlayer.VideoStreamDecoder::Seek
+  IL_0014: pop
+  IL_0015: ldc.i4.1
+  IL_0016: stloc.0
+  IL_0017: ldarg.0
+  IL_0018: ldflda 0x040003a4 F20AD.FFYTPlayer.YTPlayer::Fps
+  IL_001d: ldfld 0x0a0000e6 FFmpeg.AutoGen.AVRational::num
+  IL_0022: conv.r8
+  IL_0023: ldarg.0
+  IL_0024: ldflda 0x040003a4 F20AD.FFYTPlayer.YTPlayer::Fps
+  IL_0029: ldfld 0x0a0000e5 FFmpeg.AutoGen.AVRational::den
+  IL_002e: conv.r8
+  IL_002f: div
+  IL_0030: ldarg.3
+  IL_0031: conv.r8
+  IL_0032: div
+  IL_0033: stloc.1
+  IL_0034: ldarg.0
+  IL_0035: ldfld 0x040003a2 F20AD.FFYTPlayer.YTPlayer::VSD
+  IL_003a: callvirt 0x06000511 F20AD.FFYTPlayer.VideoStreamDecoder::get_PixelFormat
+  IL_003f: stloc.3
+  IL_0040: ldc.i4.3
+  IL_0041: stloc.s local(0x0004)
+  IL_0043: ldarg.0
+  IL_0044: ldfld 0x040003a3 F20AD.FFYTPlayer.YTPlayer::videoSize
+  IL_0049: ldloc.3
+  IL_004a: ldarg.0
+  IL_004b: ldfld 0x040003a3 F20AD.FFYTPlayer.YTPlayer::videoSize
+  IL_0050: ldloc.s local(0x0004)
+  IL_0052: newobj 0x0600050c F20AD.FFYTPlayer.VideoFrameConverter::.ctor
+  IL_0057: stloc.s local(0x0005)
+  IL_0059: ldarg.1
+  IL_005a: ldarg.0
+  IL_005b: ldflda 0x040003a4 F20AD.FFYTPlayer.YTPlayer::Fps
+  IL_0060: ldfld 0x0a0000e6 FFmpeg.AutoGen.AVRational::num
+  IL_0065: mul
+  IL_0066: ldarg.0
+  IL_0067: ldflda 0x040003a4 F20AD.FFYTPlayer.YTPlayer::Fps
+  IL_006c: ldfld 0x0a0000e5 FFmpeg.AutoGen.AVRational::den
+  IL_0071: div
+  IL_0072: stloc.s local(0x0006)
+  IL_0074: ldloca.s local(0x0007)
+  IL_0076: initobj 0x010000c6 FFmpeg.AutoGen::AVFrame
+  IL_007c: br IL_015f
+  IL_0081: ldloc.s local(0x0006)
+  IL_0083: conv.i8
+  IL_0084: ldarg.1
+  IL_0085: ldarg.3
+  IL_0086: mul
+  IL_0087: ldloc.0
+  IL_0088: add
+  IL_0089: conv.r8
+  IL_008a: ldloc.1
+  IL_008b: mul
+  IL_008c: ldc.r8 0.5
+  IL_0095: add
+  IL_0096: conv.i8
+  IL_0097: bne.un IL_0141
+  IL_009c: ldloc.s local(0x0005)
+  IL_009e: ldloc.s local(0x0007)
+  IL_00a0: callvirt 0x0600050e F20AD.FFYTPlayer.VideoFrameConverter::Convert
+  IL_00a5: stloc.s local(0x0008)
+  IL_00a7: ldloc.s local(0x0008)
+  IL_00a9: ldfld 0x0a0003d9 FFmpeg.AutoGen.AVFrame::width
+  IL_00ae: ldloc.s local(0x0008)
+  IL_00b0: ldfld 0x0a0003d3 FFmpeg.AutoGen.AVFrame::height
+  IL_00b5: ldloca.s local(0x0008)
+  IL_00b7: ldflda 0x0a0003d1 FFmpeg.AutoGen.AVFrame::linesize
+  IL_00bc: ldc.i4.0
+  IL_00bd: call 0x0a00041c FFmpeg.AutoGen.int_array8::get_Item
+  IL_00c2: ldc.i4 137224
+  IL_00c7: ldloca.s local(0x0008)
+  IL_00c9: ldflda 0x0a0003cf FFmpeg.AutoGen.AVFrame::data
+  IL_00ce: ldc.i4.0
+  IL_00cf: call 0x0a00041d FFmpeg.AutoGen.byte_ptrArray8::get_Item
+  IL_00d4: call 0x0a0003a1 System.IntPtr::op_Explicit
+  IL_00d9: newobj 0x0a00041e System.Drawing.Bitmap::.ctor
+  IL_00de: stloc.s local(0x0009)
+  IL_00e0: ldsfld 0x040001f2 F20AD.TransformWindow::isLRAoc
+  IL_00e5: brfalse.s IL_00ef
+  IL_00e7: ldloc.s local(0x0009)
+  IL_00e9: ldc.i4.4
+  IL_00ea: callvirt 0x0a000217 System.Drawing.Image::RotateFlip
+  IL_00ef: ldsfld 0x040001f1 F20AD.TransformWindow::isUDAoc
+  IL_00f4: brfalse.s IL_0122
+  IL_00f6: ldloc.s local(0x0009)
+  IL_00f8: ldc.i4.6
+  IL_00f9: callvirt 0x0a000217 System.Drawing.Image::RotateFlip
+  IL_00fe: br.s IL_0122
+  IL_0100: ldloc.s local(0x0009)
+  IL_0102: ldstr 0x70004b12 '{0}{1}.jpg'
+  IL_0107: ldarg.s argument(0x0004)
+  IL_0109: ldloc.0
+  IL_010a: box 0x010000f0 System::Int32
+  IL_010f: call 0x0a000052 System.String::Format
+  IL_0114: call 0x0a000339 System.Drawing.Imaging.ImageFormat::get_Jpeg
+  IL_0119: callvirt 0x0a00031b System.Drawing.Image::Save
+  IL_011e: ldloc.0
+  IL_011f: ldc.i4.1
+  IL_0120: add
+  IL_0121: stloc.0
+  IL_0122: ldloc.s local(0x0006)
+  IL_0124: conv.i8
+  IL_0125: ldarg.1
+  IL_0126: ldarg.3
+  IL_0127: mul
+  IL_0128: ldloc.0
+  IL_0129: add
+  IL_012a: conv.r8
+  IL_012b: ldloc.1
+  IL_012c: mul
+  IL_012d: ldc.r8 0.5
+  IL_0136: add
+  IL_0137: conv.i8
+  IL_0138: beq.s IL_0100
+  IL_013a: ldloc.s local(0x0009)
+  IL_013c: callvirt 0x0a00019b System.Drawing.Image::Dispose
+  IL_0141: ldloc.s local(0x0006)
+  IL_0143: ldc.i4.1
+  IL_0144: add
+  IL_0145: stloc.s local(0x0006)
+  IL_0147: ldarg.1
+  IL_0148: ldarg.3
+  IL_0149: mul
+  IL_014a: ldloc.0
+  IL_014b: add
+  IL_014c: ldarg.2
+  IL_014d: ldarg.3
+  IL_014e: mul
+  IL_014f: bgt.s IL_0171
+  IL_0151: ldarg.0
+  IL_0152: ldfld 0x040003b4 F20AD.FFYTPlayer.YTPlayer::_isCancelGetFrames
+  IL_0157: brtrue.s IL_0171
+  IL_0159: ldc.i4.0
+  IL_015a: call 0x0a0000b7 System.Threading.Thread::Sleep
+  IL_015f: ldarg.0
+  IL_0160: ldfld 0x040003a2 F20AD.FFYTPlayer.YTPlayer::VSD
+  IL_0165: ldloca.s local(0x0007)
+  IL_0167: callvirt 0x06000516 F20AD.FFYTPlayer.VideoStreamDecoder::TryDecodeNextFrame
+  IL_016c: brtrue IL_0081
+  IL_0171: ldloc.0
+  IL_0172: ldc.i4.1
+  IL_0173: bne.un.s IL_01df
+  IL_0175: ldarg.0
+  IL_0176: ldfld 0x040003b4 F20AD.FFYTPlayer.YTPlayer::_isCancelGetFrames
+  IL_017b: brtrue.s IL_01df
+  IL_017d: ldloc.s local(0x0005)
+  IL_017f: ldloc.s local(0x0007)
+  IL_0181: callvirt 0x0600050e F20AD.FFYTPlayer.VideoFrameConverter::Convert
+  IL_0186: stloc.s local(0x000A)
+  IL_0188: ldloc.s local(0x000A)
+  IL_018a: ldfld 0x0a0003d9 FFmpeg.AutoGen.AVFrame::width
+  IL_018f: ldloc.s local(0x000A)
+  IL_0191: ldfld 0x0a0003d3 FFmpeg.AutoGen.AVFrame::height
+  IL_0196: ldloca.s local(0x000A)
+  IL_0198: ldflda 0x0a0003d1 FFmpeg.AutoGen.AVFrame::linesize
+  IL_019d: ldc.i4.0
+  IL_019e: call 0x0a00041c FFmpeg.AutoGen.int_array8::get_Item
+  IL_01a3: ldc.i4 137224
+  IL_01a8: ldloca.s local(0x000A)
+  IL_01aa: ldflda 0x0a0003cf FFmpeg.AutoGen.AVFrame::data
+  IL_01af: ldc.i4.0
+  IL_01b0: call 0x0a00041d FFmpeg.AutoGen.byte_ptrArray8::get_Item
+  IL_01b5: call 0x0a0003a1 System.IntPtr::op_Explicit
+  IL_01ba: newobj 0x0a00041e System.Drawing.Bitmap::.ctor
+  IL_01bf: ldstr 0x70004b12 '{0}{1}.jpg'
+  IL_01c4: ldarg.s argument(0x0004)
+  IL_01c6: ldloc.0
+  IL_01c7: box 0x010000f0 System::Int32
+  IL_01cc: call 0x0a000052 System.String::Format
+  IL_01d1: call 0x0a000339 System.Drawing.Imaging.ImageFormat::get_Jpeg
+  IL_01d6: callvirt 0x0a00031b System.Drawing.Image::Save
+  IL_01db: ldloc.0
+  IL_01dc: ldc.i4.1
+  IL_01dd: add
+  IL_01de: stloc.0
+  IL_01df: leave.s IL_01fb
+  IL_01e1: stloc.s local(0x000B)
+  IL_01e3: ldstr 0x70004b28 '抽帧 err：'
+  IL_01e8: ldloc.s local(0x000B)
+  IL_01ea: callvirt 0x0a000184 System.Exception::get_Message
+  IL_01ef: call 0x0a000069 System.String::Concat
+  IL_01f4: call 0x0a0000ad System.Console::WriteLine
+  IL_01f9: leave.s IL_01fb
+  IL_01fb: ldloc.0
+  IL_01fc: ldc.i4.1
+  IL_01fd: sub
+  IL_01fe: stloc.2
+  IL_01ff: br.s IL_022f
+  IL_0201: ldstr 0x70004b12 '{0}{1}.jpg'
+  IL_0206: ldarg.s argument(0x0004)
+  IL_0208: ldloc.2
+  IL_0209: box 0x010000f0 System::Int32
+  IL_020e: call 0x0a000052 System.String::Format
+  IL_0213: ldstr 0x70004b12 '{0}{1}.jpg'
+  IL_0218: ldarg.s argument(0x0004)
+  IL_021a: ldloc.0
+  IL_021b: box 0x010000f0 System::Int32
+  IL_0220: call 0x0a000052 System.String::Format
+  IL_0225: ldc.i4.1
+  IL_0226: call 0x0a00038b System.IO.File::Copy
+  IL_022b: ldloc.0
+  IL_022c: ldc.i4.1
+  IL_022d: add
+  IL_022e: stloc.0
+  IL_022f: ldarg.1
+  IL_0230: ldarg.3
+  IL_0231: mul
+  IL_0232: ldloc.0
+  IL_0233: add
+  IL_0234: ldarg.2
+  IL_0235: ldarg.3
+  IL_0236: mul
+  IL_0237: bgt.s IL_0241
+  IL_0239: ldarg.0
+  IL_023a: ldfld 0x040003b4 F20AD.FFYTPlayer.YTPlayer::_isCancelGetFrames
+  IL_023f: brfalse.s IL_0201
+  IL_0241: ret
+
+F20AD.Connect.BinTool::setConfigure token 0x0600059d
+RVA=0x2dd3c file_offset=0x2bf3c header_size=12 IL_size=137
+IL_SHA256=e467cdaa6e255f37a8ad83d023239f7fb73a8dbc29314b8b05d297786f8636bf signature_blob=2001011281d4
+  IL_0000: ldarg.0
+  IL_0001: ldarg.1
+  IL_0002: ldfld 0x040003b7 F20AD.Entity.BinConfigure::led_num
+  IL_0007: stfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_000c: ldarg.0
+  IL_000d: ldarg.1
+  IL_000e: ldfld 0x040003bb F20AD.Entity.BinConfigure::rows
+  IL_0013: stfld 0x0400042c F20AD.Connect.BinTool::row_count
+  IL_0018: ldarg.0
+  IL_0019: ldarg.1
+  IL_001a: ldfld 0x040003bd F20AD.Entity.BinConfigure::orientation
+  IL_001f: stfld 0x0400042d F20AD.Connect.BinTool::orientation
+  IL_0024: ldarg.0
+  IL_0025: ldarg.1
+  IL_0026: ldfld 0x040003bc F20AD.Entity.BinConfigure::color
+  IL_002b: stfld 0x0400042f F20AD.Connect.BinTool::color
+  IL_0030: ldarg.0
+  IL_0031: ldarg.1
+  IL_0032: ldfld 0x040003be F20AD.Entity.BinConfigure::adjust
+  IL_0037: stfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_003c: ldarg.0
+  IL_003d: ldarg.1
+  IL_003e: ldfld 0x040003bf F20AD.Entity.BinConfigure::light
+  IL_0043: stfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0048: ldarg.0
+  IL_0049: ldarg.1
+  IL_004a: ldfld 0x040003b8 F20AD.Entity.BinConfigure::subsection
+  IL_004f: stfld 0x04000433 F20AD.Connect.BinTool::subsection
+  IL_0054: ldarg.0
+  IL_0055: ldarg.1
+  IL_0056: ldfld 0x040003ba F20AD.Entity.BinConfigure::bit
+  IL_005b: stfld 0x04000434 F20AD.Connect.BinTool::bit
+  IL_0060: ldarg.0
+  IL_0061: ldarg.1
+  IL_0062: ldfld 0x040003b9 F20AD.Entity.BinConfigure::lamps
+  IL_0067: stfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_006c: ldarg.0
+  IL_006d: ldarg.1
+  IL_006e: ldfld 0x040003c0 F20AD.Entity.BinConfigure::per_bar
+  IL_0073: brfalse.s IL_007d
+  IL_0075: ldarg.1
+  IL_0076: ldfld 0x040003c0 F20AD.Entity.BinConfigure::per_bar
+  IL_007b: br.s IL_0083
+  IL_007d: ldarg.0
+  IL_007e: ldfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_0083: stfld 0x04000435 F20AD.Connect.BinTool::per_bar
+  IL_0088: ret
+
+F20AD.Connect.BinTool::takeMold token 0x0600059e
+RVA=0x2ddd4 file_offset=0x2bfd4 header_size=12 IL_size=73
+IL_SHA256=20895272c93f5d76818609f4df4815ebbfc640e5315e5ac18420baa8f884b739 signature_blob=2002010808
+  IL_0000: ldarg.1
+  IL_0001: ldc.i4.2
+  IL_0002: div
+  IL_0003: conv.r8
+  IL_0004: ldc.r8 1.5
+  IL_000d: add
+  IL_000e: stloc.0
+  IL_000f: ldarg.2
+  IL_0010: ldc.i4.2
+  IL_0011: div
+  IL_0012: conv.r8
+  IL_0013: ldc.r8 1.5
+  IL_001c: add
+  IL_001d: stloc.1
+  IL_001e: ldarg.1
+  IL_001f: ldarg.2
+  IL_0020: call 0x0a0000f2 System.Math::Min
+  IL_0025: conv.r8
+  IL_0026: ldc.r8 2.0
+  IL_002f: div
+  IL_0030: ldc.r8 3.0
+  IL_0039: sub
+  IL_003a: stloc.2
+  IL_003b: ldarg.0
+  IL_003c: ldloc.0
+  IL_003d: ldloc.1
+  IL_003e: ldarg.1
+  IL_003f: conv.r8
+  IL_0040: ldarg.2
+  IL_0041: conv.r8
+  IL_0042: ldloc.2
+  IL_0043: call 0x0600059f F20AD.Connect.BinTool::takeMold
+  IL_0048: ret
+
+F20AD.Connect.BinTool::takeMold token 0x0600059f
+RVA=0x2de2c file_offset=0x2c02c header_size=12 IL_size=252
+IL_SHA256=6637d4b2a1f37bf7dc7a20e2c31e7eb4f91fbcba3106331525bc820db57dcc93 signature_blob=2005010d0d0d0d0d
+  IL_0000: ldarg.0
+  IL_0001: ldarg.0
+  IL_0002: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0007: ldarg.0
+  IL_0008: ldfld 0x0400042c F20AD.Connect.BinTool::row_count
+  IL_000d: mul
+  IL_000e: newarr 0x010000f0 System::Int32
+  IL_0013: stfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0018: ldc.r8 3.141592653589793
+  IL_0021: stloc.0
+  IL_0022: ldc.r8 360.0
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042c F20AD.Connect.BinTool::row_count
+  IL_0031: conv.r8
+  IL_0032: div
+  IL_0033: stloc.1
+  IL_0034: ldarg.0
+  IL_0035: ldfld 0x0400042d F20AD.Connect.BinTool::orientation
+  IL_003a: brfalse.s IL_0049
+  IL_003c: ldc.r8 0.0
+  IL_0045: ldloc.1
+  IL_0046: sub
+  IL_0047: br.s IL_004a
+  IL_0049: ldloc.1
+  IL_004a: stloc.1
+  IL_004b: ldarg.s argument(0x0005)
+  IL_004d: ldarg.0
+  IL_004e: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0053: conv.r8
+  IL_0054: div
+  IL_0055: stloc.2
+  IL_0056: ldc.r8 0.0
+  IL_005f: stloc.s local(0x0005)
+  IL_0061: ldc.i4.0
+  IL_0062: stloc.s local(0x0008)
+  IL_0064: ldc.i4.0
+  IL_0065: stloc.s local(0x0009)
+  IL_0067: br IL_00ee
+  IL_006c: ldarg.s argument(0x0005)
+  IL_006e: stloc.s local(0x000A)
+  IL_0070: ldloc.s local(0x0005)
+  IL_0072: ldloc.0
+  IL_0073: mul
+  IL_0074: ldc.r8 180.0
+  IL_007d: div
+  IL_007e: call 0x0a0002ed System.Math::Sin
+  IL_0083: stloc.3
+  IL_0084: ldloc.s local(0x0005)
+  IL_0086: ldloc.0
+  IL_0087: mul
+  IL_0088: ldc.r8 180.0
+  IL_0091: div
+  IL_0092: call 0x0a0002ec System.Math::Cos
+  IL_0097: stloc.s local(0x0004)
+  IL_0099: ldc.i4.0
+  IL_009a: stloc.s local(0x000B)
+  IL_009c: br.s IL_00d8
+  IL_009e: ldloc.s local(0x000A)
+  IL_00a0: ldloc.s local(0x0004)
+  IL_00a2: mul
+  IL_00a3: ldarg.1
+  IL_00a4: add
+  IL_00a5: conv.i4
+  IL_00a6: stloc.s local(0x0006)
+  IL_00a8: ldarg.2
+  IL_00a9: ldloc.s local(0x000A)
+  IL_00ab: ldloc.3
+  IL_00ac: mul
+  IL_00ad: sub
+  IL_00ae: conv.i4
+  IL_00af: stloc.s local(0x0007)
+  IL_00b1: ldarg.0
+  IL_00b2: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00b7: ldloc.s local(0x0008)
+  IL_00b9: ldloc.s local(0x0007)
+  IL_00bb: ldc.i4.1
+  IL_00bc: sub
+  IL_00bd: ldarg.3
+  IL_00be: conv.i4
+  IL_00bf: mul
+  IL_00c0: ldloc.s local(0x0006)
+  IL_00c2: add
+  IL_00c3: ldc.i4.1
+  IL_00c4: sub
+  IL_00c5: stelem.i4
+  IL_00c6: ldloc.s local(0x000A)
+  IL_00c8: ldloc.2
+  IL_00c9: sub
+  IL_00ca: stloc.s local(0x000A)
+  IL_00cc: ldloc.s local(0x0008)
+  IL_00ce: ldc.i4.1
+  IL_00cf: add
+  IL_00d0: stloc.s local(0x0008)
+  IL_00d2: ldloc.s local(0x000B)
+  IL_00d4: ldc.i4.1
+  IL_00d5: add
+  IL_00d6: stloc.s local(0x000B)
+  IL_00d8: ldloc.s local(0x000B)
+  IL_00da: ldarg.0
+  IL_00db: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_00e0: blt.s IL_009e
+  IL_00e2: ldloc.s local(0x0005)
+  IL_00e4: ldloc.1
+  IL_00e5: add
+  IL_00e6: stloc.s local(0x0005)
+  IL_00e8: ldloc.s local(0x0009)
+  IL_00ea: ldc.i4.1
+  IL_00eb: add
+  IL_00ec: stloc.s local(0x0009)
+  IL_00ee: ldloc.s local(0x0009)
+  IL_00f0: ldarg.0
+  IL_00f1: ldfld 0x0400042c F20AD.Connect.BinTool::row_count
+  IL_00f6: blt IL_006c
+  IL_00fb: ret
+
+F20AD.Connect.BinTool::toBin token 0x060005a0
+RVA=0x2df34 file_offset=0x2c134 header_size=12 IL_size=109
+IL_SHA256=1c77ee119ff5a774c8fead3b45417893929f303b6b49aa7f7e15c58e20bf9062 signature_blob=20011d05128141
+  IL_0000: ldnull
+  IL_0001: stloc.0
+  IL_0002: ldarg.0
+  IL_0003: ldfld 0x0400042f F20AD.Connect.BinTool::color
+  IL_0008: stloc.1
+  IL_0009: ldloc.1
+  IL_000a: switch IL_0029, IL_0033, IL_003d, IL_0047, IL_0051, IL_005b
+  IL_0027: br.s IL_0063
+  IL_0029: ldarg.0
+  IL_002a: ldarg.1
+  IL_002b: call 0x060005a3 F20AD.Connect.BinTool::toMoldsBRG
+  IL_0030: stloc.0
+  IL_0031: br.s IL_0063
+  IL_0033: ldarg.0
+  IL_0034: ldarg.1
+  IL_0035: call 0x060005a2 F20AD.Connect.BinTool::toMoldsBGR
+  IL_003a: stloc.0
+  IL_003b: br.s IL_0063
+  IL_003d: ldarg.0
+  IL_003e: ldarg.1
+  IL_003f: call 0x060005a5 F20AD.Connect.BinTool::toMoldsGRB
+  IL_0044: stloc.0
+  IL_0045: br.s IL_0063
+  IL_0047: ldarg.0
+  IL_0048: ldarg.1
+  IL_0049: call 0x060005a4 F20AD.Connect.BinTool::toMoldsGBR
+  IL_004e: stloc.0
+  IL_004f: br.s IL_0063
+  IL_0051: ldarg.0
+  IL_0052: ldarg.1
+  IL_0053: call 0x060005a6 F20AD.Connect.BinTool::toMoldsRGB
+  IL_0058: stloc.0
+  IL_0059: br.s IL_0063
+  IL_005b: ldarg.0
+  IL_005c: ldarg.1
+  IL_005d: call 0x060005a7 F20AD.Connect.BinTool::toMoldsRBG
+  IL_0062: stloc.0
+  IL_0063: ldarg.0
+  IL_0064: ldloc.0
+  IL_0065: call 0x060005a1 F20AD.Connect.BinTool::toPov
+  IL_006a: stloc.0
+  IL_006b: ldloc.0
+  IL_006c: ret
+
+F20AD.Connect.BinTool::toPov token 0x060005a1
+RVA=0x2dfb0 file_offset=0x2c1b0 header_size=12 IL_size=331
+IL_SHA256=4935581771b726eec1f8ea0c839e3a44071734371e7cf6f5e3784775fda8dbf3 signature_blob=20011d051d05
+  IL_0000: ldarg.1
+  IL_0001: ldlen
+  IL_0002: conv.i4
+  IL_0003: ldarg.0
+  IL_0004: ldfld 0x04000434 F20AD.Connect.BinTool::bit
+  IL_0009: mul
+  IL_000a: ldc.i4.8
+  IL_000b: div
+  IL_000c: newarr 0x0100013b System::Byte
+  IL_0011: stloc.0
+  IL_0012: ldarg.1
+  IL_0013: ldlen
+  IL_0014: conv.i4
+  IL_0015: ldarg.0
+  IL_0016: ldfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_001b: div
+  IL_001c: stloc.1
+  IL_001d: ldarg.0
+  IL_001e: ldfld 0x0400042c F20AD.Connect.BinTool::row_count
+  IL_0023: ldarg.0
+  IL_0024: ldfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_0029: div
+  IL_002a: stloc.2
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0031: ldc.i4.3
+  IL_0032: mul
+  IL_0033: stloc.3
+  IL_0034: ldloc.3
+  IL_0035: ldarg.0
+  IL_0036: ldfld 0x04000433 F20AD.Connect.BinTool::subsection
+  IL_003b: div
+  IL_003c: stloc.s local(0x0004)
+  IL_003e: ldarg.0
+  IL_003f: ldfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_0044: ldarg.0
+  IL_0045: ldfld 0x04000435 F20AD.Connect.BinTool::per_bar
+  IL_004a: div
+  IL_004b: stloc.s local(0x0005)
+  IL_004d: ldarg.1
+  IL_004e: ldlen
+  IL_004f: conv.i4
+  IL_0050: ldloc.s local(0x0005)
+  IL_0052: div
+  IL_0053: stloc.s local(0x0006)
+  IL_0055: ldc.i4 128
+  IL_005a: stloc.s local(0x0007)
+  IL_005c: ldc.i4.0
+  IL_005d: stloc.s local(0x0008)
+  IL_005f: ldc.i4.0
+  IL_0060: stloc.s local(0x000A)
+  IL_0062: br IL_0140
+  IL_0067: ldc.i4.0
+  IL_0068: stloc.s local(0x000B)
+  IL_006a: br IL_0132
+  IL_006f: ldc.i4 128
+  IL_0074: stloc.s local(0x0009)
+  IL_0076: ldc.i4.0
+  IL_0077: stloc.s local(0x000C)
+  IL_0079: br IL_011f
+  IL_007e: ldc.i4.0
+  IL_007f: stloc.s local(0x000D)
+  IL_0081: br IL_0109
+  IL_0086: ldloc.s local(0x000A)
+  IL_0088: ldloc.s local(0x0006)
+  IL_008a: mul
+  IL_008b: ldloc.s local(0x000B)
+  IL_008d: ldloc.3
+  IL_008e: mul
+  IL_008f: add
+  IL_0090: ldloc.s local(0x000D)
+  IL_0092: add
+  IL_0093: stloc.s local(0x000E)
+  IL_0095: ldc.i4.0
+  IL_0096: stloc.s local(0x000F)
+  IL_0098: br.s IL_00f6
+  IL_009a: ldloc.s local(0x000E)
+  IL_009c: ldloc.s local(0x000F)
+  IL_009e: ldloc.1
+  IL_009f: mul
+  IL_00a0: add
+  IL_00a1: stloc.s local(0x0010)
+  IL_00a3: ldc.i4.0
+  IL_00a4: stloc.s local(0x0011)
+  IL_00a6: br.s IL_00e6
+  IL_00a8: ldarg.1
+  IL_00a9: ldloc.s local(0x0010)
+  IL_00ab: ldelem.u1
+  IL_00ac: ldloc.s local(0x0009)
+  IL_00ae: and
+  IL_00af: ldc.i4.0
+  IL_00b0: ble.s IL_00c1
+  IL_00b2: ldloc.0
+  IL_00b3: ldloc.s local(0x0008)
+  IL_00b5: ldelema 0x0100013b System::Byte
+  IL_00ba: dup
+  IL_00bb: ldind.u1
+  IL_00bc: ldloc.s local(0x0007)
+  IL_00be: or
+  IL_00bf: conv.u1
+  IL_00c0: stind.i1
+  IL_00c1: ldloc.s local(0x0007)
+  IL_00c3: ldc.i4.1
+  IL_00c4: shr
+  IL_00c5: conv.u1
+  IL_00c6: stloc.s local(0x0007)
+  IL_00c8: ldloc.s local(0x0007)
+  IL_00ca: brtrue.s IL_00d9
+  IL_00cc: ldc.i4 128
+  IL_00d1: stloc.s local(0x0007)
+  IL_00d3: ldloc.s local(0x0008)
+  IL_00d5: ldc.i4.1
+  IL_00d6: add
+  IL_00d7: stloc.s local(0x0008)
+  IL_00d9: ldloc.s local(0x0010)
+  IL_00db: ldloc.s local(0x0004)
+  IL_00dd: add
+  IL_00de: stloc.s local(0x0010)
+  IL_00e0: ldloc.s local(0x0011)
+  IL_00e2: ldc.i4.1
+  IL_00e3: add
+  IL_00e4: stloc.s local(0x0011)
+  IL_00e6: ldloc.s local(0x0011)
+  IL_00e8: ldarg.0
+  IL_00e9: ldfld 0x04000433 F20AD.Connect.BinTool::subsection
+  IL_00ee: blt.s IL_00a8
+  IL_00f0: ldloc.s local(0x000F)
+  IL_00f2: ldc.i4.1
+  IL_00f3: add
+  IL_00f4: stloc.s local(0x000F)
+  IL_00f6: ldloc.s local(0x000F)
+  IL_00f8: ldarg.0
+  IL_00f9: ldfld 0x04000432 F20AD.Connect.BinTool::bar_count
+  IL_00fe: ldloc.s local(0x0005)
+  IL_0100: div
+  IL_0101: blt.s IL_009a
+  IL_0103: ldloc.s local(0x000D)
+  IL_0105: ldc.i4.1
+  IL_0106: add
+  IL_0107: stloc.s local(0x000D)
+  IL_0109: ldloc.s local(0x000D)
+  IL_010b: ldloc.s local(0x0004)
+  IL_010d: blt IL_0086
+  IL_0112: ldloc.s local(0x0009)
+  IL_0114: ldc.i4.1
+  IL_0115: shr
+  IL_0116: conv.u1
+  IL_0117: stloc.s local(0x0009)
+  IL_0119: ldloc.s local(0x000C)
+  IL_011b: ldc.i4.1
+  IL_011c: add
+  IL_011d: stloc.s local(0x000C)
+  IL_011f: ldloc.s local(0x000C)
+  IL_0121: ldarg.0
+  IL_0122: ldfld 0x04000434 F20AD.Connect.BinTool::bit
+  IL_0127: blt IL_007e
+  IL_012c: ldloc.s local(0x000B)
+  IL_012e: ldc.i4.1
+  IL_012f: add
+  IL_0130: stloc.s local(0x000B)
+  IL_0132: ldloc.s local(0x000B)
+  IL_0134: ldloc.2
+  IL_0135: blt IL_006f
+  IL_013a: ldloc.s local(0x000A)
+  IL_013c: ldc.i4.1
+  IL_013d: add
+  IL_013e: stloc.s local(0x000A)
+  IL_0140: ldloc.s local(0x000A)
+  IL_0142: ldloc.s local(0x0005)
+  IL_0144: blt IL_0067
+  IL_0149: ldloc.0
+  IL_014a: ret
+
+F20AD.Connect.BinTool::toMoldsBGR token 0x060005a2
+RVA=0x2e108 file_offset=0x2c308 header_size=12 IL_size=184
+IL_SHA256=b3fc07c2884dd71951dfbc64dce7f05ce3212ffdd33c0cd9282df741949f5824 signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldarg.0
+  IL_0023: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0028: ldloc.1
+  IL_0029: ldarg.0
+  IL_002a: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_002f: ldloc.2
+  IL_0030: ldelem.i4
+  IL_0031: ldc.i4.3
+  IL_0032: mul
+  IL_0033: ldelem.u1
+  IL_0034: ldelem.u1
+  IL_0035: conv.r8
+  IL_0036: ldarg.0
+  IL_0037: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003c: ldloc.2
+  IL_003d: ldarg.0
+  IL_003e: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0043: rem
+  IL_0044: ldelem.r8
+  IL_0045: mul
+  IL_0046: conv.u1
+  IL_0047: stelem.i1
+  IL_0048: ldloc.0
+  IL_0049: ldloc.2
+  IL_004a: ldc.i4.3
+  IL_004b: mul
+  IL_004c: ldc.i4.1
+  IL_004d: add
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0054: ldloc.1
+  IL_0055: ldarg.0
+  IL_0056: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005b: ldloc.2
+  IL_005c: ldelem.i4
+  IL_005d: ldc.i4.3
+  IL_005e: mul
+  IL_005f: ldc.i4.1
+  IL_0060: add
+  IL_0061: ldelem.u1
+  IL_0062: ldelem.u1
+  IL_0063: conv.r8
+  IL_0064: ldarg.0
+  IL_0065: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006a: ldloc.2
+  IL_006b: ldarg.0
+  IL_006c: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0071: rem
+  IL_0072: ldelem.r8
+  IL_0073: mul
+  IL_0074: conv.u1
+  IL_0075: stelem.i1
+  IL_0076: ldloc.0
+  IL_0077: ldloc.2
+  IL_0078: ldc.i4.3
+  IL_0079: mul
+  IL_007a: ldc.i4.2
+  IL_007b: add
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::toMoldsBRG token 0x060005a3
+RVA=0x2e1cc file_offset=0x2c3cc header_size=12 IL_size=184
+IL_SHA256=335ecb3681e244d9ebf4cbb18180b59725b54db4fe824186d696d5f630d92183 signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldarg.0
+  IL_0023: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0028: ldloc.1
+  IL_0029: ldarg.0
+  IL_002a: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_002f: ldloc.2
+  IL_0030: ldelem.i4
+  IL_0031: ldc.i4.3
+  IL_0032: mul
+  IL_0033: ldelem.u1
+  IL_0034: ldelem.u1
+  IL_0035: conv.r8
+  IL_0036: ldarg.0
+  IL_0037: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003c: ldloc.2
+  IL_003d: ldarg.0
+  IL_003e: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0043: rem
+  IL_0044: ldelem.r8
+  IL_0045: mul
+  IL_0046: conv.u1
+  IL_0047: stelem.i1
+  IL_0048: ldloc.0
+  IL_0049: ldloc.2
+  IL_004a: ldc.i4.3
+  IL_004b: mul
+  IL_004c: ldc.i4.2
+  IL_004d: add
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0054: ldloc.1
+  IL_0055: ldarg.0
+  IL_0056: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005b: ldloc.2
+  IL_005c: ldelem.i4
+  IL_005d: ldc.i4.3
+  IL_005e: mul
+  IL_005f: ldc.i4.1
+  IL_0060: add
+  IL_0061: ldelem.u1
+  IL_0062: ldelem.u1
+  IL_0063: conv.r8
+  IL_0064: ldarg.0
+  IL_0065: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006a: ldloc.2
+  IL_006b: ldarg.0
+  IL_006c: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0071: rem
+  IL_0072: ldelem.r8
+  IL_0073: mul
+  IL_0074: conv.u1
+  IL_0075: stelem.i1
+  IL_0076: ldloc.0
+  IL_0077: ldloc.2
+  IL_0078: ldc.i4.3
+  IL_0079: mul
+  IL_007a: ldc.i4.1
+  IL_007b: add
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::toMoldsGBR token 0x060005a4
+RVA=0x2e290 file_offset=0x2c490 header_size=12 IL_size=184
+IL_SHA256=e4209901d11a684dadf2d17ac62bfbdc5f12e8029f449d889e4cdbdea87c3014 signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldc.i4.1
+  IL_0023: add
+  IL_0024: ldarg.0
+  IL_0025: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_002a: ldloc.1
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0031: ldloc.2
+  IL_0032: ldelem.i4
+  IL_0033: ldc.i4.3
+  IL_0034: mul
+  IL_0035: ldelem.u1
+  IL_0036: ldelem.u1
+  IL_0037: conv.r8
+  IL_0038: ldarg.0
+  IL_0039: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003e: ldloc.2
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0045: rem
+  IL_0046: ldelem.r8
+  IL_0047: mul
+  IL_0048: conv.u1
+  IL_0049: stelem.i1
+  IL_004a: ldloc.0
+  IL_004b: ldloc.2
+  IL_004c: ldc.i4.3
+  IL_004d: mul
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0054: ldloc.1
+  IL_0055: ldarg.0
+  IL_0056: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005b: ldloc.2
+  IL_005c: ldelem.i4
+  IL_005d: ldc.i4.3
+  IL_005e: mul
+  IL_005f: ldc.i4.1
+  IL_0060: add
+  IL_0061: ldelem.u1
+  IL_0062: ldelem.u1
+  IL_0063: conv.r8
+  IL_0064: ldarg.0
+  IL_0065: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006a: ldloc.2
+  IL_006b: ldarg.0
+  IL_006c: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0071: rem
+  IL_0072: ldelem.r8
+  IL_0073: mul
+  IL_0074: conv.u1
+  IL_0075: stelem.i1
+  IL_0076: ldloc.0
+  IL_0077: ldloc.2
+  IL_0078: ldc.i4.3
+  IL_0079: mul
+  IL_007a: ldc.i4.2
+  IL_007b: add
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::toMoldsGRB token 0x060005a5
+RVA=0x2e354 file_offset=0x2c554 header_size=12 IL_size=184
+IL_SHA256=a8c4abe14e3acb6503b1b89266025018bb44b34810d9a2f4a4f4ad008f6e9fbc signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldc.i4.2
+  IL_0023: add
+  IL_0024: ldarg.0
+  IL_0025: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_002a: ldloc.1
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0031: ldloc.2
+  IL_0032: ldelem.i4
+  IL_0033: ldc.i4.3
+  IL_0034: mul
+  IL_0035: ldelem.u1
+  IL_0036: ldelem.u1
+  IL_0037: conv.r8
+  IL_0038: ldarg.0
+  IL_0039: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003e: ldloc.2
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0045: rem
+  IL_0046: ldelem.r8
+  IL_0047: mul
+  IL_0048: conv.u1
+  IL_0049: stelem.i1
+  IL_004a: ldloc.0
+  IL_004b: ldloc.2
+  IL_004c: ldc.i4.3
+  IL_004d: mul
+  IL_004e: ldarg.0
+  IL_004f: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0054: ldloc.1
+  IL_0055: ldarg.0
+  IL_0056: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005b: ldloc.2
+  IL_005c: ldelem.i4
+  IL_005d: ldc.i4.3
+  IL_005e: mul
+  IL_005f: ldc.i4.1
+  IL_0060: add
+  IL_0061: ldelem.u1
+  IL_0062: ldelem.u1
+  IL_0063: conv.r8
+  IL_0064: ldarg.0
+  IL_0065: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006a: ldloc.2
+  IL_006b: ldarg.0
+  IL_006c: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0071: rem
+  IL_0072: ldelem.r8
+  IL_0073: mul
+  IL_0074: conv.u1
+  IL_0075: stelem.i1
+  IL_0076: ldloc.0
+  IL_0077: ldloc.2
+  IL_0078: ldc.i4.3
+  IL_0079: mul
+  IL_007a: ldc.i4.1
+  IL_007b: add
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::toMoldsRGB token 0x060005a6
+RVA=0x2e418 file_offset=0x2c618 header_size=12 IL_size=184
+IL_SHA256=70789cab7d06b5a83e1f6c8b6fcb38fb8299b9c058c4146b3f7c20a36e95953c signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldc.i4.2
+  IL_0023: add
+  IL_0024: ldarg.0
+  IL_0025: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_002a: ldloc.1
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0031: ldloc.2
+  IL_0032: ldelem.i4
+  IL_0033: ldc.i4.3
+  IL_0034: mul
+  IL_0035: ldelem.u1
+  IL_0036: ldelem.u1
+  IL_0037: conv.r8
+  IL_0038: ldarg.0
+  IL_0039: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003e: ldloc.2
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0045: rem
+  IL_0046: ldelem.r8
+  IL_0047: mul
+  IL_0048: conv.u1
+  IL_0049: stelem.i1
+  IL_004a: ldloc.0
+  IL_004b: ldloc.2
+  IL_004c: ldc.i4.3
+  IL_004d: mul
+  IL_004e: ldc.i4.1
+  IL_004f: add
+  IL_0050: ldarg.0
+  IL_0051: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0056: ldloc.1
+  IL_0057: ldarg.0
+  IL_0058: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005d: ldloc.2
+  IL_005e: ldelem.i4
+  IL_005f: ldc.i4.3
+  IL_0060: mul
+  IL_0061: ldc.i4.1
+  IL_0062: add
+  IL_0063: ldelem.u1
+  IL_0064: ldelem.u1
+  IL_0065: conv.r8
+  IL_0066: ldarg.0
+  IL_0067: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006c: ldloc.2
+  IL_006d: ldarg.0
+  IL_006e: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0073: rem
+  IL_0074: ldelem.r8
+  IL_0075: mul
+  IL_0076: conv.u1
+  IL_0077: stelem.i1
+  IL_0078: ldloc.0
+  IL_0079: ldloc.2
+  IL_007a: ldc.i4.3
+  IL_007b: mul
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::toMoldsRBG token 0x060005a7
+RVA=0x2e4dc file_offset=0x2c6dc header_size=12 IL_size=184
+IL_SHA256=327fb8e107911428e6d6709f730d10085e84fd92023809921e5f76c863a9169e signature_blob=20011d05128141
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0006: ldlen
+  IL_0007: conv.i4
+  IL_0008: ldc.i4.3
+  IL_0009: mul
+  IL_000a: newarr 0x0100013b System::Byte
+  IL_000f: stloc.0
+  IL_0010: ldarg.1
+  IL_0011: call 0x060005a8 F20AD.Connect.BinTool::Bitmap2Byte
+  IL_0016: stloc.1
+  IL_0017: ldc.i4.0
+  IL_0018: stloc.2
+  IL_0019: br IL_00a8
+  IL_001e: ldloc.0
+  IL_001f: ldloc.2
+  IL_0020: ldc.i4.3
+  IL_0021: mul
+  IL_0022: ldc.i4.1
+  IL_0023: add
+  IL_0024: ldarg.0
+  IL_0025: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_002a: ldloc.1
+  IL_002b: ldarg.0
+  IL_002c: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0031: ldloc.2
+  IL_0032: ldelem.i4
+  IL_0033: ldc.i4.3
+  IL_0034: mul
+  IL_0035: ldelem.u1
+  IL_0036: ldelem.u1
+  IL_0037: conv.r8
+  IL_0038: ldarg.0
+  IL_0039: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_003e: ldloc.2
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0045: rem
+  IL_0046: ldelem.r8
+  IL_0047: mul
+  IL_0048: conv.u1
+  IL_0049: stelem.i1
+  IL_004a: ldloc.0
+  IL_004b: ldloc.2
+  IL_004c: ldc.i4.3
+  IL_004d: mul
+  IL_004e: ldc.i4.2
+  IL_004f: add
+  IL_0050: ldarg.0
+  IL_0051: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0056: ldloc.1
+  IL_0057: ldarg.0
+  IL_0058: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_005d: ldloc.2
+  IL_005e: ldelem.i4
+  IL_005f: ldc.i4.3
+  IL_0060: mul
+  IL_0061: ldc.i4.1
+  IL_0062: add
+  IL_0063: ldelem.u1
+  IL_0064: ldelem.u1
+  IL_0065: conv.r8
+  IL_0066: ldarg.0
+  IL_0067: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_006c: ldloc.2
+  IL_006d: ldarg.0
+  IL_006e: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_0073: rem
+  IL_0074: ldelem.r8
+  IL_0075: mul
+  IL_0076: conv.u1
+  IL_0077: stelem.i1
+  IL_0078: ldloc.0
+  IL_0079: ldloc.2
+  IL_007a: ldc.i4.3
+  IL_007b: mul
+  IL_007c: ldarg.0
+  IL_007d: ldfld 0x04000430 F20AD.Connect.BinTool::adjust
+  IL_0082: ldloc.1
+  IL_0083: ldarg.0
+  IL_0084: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_0089: ldloc.2
+  IL_008a: ldelem.i4
+  IL_008b: ldc.i4.3
+  IL_008c: mul
+  IL_008d: ldc.i4.2
+  IL_008e: add
+  IL_008f: ldelem.u1
+  IL_0090: ldelem.u1
+  IL_0091: conv.r8
+  IL_0092: ldarg.0
+  IL_0093: ldfld 0x04000431 F20AD.Connect.BinTool::lights
+  IL_0098: ldloc.2
+  IL_0099: ldarg.0
+  IL_009a: ldfld 0x0400042b F20AD.Connect.BinTool::led_count
+  IL_009f: rem
+  IL_00a0: ldelem.r8
+  IL_00a1: mul
+  IL_00a2: conv.u1
+  IL_00a3: stelem.i1
+  IL_00a4: ldloc.2
+  IL_00a5: ldc.i4.1
+  IL_00a6: add
+  IL_00a7: stloc.2
+  IL_00a8: ldloc.2
+  IL_00a9: ldarg.0
+  IL_00aa: ldfld 0x0400042e F20AD.Connect.BinTool::molds
+  IL_00af: ldlen
+  IL_00b0: conv.i4
+  IL_00b1: blt IL_001e
+  IL_00b6: ldloc.0
+  IL_00b7: ret
+
+F20AD.Connect.BinTool::Bitmap2Byte token 0x060005a8
+RVA=0x2e5a0 file_offset=0x2c7a0 header_size=12 IL_size=77
+IL_SHA256=f03febd9f29ad0aa9fbfd3046a483064f78bfddcbc3635a5880f955ceabbee21 signature_blob=00011d05128141
+  IL_0000: newobj 0x0a0001a6 System.IO.MemoryStream::.ctor
+  IL_0005: stloc.0
+  IL_0006: ldarg.0
+  IL_0007: ldloc.0
+  IL_0008: call 0x0a0001a7 System.Drawing.Imaging.ImageFormat::get_Bmp
+  IL_000d: callvirt 0x0a0001a8 System.Drawing.Image::Save
+  IL_0012: ldloc.0
+  IL_0013: callvirt 0x0a0002ef System.IO.MemoryStream::GetBuffer
+  IL_0018: ldloc.0
+  IL_0019: callvirt 0x0a00020e System.IO.Stream::Close
+  IL_001e: ldarg.0
+  IL_001f: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_0024: ldarg.0
+  IL_0025: callvirt 0x0a0000cf System.Drawing.Image::get_Height
+  IL_002a: mul
+  IL_002b: ldc.i4.3
+  IL_002c: mul
+  IL_002d: newarr 0x0100013b System::Byte
+  IL_0032: stloc.1
+  IL_0033: ldc.i4.s 54
+  IL_0035: ldloc.1
+  IL_0036: ldc.i4.0
+  IL_0037: ldarg.0
+  IL_0038: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_003d: ldarg.0
+  IL_003e: callvirt 0x0a0000cf System.Drawing.Image::get_Height
+  IL_0043: mul
+  IL_0044: ldc.i4.3
+  IL_0045: mul
+  IL_0046: call 0x0a0001f4 System.Array::Copy
+  IL_004b: ldloc.1
+  IL_004c: ret
+
+F20AD.Connect.BinTool::.ctor token 0x060005a9
+RVA=0x2e5f9 file_offset=0x2c7f9 header_size=1 IL_size=7
+IL_SHA256=ce239c8baf79bf8d2c886f6734d1261918453180b70a75c33d4a6b5f8c12faf1 signature_blob=200001
+  IL_0000: ldarg.0
+  IL_0001: call 0x0a00002c System.Object::.ctor
+  IL_0006: ret
+
+F20AD.Connect.TcpServer::SendFile token 0x06000619
+RVA=0x30fc4 file_offset=0x2f1c4 header_size=12 IL_size=436
+IL_SHA256=840bd528493171e5fb9273c08a506da87cd0b3f8775f7a81c1472099df99586d signature_blob=2006010e08080e080e
+  IL_0000: newobj 0x06000771 .<>c__DisplayClass81_0::.ctor
+  IL_0005: stloc.0
+  IL_0006: ldloc.0
+  IL_0007: ldarg.0
+  IL_0008: stfld 0x0400072e .<>c__DisplayClass81_0::<>4__this
+  IL_000d: ldarg.0
+  IL_000e: ldc.i4.0
+  IL_000f: stfld 0x04000490 F20AD.Connect.TcpServer::isFTLVFile
+  IL_0014: ldarg.0
+  IL_0015: ldarg.0
+  IL_0016: ldfld 0x04000478 F20AD.Connect.TcpServer::Files
+  IL_001b: callvirt 0x0a000119 signature:151280b9011281e4::get_Count
+  IL_0020: stfld 0x04000489 F20AD.Connect.TcpServer::_lastFileCount
+  IL_0025: ldarg.0
+  IL_0026: ldarg.1
+  IL_0027: stfld 0x0400048b F20AD.Connect.TcpServer::fileName
+  IL_002c: ldarg.0
+  IL_002d: ldarg.s argument(0x0006)
+  IL_002f: stfld 0x0400048a F20AD.Connect.TcpServer::exportPath
+  IL_0034: ldarg.0
+  IL_0035: ldarg.s argument(0x0005)
+  IL_0037: stfld 0x04000477 F20AD.Connect.TcpServer::_sendType
+  IL_003c: ldarg.0
+  IL_003d: ldarg.3
+  IL_003e: stfld 0x04000493 F20AD.Connect.TcpServer::frameCount
+  IL_0043: ldarg.0
+  IL_0044: ldc.i4 1000
+  IL_0049: ldarg.2
+  IL_004a: div
+  IL_004b: stfld 0x0400048c F20AD.Connect.TcpServer::sendFileFps
+  IL_0050: ldarg.0
+  IL_0051: ldc.i4.0
+  IL_0052: stfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_0057: ldarg.0
+  IL_0058: ldc.i4.0
+  IL_0059: stfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_005e: ldarg.0
+  IL_005f: ldc.i4.0
+  IL_0060: stfld 0x04000496 F20AD.Connect.TcpServer::_isSendCancel
+  IL_0065: ldarg.0
+  IL_0066: ldc.r8 0.0
+  IL_006f: stfld 0x04000487 F20AD.Connect.TcpServer::lastprogress
+  IL_0074: ldarg.0
+  IL_0075: ldfld 0x0400048a F20AD.Connect.TcpServer::exportPath
+  IL_007a: ldstr 0x700001b3 ''
+  IL_007f: call 0x0a000082 System.String::op_Inequality
+  IL_0084: brfalse.s IL_008d
+  IL_0086: ldarg.0
+  IL_0087: call 0x06000627 F20AD.Connect.TcpServer::ExportVideo
+  IL_008c: ret
+  IL_008d: ldarg.0
+  IL_008e: ldfld 0x04000472 F20AD.Connect.TcpServer::Info
+  IL_0093: ldfld 0x040003de F20AD.Entity.DeviceInfo::content_type
+  IL_0098: ldc.i4.1
+  IL_0099: bne.un.s IL_00ad
+  IL_009b: ldarg.0
+  IL_009c: ldarg.0
+  IL_009d: ldfld 0x0400048b F20AD.Connect.TcpServer::fileName
+  IL_00a2: ldarg.2
+  IL_00a3: ldarg.3
+  IL_00a4: ldarg.s argument(0x0004)
+  IL_00a6: ldc.i4.4
+  IL_00a7: call 0x0600061a F20AD.Connect.TcpServer::SendBinFile
+  IL_00ac: ret
+  IL_00ad: ldarg.0
+  IL_00ae: ldc.r8 60000.0
+  IL_00b7: newobj 0x0a00045d System.Timers.Timer::.ctor
+  IL_00bc: stfld 0x04000482 F20AD.Connect.TcpServer::SendFileTimer
+  IL_00c1: ldarg.0
+  IL_00c2: ldfld 0x04000482 F20AD.Connect.TcpServer::SendFileTimer
+  IL_00c7: ldc.i4.0
+  IL_00c8: callvirt 0x0a00045e System.Timers.Timer::set_AutoReset
+  IL_00cd: ldarg.0
+  IL_00ce: ldfld 0x04000482 F20AD.Connect.TcpServer::SendFileTimer
+  IL_00d3: ldc.i4.1
+  IL_00d4: callvirt 0x0a00045f System.Timers.Timer::set_Enabled
+  IL_00d9: ldarg.0
+  IL_00da: ldfld 0x04000482 F20AD.Connect.TcpServer::SendFileTimer
+  IL_00df: ldarg.0
+  IL_00e0: ldftn 0x06000620 F20AD.Connect.TcpServer::OutOfTime
+  IL_00e6: newobj 0x0a000460 System.Timers.ElapsedEventHandler::.ctor
+  IL_00eb: callvirt 0x0a000461 System.Timers.Timer::add_Elapsed
+  IL_00f0: ldarg.0
+  IL_00f1: ldfld 0x04000482 F20AD.Connect.TcpServer::SendFileTimer
+  IL_00f6: callvirt 0x0a000462 System.Timers.Timer::Start
+  IL_00fb: ldarg.0
+  IL_00fc: ldc.i4.0
+  IL_00fd: stfld 0x04000488 F20AD.Connect.TcpServer::isDataConnected
+  IL_0102: ldarg.0
+  IL_0103: ldarg.0
+  IL_0104: ldfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0109: call 0x06000635 F20AD.Connect.TcpServer::sockeSafeClose
+  IL_010e: ldarg.0
+  IL_010f: ldnull
+  IL_0110: stfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0115: ldarg.0
+  IL_0116: ldc.i4.2
+  IL_0117: ldc.i4.1
+  IL_0118: ldc.i4.6
+  IL_0119: newobj 0x0a000447 System.Net.Sockets.Socket::.ctor
+  IL_011e: stfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0123: ldarg.0
+  IL_0124: ldfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0129: ldc.i4 1048576
+  IL_012e: callvirt 0x0a000448 System.Net.Sockets.Socket::set_SendBufferSize
+  IL_0133: ldarg.0
+  IL_0134: ldfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0139: ldarg.0
+  IL_013a: ldfld 0x04000467 F20AD.Connect.TcpServer::netcard
+  IL_013f: ldc.i4.0
+  IL_0140: newobj 0x0a00044a System.Net.IPEndPoint::.ctor
+  IL_0145: callvirt 0x0a00044b System.Net.Sockets.Socket::Bind
+  IL_014a: ldarg.0
+  IL_014b: ldfld 0x0400046c F20AD.Connect.TcpServer::_tcpClient_2
+  IL_0150: ldarg.0
+  IL_0151: call 0x060005ff F20AD.Connect.TcpServer::get_IpAddress
+  IL_0156: ldarg.0
+  IL_0157: ldfld 0x0400046a F20AD.Connect.TcpServer::_port_2
+  IL_015c: callvirt 0x0a000463 System.Net.Sockets.Socket::Connect
+  IL_0161: leave.s IL_0187
+  IL_0163: stloc.1
+  IL_0164: ldarg.0
+  IL_0165: ldfld 0x04000472 F20AD.Connect.TcpServer::Info
+  IL_016a: ldfld 0x040003d7 F20AD.Entity.DeviceInfo::device_name
+  IL_016f: ldstr 0x700057ba ' 建立数据通道失败'
+  IL_0174: call 0x0a000069 System.String::Concat
+  IL_0179: ldloc.1
+  IL_017a: call 0x06000440 F20AD.Utils.ErrorLog::log
+  IL_017f: ldarg.0
+  IL_0180: call 0x06000617 F20AD.Connect.TcpServer::Close
+  IL_0185: leave.s IL_0187
+  IL_0187: ldloc.0
+  IL_0188: ldarg.1
+  IL_0189: ldc.i4.1
+  IL_018a: ldarg.s argument(0x0004)
+  IL_018c: ldarg.s argument(0x0005)
+  IL_018e: ldc.i4 512
+  IL_0193: call 0x060005e3 F20AD.Connect.Send::FileSending
+  IL_0198: stfld 0x0400072f .<>c__DisplayClass81_0::sendFileData
+  IL_019d: ldloc.0
+  IL_019e: ldftn 0x06000772 .<>c__DisplayClass81_0::<SendFile>b__0
+  IL_01a4: newobj 0x0a0000aa System.Threading.ThreadStart::.ctor
+  IL_01a9: newobj 0x0a0000ab System.Threading.Thread::.ctor
+  IL_01ae: call 0x0a0000ac System.Threading.Thread::Start
+  IL_01b3: ret
+
+F20AD.Connect.TcpServer::ExportVideo token 0x06000627
+RVA=0x3200c file_offset=0x3020c header_size=12 IL_size=102
+IL_SHA256=0096e211ce9bc497dfcf6ae4aed3c8a6edbac638516e06083fc8428f8dd5ece2 signature_blob=200001
+  IL_0000: ldarg.0
+  IL_0001: ldc.i4.1
+  IL_0002: stfld 0x0400047a F20AD.Connect.TcpServer::SendCode
+  IL_0007: ldarg.0
+  IL_0008: ldc.i4.0
+  IL_0009: stfld 0x0400047c F20AD.Connect.TcpServer::SendResult
+  IL_000e: ldarg.0
+  IL_000f: newobj 0x0a00017c System.ComponentModel.BackgroundWorker::.ctor
+  IL_0014: stfld 0x04000479 F20AD.Connect.TcpServer::SendVideoWorker
+  IL_0019: ldarg.0
+  IL_001a: ldfld 0x04000479 F20AD.Connect.TcpServer::SendVideoWorker
+  IL_001f: ldarg.0
+  IL_0020: ldftn 0x06000628 F20AD.Connect.TcpServer::ConvertToFTLVWork
+  IL_0026: newobj 0x0a00017d System.ComponentModel.DoWorkEventHandler::.ctor
+  IL_002b: callvirt 0x0a00017e System.ComponentModel.BackgroundWorker::add_DoWork
+  IL_0030: ldarg.0
+  IL_0031: ldfld 0x04000479 F20AD.Connect.TcpServer::SendVideoWorker
+  IL_0036: ldsfld 0x04000735 .<>c::<>9__106_0
+  IL_003b: dup
+  IL_003c: brtrue.s IL_0055
+  IL_003e: pop
+  IL_003f: ldsfld 0x04000734 .<>c::<>9
+  IL_0044: ldftn 0x06000779 .<>c::<ExportVideo>b__106_0
+  IL_004a: newobj 0x0a00017f System.ComponentModel.RunWorkerCompletedEventHandler::.ctor
+  IL_004f: dup
+  IL_0050: stsfld 0x04000735 .<>c::<>9__106_0
+  IL_0055: callvirt 0x0a000180 System.ComponentModel.BackgroundWorker::add_RunWorkerCompleted
+  IL_005a: ldarg.0
+  IL_005b: ldfld 0x04000479 F20AD.Connect.TcpServer::SendVideoWorker
+  IL_0060: callvirt 0x0a000181 System.ComponentModel.BackgroundWorker::RunWorkerAsync
+  IL_0065: ret
+
+F20AD.Connect.TcpServer::ConvertToFTLVWork token 0x06000628
+RVA=0x32080 file_offset=0x30280 header_size=12 IL_size=629
+IL_SHA256=0cb190f61107b45952f5b2c7ae0bfc35aa69b2c3340398f08237f1665aed5bfe signature_blob=2002011c12819d
+  IL_0000: ldarg.0
+  IL_0001: ldfld 0x0400048a F20AD.Connect.TcpServer::exportPath
+  IL_0006: call 0x0a0001b7 System.IO.Directory::CreateDirectory
+  IL_000b: pop
+  IL_000c: ldarg.0
+  IL_000d: ldfld 0x04000472 F20AD.Connect.TcpServer::Info
+  IL_0012: ldfld 0x040003d7 F20AD.Entity.DeviceInfo::device_name
+  IL_0017: ldstr 0x70005862 '_'
+  IL_001c: ldarg.0
+  IL_001d: ldfld 0x0400048b F20AD.Connect.TcpServer::fileName
+  IL_0022: ldstr 0x70005866 '.bin'
+  IL_0027: call 0x0a0000dd System.String::Concat
+  IL_002c: stloc.0
+  IL_002d: ldarg.0
+  IL_002e: call 0x060005fd F20AD.Connect.TcpServer::get_Mac
+  IL_0033: ldstr 0x7000063c 'DMZSingle'
+  IL_0038: call 0x0a000056 System.String::op_Equality
+  IL_003d: brfalse.s IL_0050
+  IL_003f: ldarg.0
+  IL_0040: ldfld 0x0400048b F20AD.Connect.TcpServer::fileName
+  IL_0045: ldstr 0x70005866 '.bin'
+  IL_004a: call 0x0a000069 System.String::Concat
+  IL_004f: stloc.0
+  IL_0050: ldarg.0
+  IL_0051: ldfld 0x0400048a F20AD.Connect.TcpServer::exportPath
+  IL_0056: ldloc.0
+  IL_0057: call 0x0a000388 System.IO.Path::Combine
+  IL_005c: ldc.i4.0
+  IL_005d: stloc.1
+  IL_005e: ldnull
+  IL_005f: stloc.2
+  IL_0060: call 0x0a0000b1 System.Windows.Forms.Application::get_StartupPath
+  IL_0065: ldstr 0x70000706 '/tmp/audio.wav'
+  IL_006a: call 0x0a000069 System.String::Concat
+  IL_006f: stloc.3
+  IL_0070: ldc.i4.0
+  IL_0071: stloc.s local(0x0004)
+  IL_0073: ldc.i4.0
+  IL_0074: stloc.s local(0x0005)
+  IL_0076: ldloc.3
+  IL_0077: call 0x0a0001b3 System.IO.File::Exists
+  IL_007c: brfalse.s IL_00a7
+  IL_007e: ldc.i4.1
+  IL_007f: stloc.s local(0x0004)
+  IL_0081: ldloc.3
+  IL_0082: newobj 0x0a000253 System.IO.FileInfo::.ctor
+  IL_0087: callvirt 0x0a000254 System.IO.FileInfo::get_Length
+  IL_008c: conv.i4
+  IL_008d: ldc.i4.s 44
+  IL_008f: sub
+  IL_0090: stloc.s local(0x0005)
+  IL_0092: ldloc.3
+  IL_0093: ldc.i4.3
+  IL_0094: ldc.i4.1
+  IL_0095: ldc.i4.3
+  IL_0096: newobj 0x0a00020d System.IO.FileStream::.ctor
+  IL_009b: stloc.2
+  IL_009c: ldloc.2
+  IL_009d: ldc.i4.s 44
+  IL_009f: conv.i8
+  IL_00a0: ldc.i4.0
+  IL_00a1: callvirt 0x0a000227 System.IO.Stream::Seek
+  IL_00a6: pop
+  IL_00a7: ldc.i4 1600
+  IL_00ac: newarr 0x0100013b System::Byte
+  IL_00b1: stloc.s local(0x0006)
+  IL_00b3: ldsfld 0x040001ef F20AD.TransformWindow::DEVICETYPE
+  IL_00b8: newobj 0x060003e6 F20AD.Utils.Bin::.ctor
+  IL_00bd: stloc.s local(0x0007)
+  IL_00bf: ldc.i4.2
+  IL_00c0: ldc.i4.2
+  IL_00c1: ldc.i4.3
+  IL_00c2: newobj 0x0a00020d System.IO.FileStream::.ctor
+  IL_00c7: stloc.s local(0x0008)
+  IL_00c9: ldloc.s local(0x0007)
+  IL_00cb: callvirt 0x060003e8 F20AD.Utils.Bin::getHeader
+  IL_00d0: stloc.s local(0x0009)
+  IL_00d2: ldloc.s local(0x0008)
+  IL_00d4: ldloc.1
+  IL_00d5: conv.i8
+  IL_00d6: ldc.i4.0
+  IL_00d7: callvirt 0x0a000227 System.IO.Stream::Seek
+  IL_00dc: pop
+  IL_00dd: ldloc.s local(0x0008)
+  IL_00df: ldloc.s local(0x0009)
+  IL_00e1: ldc.i4.0
+  IL_00e2: ldloc.s local(0x0009)
+  IL_00e4: ldlen
+  IL_00e5: conv.i4
+  IL_00e6: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_00eb: ldarg.0
+  IL_00ec: ldarg.0
+  IL_00ed: ldfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_00f2: ldloc.s local(0x0009)
+  IL_00f4: ldlen
+  IL_00f5: conv.i4
+  IL_00f6: add
+  IL_00f7: stfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_00fc: ldloc.1
+  IL_00fd: ldloc.s local(0x0009)
+  IL_00ff: ldlen
+  IL_0100: conv.i4
+  IL_0101: add
+  IL_0102: stloc.1
+  IL_0103: br IL_01e9
+  IL_0108: ldstr 0x700057e0 '{0}/tmp/{1}/{2}.jpg'
+  IL_010d: call 0x0a0000b1 System.Windows.Forms.Application::get_StartupPath
+  IL_0112: ldarg.0
+  IL_0113: call 0x060005fd F20AD.Connect.TcpServer::get_Mac
+  IL_0118: ldarg.0
+  IL_0119: ldfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_011e: ldc.i4.1
+  IL_011f: add
+  IL_0120: box 0x010000f0 System::Int32
+  IL_0125: call 0x0a0001c3 System.String::Format
+  IL_012a: stloc.s local(0x000B)
+  IL_012c: ldloc.s local(0x000B)
+  IL_012e: call 0x0a0001b3 System.IO.File::Exists
+  IL_0133: brfalse IL_01e2
+  IL_0138: ldarg.0
+  IL_0139: ldloc.s local(0x000B)
+  IL_013b: call 0x06000629 F20AD.Connect.TcpServer::IsFileInUse
+  IL_0140: brtrue IL_01e2
+  IL_0145: ldloc.s local(0x000B)
+  IL_0147: newobj 0x0a0000cd System.Drawing.Bitmap::.ctor
+  IL_014c: stloc.s local(0x000C)
+  IL_014e: ldloc.s local(0x0007)
+  IL_0150: ldloc.s local(0x000C)
+  IL_0152: ldloc.s local(0x000C)
+  IL_0154: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_0159: ldc.i4.2
+  IL_015a: div
+  IL_015b: ldloc.s local(0x000C)
+  IL_015d: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_0162: ldc.i4.2
+  IL_0163: div
+  IL_0164: ldloc.s local(0x000C)
+  IL_0166: callvirt 0x0a0000ce System.Drawing.Image::get_Width
+  IL_016b: callvirt 0x060003ee F20AD.Utils.Bin::bitmapToBin
+  IL_0170: stloc.s local(0x000D)
+  IL_0172: ldloc.s local(0x0008)
+  IL_0174: ldloc.s local(0x000D)
+  IL_0176: ldc.i4.0
+  IL_0177: ldloc.s local(0x000D)
+  IL_0179: ldlen
+  IL_017a: conv.i4
+  IL_017b: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_0180: ldloc.s local(0x0004)
+  IL_0182: brfalse.s IL_01b3
+  IL_0184: ldloc.2
+  IL_0185: ldloc.s local(0x0006)
+  IL_0187: ldc.i4.0
+  IL_0188: ldloc.s local(0x0006)
+  IL_018a: ldlen
+  IL_018b: conv.i4
+  IL_018c: ldarg.0
+  IL_018d: ldfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_0192: mul
+  IL_0193: ldloc.s local(0x0005)
+  IL_0195: ble.s IL_01a9
+  IL_0197: ldloc.s local(0x0005)
+  IL_0199: ldloc.s local(0x0006)
+  IL_019b: ldlen
+  IL_019c: conv.i4
+  IL_019d: ldarg.0
+  IL_019e: ldfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_01a3: ldc.i4.1
+  IL_01a4: sub
+  IL_01a5: mul
+  IL_01a6: sub
+  IL_01a7: br.s IL_01ad
+  IL_01a9: ldloc.s local(0x0006)
+  IL_01ab: ldlen
+  IL_01ac: conv.i4
+  IL_01ad: callvirt 0x0a000228 System.IO.Stream::Read
+  IL_01b2: pop
+  IL_01b3: ldloc.s local(0x0008)
+  IL_01b5: ldloc.s local(0x0006)
+  IL_01b7: ldc.i4.0
+  IL_01b8: ldloc.s local(0x0006)
+  IL_01ba: ldlen
+  IL_01bb: conv.i4
+  IL_01bc: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_01c1: ldloc.1
+  IL_01c2: ldloc.s local(0x000D)
+  IL_01c4: ldlen
+  IL_01c5: conv.i4
+  IL_01c6: add
+  IL_01c7: ldloc.s local(0x0006)
+  IL_01c9: ldlen
+  IL_01ca: conv.i4
+  IL_01cb: add
+  IL_01cc: stloc.1
+  IL_01cd: ldarg.0
+  IL_01ce: ldloc.1
+  IL_01cf: stfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_01d4: ldarg.0
+  IL_01d5: ldarg.0
+  IL_01d6: ldfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_01db: ldc.i4.1
+  IL_01dc: add
+  IL_01dd: stfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_01e2: ldc.i4.s 10
+  IL_01e4: call 0x0a0000b7 System.Threading.Thread::Sleep
+  IL_01e9: ldarg.0
+  IL_01ea: ldfld 0x04000494 F20AD.Connect.TcpServer::_offset
+  IL_01ef: ldarg.0
+  IL_01f0: ldfld 0x04000493 F20AD.Connect.TcpServer::frameCount
+  IL_01f5: blt IL_0108
+  IL_01fa: ldc.i4 100000
+  IL_01ff: newarr 0x0100013b System::Byte
+  IL_0204: stloc.s local(0x000A)
+  IL_0206: ldloc.s local(0x0008)
+  IL_0208: ldloc.s local(0x000A)
+  IL_020a: ldc.i4.0
+  IL_020b: ldloc.s local(0x000A)
+  IL_020d: ldlen
+  IL_020e: conv.i4
+  IL_020f: callvirt 0x0a00037c System.IO.Stream::Write
+  IL_0214: ldloc.s local(0x0008)
+  IL_0216: callvirt 0x0a00020e System.IO.Stream::Close
+  IL_021b: ldarg.0
+  IL_021c: ldarg.0
+  IL_021d: ldfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_0222: ldloc.s local(0x000A)
+  IL_0224: ldlen
+  IL_0225: conv.i4
+  IL_0226: add
+  IL_0227: stfld 0x04000495 F20AD.Connect.TcpServer::_sendCount
+  IL_022c: ldarg.0
+  IL_022d: ldc.i4.0
+  IL_022e: stfld 0x04000476 F20AD.Connect.TcpServer::_isFileSend
+  IL_0233: ldarg.0
+  IL_0234: ldc.i4.2
+  IL_0235: stfld 0x0400047a F20AD.Connect.TcpServer::SendCode
+  IL_023a: ldstr 0x70005870 'sendCode:'
+  IL_023f: ldarg.0
+  IL_0240: ldflda 0x0400047a F20AD.Connect.TcpServer::SendCode
+  IL_0245: call 0x0a000102 System.Int32::ToString
+  IL_024a: call 0x0a000069 System.String::Concat
+  IL_024f: call 0x0a0000ad System.Console::WriteLine
+  IL_0254: ldloc.2
+  IL_0255: callvirt 0x0a00020e System.IO.Stream::Close
+  IL_025a: ldstr 0x70005870 'sendCode:'
+  IL_025f: ldarg.0
+  IL_0260: ldflda 0x0400047a F20AD.Connect.TcpServer::SendCode
+  IL_0265: call 0x0a000102 System.Int32::ToString
+  IL_026a: call 0x0a000069 System.String::Concat
+  IL_026f: call 0x0a0000ad System.Console::WriteLine
+  IL_0274: ret
+
+offset_image: source-field-token=0x040004b7 RVA=0x250010 file_offset=0x24e210
+bytes=256 SHA256=2f1ee281848602f6204161d2571044c5ef136c0d6e609643b9a8074bca4f1b44
+hex=00c0c101c30302c2c60607c705c5c404cc0c0dcd0fcfce0e0acacb0bc90908c8d81819d91bdbda1a1ededf1fdd1d1cdc14d4d515d71716d6d21213d311d1d010f03031f133f3f23236f6f737f53534f43cfcfd3dff3f3efefa3a3bfb39f9f83828e8e929eb2b2aeaee2e2fef2dedec2ce42425e527e7e62622e2e323e12120e0a06061a163a3a26266a6a767a56564a46cacad6daf6f6eaeaa6a6bab69a9a86878b8b979bb7b7ababe7e7fbf7dbdbc7cb47475b577b7b67672b2b373b17170b0509091519353529296565797559594549c5c5d9d5f9f9e5e5a9a9b5b99595898884849894b8b8a4a4e8e8f4f8d4d4c8c44848545874746868242438341818040
+
+gamma_tab: source-field-token=0x040004b8 RVA=0x250110 file_offset=0x24e310
+bytes=256 SHA256=4fe1cdb64658f8dcf02c2507a1085b12abe75f5efc089cb120e213b6253620ec
+hex=0000000000000000000000000000000000000000000000000000000000000001010101010101010101010102020202020202020303030303030404040404040505050606060707080809090a0a0b0c0c0d0d0e0e0f10111112131415161718191a1b1c1d1d1e1f2021222324252628292b2c2d2f31333537383a3b3d3e3f40424446484a4d4f515355585a5d606265676a6c6f7275787b7e8285888c8f92969a9da0a4a7aaadb0b4b7babcbec0c2c4c6c8caccced0d2d3d5d7d8d9dadbdcdee0e1e2e3e4e5e6e7e8e9eaebecedeeefeff0f0f1f2f2f3f4f4f5f6f6f7f8f8f9f9f9fafafafbfbfbfbfcfcfcfcfdfdfdfdfdfdfefefefefefeffffffffffffffff
