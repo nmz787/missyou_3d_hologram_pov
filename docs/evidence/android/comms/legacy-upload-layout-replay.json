@@ -1,0 +1,200 @@
+{
+  "authority": "Analyst reconstruction of observed native field writes and ACK comparisons; not original-method execution",
+  "native_member_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+  "native_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+  "constants": {
+    "file_info_header": {
+      "ascii": "d31d66",
+      "hex": "643331643636"
+    },
+    "file_info_tail": {
+      "ascii": "a4a8c2e3",
+      "hex": "6134613863326533"
+    },
+    "chunk_header": {
+      "ascii": "d31d88JMP",
+      "hex": "6433316438384a4d50"
+    },
+    "chunk_tail": {
+      "ascii": "000a4a8c2e3",
+      "hex": "3030306134613863326533"
+    }
+  },
+  "samples": [
+    {
+      "local_source": "13_tractor.bin",
+      "source_sha256": "7267a68ae34cb2da2166befafa806b5526a863445c640d444ca1e8003ce9c3c5",
+      "filename": "13_tractor.bin",
+      "filename_gbk_hex": "31335f74726163746f722e62696e",
+      "file_bytes": 6907564,
+      "chunk_body_bytes": 1440,
+      "chunk_packet_bytes": 1460,
+      "chunks": 4797,
+      "padded_file_bytes": 6907680,
+      "padding_bytes": 116,
+      "file_info_bytes": 35,
+      "file_info_hex": "64333164363644464b0069672031335f74726163746f722e62696e6134613863326533",
+      "file_info_size_field_hex": "00696720",
+      "interval_ack_requests": 240,
+      "file_info_ack_requests": 1,
+      "chunk_samples": [
+        {
+          "zero_based_block": 0,
+          "packet_bytes": 1460,
+          "header_hex": "6433316438384a4d50",
+          "tail_hex": "3030306134613863326533",
+          "packet_sha256": "a6b581e63de7f05627d4537d78b7922879ec5d5c3f9ecfaa355c66590358d0a2",
+          "body_sha256": "57fc45739564beb4c28a022e6cebfb85d0d10ea4e89ec1d4f3ddae9fd4164440"
+        },
+        {
+          "zero_based_block": 4796,
+          "packet_bytes": 1460,
+          "header_hex": "6433316438384a4d50",
+          "tail_hex": "3030306134613863326533",
+          "packet_sha256": "7bc179ad1e425c46cae5fbabd7be33f2ff6cb6f66cb2623844e221f88624d580",
+          "body_sha256": "52dbd4365b026555e3382c056240376d3aa319c7e46c1aa7c38caa4883570517"
+        }
+      ],
+      "completion_ascii": "d31d88DEFa4a8c2e3",
+      "completion_bytes": 17
+    },
+    {
+      "local_source": "cd.bin",
+      "source_sha256": "9313725e3f4aa0a866255fb102871786ce1599a4c7521c391e04417d2b25d404",
+      "filename": "14_cd.bin",
+      "filename_gbk_hex": "31345f63642e62696e",
+      "file_bytes": 358172,
+      "chunk_body_bytes": 1440,
+      "chunk_packet_bytes": 1460,
+      "chunks": 249,
+      "padded_file_bytes": 358560,
+      "padding_bytes": 388,
+      "file_info_bytes": 30,
+      "file_info_hex": "643331643636444646000578a031345f63642e62696e6134613863326533",
+      "file_info_size_field_hex": "000578a0",
+      "interval_ack_requests": 13,
+      "file_info_ack_requests": 1,
+      "chunk_samples": [
+        {
+          "zero_based_block": 0,
+          "packet_bytes": 1460,
+          "header_hex": "6433316438384a4d50",
+          "tail_hex": "3030306134613863326533",
+          "packet_sha256": "c2f32faf93b0c9f5ab3cbec5184f909e365e1885664e99c36bcf2a9492ebe7c3",
+          "body_sha256": "3eda9c3233153bb128b66363017785204466df8f1c62d1e3550e1b3508b1fab3"
+        },
+        {
+          "zero_based_block": 248,
+          "packet_bytes": 1460,
+          "header_hex": "6433316438384a4d50",
+          "tail_hex": "3030306134613863326533",
+          "packet_sha256": "7bc179ad1e425c46cae5fbabd7be33f2ff6cb6f66cb2623844e221f88624d580",
+          "body_sha256": "52dbd4365b026555e3382c056240376d3aa319c7e46c1aa7c38caa4883570517"
+        }
+      ],
+      "completion_ascii": "d31d88DEFa4a8c2e3",
+      "completion_bytes": 17
+    }
+  ],
+  "ack_evidence_id": "ev_9e44881b9dec968e439e468593da0cb13f23b004b8bfbc37cb0a4e903b6f9461",
+  "ack_examples": [
+    {
+      "scenario": "minimal ACK",
+      "read_parts_hex": [
+        "6433306436366134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 14,
+          "acceptance": true
+        }
+      ]
+    },
+    {
+      "scenario": "fragmented ACK",
+      "read_parts_hex": [
+        "6433306436",
+        "366134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 5,
+          "acceptance": false
+        },
+        {
+          "accumulated_bytes": 14,
+          "acceptance": true
+        }
+      ]
+    },
+    {
+      "scenario": "leading unexpected byte",
+      "read_parts_hex": [
+        "216433306436366134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 15,
+          "acceptance": false
+        }
+      ]
+    },
+    {
+      "scenario": "trailing unexpected byte",
+      "read_parts_hex": [
+        "643330643636613461386332653321"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 15,
+          "acceptance": false
+        }
+      ]
+    },
+    {
+      "scenario": "unchecked middle bytes",
+      "read_parts_hex": [
+        "6433306436366172626974726172796134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 23,
+          "acceptance": true
+        }
+      ]
+    },
+    {
+      "scenario": "coalesced duplicate ACKs",
+      "read_parts_hex": [
+        "64333064363661346138633265336433306436366134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 28,
+          "acceptance": true
+        }
+      ]
+    },
+    {
+      "scenario": "buffer filled with wrong prefix",
+      "read_parts_hex": [
+        "2121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121212121",
+        "6433306436366134613863326533"
+      ],
+      "after_each_read": [
+        {
+          "accumulated_bytes": 128,
+          "acceptance": false
+        },
+        {
+          "accumulated_bytes": 128,
+          "acceptance": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No network connection, APK execution, or device upload performed.",
+    "This derived model does not establish firmware acceptance or ACK timing."
+  ]
+}

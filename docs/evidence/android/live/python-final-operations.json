@@ -1,0 +1,399 @@
+{
+  "play": {
+    "protocol": "legacy",
+    "operation": "play",
+    "sent": true,
+    "acknowledged": false,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    },
+    "requested_state_observed": true
+  },
+  "pause": {
+    "protocol": "legacy",
+    "operation": "pause",
+    "sent": true,
+    "acknowledged": false,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": false,
+      "raw_tail": "01H710",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731306134613863326533"
+    },
+    "requested_state_observed": true
+  },
+  "resume": {
+    "protocol": "legacy",
+    "operation": "resume",
+    "sent": true,
+    "acknowledged": false,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    },
+    "requested_state_observed": true
+  },
+  "delete": {
+    "protocol": "legacy",
+    "operation": "delete",
+    "sent": true,
+    "acknowledged": false,
+    "status": {
+      "protocol": "legacy",
+      "files": [],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": null,
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386162693031483731316134613863326533"
+    },
+    "requested_state_observed": true
+  },
+  "after_delete": {
+    "protocol": "legacy",
+    "files": [],
+    "complete": true,
+    "issues": [],
+    "current_index": 1,
+    "current": null,
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "01H711",
+    "raw_frame_hex": "6333306333386162693031483731316134613863326533"
+  },
+  "upload": {
+    "protocol": "legacy",
+    "name": "90USB.bin",
+    "bytes": 358172,
+    "transferred": true,
+    "verified": false,
+    "overwrite_authorized": false,
+    "before_count": 0,
+    "before_complete": true,
+    "padded_bytes": 358560,
+    "blocks": 249,
+    "completion": {
+      "write_eof_sent": true,
+      "transport": "adb-shell",
+      "relay_exit_code": 0,
+      "drained_bytes": 0,
+      "completion_response_hex": "",
+      "completion_acknowledged": false,
+      "buffered_ack_bytes": 0
+    },
+    "ack_mode": "native-batch",
+    "acknowledgments": {
+      "info": {
+        "prefix": "d30d66",
+        "status": "ffff",
+        "raw_hex": "64333064363644454a666666666134613863326533"
+      },
+      "data_count": 13,
+      "data_statuses": {
+        "ffff": 13
+      }
+    },
+    "ack_sequence_correlated": false,
+    "after_count": 1,
+    "after_complete": true,
+    "issues": [],
+    "verification_checks": [
+      {
+        "seconds": 0.036,
+        "name_listed": true,
+        "count": 1,
+        "complete": true
+      },
+      {
+        "seconds": 0.567,
+        "name_listed": true,
+        "count": 1,
+        "complete": true
+      },
+      {
+        "seconds": 2.993,
+        "name_listed": true,
+        "count": 1,
+        "complete": true
+      }
+    ],
+    "listing_stable": true,
+    "name_listed": true,
+    "verification": "filename_listed_in_repeated_responses_content_unverified",
+    "file": {
+      "index": 1,
+      "name": "90USB.bin",
+      "displayName": "90USB"
+    },
+    "content_verified": false,
+    "persistence_verified": false,
+    "playback_verified": false
+  },
+  "play_uploaded": {
+    "protocol": "legacy",
+    "operation": "play",
+    "sent": true,
+    "acknowledged": false,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    },
+    "requested_state_observed": true
+  },
+  "persistence_checks": [
+    {
+      "seconds": 1.01,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 4.04,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 7.09,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 10.12,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 13.17,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 16.21,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 19.26,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    },
+    {
+      "seconds": 22.31,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "90USB.bin",
+            "displayName": "90USB"
+          }
+        ],
+        "complete": true,
+        "issues": [],
+        "current_index": 1,
+        "current": "90USB.bin",
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "01H711",
+        "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+      }
+    }
+  ]
+}

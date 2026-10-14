@@ -1,0 +1,74 @@
+[
+  {
+    "string_id": 693,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-8",
+        "bundle_offset": "0x0009fe91",
+        "byte_count": 44,
+        "sha256": "0c00a5ff426b8a03c737fdc9d9858565b5a27a2d3022e1f558127bc9cef4345c"
+      }
+    ]
+  },
+  {
+    "string_id": 786,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-8",
+        "bundle_offset": "0x000a178f",
+        "byte_count": 33,
+        "sha256": "cd89026f888022d7dfa927130f4720c59a9679156a08c8654b55ca0ab6c19d8a"
+      }
+    ]
+  },
+  {
+    "string_id": 9457,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-16le",
+        "bundle_offset": "0x0012b57a",
+        "byte_count": 25364,
+        "sha256": "f0ba04dda98bfbd1c4356cc01195237825cba2320e632dc6258f176b6d05dcdb"
+      }
+    ]
+  },
+  {
+    "string_id": 9458,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-16le",
+        "bundle_offset": "0x0013188c",
+        "byte_count": 13632,
+        "sha256": "b0070da1db405605bedb373f01096e2f9f0bda096941b531fd61ad56ad0d85c4"
+      }
+    ]
+  },
+  {
+    "string_id": 9459,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-16le",
+        "bundle_offset": "0x00134dc6",
+        "byte_count": 5080,
+        "sha256": "dd5f7231172693cdbd10f98b0e537c048487d0e53dff06d5a0d935001480d0ab"
+      }
+    ]
+  },
+  {
+    "string_id": 565,
+    "source_function": 17470,
+    "direct_bundle_matches": [
+      {
+        "encoding": "utf-8",
+        "bundle_offset": "0x0008a67f",
+        "byte_count": 1162,
+        "sha256": "b60f3dd0395ede58b365ed1ea3e1c247d1b24fb96e11a10e0dbb80290b46b905"
+      }
+    ]
+  }
+]

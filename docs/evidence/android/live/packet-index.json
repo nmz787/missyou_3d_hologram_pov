@@ -1,0 +1,79 @@
+{
+  "scope": "Captured response bytes plus controlled offline decompiler/project parser replay; no live I/O during replay",
+  "packet_sha256": "533d3e7a224c8050812071f315001048fc408e8c2a043feb961999597404303e",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "original_hermes_functions": [
+    {
+      "function_id": 9132,
+      "name": "_handleDeviceFileList",
+      "bundle_file_offset": "0x29d5d9",
+      "code_bytes": 88,
+      "original_code_sha256": "778aedc2eb2e10c94e71f4f871699069df5a25a0ba329fc0fe101fbe69d3abfd"
+    },
+    {
+      "function_id": 9133,
+      "name": "",
+      "bundle_file_offset": "0x29d631",
+      "code_bytes": 188,
+      "original_code_sha256": "2db7f1e2f02b0409978bf802fb6ee3abeaaa21e71fec2fad0551aa24e8ff886f"
+    },
+    {
+      "function_id": 9291,
+      "name": "_parseModel",
+      "bundle_file_offset": "0x2a1b18",
+      "code_bytes": 161,
+      "original_code_sha256": "660772b407d9a1a5c2bf8f5d51830b6118d4bacfa15975973ab5249c06e3a664"
+    },
+    {
+      "function_id": 9292,
+      "name": "_parseFileList",
+      "bundle_file_offset": "0x2a1bb9",
+      "code_bytes": 728,
+      "original_code_sha256": "83dcf3e34e6a8472647b9e3857a2842eb958ea811246b850cdb336e90ebe668d"
+    },
+    {
+      "function_id": 9293,
+      "name": "_parseNotify",
+      "bundle_file_offset": "0x2a1e91",
+      "code_bytes": 385,
+      "original_code_sha256": "e41407f6341c8962e0157082a3ee29b380d948ffc70fcf7f273bc26e2ab7d2b6"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "packet-function-9291.pseudo.js",
+      "bytes": 2137,
+      "sha256": "813004e679822d19f24b51e1d3666c672e087b086acb7997660c049e72bc19dd"
+    },
+    {
+      "path": "packet-original-replay.json",
+      "bytes": 6834,
+      "sha256": "cb47f7319becb2b42575deefe2276db327f0981b857828faa9c1291be0241384"
+    },
+    {
+      "path": "packet-parser-bytecode.hasm",
+      "bytes": 27647,
+      "sha256": "e631bea9b406978fd0c722ae30a84d0391c94579d7514b571a700bdd42d3a14a"
+    },
+    {
+      "path": "packet-project-replay.json",
+      "bytes": 2372,
+      "sha256": "58538c8e889bcc89e336279a01adf21e3fc1448cbb16cee7f10be798af242974"
+    },
+    {
+      "path": "packet-replay.mjs",
+      "bytes": 8191,
+      "sha256": "f8daf25ef4b6950b7b70b0cf9df609d08b606f5fbff0f0b1a141f1f9f480a06f"
+    },
+    {
+      "path": "packet-response.bin",
+      "bytes": 194,
+      "sha256": "533d3e7a224c8050812071f315001048fc408e8c2a043feb961999597404303e"
+    },
+    {
+      "path": "packet-findings.md",
+      "bytes": 4780,
+      "sha256": "612aebdaf2d5c705ddfa909e3daa9e6f8604197442c45dec8a736c0c1e226aa1"
+    }
+  ]
+}

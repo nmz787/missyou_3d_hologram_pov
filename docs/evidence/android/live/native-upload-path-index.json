@@ -1,0 +1,502 @@
+{
+  "authority": "Static offline artifact analysis; no APK/library execution, ADB, or display/network requests in this follow-up",
+  "member_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+  "files": [
+    {
+      "path": "docs/evidence/android/live/native-upload-path-async.asm.txt",
+      "bytes": 1523,
+      "sha256": "af8dfdae0d7af3ab6f8eb42aa63dadc62ba149935edde4a17b9831c45bf6c197"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-async.c.txt",
+      "bytes": 1120,
+      "sha256": "88470ab4c0a57a9c5ea670ce47909883935fefb8951a0feabb2b38eb23642650"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-async.json",
+      "bytes": 263122,
+      "sha256": "76422f812108cd17ed4717be9f036263060b8440736f161df1d9a3568937fb21"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-async.mcp.json",
+      "bytes": 443663,
+      "sha256": "8fe7af80ff2a0a90255ef871edfe746633ee9d294d704f3ef87c299c8e773733"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-close.json",
+      "bytes": 21,
+      "sha256": "904c437351b38bfe18e842196537a2d56e5f785ba9c95e8d7b0a314df9744e30"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-close.mcp.json",
+      "bytes": 140,
+      "sha256": "ca82b91e779bad3a72ee58e39fbaaf09b81affadf49ff1db9f30e1ab8e56bc4d"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-extract.py",
+      "bytes": 4271,
+      "sha256": "8dbaeb3aed1a042177836cc1cda620f99f37272f012d8f289cf25a6d08713c03"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-findings.md",
+      "bytes": 8096,
+      "sha256": "f507cb9631b4200a31250f251b8b29baf2e7cc9e7f332e5bc58879f3ba8df38f"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-header-reference-summary.json",
+      "bytes": 15933,
+      "sha256": "6d10ec77f16cad5cfc0e77660d5b3f5f14c459865cc8ce8d6f3756ee1759d378"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-onload.asm.txt",
+      "bytes": 150,
+      "sha256": "c9b7754c142af0537e8b3e150eab0dfc78e29660fa8489cb935fb84f74cdeed2"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-onload.c.txt",
+      "bytes": 231,
+      "sha256": "ec3e3f5a05f2a25ef8bd99cad07de00d48cb12c1791f4485bfeee47bb168162c"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-onload.json",
+      "bytes": 29062,
+      "sha256": "50946a440cf333640e770e46c6f235f88c3a0f690b747f66424ffacf5941185d"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-onload.mcp.json",
+      "bytes": 51464,
+      "sha256": "fcdd1e2daa6afb74e927344bef86e1305227fdcd77a3b4819fa97754627cbadf"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-wrapper.asm.txt",
+      "bytes": 3061,
+      "sha256": "de2777a8ef002037402c6d82ae64d6a88da988fd9adb1b6a1d25b0485739fdd6"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-wrapper.c.txt",
+      "bytes": 1723,
+      "sha256": "5169fccc280ac7a619dd39dcf1b383305456f9cbe542d52e0a25f8fdc70e9063"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-jni-wrapper.json",
+      "bytes": 189640,
+      "sha256": "b61986cda31fdb49cae1f7f3e26b1387b6c03c2d7f60381d124817aaf1b290ae"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-native-init.asm.txt",
+      "bytes": 3002,
+      "sha256": "041dea073eea8851244a5ef3e08b8626cbb3c4099400b924b7e80ea309de1750"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-native-init.c.txt",
+      "bytes": 2081,
+      "sha256": "94b7f01811e285ad8925939f4d29a0c7a11cddbfa4d0142ca0c6a2170fcd25b1"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-native-init.json",
+      "bytes": 779620,
+      "sha256": "68bece3dcfd38d6d15b315885e4f3de636ee7c8f064e3063c61025e39bc8c386"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-native-init.mcp.json",
+      "bytes": 1296846,
+      "sha256": "fd4af2da2ad3be0b9bb3ae1d0bf920a158baf5bc0426d7a3e614b7ffed1d0a15"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-open.json",
+      "bytes": 248,
+      "sha256": "f5996dfd70ed2d0a9cb7652ddc9e951292c7bd202345da8577da7c20c2044359"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-open.mcp.json",
+      "bytes": 593,
+      "sha256": "06181aab72cb5976b742752589ce6f664c7e33a237ac99743ee25a0d45f8a310"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-registration.json",
+      "bytes": 7060,
+      "sha256": "eebd99031b41e1278b8af199fae0236302f27ca601e8db810e2fbd79f1d4593c"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-session.py",
+      "bytes": 4388,
+      "sha256": "d3d4e88e24360be745b2dd6af81ec366eff4f1003779b1e3db9b6dc280425ab3"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-tool-schemas.json",
+      "bytes": 107793,
+      "sha256": "474a4a64c3457006ecc3ac00e1b84b837ff351dd31afd864603796e9364352eb"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-0.json",
+      "bytes": 3160,
+      "sha256": "77bc3b78742ec9a383ee11b345dd8c29e2a5145ac69390ea907eafa8eb55a395"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-0.mcp.json",
+      "bytes": 6332,
+      "sha256": "4c1d415a851d81a2b24f29edd258c070082692977d4a16f078868557b1594443"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-1.json",
+      "bytes": 3092,
+      "sha256": "895177e86919e1d7f37592fc53ef72cdc81b5405958631acf0a95140f06bce3b"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-1.mcp.json",
+      "bytes": 6202,
+      "sha256": "5760bfe6946020f71de162ea5f428ef4a15e5b9a93c0d10ab95c80c849d43bfa"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-2.json",
+      "bytes": 3092,
+      "sha256": "d27871a2b074437f1ffd421176370fead14e98be6b62c2e47cdc525a428cc4a9"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-2.mcp.json",
+      "bytes": 6202,
+      "sha256": "956c51b48257e990244d7ce098169ab03c073dc222d038d44f101a37a0708dcd"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-3.json",
+      "bytes": 3092,
+      "sha256": "9c001ff19806c9582f4774d91866091b2b5e849927aa32c254faa87bd176e853"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-3.mcp.json",
+      "bytes": 6202,
+      "sha256": "95f51c617bfba508f1be68a9f51582cf09238e5823911b43226b064250baf5e4"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-4.json",
+      "bytes": 3092,
+      "sha256": "624887c643d1a6971075ab3f9212637eed0431d1ce74cca6343b14d5845236c6"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-4.mcp.json",
+      "bytes": 6202,
+      "sha256": "7f6934ba884edaed1c156ebf00d5d7bce71a207a54a05b8e6705793a4e159500"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-5.json",
+      "bytes": 3092,
+      "sha256": "f395474bdcf186d5ad9591b438ea9fa9d0c6aa9bc0f341626771720eca64f2cf"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-5.mcp.json",
+      "bytes": 6202,
+      "sha256": "39eeaeb99c8b53ea0f8933be596a459fd79edb0d2b7e19e240df123df7e24b2d"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-6.json",
+      "bytes": 3092,
+      "sha256": "c5c32401587b5e015adbc0c8540260ace45b0fa395a0b4dc0a575b3f5b6ade33"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-6.mcp.json",
+      "bytes": 6202,
+      "sha256": "3f49d8ab28881b0211da3694fcc490548a2a2e834ea7b56dd7d951f90f026ac8"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-7.json",
+      "bytes": 3092,
+      "sha256": "a9e2889e6cd1e7b5f1b67c145da72da05e6bb273577304f682fe077b947fb800"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-7.mcp.json",
+      "bytes": 6202,
+      "sha256": "42230af0b7512e629e6612ddac2b4c6ea9374211ce6ab0439c638672f04bf8e9"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-8.json",
+      "bytes": 3128,
+      "sha256": "9cab67ba49276679866209b008637fdb9ca156b91623dba74406ab6320065646"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-header-8.mcp.json",
+      "bytes": 6270,
+      "sha256": "57d5664bd32fc434e3b2fde7d16aef9bfb782a8e6cc96b5f51da46803cc23bc7"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-0.json",
+      "bytes": 3160,
+      "sha256": "0f5002d61e551c40d18b57f753e9d00746b3feedbdaf6ced8f620ae09eddcef7"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-0.mcp.json",
+      "bytes": 6332,
+      "sha256": "d0fe994da633fde0614880815e763591353ec2a55651f1bcb246759818b4dc12"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-1.json",
+      "bytes": 3092,
+      "sha256": "5ac1b69c0fac5dedf44920171e258648bacfb62bcbc872bc275a70ca2f09d8f2"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-1.mcp.json",
+      "bytes": 6202,
+      "sha256": "9905cb5c95d830f2ed0f85f1e790e5c9dd895aa4e3490a59a364ce5248b04f53"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-10.json",
+      "bytes": 3092,
+      "sha256": "a2a3051ca987d2c6fa44e77254d4056c8faf99fa3ae96db70269721756040aa2"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-10.mcp.json",
+      "bytes": 6202,
+      "sha256": "9dfec9411e48dcd3c0dad77e20a35a70c6290753c3973dc251f924a1c9c5703e"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-2.json",
+      "bytes": 3092,
+      "sha256": "2cb952a692f989c9d9571aa947bba8299912376e0b7256741fabb069cb7147ad"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-2.mcp.json",
+      "bytes": 6202,
+      "sha256": "7c04815a7cf6b45ef60094faede2a413f05f85282c4ff63c6812903d2ee3193d"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-3.json",
+      "bytes": 3092,
+      "sha256": "91bb3f4e13419be6640fefe212c2861ebd085f30243b63134f9531f11611357f"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-3.mcp.json",
+      "bytes": 6202,
+      "sha256": "35f9392e42dfbeafe10f0b6ae04bd7fe94c67219804d1c6ff251b967d51515f5"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-4.json",
+      "bytes": 3092,
+      "sha256": "19e7b6a4c2de9db98b35eebabb316a8f9b70c4087a2f0e84088de8e9fb92fdec"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-4.mcp.json",
+      "bytes": 6202,
+      "sha256": "616476e49cac232f75ebcaf1fac5e95328fe3ada86d8c1eebe6d98a3d5b72934"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-5.json",
+      "bytes": 3092,
+      "sha256": "dde3279aa39bcb0d53fae4c55d4e1f08c172e22ac1b7c72425c22440539f6ea2"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-5.mcp.json",
+      "bytes": 6202,
+      "sha256": "80136e479d2535218e607849d81d123baa617c3f1d76c4624535526691f1f26d"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-6.json",
+      "bytes": 3092,
+      "sha256": "fae5a0eddbc05b55bbb99ee56f132ddd35eb9debf3b1b33a4c78a0a775c250dc"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-6.mcp.json",
+      "bytes": 6202,
+      "sha256": "388fe0e1e4461da58867f3a5636f0f08a9df42ccc39a19af72aca33a0fb3fb65"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-7.json",
+      "bytes": 3128,
+      "sha256": "ba24f9528a61f7c6be3396956dbfeb03487a3aee61f538bc2e5a2829789c1fe5"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-7.mcp.json",
+      "bytes": 6270,
+      "sha256": "5e1a4c351fb02244e5bbf2581c894047a1412da057067b76acfdc8d34cba90ed"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-8.json",
+      "bytes": 3092,
+      "sha256": "00d43c9b944e7465afeb255f7f85187fa5c28a18d0a4a0ddf39d32a1511682cd"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-8.mcp.json",
+      "bytes": 6202,
+      "sha256": "2f2bdfbc3870e396d940095d4838b7818e168768745ce968b884295b830722bb"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-9.json",
+      "bytes": 3092,
+      "sha256": "07745ffb4fcee100c24e697e83c8b6ba275e7da19f85599780c798f08c10e2f0"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-9.mcp.json",
+      "bytes": 6202,
+      "sha256": "74ed037b9d2eacd8d8946600a874ce32fdec165f382c9cc549364c329afbd96f"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-0.json",
+      "bytes": 3160,
+      "sha256": "1fb9aa0f45977876bc50bd6a81164719a125ee15d51ef0fd397852b594f79e70"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-0.mcp.json",
+      "bytes": 6332,
+      "sha256": "71f10c1a8529e66b82e50a93af2fcb07b9afee5ecd5dcc1af97f3186af61c277"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-1.json",
+      "bytes": 3092,
+      "sha256": "7db7e46778695e6053421b0108a0f9847a0ab366082fd213aa3272ae3ad1ea63"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-1.mcp.json",
+      "bytes": 6202,
+      "sha256": "f60776cdc3ce2c20f8d975ad49759f2fdd80b9c5911e94e1f8f37c34c395b9b9"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-2.json",
+      "bytes": 3092,
+      "sha256": "2aac76ff86bdae902711068ace7b2679bf969d96192ee1573c17adee3f5e9128"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-2.mcp.json",
+      "bytes": 6202,
+      "sha256": "da14abfcaff2a2846d45634f61ebd7a257371cd5c72a6102ce6bb42eb88ef974"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-3.json",
+      "bytes": 3092,
+      "sha256": "28e3419149cc573b0826a71fc184dc9394eed702a192e6b76d1a6fd7c0e484e0"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-3.mcp.json",
+      "bytes": 6202,
+      "sha256": "9cc0753c7565ba78614362b55debeeec9d5029623d5c602850b3f1a103f4aee9"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-4.json",
+      "bytes": 3128,
+      "sha256": "adc82b060d2be2b50cb55432da89c8451e2bcf3e002c5a5d1ad0951a3ae02d3f"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-4.mcp.json",
+      "bytes": 6270,
+      "sha256": "223a5b612f65537946c4177767af373faaa1d768b76dbff59b3c5d6b82a71734"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-5.json",
+      "bytes": 3092,
+      "sha256": "c6144bd75ba5f7fc1deeca61bd5a2899a827e2508e1a2c843e2d0fbca41598de"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-header-5.mcp.json",
+      "bytes": 6202,
+      "sha256": "7ec9fc51aa63608e57ad775a4f3994a2ee9e1620baf6db45d240233e145b2451"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-0.json",
+      "bytes": 3192,
+      "sha256": "18ae5026081d039fca5413074d9668b4c969ec3b97248ceb4c9f0fd0ae78842f"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-0.mcp.json",
+      "bytes": 6394,
+      "sha256": "4373b509be9bac32286f12783a17b53ef23948586c72e735f3713cf5e9efd06c"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-1.json",
+      "bytes": 3092,
+      "sha256": "134b3f1e4794ebf0b4b08528818b487c3730c9fff62c477987487cea15434027"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-1.mcp.json",
+      "bytes": 6202,
+      "sha256": "bdce5d6fef27798a5a66cb179f2b69231150625bc6c732aa22b9d3c826219bc6"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-2.json",
+      "bytes": 3092,
+      "sha256": "007fe539a0907946ee72c9863cadeacca385333b877e7cd62c088228f77c5e4b"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-2.mcp.json",
+      "bytes": 6202,
+      "sha256": "9a39ecae018928c62593103795767c8f59e5062176bef6fc9e97c548657b2623"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-3.json",
+      "bytes": 3092,
+      "sha256": "1a4d00494b30cd130555461a3c0254817aa98a24d850f60045f71291aca91f50"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-3.mcp.json",
+      "bytes": 6202,
+      "sha256": "eb975ac043f75075b429074c2ed05a2e687496d3f2917cf5d74a93d3ebc31dcc"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-4.json",
+      "bytes": 3092,
+      "sha256": "1dff82a314fbfb2a46437e4dffec8f76f3b6a4b6e11120a76eb08206878443f9"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-4.mcp.json",
+      "bytes": 6202,
+      "sha256": "4803eee2452eb7290e476cab9dfd8d6defaca09adff224b6dfd78edae6cea0bb"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-5.json",
+      "bytes": 3092,
+      "sha256": "33757bee60db3110200ee1eadf32ff65a0a38c34e940c3510e450bfc83f35261"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-5.mcp.json",
+      "bytes": 6202,
+      "sha256": "fabba4ea66d9a8c1643235ebdf7548ff06fa3b4c0072c6770b8539978d107aa5"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-6.json",
+      "bytes": 3092,
+      "sha256": "ac09b2ec9c6b49aaf34905f644818b7c77ebc27ad44fee32944e9529c88124b1"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-6.mcp.json",
+      "bytes": 6202,
+      "sha256": "25f7568c30e676fe7c0076d72fa037e9ddde6575d2bdea2d3312228ec6df136a"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-7.json",
+      "bytes": 3092,
+      "sha256": "998072d8b2a5526ae890387c98bde37a5adedf06cb391c7f3b49f78eeafa1593"
+    },
+    {
+      "path": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-7.mcp.json",
+      "bytes": 6202,
+      "sha256": "1ae806c1666a31cd1c3a48f1260f608198b800e35a35a59e68dce331ba6b82c2"
+    }
+  ],
+  "method_path": {
+    "registered_jni_method": "oldDevUploadFile",
+    "jni_signature": "([BILjava/lang/String;Lcom/sp/core/bean/OnFun2Listener;Lcom/sp/core/bean/OnFun2Listener;)V",
+    "registration_entry_elf_vaddr": "0x274438",
+    "wrapper_elf_vaddr": "0xf0bac",
+    "async_elf_vaddr": "0xf6d38",
+    "thread_worker_elf_vaddr": "0xf6e18",
+    "sender_elf_vaddr": "0xf64e0"
+  },
+  "findings": [
+    {
+      "status": "answered-from-static-artifact",
+      "question": "Does registered JNI upload reach recovered sender?",
+      "answer": "Yes: wrapper \u2192 exported async \u2192 worker BL to old_dev_tcp_upload."
+    },
+    {
+      "status": "answered-with-bounded-negative-search",
+      "question": "Does nativeInit or an observed library xref rewrite writable framing arrays?",
+      "answer": "No rewrite in nativeInit body; byte-wise direct xrefs resolve only READ instructions/GOT pointers; indirect writes are not ruled out."
+    },
+    {
+      "status": "unresolved-firmware-semantics",
+      "question": "Does ACK middle 0000 mean upload failure?",
+      "answer": "Native ACK helper ignores middle fields; both ffff and 0000 pass outer-marker acceptance."
+    }
+  ],
+  "limitations": [
+    "Static calls do not independently observe active running-app UI branch selection.",
+    "Transitive init_f_log/check_access implementations and arbitrary indirect memory writes remain unexamined.",
+    "Root-agent standalone native/runtime evidence is separate from this offline pass."
+  ]
+}

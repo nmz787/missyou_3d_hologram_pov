@@ -1,0 +1,86 @@
+{
+  "authority": "Direct offline ELF bytes and dynamic symbol table; names alone do not establish protocol semantics",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "apk_member": "lib/arm64-v8a/libSPCore.so",
+  "member_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+  "member_bytes": 2568552,
+  "tool": "GNU readelf and Python3 struct/hashlib; no target execution",
+  "load_segments": [
+    {
+      "type": "PT_LOAD",
+      "file_offset": 0,
+      "vaddr": 0,
+      "file_bytes": 2495072,
+      "mem_bytes": 2495072,
+      "flags": 5
+    },
+    {
+      "type": "PT_LOAD",
+      "file_offset": 2495072,
+      "vaddr": 2499168,
+      "file_bytes": 69888,
+      "mem_bytes": 69888,
+      "flags": 6
+    },
+    {
+      "type": "PT_LOAD",
+      "file_offset": 2564960,
+      "vaddr": 2573152,
+      "file_bytes": 1328,
+      "mem_bytes": 23344,
+      "flags": 6
+    }
+  ],
+  "selected_symbols": [
+    {
+      "name": "old_dev_tcp_upload",
+      "elf_vaddr": 1008864,
+      "file_offset": 1008864,
+      "bytes": 1788,
+      "sha256": "12ba7af988fea5c283e42e15b2784f6a8078626af006342aa54e4539227e523b"
+    },
+    {
+      "name": "old_dev_tcp_upload_async",
+      "elf_vaddr": 1011000,
+      "file_offset": 1011000,
+      "bytes": 224,
+      "sha256": "f76ce420a2fb54357e00db94802befa277d5747c022b896763a7580920590ecf"
+    },
+    {
+      "name": "FILE_INFO_HEADER",
+      "elf_vaddr": 2573464,
+      "file_offset": 2565272,
+      "bytes": 6,
+      "sha256": "20c859b68185b51bb713eebe7c7ba35497b57a23724be758bb8b7f10b68910be",
+      "raw_hex": "643331643636",
+      "ascii": "d31d66"
+    },
+    {
+      "name": "FILE_INFO_TAIL",
+      "elf_vaddr": 2573470,
+      "file_offset": 2565278,
+      "bytes": 8,
+      "sha256": "97d68d33efc5b0b98c7dd74ba03e236c5bf51a60962ac31ca99e3984cb4296d7",
+      "raw_hex": "6134613863326533",
+      "ascii": "a4a8c2e3"
+    },
+    {
+      "name": "CHUNK_HEADER",
+      "elf_vaddr": 2573478,
+      "file_offset": 2565286,
+      "bytes": 9,
+      "sha256": "580ac7ba1a8b7cd2605e5a3e4d588c0f33b6db6ec9e887813c3aaca8c38a59c9",
+      "raw_hex": "6433316438384a4d50",
+      "ascii": "d31d88JMP"
+    },
+    {
+      "name": "CHUNK_TAIL",
+      "elf_vaddr": 2573487,
+      "file_offset": 2565295,
+      "bytes": 11,
+      "sha256": "ef0a6d58b3002b6b4b660147df2f0b51949984375c785c1d98fe43738a2667d7",
+      "raw_hex": "3030306134613863326533",
+      "ascii": "000a4a8c2e3"
+    }
+  ]
+}

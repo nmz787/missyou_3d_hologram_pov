@@ -1,0 +1,230 @@
+// Static REA/JADX decompiler output; not source; Evidence ID ev_2cebfa0214acbde24db0c605d194be0f4aee2da05cc857dc36b386e5c8d33b63
+    private void handleCmd(int i, String str, String str2, String str3, String str4, int i2, final Callback callback, final Promise promise) {
+        WritableMap writableMapCreateMap;
+        boolean z;
+        boolean z2 = i == 4;
+        if (str.equals(Constant.MODULE_UDP)) {
+            str2.hashCode();
+            switch (str2) {
+                case "UDP_FUNC_SEND_ACT_PKG":
+                    NativeCore.getInstance(this.mContext).udpSendActPkg(str4, new OnFun2Listener() { // from class: com.sp.holographic.react.MiddleNativeModule.3
+                        @Override // com.sp.core.bean.OnFun2Listener
+                        public void onFun2(boolean z3, String str5) {
+                            WritableMap writableMapCreateMap2 = Arguments.createMap();
+                            writableMapCreateMap2.putBoolean("result", z3);
+                            writableMapCreateMap2.putString("response", str5);
+                            Callback callback2 = callback;
+                            if (callback2 != null) {
+                                callback2.invoke(writableMapCreateMap2);
+                            }
+                        }
+                    });
+                    z = true;
+                    writableMapCreateMap = null;
+                    break;
+                case "UDP_FUNC_SEND_RSP_TO_SERVER":
+                    NativeCore.getInstance(this.mContext).udpSendRspToServer(i2, str4);
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", true);
+                    z = false;
+                    break;
+                case "UDP_FUNC_STOP":
+                    NativeCore.getInstance(this.mContext).setListener(null);
+                    boolean zUdpStop = NativeCore.getInstance(this.mContext).udpStop();
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zUdpStop);
+                    z = false;
+                    break;
+                case "UDP_FUNC_START":
+                    NativeCore.getInstance(this.mContext).setListener(this);
+                    boolean zUdpStart = NativeCore.getInstance(this.mContext).udpStart(str4);
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zUdpStart);
+                    z = false;
+                    break;
+                default:
+                    writableMapCreateMap = null;
+                    z = false;
+                    break;
+            }
+        } else {
+            if (str.equals("UI")) {
+                str2.equals(Constant.UI_FUNC_SET_STATUSBAR_COLOR);
+            } else if (str.equals(Constant.MODULE_WS)) {
+                if (str2.equals(Constant.WS_FUNC_CONNECT)) {
+                    boolean zConnectWSS = connectWSS(str4);
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zConnectWSS);
+                } else if (str2.equals(Constant.WS_FUNC_DISCONNECT)) {
+                    boolean zDisconnectWSS = disconnectWSS();
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zDisconnectWSS);
+                }
+                z = false;
+            } else if (str.equals(Constant.MODULE_AUDIO_RECORD)) {
+                if (str2.equals(Constant.MODULE_AUDIO_RECORD_START)) {
+                    boolean zStartRecord = startRecord(str4);
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zStartRecord);
+                } else if (str2.equals(Constant.MODULE_AUDIO_RECORD_STOP)) {
+                    boolean zStopRecord = stopRecord();
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putBoolean("result", zStopRecord);
+                } else if (str2.equals(Constant.MODULE_AUDIO_RECORD_STATUS)) {
+                    String recordState = getRecordState();
+                    writableMapCreateMap = Arguments.createMap();
+                    writableMapCreateMap.putString(NotificationCompat.CATEGORY_STATUS, recordState);
+                }
+                z = false;
+            } else if (str.equals(Constant.MODULE_HTTP)) {
+                if (str2.equals(Constant.MODULE_HTTP_SCAN_LOCAL_NET)) {
+                    try {
+                        JSONObject jSONObject = new JSONObject(str4);
+                        final String string = jSONObject.getString("shortUrl");
+                        JSONArray jSONArray = jSONObject.getJSONArray("ips");
+                        final ArrayList arrayList = new ArrayList();
+                        for (int i3 = 0; i3 < jSONArray.length(); i3++) {
+                            arrayList.add(jSONArray.getString(i3));
+                        }
+                        new Thread(new Runnable() { // from class: com.sp.holographic.react.MiddleNativeModule$$ExternalSyntheticLambda0
+                            @Override // java.lang.Runnable
+                            public final void run() {
+                                this.f$0.lambda$handleCmd$1(arrayList, string, callback, promise);
+                            }
+                        }).start();
+                        new LANScanner().scan(arrayList, string);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        writableMapCreateMap = Arguments.createMap();
+                        writableMapCreateMap.putArray("ips", Arguments.createArray());
+                        z = false;
+                    }
+                }
+            } else if (str.equals(Constant.MODULE_MEDIA)) {
+                if (str2.equals(Constant.MEDIA_FUNC_CONVERT)) {
+                    if (NativeCore.mediaConvert(str4, new OnFun2Listener() { // from class: com.sp.holographic.react.MiddleNativeModule.5
+                        @Override // com.sp.core.bean.OnFun2Listener
+                        public void onFun2(boolean z3, String str5) {
+                            WritableMap writableMapCreateMap2 = Arguments.createMap();
+                            writableMapCreateMap2.putBoolean("result", z3);
+                            writableMapCreateMap2.putString("path", str5);
+                            writableMapCreateMap2.putString(NotificationCompat.CATEGORY_MESSAGE, "{}");
+                            Callback callback2 = callback;
+                            if (callback2 != null) {
+                                callback2.invoke(writableMapCreateMap2);
+                            }
+                            Promise promise2 = promise;
+                            if (promise2 != null) {
+                                promise2.resolve(writableMapCreateMap2);
+                            }
+                        }
+                    })) {
+                        writableMapCreateMap = null;
+                    } else {
+                        WritableMap writableMapCreateMap2 = Arguments.createMap();
+                        writableMapCreateMap2.putBoolean("result", false);
+                        writableMapCreateMap2.putString("path", "");
+                        writableMapCreateMap2.putString(NotificationCompat.CATEGORY_MESSAGE, "{}");
+                        if (callback != null) {
+                            callback.invoke(writableMapCreateMap2);
+                        }
+                        if (promise != null) {
+                            promise.resolve(writableMapCreateMap2);
+                        }
+                        writableMapCreateMap = writableMapCreateMap2;
+                    }
+                } else if (str2.equals(Constant.MEDIA_FUNC_UPLOAD)) {
+                    try {
+                        JSONObject jSONObject2 = new JSONObject(str4);
+                        String string2 = jSONObject2.getString(HintConstants.AUTOFILL_HINT_NAME);
+                        String string3 = jSONObject2.getString("path");
+                        byte[] bytes = string2.getBytes("GBK");
+                        NativeCore.oldDevUploadFile(bytes, bytes.length, string3, new OnFun2Listener() { // from class: com.sp.holographic.react.MiddleNativeModule.6
+                            @Override // com.sp.core.bean.OnFun2Listener
+                            public void onFun2(boolean z3, String str5) {
+                                try {
+                                    int i4 = Integer.parseInt(str5);
+                                    WritableMap writableMapCreateMap3 = Arguments.createMap();
+                                    writableMapCreateMap3.putInt(NotificationCompat.CATEGORY_PROGRESS, i4);
+                                    ((DeviceEventManagerModule.RCTDeviceEventEmitter) MiddleNativeModule.this.getReactApplicationContext().getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)).emit(Constant.MEDIA_EVENT, writableMapCreateMap3);
+                                } catch (NumberFormatException e2) {
+                                    e2.printStackTrace();
+                                }
+                            }
+                        }, new OnFun2Listener() { // from class: com.sp.holographic.react.MiddleNativeModule.7
+                            @Override // com.sp.core.bean.OnFun2Listener
+                            public void onFun2(boolean z3, String str5) {
+                                WritableMap writableMapCreateMap3 = Arguments.createMap();
+                                writableMapCreateMap3.putBoolean("result", z3);
+                                Callback callback2 = callback;
+                                if (callback2 != null) {
+                                    callback2.invoke(writableMapCreateMap3);
+                                }
+                                Promise promise2 = promise;
+                                if (promise2 != null) {
+                                    promise2.resolve(writableMapCreateMap3);
+                                }
+                            }
+                        });
+                    } catch (Exception e2) {
+                        e2.printStackTrace();
+                        writableMapCreateMap = Arguments.createMap();
+                        writableMapCreateMap.putBoolean("result", false);
+                        z = false;
+                    }
+                } else if (str2.equals(Constant.MEDIA_FUNC_UPLOAD_V2)) {
+                    try {
+                        JSONObject jSONObject3 = new JSONObject(str4);
+                        FileUploader.postUploadFile(jSONObject3.getString(ImagesContract.URL), jSONObject3.getString("path"), jSONObject3.getString(HintConstants.AUTOFILL_HINT_NAME), new FileUploader.UploadCallback() { // from class: com.sp.holographic.react.MiddleNativeModule.8
+                            @Override // com.sp.holographic.utils.FileUploader.UploadCallback
+                            public void onProgress(int i4) {
+                                WritableMap writableMapCreateMap3 = Arguments.createMap();
+                                writableMapCreateMap3.putInt(NotificationCompat.CATEGORY_PROGRESS, i4);
+                                ((DeviceEventManagerModule.RCTDeviceEventEmitter) MiddleNativeModule.this.getReactApplicationContext().getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)).emit(Constant.MEDIA_EVENT, writableMapCreateMap3);
+                            }
+
+                            @Override // com.sp.holographic.utils.FileUploader.UploadCallback
+                            public void onResult(boolean z3, String str5) {
+                                WritableMap writableMapCreateMap3 = Arguments.createMap();
+                                writableMapCreateMap3.putBoolean("result", z3);
+                                Callback callback2 = callback;
+                                if (callback2 != null) {
+                                    callback2.invoke(writableMapCreateMap3);
+                                }
+                                Promise promise2 = promise;
+                                if (promise2 != null) {
+                                    promise2.resolve(writableMapCreateMap3);
+                                }
+                            }
+                        });
+                    } catch (Exception e3) {
+                        e3.printStackTrace();
+                        writableMapCreateMap = Arguments.createMap();
+                        writableMapCreateMap.putBoolean("result", false);
+                        z = false;
+                    }
+                }
+                z = false;
+            } else if (str.equals(Constant.MODULE_LANGUAGE)) {
+                if (str2.equals(Constant.LANGUAGE_SWITCH)) {
+                    changeLanguage(str4);
+                }
+            } else {
+                SPLog.e(TAG, "unknown the module:" + str);
+            }
+            z = false;
+            writableMapCreateMap = null;
+        }
+        if (!z && callback != null && writableMapCreateMap != null) {
+            Object[] objArr = new Object[1];
+            objArr[0] = writableMapCreateMap == null ? null : writableMapCreateMap;
+            callback.invoke(objArr);
+        }
+        if (!z && promise != null && writableMapCreateMap != null) {
+            promise.resolve(writableMapCreateMap == null ? null : writableMapCreateMap);
+        }
+        if (z || !z2 || writableMapCreateMap == null) {
+            return;
+        }
+        ((DeviceEventManagerModule.RCTDeviceEventEmitter) getReactApplicationContext().getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)).emit(str4, writableMapCreateMap == null ? null : writableMapCreateMap);
+    }

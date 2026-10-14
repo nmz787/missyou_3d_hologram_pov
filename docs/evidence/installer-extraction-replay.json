@@ -1,0 +1,7 @@
+{
+  "operation": "Wine installer extraction only; no converter GUI launched",
+  "prefix": "analysis/wine",
+  "application_sha256": "678a03614e6f25819c15a2a5d90d7637fddf79f12efd38f9d924482af27868be",
+  "application_bytes": 2433024,
+  "result": "Matches independently restored 7z member byte-for-byte"
+}

@@ -1,0 +1,21 @@
+{
+  "phone_serial": "5007TF1010003531",
+  "wifi_ipv4": "192.168.4.2",
+  "display_host": "192.168.4.1",
+  "probes": [
+    {
+      "probe": "http-info",
+      "port": 80,
+      "returncode": 0,
+      "stdout_hex": "6e633a20636f6e6e6563743a20436f6e6e656374696f6e20726566757365640a",
+      "stderr": ""
+    },
+    {
+      "probe": "legacy-status",
+      "port": 5233,
+      "returncode": 0,
+      "stdout_hex": "",
+      "stderr": ""
+    }
+  ]
+}

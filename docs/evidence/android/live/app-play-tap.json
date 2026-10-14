@@ -1,0 +1,135 @@
+{
+  "before": {
+    "protocol": "legacy",
+    "files": [
+      {
+        "index": 1,
+        "name": "00_B.bin",
+        "displayName": "00.B"
+      },
+      {
+        "index": 2,
+        "name": "01CHRI~1.bin",
+        "displayName": "01CHRI~1"
+      },
+      {
+        "index": 3,
+        "name": "01_LC.bin",
+        "displayName": "01.LC"
+      },
+      {
+        "index": 4,
+        "name": "02FATH~1.bin",
+        "displayName": "02FATH~1"
+      },
+      {
+        "index": 5,
+        "name": "03FATH~1.bin",
+        "displayName": "03FATH~1"
+      },
+      {
+        "index": 12,
+        "name": "10CD.bin",
+        "displayName": "10CD",
+        "recovered": true
+      },
+      {
+        "index": 13,
+        "name": "11CC30~1.bin",
+        "displayName": "11CC30~1",
+        "recovered": true
+      },
+      {
+        "index": 14,
+        "name": "12E8F9~1.bin",
+        "displayName": "12E8F9~1",
+        "recovered": true
+      },
+      {
+        "index": 15,
+        "name": "13_TRA~1.bin",
+        "displayName": "13.TRA~1",
+        "recovered": true
+      }
+    ],
+    "complete": false,
+    "issues": [
+      "Record at byte 97 overlaps a later record; discarded"
+    ],
+    "current_index": 13,
+    "current": "11CC30~1.bin",
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "13H711",
+    "raw_frame_hex": "6333306333386172683133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3133483731316134613863326533"
+  },
+  "tap": "01.LC row left at350,700",
+  "after": {
+    "protocol": "legacy",
+    "files": [
+      {
+        "index": 1,
+        "name": "00_B.bin",
+        "displayName": "00.B"
+      },
+      {
+        "index": 2,
+        "name": "01CHRI~1.bin",
+        "displayName": "01CHRI~1"
+      },
+      {
+        "index": 3,
+        "name": "01_LC.bin",
+        "displayName": "01.LC"
+      },
+      {
+        "index": 4,
+        "name": "02FATH~1.bin",
+        "displayName": "02FATH~1"
+      },
+      {
+        "index": 5,
+        "name": "03FATH~1.bin",
+        "displayName": "03FATH~1"
+      },
+      {
+        "index": 12,
+        "name": "10CD.bin",
+        "displayName": "10CD",
+        "recovered": true
+      },
+      {
+        "index": 13,
+        "name": "11CC30~1.bin",
+        "displayName": "11CC30~1",
+        "recovered": true
+      },
+      {
+        "index": 14,
+        "name": "12E8F9~1.bin",
+        "displayName": "12E8F9~1",
+        "recovered": true
+      },
+      {
+        "index": 15,
+        "name": "13_TRA~1.bin",
+        "displayName": "13.TRA~1",
+        "recovered": true
+      }
+    ],
+    "complete": false,
+    "issues": [
+      "Record at byte 97 overlaps a later record; discarded"
+    ],
+    "current_index": 3,
+    "current": "01_LC.bin",
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "03H711",
+    "raw_frame_hex": "6333306333386172683133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3033483731316134613863326533"
+  }
+}

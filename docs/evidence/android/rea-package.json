@@ -1,0 +1,151 @@
+{
+  "evidence_id": "ev_3752373f87d75ea7839bdf6aeeb3985a776f766242fb6617fda171ffcbbfbd53",
+  "subject": {
+    "name": "5D-Holo-android.apk",
+    "digest": {
+      "sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9"
+    },
+    "format": "apk",
+    "architecture": null,
+    "local_path": "/home/nathan/git/5d_pov/5D-Holo-android.apk"
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_package",
+  "parameters": {
+    "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "/tmp/rea-android-hawnO3/target.apk",
+      "class_count": 14384,
+      "resource_count": 2109,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":16,\"java_version\":\"25.0.4.1\",\"max_heap_bytes\":10443816960,\"metadata_scope\":\"parsed_members\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "/tmp/rea-android-hawnO3/target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-hawnO3/target.apk\",\"class_count\":14384,\"raw_class_count\":14384,\"resource_count\":2109,\"load_duration_ms\":9924,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_app_info",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"package\":\"com.sp.holographic\",\"version_name\":\"1.0.85\",\"version_code\":\"105\",\"min_sdk\":\"24\",\"target_sdk\":\"35\",\"permissions\":[\"android.permission.INTERNET\",\"android.permission.READ_EXTERNAL_STORAGE\",\"android.permission.WRITE_EXTERNAL_STORAGE\",\"android.permission.READ_MEDIA_IMAGES\",\"android.permission.READ_MEDIA_VIDEO\",\"android.permission.READ_MEDIA_VISUAL_USER_SELECTED\",\"android.permission.REQUEST_INSTALL_PACKAGES\",\"android.permission.CAMERA\",\"android.permission.RECORD_AUDIO\",\"android.permission.ACCESS_NETWORK_STATE\",\"android.permission.ACCESS_WIFI_STATE\",\"android.permission.CHANGE_NETWORK_STATE\",\"android.permission.CHANGE_WIFI_MULTICAST_STATE\",\"android.permission.BLUETOOTH_CONNECT\",\"com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\",\"com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE\"]}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_android_manifest",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    android:versionCode=\"105\"\n    android:versionName=\"1.0.85\"\n    android:compileSdkVersion=\"35\"\n    android:compileSdkVersionCodename=\"15\"\n    package=\"com.sp.holographic\"\n    platformBuildVersionCode=\"35\"\n    platformBuildVersionName=\"15\">\n    <uses-sdk\n        android:minSdkVersion=\"24\"\n        android:targetSdkVersion=\"35\"/>\n    <uses-permission android:name=\"android.permission.INTERNET\"/>\n    <uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>\n    <uses-permission\n        android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"\n        android:maxSdkVersion=\"29\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_IMAGES\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_VIDEO\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_VISUAL_USER_SELECTED\"/>\n    <uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>\n    <uses-permission android:name=\"android.permission.CAMERA\"/>\n    <uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>\n    <queries>\n        <intent>\n            <action android:name=\"android.media.action.IMAGE_CAPTURE\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.PAY\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.IS_READY_TO_PAY\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.UPDATE_PAYMENT_DETAILS\"/>\n        </intent>\n        <intent>\n            <action android:name=\"androidx.camera.extensions.action.VENDOR_ACTION\"/>\n        </intent>\n    </queries>\n    <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>\n    <uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>\n    <uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>\n    <uses-permission android:name=\"android.permission.CHANGE_WIFI_MULTICAST_STATE\"/>\n    <uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\"/>\n    <permission\n        android:name=\"com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"\n        android:protectionLevel=\"signature\"/>\n    <uses-permission android:name=\"com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"/>\n    <uses-permission android:name=\"com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE\"/>\n    <application\n        android:theme=\"@style/AppTheme\"\n        android:label=\"@string/app_name\"\n        android:icon=\"@mipmap/ic_launcher\"\n        android:name=\"com.sp.holographic.MainApplication\"\n        android:allowBackup=\"false\"\n        android:extractNativeLibs=\"false\"\n        android:usesCleartextTraffic=\"true\"\n        android:networkSecurityConfig=\"@xml/network_security_config\"\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\n        android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\"\n        android:requestLegacyExternalStorage=\"true\">\n        <activity\n            android:label=\"@string/app_name\"\n            android:name=\"com.sp.holographic.MainActivity\"\n            android:exported=\"true\"\n            android:launchMode=\"singleTask\"\n            android:configChanges=\"smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard\"\n            android:windowSoftInputMode=\"adjustResize\">\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\"/>\n                <category android:name=\"android.intent.category.LAUNCHER\"/>\n            </intent-filter>\n        </activity>\n        <provider\n            android:name=\"androidx.core.content.FileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/file_paths\"/>\n        </provider>\n        <provider\n            android:name=\"com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.provider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/ivpusic_imagepicker_provider_paths\"/>\n        </provider>\n        <activity\n            android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"\n            android:name=\"com.yalantis.ucrop.UCropActivity\"/>\n        <provider\n            android:name=\"cl.json.RNShareFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.rnshare.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/share_download_paths\"/>\n        </provider>\n        <provider\n            android:name=\"com.reactnativecommunity.webview.RNCWebViewFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/file_provider_paths\"/>\n        </provider>\n        <uses-library\n            android:name=\"androidx.camera.extensions.impl\"\n            android:required=\"false\"/>\n        <service\n            android:name=\"androidx.camera.core.impl.MetadataHolderService\"\n            android:enabled=\"false\"\n            android:exported=\"false\">\n            <meta-data\n                android:name=\"androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER\"\n                android:value=\"androidx.camera.camera2.Camera2Config$DefaultProvider\"/>\n        </service>\n        <service\n            android:name=\"com.google.mlkit.common.internal.MlKitComponentDiscoveryService\"\n            android:exported=\"false\"\n            android:directBootAware=\"true\">\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n        </service>\n        <provider\n            android:name=\"com.google.mlkit.common.internal.MlKitInitProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.mlkitinitprovider\"\n            android:initOrder=\"99\"/>\n        <activity\n            android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"\n            android:name=\"com.google.android.gms.common.api.GoogleApiActivity\"\n            android:exported=\"false\"/>\n        <meta-data\n            android:name=\"com.google.android.gms.version\"\n            android:value=\"@integer/google_play_services_version\"/>\n        <provider\n            android:name=\"androidx.startup.InitializationProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.androidx-startup\">\n            <meta-data\n                android:name=\"androidx.emoji2.text.EmojiCompatInitializer\"\n                android:value=\"androidx.startup\"/>\n            <meta-data\n                android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\"\n                android:value=\"androidx.startup\"/>\n            <meta-data\n                android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\"\n                android:value=\"androidx.startup\"/>\n        </provider>\n        <receiver\n            android:name=\"androidx.profileinstaller.ProfileInstallReceiver\"\n            android:permission=\"android.permission.DUMP\"\n            android:enabled=\"true\"\n            android:exported=\"true\"\n            android:directBootAware=\"false\">\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/>\n            </intent-filter>\n        </receiver>\n        <service\n            android:name=\"com.google.android.datatransport.runtime.backends.TransportBackendDiscovery\"\n            android:exported=\"false\">\n            <meta-data\n                android:name=\"backend:com.google.android.datatransport.cct.CctBackendFactory\"\n                android:value=\"cct\"/>\n        </service>\n        <service\n            android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService\"\n            android:permission=\"android.permission.BIND_JOB_SERVICE\"\n            android:exported=\"false\"/>\n        <receiver\n            android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver\"\n            android:exported=\"false\"/>\n        <meta-data\n            android:name=\"com.facebook.soloader.enabled\"\n            android:value=\"false\"/>\n    </application>\n</manifest>"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 9960
+    },
+    "package_name": "com.sp.holographic",
+    "version_name": "1.0.85",
+    "version_code": "105",
+    "min_sdk": "24",
+    "target_sdk": "35",
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_MEDIA_IMAGES",
+      "android.permission.READ_MEDIA_VIDEO",
+      "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+      "android.permission.REQUEST_INSTALL_PACKAGES",
+      "android.permission.CAMERA",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.CHANGE_NETWORK_STATE",
+      "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+      "android.permission.BLUETOOTH_CONNECT",
+      "com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+    ],
+    "manifest": {
+      "status": "complete",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    android:versionCode=\"105\"\n    android:versionName=\"1.0.85\"\n    android:compileSdkVersion=\"35\"\n    android:compileSdkVersionCodename=\"15\"\n    package=\"com.sp.holographic\"\n    platformBuildVersionCode=\"35\"\n    platformBuildVersionName=\"15\">\n    <uses-sdk\n        android:minSdkVersion=\"24\"\n        android:targetSdkVersion=\"35\"/>\n    <uses-permission android:name=\"android.permission.INTERNET\"/>\n    <uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>\n    <uses-permission\n        android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"\n        android:maxSdkVersion=\"29\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_IMAGES\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_VIDEO\"/>\n    <uses-permission android:name=\"android.permission.READ_MEDIA_VISUAL_USER_SELECTED\"/>\n    <uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>\n    <uses-permission android:name=\"android.permission.CAMERA\"/>\n    <uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>\n    <queries>\n        <intent>\n            <action android:name=\"android.media.action.IMAGE_CAPTURE\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.PAY\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.IS_READY_TO_PAY\"/>\n        </intent>\n        <intent>\n            <action android:name=\"org.chromium.intent.action.UPDATE_PAYMENT_DETAILS\"/>\n        </intent>\n        <intent>\n            <action android:name=\"androidx.camera.extensions.action.VENDOR_ACTION\"/>\n        </intent>\n    </queries>\n    <uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>\n    <uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>\n    <uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>\n    <uses-permission android:name=\"android.permission.CHANGE_WIFI_MULTICAST_STATE\"/>\n    <uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\"/>\n    <permission\n        android:name=\"com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"\n        android:protectionLevel=\"signature\"/>\n    <uses-permission android:name=\"com.sp.holographic.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"/>\n    <uses-permission android:name=\"com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE\"/>\n    <application\n        android:theme=\"@style/AppTheme\"\n        android:label=\"@string/app_name\"\n        android:icon=\"@mipmap/ic_launcher\"\n        android:name=\"com.sp.holographic.MainApplication\"\n        android:allowBackup=\"false\"\n        android:extractNativeLibs=\"false\"\n        android:usesCleartextTraffic=\"true\"\n        android:networkSecurityConfig=\"@xml/network_security_config\"\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\n        android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\"\n        android:requestLegacyExternalStorage=\"true\">\n        <activity\n            android:label=\"@string/app_name\"\n            android:name=\"com.sp.holographic.MainActivity\"\n            android:exported=\"true\"\n            android:launchMode=\"singleTask\"\n            android:configChanges=\"smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard\"\n            android:windowSoftInputMode=\"adjustResize\">\n            <intent-filter>\n                <action android:name=\"android.intent.action.MAIN\"/>\n                <category android:name=\"android.intent.category.LAUNCHER\"/>\n            </intent-filter>\n        </activity>\n        <provider\n            android:name=\"androidx.core.content.FileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/file_paths\"/>\n        </provider>\n        <provider\n            android:name=\"com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.provider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/ivpusic_imagepicker_provider_paths\"/>\n        </provider>\n        <activity\n            android:theme=\"@style/Theme.AppCompat.Light.NoActionBar\"\n            android:name=\"com.yalantis.ucrop.UCropActivity\"/>\n        <provider\n            android:name=\"cl.json.RNShareFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.rnshare.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/share_download_paths\"/>\n        </provider>\n        <provider\n            android:name=\"com.reactnativecommunity.webview.RNCWebViewFileProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.fileprovider\"\n            android:grantUriPermissions=\"true\">\n            <meta-data\n                android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                android:resource=\"@xml/file_provider_paths\"/>\n        </provider>\n        <uses-library\n            android:name=\"androidx.camera.extensions.impl\"\n            android:required=\"false\"/>\n        <service\n            android:name=\"androidx.camera.core.impl.MetadataHolderService\"\n            android:enabled=\"false\"\n            android:exported=\"false\">\n            <meta-data\n                android:name=\"androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER\"\n                android:value=\"androidx.camera.camera2.Camera2Config$DefaultProvider\"/>\n        </service>\n        <service\n            android:name=\"com.google.mlkit.common.internal.MlKitComponentDiscoveryService\"\n            android:exported=\"false\"\n            android:directBootAware=\"true\">\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n            <meta-data\n                android:name=\"com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar\"\n                android:value=\"com.google.firebase.components.ComponentRegistrar\"/>\n        </service>\n        <provider\n            android:name=\"com.google.mlkit.common.internal.MlKitInitProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.mlkitinitprovider\"\n            android:initOrder=\"99\"/>\n        <activity\n            android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"\n            android:name=\"com.google.android.gms.common.api.GoogleApiActivity\"\n            android:exported=\"false\"/>\n        <meta-data\n            android:name=\"com.google.android.gms.version\"\n            android:value=\"@integer/google_play_services_version\"/>\n        <provider\n            android:name=\"androidx.startup.InitializationProvider\"\n            android:exported=\"false\"\n            android:authorities=\"com.sp.holographic.androidx-startup\">\n            <meta-data\n                android:name=\"androidx.emoji2.text.EmojiCompatInitializer\"\n                android:value=\"androidx.startup\"/>\n            <meta-data\n                android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\"\n                android:value=\"androidx.startup\"/>\n            <meta-data\n                android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\"\n                android:value=\"androidx.startup\"/>\n        </provider>\n        <receiver\n            android:name=\"androidx.profileinstaller.ProfileInstallReceiver\"\n            android:permission=\"android.permission.DUMP\"\n            android:enabled=\"true\"\n            android:exported=\"true\"\n            android:directBootAware=\"false\">\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/>\n            </intent-filter>\n            <intent-filter>\n                <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/>\n            </intent-filter>\n        </receiver>\n        <service\n            android:name=\"com.google.android.datatransport.runtime.backends.TransportBackendDiscovery\"\n            android:exported=\"false\">\n            <meta-data\n                android:name=\"backend:com.google.android.datatransport.cct.CctBackendFactory\"\n                android:value=\"cct\"/>\n        </service>\n        <service\n            android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService\"\n            android:permission=\"android.permission.BIND_JOB_SERVICE\"\n            android:exported=\"false\"/>\n        <receiver\n            android:name=\"com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver\"\n            android:exported=\"false\"/>\n        <meta-data\n            android:name=\"com.facebook.soloader.enabled\"\n            android:value=\"false\"/>\n    </application>\n</manifest>",
+      "reported_total_bytes": null
+    },
+    "class_count": 14384,
+    "resource_count": 2109,
+    "signature_verification": "not_performed"
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "AndroidManifest.xml"
+    }
+  ],
+  "evidence_links": []
+}

@@ -1,0 +1,8 @@
+{
+  "code": "unreadable_output",
+  "category": "execution_failure",
+  "message": "Analysis returned an unreadable result. Retry once; if it continues, run `rea doctor`.",
+  "reason": "JADX class inventory is duplicated or differs from the loaded class count",
+  "operation": "search_android_classes",
+  "coverage": "unavailable; duplicate or mismatched class inventory; not used as complete class evidence"
+}

@@ -1,0 +1,282 @@
+{
+  "authority": "Controlled replay of extracted APK decompiler state machines on a separately captured device response",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "packet": {
+    "path": "/home/nathan/git/5d_pov/analysis/device-live/legacy-notification.bin",
+    "bytes": 194,
+    "sha256": "533d3e7a224c8050812071f315001048fc408e8c2a043feb961999597404303e",
+    "ascii": "c30c38arh130101.00_B.bin170202.01CHRI~1.bin140303.01_LC.bin170404.02FATH~1.bin170505.03FATH~1.bin160606.04in131212.10CD.bin171313.11CC30~1.bin171414.12E8F9~1.bin171515.13_TRA~1.bin15H711a4a8c2e3",
+    "contains_nul": false
+  },
+  "function_ids": [
+    9291,
+    9292,
+    9293,
+    9132,
+    9133
+  ],
+  "decompiled_source_sha256": {
+    "9132": "613836e1383a3f9e33767803152b4f0c4fad7c91b18f7b37bcd6c6a0c07607ea",
+    "9291": "813004e679822d19f24b51e1d3666c672e087b086acb7997660c049e72bc19dd",
+    "9292": "4bf987174ee9e65a0dc9e9b1246e3373a1200a3c3f7d99438362d748bee5899f",
+    "9293": "bf88e422384529375e94607884373305bf3583e7164a8b01f2b83ccbee88448f"
+  },
+  "replay_substitutions": [
+    "Node Buffer and TextDecoder(GBK) dependencies",
+    "No-op captured logging and host Date",
+    "Function-local register declarations injected",
+    "Decompiler variadic logging call repaired from r28[r20](...) to r20.bind(r28)(...) using raw #9292 +0x17a"
+  ],
+  "original_parser": {
+    "events": 1,
+    "files": [
+      {
+        "index": 1,
+        "name": "00_B.bin"
+      },
+      {
+        "index": 2,
+        "name": "01CHRI~1.bin"
+      },
+      {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      {
+        "index": 4,
+        "name": "02FATH~1.bin"
+      },
+      {
+        "index": 5,
+        "name": "03FATH~1.bin"
+      },
+      {
+        "index": 6,
+        "name": "04in131212."
+      }
+    ],
+    "playing_file_index": 31,
+    "is_playing": true,
+    "model": "F1",
+    "sequential_records": [
+      {
+        "offset": 9,
+        "declared_length": 13,
+        "index": 1,
+        "skipped_prefix": "01.",
+        "name": "00_B.bin",
+        "end": 24
+      },
+      {
+        "offset": 24,
+        "declared_length": 17,
+        "index": 2,
+        "skipped_prefix": "02.",
+        "name": "01CHRI~1.bin",
+        "end": 43
+      },
+      {
+        "offset": 43,
+        "declared_length": 14,
+        "index": 3,
+        "skipped_prefix": "03.",
+        "name": "01_LC.bin",
+        "end": 59
+      },
+      {
+        "offset": 59,
+        "declared_length": 17,
+        "index": 4,
+        "skipped_prefix": "04.",
+        "name": "02FATH~1.bin",
+        "end": 78
+      },
+      {
+        "offset": 78,
+        "declared_length": 17,
+        "index": 5,
+        "skipped_prefix": "05.",
+        "name": "03FATH~1.bin",
+        "end": 97
+      },
+      {
+        "offset": 97,
+        "declared_length": 16,
+        "index": 6,
+        "skipped_prefix": "06.",
+        "name": "04in131212.",
+        "end": 115
+      }
+    ],
+    "stop_offset": 115,
+    "failed_length_text": "10",
+    "failed_index_text": "CD",
+    "tail_regex_input_offset": 115,
+    "tail_regex_first_match": {
+      "packet_offset": 126,
+      "matched": "313.11",
+      "groups": [
+        "31",
+        "3.",
+        "11"
+      ]
+    },
+    "formatted_ui_files": [
+      {
+        "index": 1,
+        "name": "00_B.bin",
+        "displayName": "00.B"
+      },
+      {
+        "index": 2,
+        "name": "01CHRI~1.bin",
+        "displayName": "01CHRI~1"
+      },
+      {
+        "index": 3,
+        "name": "01_LC.bin",
+        "displayName": "01.LC"
+      },
+      {
+        "index": 4,
+        "name": "02FATH~1.bin",
+        "displayName": "02FATH~1"
+      },
+      {
+        "index": 5,
+        "name": "03FATH~1.bin",
+        "displayName": "03FATH~1"
+      },
+      {
+        "index": 6,
+        "name": "04in131212.",
+        "displayName": "04in131212."
+      }
+    ]
+  },
+  "independent_recovery": {
+    "strategy": "Scan duplicate index prefixes and require exact bounded .bin names; anchor status to final six bytes before known eight-byte footer",
+    "files": [
+      {
+        "offset": 9,
+        "declared_length": 13,
+        "index": 1,
+        "name": "00_B.bin",
+        "end": 24
+      },
+      {
+        "offset": 24,
+        "declared_length": 17,
+        "index": 2,
+        "name": "01CHRI~1.bin",
+        "end": 43
+      },
+      {
+        "offset": 43,
+        "declared_length": 14,
+        "index": 3,
+        "name": "01_LC.bin",
+        "end": 59
+      },
+      {
+        "offset": 59,
+        "declared_length": 17,
+        "index": 4,
+        "name": "02FATH~1.bin",
+        "end": 78
+      },
+      {
+        "offset": 78,
+        "declared_length": 17,
+        "index": 5,
+        "name": "03FATH~1.bin",
+        "end": 97
+      },
+      {
+        "offset": 108,
+        "declared_length": 13,
+        "index": 12,
+        "name": "10CD.bin",
+        "end": 123
+      },
+      {
+        "offset": 123,
+        "declared_length": 17,
+        "index": 13,
+        "name": "11CC30~1.bin",
+        "end": 142
+      },
+      {
+        "offset": 142,
+        "declared_length": 17,
+        "index": 14,
+        "name": "12E8F9~1.bin",
+        "end": 161
+      },
+      {
+        "offset": 161,
+        "declared_length": 17,
+        "index": 15,
+        "name": "13_TRA~1.bin",
+        "end": 180
+      }
+    ],
+    "additional_later_records": [
+      {
+        "offset": 108,
+        "declared_length": 13,
+        "index": 12,
+        "name": "10CD.bin",
+        "end": 123
+      },
+      {
+        "offset": 123,
+        "declared_length": 17,
+        "index": 13,
+        "name": "11CC30~1.bin",
+        "end": 142
+      },
+      {
+        "offset": 142,
+        "declared_length": 17,
+        "index": 14,
+        "name": "12E8F9~1.bin",
+        "end": 161
+      },
+      {
+        "offset": 161,
+        "declared_length": 17,
+        "index": 15,
+        "name": "13_TRA~1.bin",
+        "end": 180
+      }
+    ],
+    "valid_tail": {
+      "packet_offset": 180,
+      "ascii": "15H711",
+      "current_file_index": 15,
+      "model": "F-MINI11",
+      "is_playing": true
+    },
+    "malformed_entry": {
+      "offset": 97,
+      "declared_length": 16,
+      "claimed_end": 115,
+      "next_valid_record_offset": 108,
+      "unrecovered_name_fragment": "04in"
+    }
+  },
+  "logs": [
+    [
+      "TCPClient",
+      "❌ Invalid index at offset 115: CD"
+    ]
+  ],
+  "assertions": "passed",
+  "limitations": [
+    "This replay does not execute the original APK bytecode or Android UI",
+    "The capture proves device response bytes, not the phone app actual in-memory parsing state",
+    "Independent recovery is an analyst strategy; inspect the project parser separately",
+    "The malformed wire segment does not reveal the omitted original filename or why firmware emitted it"
+  ]
+}

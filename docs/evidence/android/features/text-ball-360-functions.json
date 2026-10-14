@@ -1,0 +1,1691 @@
+{
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "disassembler": "hermes-dec 0.1.6, Hermes v96",
+  "offset_scope": "absolute bytecode offsets in extracted APK assets/index.android.bundle",
+  "functions": [
+    {
+      "id": 17397,
+      "name": "",
+      "bundle_offset": "0x00375e4b",
+      "bytecode_bytes": 68,
+      "bytecode_sha256": "3586cbc903806308ea3cecf6f9ed24d02df69b39307100664616ff40fc015a0c",
+      "hasm_lines": [
+        664538,
+        664559
+      ]
+    },
+    {
+      "id": 17398,
+      "name": "",
+      "bundle_offset": "0x00375e8f",
+      "bytecode_bytes": 279,
+      "bytecode_sha256": "4edfa3aeb113f59a4513a986e944261cd0a4d44bb42bccb79e975ca48a2979bf",
+      "hasm_lines": [
+        664560,
+        664636
+      ]
+    },
+    {
+      "id": 17399,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x00375fa6",
+      "bytecode_bytes": 108,
+      "bytecode_sha256": "2ea5167f9de04410f8a019f0eee349374e1a4835affad7523a546bc28976702d",
+      "hasm_lines": [
+        664637,
+        664672
+      ]
+    },
+    {
+      "id": 17400,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x001ab6fb",
+      "bytecode_bytes": 273,
+      "bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "hasm_lines": [
+        664673,
+        664751
+      ]
+    },
+    {
+      "id": 17401,
+      "name": "DesignSphereTextPage",
+      "bundle_offset": "0x00376012",
+      "bytecode_bytes": 1220,
+      "bytecode_sha256": "60da60fbdbaebcd65dec1955e19a584abbe15000c86c3d509d74acac5fce05fd",
+      "hasm_lines": [
+        664752,
+        665023
+      ]
+    },
+    {
+      "id": 17402,
+      "name": "handleSaveVideo",
+      "bundle_offset": "0x003764d6",
+      "bytecode_bytes": 194,
+      "bytecode_sha256": "fade912500ccbd0ce58fc673eced8ae5d9f582afc565b0c95f4d6b3312d785a4",
+      "hasm_lines": [
+        665024,
+        665079
+      ]
+    },
+    {
+      "id": 17403,
+      "name": "",
+      "bundle_offset": "0x00376598",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "65f069479cc94f3e5a28fd58deecaa4a69636cf8f825b89af0c0410b8ab17d9e",
+      "hasm_lines": [
+        665080,
+        665097
+      ]
+    },
+    {
+      "id": 17404,
+      "name": "",
+      "bundle_offset": "0x003765bd",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "aa975dad60eda0c7d035de4a15a5e56aba3b06d172f7ce7fe924fa7d45686202",
+      "hasm_lines": [
+        665098,
+        665108
+      ]
+    },
+    {
+      "id": 17405,
+      "name": "?anon_0_",
+      "bundle_offset": "0x003765c6",
+      "bytecode_bytes": 339,
+      "bytecode_sha256": "a1c955edc560b318122bfa431e8b0867c6558cc59e253652ed52effe7ff6aa18",
+      "hasm_lines": [
+        665109,
+        665200
+      ]
+    },
+    {
+      "id": 17406,
+      "name": "",
+      "bundle_offset": "0x00376719",
+      "bytecode_bytes": 234,
+      "bytecode_sha256": "a35d466ab559436f968436d20a4e3da731c17d746ad33b8c21ac58180d7ff17c",
+      "hasm_lines": [
+        665201,
+        665266
+      ]
+    },
+    {
+      "id": 17407,
+      "name": "",
+      "bundle_offset": "0x00376803",
+      "bytecode_bytes": 244,
+      "bytecode_sha256": "6591e0dd27780967ef08699ef442aa789830085470f8f065d3f8692f13ac2d3e",
+      "hasm_lines": [
+        665267,
+        665333
+      ]
+    },
+    {
+      "id": 17408,
+      "name": "",
+      "bundle_offset": "0x003768f7",
+      "bytecode_bytes": 86,
+      "bytecode_sha256": "9037a772d9728299a27e0020799ea42228879f4a8ca3caed09e33ef426442b10",
+      "hasm_lines": [
+        665334,
+        665362
+      ]
+    },
+    {
+      "id": 17409,
+      "name": "dialogActionBlock",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        665363,
+        665379
+      ]
+    },
+    {
+      "id": 17410,
+      "name": "dismissDialog",
+      "bundle_offset": "0x0033f179",
+      "bytecode_bytes": 41,
+      "bytecode_sha256": "59e5b18bd00e2488abc0e3a29f8e60d3b9a10cdaa3cc41e7fcf094c21d2fb0ba",
+      "hasm_lines": [
+        665380,
+        665398
+      ]
+    },
+    {
+      "id": 17411,
+      "name": "showInfoDialog",
+      "bundle_offset": "0x0037694d",
+      "bytecode_bytes": 204,
+      "bytecode_sha256": "53acf46b9e7e2748bcf33c96878db0163b7b66d210bd4088eab53637771b3416",
+      "hasm_lines": [
+        665399,
+        665457
+      ]
+    },
+    {
+      "id": 17412,
+      "name": "onStateChanged",
+      "bundle_offset": "0x00376a19",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "0d5ada394270856dcc5a5c3ee020fa07d31436b32630cec5e598d59f807627f4",
+      "hasm_lines": [
+        665458,
+        665482
+      ]
+    },
+    {
+      "id": 17413,
+      "name": "showExitConfirmDialog",
+      "bundle_offset": "0x00376a58",
+      "bytecode_bytes": 229,
+      "bytecode_sha256": "e59b2b1f7e1e975d53d18095eee7e513745b354597a8dec146bfd456a753e9eb",
+      "hasm_lines": [
+        665483,
+        665546
+      ]
+    },
+    {
+      "id": 17414,
+      "name": "func",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        665547,
+        665556
+      ]
+    },
+    {
+      "id": 17415,
+      "name": "func",
+      "bundle_offset": "0x00343e15",
+      "bytecode_bytes": 21,
+      "bytecode_sha256": "06aad5e6413d466f30c172e427f9655d87f2162809a22f7ce37be2f2f1f14a43",
+      "hasm_lines": [
+        665557,
+        665570
+      ]
+    },
+    {
+      "id": 17416,
+      "name": "showNameInputDialog",
+      "bundle_offset": "0x00376b3d",
+      "bytecode_bytes": 340,
+      "bytecode_sha256": "63b898c89dd0486da6d064e50b6133c6a4232782d2f1899261b53ae56dfb34eb",
+      "hasm_lines": [
+        665571,
+        665659
+      ]
+    },
+    {
+      "id": 17417,
+      "name": "",
+      "bundle_offset": "0x00376c91",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "a4311e618b868749c87dfdca7470b46f7111ab1a3b243108a0977132b6f7ff5e",
+      "hasm_lines": [
+        665660,
+        665677
+      ]
+    },
+    {
+      "id": 17418,
+      "name": "func",
+      "bundle_offset": "0x00376cb6",
+      "bytecode_bytes": 112,
+      "bytecode_sha256": "116407eb82d479d40e6ade2a75aa8d1dade383ef474a16b774220fdf1bcbd03f",
+      "hasm_lines": [
+        665678,
+        665713
+      ]
+    },
+    {
+      "id": 17419,
+      "name": "func",
+      "bundle_offset": "0x00376d26",
+      "bytecode_bytes": 40,
+      "bytecode_sha256": "ff89ea506bac9a178ea39252a9d8e0aeb744b16a37d7c32533a066edc23a95a4",
+      "hasm_lines": [
+        665714,
+        665733
+      ]
+    },
+    {
+      "id": 17420,
+      "name": "onStateChanged",
+      "bundle_offset": "0x00376a19",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "0d5ada394270856dcc5a5c3ee020fa07d31436b32630cec5e598d59f807627f4",
+      "hasm_lines": [
+        665734,
+        665758
+      ]
+    },
+    {
+      "id": 17421,
+      "name": "showColorPicker",
+      "bundle_offset": "0x00376d4e",
+      "bytecode_bytes": 194,
+      "bytecode_sha256": "90a568553902dec5bdb6d5c4605398ac19f98bea512c2fbe088e1e90027be257",
+      "hasm_lines": [
+        665759,
+        665812
+      ]
+    },
+    {
+      "id": 17422,
+      "name": "func",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        665813,
+        665822
+      ]
+    },
+    {
+      "id": 17423,
+      "name": "onStateChanged",
+      "bundle_offset": "0x00376a19",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "0d5ada394270856dcc5a5c3ee020fa07d31436b32630cec5e598d59f807627f4",
+      "hasm_lines": [
+        665823,
+        665847
+      ]
+    },
+    {
+      "id": 17424,
+      "name": "",
+      "bundle_offset": "0x00376e10",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "6c9dac20d2cde341ff16332d4a31102f499d1e74b77b28623baa519700f3285e",
+      "hasm_lines": [
+        665848,
+        665863
+      ]
+    },
+    {
+      "id": 17425,
+      "name": "",
+      "bundle_offset": "0x00376e2f",
+      "bytecode_bytes": 86,
+      "bytecode_sha256": "2aa35908d09b703619469d31633fe9a74d15abac0ca730eff0040731263d2c66",
+      "hasm_lines": [
+        665864,
+        665891
+      ]
+    },
+    {
+      "id": 17426,
+      "name": "",
+      "bundle_offset": "0x00376e85",
+      "bytecode_bytes": 38,
+      "bytecode_sha256": "8880b002997680311a509f470f5fd238c79268b6c885400ce94c706878210e11",
+      "hasm_lines": [
+        665892,
+        665909
+      ]
+    },
+    {
+      "id": 17427,
+      "name": "",
+      "bundle_offset": "0x00376eab",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "05c68cb727f092b0b1bab9db801209df67d29fc82199d53c37ebe7b5fb9d8d18",
+      "hasm_lines": [
+        665910,
+        665925
+      ]
+    },
+    {
+      "id": 17428,
+      "name": "",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        665926,
+        665935
+      ]
+    },
+    {
+      "id": 17429,
+      "name": "",
+      "bundle_offset": "0x00376eca",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "e7be9d5a83cd9de8cf4afc801ba6e40819014f625af54ccf7bc5805b7ed9ecac",
+      "hasm_lines": [
+        665936,
+        665953
+      ]
+    },
+    {
+      "id": 17430,
+      "name": "",
+      "bundle_offset": "0x00376eef",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "f39d5f2fddd48d4ac682d5f11eb92aa0e2dede62ccedb0cd9a4d8af5a35ba9df",
+      "hasm_lines": [
+        665954,
+        665964
+      ]
+    },
+    {
+      "id": 17431,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00376ef8",
+      "bytecode_bytes": 130,
+      "bytecode_sha256": "2743874e2e82970d7c6b59bc9ec635c729a6fb0fbeb5f6ab8887e911108f23c5",
+      "hasm_lines": [
+        665965,
+        666006
+      ]
+    },
+    {
+      "id": 17432,
+      "name": "",
+      "bundle_offset": "0x00376f7a",
+      "bytecode_bytes": 148,
+      "bytecode_sha256": "9c3bd38a399643d72d38de5dd82035e043085a9df88eda096be1e3b583f581d0",
+      "hasm_lines": [
+        666007,
+        666049
+      ]
+    },
+    {
+      "id": 17433,
+      "name": "composeVideo",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        666050,
+        666066
+      ]
+    },
+    {
+      "id": 17434,
+      "name": "ColorPickerView",
+      "bundle_offset": "0x0037700e",
+      "bytecode_bytes": 381,
+      "bytecode_sha256": "cfc4c8ca49e4571db512fb282c19ede28c800f631c990e5c854a2cf2fcdb38c5",
+      "hasm_lines": [
+        666067,
+        666159
+      ]
+    },
+    {
+      "id": 17435,
+      "name": "ref",
+      "bundle_offset": "0x0037718b",
+      "bytecode_bytes": 20,
+      "bytecode_sha256": "ea19aef1967be4a0879d6fe37f502e152f640c990c18ebc630f94f4237786136",
+      "hasm_lines": [
+        666160,
+        666173
+      ]
+    },
+    {
+      "id": 17436,
+      "name": "onColorChangeComplete",
+      "bundle_offset": "0x0037719f",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "311803839b4d3f002a43cf3782410ffb890b2b3b8a709038108c96e845b26fc7",
+      "hasm_lines": [
+        666174,
+        666190
+      ]
+    },
+    {
+      "id": 17437,
+      "name": "renderItems",
+      "bundle_offset": "0x003771be",
+      "bytecode_bytes": 1327,
+      "bytecode_sha256": "6653ceb41ca48ffa4a9408294ce1704908da9548400e5cfeca7b50c9a26dfa6f",
+      "hasm_lines": [
+        666191,
+        666481
+      ]
+    },
+    {
+      "id": 17438,
+      "name": "onPress",
+      "bundle_offset": "0x003776ed",
+      "bytecode_bytes": 20,
+      "bytecode_sha256": "c460dd11f8f65faf79945542dbe98554b22deb1b91b7c249f3aa04d7ba064cb4",
+      "hasm_lines": [
+        666482,
+        666495
+      ]
+    },
+    {
+      "id": 17439,
+      "name": "onChangeText",
+      "bundle_offset": "0x00377701",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "b27973a62dd4ddf2ce033577a64b063fe6d4f96bee589683a666b34ca1ae4fd4",
+      "hasm_lines": [
+        666496,
+        666512
+      ]
+    },
+    {
+      "id": 17440,
+      "name": "onPress",
+      "bundle_offset": "0x00377720",
+      "bytecode_bytes": 15,
+      "bytecode_sha256": "d7b2140e74487c51232f78f8361bdb27d892aaa6a31a082b5299622b23a7fe17",
+      "hasm_lines": [
+        666513,
+        666525
+      ]
+    },
+    {
+      "id": 17441,
+      "name": "onLeftPress",
+      "bundle_offset": "0x0037772f",
+      "bytecode_bytes": 45,
+      "bytecode_sha256": "1c99d01ad9926d6627af7115583d62f1fd8ecf28fbbc10c80fe2417f10cc719b",
+      "hasm_lines": [
+        666526,
+        666546
+      ]
+    },
+    {
+      "id": 17442,
+      "name": "onRightPress",
+      "bundle_offset": "0x0037775c",
+      "bytecode_bytes": 15,
+      "bytecode_sha256": "7f081fbef0f81c02fd69a0d4e7f34be3f38e138a81fd38d29ff80cb6741dbe8b",
+      "hasm_lines": [
+        666547,
+        666559
+      ]
+    },
+    {
+      "id": 17443,
+      "name": "keyExtractor",
+      "bundle_offset": "0x0037776b",
+      "bytecode_bytes": 14,
+      "bytecode_sha256": "82cccaae942484ab5023e48412d95c907496fff04131d45296cd857270241ad0",
+      "hasm_lines": [
+        666560,
+        666571
+      ]
+    },
+    {
+      "id": 17467,
+      "name": "",
+      "bundle_offset": "0x003780f3",
+      "bytecode_bytes": 202,
+      "bytecode_sha256": "704957bebff7a64fb99d20c58d776470d38c13f0fdc2f3bc17f4f6a4d5c5710b",
+      "hasm_lines": [
+        667448,
+        667505
+      ]
+    },
+    {
+      "id": 17468,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x003781bd",
+      "bytecode_bytes": 108,
+      "bytecode_sha256": "a183ef3ca8980389ebeda0adc91f4500e9e0fa85db2ca1da2d09ca3b33bf9869",
+      "hasm_lines": [
+        667506,
+        667541
+      ]
+    },
+    {
+      "id": 17469,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x001ab6fb",
+      "bytecode_bytes": 273,
+      "bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "hasm_lines": [
+        667542,
+        667620
+      ]
+    },
+    {
+      "id": 17470,
+      "name": "",
+      "bundle_offset": "0x00378229",
+      "bytecode_bytes": 553,
+      "bytecode_sha256": "ba96454dcc6f893edb685068e1135e5126789b547aa4d2e6510188cc89af0c60",
+      "hasm_lines": [
+        667621,
+        667748
+      ]
+    },
+    {
+      "id": 17471,
+      "name": "",
+      "bundle_offset": "0x00378452",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "a4fa9aee6784fbdfbd1d0851726875ae755c14695bf356584b7cb6c5c1d8efd9",
+      "hasm_lines": [
+        667749,
+        667766
+      ]
+    },
+    {
+      "id": 17472,
+      "name": "",
+      "bundle_offset": "0x00378477",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "c90da1fdebf0a6414d013ab3ee7a67b364774915a78f089725dd90cb8ebeb27f",
+      "hasm_lines": [
+        667767,
+        667777
+      ]
+    },
+    {
+      "id": 17473,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00378480",
+      "bytecode_bytes": 55,
+      "bytecode_sha256": "1628eb2b8273c4eccbdfedb1de4ef845bdbe2cbe1c75d2fc81a093cf849cebff",
+      "hasm_lines": [
+        667778,
+        667805
+      ]
+    },
+    {
+      "id": 17474,
+      "name": "injectJavaScript",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        667806,
+        667822
+      ]
+    },
+    {
+      "id": 17475,
+      "name": "handleWebViewLoadEnd",
+      "bundle_offset": "0x003784b7",
+      "bytecode_bytes": 62,
+      "bytecode_sha256": "e22bce9b3c6685c71040daa6f8aa5bc495fd814ab8758bd5d59f2523ae9fc61d",
+      "hasm_lines": [
+        667823,
+        667846
+      ]
+    },
+    {
+      "id": 17476,
+      "name": "",
+      "bundle_offset": "0x003784f5",
+      "bytecode_bytes": 46,
+      "bytecode_sha256": "98a1a63c5c413cf0a6dca555e0e037bd3ce24be099da1569ba6755135fb2762d",
+      "hasm_lines": [
+        667847,
+        667865
+      ]
+    },
+    {
+      "id": 17477,
+      "name": "reloadWebView",
+      "bundle_offset": "0x00378523",
+      "bytecode_bytes": 45,
+      "bytecode_sha256": "262d2e82e006e12a541d4983e1c7408f9d758d0d89fd9ffb3ea5911c70164685",
+      "hasm_lines": [
+        667866,
+        667885
+      ]
+    },
+    {
+      "id": 17478,
+      "name": "",
+      "bundle_offset": "0x00378550",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "5b7dc435de167a398df2512aee7507ae7adae2b7db60777aee7032d766dc9709",
+      "hasm_lines": [
+        667886,
+        667896
+      ]
+    },
+    {
+      "id": 17479,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00378559",
+      "bytecode_bytes": 130,
+      "bytecode_sha256": "34b2ed936ddf3d866fc00995b613475aa1e7da44569810bd4cff0ace50d336e4",
+      "hasm_lines": [
+        667897,
+        667942
+      ]
+    },
+    {
+      "id": 17480,
+      "name": "getTotalSteps",
+      "bundle_offset": "0x00377ca7",
+      "bytecode_bytes": 5,
+      "bytecode_sha256": "4655282124728b43b07d7a46a02e1ec58818e51bcf4cc8019a988208bad2196b",
+      "hasm_lines": [
+        667943,
+        667952
+      ]
+    },
+    {
+      "id": 17481,
+      "name": "resumeAnimation",
+      "bundle_offset": "0x003785db",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "81203c38c80730d26df339e7a62c3f233a785de833d45f0e8d1df9b7447a82d3",
+      "hasm_lines": [
+        667953,
+        667970
+      ]
+    },
+    {
+      "id": 17482,
+      "name": "exportAllFrames",
+      "bundle_offset": "0x00378600",
+      "bytecode_bytes": 44,
+      "bytecode_sha256": "3510abd24c2c368f61df3abe43e9f1126f1b5615d35dca4870c2a67cf78c01bc",
+      "hasm_lines": [
+        667971,
+        667990
+      ]
+    },
+    {
+      "id": 17483,
+      "name": "",
+      "bundle_offset": "0x0037862c",
+      "bytecode_bytes": 99,
+      "bytecode_sha256": "470bf8cf4d31d0d337e08d62adf62dbb966df7b88612cf879a881c0b9ea0858b",
+      "hasm_lines": [
+        667991,
+        668023
+      ]
+    },
+    {
+      "id": 17484,
+      "name": "",
+      "bundle_offset": "0x0037868f",
+      "bytecode_bytes": 244,
+      "bytecode_sha256": "1f05109b5953125ffc81213a67ad5ddadd1c56afcfaff99caf32f19f8957d583",
+      "hasm_lines": [
+        668024,
+        668095
+      ]
+    },
+    {
+      "id": 17485,
+      "name": "",
+      "bundle_offset": "0x00377e95",
+      "bytecode_bytes": 30,
+      "bytecode_sha256": "32c04c17aa9ce74f67b14734f380f308bf80e273dfef32694118c0bde9ae34ed",
+      "hasm_lines": [
+        668096,
+        668111
+      ]
+    },
+    {
+      "id": 17486,
+      "name": "",
+      "bundle_offset": "0x00377f8c",
+      "bytecode_bytes": 78,
+      "bytecode_sha256": "759f216770095e7d32c3515d6fea268353f3d6ffc030793741657c00ba9aeb24",
+      "hasm_lines": [
+        668112,
+        668141
+      ]
+    },
+    {
+      "id": 17487,
+      "name": "onMessage",
+      "bundle_offset": "0x00378783",
+      "bytecode_bytes": 36,
+      "bytecode_sha256": "41972892cb3e557d2314c9d4ccaacfca4febb48fdfd2890c82862fd9ba053d9c",
+      "hasm_lines": [
+        668142,
+        668159
+      ]
+    },
+    {
+      "id": 17488,
+      "name": "onHttpError",
+      "bundle_offset": "0x003787a7",
+      "bytecode_bytes": 60,
+      "bytecode_sha256": "63ffb491cda5e646218b7f1aba6920a6ba963b071ac1df49fa63ddeae4b744a5",
+      "hasm_lines": [
+        668160,
+        668182
+      ]
+    },
+    {
+      "id": 17489,
+      "name": "onError",
+      "bundle_offset": "0x003787e3",
+      "bytecode_bytes": 60,
+      "bytecode_sha256": "6529d1e6784c72ace328c78e364bff9420af1cfab896dedbffc55fc55268366d",
+      "hasm_lines": [
+        668183,
+        668205
+      ]
+    },
+    {
+      "id": 18765,
+      "name": "onLeftPress",
+      "bundle_offset": "0x0022c9ab",
+      "bytecode_bytes": 19,
+      "bytecode_sha256": "bea17671ce64135447a49806341ff14779cc82f4be4fae18cf5021ea2d6055e7",
+      "hasm_lines": [
+        716818,
+        716830
+      ]
+    },
+    {
+      "id": 18766,
+      "name": "",
+      "bundle_offset": "0x0039bcfe",
+      "bytecode_bytes": 262,
+      "bytecode_sha256": "1285403b8674a6eeacbe5f21d2a29ba6b9983e11117fc7978d065a54abe5a15d",
+      "hasm_lines": [
+        716831,
+        716903
+      ]
+    },
+    {
+      "id": 18767,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x0039be04",
+      "bytecode_bytes": 108,
+      "bytecode_sha256": "c8cac9fad67975a7ba23a0635de4a0a0e468b00bb1eeeb1f0779af02ba98dbeb",
+      "hasm_lines": [
+        716904,
+        716939
+      ]
+    },
+    {
+      "id": 18768,
+      "name": "_interopRequireWildcard",
+      "bundle_offset": "0x001ab6fb",
+      "bytecode_bytes": 273,
+      "bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "hasm_lines": [
+        716940,
+        717018
+      ]
+    },
+    {
+      "id": 18769,
+      "name": "DesignText360Page",
+      "bundle_offset": "0x0039be70",
+      "bytecode_bytes": 1255,
+      "bytecode_sha256": "c5363b706fe671f85ebffaac6f20e12e2dc5865685c22cc51a36f2030919b943",
+      "hasm_lines": [
+        717019,
+        717293
+      ]
+    },
+    {
+      "id": 18770,
+      "name": "handleSaveVideo",
+      "bundle_offset": "0x0039c357",
+      "bytecode_bytes": 194,
+      "bytecode_sha256": "ce6a139f0413fa87e30ecd87f79a1172dfdbe381e1041a688403847982397751",
+      "hasm_lines": [
+        717294,
+        717349
+      ]
+    },
+    {
+      "id": 18771,
+      "name": "",
+      "bundle_offset": "0x0039c419",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "f0b341bd7d0a9a845981dc8c078f00a514e40e8d9f03e65d67e5f211e0fc0de1",
+      "hasm_lines": [
+        717350,
+        717367
+      ]
+    },
+    {
+      "id": 18772,
+      "name": "",
+      "bundle_offset": "0x0039c43e",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "e5a5d639c1ee987a5c7ae4c8490b9f0a014a190872a5b4074441a0df163de3e6",
+      "hasm_lines": [
+        717368,
+        717378
+      ]
+    },
+    {
+      "id": 18773,
+      "name": "?anon_0_",
+      "bundle_offset": "0x0039c447",
+      "bytecode_bytes": 339,
+      "bytecode_sha256": "d3416b3513664db63d9ba3b5026561f54c0538664aae1b6e6bd45f6d770754a5",
+      "hasm_lines": [
+        717379,
+        717470
+      ]
+    },
+    {
+      "id": 18774,
+      "name": "",
+      "bundle_offset": "0x0039c59a",
+      "bytecode_bytes": 234,
+      "bytecode_sha256": "816d3268d584f31e2f8b9ce4ed696e5da117b20c8e41fdeef347f6ac77da6a16",
+      "hasm_lines": [
+        717471,
+        717536
+      ]
+    },
+    {
+      "id": 18775,
+      "name": "",
+      "bundle_offset": "0x0039c684",
+      "bytecode_bytes": 244,
+      "bytecode_sha256": "bb762cc3260d5d03de5b4008e6d4e10feda0d7175438f9383d0ab2d28f4f130f",
+      "hasm_lines": [
+        717537,
+        717603
+      ]
+    },
+    {
+      "id": 18776,
+      "name": "",
+      "bundle_offset": "0x0039c778",
+      "bytecode_bytes": 86,
+      "bytecode_sha256": "4c8373101f042181e41c103e6f309cd791c43ec07a76c19c6c87153094bd41e2",
+      "hasm_lines": [
+        717604,
+        717632
+      ]
+    },
+    {
+      "id": 18777,
+      "name": "dialogActionBlock",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        717633,
+        717649
+      ]
+    },
+    {
+      "id": 18778,
+      "name": "dismissDialog",
+      "bundle_offset": "0x002ada4c",
+      "bytecode_bytes": 41,
+      "bytecode_sha256": "2efb31546097826180b4a11fc734db41efb4d0ba132395156d42668800fd6b34",
+      "hasm_lines": [
+        717650,
+        717668
+      ]
+    },
+    {
+      "id": 18779,
+      "name": "showInfoDialog",
+      "bundle_offset": "0x0039c7ce",
+      "bytecode_bytes": 204,
+      "bytecode_sha256": "9e2587dce124cdc3909ed5a71add63e2b0dae26d2d3505b1329e7e59e560ac11",
+      "hasm_lines": [
+        717669,
+        717727
+      ]
+    },
+    {
+      "id": 18780,
+      "name": "onStateChanged",
+      "bundle_offset": "0x0039c89a",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "3fb35735c24c1f59561e305db2430af8d4966114d036b598e21774b278496735",
+      "hasm_lines": [
+        717728,
+        717752
+      ]
+    },
+    {
+      "id": 18781,
+      "name": "showExitConfirmDialog",
+      "bundle_offset": "0x0039c8d9",
+      "bytecode_bytes": 229,
+      "bytecode_sha256": "accfa7991cb8c4727111703ddae0cb7dcd9ac5e269f758c8c522535250ab1e16",
+      "hasm_lines": [
+        717753,
+        717816
+      ]
+    },
+    {
+      "id": 18782,
+      "name": "func",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        717817,
+        717826
+      ]
+    },
+    {
+      "id": 18783,
+      "name": "func",
+      "bundle_offset": "0x00343e15",
+      "bytecode_bytes": 21,
+      "bytecode_sha256": "06aad5e6413d466f30c172e427f9655d87f2162809a22f7ce37be2f2f1f14a43",
+      "hasm_lines": [
+        717827,
+        717840
+      ]
+    },
+    {
+      "id": 18784,
+      "name": "showNameInputDialog",
+      "bundle_offset": "0x0039c9be",
+      "bytecode_bytes": 340,
+      "bytecode_sha256": "b040f69f85529c28853d4560174dbe54e279eea3a6cc2802ef13e4f945d7097e",
+      "hasm_lines": [
+        717841,
+        717929
+      ]
+    },
+    {
+      "id": 18785,
+      "name": "",
+      "bundle_offset": "0x0039cb12",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "15f044a02dab3f9f848aedf7ffb14d713fcc99fa8056d6eccc2738ec83efe672",
+      "hasm_lines": [
+        717930,
+        717947
+      ]
+    },
+    {
+      "id": 18786,
+      "name": "func",
+      "bundle_offset": "0x0039cb37",
+      "bytecode_bytes": 112,
+      "bytecode_sha256": "79e70d1aee541546a96668ce1ea3450320f7ad07ff26eaa631c456767470cd25",
+      "hasm_lines": [
+        717948,
+        717983
+      ]
+    },
+    {
+      "id": 18787,
+      "name": "func",
+      "bundle_offset": "0x0037ed51",
+      "bytecode_bytes": 40,
+      "bytecode_sha256": "6b75e351dec7e8bbd6fbf07c79a8530e4a084b4bf049453d270374979feeb9bd",
+      "hasm_lines": [
+        717984,
+        718003
+      ]
+    },
+    {
+      "id": 18788,
+      "name": "onStateChanged",
+      "bundle_offset": "0x0039c89a",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "3fb35735c24c1f59561e305db2430af8d4966114d036b598e21774b278496735",
+      "hasm_lines": [
+        718004,
+        718028
+      ]
+    },
+    {
+      "id": 18789,
+      "name": "showColorPicker",
+      "bundle_offset": "0x0039cba7",
+      "bytecode_bytes": 198,
+      "bytecode_sha256": "a6490aec7df72f649a5cf7536c2d594079d9b791e67d59b1145ba952465067e9",
+      "hasm_lines": [
+        718029,
+        718083
+      ]
+    },
+    {
+      "id": 18790,
+      "name": "func",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        718084,
+        718093
+      ]
+    },
+    {
+      "id": 18791,
+      "name": "onStateChanged",
+      "bundle_offset": "0x0039c89a",
+      "bytecode_bytes": 63,
+      "bytecode_sha256": "3fb35735c24c1f59561e305db2430af8d4966114d036b598e21774b278496735",
+      "hasm_lines": [
+        718094,
+        718118
+      ]
+    },
+    {
+      "id": 18792,
+      "name": "",
+      "bundle_offset": "0x0039cc6d",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "cdba5c079b751e5a960c87393b264310591a93aa388ae344399aea7c392f70c8",
+      "hasm_lines": [
+        718119,
+        718134
+      ]
+    },
+    {
+      "id": 18793,
+      "name": "",
+      "bundle_offset": "0x0039cc8c",
+      "bytecode_bytes": 86,
+      "bytecode_sha256": "ef047c2eef0bd7a33dfa19d89d1f89e342964f46b2f607e1adb896b011722bfe",
+      "hasm_lines": [
+        718135,
+        718162
+      ]
+    },
+    {
+      "id": 18794,
+      "name": "",
+      "bundle_offset": "0x0039cce2",
+      "bytecode_bytes": 31,
+      "bytecode_sha256": "3bfc25ec070026134d2ce8a512ab2453339b4dc2f48021216ee80b4e6f7d8b93",
+      "hasm_lines": [
+        718163,
+        718178
+      ]
+    },
+    {
+      "id": 18795,
+      "name": "",
+      "bundle_offset": "0x001a6f5b",
+      "bytecode_bytes": 4,
+      "bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "hasm_lines": [
+        718179,
+        718188
+      ]
+    },
+    {
+      "id": 18796,
+      "name": "",
+      "bundle_offset": "0x0039cd01",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "48a278785b7964ee67c12d4f9ef7cbca32ea01a0ed4e2c02ebf74ab586548388",
+      "hasm_lines": [
+        718189,
+        718206
+      ]
+    },
+    {
+      "id": 18797,
+      "name": "",
+      "bundle_offset": "0x0039cd26",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "f74f6b429834d8a070c03668c645e1d229bcc7f9e052b6ed7d2f9e4606acf87b",
+      "hasm_lines": [
+        718207,
+        718217
+      ]
+    },
+    {
+      "id": 18798,
+      "name": "?anon_0_",
+      "bundle_offset": "0x0039cd2f",
+      "bytecode_bytes": 131,
+      "bytecode_sha256": "ec0857b55c7848d9ef2854c097de6086802d6d8e3eb251e9eea0bfd23252d50a",
+      "hasm_lines": [
+        718218,
+        718259
+      ]
+    },
+    {
+      "id": 18799,
+      "name": "",
+      "bundle_offset": "0x0039cdb2",
+      "bytecode_bytes": 148,
+      "bytecode_sha256": "d8c213d0ed63a41fec3840e5ce7413dc364c1d3c3970a70053a8241ae0e9e493",
+      "hasm_lines": [
+        718260,
+        718302
+      ]
+    },
+    {
+      "id": 18800,
+      "name": "composeVideo",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        718303,
+        718319
+      ]
+    },
+    {
+      "id": 18801,
+      "name": "ColorPickerView",
+      "bundle_offset": "0x0039ce46",
+      "bytecode_bytes": 397,
+      "bytecode_sha256": "574d31d4aa4943205ccfba22d876cb0cd614ddaa104cbfacb7299e3d22d65627",
+      "hasm_lines": [
+        718320,
+        718416
+      ]
+    },
+    {
+      "id": 18802,
+      "name": "ref",
+      "bundle_offset": "0x0037718b",
+      "bytecode_bytes": 20,
+      "bytecode_sha256": "ea19aef1967be4a0879d6fe37f502e152f640c990c18ebc630f94f4237786136",
+      "hasm_lines": [
+        718417,
+        718430
+      ]
+    },
+    {
+      "id": 18803,
+      "name": "onColorChangeComplete",
+      "bundle_offset": "0x0039cfd3",
+      "bytecode_bytes": 64,
+      "bytecode_sha256": "8cc8bb0ecd9dfc72fcd0cf18823ec08875907923c57ddd27e38e3e39ccc5b9dc",
+      "hasm_lines": [
+        718431,
+        718456
+      ]
+    },
+    {
+      "id": 18804,
+      "name": "updateTextList",
+      "bundle_offset": "0x0039d013",
+      "bytecode_bytes": 51,
+      "bytecode_sha256": "65aeaa6585b4455be38341d76501feed33b6e0db612b4a613d6ecd1a7bad02b3",
+      "hasm_lines": [
+        718457,
+        718479
+      ]
+    },
+    {
+      "id": 18805,
+      "name": "",
+      "bundle_offset": "0x0039d046",
+      "bytecode_bytes": 87,
+      "bytecode_sha256": "7aa76d06c46c625c2fe0b07a8c0cf8944d4be1512004bbeb9767bedbcc28f8ab",
+      "hasm_lines": [
+        718480,
+        718510
+      ]
+    },
+    {
+      "id": 18806,
+      "name": "addOneTextLine",
+      "bundle_offset": "0x0039d09d",
+      "bytecode_bytes": 41,
+      "bytecode_sha256": "786dcb603be0b82ee1652a74f0107fa7d3d3358a67e071e5238b3e98197d501c",
+      "hasm_lines": [
+        718511,
+        718530
+      ]
+    },
+    {
+      "id": 18807,
+      "name": "",
+      "bundle_offset": "0x0039d0c6",
+      "bytecode_bytes": 97,
+      "bytecode_sha256": "bee45cc409e4b567d105f63cbed7a0eef135c83b7f955e3b5e9d5cde453761ab",
+      "hasm_lines": [
+        718531,
+        718560
+      ]
+    },
+    {
+      "id": 18808,
+      "name": "delteOneTextLine",
+      "bundle_offset": "0x0039d127",
+      "bytecode_bytes": 127,
+      "bytecode_sha256": "20429a4a0f6c3501bae32dce32354affad6a2bdd4d5dd9993114de23fc9172fb",
+      "hasm_lines": [
+        718561,
+        718599
+      ]
+    },
+    {
+      "id": 18809,
+      "name": "",
+      "bundle_offset": "0x0039d1a6",
+      "bytecode_bytes": 30,
+      "bytecode_sha256": "ad3167ad2097ea7fbc7a03ef6ccb1e4ce59f5e01b0652dac5766a78ffe4994d6",
+      "hasm_lines": [
+        718600,
+        718615
+      ]
+    },
+    {
+      "id": 18810,
+      "name": "renderItems",
+      "bundle_offset": "0x0039d1c4",
+      "bytecode_bytes": 578,
+      "bytecode_sha256": "079c33d67f7a0ea54b7d6d39d917830c3150b64537bcb9454ca51ce0711e39e6",
+      "hasm_lines": [
+        718616,
+        718742
+      ]
+    },
+    {
+      "id": 18811,
+      "name": "",
+      "bundle_offset": "0x0039d406",
+      "bytecode_bytes": 1805,
+      "bytecode_sha256": "9818134cc68a455b179c85d3101d37804f0e431860884052a6e54398e88fb704",
+      "hasm_lines": [
+        718743,
+        719140
+      ]
+    },
+    {
+      "id": 18812,
+      "name": "onPress",
+      "bundle_offset": "0x0039db13",
+      "bytecode_bytes": 42,
+      "bytecode_sha256": "21f9a8a5cb4faa3e6d97eb22285cb239843ae9c85841c95ecc8ddc4e06410f57",
+      "hasm_lines": [
+        719141,
+        719160
+      ]
+    },
+    {
+      "id": 18813,
+      "name": "onChangeText",
+      "bundle_offset": "0x0039db3d",
+      "bytecode_bytes": 53,
+      "bytecode_sha256": "5828df183c3906c0fdc2af7cf6a2fa17ad7313a01488fe4251310c30fd3eb631",
+      "hasm_lines": [
+        719161,
+        719183
+      ]
+    },
+    {
+      "id": 18814,
+      "name": "onPress",
+      "bundle_offset": "0x0039db72",
+      "bytecode_bytes": 41,
+      "bytecode_sha256": "e13e700d599fdb52f81661630e78450aab638e4bb639f803f37749e66ebaf5a3",
+      "hasm_lines": [
+        719184,
+        719203
+      ]
+    },
+    {
+      "id": 18815,
+      "name": "onChangeText",
+      "bundle_offset": "0x0039db9b",
+      "bytecode_bytes": 97,
+      "bytecode_sha256": "3d2f47524f6355d04c7981eed7b2fd05ea6866abd5f5afda1cea9702272d40db",
+      "hasm_lines": [
+        719204,
+        719238
+      ]
+    },
+    {
+      "id": 18816,
+      "name": "onPress",
+      "bundle_offset": "0x0039dbfc",
+      "bytecode_bytes": 23,
+      "bytecode_sha256": "3df1e2a053e043c64edbf4c7480cbea822ff106089078012568bf7f68456ecce",
+      "hasm_lines": [
+        719239,
+        719253
+      ]
+    },
+    {
+      "id": 18817,
+      "name": "onPress",
+      "bundle_offset": "0x0039dc13",
+      "bytecode_bytes": 15,
+      "bytecode_sha256": "ebd0dc582af52d876882ac0aa52dfa8d9a9805d33def92916aa33aea6714d9fa",
+      "hasm_lines": [
+        719254,
+        719266
+      ]
+    },
+    {
+      "id": 18818,
+      "name": "onPress",
+      "bundle_offset": "0x0039dc22",
+      "bytecode_bytes": 15,
+      "bytecode_sha256": "3e323030306f840ec37325fd26ea121643a86c1d2c4e184235947a3ca1d55bae",
+      "hasm_lines": [
+        719267,
+        719279
+      ]
+    },
+    {
+      "id": 18819,
+      "name": "onLeftPress",
+      "bundle_offset": "0x0039dc31",
+      "bytecode_bytes": 45,
+      "bytecode_sha256": "5eef94507d0b9fd1ede128927558f554511e3cb0ac79e3c0dee3454ceca964d0",
+      "hasm_lines": [
+        719280,
+        719300
+      ]
+    },
+    {
+      "id": 18820,
+      "name": "onRightPress",
+      "bundle_offset": "0x0037f3bd",
+      "bytecode_bytes": 15,
+      "bytecode_sha256": "0056d5fc613d618d8d539f1d13009cc552ec08d492fa7f0bf907a8ae686f0e37",
+      "hasm_lines": [
+        719301,
+        719313
+      ]
+    },
+    {
+      "id": 18821,
+      "name": "",
+      "bundle_offset": "0x0039dc5e",
+      "bytecode_bytes": 97,
+      "bytecode_sha256": "e06dfc002e64bd628b24014d0826d601017567270464600e0dd48e9071c2cc16",
+      "hasm_lines": [
+        719314,
+        719342
+      ]
+    },
+    {
+      "id": 18822,
+      "name": "keyExtractor",
+      "bundle_offset": "0x0037776b",
+      "bytecode_bytes": 14,
+      "bytecode_sha256": "82cccaae942484ab5023e48412d95c907496fff04131d45296cd857270241ad0",
+      "hasm_lines": [
+        719343,
+        719354
+      ]
+    },
+    {
+      "id": 8355,
+      "name": "deleteFileBlock",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        338288,
+        338304
+      ]
+    },
+    {
+      "id": 8356,
+      "name": "postBlock",
+      "bundle_offset": "0x00290cad",
+      "bytecode_bytes": 40,
+      "bytecode_sha256": "8a29aab6115173305c33a0412b97ce6c50a09617a5737ed807d74d7cee6e3fc4",
+      "hasm_lines": [
+        338305,
+        338324
+      ]
+    },
+    {
+      "id": 8357,
+      "name": "",
+      "bundle_offset": "0x00290cd5",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "503ffa60e9fb60f4aac149349fb21919c268e3db94e86162e8a69cee6071e377",
+      "hasm_lines": [
+        338325,
+        338342
+      ]
+    },
+    {
+      "id": 8358,
+      "name": "generateVideoFromWebGL",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        338343,
+        338359
+      ]
+    },
+    {
+      "id": 8359,
+      "name": "",
+      "bundle_offset": "0x00290cfa",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "bf52f201ed6c5be81cffa2a21d5d87e95b4a4e936d5b06c203464228519a1471",
+      "hasm_lines": [
+        338360,
+        338370
+      ]
+    },
+    {
+      "id": 8360,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00290d03",
+      "bytecode_bytes": 1104,
+      "bytecode_sha256": "c13223fce96f64b8a5700f64cb483140fd80eaccde6136aaadd6a874a32d7117",
+      "hasm_lines": [
+        338371,
+        338661
+      ]
+    },
+    {
+      "id": 8361,
+      "name": "",
+      "bundle_offset": "0x00291153",
+      "bytecode_bytes": 245,
+      "bytecode_sha256": "6d82ac0f08482fa3290fb382a1257eae8abd93996b4bf63f2e519038c4b4df7e",
+      "hasm_lines": [
+        338662,
+        338727
+      ]
+    },
+    {
+      "id": 8362,
+      "name": "",
+      "bundle_offset": "0x00291248",
+      "bytecode_bytes": 69,
+      "bytecode_sha256": "506ddd0d8444ea6f895608936b54961c3a1ed424427b70a19b819436881ea639",
+      "hasm_lines": [
+        338728,
+        338752
+      ]
+    },
+    {
+      "id": 8363,
+      "name": "",
+      "bundle_offset": "0x0029128d",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "1f185d8322955238c0af259ba5ad3985a7eb8f5ede09e1b2694fcd9ded5609cc",
+      "hasm_lines": [
+        338753,
+        338770
+      ]
+    },
+    {
+      "id": 8364,
+      "name": "generateGalleryVideo",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        338771,
+        338787
+      ]
+    },
+    {
+      "id": 8365,
+      "name": "",
+      "bundle_offset": "0x002912b2",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "dba41dfc8287ea2239bb529110ec3e266af34b279cf9e85834b2d3d1616fa11b",
+      "hasm_lines": [
+        338788,
+        338798
+      ]
+    },
+    {
+      "id": 8366,
+      "name": "?anon_0_",
+      "bundle_offset": "0x002912bb",
+      "bytecode_bytes": 1415,
+      "bytecode_sha256": "fdd4fb4f513c6e51a40b0de8d9521496465c2e45a0d4c9a8112e26e7b1da8005",
+      "hasm_lines": [
+        338799,
+        339181
+      ]
+    },
+    {
+      "id": 8367,
+      "name": "",
+      "bundle_offset": "0x00291842",
+      "bytecode_bytes": 22,
+      "bytecode_sha256": "85ee346329fe505aac86e338be44fdffcb81183da3dd912d9fe4f442edb69fae",
+      "hasm_lines": [
+        339182,
+        339196
+      ]
+    },
+    {
+      "id": 8368,
+      "name": "",
+      "bundle_offset": "0x00291858",
+      "bytecode_bytes": 32,
+      "bytecode_sha256": "a0a20afb4f9f52d65971d793c8e49deaaaa8d3d9c2bdb964bb4355d8bd17dd50",
+      "hasm_lines": [
+        339197,
+        339212
+      ]
+    },
+    {
+      "id": 8369,
+      "name": "",
+      "bundle_offset": "0x00291878",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "a08b3478dc60037386214baf07733479dbb2519562126abb48fa874ae822397f",
+      "hasm_lines": [
+        339213,
+        339230
+      ]
+    },
+    {
+      "id": 8370,
+      "name": "generateStaticVideo",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        339231,
+        339247
+      ]
+    },
+    {
+      "id": 8371,
+      "name": "",
+      "bundle_offset": "0x0029189d",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "7d96dcf1a702745cb937c30cc44bf8f488ceebedb2d62b093e4a6b150128e039",
+      "hasm_lines": [
+        339248,
+        339258
+      ]
+    },
+    {
+      "id": 8372,
+      "name": "?anon_0_",
+      "bundle_offset": "0x002918a6",
+      "bytecode_bytes": 682,
+      "bytecode_sha256": "a19896ce545df17c434cf508192940893da3dff5d2b43b1d2eccdec2faeb2335",
+      "hasm_lines": [
+        339259,
+        339438
+      ]
+    },
+    {
+      "id": 8373,
+      "name": "",
+      "bundle_offset": "0x00291b50",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "258b36de30dd026eb30e7e39c3dc3cb3419e00011c346ee7d753fa199f2e8442",
+      "hasm_lines": [
+        339439,
+        339456
+      ]
+    },
+    {
+      "id": 8374,
+      "name": "generateVideo",
+      "bundle_offset": "0x0021eda4",
+      "bytecode_bytes": 29,
+      "bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "hasm_lines": [
+        339457,
+        339473
+      ]
+    },
+    {
+      "id": 8375,
+      "name": "",
+      "bundle_offset": "0x00291b75",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "eaa4104da8518df5891ddb7c96616ab1e64b89a9b65b51beba576706e809c25d",
+      "hasm_lines": [
+        339474,
+        339484
+      ]
+    },
+    {
+      "id": 8376,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00291b7e",
+      "bytecode_bytes": 374,
+      "bytecode_sha256": "c01f1cf9e5d894248be46eaf66f09940bd702e981fa1073035fd6f98696bd1e2",
+      "hasm_lines": [
+        339485,
+        339587
+      ]
+    },
+    {
+      "id": 8377,
+      "name": "",
+      "bundle_offset": "0x00291cf4",
+      "bytecode_bytes": 37,
+      "bytecode_sha256": "f0b7c2f9e0edf6d52363a4863463e3b93a6980fe441b63d10d711e2cd45b0529",
+      "hasm_lines": [
+        339588,
+        339605
+      ]
+    },
+    {
+      "id": 8378,
+      "name": "",
+      "bundle_offset": "0x00291d19",
+      "bytecode_bytes": 9,
+      "bytecode_sha256": "5280592c767cfc362098c354b2c97f64fd78a1991ded07b5b0d5625249cb985e",
+      "hasm_lines": [
+        339606,
+        339616
+      ]
+    },
+    {
+      "id": 8379,
+      "name": "?anon_0_",
+      "bundle_offset": "0x00291d22",
+      "bytecode_bytes": 206,
+      "bytecode_sha256": "9987c00bf909102b11b490ce0c3ee056565e78690db3f3c6089cbd32ccd706e9",
+      "hasm_lines": [
+        339617,
+        339679
+      ]
+    }
+  ]
+}

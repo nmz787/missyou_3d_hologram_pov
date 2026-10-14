@@ -1,0 +1,21 @@
+{
+  "partial_transfer_only": true,
+  "completion_not_sent": true,
+  "test_filename": "90USB.bin",
+  "rows": [
+    {
+      "phase": "info",
+      "ack": "64333064363644454a666666666134613863326533"
+    },
+    {
+      "block_zero_based": 0,
+      "tail_prefix": "000",
+      "ack": "64333064383844454a666666666134613863326533"
+    },
+    {
+      "block_zero_based": 1,
+      "tail_prefix": "001",
+      "ack": "64333064383844454a303030306134613863326533"
+    }
+  ]
+}

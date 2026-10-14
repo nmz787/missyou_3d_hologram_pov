@@ -1,0 +1,53 @@
+// Static REA/Ghidra decompiler output; not original source. Evidence ev_c790a93bb3ac0304f957b9207bcc168e9f5173769330b5f25cd24d230c16ccf0
+
+void FUN_001f0bac(long *param_1,undefined8 param_2,long param_3,uint param_4,long param_5,
+                 undefined8 param_6,undefined8 param_7)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  void *__src;
+  void *__dest;
+  long lVar3;
+  undefined *puVar4;
+  
+  uVar1 = new_global_ref_with_obj(param_1,param_6);
+  uVar2 = new_global_ref_with_obj(param_1,param_7);
+  if ((param_3 == 0) || ((int)param_4 < 1)) {
+    puVar4 = &DAT_00188baa;
+  }
+  else {
+    __src = (void *)(**(code **)(*param_1 + 0x5c0))(param_1,param_3,0);
+    if (__src != (void *)0x0) {
+      __dest = malloc((ulong)param_4);
+      if (__dest == (void *)0x0) {
+        f_log(1,5,&DAT_0018946b,&DAT_0019335b);
+        FUN_001f16e0(uVar2,uVar1,1);
+      }
+      else {
+        memcpy(__dest,__src,(ulong)param_4);
+        if (param_5 == 0) {
+          lVar3 = 0;
+        }
+        else {
+          lVar3 = (**(code **)(*param_1 + 0x548))(param_1,param_5,0);
+        }
+        f_log(1,5,&DAT_0018946b,"progress_cb:%x result_cb:%x",uVar1,uVar2);
+        old_dev_tcp_upload_async(__dest,lVar3,FUN_001f1844,FUN_001f16e0,uVar1,uVar2);
+        free(__dest);
+        if (lVar3 != 0) {
+          (**(code **)(*param_1 + 0x530))(param_1,param_5,lVar3);
+        }
+      }
+                    /* WARNING: Could not recover jumptable at 0x001f0d84. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+      (**(code **)(*param_1 + 0x600))(param_1,param_3,__src,2);
+      return;
+    }
+    puVar4 = &DAT_00184f04;
+  }
+  f_log(1,5,&DAT_0018946b,puVar4);
+  FUN_001f16e0(uVar2,uVar1,1);
+  return;
+}
+

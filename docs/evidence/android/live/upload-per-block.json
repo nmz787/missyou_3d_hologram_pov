@@ -1,0 +1,25 @@
+{
+  "test_file": "90USB.bin",
+  "ack_interval": 1,
+  "transfer_completed": false,
+  "error": "RuntimeError(\"device rejected block 2: b'd30d88DEJ0000a4a8c2e3'\")",
+  "elapsed_seconds": 0.22040475500034518,
+  "acknowledgments": [
+    {
+      "block": 0,
+      "received_ascii": "d30d66DEJffffa4a8c2e3",
+      "received_hex": "64333064363644454a666666666134613863326533"
+    },
+    {
+      "block": 1,
+      "received_ascii": "d30d88DEJffffa4a8c2e3",
+      "received_hex": "64333064383844454a666666666134613863326533"
+    },
+    {
+      "block": 2,
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    }
+  ],
+  "after": []
+}

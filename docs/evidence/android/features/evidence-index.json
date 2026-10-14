@@ -1,0 +1,404 @@
+{
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "operation": "Static feature tracing and offline extracted-source replay",
+  "verification": {
+    "function_records_checked": 386,
+    "unique_function_ids_checked": 365,
+    "raw_string_ranges_checked": 66,
+    "all_five_feature_entries_present": true,
+    "rendered_demo_video_checks": [
+      {
+        "file": "browser-box-0.mp4",
+        "ffprobe": {
+          "programs": [],
+          "streams": [
+            {
+              "width": 720,
+              "height": 720,
+              "avg_frame_rate": "20/1",
+              "nb_frames": "200"
+            }
+          ],
+          "format": {
+            "duration": "10.000000"
+          }
+        }
+      },
+      {
+        "file": "browser-box-1.mp4",
+        "ffprobe": {
+          "programs": [],
+          "streams": [
+            {
+              "width": 720,
+              "height": 720,
+              "avg_frame_rate": "20/1",
+              "nb_frames": "200"
+            }
+          ],
+          "format": {
+            "duration": "10.000000"
+          }
+        }
+      },
+      {
+        "file": "browser-box-2.mp4",
+        "ffprobe": {
+          "programs": [],
+          "streams": [
+            {
+              "width": 720,
+              "height": 720,
+              "avg_frame_rate": "20/1",
+              "nb_frames": "200"
+            }
+          ],
+          "format": {
+            "duration": "10.000000"
+          }
+        }
+      },
+      {
+        "file": "browser-text-ball.mp4",
+        "ffprobe": {
+          "programs": [],
+          "streams": [
+            {
+              "width": 720,
+              "height": 720,
+              "avg_frame_rate": "20/1",
+              "nb_frames": "200"
+            }
+          ],
+          "format": {
+            "duration": "10.000000"
+          }
+        }
+      }
+    ]
+  },
+  "records": [
+    {
+      "file": "browser-box-0-frame-000.jpg",
+      "bytes": 21002,
+      "sha256": "d5d7860f2a08ad0e4ef60edba7263c5fb3fc4f5e9f1dc05a3c71927a907841d5"
+    },
+    {
+      "file": "browser-box-0-frame-050.jpg",
+      "bytes": 19015,
+      "sha256": "3f8db08ada5cfe14b0f3049308abdf719d94e596a3e64c8113ed64bd42290d1f"
+    },
+    {
+      "file": "browser-box-0-frame-100.jpg",
+      "bytes": 20652,
+      "sha256": "484ad9308846195defb86ceb6a51a7539a355658c64c6c91814f7b79a88db5a9"
+    },
+    {
+      "file": "browser-box-0-frame-150.jpg",
+      "bytes": 18677,
+      "sha256": "bf46001533fcba7c9cb1ddb3fb408ab925d515d7aab4a70f8693ec8b6c2c1d0b"
+    },
+    {
+      "file": "browser-box-0-frame-199.jpg",
+      "bytes": 21230,
+      "sha256": "02a9ff2cc49a0dbfc56b97c60b852221ac32a701599afc2898d3461801d39877"
+    },
+    {
+      "file": "browser-box-0-preview.png",
+      "bytes": 78214,
+      "sha256": "50e0236f6ed3936d76c9a3660e1999fa76b4c0a96a44d85ce552262f3f36e67e"
+    },
+    {
+      "file": "browser-box-0.mp4",
+      "bytes": 2605596,
+      "sha256": "4ee3a2924a70136649050945bc826de18de079f17ab05e5534734c9987cfdf4d"
+    },
+    {
+      "file": "browser-box-1-frame-000.jpg",
+      "bytes": 31088,
+      "sha256": "c99ab181553371cc5b664f7844802ccf878e346b7f0987820eb247ee0a6e483e"
+    },
+    {
+      "file": "browser-box-1-frame-050.jpg",
+      "bytes": 30249,
+      "sha256": "9d180e8a0b79482bb896625bb29eef7cc0bbefe8fee027f5dcf98894fdb28ad5"
+    },
+    {
+      "file": "browser-box-1-frame-100.jpg",
+      "bytes": 30854,
+      "sha256": "98dd1e36b7f45d42fa387a5ab5831a2820595d6e9be66b46da34d1050072a3b6"
+    },
+    {
+      "file": "browser-box-1-frame-150.jpg",
+      "bytes": 28950,
+      "sha256": "be3528979f7983170c347239e91fbdbb575143a6c3c6c8d8f67aefd2bf5ba081"
+    },
+    {
+      "file": "browser-box-1-frame-199.jpg",
+      "bytes": 31156,
+      "sha256": "ea6dace18424558e7e17fa41c1f4eade20ac01f24b3fb9e30c61c6a4c588429b"
+    },
+    {
+      "file": "browser-box-1-preview.png",
+      "bytes": 107193,
+      "sha256": "505cc03f7c05776df7d66dd379326171c16335eb94c38605a260e8bfbdddf4e2"
+    },
+    {
+      "file": "browser-box-1.mp4",
+      "bytes": 3484540,
+      "sha256": "7b69d8246f81c6a5d08c3e1aad8c834cde28e8a7497d1a4e08f5c3b002cd93d2"
+    },
+    {
+      "file": "browser-box-2-frame-000.jpg",
+      "bytes": 27785,
+      "sha256": "becec01bd4af8d1570af62cf515a8a6b373b4b858edffebec7c7bb9b74643084"
+    },
+    {
+      "file": "browser-box-2-frame-050.jpg",
+      "bytes": 30273,
+      "sha256": "5274f2b06a0537591cef29557b1964819e293e147790d791568d993ed4802403"
+    },
+    {
+      "file": "browser-box-2-frame-100.jpg",
+      "bytes": 28066,
+      "sha256": "03415101f1fd3e3b1c39c1d65e7a97913e5ac18782ee478e7b106556921bc5b1"
+    },
+    {
+      "file": "browser-box-2-frame-150.jpg",
+      "bytes": 18715,
+      "sha256": "c23a39a876121dfd5a5600d0bd90afbf6374061b8e46f3511592e28acdf4482a"
+    },
+    {
+      "file": "browser-box-2-frame-199.jpg",
+      "bytes": 28183,
+      "sha256": "3b3e3eac3288133f603e536bfdddd09836965d4d99a5ba3570ac5d6c25a5d505"
+    },
+    {
+      "file": "browser-box-2-preview.png",
+      "bytes": 95449,
+      "sha256": "81eee8404ba286d2a728f96d080d7372bbbfa34272067af2377f824d49dbf09c"
+    },
+    {
+      "file": "browser-box-2.mp4",
+      "bytes": 3179229,
+      "sha256": "89d8f4027292b2fe2de9bb69b917a2e766ce284806a17c013b86ca9745200819"
+    },
+    {
+      "file": "browser-renderer-replay.json",
+      "bytes": 15949,
+      "sha256": "6fa7a152d113e84f13449dbec719a54a43d21298ce290c30013143510a6267e1"
+    },
+    {
+      "file": "browser-text-ball-frame-000.jpg",
+      "bytes": 19472,
+      "sha256": "77c6009d7f96f99ff5e6709fd4b96f0890c2d6a984411e5c9f95d01e19d0f645"
+    },
+    {
+      "file": "browser-text-ball-frame-050.jpg",
+      "bytes": 17855,
+      "sha256": "c95bf8384c85e037b5baba1e0699bca89d455173002429fbaad4b7349d304229"
+    },
+    {
+      "file": "browser-text-ball-frame-100.jpg",
+      "bytes": 19188,
+      "sha256": "83865537e20922678ad9140b43ae6273bed55fd7ae6ee4dacc466c49584bf968"
+    },
+    {
+      "file": "browser-text-ball-frame-150.jpg",
+      "bytes": 18365,
+      "sha256": "be794556a060dd8fb1d3981a4cae1cdff8a904ae3915ef299b7610508c1a0787"
+    },
+    {
+      "file": "browser-text-ball-frame-199.jpg",
+      "bytes": 19636,
+      "sha256": "455a6df96f7a1124bed37df3492a87fb4c1b9680ad9d3d8fbbf078d339613dbf"
+    },
+    {
+      "file": "browser-text-ball-preview.png",
+      "bytes": 19632,
+      "sha256": "bc6fa551218a658c5fabda344c3f33682e6b8f4ad9ab80931d31959d5538abd7"
+    },
+    {
+      "file": "browser-text-ball.mp4",
+      "bytes": 2475590,
+      "sha256": "9e91949830859b069557d33f062188f59986ab6b4b5dd4fc5f4497f6602ba1b5"
+    },
+    {
+      "file": "common-bytecode.hasm",
+      "bytes": 211998,
+      "sha256": "03cfcdc3b9d28eb03807145d4c7401846e5e7f165379db213b488efb676dc490"
+    },
+    {
+      "file": "common-functions.json",
+      "bytes": 6329,
+      "sha256": "1070a4203525b271bac12d8d759f4c2f1980f6ab76640312429881aa5df3d7cf"
+    },
+    {
+      "file": "marquee-gallery-browser-probe.html",
+      "bytes": 5857,
+      "sha256": "019b3f975b225c07d7dfbfd768b0eb72f8f65e53fc3b649f780e46b075bc32e7"
+    },
+    {
+      "file": "marquee-gallery-browser-replay.json",
+      "bytes": 3443,
+      "sha256": "5a419255480466edcd01ab91ce2d2523d81f60432fd148e2326f2d8737c124a6"
+    },
+    {
+      "file": "marquee-gallery-browser-replay.py",
+      "bytes": 1196,
+      "sha256": "9e5dace4c7c5e0828b9d198e5a2af312252a88e662c2f794b3efe5aaf1bd5a07"
+    },
+    {
+      "file": "marquee-gallery-bytecode.hasm",
+      "bytes": 368910,
+      "sha256": "8524e4caf4242e68e9d2cac2b6b2cac070a7a1bb0f5f72f06add8b422f98478c"
+    },
+    {
+      "file": "marquee-gallery-index.json",
+      "bytes": 35964,
+      "sha256": "b1b164cb1e99ff4310427ee992454721c457e9b92f76f0b58d32dd7c0fe42b8e"
+    },
+    {
+      "file": "marquee-gallery-marquee.html",
+      "bytes": 4225,
+      "sha256": "1940dff621bf340952e47f7f02a95f90cb295465bcd5c2375d5ea4af10f97535"
+    },
+    {
+      "file": "marquee-gallery-replay.cjs",
+      "bytes": 3153,
+      "sha256": "0ca7a592e1dc557bf8e46f8b85560523b0b435d22293082f6a5aaf49baf2dce4"
+    },
+    {
+      "file": "marquee-gallery-replay.json",
+      "bytes": 4602,
+      "sha256": "c735afbd838e4e63f341a20c7036d46107b1099a66cdf69ae473c183e7b7733d"
+    },
+    {
+      "file": "marquee-gallery-strings.json",
+      "bytes": 17934,
+      "sha256": "0921bc612151afbfab30a07f13fb5d09da6fc582b752e810e4f38c6ef6240531"
+    },
+    {
+      "file": "marquee-gallery.md",
+      "bytes": 10106,
+      "sha256": "5404f429617376844c4643735ba51b022a6b7af3f93dc243781820d9d1bd141c"
+    },
+    {
+      "file": "spinning-box-bytecode.hasm",
+      "bytes": 280226,
+      "sha256": "a1840dab368d6e5058f12f906b8aecb16f413658daa16017be83149bef53e9e6"
+    },
+    {
+      "file": "spinning-box-default.jpg",
+      "bytes": 61176,
+      "sha256": "91dfc7f0c35434d310d31a8320517110012efb6ac5027c33b9ebb0378a65c09a"
+    },
+    {
+      "file": "spinning-box-extract.py",
+      "bytes": 3314,
+      "sha256": "7b3b13cdb3d75dbe7634be4bbdd139d7aa2ce3d88d814afb5b47bf77ac472e5c"
+    },
+    {
+      "file": "spinning-box-functions.json",
+      "bytes": 18389,
+      "sha256": "c97dfd9f8b36ba5f9648ccb4dc6b7ebff0ac841d4ff88f03d14ab625dfe7b796"
+    },
+    {
+      "file": "spinning-box-renderer-template.html",
+      "bytes": 13182,
+      "sha256": "549839e15ce9b5d26e34ce943036e48ac35bb40beb1a8dffadafbff320717d94"
+    },
+    {
+      "file": "spinning-box-replay.json",
+      "bytes": 5545,
+      "sha256": "03341dcd9302f8ab1cc355bbca8ddd7534b64a11bff3b25954391fc4b77914c6"
+    },
+    {
+      "file": "spinning-box-replay.mjs",
+      "bytes": 3610,
+      "sha256": "1bad1be389195d8f1ffc8fc26888521dde8c74382ac3da4d3af01732df921438"
+    },
+    {
+      "file": "spinning-box-strings.json",
+      "bytes": 96300,
+      "sha256": "9b5bff4bc9c0bf6df53977f90ae15a519fe907237b2a430c8948053ddf6b4052"
+    },
+    {
+      "file": "spinning-box.md",
+      "bytes": 10828,
+      "sha256": "eb102d393b63289c4399c0452b5c92639140a440c21b23c843b26806b0b5b2f1"
+    },
+    {
+      "file": "text-ball-360-extract.py",
+      "bytes": 3220,
+      "sha256": "e406915758ff6f1c8eea226d1d7f339bcc772b4eb3ffca482b659cb1b9489347"
+    },
+    {
+      "file": "text-ball-360-fragment-offsets.json",
+      "bytes": 1783,
+      "sha256": "4e11ed5e78ac74354b2b0949819eb9f4c40f9217a9b75ddc94bfe8d0bdf94031"
+    },
+    {
+      "file": "text-ball-360-functions.hasm",
+      "bytes": 457715,
+      "sha256": "bfd5b217dd85feea2f20924d86c764e2d2899b947de97c4e52caf6acfbd57a3a"
+    },
+    {
+      "file": "text-ball-360-functions.json",
+      "bytes": 42671,
+      "sha256": "37ff2c296c196888108fb5b9aafaf5a0ad7e63a19973fbfda4478b6d2082b8d5"
+    },
+    {
+      "file": "text-ball-360-replay.cjs",
+      "bytes": 3749,
+      "sha256": "bb6fbb88a027e84bfff19b2f371dd8b5c2318f2b2a8674d57eb9c816f3e97d9a"
+    },
+    {
+      "file": "text-ball-360-replay.json",
+      "bytes": 5085,
+      "sha256": "d3b7098ea8f21df9517088d2726454b43c61e7c80155084294ba4905b8876242"
+    },
+    {
+      "file": "text-ball-360-sphere-fragments.json",
+      "bytes": 24880,
+      "sha256": "967ae29e17e6d2cdc523f4f8ee3c9b842101c066fe3afd815f07c8f4e157507a"
+    },
+    {
+      "file": "text-ball-360-sphere-html.template.html",
+      "bytes": 3719,
+      "sha256": "e005bb39f2a935fe5720ff8c0f82d019bdffa38a306b6b996517761d0c486681"
+    },
+    {
+      "file": "text-ball-360-sphere-script.template.js",
+      "bytes": 20330,
+      "sha256": "d22f36e4257fe201eb3a72a631b3a3ddf35a0b789764d7509ab89bfb0ab0de44"
+    },
+    {
+      "file": "text-ball-360.md",
+      "bytes": 12209,
+      "sha256": "d428e242ad4367ab5ce8e09547b4410a7f916f2fdd2e1835d079ea82735abd13"
+    }
+  ],
+  "supporting_tools": [
+    {
+      "file": "tools/select_android_feature_common.py",
+      "sha256": "23355f66cabccd4512589579513942ff633e75ac182d6ba76f78174ee3270c2c"
+    },
+    {
+      "file": "tools/replay_android_renderers.py",
+      "sha256": "c87a21e3b269034cece40152d3bbd1a8d0c6963104f1493da8e10d0541403a26"
+    },
+    {
+      "file": "tools/verify_android_feature_evidence.py",
+      "sha256": "9f8d5d7bcc694f609cef99741bdaad70d30e263059e08296711dd5fae91ac101"
+    }
+  ],
+  "remaining_unknowns": [
+    "Installed phone version and Android UI/render equivalence",
+    "Android native capture, FFmpeg and media save execution",
+    "Native BIN encoder packing and hardware-specific 360 mapping",
+    "Playback/upload of generated designs on the physical display",
+    "Actual device file-list notifications and cause of missing tractor entry"
+  ]
+}

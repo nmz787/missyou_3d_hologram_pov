@@ -1,0 +1,20 @@
+{
+  "protocol": "legacy",
+  "operation": "format",
+  "sent": true,
+  "acknowledged": false,
+  "status": {
+    "protocol": "legacy",
+    "files": [],
+    "complete": true,
+    "issues": [],
+    "current_index": 1,
+    "current": null,
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "01H711"
+  },
+  "directory_empty_observed": true
+}

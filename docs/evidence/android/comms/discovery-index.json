@@ -1,0 +1,507 @@
+{
+  "scope": "Static Android/Hermes discovery and initial connection; no app or network execution",
+  "apk": {
+    "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+    "sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9"
+  },
+  "bundle": {
+    "path": "/home/nathan/git/5d_pov/analysis/android/index.android.bundle",
+    "sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2"
+  },
+  "full_disassembly": {
+    "path": "/home/nathan/git/5d_pov/analysis/android/bundle.hasm",
+    "sha256": "1cf69bd8f5d999df3bfd2dd8522f96a6a403454e724e40992089c71754854f34"
+  },
+  "retained_disassembly": {
+    "file": "discovery-bytecode.hasm",
+    "sha256": "8e767f02b2f5ce73d21fc27c06e6a6da82296d4c9cc632e4c08cc19a4f98b185"
+  },
+  "hermes_functions": [
+    {
+      "function_id": 5334,
+      "name": "",
+      "bundle_file_offset": "0x23377a",
+      "code_length": 1274,
+      "original_code_sha256": "c6c38273acb65aaaff56ff38ad812dee2428a0c255079f7f31c55c4a080512b9",
+      "disassembly_sha256": "974f941bc6eb887279c5beb06957565d01a12e98c632d1334be9a7200c64d863"
+    },
+    {
+      "function_id": 7516,
+      "name": "GET",
+      "bundle_file_offset": "0x274742",
+      "code_length": 42,
+      "original_code_sha256": "36ad0398d369bfd38b31f90d4f4ba9ae422d23f0768bc76457eddf4007fb5e2e",
+      "disassembly_sha256": "b7f3d1746d9d32ddca6eb4d41c8550b283ef1bd391c3eaeb2d760a25a8ea0660"
+    },
+    {
+      "function_id": 7517,
+      "name": "",
+      "bundle_file_offset": "0x27476c",
+      "code_length": 71,
+      "original_code_sha256": "04f6ee6cf03f835d81f7f1ccea4d8707b86b7428370cf35aac0de65c25ae15af",
+      "disassembly_sha256": "c947bca33ef1f060aad21e3b5cb99ce73a19eaf38110ce9552e66eea5f67741e"
+    },
+    {
+      "function_id": 7530,
+      "name": "fetchWithTimeout",
+      "bundle_file_offset": "0x274cfc",
+      "code_length": 391,
+      "original_code_sha256": "fa9db6788f76db1651b0a49487587e5c0fd0b77a067ce63496d2a73f851b2120",
+      "disassembly_sha256": "9c5a7853f69c642c8612c67d7544426781bbac56ef523a7d54a6ba2b406cb672"
+    },
+    {
+      "function_id": 7531,
+      "name": "",
+      "bundle_file_offset": "0x274e83",
+      "code_length": 19,
+      "original_code_sha256": "2d93316692c16ccc7a11dff74b8f5a04f66a4825550d71235ce967d98fa4319e",
+      "disassembly_sha256": "c75a4e62a8165eed09a3a15741d9bebe726279d070b71163db9591ebc45d7ff2"
+    },
+    {
+      "function_id": 7532,
+      "name": "",
+      "bundle_file_offset": "0x274e96",
+      "code_length": 117,
+      "original_code_sha256": "cda99e7d4ddc97e5b31bf7d1e9c5b0cc1ae65eb097f37571867ba695f2acdebb",
+      "disassembly_sha256": "5f86e96333273d5d952ff86117acd19e11aa841e31b509e0ef54536ccaa7e787"
+    },
+    {
+      "function_id": 7534,
+      "name": "",
+      "bundle_file_offset": "0x274f6d",
+      "code_length": 101,
+      "original_code_sha256": "c53bcc4cec922ecb24f1c25501d9a543af8bb531620288624f1ca3c5409e3519",
+      "disassembly_sha256": "c971504cc619487bc34816a2188a3e85b511ce62e76221be5d262a9fc5052295"
+    },
+    {
+      "function_id": 9050,
+      "name": "",
+      "bundle_file_offset": "0x29abf1",
+      "code_length": 303,
+      "original_code_sha256": "7d50d17fb5505eefe9897c1931ef72f6379770b557ad094cae6817cc6a70e0aa",
+      "disassembly_sha256": "450ea4af24f85c3a1326f2ae96defa1573f6a8104e2150617cfb6d8cc8124eb3"
+    },
+    {
+      "function_id": 9051,
+      "name": "",
+      "bundle_file_offset": "0x29ad20",
+      "code_length": 1030,
+      "original_code_sha256": "d21de240be81cb3b982d32466ff2a724d88928430ee08cf5bee4414f5104a000",
+      "disassembly_sha256": "bc8611d9b0a8ab6c34b25d30f5efbfdc6564060676128f4094191ce5867eb86f"
+    },
+    {
+      "function_id": 9052,
+      "name": "ConnectionManager",
+      "bundle_file_offset": "0x29b126",
+      "code_length": 201,
+      "original_code_sha256": "d4f9ca686f501462e8dd2eb480add3447c4730a9943aa846cc4707b9f81b78e4",
+      "disassembly_sha256": "69f5da692bc31a74d13a3881fb9fc20e6111c213b81223a094226313d8617c09"
+    },
+    {
+      "function_id": 9054,
+      "name": "startWebsocket",
+      "bundle_file_offset": "0x29b264",
+      "code_length": 320,
+      "original_code_sha256": "6764ae4434a7bb23ff8ec967f92aac92b7beb763228035738dab24a910a417c8",
+      "disassembly_sha256": "222d1b4869851f01aa6d39d2f6a108c4f5cbc22eebb19f10b710a17af41586fc"
+    },
+    {
+      "function_id": 9063,
+      "name": "requestInfo",
+      "bundle_file_offset": "0x29b7df",
+      "code_length": 93,
+      "original_code_sha256": "dbbcf0c16460889105e8fbd742ece695297ad5c13d00e9e7b458883c33c93b30",
+      "disassembly_sha256": "922eb360a1b432629e3ae5cbf5b6b57b344936ab61ac135608bd0bc749201681"
+    },
+    {
+      "function_id": 9064,
+      "name": "",
+      "bundle_file_offset": "0x29b83c",
+      "code_length": 287,
+      "original_code_sha256": "60606d5dcd29aba72e51a1b37304695b29d786b817088fc46e6b2175803001eb",
+      "disassembly_sha256": "d5f5e85f9599780078b528489ff401fd3f8bb87d6bff3f38e3407618a8be682f"
+    },
+    {
+      "function_id": 9065,
+      "name": "requestSession",
+      "bundle_file_offset": "0x29b95b",
+      "code_length": 93,
+      "original_code_sha256": "90b4e7d1432ca35e3ef38b1a4eb0a6effc25dfada80e2ee485269a3ccbccf054",
+      "disassembly_sha256": "3aab9c064eaadc213679c49c042318dbb149731c055807d3a2f50f651572c555"
+    },
+    {
+      "function_id": 9066,
+      "name": "",
+      "bundle_file_offset": "0x29b9b8",
+      "code_length": 237,
+      "original_code_sha256": "a925515052d1c595e0eaad6831614abc78556cbbb788c361be0386dc9b7dea34",
+      "disassembly_sha256": "6364c5f0315b089e003156f1d4ccdc3b251146f17fe2592092cbd05266ae6f2a"
+    },
+    {
+      "function_id": 9067,
+      "name": "",
+      "bundle_file_offset": "0x29baa5",
+      "code_length": 38,
+      "original_code_sha256": "7efdc4f9ec778bbf18baaa88b40b2fc0a84c8eb89d639f784a7cac268b68d8b8",
+      "disassembly_sha256": "965c3ac4e4dcca4cd84202ad8c44838b1a78e0ddcc51fe4df53bc86f05e87323"
+    },
+    {
+      "function_id": 9072,
+      "name": "checkConnect",
+      "bundle_file_offset": "0x29bc5c",
+      "code_length": 452,
+      "original_code_sha256": "9c4506718445046b576d4bfca66d0e826a973606e234527ee3c5d624a1ddc1c8",
+      "disassembly_sha256": "30fd8c813fcebf3fe75553029a077c47fefbd0e3f390899a1c4d322e47a5ac78"
+    },
+    {
+      "function_id": 9079,
+      "name": "setHost",
+      "bundle_file_offset": "0x29bf5b",
+      "code_length": 59,
+      "original_code_sha256": "19583cd4d022e3fbeb288ca58563060f283636b8f79a780a4ac2eb12272b9e3f",
+      "disassembly_sha256": "5c22a5b2dc24122813a30fc9f7199ff1cfb957ae2609762c7e06f266a5854523"
+    },
+    {
+      "function_id": 9081,
+      "name": "getHttpPort",
+      "bundle_file_offset": "0x29bfa0",
+      "code_length": 33,
+      "original_code_sha256": "0464c59883ded015e33968017896fb30e6c0eabb37f67d88ca06978b3f647055",
+      "disassembly_sha256": "dea18f7878b203f146eaa5d8989e2d77a5745f768be2b1b52d2b555fb6848255"
+    },
+    {
+      "function_id": 9082,
+      "name": "init",
+      "bundle_file_offset": "0x29bfc1",
+      "code_length": 126,
+      "original_code_sha256": "76ce62ec1b4451deb91ca2c89c34a9bb407b2afb2effdcb15adba37b330fb736",
+      "disassembly_sha256": "c682cda69a566b42f3671e6395d00fba3e80f31cb6d88553c3890359af9a275f"
+    },
+    {
+      "function_id": 9087,
+      "name": "startTimer",
+      "bundle_file_offset": "0x29c178",
+      "code_length": 53,
+      "original_code_sha256": "28bcac20f2cb42004ef6be73528b9645a1c1f7a2a6b4011a3a95be41a215a584",
+      "disassembly_sha256": "85cda63c1b7d544dfb0e516da28ddecdd964fe016c6b48990c22c3b8977fc463"
+    },
+    {
+      "function_id": 9088,
+      "name": "",
+      "bundle_file_offset": "0x29c1ad",
+      "code_length": 21,
+      "original_code_sha256": "106cd2456ca3ab0d6e8fd62e5f1c2840b6f23ba2f16fba8d0a44f9267cfbc55b",
+      "disassembly_sha256": "39223381ed2c72731da86c2459e825b11405f252c30e217e098f66b3cc6f7e89"
+    },
+    {
+      "function_id": 9141,
+      "name": "getIsOldDevice",
+      "bundle_file_offset": "0x29da18",
+      "code_length": 47,
+      "original_code_sha256": "2502505e87aa0f023d3fb19f48b9a847bac569bdc173020965c9261f091e9e93",
+      "disassembly_sha256": "c07c29db5c5ef5d0b8ace374c2086b79bdd99f6255efda6bf1eb418e00b93580"
+    },
+    {
+      "function_id": 9142,
+      "name": "getModel",
+      "bundle_file_offset": "0x29da47",
+      "code_length": 125,
+      "original_code_sha256": "48913e76dd514ee6f7de40802534c87c7a4ee072dfa638740406d82af570f1ef",
+      "disassembly_sha256": "eb240d95f6bd5af43d0f9f62a6e706eecc269cee644c02840aeecfe505c0303b"
+    },
+    {
+      "function_id": 9264,
+      "name": "",
+      "bundle_file_offset": "0x2a0cc1",
+      "code_length": 323,
+      "original_code_sha256": "61808e9515c9b21c74e52ff1d3d4c7ecb1c34910f274df6ee94b383d95a44f23",
+      "disassembly_sha256": "af69e2f7730eb72042b763683f88a4f374e74263d924c76b968f74e078201a2c"
+    },
+    {
+      "function_id": 9266,
+      "name": "TCPClient",
+      "bundle_file_offset": "0x2a1226",
+      "code_length": 207,
+      "original_code_sha256": "6f04b2cd47c156e4bee9994bd217a20dc864cd0293bc7a9ed355fd1c12d44d7d",
+      "disassembly_sha256": "d7a175f5e81f342047e30639e0b86dc73ab81e20ff8970c661fb59f55eea66e5"
+    },
+    {
+      "function_id": 9267,
+      "name": "start",
+      "bundle_file_offset": "0x2a12f5",
+      "code_length": 71,
+      "original_code_sha256": "46c02fcec54db112c24268be81d9379ac7d488e3d446d85379e88361f709a66b",
+      "disassembly_sha256": "40e39a6e73a47f89b260e5127849b04d19474bf33367820a2007b3459b211b32"
+    },
+    {
+      "function_id": 9274,
+      "name": "_connectAction",
+      "bundle_file_offset": "0x2a14f6",
+      "code_length": 236,
+      "original_code_sha256": "ce731eb24a560ac7259a7667ffc7734d2063fec70a573d95810946347699b668",
+      "disassembly_sha256": "3929d5ae8536d4027265d7e3465efa1c710a2d3c5b5676ea6cc413955dcc070a"
+    },
+    {
+      "function_id": 12253,
+      "name": "DevicePage",
+      "bundle_file_offset": "0x2ea99d",
+      "code_length": 3409,
+      "original_code_sha256": "bf3a4ccc81dd91dd8c136cff27717b052dde6d66f08d810ab32d3a843f18b2ca",
+      "disassembly_sha256": "71bb5541df9b550b7bbaf40be09f420cef9cc4ce1270b0e51677a14bd7afce0e"
+    },
+    {
+      "function_id": 12261,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2eb850",
+      "code_length": 118,
+      "original_code_sha256": "0e0b71c65d57cf552efdc36cf87898699a94166b167c6568e15e228ce4f00699",
+      "disassembly_sha256": "2349c0667249b8c4a1de78be985bc970ac491f4e2a54a9e4567c4fe67d7c1345"
+    },
+    {
+      "function_id": 12262,
+      "name": "",
+      "bundle_file_offset": "0x2eb8c6",
+      "code_length": 386,
+      "original_code_sha256": "204c3bc8ef17036e934ff13809f8e28d6556bd10b9e190fca3dfa539f341317b",
+      "disassembly_sha256": "2653a2b225b540ff7bfde701550aff98b8490d16e638cc8a56e1f41a76c76902"
+    },
+    {
+      "function_id": 12264,
+      "name": "",
+      "bundle_file_offset": "0x2eba5a",
+      "code_length": 97,
+      "original_code_sha256": "c3f43303db14145c2eb7868644c13900d286fc2c6f14c8ca2d84a21405657375",
+      "disassembly_sha256": "e221315395829a1d9e5a89144d6fdee0173b494cd10d09d1a97c04682d8381ab"
+    },
+    {
+      "function_id": 12328,
+      "name": "",
+      "bundle_file_offset": "0x2ed601",
+      "code_length": 134,
+      "original_code_sha256": "00cfd84050d1789426a980265f4e3d4adc0ce253363bcc42a53f2f126645cad1",
+      "disassembly_sha256": "1266534fd1b0e6b637ffc59afa3114d09d3636de272f1894b7edb3fb01042b8b"
+    },
+    {
+      "function_id": 12329,
+      "name": "",
+      "bundle_file_offset": "0x2ed687",
+      "code_length": 76,
+      "original_code_sha256": "8641479ad18b8844539730ae05f3222fecabaf633106dd16a681484a925f429e",
+      "disassembly_sha256": "532f312cc1d3685c0cdad9574ea92383f158440e80373dac41367190520b9caf"
+    },
+    {
+      "function_id": 12353,
+      "name": "",
+      "bundle_file_offset": "0x2edf4b",
+      "code_length": 106,
+      "original_code_sha256": "e68b66d492ed0d39d74ef2f0858f9d8cee908413d8efa82b6bb494da0887bed4",
+      "disassembly_sha256": "6f214ccc661791fe01e892d1154d24519419867a1da32dedb76bcce7739016e8"
+    },
+    {
+      "function_id": 12354,
+      "name": "",
+      "bundle_file_offset": "0x2edfb5",
+      "code_length": 18,
+      "original_code_sha256": "98fcfc9518e1e4aae9d17a8c31f94ac7c2b9f81be9f08b7490a26594c36aba9d",
+      "disassembly_sha256": "543ee9db86240953006980e634d4b3c9c634407ba96d7df2a309d2a1ff9dfd23"
+    },
+    {
+      "function_id": 12407,
+      "name": "",
+      "bundle_file_offset": "0x2f0000",
+      "code_length": 254,
+      "original_code_sha256": "5c72dd4c56d01fa71f165479724958dc946ff1247f0e96babd89572f9147867b",
+      "disassembly_sha256": "83b0e8f65a37b8ea66f9996d52be4c7b14559d7334bbe7bb0dc5b39ca598403c"
+    },
+    {
+      "function_id": 12408,
+      "name": "guessSubnet",
+      "bundle_file_offset": "0x2f00fe",
+      "code_length": 49,
+      "original_code_sha256": "ec142dcadb41e2d50b703878af85dd4e2f1215e80348468591748ec6ffe4d171",
+      "disassembly_sha256": "e2254aaa40471d14aa790de66749ec4fa58e76d3ac8731ea1f3a4d8514190040"
+    },
+    {
+      "function_id": 12412,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f016c",
+      "code_length": 186,
+      "original_code_sha256": "91a91d9506d54fcaedc3d61b019349c06f40ed74a546673c2de2e45b52fa1219",
+      "disassembly_sha256": "9ef0e8d4dd3572b426e7fd6b411e4686a5bea5740fbdb59385d6a682f51821c2"
+    },
+    {
+      "function_id": 12416,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f0280",
+      "code_length": 246,
+      "original_code_sha256": "b5346427313660f05cebcd12f0ecef1ef7ceb199b458693064fa04df933f69bd",
+      "disassembly_sha256": "75a69d81db903ff77a183caa5a55337beed35398e40c5ff793f9834b076e3d10"
+    },
+    {
+      "function_id": 12420,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f03b3",
+      "code_length": 215,
+      "original_code_sha256": "b3e20aebb7bfd6be928ab7461ff31a5ba10e82dab39d8bd89ca92f6f278eece3",
+      "disassembly_sha256": "4fa9ddb87de24bd2b0d1ede1c2708bf2de70e48ba190c76d55dddbf659b98bce"
+    },
+    {
+      "function_id": 12427,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f0548",
+      "code_length": 383,
+      "original_code_sha256": "ecbb172b7f1ede402e8eb5199b8b4dc8d38b4d05df94a25a0e850f9ca988d814",
+      "disassembly_sha256": "ca383c7c0e43d74aef47f75150283cc8e947598946b14ac9933e47cdabe84270"
+    },
+    {
+      "function_id": 12428,
+      "name": "",
+      "bundle_file_offset": "0x2f06c7",
+      "code_length": 30,
+      "original_code_sha256": "dbe1023ec5c0261e7e22d07cb1391722307e5d493f70748a733b2a79e6f49851",
+      "disassembly_sha256": "cd4e4a656d2082b427ea9e67d95eddadbed8c233eca3009ca0a3a3eb000196c9"
+    },
+    {
+      "function_id": 12433,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f073f",
+      "code_length": 1007,
+      "original_code_sha256": "78d6d0e1d32f3eaf044195630b6a2543a543708ef8ef5e725871e7c899ed71b3",
+      "disassembly_sha256": "03e356a82f6288984db0a3d35bef1cb6835e762575a750e4775f9d7c43dc0a7d"
+    },
+    {
+      "function_id": 12434,
+      "name": "",
+      "bundle_file_offset": "0x2f0b2e",
+      "code_length": 52,
+      "original_code_sha256": "7e57af7d40dd059779aa7fe3d70345d250e567c2ba426708572087e663c32e6c",
+      "disassembly_sha256": "8bd664b13400c5467ce0a4c3973cea7742aea20502055a7ffe08c4b88969dcde"
+    },
+    {
+      "function_id": 12435,
+      "name": "",
+      "bundle_file_offset": "0x2f0b62",
+      "code_length": 31,
+      "original_code_sha256": "4fbbf3e98d97228fccb4f350470a78f01dccc73e263dca99497cce2e654aba95",
+      "disassembly_sha256": "1161b1e862cb728a4795dc906101188cb4251f9a6ecfef3f2585763ad114cea7"
+    },
+    {
+      "function_id": 12436,
+      "name": "",
+      "bundle_file_offset": "0x1bf754",
+      "code_length": 4,
+      "original_code_sha256": "d407b9019b1b1ceb40a4b7be55c34c78ab00b34981dd528b3d5d5e3e40a3b92d",
+      "disassembly_sha256": "fe8d2e053e7e4429d0fc6c9bf7249674ae21bc8e73124ffdf435f66186b1ea02"
+    },
+    {
+      "function_id": 12437,
+      "name": "",
+      "bundle_file_offset": "0x1bf754",
+      "code_length": 4,
+      "original_code_sha256": "d407b9019b1b1ceb40a4b7be55c34c78ab00b34981dd528b3d5d5e3e40a3b92d",
+      "disassembly_sha256": "b89127524f25a4fee2e3744cb34d72693ad2dd1c3cd68a4ade1a4f0e6e631e51"
+    },
+    {
+      "function_id": 12444,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f0c36",
+      "code_length": 82,
+      "original_code_sha256": "3aed376dc70565df7e8ca5572dcaace7cb49c62c133628544f0a4f1483df7ea1",
+      "disassembly_sha256": "e47d7218d5b56575ce912f8f9a332d9ba66f0a7a41a73f8cee7249ea53f1f219"
+    },
+    {
+      "function_id": 12447,
+      "name": "",
+      "bundle_file_offset": "0x2f0cc0",
+      "code_length": 32,
+      "original_code_sha256": "527151e5c9894dce9dfb843c8553b0dbf21a668cb3c0bce93235969d9c00550d",
+      "disassembly_sha256": "c3ae88ed7b13899cd85ee75323b2d7f187ff7254f0233c40e5ecc4f375d300df"
+    },
+    {
+      "function_id": 12448,
+      "name": "",
+      "bundle_file_offset": "0x2f0ce0",
+      "code_length": 206,
+      "original_code_sha256": "01b3f83a61717176cc656efcdc9bb0f4a8e11dcdafa72a1a4f358b19a63ea74d",
+      "disassembly_sha256": "5a472025e88840f1ed2916165d0a117201cd911d908e1c8204b578f9d1510bcb"
+    },
+    {
+      "function_id": 12468,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2f0f40",
+      "code_length": 84,
+      "original_code_sha256": "7f477d737cac24c6cdcc708d330a7076f603cbb64d2ddaff4d226d91ee00b915",
+      "disassembly_sha256": "1d1586a715aa62da69b8b3c24ab69e06eed8bdbbb3a4d41d90c95b75fe76fe8b"
+    }
+  ],
+  "native_evidence": [
+    {
+      "file": "discovery-native-excluded-range.json",
+      "file_sha256": "7da97f1e4ff77948525de1927b04a3e8c6604d73282d60a3087d06ef3bbe9673",
+      "evidence_id": "ev_c51aaa77103f4d2ec71444935235fa2b3c821b77146527bed8fae5533b6e5509",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.pusherman.networkinfo.RNNetworkInfo",
+        "method_name": "inDSLITERange"
+      },
+      "source_sha256": "90c1c8c0b39ca94343e98bcf84587cdf19aadc68f510afd0f8a089ab1681980f",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-interfaces.json",
+      "file_sha256": "5b041be51c647d9250e199439a5f164494ce1dcb3ca08c124bb74b352992816a",
+      "evidence_id": "ev_f3e3b9489dbd85e5243a0818d50443b7b3ace9ca0419861dbf27b995411a59da",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.pusherman.networkinfo.RNNetworkInfo",
+        "method_name": "getInetAddresses"
+      },
+      "source_sha256": "815b82bfda61d2478f1ba70eb6c4510139891f298ae22f83b5a53a643a4422ba",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-ipv4.json",
+      "file_sha256": "be9e604a30d828fd8d89fc5c32cdab6b23624da91b90a2262939012e945fbb43",
+      "evidence_id": "ev_b5f742aad770e273496dd6510565307faaa67443f135362844ec8d8fcb176b48",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.pusherman.networkinfo.RNNetworkInfo",
+        "method_name": "getIPV4Address"
+      },
+      "source_sha256": "3f4c54ad4caa7dd7a4b723acec1b172d8b0e6cdf45a34f5ccece0f2c150becea",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-wifi-ipv4.json",
+      "file_sha256": "cde63e91fb09e76aa45064e2282a425b6361a06e80b8027102dedfac870e8532",
+      "evidence_id": "ev_d65bbcc01fb968a41ad2908d081314edc59015ed38679c4d1980cda464d31c7a",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.pusherman.networkinfo.RNNetworkInfo",
+        "method_name": "getWIFIIPV4Address"
+      },
+      "source_sha256": "e7b586365377564049f52ab3b9432161cd55f9009e5c347f692b896eaa909703",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    }
+  ]
+}

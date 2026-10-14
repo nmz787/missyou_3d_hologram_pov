@@ -1,0 +1,186 @@
+[
+  {
+    "seconds": 0,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 3,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 6,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 9,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 12,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 15,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 18,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  },
+  {
+    "seconds": 21,
+    "status": {
+      "protocol": "legacy",
+      "files": [
+        {
+          "index": 1,
+          "name": "90USB.bin",
+          "displayName": "90USB"
+        }
+      ],
+      "complete": true,
+      "issues": [],
+      "current_index": 1,
+      "current": "90USB.bin",
+      "model": "F-MINI11",
+      "model_flag": "H7",
+      "model_recognized": true,
+      "is_playing": true,
+      "raw_tail": "01H711",
+      "raw_frame_hex": "6333306333386163683134303130312e39305553422e62696e3031483731316134613863326533"
+    }
+  }
+]

@@ -1,0 +1,1391 @@
+{
+  "evidence_kind": "offline exact shipped Hermes96 bytecode/string-table data",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "decompiler": "hermes-dec 0.1.6; reused existing bundle.hasm and bundle.pseudo.js",
+  "constant_function": 5334,
+  "modules": {
+    "constants": 490,
+    "HTTP_API": 729,
+    "Utils": 747,
+    "ConnectionManager": 784
+  },
+  "functions": [
+    {
+      "function_id": 5334,
+      "name": "",
+      "offset": "0x23377a",
+      "bytecode_bytes": 1274,
+      "raw_bytecode_sha256": "c6c38273acb65aaaff56ff38ad812dee2428a0c255079f7f31c55c4a080512b9",
+      "source_hasm_line": 214103
+    },
+    {
+      "function_id": 7505,
+      "name": "",
+      "offset": "0x274394",
+      "bytecode_bytes": 208,
+      "raw_bytecode_sha256": "db7988238a6b4b42bfbb23d053787ba1a8e902caed4841dbb0fb115500cfb07d",
+      "source_hasm_line": 302557
+    },
+    {
+      "function_id": 7506,
+      "name": "",
+      "offset": "0x274464",
+      "bytecode_bytes": 228,
+      "raw_bytecode_sha256": "27290180b387bac70d4f4072757c3e9ef4b80c38d769a77892641dbb08536deb",
+      "source_hasm_line": 302616
+    },
+    {
+      "function_id": 7507,
+      "name": "API",
+      "offset": "0x1c35a6",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "4864d0ef43ff072e95a7cd19e381fef0e0951f55f213712a35cd26047190d109",
+      "source_hasm_line": 302684
+    },
+    {
+      "function_id": 7508,
+      "name": "",
+      "offset": "0x274548",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "536cc2315b0f2829575cd55bdcbbade6b494e686bec04ac46eb07e296e5c922a",
+      "source_hasm_line": 302701
+    },
+    {
+      "function_id": 7509,
+      "name": "processQueue",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 302719
+    },
+    {
+      "function_id": 7510,
+      "name": "",
+      "offset": "0x27456d",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "bfd0071efec3c5c9e75924f9548951c25f2333f983cfbd6cae2ac58046754c8a",
+      "source_hasm_line": 302736
+    },
+    {
+      "function_id": 7511,
+      "name": "?anon_0_",
+      "offset": "0x274576",
+      "bytecode_bytes": 146,
+      "raw_bytecode_sha256": "47cf25354db692ef4e93f4fcee9721964830b35e0df88622a7448d9ad37cb67e",
+      "source_hasm_line": 302747
+    },
+    {
+      "function_id": 7512,
+      "name": "enqueueRequest",
+      "offset": "0x274608",
+      "bytecode_bytes": 50,
+      "raw_bytecode_sha256": "b4e4163d973e39552def61a7ea052ff45112ec11fc466d4c527fafb9bc770624",
+      "source_hasm_line": 302799
+    },
+    {
+      "function_id": 7513,
+      "name": "",
+      "offset": "0x27463a",
+      "bytecode_bytes": 64,
+      "raw_bytecode_sha256": "09ec02b2f005db20b5ccd25e2407d9e3ed9a414fd3f3a3180b825204a4818bc8",
+      "source_hasm_line": 302821
+    },
+    {
+      "function_id": 7514,
+      "name": "fmtNowDateTime",
+      "offset": "0x27467a",
+      "bytecode_bytes": 177,
+      "raw_bytecode_sha256": "3a42592aa3b105a5f631055abac6feb190a4c0527f0cbc0e51cb7952177603c2",
+      "source_hasm_line": 302845
+    },
+    {
+      "function_id": 7515,
+      "name": "padZero",
+      "offset": "0x27472b",
+      "bytecode_bytes": 23,
+      "raw_bytecode_sha256": "354975970122e165cf94d362bc9b997bb02e0dac5e5cbe9f0e47ed46957ed063",
+      "source_hasm_line": 302895
+    },
+    {
+      "function_id": 7516,
+      "name": "GET",
+      "offset": "0x274742",
+      "bytecode_bytes": 42,
+      "raw_bytecode_sha256": "36ad0398d369bfd38b31f90d4f4ba9ae422d23f0768bc76457eddf4007fb5e2e",
+      "source_hasm_line": 302910
+    },
+    {
+      "function_id": 7517,
+      "name": "",
+      "offset": "0x27476c",
+      "bytecode_bytes": 71,
+      "raw_bytecode_sha256": "04f6ee6cf03f835d81f7f1ccea4d8707b86b7428370cf35aac0de65c25ae15af",
+      "source_hasm_line": 302930
+    },
+    {
+      "function_id": 7518,
+      "name": "",
+      "offset": "0x2747b3",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "5aaf088548ae3d8acb6a1364a6f7fff06303960f2a42f2f887cf02c69b0e420a",
+      "source_hasm_line": 302954
+    },
+    {
+      "function_id": 7519,
+      "name": "",
+      "offset": "0x2747d2",
+      "bytecode_bytes": 65,
+      "raw_bytecode_sha256": "f374cc29302e812f252fa19c631c5440973bfd4a02d063d30ff456a76aaa4045",
+      "source_hasm_line": 302972
+    },
+    {
+      "function_id": 7520,
+      "name": "POST",
+      "offset": "0x274813",
+      "bytecode_bytes": 90,
+      "raw_bytecode_sha256": "7e48228225bbbb263d646869784b8b8175dff7c53b72bb543d6bcc7595becec2",
+      "source_hasm_line": 302998
+    },
+    {
+      "function_id": 7521,
+      "name": "",
+      "offset": "0x27486d",
+      "bytecode_bytes": 82,
+      "raw_bytecode_sha256": "d05f8ad4728d4f38459d11485ceffcce25b0d8aa573360138845ede17f1af8d6",
+      "source_hasm_line": 303033
+    },
+    {
+      "function_id": 7522,
+      "name": "",
+      "offset": "0x2748bf",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "d3264520a00de4f4f22b002411fba30f6423f89ea484e432098325368e7059da",
+      "source_hasm_line": 303057
+    },
+    {
+      "function_id": 7523,
+      "name": "",
+      "offset": "0x2748e8",
+      "bytecode_bytes": 65,
+      "raw_bytecode_sha256": "f8fb2eb8015b890536555f137cc6185b527549111132e6f73ed4d68153e1dcd5",
+      "source_hasm_line": 303077
+    },
+    {
+      "function_id": 7524,
+      "name": "setHttpInfo",
+      "offset": "0x274929",
+      "bytecode_bytes": 24,
+      "raw_bytecode_sha256": "f3f5a48c0e60060e9fe95a536d02d363d4443dbb1ed946c095085385d7ed6100",
+      "source_hasm_line": 303103
+    },
+    {
+      "function_id": 7525,
+      "name": "POST_UPLOAD_FILE",
+      "offset": "0x274941",
+      "bytecode_bytes": 353,
+      "raw_bytecode_sha256": "3fa38f38b3392fe1b4219afc0c42bc9758377b03102788bf9009531bb38ca5da",
+      "source_hasm_line": 303118
+    },
+    {
+      "function_id": 7526,
+      "name": "",
+      "offset": "0x274aa2",
+      "bytecode_bytes": 78,
+      "raw_bytecode_sha256": "7b85987109fbe5e935966ffadfb69f2ce269720b1e6cfd8241953a81424cebf6",
+      "source_hasm_line": 303205
+    },
+    {
+      "function_id": 7527,
+      "name": "",
+      "offset": "0x274af0",
+      "bytecode_bytes": 267,
+      "raw_bytecode_sha256": "1c2f4f48a117efc391257185c31f07fb14ef9500438bed6c1132430313b408a7",
+      "source_hasm_line": 303233
+    },
+    {
+      "function_id": 7528,
+      "name": "",
+      "offset": "0x274bfb",
+      "bytecode_bytes": 134,
+      "raw_bytecode_sha256": "ff63013ed1017d12ce5d3b1f2eded1b5876979d9943c7d80601af8ea140ab06d",
+      "source_hasm_line": 303307
+    },
+    {
+      "function_id": 7529,
+      "name": "",
+      "offset": "0x274c81",
+      "bytecode_bytes": 123,
+      "raw_bytecode_sha256": "4293b742c15fd512546e6780cb50e0e5c3a406b192be1f9776a02efd729570a7",
+      "source_hasm_line": 303348
+    },
+    {
+      "function_id": 7530,
+      "name": "fetchWithTimeout",
+      "offset": "0x274cfc",
+      "bytecode_bytes": 391,
+      "raw_bytecode_sha256": "fa9db6788f76db1651b0a49487587e5c0fd0b77a067ce63496d2a73f851b2120",
+      "source_hasm_line": 303387
+    },
+    {
+      "function_id": 7531,
+      "name": "",
+      "offset": "0x274e83",
+      "bytecode_bytes": 19,
+      "raw_bytecode_sha256": "2d93316692c16ccc7a11dff74b8f5a04f66a4825550d71235ce967d98fa4319e",
+      "source_hasm_line": 303490
+    },
+    {
+      "function_id": 7532,
+      "name": "",
+      "offset": "0x274e96",
+      "bytecode_bytes": 117,
+      "raw_bytecode_sha256": "cda99e7d4ddc97e5b31bf7d1e9c5b0cc1ae65eb097f37571867ba695f2acdebb",
+      "source_hasm_line": 303503
+    },
+    {
+      "function_id": 7533,
+      "name": "",
+      "offset": "0x274f0b",
+      "bytecode_bytes": 98,
+      "raw_bytecode_sha256": "77ed07d23ee6abe0898d56e1390160f51f1744315afd74f227000254d3469a60",
+      "source_hasm_line": 303539
+    },
+    {
+      "function_id": 7534,
+      "name": "",
+      "offset": "0x274f6d",
+      "bytecode_bytes": 101,
+      "raw_bytecode_sha256": "c53bcc4cec922ecb24f1c25501d9a543af8bb531620288624f1ca3c5409e3519",
+      "source_hasm_line": 303571
+    },
+    {
+      "function_id": 7837,
+      "name": "encodeGBKToHexString",
+      "offset": "0x27bbb3",
+      "bytecode_bytes": 159,
+      "raw_bytecode_sha256": "937d13739e2c606635c54256f330d10ce746f29bd722bbc1c8ed3d45e7cfc12b",
+      "source_hasm_line": 313384
+    },
+    {
+      "function_id": 7838,
+      "name": "",
+      "offset": "0x27bc52",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "8da2e4594223c4d03d405f30d326d824d958f846983e855a4306414dec90eaf1",
+      "source_hasm_line": 313429
+    },
+    {
+      "function_id": 7839,
+      "name": "decodeGBKHexString",
+      "offset": "0x27bc77",
+      "bytecode_bytes": 210,
+      "raw_bytecode_sha256": "215eb5e99f65930aa5d3180b749b512816470eb69933a19a8d470b1292b735aa",
+      "source_hasm_line": 313446
+    },
+    {
+      "function_id": 9050,
+      "name": "",
+      "offset": "0x29abf1",
+      "bytecode_bytes": 303,
+      "raw_bytecode_sha256": "7d50d17fb5505eefe9897c1931ef72f6379770b557ad094cae6817cc6a70e0aa",
+      "source_hasm_line": 356224
+    },
+    {
+      "function_id": 9051,
+      "name": "",
+      "offset": "0x29ad20",
+      "bytecode_bytes": 1030,
+      "raw_bytecode_sha256": "d21de240be81cb3b982d32466ff2a724d88928430ee08cf5bee4414f5104a000",
+      "source_hasm_line": 356307
+    },
+    {
+      "function_id": 9052,
+      "name": "ConnectionManager",
+      "offset": "0x29b126",
+      "bytecode_bytes": 201,
+      "raw_bytecode_sha256": "d4f9ca686f501462e8dd2eb480add3447c4730a9943aa846cc4707b9f81b78e4",
+      "source_hasm_line": 356584
+    },
+    {
+      "function_id": 9053,
+      "name": "postConnectedState",
+      "offset": "0x29b1ef",
+      "bytecode_bytes": 117,
+      "raw_bytecode_sha256": "b742153dbd9b3de1dc48a5429e4b80eaf1afdd9f450b86b898e5e9ea97e11406",
+      "source_hasm_line": 356636
+    },
+    {
+      "function_id": 9054,
+      "name": "startWebsocket",
+      "offset": "0x29b264",
+      "bytecode_bytes": 320,
+      "raw_bytecode_sha256": "6764ae4434a7bb23ff8ec967f92aac92b7beb763228035738dab24a910a417c8",
+      "source_hasm_line": 356675
+    },
+    {
+      "function_id": 9055,
+      "name": "",
+      "offset": "0x29b3a4",
+      "bytecode_bytes": 85,
+      "raw_bytecode_sha256": "51a03814579cb79144a0e2704f3115916afc47621698052131880d1fa533c8aa",
+      "source_hasm_line": 356753
+    },
+    {
+      "function_id": 9056,
+      "name": "",
+      "offset": "0x29b3f9",
+      "bytecode_bytes": 83,
+      "raw_bytecode_sha256": "acf0b87801d5b51c7a081103ae8189ff2f3559a174ee72b2dd5653f80e68a675",
+      "source_hasm_line": 356781
+    },
+    {
+      "function_id": 9057,
+      "name": "",
+      "offset": "0x29b44c",
+      "bytecode_bytes": 412,
+      "raw_bytecode_sha256": "e1714c6aa5bd767066ad821a5aeab66645ff94e03d547bff9e5d35b06db4ed0e",
+      "source_hasm_line": 356809
+    },
+    {
+      "function_id": 9058,
+      "name": "",
+      "offset": "0x29b5e8",
+      "bytecode_bytes": 72,
+      "raw_bytecode_sha256": "706b3be551f2304a492329ca1135826ae1d8b04e8cfcf69e698d53adbb9bfb63",
+      "source_hasm_line": 356907
+    },
+    {
+      "function_id": 9059,
+      "name": "",
+      "offset": "0x29b630",
+      "bytecode_bytes": 35,
+      "raw_bytecode_sha256": "46742afd9a19e499ffbdc6a829261e684b68a5598cc3d9f19d43dacfd4851b59",
+      "source_hasm_line": 356932
+    },
+    {
+      "function_id": 9060,
+      "name": "stopWebsocket",
+      "offset": "0x29b653",
+      "bytecode_bytes": 153,
+      "raw_bytecode_sha256": "5822a3c9d5b1d1a427806f0dd0bb4b413d1d7c86f39ed0226411b6690f824193",
+      "source_hasm_line": 356949
+    },
+    {
+      "function_id": 9061,
+      "name": "requestPlayInfo",
+      "offset": "0x29b6ec",
+      "bytecode_bytes": 33,
+      "raw_bytecode_sha256": "4a94703d830f5edc5ed95ae215e96fac43b79d54718b5fc1c70b276aeac544ed",
+      "source_hasm_line": 356992
+    },
+    {
+      "function_id": 9062,
+      "name": "",
+      "offset": "0x29b70d",
+      "bytecode_bytes": 210,
+      "raw_bytecode_sha256": "decb29caea62c646b3ad305d4aa9a6dd44f908cc53ac9d816b95c34f65fe9d88",
+      "source_hasm_line": 357009
+    },
+    {
+      "function_id": 9063,
+      "name": "requestInfo",
+      "offset": "0x29b7df",
+      "bytecode_bytes": 93,
+      "raw_bytecode_sha256": "dbbcf0c16460889105e8fbd742ece695297ad5c13d00e9e7b458883c33c93b30",
+      "source_hasm_line": 357072
+    },
+    {
+      "function_id": 9064,
+      "name": "",
+      "offset": "0x29b83c",
+      "bytecode_bytes": 287,
+      "raw_bytecode_sha256": "60606d5dcd29aba72e51a1b37304695b29d786b817088fc46e6b2175803001eb",
+      "source_hasm_line": 357103
+    },
+    {
+      "function_id": 9065,
+      "name": "requestSession",
+      "offset": "0x29b95b",
+      "bytecode_bytes": 93,
+      "raw_bytecode_sha256": "90b4e7d1432ca35e3ef38b1a4eb0a6effc25dfada80e2ee485269a3ccbccf054",
+      "source_hasm_line": 357189
+    },
+    {
+      "function_id": 9066,
+      "name": "",
+      "offset": "0x29b9b8",
+      "bytecode_bytes": 237,
+      "raw_bytecode_sha256": "a925515052d1c595e0eaad6831614abc78556cbbb788c361be0386dc9b7dea34",
+      "source_hasm_line": 357220
+    },
+    {
+      "function_id": 9067,
+      "name": "",
+      "offset": "0x29baa5",
+      "bytecode_bytes": 38,
+      "raw_bytecode_sha256": "7efdc4f9ec778bbf18baaa88b40b2fc0a84c8eb89d639f784a7cac268b68d8b8",
+      "source_hasm_line": 357292
+    },
+    {
+      "function_id": 9068,
+      "name": "quitSession",
+      "offset": "0x29bacb",
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "7b5c8ad148f54586fa8e408c52958086352ca3aae8df50612d7e1ca3c9395207",
+      "source_hasm_line": 357311
+    },
+    {
+      "function_id": 9069,
+      "name": "",
+      "offset": "0x29bb21",
+      "bytecode_bytes": 165,
+      "raw_bytecode_sha256": "50618476ae8a1aafe2de001bc5dca0a7a839af6a5a188d974e350fb087c7742d",
+      "source_hasm_line": 357340
+    },
+    {
+      "function_id": 9070,
+      "name": "checkWebsocketConnect",
+      "offset": "0x29bbc6",
+      "bytecode_bytes": 129,
+      "raw_bytecode_sha256": "f7ae91ae09469bbf370337bbd4ef604e8d866dcd96a61525e3bb52ff4355bb3f",
+      "source_hasm_line": 357396
+    },
+    {
+      "function_id": 9071,
+      "name": "",
+      "offset": "0x29bc47",
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "4574727bd4eed59db9b6f12b6698f8d8738ec291f9e5f16419d3a5768caa01c4",
+      "source_hasm_line": 357433
+    },
+    {
+      "function_id": 9072,
+      "name": "checkConnect",
+      "offset": "0x29bc5c",
+      "bytecode_bytes": 452,
+      "raw_bytecode_sha256": "9c4506718445046b576d4bfca66d0e826a973606e234527ee3c5d624a1ddc1c8",
+      "source_hasm_line": 357447
+    },
+    {
+      "function_id": 9073,
+      "name": "",
+      "offset": "0x29be20",
+      "bytecode_bytes": 27,
+      "raw_bytecode_sha256": "ddc2bdb0395015c30f903b1d4130de96be17d1c1c5696ab666c81e7e51e2cf16",
+      "source_hasm_line": 357551
+    },
+    {
+      "function_id": 9074,
+      "name": "resetToDefault",
+      "offset": "0x29be3b",
+      "bytecode_bytes": 147,
+      "raw_bytecode_sha256": "8f890dd784e27d4f76a42dd89ba3a115708937c247344401939584a6aad76980",
+      "source_hasm_line": 357567
+    },
+    {
+      "function_id": 9075,
+      "name": "isGotHttpSession",
+      "offset": "0x29bece",
+      "bytecode_bytes": 10,
+      "raw_bytecode_sha256": "a4ea104175e860044465993367c77035cd9067df0c71ccd4962a9b5e3fe05708",
+      "source_hasm_line": 357608
+    },
+    {
+      "function_id": 9076,
+      "name": "setOnConnectChangedBlock",
+      "offset": "0x29bed8",
+      "bytecode_bytes": 58,
+      "raw_bytecode_sha256": "37d538a828c85e1a79bde34a9146070195e9e046886efd49f49273b2387b470b",
+      "source_hasm_line": 357619
+    },
+    {
+      "function_id": 9077,
+      "name": "setOnPlayInfoChangedBlock",
+      "offset": "0x29bf12",
+      "bytecode_bytes": 58,
+      "raw_bytecode_sha256": "b474921fc0d8d3627d613d406d0c357e775c4496fd1a4bd085461bd63d76d710",
+      "source_hasm_line": 357641
+    },
+    {
+      "function_id": 9078,
+      "name": "setOnFileListChangedBlock",
+      "offset": "0x29bf4c",
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "7a64ad128767f6e8bc2d5f9fa3ceb794ba27e24835aea758336f1ffca2e0aa09",
+      "source_hasm_line": 357666
+    },
+    {
+      "function_id": 9079,
+      "name": "setHost",
+      "offset": "0x29bf5b",
+      "bytecode_bytes": 59,
+      "raw_bytecode_sha256": "19583cd4d022e3fbeb288ca58563060f283636b8f79a780a4ac2eb12272b9e3f",
+      "source_hasm_line": 357679
+    },
+    {
+      "function_id": 9080,
+      "name": "getHost",
+      "offset": "0x29bf96",
+      "bytecode_bytes": 10,
+      "raw_bytecode_sha256": "bbb031d2708e819241f486948b80109f5785c136659d6b2c3c948663d51b7dc2",
+      "source_hasm_line": 357701
+    },
+    {
+      "function_id": 9081,
+      "name": "getHttpPort",
+      "offset": "0x29bfa0",
+      "bytecode_bytes": 33,
+      "raw_bytecode_sha256": "0464c59883ded015e33968017896fb30e6c0eabb37f67d88ca06978b3f647055",
+      "source_hasm_line": 357712
+    },
+    {
+      "function_id": 9082,
+      "name": "init",
+      "offset": "0x29bfc1",
+      "bytecode_bytes": 126,
+      "raw_bytecode_sha256": "76ce62ec1b4451deb91ca2c89c34a9bb407b2afb2effdcb15adba37b330fb736",
+      "source_hasm_line": 357729
+    },
+    {
+      "function_id": 9083,
+      "name": "",
+      "offset": "0x29c03f",
+      "bytecode_bytes": 173,
+      "raw_bytecode_sha256": "da6db323188c077664c5cc35c87468c5dd1d4d34086ab7374817b4835160c09d",
+      "source_hasm_line": 357767
+    },
+    {
+      "function_id": 9084,
+      "name": "",
+      "offset": "0x29c0ec",
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "7582f6f12e139d58fe9a748ec01eedc19ee64c0b8be25b072cade66d20122b7a",
+      "source_hasm_line": 357812
+    },
+    {
+      "function_id": 9085,
+      "name": "",
+      "offset": "0x29c101",
+      "bytecode_bytes": 81,
+      "raw_bytecode_sha256": "fbe6e89be79b522bee422308ee9bb6fc4e1cc3c0b35699d5c16eb808b91c8af8",
+      "source_hasm_line": 357826
+    },
+    {
+      "function_id": 9086,
+      "name": "destroyAll",
+      "offset": "0x29c152",
+      "bytecode_bytes": 38,
+      "raw_bytecode_sha256": "a18b7a09283e6a62bb15fea50f9b39dddc1c61950954704b8a5fb22e727e45fb",
+      "source_hasm_line": 357853
+    },
+    {
+      "function_id": 9087,
+      "name": "startTimer",
+      "offset": "0x29c178",
+      "bytecode_bytes": 53,
+      "raw_bytecode_sha256": "28bcac20f2cb42004ef6be73528b9645a1c1f7a2a6b4011a3a95be41a215a584",
+      "source_hasm_line": 357871
+    },
+    {
+      "function_id": 9088,
+      "name": "",
+      "offset": "0x29c1ad",
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "106cd2456ca3ab0d6e8fd62e5f1c2840b6f23ba2f16fba8d0a44f9267cfbc55b",
+      "source_hasm_line": 357892
+    },
+    {
+      "function_id": 9089,
+      "name": "stopTimer",
+      "offset": "0x29c1c2",
+      "bytecode_bytes": 75,
+      "raw_bytecode_sha256": "921ef1e97a4400e3fcc3564dd0d0e0030aef7d5d7606f66a34cc4bea7c13b063",
+      "source_hasm_line": 357906
+    },
+    {
+      "function_id": 9090,
+      "name": "generateFilename",
+      "offset": "0x29c20d",
+      "bytecode_bytes": 229,
+      "raw_bytecode_sha256": "cdb33d49e2de0908a9a8561ddb564786344ef1aec2e4c508bf2cc9d2239b353f",
+      "source_hasm_line": 357933
+    },
+    {
+      "function_id": 9091,
+      "name": "getPlayInfo",
+      "offset": "0x29c2f2",
+      "bytecode_bytes": 10,
+      "raw_bytecode_sha256": "9a017649c74d3bbdb45b1313daac070b3f8fa0d0fdc20b1b6536edac3d4e1ee6",
+      "source_hasm_line": 358002
+    },
+    {
+      "function_id": 9092,
+      "name": "GET",
+      "offset": "0x29c2fc",
+      "bytecode_bytes": 162,
+      "raw_bytecode_sha256": "922a084c80f9eaeafb4a3ca555de25e4ebd838fe64ec8b0f79ac873cb11ed2ff",
+      "source_hasm_line": 358013
+    },
+    {
+      "function_id": 9093,
+      "name": "",
+      "offset": "0x29c39e",
+      "bytecode_bytes": 292,
+      "raw_bytecode_sha256": "c5687fb8c8ec2b30e58b3d5597609d65829be246926ce16c898e2abfa9bd93f7",
+      "source_hasm_line": 358063
+    },
+    {
+      "function_id": 9094,
+      "name": "",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 358154
+    },
+    {
+      "function_id": 9095,
+      "name": "POST",
+      "offset": "0x29c4c2",
+      "bytecode_bytes": 203,
+      "raw_bytecode_sha256": "3ecf1668cb22cc1e990ac475aa6dbf82749d3085cd75f745698879853f7ec114",
+      "source_hasm_line": 358164
+    },
+    {
+      "function_id": 9096,
+      "name": "",
+      "offset": "0x29c58d",
+      "bytecode_bytes": 292,
+      "raw_bytecode_sha256": "901a7e7bd5685a4f775fc52b60efec89dceacd1a8125d0aaca4f0e1645fb4ee9",
+      "source_hasm_line": 358226
+    },
+    {
+      "function_id": 9097,
+      "name": "",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 358317
+    },
+    {
+      "function_id": 9098,
+      "name": "POST_UPLOAD_FILE",
+      "offset": "0x29c6b1",
+      "bytecode_bytes": 221,
+      "raw_bytecode_sha256": "8d08b7443c56c2bd044b40d0f5c79cac2229568780fa9ea78cad168e7e819125",
+      "source_hasm_line": 358327
+    },
+    {
+      "function_id": 9099,
+      "name": "",
+      "offset": "0x29c78e",
+      "bytecode_bytes": 475,
+      "raw_bytecode_sha256": "cac9fa8b1f997c9aa52f4eb475de75b25fd52355b6fb73c82a78b344f62a5412",
+      "source_hasm_line": 358392
+    },
+    {
+      "function_id": 9100,
+      "name": "",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 358525
+    },
+    {
+      "function_id": 9101,
+      "name": "supportShutdown",
+      "offset": "0x29c969",
+      "bytecode_bytes": 35,
+      "raw_bytecode_sha256": "cefe20765b0793bd2c8e7ad2058ad195a10ade18744dbb9b084839ac77090635",
+      "source_hasm_line": 358535
+    },
+    {
+      "function_id": 9102,
+      "name": "supportNetconfig",
+      "offset": "0x29c98c",
+      "bytecode_bytes": 32,
+      "raw_bytecode_sha256": "5a1e491744ea0e1350fd759984e440ba48d506c3effcb95f8d4b712bb55059ac",
+      "source_hasm_line": 358551
+    },
+    {
+      "function_id": 9103,
+      "name": "uploadFileToDevice",
+      "offset": "0x29c9ac",
+      "bytecode_bytes": 204,
+      "raw_bytecode_sha256": "a4ef46ba3ed86ec3da3849ba7fe7a647af411e623619a5e2713308972c7bfe96",
+      "source_hasm_line": 358566
+    },
+    {
+      "function_id": 9104,
+      "name": "",
+      "offset": "0x29ca78",
+      "bytecode_bytes": 268,
+      "raw_bytecode_sha256": "a58bef10b91875b60255a47d95f918bef029783e753f112e1a3c87369a646337",
+      "source_hasm_line": 358625
+    },
+    {
+      "function_id": 9105,
+      "name": "uploadFile",
+      "offset": "0x29cb84",
+      "bytecode_bytes": 137,
+      "raw_bytecode_sha256": "2f35cb75b7f3937a616134d4df00063d9c4df520b4db5566a084a89d7e1510d1",
+      "source_hasm_line": 358701
+    },
+    {
+      "function_id": 9106,
+      "name": "",
+      "offset": "0x29cc0d",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "d46ddd668371dd5040665843d920b7e780514eba96c5e5685350669de7fcb9a6",
+      "source_hasm_line": 358748
+    },
+    {
+      "function_id": 9107,
+      "name": "uploadFileV2",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 358766
+    },
+    {
+      "function_id": 9108,
+      "name": "",
+      "offset": "0x29cc32",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "eee8979eb3196895098a4261c87229c022a22a512efdb1142ebddeae4b2fdde8",
+      "source_hasm_line": 358783
+    },
+    {
+      "function_id": 9109,
+      "name": "?anon_0_",
+      "offset": "0x29cc3b",
+      "bytecode_bytes": 604,
+      "raw_bytecode_sha256": "d23c961cacdcfdd2ce2e245ea9a05359d0030cf9da0a3496e3c42c9d96eedaf2",
+      "source_hasm_line": 358794
+    },
+    {
+      "function_id": 9110,
+      "name": "",
+      "offset": "0x29ce97",
+      "bytecode_bytes": 134,
+      "raw_bytecode_sha256": "91643dd6ef0928b47e35304766d7f2d44020da384741ef3a612233068f049f64",
+      "source_hasm_line": 358959
+    },
+    {
+      "function_id": 9111,
+      "name": "postResult",
+      "offset": "0x29cf1d",
+      "bytecode_bytes": 172,
+      "raw_bytecode_sha256": "014324375b24ce6023a2789bc359f37f63bc8f78a19ee6254ee392e4fa473f51",
+      "source_hasm_line": 359000
+    },
+    {
+      "function_id": 9112,
+      "name": "playFile",
+      "offset": "0x29cfc9",
+      "bytecode_bytes": 165,
+      "raw_bytecode_sha256": "33ec9d9d116f3aa1dbe9ddcb3a09635f058c49223d3f31bd317f48dab53928a7",
+      "source_hasm_line": 359051
+    },
+    {
+      "function_id": 9113,
+      "name": "",
+      "offset": "0x29d06e",
+      "bytecode_bytes": 27,
+      "raw_bytecode_sha256": "d1ee71f5259038ea342472fa24da8965be29d45d3586c1372279ede4a01e6c42",
+      "source_hasm_line": 359097
+    },
+    {
+      "function_id": 9114,
+      "name": "",
+      "offset": "0x29d089",
+      "bytecode_bytes": 89,
+      "raw_bytecode_sha256": "a288ba19211ca2aba2b6f825da49cbfad35d95971a3a955cb6cf292287c01ad9",
+      "source_hasm_line": 359114
+    },
+    {
+      "function_id": 9115,
+      "name": "",
+      "offset": "0x29d0e2",
+      "bytecode_bytes": 51,
+      "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429",
+      "source_hasm_line": 359145
+    },
+    {
+      "function_id": 9116,
+      "name": "playPrevious",
+      "offset": "0x29d115",
+      "bytecode_bytes": 97,
+      "raw_bytecode_sha256": "1a82ad5773b5241825d4ed3ffed3f955ca1b73579a6fca125a8bdfe82c52903c",
+      "source_hasm_line": 359169
+    },
+    {
+      "function_id": 9117,
+      "name": "",
+      "offset": "0x29d176",
+      "bytecode_bytes": 30,
+      "raw_bytecode_sha256": "281e21f2f71fab294f91e6ad5b3446aa8cba8edc58290e59d06c519e75e74b00",
+      "source_hasm_line": 359200
+    },
+    {
+      "function_id": 9118,
+      "name": "",
+      "offset": "0x29d194",
+      "bytecode_bytes": 80,
+      "raw_bytecode_sha256": "82afb5dd971b761f2ff85c6825d47024b4ca6206d88b880d06a007612efc6b1c",
+      "source_hasm_line": 359217
+    },
+    {
+      "function_id": 9119,
+      "name": "",
+      "offset": "0x29d1e4",
+      "bytecode_bytes": 54,
+      "raw_bytecode_sha256": "de694bf8d371afa5d863db50eef9c548b1adf3c4c904e573ee8c8d8fe753eb79",
+      "source_hasm_line": 359245
+    },
+    {
+      "function_id": 9120,
+      "name": "playPause",
+      "offset": "0x29d21a",
+      "bytecode_bytes": 104,
+      "raw_bytecode_sha256": "9e22bcc40e0a0fac00170ffe22ae25bdd9683bf667fe808f60a92fb3852b11b6",
+      "source_hasm_line": 359269
+    },
+    {
+      "function_id": 9121,
+      "name": "",
+      "offset": "0x29d06e",
+      "bytecode_bytes": 27,
+      "raw_bytecode_sha256": "d1ee71f5259038ea342472fa24da8965be29d45d3586c1372279ede4a01e6c42",
+      "source_hasm_line": 359302
+    },
+    {
+      "function_id": 9122,
+      "name": "",
+      "offset": "0x29d282",
+      "bytecode_bytes": 79,
+      "raw_bytecode_sha256": "a58d6dc319fdbea96b04f00dc61c13f3c31c320f53349b6131167286d2eaa92b",
+      "source_hasm_line": 359319
+    },
+    {
+      "function_id": 9123,
+      "name": "",
+      "offset": "0x29d0e2",
+      "bytecode_bytes": 51,
+      "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429",
+      "source_hasm_line": 359348
+    },
+    {
+      "function_id": 9124,
+      "name": "deleteFile",
+      "offset": "0x29d2d1",
+      "bytecode_bytes": 165,
+      "raw_bytecode_sha256": "372495fd862548a2f86448bc13e6b96fc40a68c2138ed18acaf0e35576c5ff4b",
+      "source_hasm_line": 359372
+    },
+    {
+      "function_id": 9125,
+      "name": "",
+      "offset": "0x29d06e",
+      "bytecode_bytes": 27,
+      "raw_bytecode_sha256": "d1ee71f5259038ea342472fa24da8965be29d45d3586c1372279ede4a01e6c42",
+      "source_hasm_line": 359418
+    },
+    {
+      "function_id": 9126,
+      "name": "",
+      "offset": "0x29d376",
+      "bytecode_bytes": 89,
+      "raw_bytecode_sha256": "d7f26f5d01399e3f02c68c45c64c6889b300c646f261c0fe45a85b1be183b6fa",
+      "source_hasm_line": 359435
+    },
+    {
+      "function_id": 9127,
+      "name": "",
+      "offset": "0x29d0e2",
+      "bytecode_bytes": 51,
+      "raw_bytecode_sha256": "eec5a96cd03fdfda7b3d8d13fc8d934e94871692d75e8f0ac95aa5e606251429",
+      "source_hasm_line": 359466
+    },
+    {
+      "function_id": 9128,
+      "name": "setConfig",
+      "offset": "0x29d3cf",
+      "bytecode_bytes": 336,
+      "raw_bytecode_sha256": "3ca18a2b003ff70ce85f68754d29be51ed1ec955cb961429ca392293c20bfd8f",
+      "source_hasm_line": 359490
+    },
+    {
+      "function_id": 9129,
+      "name": "",
+      "offset": "0x29d51f",
+      "bytecode_bytes": 27,
+      "raw_bytecode_sha256": "2c6010827fb5c26162298f986774a1932e1f6560c662698a0b69f7947983fac2",
+      "source_hasm_line": 359581
+    },
+    {
+      "function_id": 9130,
+      "name": "",
+      "offset": "0x29d53a",
+      "bytecode_bytes": 94,
+      "raw_bytecode_sha256": "d29d8080b5e0fc73940e83f72d1e79bf4d131114a79c75d5ac123fba0492efb1",
+      "source_hasm_line": 359598
+    },
+    {
+      "function_id": 9131,
+      "name": "",
+      "offset": "0x29d598",
+      "bytecode_bytes": 65,
+      "raw_bytecode_sha256": "95b69a81848a990178dbe54fbc1e0f172e848828d57f5affdbeb2728137dda95",
+      "source_hasm_line": 359631
+    },
+    {
+      "function_id": 9132,
+      "name": "_handleDeviceFileList",
+      "offset": "0x29d5d9",
+      "bytecode_bytes": 88,
+      "raw_bytecode_sha256": "778aedc2eb2e10c94e71f4f871699069df5a25a0ba329fc0fe101fbe69d3abfd",
+      "source_hasm_line": 359658
+    },
+    {
+      "function_id": 9133,
+      "name": "",
+      "offset": "0x29d631",
+      "bytecode_bytes": 188,
+      "raw_bytecode_sha256": "2db7f1e2f02b0409978bf802fb6ee3abeaaa21e71fec2fad0551aa24e8ff886f",
+      "source_hasm_line": 359689
+    },
+    {
+      "function_id": 9134,
+      "name": "requestDeviceDCIM",
+      "offset": "0x29d6ed",
+      "bytecode_bytes": 81,
+      "raw_bytecode_sha256": "96157722b9ff2128cc5c29090d906452a4f21ea97386742eac83a5b391462933",
+      "source_hasm_line": 359739
+    },
+    {
+      "function_id": 9135,
+      "name": "",
+      "offset": "0x29d73e",
+      "bytecode_bytes": 172,
+      "raw_bytecode_sha256": "3f48d053aae91ac7e5218420ca4b8c784341ee7cfe4a68be7b7bbfafc7b5f875",
+      "source_hasm_line": 359767
+    },
+    {
+      "function_id": 9136,
+      "name": "",
+      "offset": "0x29d7ea",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "d207b8b2a96128fd71055ad4f35773a68ba5ae652a0e4bfd2066fc154019485a",
+      "source_hasm_line": 359816
+    },
+    {
+      "function_id": 9137,
+      "name": "loadAllConfig",
+      "offset": "0x29d813",
+      "bytecode_bytes": 159,
+      "raw_bytecode_sha256": "2352fae2f00584d9d748c95fd483034eb357d6eb532ddad004cae025bd143e36",
+      "source_hasm_line": 359835
+    },
+    {
+      "function_id": 9138,
+      "name": "infoData",
+      "offset": "0x29d8b2",
+      "bytecode_bytes": 237,
+      "raw_bytecode_sha256": "0e99dd270316eb4e5bc216c18f7e3d84d6b414ab01a0d50a067e1965ddd5b14f",
+      "source_hasm_line": 359883
+    },
+    {
+      "function_id": 9139,
+      "name": "",
+      "offset": "0x29d99f",
+      "bytecode_bytes": 56,
+      "raw_bytecode_sha256": "d1ebdd52a975a4418d7098f601d7fee948a4e43d50925dffdc4276b94960e542",
+      "source_hasm_line": 359931
+    },
+    {
+      "function_id": 9140,
+      "name": "",
+      "offset": "0x29d9d7",
+      "bytecode_bytes": 65,
+      "raw_bytecode_sha256": "7817658db112100f9b5495c04acf625cbe77871f969fad9146eb068aef6f2a32",
+      "source_hasm_line": 359954
+    },
+    {
+      "function_id": 9141,
+      "name": "getIsOldDevice",
+      "offset": "0x29da18",
+      "bytecode_bytes": 47,
+      "raw_bytecode_sha256": "2502505e87aa0f023d3fb19f48b9a847bac569bdc173020965c9261f091e9e93",
+      "source_hasm_line": 359981
+    },
+    {
+      "function_id": 9142,
+      "name": "getModel",
+      "offset": "0x29da47",
+      "bytecode_bytes": 125,
+      "raw_bytecode_sha256": "48913e76dd514ee6f7de40802534c87c7a4ee072dfa638740406d82af570f1ef",
+      "source_hasm_line": 360003
+    },
+    {
+      "function_id": 9143,
+      "name": "isConnected",
+      "offset": "0x29dac4",
+      "bytecode_bytes": 35,
+      "raw_bytecode_sha256": "1770b6ced46c0a65644b6ca225d10dd48fa19977eaca3968e44eef4879f98fcc",
+      "source_hasm_line": 360042
+    },
+    {
+      "function_id": 9144,
+      "name": "setCurrentDCIM",
+      "offset": "0x29dae7",
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "793e8d14526792296f057a0243ef7b1de4562262914eb86c611b7347134f29bf",
+      "source_hasm_line": 360059
+    },
+    {
+      "function_id": 15335,
+      "name": "SettingsPage",
+      "offset": "0x33c8f4",
+      "bytecode_bytes": 1099,
+      "raw_bytecode_sha256": "a4a7727819e8edabb9f1c0dfde467dc4414fadd6952946c89c8065654db30f5e",
+      "source_hasm_line": 583923
+    },
+    {
+      "function_id": 15336,
+      "name": "loadConfig",
+      "offset": "0x2e7976",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "b82810391cc50260e36c161d9ab27d95eccb73d16bfc80a65c1610b307ca547f",
+      "source_hasm_line": 584169
+    },
+    {
+      "function_id": 15337,
+      "name": "_loadConfig",
+      "offset": "0x33cd3f",
+      "bytecode_bytes": 55,
+      "raw_bytecode_sha256": "7ac6e235f01caa751d36d0472ca691acf4dc4ffa82ee6560d95e2f723608a473",
+      "source_hasm_line": 584186
+    },
+    {
+      "function_id": 15338,
+      "name": "",
+      "offset": "0x33cd76",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "10deae4a82cecce09f5e23aaaf03bd866a72f322f1cb976df3d0d0924e390143",
+      "source_hasm_line": 584210
+    },
+    {
+      "function_id": 15339,
+      "name": "?anon_0_",
+      "offset": "0x33cd7f",
+      "bytecode_bytes": 93,
+      "raw_bytecode_sha256": "c2e473b045caca08cea02d9c6ea03ca54181652953fa69af8dcd1d8802e504df",
+      "source_hasm_line": 584221
+    },
+    {
+      "function_id": 15340,
+      "name": "",
+      "offset": "0x33cddc",
+      "bytecode_bytes": 71,
+      "raw_bytecode_sha256": "720d9d3f470a372328d497b2404a8fd03e8af14cc016443b5b946307f31693b4",
+      "source_hasm_line": 584255
+    },
+    {
+      "function_id": 15341,
+      "name": "",
+      "offset": "0x33ce23",
+      "bytecode_bytes": 19,
+      "raw_bytecode_sha256": "a98a3b792783ef365d7277fcbc457c03f9993b0c3eb14bdd7d06bcc1ead24186",
+      "source_hasm_line": 584282
+    },
+    {
+      "function_id": 15342,
+      "name": "",
+      "offset": "0x33ce36",
+      "bytecode_bytes": 42,
+      "raw_bytecode_sha256": "22ae1253590677cebae4465399abb0372eb2c83af7a1ae1819398275d942a2fd",
+      "source_hasm_line": 584296
+    },
+    {
+      "function_id": 15343,
+      "name": "updateSettings",
+      "offset": "0x33ce60",
+      "bytecode_bytes": 44,
+      "raw_bytecode_sha256": "9a461ea283778394dd810677dfcf561939d9e07c5f6f9c51940e52b998e208d5",
+      "source_hasm_line": 584315
+    },
+    {
+      "function_id": 15344,
+      "name": "",
+      "offset": "0x33ce8c",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "0866a39a4852d17061cf30fbf5aa54ad6112528d9f329cbfeea15c34daf88578",
+      "source_hasm_line": 584335
+    },
+    {
+      "function_id": 15345,
+      "name": "checkModifySetting",
+      "offset": "0x33ceb5",
+      "bytecode_bytes": 112,
+      "raw_bytecode_sha256": "82644841f079fde9fe0dbc1c02dbf4ce6623df881da7fe65275f1824a98f75eb",
+      "source_hasm_line": 584353
+    },
+    {
+      "function_id": 15346,
+      "name": "setConfig",
+      "offset": "0x33cf25",
+      "bytecode_bytes": 199,
+      "raw_bytecode_sha256": "ec97ba25ff62826273dc6dc71b298e5841c29bc27bae323b365f22ad97fe0bd9",
+      "source_hasm_line": 584388
+    },
+    {
+      "function_id": 15347,
+      "name": "",
+      "offset": "0x33cfec",
+      "bytecode_bytes": 72,
+      "raw_bytecode_sha256": "7c90eeeab50a83fa68a78b5450176d106d13c842df583f566a628d0f8c52fa5e",
+      "source_hasm_line": 584446
+    },
+    {
+      "function_id": 15348,
+      "name": "",
+      "offset": "0x33d034",
+      "bytecode_bytes": 97,
+      "raw_bytecode_sha256": "61ac86b9e1f4ef70d340ee808bb4568b7b1b84a7912d44437fc8fb2ea576103e",
+      "source_hasm_line": 584475
+    },
+    {
+      "function_id": 15349,
+      "name": "getConfig",
+      "offset": "0x33d095",
+      "bytecode_bytes": 82,
+      "raw_bytecode_sha256": "b8974601f4c40360261af9b375abf93186cca32d41fe2bbd71b1b023e8a42700",
+      "source_hasm_line": 584508
+    },
+    {
+      "function_id": 15350,
+      "name": "",
+      "offset": "0x33d0e7",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "41a4e6a51baaba613d4b73c2fbde379f76c6accc8314f2f12f804f48d179b0e4",
+      "source_hasm_line": 584536
+    },
+    {
+      "function_id": 15351,
+      "name": "dismissDialog",
+      "offset": "0x33d126",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "e32e8e03995f86439f43c991a5fb14de477dc57f592ffe4a4b32816881549002",
+      "source_hasm_line": 584562
+    },
+    {
+      "function_id": 15352,
+      "name": "showInfoDialog",
+      "offset": "0x33d14f",
+      "bytecode_bytes": 204,
+      "raw_bytecode_sha256": "bba6498c7b5f91d4a99b7aef551e1285f6f6895c45778736f66c54b6cb940484",
+      "source_hasm_line": 584581
+    },
+    {
+      "function_id": 15353,
+      "name": "onStateChanged",
+      "offset": "0x33d21b",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "16f42f4f7a4d81c8eca21a82f169fbb5b59844346d38c75386ef51e33082d4ee",
+      "source_hasm_line": 584640
+    },
+    {
+      "function_id": 15354,
+      "name": "showConfirmDialog",
+      "offset": "0x33d25a",
+      "bytecode_bytes": 435,
+      "raw_bytecode_sha256": "1f2cad07fd589cc99072bb6fa137b2ab8d7a80b980467b7b8d621db91e0a1640",
+      "source_hasm_line": 584665
+    },
+    {
+      "function_id": 15355,
+      "name": "func",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 584777
+    },
+    {
+      "function_id": 15356,
+      "name": "func",
+      "offset": "0x33d40d",
+      "bytecode_bytes": 112,
+      "raw_bytecode_sha256": "8d2adad39ea0ec011617a41485c8e2c71e12e03cb057c1a3e3cdb6ffb358f006",
+      "source_hasm_line": 584787
+    },
+    {
+      "function_id": 15357,
+      "name": "",
+      "offset": "0x33d47d",
+      "bytecode_bytes": 28,
+      "raw_bytecode_sha256": "fc94b226c17590cfa2ad49f0f2d985067f0710787e9f0b2e9fcf7318ae857c4d",
+      "source_hasm_line": 584822
+    },
+    {
+      "function_id": 15358,
+      "name": "",
+      "offset": "0x33d499",
+      "bytecode_bytes": 69,
+      "raw_bytecode_sha256": "4afa4bdeeebd2903824c9c1511ff0725fa97b5bd3912f0be8aaed27abf2720d4",
+      "source_hasm_line": 584838
+    },
+    {
+      "function_id": 12253,
+      "name": "DevicePage",
+      "offset": "0x2ea99d",
+      "bytecode_bytes": 3409,
+      "raw_bytecode_sha256": "bf3a4ccc81dd91dd8c136cff27717b052dde6d66f08d810ab32d3a843f18b2ca",
+      "source_hasm_line": 472915
+    },
+    {
+      "function_id": 12254,
+      "name": "loadConfig",
+      "offset": "0x2eb6ee",
+      "bytecode_bytes": 106,
+      "raw_bytecode_sha256": "913169350d28d230cd362739ae86dfb0d499f2c4dfc8cd53e5d56716e826407b",
+      "source_hasm_line": 473682
+    },
+    {
+      "function_id": 12255,
+      "name": "",
+      "offset": "0x2eb758",
+      "bytecode_bytes": 55,
+      "raw_bytecode_sha256": "7c65ba4b9589c9cddc6b572adb6e9a9af1d9fdcfe10f089cf8568c80933bd886",
+      "source_hasm_line": 473717
+    },
+    {
+      "function_id": 12256,
+      "name": "",
+      "offset": "0x2eb78f",
+      "bytecode_bytes": 58,
+      "raw_bytecode_sha256": "c4d0afb860b1136bb2e83733509760512dec06a7e2610ba1bb86dcb9797f726b",
+      "source_hasm_line": 473740
+    },
+    {
+      "function_id": 12257,
+      "name": "",
+      "offset": "0x2eb7c9",
+      "bytecode_bytes": 42,
+      "raw_bytecode_sha256": "7d2e6054f8fd0e155130af695c29bc2ffd8c42c191fa0e3adab8bf911f230f98",
+      "source_hasm_line": 473765
+    },
+    {
+      "function_id": 12268,
+      "name": "getDCIM",
+      "offset": "0x2ebbd5",
+      "bytecode_bytes": 95,
+      "raw_bytecode_sha256": "9ffb610beae0615882cffe616583f811898142c381d4d93abc3907b0c640efa1",
+      "source_hasm_line": 474125
+    },
+    {
+      "function_id": 12339,
+      "name": "",
+      "offset": "0x2eda35",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "933ce3840909cdfc353ebba1836a0419e69f25084b4d3e31123a1664cc106159",
+      "source_hasm_line": 476718
+    },
+    {
+      "function_id": 12340,
+      "name": "",
+      "offset": "0x2eda54",
+      "bytecode_bytes": 282,
+      "raw_bytecode_sha256": "7635a6c179e8c20f57c6dcc1057bdfaffa46c70ef956943bf48c6166ea90b412",
+      "source_hasm_line": 476734
+    },
+    {
+      "function_id": 12341,
+      "name": "",
+      "offset": "0x2edb6e",
+      "bytecode_bytes": 193,
+      "raw_bytecode_sha256": "119dde69f6fd63ac6cb22c7700c32f2cada03a86b25090a4ce61f7ebdfb06458",
+      "source_hasm_line": 476803
+    },
+    {
+      "function_id": 12342,
+      "name": "",
+      "offset": "0x2edc2f",
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "cfa9e2dc97b7d7f814d5a5cbe84a643d62a4c84382fac2d07c29f139a4172305",
+      "source_hasm_line": 476856
+    },
+    {
+      "function_id": 12343,
+      "name": "",
+      "offset": "0x2edc9b",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "e4f499fac3adc9c3466467d99e4c7be401dfd5ff0fb9e303d179c7e087c914a4",
+      "source_hasm_line": 476890
+    },
+    {
+      "function_id": 12344,
+      "name": "",
+      "offset": "0x2edcc4",
+      "bytecode_bytes": 57,
+      "raw_bytecode_sha256": "e9c5dc7abefc40db67bcfeb436ab8107dceb894c268ff0e87d6bd689d699890b",
+      "source_hasm_line": 476910
+    },
+    {
+      "function_id": 12345,
+      "name": "",
+      "offset": "0x2edcfd",
+      "bytecode_bytes": 67,
+      "raw_bytecode_sha256": "a847e0c9cfa5a65bfb06659a0a1bf720f9dcdc990037a830148998d0918286e0",
+      "source_hasm_line": 476933
+    },
+    {
+      "function_id": 12346,
+      "name": "",
+      "offset": "0x2edd40",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "132fb7491d157a49decb1b1be6de3aab1b4ac9e28abe2c9634879fb18ebf9a02",
+      "source_hasm_line": 476958
+    }
+  ],
+  "coverage": [
+    "All ConnectionManager methods and nested bodies in function IDs9050..9144.",
+    "HTTP API request/queue/upload helpers7505..7534.",
+    "GBK helpers7837..7839.",
+    "SettingsPage route callers15335..15358.",
+    "DevicePage selected connection/list callback bodies12253..12257,12268,12339..12346."
+  ],
+  "limits": [
+    "No network/device/Android app execution performed.",
+    "This does not establish which protocol a particular connected unit uses.",
+    "Native MEDIA_FUNC_UPLOAD_V2 wire body is outside retained JS boundary evidence.",
+    "AP/UDP/BLE/LAN discovery handled by separate report."
+  ],
+  "retained_files": [
+    {
+      "path": "http-bytecode.hasm",
+      "bytes": 483852,
+      "sha256": "6bdda23aabb75bdb74d2e8ca3ce0f5e37506970415af46d5eb4b717677115e17"
+    },
+    {
+      "path": "http-commands.json",
+      "bytes": 22580,
+      "sha256": "07bc93d83ceac1395b7dd27c58252d888b2e33843d1d23b964ddb85845b26797"
+    },
+    {
+      "path": "http-native-provider-unavailable.json",
+      "bytes": 689,
+      "sha256": "ac28d6e8ee2b863562c9c466b428657b1869fc113d5cbf498bab64fccd9b2942"
+    },
+    {
+      "path": "http-protocol.md",
+      "bytes": 15523,
+      "sha256": "9a873ed812340aadc551c41db4e65f7801cdde820e9d7c39933352020287f649"
+    },
+    {
+      "path": "http-strings.json",
+      "bytes": 136044,
+      "sha256": "da6774b278213860e90fc10a6010f48ce9474db47379830b5f8763654bad0891"
+    }
+  ]
+}

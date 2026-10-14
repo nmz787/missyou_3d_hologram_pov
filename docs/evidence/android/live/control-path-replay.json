@@ -1,0 +1,266 @@
+{
+  "authority": "Controlled replay of extracted UI, ConnectionManager, packet builders and Socket encoding methods with local native-write recorder",
+  "sources_sha256": {
+    "9112": "fea0af55dc2bc38e112d7f4b63d2b81eb0ebdb14fff2ce37258154e6c7e2c93b",
+    "9120": "a289734a57de484e31b6a951ec2cc6bb8ab5bae1e3caeb1c993fb11cc0c3262e",
+    "9305": "6a1fb7ab2a29bb384b91bc7162e87f14a73dd8a43df016ddccb02c092245ab22",
+    "9309": "68e0b02c450044ecc0838bf4d3e3197794d55966660bfce2e3f02dc5844b2a9f",
+    "9310": "a0da4eaa96e87a02c0747a26fddd6fcfcd810eacd007bba520111de179d02809",
+    "9439": "8db97eb909b27d782d9a79e9f407b3f4280bee6670de9d7ab19cb36b55a51455",
+    "9456": "a3e463e50f4281a85dbd84e307798bec072e55059ff0628878c20be00233152a",
+    "12317": "f65083c7598b63453521b5bb372873d8e8eaffa32e03da3fa0463f24f2fad776",
+    "12320": "f19a707ee244aa8d26a58bd08c0bbbe6ed1a580e50f0ef1ec177cb68bab0fbaa",
+    "12324": "89328901e7f722d77e57464c5ac479e413491635c32be91809731e4e3b02ef4d",
+    "12325": "43872c1ffb5c1662665c9c14050c5b430bb0241279a6859ea2d9523e7aee680d"
+  },
+  "substitutions": [
+    "Function-local register declarations",
+    "UI module/translation/loading stubs",
+    "Legacy getIsOldDevice fixed true",
+    "TCPClient.send replaced by Buffer.from+immediate Socket.write recorder; queue is established statically, not replayed",
+    "NativeModules.TcpSockets.write replaced by local Base64 decoder/byte recorder",
+    "UI setTimeout collects delays without running timer callbacks"
+  ],
+  "cases": [
+    {
+      "label": "row index3 while playing",
+      "item": {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      "index": 3,
+      "is_playing_before": true,
+      "entry": "row",
+      "current": false,
+      "state": "ing",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzQwYWJlMDNhNGE4YzJlMw==",
+          "ascii": "c31c40abe03a4a8c2e3",
+          "hex": "63333163343061626530336134613863326533",
+          "bytes": 19
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "63333163343061626530336134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    },
+    {
+      "label": "row index15 while playing",
+      "item": {
+        "index": 15,
+        "name": "13_TRA~1.bin"
+      },
+      "index": 15,
+      "is_playing_before": true,
+      "entry": "row",
+      "current": false,
+      "state": "ing",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzQwYWJlMTVhNGE4YzJlMw==",
+          "ascii": "c31c40abe15a4a8c2e3",
+          "hex": "63333163343061626531356134613863326533",
+          "bytes": 19
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "63333163343061626531356134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    },
+    {
+      "label": "row index3 while paused",
+      "item": {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      "index": 3,
+      "is_playing_before": false,
+      "entry": "row",
+      "current": false,
+      "state": "idle",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzM1YWJjYTRhOGMyZTM=",
+          "ascii": "c31c35abca4a8c2e3",
+          "hex": "6333316333356162636134613863326533",
+          "bytes": 17
+        },
+        {
+          "socket_id": 4,
+          "msg_id": 1,
+          "bridge_base64": "YzMxYzQwYWJlMDNhNGE4YzJlMw==",
+          "ascii": "c31c40abe03a4a8c2e3",
+          "hex": "63333163343061626530336134613863326533",
+          "bytes": 19
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "6333316333356162636134613863326533"
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "63333163343061626530336134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    },
+    {
+      "label": "current row icon while playing",
+      "item": {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      "index": 3,
+      "is_playing_before": true,
+      "entry": "icon",
+      "current": true,
+      "state": "ing",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzM0YWJjYTRhOGMyZTM=",
+          "ascii": "c31c34abca4a8c2e3",
+          "hex": "6333316333346162636134613863326533",
+          "bytes": 17
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "6333316333346162636134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    },
+    {
+      "label": "noncurrent row icon while playing",
+      "item": {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      "index": 3,
+      "is_playing_before": true,
+      "entry": "icon",
+      "current": false,
+      "state": "ing",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzQwYWJlMDNhNGE4YzJlMw==",
+          "ascii": "c31c40abe03a4a8c2e3",
+          "hex": "63333163343061626530336134613863326533",
+          "bytes": 19
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "63333163343061626530336134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    },
+    {
+      "label": "current row icon while idle",
+      "item": {
+        "index": 3,
+        "name": "01_LC.bin"
+      },
+      "index": 3,
+      "is_playing_before": false,
+      "entry": "icon",
+      "current": true,
+      "state": "idle",
+      "native_bridge_packets": [
+        {
+          "socket_id": 4,
+          "msg_id": 0,
+          "bridge_base64": "YzMxYzM1YWJjYTRhOGMyZTM=",
+          "ascii": "c31c35abca4a8c2e3",
+          "hex": "6333316333356162636134613863326533",
+          "bytes": 17
+        },
+        {
+          "socket_id": 4,
+          "msg_id": 1,
+          "bridge_base64": "YzMxYzQwYWJlMDNhNGE4YzJlMw==",
+          "ascii": "c31c40abe03a4a8c2e3",
+          "hex": "63333163343061626530336134613863326533",
+          "bytes": 19
+        }
+      ],
+      "calls": [
+        {
+          "method": "getIsOldDevice",
+          "value": true
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "6333316333356162636134613863326533"
+        },
+        {
+          "method": "TCPClient.send recorder",
+          "buffer_hex": "63333163343061626530336134613863326533"
+        }
+      ],
+      "ui_callback_delays_ms": [
+        500
+      ]
+    }
+  ],
+  "assertions": "passed",
+  "limitations": [
+    "No actual APK bytecode, native Android code, network or device execution",
+    "Recorded Base64 decode matches inspected Java write method; Java method is not executed",
+    "Promise queue lifecycle, platform scheduling and firmware admission are not reproduced"
+  ]
+}

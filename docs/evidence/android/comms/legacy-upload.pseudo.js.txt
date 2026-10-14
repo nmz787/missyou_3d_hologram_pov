@@ -1,0 +1,752 @@
+// Original pseudo.js lines 335509..336259
+            r6 = '_waitSendFileInfoAck';
+            r4['key'] = r6;
+            r6 = function() { // Original name: _waitSendFileInfoAck, environment: r5
+                _fun9329: for(var _fun9329_ip = 0; ; ) switch(_fun9329_ip) {
+case 0:
+                    r5 = undefined;
+                    r3 = undefined;
+                    r1 = this;
+                    var _closure3_slot0 = r1;
+                    r1 = arguments.length;
+                    r2 = 0;
+                    r4 = r1 > r2;
+                    r6 = 5;
+                    r1 = r6;
+                    if(!r4) { _fun9329_ip = 45; continue _fun9329 }
+case 30:
+                    r4 = arguments[r2];
+                    r1 = r6;
+                    if(!(r4 !== r5)) { _fun9329_ip = 45; continue _fun9329 }
+case 41:
+                    r1 = arguments[r2];
+case 45:
+                    var _closure3_slot1 = r1;
+                    r1 = global;
+                    r2 = r1.Promise;
+                    r1 = r2.prototype;
+                    r1 = Object.create(r1, {constructor: {value: r2}});
+                    r7 = function(a0, a1) { // Environment: r0
+                        r0 = a0;
+                        var _closure4_slot0 = r0;
+                        r0 = a1;
+                        var _closure4_slot1 = r0;
+                        r1 = global;
+                        r5 = r1.setTimeout;
+                        r3 = _closure3_slot1;
+                        r0 = 1000;
+                        r4 = r0 * r3;
+                        r0 = undefined;
+                        r3 = function() { // Environment: r2
+                            r1 = global;
+                            r4 = r1.clearInterval;
+                            r3 = _closure4_slot3;
+                            r0 = undefined;
+                            r3 = r4.bind(r0)(r3);
+                            r2 = _closure4_slot1;
+                            r4 = r1.Error;
+                            r6 = _closure3_slot1;
+                            r1 = r1.HermesInternal;
+                            r5 = r1.concat;
+                            r3 = 'Timeout: No ACK received within ';
+                            r1 = ' seconds';
+                            r8 = r5.bind(r3)(r6, r1);
+                            r3 = r4.prototype;
+                            r3 = Object.create(r3, {constructor: {value: r4}});
+                            r9 = r3;
+                            r1 = new r9[r4](r8, r7);
+                            r1 = r1 instanceof Object ? r1 : r3;
+                            r1 = r2.bind(r0)(r1);
+                            return r0;
+                        };
+                        r3 = r5.bind(r0)(r3, r4);
+                        var _closure4_slot2 = r3;
+                        r4 = r1.setInterval;
+                        r3 = function() { // Environment: r2
+                            _fun9332: for(var _fun9332_ip = 0; ; ) switch(_fun9332_ip) {
+case 0:
+                                r0 = _closure3_slot0;
+                                r0 = r0._recvAckOfSendFileInfo;
+                                if(!r0) { _fun9332_ip = 73; continue _fun9332 }
+case 16:
+                                r3 = global;
+                                r5 = r3.clearInterval;
+                                r4 = _closure4_slot3;
+                                r1 = undefined;
+                                r4 = r5.bind(r1)(r4);
+                                r4 = r3.clearTimeout;
+                                r3 = _closure4_slot2;
+                                r3 = r4.bind(r1)(r3);
+                                r3 = _closure3_slot0;
+                                r2 = false;
+                                r3['_recvAckOfSendFileInfo'] = r2;
+                                r0 = _closure4_slot0;
+                                r0 = r0.bind(r1)();
+case 73:
+                                r0 = undefined;
+                                return r0;
+                            }
+                        };
+                        r1 = 1;
+                        r1 = r4.bind(r0)(r3, r1);
+                        var _closure4_slot3 = r1;
+                        return r0;
+                    };
+                    r8 = r1;
+                    r0 = new r8[r2](r7, r6);
+                    r0 = r0 instanceof Object ? r0 : r1;
+                    return r0;
+                }
+            };
+            r4['value'] = r6;
+            r1[28] = r4;
+            r4 = {};
+            r6 = '_waitSendPackagesIntervalAck';
+            r4['key'] = r6;
+            r6 = function() { // Original name: _waitSendPackagesIntervalAck, environment: r5
+                _fun9333: for(var _fun9333_ip = 0; ; ) switch(_fun9333_ip) {
+case 0:
+                    r5 = undefined;
+                    r3 = undefined;
+                    r1 = this;
+                    var _closure3_slot0 = r1;
+                    r1 = arguments.length;
+                    r2 = 0;
+                    r4 = r1 > r2;
+                    r6 = 5;
+                    r1 = r6;
+                    if(!r4) { _fun9333_ip = 45; continue _fun9333 }
+case 30:
+                    r4 = arguments[r2];
+                    r1 = r6;
+                    if(!(r4 !== r5)) { _fun9333_ip = 45; continue _fun9333 }
+case 41:
+                    r1 = arguments[r2];
+case 45:
+                    var _closure3_slot1 = r1;
+                    r1 = global;
+                    r2 = r1.Promise;
+                    r1 = r2.prototype;
+                    r1 = Object.create(r1, {constructor: {value: r2}});
+                    r7 = function(a0, a1) { // Environment: r0
+                        r0 = a0;
+                        var _closure4_slot0 = r0;
+                        r0 = a1;
+                        var _closure4_slot1 = r0;
+                        r1 = global;
+                        r5 = r1.setTimeout;
+                        r3 = _closure3_slot1;
+                        r0 = 1000;
+                        r4 = r0 * r3;
+                        r0 = undefined;
+                        r3 = function() { // Environment: r2
+                            r1 = global;
+                            r4 = r1.clearInterval;
+                            r3 = _closure4_slot3;
+                            r0 = undefined;
+                            r3 = r4.bind(r0)(r3);
+                            r2 = _closure4_slot1;
+                            r4 = r1.Error;
+                            r6 = _closure3_slot1;
+                            r1 = r1.HermesInternal;
+                            r5 = r1.concat;
+                            r3 = 'Timeout: No packages interval ACK received within ';
+                            r1 = ' seconds';
+                            r8 = r5.bind(r3)(r6, r1);
+                            r3 = r4.prototype;
+                            r3 = Object.create(r3, {constructor: {value: r4}});
+                            r9 = r3;
+                            r1 = new r9[r4](r8, r7);
+                            r1 = r1 instanceof Object ? r1 : r3;
+                            r1 = r2.bind(r0)(r1);
+                            return r0;
+                        };
+                        r3 = r5.bind(r0)(r3, r4);
+                        var _closure4_slot2 = r3;
+                        r4 = r1.setInterval;
+                        r3 = function() { // Environment: r2
+                            _fun9336: for(var _fun9336_ip = 0; ; ) switch(_fun9336_ip) {
+case 0:
+                                r0 = _closure3_slot0;
+                                r0 = r0._recvAckOfIntervalPkgs;
+                                if(!r0) { _fun9336_ip = 73; continue _fun9336 }
+case 16:
+                                r3 = global;
+                                r5 = r3.clearInterval;
+                                r4 = _closure4_slot3;
+                                r1 = undefined;
+                                r4 = r5.bind(r1)(r4);
+                                r4 = r3.clearTimeout;
+                                r3 = _closure4_slot2;
+                                r3 = r4.bind(r1)(r3);
+                                r3 = _closure3_slot0;
+                                r2 = false;
+                                r3['_recvAckOfIntervalPkgs'] = r2;
+                                r0 = _closure4_slot0;
+                                r0 = r0.bind(r1)();
+case 73:
+                                r0 = undefined;
+                                return r0;
+                            }
+                        };
+                        r1 = 1;
+                        r1 = r4.bind(r0)(r3, r1);
+                        var _closure4_slot3 = r1;
+                        return r0;
+                    };
+                    r8 = r1;
+                    r0 = new r8[r2](r7, r6);
+                    r0 = r0 instanceof Object ? r0 : r1;
+                    return r0;
+                }
+            };
+            r4['value'] = r6;
+            r1[29] = r4;
+            r4 = {};
+            r6 = '_disconnectUploadSocket';
+            r4['key'] = r6;
+            r6 = function(a0) { // Original name: _disconnectUploadSocket, environment: r5
+                _fun9337: for(var _fun9337_ip = 0; ; ) switch(_fun9337_ip) {
+case 0:
+                    r1 = a0;
+                    if(!r1) { _fun9337_ip = 47; continue _fun9337 }
+case 6:
+                    r0 = _closure1_slot5;
+                    r4 = r0.default;
+                    r3 = r4.i;
+                    r2 = 'TCPClient';
+                    r0 = '🔴 Disconnecting upload socket...';
+                    r0 = r3.bind(r4)(r2, r0);
+                    r0 = r1.destroy;
+                    r0 = r0.bind(r1)();
+case 47:
+                    r0 = undefined;
+                    return r0;
+                }
+            };
+            r4['value'] = r6;
+            r1[30] = r4;
+            r4 = {};
+            r6 = '_connectUploadSocket';
+            r4['key'] = r6;
+            r6 = function(a0, a1) { // Original name: _connectUploadSocket, environment: r5
+                _fun9338: for(var _fun9338_ip = 0; ; ) switch(_fun9338_ip) {
+case 0:
+                    r5 = undefined;
+                    r3 = undefined;
+                    r1 = a0;
+                    var _closure3_slot0 = r1;
+                    r1 = a1;
+                    var _closure3_slot1 = r1;
+                    r1 = arguments.length;
+                    r2 = 2;
+                    r4 = r1 > r2;
+                    r6 = 5;
+                    r1 = r6;
+                    if(!r4) { _fun9338_ip = 54; continue _fun9338 }
+case 39:
+                    r4 = arguments[r2];
+                    r1 = r6;
+                    if(!(r4 !== r5)) { _fun9338_ip = 54; continue _fun9338 }
+case 50:
+                    r1 = arguments[r2];
+case 54:
+                    var _closure3_slot2 = r1;
+                    r1 = global;
+                    r2 = r1.Promise;
+                    r1 = r2.prototype;
+                    r1 = Object.create(r1, {constructor: {value: r2}});
+                    r7 = function(a0, a1) { // Environment: r0
+                        r0 = a0;
+                        var _closure4_slot0 = r0;
+                        r0 = a1;
+                        var _closure4_slot1 = r0;
+                        r0 = _closure1_slot5;
+                        r9 = r0.default;
+                        r8 = r9.i;
+                        r7 = _closure3_slot0;
+                        r3 = _closure3_slot1;
+                        r1 = global;
+                        r5 = r1.HermesInternal;
+                        r11 = r5.concat;
+                        r16 = '🔌 Connecting to upload ';
+                        r14 = ':';
+                        r12 = '...';
+                        r15 = r7;
+                        r13 = r3;
+                        r6 = r16[r11](r15, r14, r13, r12, r11);
+                        r5 = 'TCPClient';
+                        r5 = r8.bind(r9)(r5, r6);
+                        r5 = null;
+                        var _closure4_slot2 = r5;
+                        r5 = false;
+                        var _closure4_slot3 = r5;
+                        r4 = _closure1_slot6;
+                        r6 = r4.default;
+                        r5 = r6.createConnection;
+                        r4 = {};
+                        r4['host'] = r7;
+                        r4['port'] = r3;
+                        r3 = function() { // Environment: r2
+                            r0 = true;
+                            _closure4_slot3 = r0;
+                            r0 = _closure1_slot5;
+                            r4 = r0.default;
+                            r3 = r4.i;
+                            r2 = 'TCPClient';
+                            r0 = '✅ Connected to upload server';
+                            r0 = r3.bind(r4)(r2, r0);
+                            r0 = global;
+                            r3 = r0.clearTimeout;
+                            r2 = _closure4_slot2;
+                            r0 = undefined;
+                            r2 = r3.bind(r0)(r2);
+                            r2 = _closure4_slot0;
+                            r1 = _closure4_slot4;
+                            r1 = r2.bind(r0)(r1);
+                            return r0;
+                        };
+                        r6 = r5.bind(r6)(r4, r3);
+                        var _closure4_slot4 = r6;
+                        r5 = r6.on;
+                        r4 = 'error';
+                        r3 = function(a0) { // Environment: r2
+                            _fun9341: for(var _fun9341_ip = 0; ; ) switch(_fun9341_ip) {
+case 0:
+                                r0 = _closure1_slot5;
+                                r3 = r0.default;
+                                r2 = r3.i;
+                                r1 = 'TCPClient';
+                                r0 = 'Error on upload server';
+                                r0 = r2.bind(r3)(r1, r0);
+                                r0 = _closure4_slot3;
+                                if(r0) { _fun9341_ip = 123; continue _fun9341 }
+case 41:
+                                r0 = global;
+                                r4 = r0.clearTimeout;
+                                r3 = _closure4_slot2;
+                                r2 = undefined;
+                                r3 = r4.bind(r2)(r3);
+                                r1 = _closure4_slot1;
+                                r4 = r0.Error;
+                                r3 = a0;
+                                r5 = r3.message;
+                                r0 = r0.HermesInternal;
+                                r3 = r0.concat;
+                                r0 = '❌ Failed to connect: ';
+                                r7 = r3.bind(r0)(r5);
+                                r3 = r4.prototype;
+                                r3 = Object.create(r3, {constructor: {value: r4}});
+                                r8 = r3;
+                                r0 = new r8[r4](r7, r6);
+                                r0 = r0 instanceof Object ? r0 : r3;
+                                r0 = r1.bind(r2)(r0);
+case 123:
+                                r0 = undefined;
+                                return r0;
+                            }
+                        };
+                        r3 = r5.bind(r6)(r4, r3);
+                        r5 = r6.on;
+                        r4 = 'close';
+                        r3 = function() { // Environment: r2
+                            _fun9342: for(var _fun9342_ip = 0; ; ) switch(_fun9342_ip) {
+case 0:
+                                r0 = _closure1_slot5;
+                                r3 = r0.default;
+                                r2 = r3.i;
+                                r1 = 'TCPClient';
+                                r0 = 'Close on upload server';
+                                r0 = r2.bind(r3)(r1, r0);
+                                r0 = _closure4_slot3;
+                                if(r0) { _fun9342_ip = 99; continue _fun9342 }
+case 41:
+                                r0 = global;
+                                r4 = r0.clearTimeout;
+                                r3 = _closure4_slot2;
+                                r2 = undefined;
+                                r3 = r4.bind(r2)(r3);
+                                r1 = _closure4_slot1;
+                                r4 = r0.Error;
+                                r0 = r4.prototype;
+                                r3 = Object.create(r0, {constructor: {value: r4}});
+                                r6 = '❌ Connection closed before established';
+                                r7 = r3;
+                                r0 = new r7[r4](r6, r5);
+                                r0 = r0 instanceof Object ? r0 : r3;
+                                r0 = r1.bind(r2)(r0);
+case 99:
+                                r0 = undefined;
+                                return r0;
+                            }
+                        };
+                        r3 = r5.bind(r6)(r4, r3);
+                        r4 = r1.setTimeout;
+                        r1 = _closure3_slot2;
+                        r0 = 1000;
+                        r3 = r1 * r0;
+                        r0 = undefined;
+                        r1 = function() { // Environment: r2
+                            _fun9343: for(var _fun9343_ip = 0; ; ) switch(_fun9343_ip) {
+case 0:
+                                r0 = _closure4_slot3;
+                                if(r0) { _fun9343_ip = 126; continue _fun9343 }
+case 10:
+                                r0 = _closure1_slot5;
+                                r5 = r0.default;
+                                r4 = r5.i;
+                                r7 = _closure3_slot2;
+                                r0 = global;
+                                r2 = r0.HermesInternal;
+                                r6 = r2.concat;
+                                r3 = '⏰ Connection timeout (';
+                                r2 = 's)';
+                                r3 = r6.bind(r3)(r7, r2);
+                                r2 = 'TCPClient';
+                                r2 = r4.bind(r5)(r2, r3);
+                                r3 = _closure4_slot4;
+                                r2 = r3.destroy;
+                                r2 = r2.bind(r3)();
+                                r2 = _closure4_slot1;
+                                r3 = r0.Error;
+                                r0 = r3.prototype;
+                                r1 = Object.create(r0, {constructor: {value: r3}});
+                                r9 = 'Timeout: Could not connect within 10 seconds';
+                                r10 = r1;
+                                r0 = new r10[r3](r9, r8);
+                                r1 = r0 instanceof Object ? r0 : r1;
+                                r0 = undefined;
+                                r0 = r2.bind(r0)(r1);
+case 126:
+                                r0 = undefined;
+                                return r0;
+                            }
+                        };
+                        r1 = r4.bind(r0)(r1, r3);
+                        _closure4_slot2 = r1;
+                        return r0;
+                    };
+                    r8 = r1;
+                    r0 = new r8[r2](r7, r6);
+                    r0 = r0 instanceof Object ? r0 : r1;
+                    return r0;
+                }
+            };
+            r4['value'] = r6;
+            r1[31] = r4;
+            r4 = {};
+            r6 = 'uploadFile';
+            r4['key'] = r6;
+            r6 = function() { // Environment: r5
+                r1 = _closure1_slot2;
+                r3 = r1.default;
+                r2 = undefined;
+                r1 = function* (a0, a1) { // Environment: r0
+                    r0 = function* (a0, a1) { // Original name: ?anon_0_, environment: r0
+                        _fun9347: for(var _fun9347_ip = 0; ; ) switch(_fun9347_ip) {
+case 0:
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(r1) { _fun9347_ip = 615; continue _fun9347 }
+case 12:
+                            r1 = undefined;
+                            r8 = undefined;
+                            r16 = a0;
+                            r15 = a1;
+                            var _closure5_slot0 = r1;
+                            r2 = undefined;
+                            r3 = undefined;
+                            r7 = undefined;
+                            r9 = undefined;
+                            r5 = arguments.length;
+                            r6 = 2;
+                            if(!(r5 > r6)) { _fun9347_ip = 52; continue _fun9347 }
+case 44:
+                            r5 = arguments[r6];
+                            if(!(r5 === r1)) { _fun9347_ip = 56; continue _fun9347 }
+case 52:
+                            r5 = {};
+                            _fun9347_ip = 60; continue _fun9347;
+case 56:
+                            r5 = arguments[r6];
+case 60:
+                            _closure5_slot0 = r5;
+                            r8 = null;
+                            r2 = null;
+                            r5 = r5.onProgress;
+                            if(!r5) { _fun9347_ip = 221; continue _fun9347 }
+case 80:
+                            r6 = _closure1_slot8;
+                            r6 = r6.Platform;
+                            r10 = r6.OS;
+                            r6 = 'ios';
+                            if(!(r10 !== r6)) { _fun9347_ip = 117; continue _fun9347 }
+case 105:
+                            r6 = _closure1_slot8;
+                            r11 = r6.DeviceEventEmitter;
+                            _fun9347_ip = 173; continue _fun9347;
+case 117:
+                            r6 = _closure1_slot8;
+                            r12 = r6.NativeEventEmitter;
+                            r10 = _closure1_slot0;
+                            r13 = _closure1_slot1;
+                            r6 = 11;
+                            r6 = r13[r6];
+                            r6 = r10.bind(r1)(r6);
+                            r19 = r6.MIDDLE;
+                            r10 = r12.prototype;
+                            r10 = Object.create(r10, {constructor: {value: r12}});
+                            r20 = r10;
+                            r6 = new r20[r12](r19, r18);
+                            r11 = r6 instanceof Object ? r6 : r10;
+case 173:
+                            r10 = r11.addListener;
+                            r6 = _closure1_slot0;
+                            r12 = _closure1_slot1;
+                            r5 = 11;
+                            r5 = r12[r5];
+                            r5 = r6.bind(r1)(r5);
+                            r5 = r5.MIDDLE;
+                            r6 = r5.MEDIA_EVENT;
+                            r5 = function(a0) { // Environment: r4
+                                _fun9348: for(var _fun9348_ip = 0; ; ) switch(_fun9348_ip) {
+case 0:
+                                    r3 = a0;
+                                    r0 = _closure1_slot5;
+                                    r4 = r0.default;
+                                    r2 = r4.i;
+                                    r0 = global;
+                                    r5 = r0.JSON;
+                                    r1 = r5.stringify;
+                                    r5 = r1.bind(r5)(r3);
+                                    r0 = r0.HermesInternal;
+                                    r1 = r0.concat;
+                                    r0 = 'upload progress ';
+                                    r1 = r1.bind(r0)(r5);
+                                    r0 = 'TCPClient';
+                                    r0 = r2.bind(r4)(r0, r1);
+                                    r2 = _closure5_slot0;
+                                    r0 = null;
+                                    if(!(r2 != r0)) { _fun9348_ip = 130; continue _fun9348 }
+case 81:
+                                    r2 = _closure5_slot0;
+                                    r2 = r2.onProgress;
+                                    if(!(r2 != r0)) { _fun9348_ip = 130; continue _fun9348 }
+case 95:
+                                    r2 = _closure5_slot0;
+                                    r1 = r2.onProgress;
+                                    r4 = r3 == r0;
+                                    r0 = undefined;
+                                    if(r4) { _fun9348_ip = 120; continue _fun9348 }
+case 114:
+                                    r0 = r3.progress;
+case 120:
+                                    if(r0) { _fun9348_ip = 125; continue _fun9348 }
+case 123:
+                                    r0 = 0;
+case 125:
+                                    r0 = r1.bind(r2)(r0);
+case 130:
+                                    r0 = undefined;
+                                    return r0;
+                                }
+                            };
+                            r2 = r10.bind(r11)(r6, r5);
+case 221:
+                            r3 = function(a0) { // Original name: postResult, environment: r4
+                                _fun9349: for(var _fun9349_ip = 0; ; ) switch(_fun9349_ip) {
+case 0:
+                                    r5 = a0;
+                                    r1 = _closure5_slot0;
+                                    r1 = r1.onResult;
+                                    if(!r1) { _fun9349_ip = 34; continue _fun9349 }
+case 19:
+                                    r1 = _closure5_slot0;
+                                    r0 = r1.onResult;
+                                    r0 = r0.bind(r1)(r5);
+case 34:
+                                    r1 = _closure1_slot5;
+                                    r4 = r1.default;
+                                    r3 = r4.i;
+                                    r2 = 'TCPClient';
+                                    if(r5) { _fun9349_ip = 70; continue _fun9349 }
+case 58:
+                                    r1 = '❌ Upload failed.';
+                                    r1 = r3.bind(r4)(r2, r1);
+                                    _fun9349_ip = 80; continue _fun9349;
+case 70:
+                                    r1 = '✅ Upload completed.';
+                                    r1 = r3.bind(r4)(r2, r1);
+case 80:
+                                    r1 = _closure1_slot7;
+                                    r3 = r1.default;
+                                    r2 = r3.show;
+                                    r1 = {};
+                                    r6 = _closure1_slot0;
+                                    r4 = _closure1_slot1;
+                                    r0 = 12;
+                                    r4 = r4[r0];
+                                    r0 = undefined;
+                                    r4 = r6.bind(r0)(r4);
+                                    r7 = r4.strings;
+                                    if(r5) { _fun9349_ip = 137; continue _fun9349 }
+case 126:
+                                    r4 = 'upload_failed';
+                                    r4 = r7.bind(r0)(r4);
+                                    _fun9349_ip = 146; continue _fun9349;
+case 137:
+                                    r6 = 'upload_success';
+                                    r4 = r7.bind(r0)(r6);
+case 146:
+                                    r1['text1'] = r4;
+                                    r4 = 'error';
+                                    if(!r5) { _fun9349_ip = 161; continue _fun9349 }
+case 157:
+                                    r4 = 'success';
+case 161:
+                                    r1['type'] = r4;
+                                    r1 = r2.bind(r3)(r1);
+                                    return r0;
+                                }
+                            };
+case 226: // try_start_0 // try_start_1
+                            r5 = r15;
+                            r4 = r5.startsWith;
+                            r10 = 'file://';
+                            r4 = r4.bind(r5)(r10);
+                            if(!r4) { _fun9347_ip = 265; continue _fun9347 }
+case 247:
+                            r6 = r15;
+                            r5 = r6.replace;
+                            r4 = '';
+                            r15 = r5.bind(r6)(r10, r4);
+case 265:
+                            r10 = _closure1_slot0;
+                            r11 = _closure1_slot1;
+                            r4 = 11;
+                            r5 = r11[r4];
+                            r5 = r10.bind(r1)(r5);
+                            r13 = r5.MIDDLE;
+                            r12 = r13.callNativeWithPromise;
+                            r5 = r11[r4];
+                            r5 = r10.bind(r1)(r5);
+                            r5 = r5.MEDIA_MODULE;
+                            r4 = r11[r4];
+                            r4 = r10.bind(r1)(r4);
+                            r4 = r4.MIDDLE;
+                            r4 = r4.MEDIA_FUNC_UPLOAD;
+                            r11 = r5 + r4;
+                            r5 = global;
+                            r14 = r5.JSON;
+                            r10 = r14.stringify;
+                            r4 = {};
+                            r4['name'] = r16;
+                            r4['path'] = r15;
+                            r10 = r10.bind(r14)(r4);
+                            r4 = 0;
+                            r4 = r12.bind(r13)(r11, r10, r4);
+                            SaveGenerator(address=381);
+case 379:
+                            return r4;
+case 381:
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=10);
+                            if(r10) { _fun9347_ip = 490; continue _fun9347 }
+case 387:
+                            r9 = r4;
+                            r6 = _closure1_slot5;
+                            r11 = r6.default;
+                            r10 = r11.i;
+                            r12 = r5.JSON;
+                            r6 = r12.stringify;
+                            r12 = r6.bind(r12)(r4);
+                            r5 = r5.HermesInternal;
+                            r6 = r5.concat;
+                            r5 = 'upload result ';
+                            r6 = r6.bind(r5)(r12);
+                            r5 = 'TCPClient';
+                            r5 = r10.bind(r11)(r5, r6);
+                            r6 = r3;
+                            r10 = r4 == r8;
+                            r5 = undefined;
+                            if(r10) { _fun9347_ip = 468; continue _fun9347 }
+case 462:
+                            r5 = r9.result;
+case 468:
+                            r7 = r5;
+                            r8 = r5 != r8;
+                            r5 = false;
+                            if(!r8) { _fun9347_ip = 483; continue _fun9347 }
+case 480:
+                            r5 = r7;
+case 483:
+                            r5 = r6.bind(r1)(r5);
+case 488: // try_end0
+                            _fun9347_ip = 572; continue _fun9347;
+case 490: // try_end1
+                            r5 = r2;
+                            if(!r5) { _fun9347_ip = 508; continue _fun9347 }
+case 496:
+                            r6 = r2;
+                            r5 = r6.remove;
+                            r5 = r5.bind(r6)();
+case 508:
+                            return r4;
+case 511: // try_start_2 // catch_target0
+                            CatchBlockStart(arg_register=8);
+                            r4 = _closure1_slot5;
+                            r7 = r4.default;
+                            r6 = r7.i;
+                            r4 = global;
+                            r4 = r4.HermesInternal;
+                            r5 = r4.concat;
+                            r4 = 'upload error ';
+                            r5 = r5.bind(r4)(r8);
+                            r4 = 'TCPClient';
+                            r4 = r6.bind(r7)(r4, r5);
+                            r4 = r3;
+                            r3 = false;
+                            r3 = r4.bind(r1)(r3);
+case 572: // try_end2
+                            r3 = r2;
+                            if(!r3) { _fun9347_ip = 590; continue _fun9347 }
+case 578:
+                            r4 = r2;
+                            r3 = r4.remove;
+                            r3 = r3.bind(r4)();
+case 590:
+                            return r1;
+case 593: // catch_target1 // catch_target2
+                            CatchBlockStart(arg_register=1);
+                            r3 = r2;
+                            if(!r3) { _fun9347_ip = 613; continue _fun9347 }
+case 601:
+                            r3 = r2;
+                            r2 = r3.remove;
+                            r2 = r2.bind(r3)();
+case 613:
+                            throw r1;
+case 615:
+                            return r0;
+                        }
+                    };
+                    return r0;
+                };
+                r1 = r3.bind(r2)(r1);
+                var _closure3_slot0 = r1;
+                r0 = function(a0, a1) { // Original name: uploadFile, environment: r0
+                    r0 = undefined;
+                    r3 = _closure3_slot0;
+                    r2 = r3.apply;
+                    r0 = arguments;
+                    r1 = r0;
+                    r0 = this;
+                    r0 = r2.bind(r3)(r0, r1);
+                    return r0;
+                };
+                return r0;
+            };
+            r6 = r6.bind(r0)();
+            r4['value'] = r6;
+            r1[32] = r4;
+            r4 = {};
+            r6 = 'setOnConnectChangedBlock';

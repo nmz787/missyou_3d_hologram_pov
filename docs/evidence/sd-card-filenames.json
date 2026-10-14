@@ -1,0 +1,100 @@
+{
+  "client_date": "2026-10-13",
+  "mount": "/media/nathan/1897-6A82",
+  "filesystem": "vfat",
+  "operation": "Read-only VFAT_IOCTL_READDIR_BOTH on mounted directory; no SD files changed",
+  "ioctl_request": "0x82307201",
+  "linux_header": "/usr/include/linux/msdos_fs.h",
+  "disk_usage_bytes": {
+    "total": 4022304768,
+    "used": 243007488,
+    "free": 3779297280
+  },
+  "filenames": [
+    {
+      "short_name": "SYSTEM~1",
+      "long_name": "System Volume Information"
+    },
+    {
+      "short_name": "01CHRI~1.BIN",
+      "long_name": "01Christmas.bin"
+    },
+    {
+      "short_name": "02FATH~1.BIN",
+      "long_name": "02Father Christmas.bin"
+    },
+    {
+      "short_name": "03FATH~1.BIN",
+      "long_name": "03Father Christmas.bin"
+    },
+    {
+      "short_name": "04count.bin",
+      "long_name": "04count.bin"
+    },
+    {
+      "short_name": "05CHRI~1.BIN",
+      "long_name": "05Christmas.bin"
+    },
+    {
+      "short_name": "06JELL~1.BIN",
+      "long_name": "06Jellyfish.bin"
+    },
+    {
+      "short_name": "07SING.BIN",
+      "long_name": "07Sing.bin"
+    },
+    {
+      "short_name": "08BUTT~1.BIN",
+      "long_name": "08butterfly.bin"
+    },
+    {
+      "short_name": "09CHRI~1.BIN",
+      "long_name": "09Christmas.bin"
+    },
+    {
+      "short_name": "11CC30~1.BIN",
+      "long_name": "11cc30e49.bin"
+    },
+    {
+      "short_name": "12E8F9~1.BIN",
+      "long_name": "12e8f9052a.bin"
+    },
+    {
+      "short_name": "APPAND~1.RAR",
+      "long_name": "APP and PC.rar"
+    },
+    {
+      "short_name": "APPAND~1.ZIP",
+      "long_name": "APP and PC.zip"
+    },
+    {
+      "short_name": "00_B.bin",
+      "long_name": "00_B.bin"
+    },
+    {
+      "short_name": "01_LC.bin",
+      "long_name": "01_LC.bin"
+    },
+    {
+      "short_name": "13_TRA~1.BIN",
+      "long_name": "13_tractor.bin"
+    },
+    {
+      "short_name": "14_CD.BIN",
+      "long_name": "14_cd.bin"
+    }
+  ],
+  "user_reported_playback": {
+    "device_app_model": "F-Mini11",
+    "device_type": 7,
+    "input": "VID_20260928_174649_506.mp4",
+    "frames": 9,
+    "duration_seconds": 0.45,
+    "header_bytes": 772,
+    "file_bytes": 358172,
+    "video": "played successfully",
+    "audio": "played successfully",
+    "authority": "user report; not independently observed device playback"
+  },
+  "inference": "Reported tilde names match stored FAT 8.3 aliases; exact firmware/Android formatting stage unobserved"
+}

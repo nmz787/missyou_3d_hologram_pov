@@ -1,0 +1,438 @@
+{
+  "evidence_id": "ev_53cfd220f3896c30e491bc973705473b40cd43ea436f272f2a77e53b1742d652",
+  "subject": {
+    "name": "5D-Holo-android.apk",
+    "digest": {
+      "sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9"
+    },
+    "format": "apk",
+    "architecture": null,
+    "local_path": "/home/nathan/git/5d_pov/5D-Holo-android.apk"
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_class",
+  "parameters": {
+    "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+    "class_name": "com.sp.holographic.react.MiddleNativeModule"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "/tmp/rea-android-ij42jM/target.apk",
+      "class_count": 14384,
+      "resource_count": 2109,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"available_processors\":16,\"java_version\":\"25.0.4.1\",\"max_heap_bytes\":10443816960,\"metadata_scope\":\"parsed_members\",\"engine_reported_version\":\"0.7.1\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "/tmp/rea-android-ij42jM/target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-ij42jM/target.apk\",\"class_count\":14384,\"raw_class_count\":14384,\"resource_count\":2109,\"load_duration_ms\":8985,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "com.sp.holographic.react.MiddleNativeModule"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"inner_classes\":[\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass1\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass2\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass3\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass4\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass5\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass6\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass7\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass8\"],\"inner_class_count\":8,\"method_count\":36,\"methods\":[{\"signature\":\"$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg(com.sp.holographic.react.MiddleNativeModule, java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"def_pos\":0,\"name\":\"$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg\",\"is_constructor\":false},{\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false},{\"signature\":\"\\u003cinit\\u003e(com.facebook.react.bridge.ReactApplicationContext): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true},{\"signature\":\"access$000(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"def_pos\":0,\"name\":\"access$000\",\"is_constructor\":false},{\"signature\":\"access$100(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"def_pos\":0,\"name\":\"access$100\",\"is_constructor\":false},{\"signature\":\"access$200(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"def_pos\":0,\"name\":\"access$200\",\"is_constructor\":false},{\"signature\":\"addListener(java.lang.String): void\",\"def_pos\":0,\"name\":\"addListener\",\"is_constructor\":false},{\"signature\":\"callNativeNoReturn(java.lang.String, java.lang.String, int): void\",\"def_pos\":0,\"name\":\"callNativeNoReturn\",\"is_constructor\":false},{\"signature\":\"callNativeWithCallback(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback): void\",\"def_pos\":0,\"name\":\"callNativeWithCallback\",\"is_constructor\":false},{\"signature\":\"callNativeWithEvent(java.lang.String, java.lang.String, int): void\",\"def_pos\":0,\"name\":\"callNativeWithEvent\",\"is_constructor\":false},{\"signature\":\"callNativeWithPromise(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Promise): void\",\"def_pos\":0,\"name\":\"callNativeWithPromise\",\"is_constructor\":false},{\"signature\":\"changeLanguage(java.lang.String): void\",\"def_pos\":0,\"name\":\"changeLanguage\",\"is_constructor\":false},{\"signature\":\"closePCMFile(): void\",\"def_pos\":0,\"name\":\"closePCMFile\",\"is_constructor\":false},{\"signature\":\"connectWSS(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"connectWSS\",\"is_constructor\":false},{\"signature\":\"disconnectWSS(): boolean\",\"def_pos\":0,\"name\":\"disconnectWSS\",\"is_constructor\":false},{\"signature\":\"getConstants(): java.util.Map\\u003cjava.lang.String, java.lang.Object\\u003e\",\"def_pos\":0,\"name\":\"getConstants\",\"is_constructor\":false},{\"signature\":\"getName(): java.lang.String\",\"def_pos\":0,\"name\":\"getName\",\"is_constructor\":false},{\"signature\":\"getRecordState(): java.lang.String\",\"def_pos\":0,\"name\":\"getRecordState\",\"is_constructor\":false},{\"signature\":\"handleCmd(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"def_pos\":0,\"name\":\"handleCmd\",\"is_constructor\":false},{\"signature\":\"lambda$closePCMFile$0(): void\",\"def_pos\":0,\"name\":\"lambda$closePCMFile$0\",\"is_constructor\":false},{\"signature\":\"lambda$handleCmd$1(java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"def_pos\":0,\"name\":\"lambda$handleCmd$1\",\"is_constructor\":false},{\"signature\":\"log(int, java.lang.String): void\",\"def_pos\":0,\"name\":\"log\",\"is_constructor\":false},{\"signature\":\"m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0(com.sp.holographic.react.MiddleNativeModule): void\",\"def_pos\":0,\"name\":\"m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0\",\"is_constructor\":false},{\"signature\":\"m1302$$Nest$fgetaudSenderHandle(com.sp.holographic.react.MiddleNativeModule): long\",\"def_pos\":0,\"name\":\"m1302$$Nest$fgetaudSenderHandle\",\"is_constructor\":false},{\"signature\":\"m1303$$Nest$fgethandler(com.sp.holographic.react.MiddleNativeModule): android.os.Handler\",\"def_pos\":0,\"name\":\"m1303$$Nest$fgethandler\",\"is_constructor\":false},{\"signature\":\"m1304$$Nest$fgetpcmOut(com.sp.holographic.react.MiddleNativeModule): java.io.FileOutputStream\",\"def_pos\":0,\"name\":\"m1304$$Nest$fgetpcmOut\",\"is_constructor\":false},{\"signature\":\"m1305$$Nest$fgettimer(com.sp.holographic.react.MiddleNativeModule): java.lang.Runnable\",\"def_pos\":0,\"name\":\"m1305$$Nest$fgettimer\",\"is_constructor\":false},{\"signature\":\"m1306$$Nest$mgetRecordState(com.sp.holographic.react.MiddleNativeModule): java.lang.String\",\"def_pos\":0,\"name\":\"m1306$$Nest$mgetRecordState\",\"is_constructor\":false},{\"signature\":\"m1307$$Nest$sfgetTAG(): java.lang.String\",\"def_pos\":0,\"name\":\"m1307$$Nest$sfgetTAG\",\"is_constructor\":false},{\"signature\":\"onCatalystInstanceDestroy(): void\",\"def_pos\":0,\"name\":\"onCatalystInstanceDestroy\",\"is_constructor\":false},{\"signature\":\"onReceiveEvent(java.lang.String): void\",\"def_pos\":0,\"name\":\"onReceiveEvent\",\"is_constructor\":false},{\"signature\":\"parseCmd(int, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"def_pos\":0,\"name\":\"parseCmd\",\"is_constructor\":false},{\"signature\":\"preparePCMFile(android.content.Context): void\",\"def_pos\":0,\"name\":\"preparePCMFile\",\"is_constructor\":false},{\"signature\":\"removeListeners(java.lang.Integer): void\",\"def_pos\":0,\"name\":\"removeListeners\",\"is_constructor\":false},{\"signature\":\"startRecord(java.lang.String): boolean\",\"def_pos\":0,\"name\":\"startRecord\",\"is_constructor\":false},{\"signature\":\"stopRecord(): boolean\",\"def_pos\":0,\"name\":\"stopRecord\",\"is_constructor\":false}],\"fields\":[{\"type\":\"boolean\",\"name\":\"DEBUG_FILES\",\"def_pos\":0},{\"type\":\"java.lang.String\",\"name\":\"TAG\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"TYPE_CALLBACK\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"TYPE_EVENT\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"TYPE_NORMAL\",\"def_pos\":0},{\"type\":\"int\",\"name\":\"TYPE_PROMISE\",\"def_pos\":0},{\"type\":\"long\",\"name\":\"audSenderHandle\",\"def_pos\":0},{\"type\":\"com.sp.holographic.record.PCMDataCallback\",\"name\":\"callback\",\"def_pos\":0},{\"type\":\"com.sp.holographic.record.RecorderConfig\",\"name\":\"config\",\"def_pos\":0},{\"type\":\"android.os.Handler\",\"name\":\"fileHandler\",\"def_pos\":0},{\"type\":\"android.os.HandlerThread\",\"name\":\"fileThread\",\"def_pos\":0},{\"type\":\"android.os.Handler\",\"name\":\"handler\",\"def_pos\":0},{\"type\":\"com.facebook.react.bridge.ReactApplicationContext\",\"name\":\"mContext\",\"def_pos\":0},{\"type\":\"java.io.FileOutputStream\",\"name\":\"pcmOut\",\"def_pos\":0},{\"type\":\"com.sp.holographic.record.PCMRecorder\",\"name\":\"recorder\",\"def_pos\":0},{\"type\":\"java.lang.Runnable\",\"name\":\"timer\",\"def_pos\":0}],\"field_count\":16,\"full_name\":\"com.sp.holographic.react.MiddleNativeModule\",\"name\":\"MiddleNativeModule\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 9960
+    },
+    "class_name": "com.sp.holographic.react.MiddleNativeModule",
+    "methods": [
+      {
+        "name": "$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg",
+        "reported_signature": "$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg(com.sp.holographic.react.MiddleNativeModule, java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "<clinit>",
+        "reported_signature": "<clinit>(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "<init>",
+        "reported_signature": "<init>(com.facebook.react.bridge.ReactApplicationContext): void",
+        "overload_index": 0,
+        "is_constructor": true,
+        "dex_descriptor": null
+      },
+      {
+        "name": "access$000",
+        "reported_signature": "access$000(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "access$100",
+        "reported_signature": "access$100(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "access$200",
+        "reported_signature": "access$200(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "addListener",
+        "reported_signature": "addListener(java.lang.String): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "callNativeNoReturn",
+        "reported_signature": "callNativeNoReturn(java.lang.String, java.lang.String, int): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "callNativeWithCallback",
+        "reported_signature": "callNativeWithCallback(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "callNativeWithEvent",
+        "reported_signature": "callNativeWithEvent(java.lang.String, java.lang.String, int): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "callNativeWithPromise",
+        "reported_signature": "callNativeWithPromise(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Promise): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "changeLanguage",
+        "reported_signature": "changeLanguage(java.lang.String): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "closePCMFile",
+        "reported_signature": "closePCMFile(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "connectWSS",
+        "reported_signature": "connectWSS(java.lang.String): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "disconnectWSS",
+        "reported_signature": "disconnectWSS(): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getConstants",
+        "reported_signature": "getConstants(): java.util.Map<java.lang.String, java.lang.Object>",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getName",
+        "reported_signature": "getName(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "getRecordState",
+        "reported_signature": "getRecordState(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "handleCmd",
+        "reported_signature": "handleCmd(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "lambda$closePCMFile$0",
+        "reported_signature": "lambda$closePCMFile$0(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "lambda$handleCmd$1",
+        "reported_signature": "lambda$handleCmd$1(java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "log",
+        "reported_signature": "log(int, java.lang.String): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0",
+        "reported_signature": "m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0(com.sp.holographic.react.MiddleNativeModule): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1302$$Nest$fgetaudSenderHandle",
+        "reported_signature": "m1302$$Nest$fgetaudSenderHandle(com.sp.holographic.react.MiddleNativeModule): long",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1303$$Nest$fgethandler",
+        "reported_signature": "m1303$$Nest$fgethandler(com.sp.holographic.react.MiddleNativeModule): android.os.Handler",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1304$$Nest$fgetpcmOut",
+        "reported_signature": "m1304$$Nest$fgetpcmOut(com.sp.holographic.react.MiddleNativeModule): java.io.FileOutputStream",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1305$$Nest$fgettimer",
+        "reported_signature": "m1305$$Nest$fgettimer(com.sp.holographic.react.MiddleNativeModule): java.lang.Runnable",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1306$$Nest$mgetRecordState",
+        "reported_signature": "m1306$$Nest$mgetRecordState(com.sp.holographic.react.MiddleNativeModule): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "m1307$$Nest$sfgetTAG",
+        "reported_signature": "m1307$$Nest$sfgetTAG(): java.lang.String",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "onCatalystInstanceDestroy",
+        "reported_signature": "onCatalystInstanceDestroy(): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "onReceiveEvent",
+        "reported_signature": "onReceiveEvent(java.lang.String): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "parseCmd",
+        "reported_signature": "parseCmd(int, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "preparePCMFile",
+        "reported_signature": "preparePCMFile(android.content.Context): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "removeListeners",
+        "reported_signature": "removeListeners(java.lang.Integer): void",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "startRecord",
+        "reported_signature": "startRecord(java.lang.String): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      },
+      {
+        "name": "stopRecord",
+        "reported_signature": "stopRecord(): boolean",
+        "overload_index": 0,
+        "is_constructor": false,
+        "dex_descriptor": null
+      }
+    ],
+    "fields": [
+      {
+        "name": "DEBUG_FILES",
+        "reported_type": "boolean"
+      },
+      {
+        "name": "TAG",
+        "reported_type": "java.lang.String"
+      },
+      {
+        "name": "TYPE_CALLBACK",
+        "reported_type": "int"
+      },
+      {
+        "name": "TYPE_EVENT",
+        "reported_type": "int"
+      },
+      {
+        "name": "TYPE_NORMAL",
+        "reported_type": "int"
+      },
+      {
+        "name": "TYPE_PROMISE",
+        "reported_type": "int"
+      },
+      {
+        "name": "audSenderHandle",
+        "reported_type": "long"
+      },
+      {
+        "name": "callback",
+        "reported_type": "com.sp.holographic.record.PCMDataCallback"
+      },
+      {
+        "name": "config",
+        "reported_type": "com.sp.holographic.record.RecorderConfig"
+      },
+      {
+        "name": "fileHandler",
+        "reported_type": "android.os.Handler"
+      },
+      {
+        "name": "fileThread",
+        "reported_type": "android.os.HandlerThread"
+      },
+      {
+        "name": "handler",
+        "reported_type": "android.os.Handler"
+      },
+      {
+        "name": "mContext",
+        "reported_type": "com.facebook.react.bridge.ReactApplicationContext"
+      },
+      {
+        "name": "pcmOut",
+        "reported_type": "java.io.FileOutputStream"
+      },
+      {
+        "name": "recorder",
+        "reported_type": "com.sp.holographic.record.PCMRecorder"
+      },
+      {
+        "name": "timer",
+        "reported_type": "java.lang.Runnable"
+      }
+    ],
+    "inner_classes": [
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass1",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass2",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass3",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass4",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass5",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass6",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass7",
+      "com.sp.holographic.react.MiddleNativeModule.AnonymousClass8"
+    ]
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

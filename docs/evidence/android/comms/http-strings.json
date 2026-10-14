@@ -1,0 +1,4474 @@
+[
+  {
+    "string_id": 1,
+    "offset": "0x87939",
+    "bytes": 1,
+    "raw_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "i"
+  },
+  {
+    "string_id": 6,
+    "offset": "0x8796b",
+    "bytes": 5,
+    "raw_sha256": "f0cf39d0be3efbb6f86ac2404100ff7e055c17ded946a06808d66f89ca03a811",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Array"
+  },
+  {
+    "string_id": 10,
+    "offset": "0x879b5",
+    "bytes": 16,
+    "raw_sha256": "99fdc7a59ee76e687ead1c295d7e1e1e593c1f2037ad6ec3c4a2910281baee24",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "BACKGROUND_COLOR"
+  },
+  {
+    "string_id": 12,
+    "offset": "0x87a36",
+    "bytes": 6,
+    "raw_sha256": "e44193fd2d21722a46c8fcab041508d4c5be95a34828b72c631df53e8d7e20a6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Buffer"
+  },
+  {
+    "string_id": 13,
+    "offset": "0x87aa4",
+    "bytes": 6,
+    "raw_sha256": "88c45d9e526c08dd7f8b9d1d3ab96a72d68205232090be5da57e05251bfea650",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Colors"
+  },
+  {
+    "string_id": 16,
+    "offset": "0x87b4f",
+    "bytes": 4,
+    "raw_sha256": "99c40ab405926cb5ad1def9cff4d7ce624f8f8abfff4e85f655347fcb949d08e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Date"
+  },
+  {
+    "string_id": 18,
+    "offset": "0x87ddf",
+    "bytes": 11,
+    "raw_sha256": "0249c992aa34ac88ff395f1bfe23576684aea5fd842ccbb1ddff495b8cb3d171",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "EasyLoading"
+  },
+  {
+    "string_id": 20,
+    "offset": "0x87e28",
+    "bytes": 5,
+    "raw_sha256": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Error"
+  },
+  {
+    "string_id": 21,
+    "offset": "0x87e64",
+    "bytes": 14,
+    "raw_sha256": "78547e7e36642165a045b8bdf31d68e98239de8b24942a25356e27ab04866ba0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HermesInternal"
+  },
+  {
+    "string_id": 22,
+    "offset": "0x87eb2",
+    "bytes": 5,
+    "raw_sha256": "1aa4cb0bcca76e92e30677e809bb3d4b5c066715ef4d558184e319496bcc5125",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Image"
+  },
+  {
+    "string_id": 24,
+    "offset": "0x87fc6",
+    "bytes": 4,
+    "raw_sha256": "db1a21a0bc2ef8fbe13ac4cf044e8c9116d29137d5ed8b916ab63dcb2d4290df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "JSON"
+  },
+  {
+    "string_id": 25,
+    "offset": "0x88026",
+    "bytes": 4,
+    "raw_sha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "show"
+  },
+  {
+    "string_id": 26,
+    "offset": "0x88039",
+    "bytes": 3,
+    "raw_sha256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Log"
+  },
+  {
+    "string_id": 30,
+    "offset": "0x88716",
+    "bytes": 4,
+    "raw_sha256": "d48500aea83254706245e7d20d430468b1c00cd84c96ac175044ffe4b514a6e3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Math"
+  },
+  {
+    "string_id": 34,
+    "offset": "0x887c8",
+    "bytes": 6,
+    "raw_sha256": "62a6da8735c18e2d66fe5de3dc5440252a1da49e3cbaa7c1d2d5068ad73ffba0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Object"
+  },
+  {
+    "string_id": 35,
+    "offset": "0x887eb",
+    "bytes": 13,
+    "raw_sha256": "a14b12b7e7544ee9d5985528d634d00c8bd125d0390da8373107102d5de446e5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PRIMARY_COLOR"
+  },
+  {
+    "string_id": 39,
+    "offset": "0x888ac",
+    "bytes": 7,
+    "raw_sha256": "1eec97a07f6be56a4f793296aa2d622b55e80e97d8c835b183fb8f04397a92d4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Promise"
+  },
+  {
+    "string_id": 41,
+    "offset": "0x88912",
+    "bytes": 3,
+    "raw_sha256": "b6f6f3ad07b3c05fa0bbbbf2e3d257ff1e3e31a83efbe2c9369cd008594f94e0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Set"
+  },
+  {
+    "string_id": 44,
+    "offset": "0x8898e",
+    "bytes": 8,
+    "raw_sha256": "bbb522f7e532f10d2d79413a98bdec613444b049a3c98639fb17831d712a2ca2",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "toString"
+  },
+  {
+    "string_id": 49,
+    "offset": "0x88b45",
+    "bytes": 17,
+    "raw_sha256": "565050f5133d855ff83519f066578bade754fe154bb0f117f2bfa673b3f1a077",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "TEXT_SECOND_COLOR"
+  },
+  {
+    "string_id": 50,
+    "offset": "0x88b83",
+    "bytes": 4,
+    "raw_sha256": "71988c4d8e0803ba4519f0b2864c1331c14a1890bf8694e251379177bfedb5c3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Text"
+  },
+  {
+    "string_id": 55,
+    "offset": "0x88cf3",
+    "bytes": 4,
+    "raw_sha256": "dcc839a4015c4b7dd9db959a8f757833b8adb92462a751b973386e453c6d58a3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "View"
+  },
+  {
+    "string_id": 58,
+    "offset": "0x88e33",
+    "bytes": 10,
+    "raw_sha256": "12fd17c415f61775b2811d597d6acab75d412f7da1c9fcfd4aeea1a36a688aad",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "__esModule"
+  },
+  {
+    "string_id": 59,
+    "offset": "0x88ede",
+    "bytes": 6,
+    "raw_sha256": "5b7e6bf2dc4a32a6aa4770cd5639c2c7af890fc86c273b5c8567fe5382086bf3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "method"
+  },
+  {
+    "string_id": 60,
+    "offset": "0x88f03",
+    "bytes": 6,
+    "raw_sha256": "7e5608ab610017afe6c1894fdd4f56848823dcb1d12302bd49751d16a290f774",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "remove"
+  },
+  {
+    "string_id": 67,
+    "offset": "0x891bf",
+    "bytes": 7,
+    "raw_sha256": "2b0dcdd40016096b852d9d5b79de2ad570249dc8e4d4ebe4fa4ab81e2aa9af35",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "actions"
+  },
+  {
+    "string_id": 68,
+    "offset": "0x891e5",
+    "bytes": 13,
+    "raw_sha256": "3b91c657aedfd56734bbeee88a16da644e54730f9955d04055e1275693e03a34",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "activeOpacity"
+  },
+  {
+    "string_id": 69,
+    "offset": "0x89263",
+    "bytes": 3,
+    "raw_sha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "add"
+  },
+  {
+    "string_id": 70,
+    "offset": "0x89263",
+    "bytes": 11,
+    "raw_sha256": "50cca7696389f2412ea0127a0b4021b158170d8257462afdbf3609cc24b74f85",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "addListener"
+  },
+  {
+    "string_id": 74,
+    "offset": "0x8937c",
+    "bytes": 2,
+    "raw_sha256": "a56145270ce6b3bebd1dd012b73948677dd618d496488bc608a3cb43ce3547dd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "id"
+  },
+  {
+    "string_id": 78,
+    "offset": "0x89515",
+    "bytes": 5,
+    "raw_sha256": "97a5e41b45ddd2b2381046e77ccfa5c45d3553b81b66aeba7ed5c460c660f93f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "apply"
+  },
+  {
+    "string_id": 79,
+    "offset": "0x895dd",
+    "bytes": 6,
+    "raw_sha256": "9300b4d2567aad13f65ce033708622fa66e8626e36c75d6b0c477367d1c3af36",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "assign"
+  },
+  {
+    "string_id": 80,
+    "offset": "0x8961c",
+    "bytes": 15,
+    "raw_sha256": "ded3e2bf79467f675489d3e8da2a19817ba4826807f9bffbb0b4022dcd5855dc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "backgroundColor"
+  },
+  {
+    "string_id": 81,
+    "offset": "0x89621",
+    "bytes": 5,
+    "raw_sha256": "a97b0931730e83fbf9284ff00a4c5f7a4eef2189dddb89319a6dfa5871e28923",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "round"
+  },
+  {
+    "string_id": 95,
+    "offset": "0x89a4a",
+    "bytes": 8,
+    "raw_sha256": "10910087de24bfcabe854fda62b5023a61fe531705043b9979fdf00f12c4c0ec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "children"
+  },
+  {
+    "string_id": 97,
+    "offset": "0x89b91",
+    "bytes": 4,
+    "raw_sha256": "5694d08a2e53ffcae0c3103e5ad6f6076abd960eb1f8a56577040bc1028f702b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "code"
+  },
+  {
+    "string_id": 98,
+    "offset": "0x89fdd",
+    "bytes": 5,
+    "raw_sha256": "74284d9dcbcc09928ca5d7d6187270a62ac1b58ccdc4a44b81e47257ffa53b9e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "color"
+  },
+  {
+    "string_id": 100,
+    "offset": "0x8a080",
+    "bytes": 6,
+    "raw_sha256": "4d671f6e9dfcde84d747a0b8cc5f289688af234ceea7d2117ce6451bc3efb693",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "concat"
+  },
+  {
+    "string_id": 102,
+    "offset": "0x8a19d",
+    "bytes": 6,
+    "raw_sha256": "b79606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "config"
+  },
+  {
+    "string_id": 103,
+    "offset": "0x8a1ef",
+    "bytes": 3,
+    "raw_sha256": "1a57a919dcf6659f0df693a805c8232ee74c1ae82f447eaf48c467c053d50a96",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "jsx"
+  },
+  {
+    "string_id": 104,
+    "offset": "0x8a1ef",
+    "bytes": 4,
+    "raw_sha256": "10da2123229bd5842d4524322197184b6c1a9e37c9ae7cc43bc3f9ac3c2447a5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "jsxs"
+  },
+  {
+    "string_id": 109,
+    "offset": "0x8a330",
+    "bytes": 14,
+    "raw_sha256": "a3fd8ac30c7355818286ecf2d2cc28f8d5b5492fa1ec752537ca959a37b14841",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "containerStyle"
+  },
+  {
+    "string_id": 110,
+    "offset": "0x8a3bc",
+    "bytes": 7,
+    "raw_sha256": "ed7002b439e9ac845f22357d822bac1444730fbdb6016d3ec9432297b9ec9f73",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "content"
+  },
+  {
+    "string_id": 115,
+    "offset": "0x8a5b3",
+    "bytes": 5,
+    "raw_sha256": "cb86eb2d914d37df6857c3cfe4827b5f770b01a86578120618b0b21572160be8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "style"
+  },
+  {
+    "string_id": 116,
+    "offset": "0x8a6bf",
+    "bytes": 5,
+    "raw_sha256": "dec0f004eaa07c2a283ea326df8f00c2c3c60b002c9bb8d452b1dcff5ba795cb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "width"
+  },
+  {
+    "string_id": 119,
+    "offset": "0x8ab1c",
+    "bytes": 7,
+    "raw_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "current"
+  },
+  {
+    "string_id": 120,
+    "offset": "0x8ab31",
+    "bytes": 4,
+    "raw_sha256": "3a6eb0790f39ac87c94f3856b2dd2c5d110e6811602261a9a923d3bb23adc8b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "data"
+  },
+  {
+    "string_id": 121,
+    "offset": "0x9e9e9",
+    "bytes": 7,
+    "raw_sha256": "37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "default"
+  },
+  {
+    "string_id": 123,
+    "offset": "0x9ea31",
+    "bytes": 14,
+    "raw_sha256": "6dbe7990a06641efbc427078a61c1db9818b2354ef8cb8113d8b9c4ec14fccc2",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "defineProperty"
+  },
+  {
+    "string_id": 131,
+    "offset": "0x9eda3",
+    "bytes": 11,
+    "raw_sha256": "e10039a5fdef3ca419f92d4b52b0a01d4084cb598917f588c8175eb46d5c8b13",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "displayName"
+  },
+  {
+    "string_id": 135,
+    "offset": "0x9f3dd",
+    "bytes": 5,
+    "raw_sha256": "ca00fccfb408989eddc401062c4d1219a6aceb6b9b55412357f1790862e8f178",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "error"
+  },
+  {
+    "string_id": 145,
+    "offset": "0x9fc59",
+    "bytes": 8,
+    "raw_sha256": "e684deda119b10175d2a728c35588c3c965d5a313f3375ff17e315993ec4bdf8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "fontSize"
+  },
+  {
+    "string_id": 147,
+    "offset": "0x9fcef",
+    "bytes": 7,
+    "raw_sha256": "0842ac641339bc127cbf90e7579a280e2097c92d3dbc0c033af8bcc486494054",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "forEach"
+  },
+  {
+    "string_id": 148,
+    "offset": "0x9fd5c",
+    "bytes": 4,
+    "raw_sha256": "75857a45899985be4c4d941e90b6b396d6c92a4c7437aaf0bf102089fe21379d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "from"
+  },
+  {
+    "string_id": 149,
+    "offset": "0x9fe4e",
+    "bytes": 9,
+    "raw_sha256": "b34563e2ebeb771708ba0648c9385383f61cc11e86af6076848433059c14b2df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "prototype"
+  },
+  {
+    "string_id": 150,
+    "offset": "0x9fe53",
+    "bytes": 4,
+    "raw_sha256": "1303c06b0b014d0ce7b988ab173a13f31227d417058ff4bbe6f8c222b4ad913c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "type"
+  },
+  {
+    "string_id": 151,
+    "offset": "0x9fe58",
+    "bytes": 4,
+    "raw_sha256": "58393216032be6257784ac0c6a73efb2a084e27b4cfff1e6acee7b7e6ab93b10",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "join"
+  },
+  {
+    "string_id": 152,
+    "offset": "0x9fe9b",
+    "bytes": 4,
+    "raw_sha256": "f63827270b16435ec0797b109e4a4a9585602610d5ce21e272839ea66d5994d6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "func"
+  },
+  {
+    "string_id": 158,
+    "offset": "0xa0050",
+    "bytes": 3,
+    "raw_sha256": "9150c74c5f92d51a92857f4b9678105ba5a676d308339a353b20bd38cd669ce7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "has"
+  },
+  {
+    "string_id": 161,
+    "offset": "0xa00e8",
+    "bytes": 10,
+    "raw_sha256": "69b273a2e991006f8526e8c769a996fedb09b00b6cb80e1bfd7f9be5b9684b04",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "horizontal"
+  },
+  {
+    "string_id": 164,
+    "offset": "0xa071e",
+    "bytes": 8,
+    "raw_sha256": "9472f22c1c3379de9ee6945a8bccb3cc53549ec2c6db15db4804acdd8905522d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "includes"
+  },
+  {
+    "string_id": 166,
+    "offset": "0xa1017",
+    "bytes": 5,
+    "raw_sha256": "1bc04b5291c26a46d918139138b992d2de976d6851d0893b0476b85bfbdfc6e6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "index"
+  },
+  {
+    "string_id": 172,
+    "offset": "0xa14cf",
+    "bytes": 3,
+    "raw_sha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "key"
+  },
+  {
+    "string_id": 177,
+    "offset": "0xa171a",
+    "bytes": 6,
+    "raw_sha256": "0f82aca66af91493b1ff401de5f1f7e3e24e14560df3f6f7e465dbc915b9947d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "length"
+  },
+  {
+    "string_id": 178,
+    "offset": "0xa17c4",
+    "bytes": 3,
+    "raw_sha256": "60be9861750facbfad8758254a2f76c0cfe78d54459a3bc187d49b1401fcd8e8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "map"
+  },
+  {
+    "string_id": 179,
+    "offset": "0xa18ac",
+    "bytes": 5,
+    "raw_sha256": "4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "match"
+  },
+  {
+    "string_id": 181,
+    "offset": "0xa1936",
+    "bytes": 7,
+    "raw_sha256": "ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "message"
+  },
+  {
+    "string_id": 183,
+    "offset": "0xa19b1",
+    "bytes": 5,
+    "raw_sha256": "9372c470eeadd5ecd9c3c74c2b3cb633f8e2f2fad799250a0f70d652b6b825e4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "model"
+  },
+  {
+    "string_id": 185,
+    "offset": "0xa1ae5",
+    "bytes": 4,
+    "raw_sha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "name"
+  },
+  {
+    "string_id": 190,
+    "offset": "0xa1c12",
+    "bytes": 7,
+    "raw_sha256": "52d9790e98405d8049f0cbd4db2fcb8d9ff5c3a4674960ae4bf3a2412dcb8ec8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPress"
+  },
+  {
+    "string_id": 195,
+    "offset": "0xa2104",
+    "bytes": 8,
+    "raw_sha256": "51a56618bb02fd6433acf296ceb5cd4ac8efdc25218a296b2569b01e88f5d3f0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "parseInt"
+  },
+  {
+    "string_id": 196,
+    "offset": "0xa23b2",
+    "bytes": 4,
+    "raw_sha256": "a0af9f865bf637e6736817f4ce552e4cdf7b8c36ea75bc254c1d1f0af744b5bf",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "path"
+  },
+  {
+    "string_id": 202,
+    "offset": "0xa261e",
+    "bytes": 4,
+    "raw_sha256": "d107ea3629c326718876f07356a48dea26f123742f8bf44ce75f8f805cf9a37d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "push"
+  },
+  {
+    "string_id": 203,
+    "offset": "0xa2653",
+    "bytes": 3,
+    "raw_sha256": "3ff6c05723bb069d19953340320fa9512f0be584742703e60226ded28bb43861",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ref"
+  },
+  {
+    "string_id": 207,
+    "offset": "0xa281c",
+    "bytes": 7,
+    "raw_sha256": "7ab3778776cde4fa728a162a53ad3abcc967d1bd7361039e0942888240c4ce86",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "replace"
+  },
+  {
+    "string_id": 216,
+    "offset": "0xa2b8d",
+    "bytes": 4,
+    "raw_sha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "send"
+  },
+  {
+    "string_id": 218,
+    "offset": "0xa2c6c",
+    "bytes": 10,
+    "raw_sha256": "e5a1f7170818e652aaa7d5467b3468170c057e6ffdb2a50c0f406feaf6a2841c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setTimeout"
+  },
+  {
+    "string_id": 220,
+    "offset": "0xa2ccc",
+    "bytes": 5,
+    "raw_sha256": "03fdb065d956f3fb9ccd85da1b15398f00a9958b715145ebf916dd91fd7b6361",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "slice"
+  },
+  {
+    "string_id": 221,
+    "offset": "0xa2cf2",
+    "bytes": 6,
+    "raw_sha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "source"
+  },
+  {
+    "string_id": 223,
+    "offset": "0xa3256",
+    "bytes": 5,
+    "raw_sha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "start"
+  },
+  {
+    "string_id": 224,
+    "offset": "0xa3289",
+    "bytes": 5,
+    "raw_sha256": "4ba69735ca53765ed6a709edb56c6ea236b7193a3b29a6b390c346f0f4340e4e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "state"
+  },
+  {
+    "string_id": 226,
+    "offset": "0xa3359",
+    "bytes": 9,
+    "raw_sha256": "fc5e714822576ed8f54909d90c85f75888a42aa3cc8baa1c157be5fe4c9235df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "stringify"
+  },
+  {
+    "string_id": 227,
+    "offset": "0xa339d",
+    "bytes": 7,
+    "raw_sha256": "e967d16dae74a49b5e0e051225c5dac0d76e5e38f13dd1628028cbce108c25b6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "strings"
+  },
+  {
+    "string_id": 228,
+    "offset": "0xa3420",
+    "bytes": 7,
+    "raw_sha256": "aee408847d35e44e99430f0979c3357b85fe8dbb4535a494301198adbee85f27",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "success"
+  },
+  {
+    "string_id": 233,
+    "offset": "0xa364f",
+    "bytes": 5,
+    "raw_sha256": "fe8df1a5a1980493ca9406ad3bb0e41297d979d90165a181fb39a5616a1c0789",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "text1"
+  },
+  {
+    "string_id": 234,
+    "offset": "0xa368c",
+    "bytes": 9,
+    "raw_sha256": "2c7d00a32c89c62c1208076ce2b44c0bb93443ac12fba8e19a267aa063b91a2f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "textAlign"
+  },
+  {
+    "string_id": 235,
+    "offset": "0xa37da",
+    "bytes": 4,
+    "raw_sha256": "21af6f1260f927f5b9b3ff5ca4a5d19493a1a47a5977240d8dca31bc47a63527",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "then"
+  },
+  {
+    "string_id": 236,
+    "offset": "0xa382d",
+    "bytes": 5,
+    "raw_sha256": "aaf2320646108059a87ab5017a86aee454f5378ed95003dbb2e12f4ca5266e0e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "title"
+  },
+  {
+    "string_id": 242,
+    "offset": "0xa3e6c",
+    "bytes": 3,
+    "raw_sha256": "28e5ebabd9d8f6e237df63da2b503785093f0229241bc7021198f63c43b93269",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "url"
+  },
+  {
+    "string_id": 246,
+    "offset": "0xa410c",
+    "bytes": 9,
+    "raw_sha256": "b6e70b1b405eb57370e5e306072a25c1eb49b94b04e1246eb388a66216efcc81",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "useEffect"
+  },
+  {
+    "string_id": 248,
+    "offset": "0xa4306",
+    "bytes": 6,
+    "raw_sha256": "0eed1f526677c41c88558ffd32d23627e0894bdcd83d5b94acdb24f4a40c1455",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "useRef"
+  },
+  {
+    "string_id": 249,
+    "offset": "0xa43c3",
+    "bytes": 8,
+    "raw_sha256": "2d15bcb160433286d6e0a1f858bc932a0b63e5715c0b9fe595e6b33cabe088ae",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "useState"
+  },
+  {
+    "string_id": 251,
+    "offset": "0xa43ee",
+    "bytes": 5,
+    "raw_sha256": "cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "value"
+  },
+  {
+    "string_id": 278,
+    "offset": "0x87b08",
+    "bytes": 12,
+    "raw_sha256": "fe48329b0a985e318765b119807c8b8bfdfbb53c0c7cb04760e7be9553b9c250",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/get?k="
+  },
+  {
+    "string_id": 279,
+    "offset": "0x87b08",
+    "bytes": 15,
+    "raw_sha256": "3029cb6ee1549de9c167969965231c27314ccd5dcc3d3e103ab5007d0598cb50",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/get?k=all"
+  },
+  {
+    "string_id": 294,
+    "offset": "0x87d16",
+    "bytes": 3,
+    "raw_sha256": "91af7d847f80f22c5ef0d11588ce9bb5d10d9ba7e8f83f380f807ab3066eb289",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ing"
+  },
+  {
+    "string_id": 301,
+    "offset": "0x87e5f",
+    "bytes": 4,
+    "raw_sha256": "32e48995f98ce3b76f2d3f5e2d2acddfeff6650b7b18628cfa739bfef4a03312",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "100%"
+  },
+  {
+    "string_id": 386,
+    "offset": "0x88b7a",
+    "bytes": 14,
+    "raw_sha256": "23b7b154fd1819baa8d4142f9f09e675f57ed75b104c27c42c73c99174799a5c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " responseText:"
+  },
+  {
+    "string_id": 393,
+    "offset": "0x88c94",
+    "bytes": 25,
+    "raw_sha256": "dec575d108d645a70e119da8d49c19e1a43a3c37407433beaa6fac2658fd676c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "start websocket URL:ws://"
+  },
+  {
+    "string_id": 394,
+    "offset": "0x88ca8",
+    "bytes": 5,
+    "raw_sha256": "2edfb372706c7f539289f553822d89cc0747e34c746deadffa3fe22fc5ca00c7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ws://"
+  },
+  {
+    "string_id": 402,
+    "offset": "0x88d73",
+    "bytes": 7,
+    "raw_sha256": "2f1ff121b7de66c80d38a92aa928c3b26d9de19804df2475a97972524525b9dc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "REQ -> "
+  },
+  {
+    "string_id": 404,
+    "offset": "0x88d76",
+    "bytes": 13,
+    "raw_sha256": "94e02abf754bf4643ae4c810c7cebf6a25dbc3392ee3bc1e4ec05797dc82a2c7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " -> POST(XHR)"
+  },
+  {
+    "string_id": 528,
+    "offset": "0x8a10c",
+    "bytes": 1,
+    "raw_sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " "
+  },
+  {
+    "string_id": 529,
+    "offset": "0x8a10c",
+    "bytes": 4,
+    "raw_sha256": "87721689ee42f4415e4afe0d0f0a84d4cd837dd0c66635bd0734127ee0e0b5b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " to "
+  },
+  {
+    "string_id": 538,
+    "offset": "0x8a1e9",
+    "bytes": 1,
+    "raw_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "."
+  },
+  {
+    "string_id": 557,
+    "offset": "0x8a583",
+    "bytes": 254,
+    "raw_sha256": "04ff7ff2590029d6f24228bc306956432e7317e9c118079ecbf0d2bdb34363f5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "\nconst style = document.createElement('style');\nstyle.type = 'text/css';\nstyle.innerHTML = '* { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }';\ndocument.getElementsByTagName('head')[0].appendChild(style);\n"
+  },
+  {
+    "string_id": 573,
+    "offset": "0x8ab30",
+    "bytes": 6,
+    "raw_sha256": "1200bab76a61216a5e7adea25f4bf3efc963a366deb2c3abcb1be5e0e367e745",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " data:"
+  },
+  {
+    "string_id": 592,
+    "offset": "0x9ecd1",
+    "bytes": 6,
+    "raw_sha256": "36004853cdece61042022b946fd9fc6ef088d1f1be8b2a0dfaf0c02f3c8c612f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " file:"
+  },
+  {
+    "string_id": 593,
+    "offset": "0x9ecd2",
+    "bytes": 7,
+    "raw_sha256": "71205e4480342d973ab4611d557e812dc8f38731d6f407a7d43eda7a5af5b562",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "file://"
+  },
+  {
+    "string_id": 615,
+    "offset": "0x9f3cf",
+    "bytes": 7,
+    "raw_sha256": "7284cd7e32a976eb26588bd4a9bd866911d7546cf32986518bd53b5c1498f4e0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " error:"
+  },
+  {
+    "string_id": 619,
+    "offset": "0x9f3f0",
+    "bytes": 5,
+    "raw_sha256": "a5fcac5380733cf2a774e98dae8edadd3e39e644385f66b5b43a17457b692140",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": ":9000"
+  },
+  {
+    "string_id": 621,
+    "offset": "0x9f3f2",
+    "bytes": 36,
+    "raw_sha256": "034114e411afa43bde6887561e8a5b92e5532270af67f5e8d6428defe79ed890",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000fff0-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 775,
+    "offset": "0xa1722",
+    "bytes": 1,
+    "raw_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0"
+  },
+  {
+    "string_id": 809,
+    "offset": "0xa19b0",
+    "bytes": 7,
+    "raw_sha256": "5f338d9256cc3f8f0359c397000528ef2719355722aede80ed921071e8ce8c0e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " model:"
+  },
+  {
+    "string_id": 832,
+    "offset": "0xa1baf",
+    "bytes": 7,
+    "raw_sha256": "d5871ba4617dc2868ec3cc111c9897337070b8707df5bdf8ea93ef79a15c1e2d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " nowTs:"
+  },
+  {
+    "string_id": 1066,
+    "offset": "0xa47d6",
+    "bytes": 1,
+    "raw_sha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "-"
+  },
+  {
+    "string_id": 1095,
+    "offset": "0xa49bd",
+    "bytes": 12,
+    "raw_sha256": "86e1f14bbc073e12d9d17aa7f9ecacc6829023ce9bd691e89471f4f2ec6aa1be",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/DCIM/upload"
+  },
+  {
+    "string_id": 1096,
+    "offset": "0xa49c3",
+    "bytes": 13,
+    "raw_sha256": "dbf34c377a12babb3f9f205a6ff0577e7ca6bcaa3edf91e1ffca491188cdba98",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload error "
+  },
+  {
+    "string_id": 1152,
+    "offset": "0xa4ec5",
+    "bytes": 8,
+    "raw_sha256": "0921fe6144e56c899688557214c4829b3d678c74dfe73620149599118382c54c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " config:"
+  },
+  {
+    "string_id": 1160,
+    "offset": "0xa4f81",
+    "bytes": 4,
+    "raw_sha256": "0f995773a67f4edd0d8ac3c3584a17dd32f6ff2513efdf4152c4d47a9125e2ad",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "set "
+  },
+  {
+    "string_id": 1164,
+    "offset": "0xa4fb8",
+    "bytes": 18,
+    "raw_sha256": "ab79125af3b9f35a18e6904132146775497c96f7eb99c1fbc1fdd1fc25182d93",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " CONN.isConnected:"
+  },
+  {
+    "string_id": 1168,
+    "offset": "0xa4fd8",
+    "bytes": 6,
+    "raw_sha256": "84c09a3230955f7794ef0a823f7fba6bb196641754a2cd66ef3aed79040a1e71",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " body:"
+  },
+  {
+    "string_id": 1261,
+    "offset": "0xa5a2e",
+    "bytes": 19,
+    "raw_sha256": "1c65a4e3a539784ed99eec9274a8494545602a4c5725a7c260c95938d6faa782",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WebSocket connected"
+  },
+  {
+    "string_id": 1262,
+    "offset": "0xa5a37",
+    "bytes": 11,
+    "raw_sha256": "1162fd98a968681a32e8b1149bc0e9c516ed1d5c299f0d55cb9d93ef0b6fd61f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " connected:"
+  },
+  {
+    "string_id": 1268,
+    "offset": "0xa5a89",
+    "bytes": 8,
+    "raw_sha256": "9685b681413b7d34e7d6968cb390132ff187e981df4cdbd4f5757567d76f22a7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " device:"
+  },
+  {
+    "string_id": 1269,
+    "offset": "0xa5a97",
+    "bytes": 23,
+    "raw_sha256": "847a9ea2ce6a9bc429cfe3776f2bfba9ebfc85916742195d6a76711110ee5ffb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playPause failed error:"
+  },
+  {
+    "string_id": 1270,
+    "offset": "0xa5aa0",
+    "bytes": 14,
+    "raw_sha256": "5b52a6107a96a7f7a0c50ad89ba84e0c7cc7cbf6e525d889760646b15518685a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " failed error:"
+  },
+  {
+    "string_id": 1278,
+    "offset": "0xa5b2f",
+    "bytes": 9,
+    "raw_sha256": "67af385fce58532d8d3eaa048520fdbfa49eb6e7a41f59903ac76d9c0f7f49e7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "?act=play"
+  },
+  {
+    "string_id": 1301,
+    "offset": "0xa5cfc",
+    "bytes": 10,
+    "raw_sha256": "a1b255450af852fdc9d4e27a8be84d59d25020ef471832470c557b1507b2de4e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " interval:"
+  },
+  {
+    "string_id": 1352,
+    "offset": "0xa6126",
+    "bytes": 6,
+    "raw_sha256": "24dbf5700c484eee6a3e23ab4d288665c6b40b909a0d89f0d235c74eef6f1e25",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " name:"
+  },
+  {
+    "string_id": 1386,
+    "offset": "0xa6545",
+    "bytes": 11,
+    "raw_sha256": "4efb69b9e37fc631dca0c80ae9e9339cc6890a3e67b8282e725e48ffcf16e35d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "unknown key"
+  },
+  {
+    "string_id": 1389,
+    "offset": "0xa6574",
+    "bytes": 10,
+    "raw_sha256": "67c8147469e25de49eeda175298b069677fa501fbe32dc857ed61599b32d46fe",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " response:"
+  },
+  {
+    "string_id": 1396,
+    "offset": "0xa6615",
+    "bytes": 20,
+    "raw_sha256": "eddd60ac5efe133a741262a39b55ee105072d53f4a3d35d173b2b221773a906a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HTTP error! status: "
+  },
+  {
+    "string_id": 1397,
+    "offset": "0xa6620",
+    "bytes": 8,
+    "raw_sha256": "ef41cecd207e4c677477eb89a6ea00de5a9de7334e891205418fd6a6f031c8ae",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " status:"
+  },
+  {
+    "string_id": 1400,
+    "offset": "0xa662d",
+    "bytes": 8,
+    "raw_sha256": "56decf2bc3ca76b78933e09d35fbcbb2629ca219d251477c241b78d46845dc59",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": " timeout"
+  },
+  {
+    "string_id": 1518,
+    "offset": "0xa71fc",
+    "bytes": 7,
+    "raw_sha256": "9dbc23fee576c7cb4ac5b5f5b2031ca24c64eba2d969e430326788bfdfc9c903",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "## REQ:"
+  },
+  {
+    "string_id": 1522,
+    "offset": "0xa724b",
+    "bytes": 7,
+    "raw_sha256": "792e541e435e26df50b2da585616d3d1aff989e58e41d21667d5b4f219cdc750",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "## RSP:"
+  },
+  {
+    "string_id": 1533,
+    "offset": "0xa72a8",
+    "bytes": 8,
+    "raw_sha256": "1a5b2792706db9a65b35e0d25e3a0bf36754483f46e27569a2a8e18a4ecfe949",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "#### 123"
+  },
+  {
+    "string_id": 1539,
+    "offset": "0xa72ce",
+    "bytes": 13,
+    "raw_sha256": "4db89746cbd5a3b2a1d8bfbc5a32f0647607007382ea38395f781501b3cd97fb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "##### decode:"
+  },
+  {
+    "string_id": 1540,
+    "offset": "0xa72db",
+    "bytes": 13,
+    "raw_sha256": "7743d1b134309e7c5e420de3263047056e21f9739d59cfe350c36cb61bb960f3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "##### encode:"
+  },
+  {
+    "string_id": 1543,
+    "offset": "0xa7300",
+    "bytes": 18,
+    "raw_sha256": "85b1e0cc4394274f07465de9f7a23b227e1cf23cc679899c89599a60cf60a79f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "##### isConnected:"
+  },
+  {
+    "string_id": 1566,
+    "offset": "0xa7492",
+    "bytes": 25,
+    "raw_sha256": "ddcdc9cde5e52b72e0130b1c8d7eb634d23d1567dc208554549b6caf863b3b34",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "########## step 1 result:"
+  },
+  {
+    "string_id": 1567,
+    "offset": "0xa74ab",
+    "bytes": 44,
+    "raw_sha256": "874a620ef8723f0293245a9b10e503589137c644cad7a16afce563192afe7d80",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "#######>> OnConnectChangedBlock isConnected:"
+  },
+  {
+    "string_id": 1595,
+    "offset": "0xa774a",
+    "bytes": 10,
+    "raw_sha256": "d073fc87c9e64454c18c99de01f594726ea7df29ab2cbf631403ba3be389edcd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "##confirm:"
+  },
+  {
+    "string_id": 1859,
+    "offset": "0xa85fb",
+    "bytes": 9,
+    "raw_sha256": "e54253b0bec7a846f6053ad7db9a5261eec1714e0c3ef99b4e3ed50e31ab3d0c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "#FF000000"
+  },
+  {
+    "string_id": 1860,
+    "offset": "0xa8600",
+    "bytes": 36,
+    "raw_sha256": "6c3cd988aa7f4c696d8bdbb0b9d1281f7ec3b1911ca9ad7b5aa5ff9cf6138b96",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000180a-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 1865,
+    "offset": "0xa862b",
+    "bytes": 36,
+    "raw_sha256": "5a2a0f8e7ab2634d328ba11d9e73f6e337873ef3ff7800d87c3a9a073c545e81",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "00002a26-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 1878,
+    "offset": "0xa8687",
+    "bytes": 36,
+    "raw_sha256": "4818ba1ccdcbc2055fff9a4c0fc3b0dc51968238b0aeffb8d4696ffb6750546c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000fff2-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 1899,
+    "offset": "0xa8792",
+    "bytes": 36,
+    "raw_sha256": "cf651b99db8469d7152cb9a922c701e70f22ec1ff69fb8dc4cc236461e621d5e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000eee0-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 2013,
+    "offset": "0xa8c04",
+    "bytes": 36,
+    "raw_sha256": "8de7529601923ae871cdb81fd05615f8394a3f1497c13cb4e58ceefdaac6ee9d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000eee1-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 2026,
+    "offset": "0xa8c70",
+    "bytes": 10,
+    "raw_sha256": "84d89877f0d4041efb6bf91a16f0248f2fd573e6af05c19f96bedb9f882f7882",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0123456789"
+  },
+  {
+    "string_id": 2048,
+    "offset": "0xa8d66",
+    "bytes": 5,
+    "raw_sha256": "5432a4fc7e80ef6c27a2e253785cb93c72a324012e09e3201b3c9c186b5b3467",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/DCIM"
+  },
+  {
+    "string_id": 2049,
+    "offset": "0xa8d66",
+    "bytes": 6,
+    "raw_sha256": "b5b24473c4a07d0e822ecb46eb567d1265fda10b4af74a5d173b74416395073a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/DCIM/"
+  },
+  {
+    "string_id": 2061,
+    "offset": "0xa8df0",
+    "bytes": 7,
+    "raw_sha256": "81a36a0491c49e86e415eccc634b8938a1853552e861dbf63c0235f671b40f49",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "?act=rm"
+  },
+  {
+    "string_id": 2126,
+    "offset": "0xa91e3",
+    "bytes": 16,
+    "raw_sha256": "e30d26c34a6becf0955b9d952fb5224fe13fab80989f0fc61ec0eec7207a7026",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WebSocket error:"
+  },
+  {
+    "string_id": 2316,
+    "offset": "0xaa62c",
+    "bytes": 21,
+    "raw_sha256": "fab33655f924269d50e29a592f6949eee942db9c2c366dca6518f5cf402be227",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^(.{2})[-_](.*)\\.bin$"
+  },
+  {
+    "string_id": 2318,
+    "offset": "0xaa63c",
+    "bytes": 4,
+    "raw_sha256": "3c8e31618a5b9a5093ad52650ea357df59cc824733023883764860833c5bb431",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": ".bin"
+  },
+  {
+    "string_id": 2643,
+    "offset": "0xada02",
+    "bytes": 12,
+    "raw_sha256": "a1427e1028c46a01c61152ce32b412061fea8bd52048fde7ccbe9064d2acfd14",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "dark-content"
+  },
+  {
+    "string_id": 2662,
+    "offset": "0xadd04",
+    "bytes": 24,
+    "raw_sha256": "37d7bc8d6aa4dd6a96726db15cd68349a61cd1190220e809a767e74ec81adab5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/card?action=format"
+  },
+  {
+    "string_id": 2664,
+    "offset": "0xadd4c",
+    "bytes": 23,
+    "raw_sha256": "2cc937ec4b4e16daf17802e1bba17d05a43ec8de0f6850c2b4166637f0d02c80",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/play?action=pause"
+  },
+  {
+    "string_id": 2666,
+    "offset": "0xadd6a",
+    "bytes": 26,
+    "raw_sha256": "e90e779d58ad1310611f2bf093317a9b4150402fcb5963db7be26eb1ae0266b2",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/play?action=previous"
+  },
+  {
+    "string_id": 2670,
+    "offset": "0xaddca",
+    "bytes": 24,
+    "raw_sha256": "bc6a13499d8a6603b916cc0fbfbc898a96f30826571d72d753ed8f1374bd6bc9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/play?action=status"
+  },
+  {
+    "string_id": 2671,
+    "offset": "0xaddee",
+    "bytes": 13,
+    "raw_sha256": "4a6faeed2ca8bd7d058335255ce53dce8d725486a57acdb581eac64e8580eaf2",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/session"
+  },
+  {
+    "string_id": 2672,
+    "offset": "0xaddee",
+    "bytes": 25,
+    "raw_sha256": "0ff7fd695673e189bf930ed7f73db9f69836c06c8771ea5af5ea2af645e66077",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/session?action=quit"
+  },
+  {
+    "string_id": 2673,
+    "offset": "0xade03",
+    "bytes": 11,
+    "raw_sha256": "f5985447975cadefb943b3a1bdccb76c52e23b0f1c8d9b086fe9e11fe53678b6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "quitSession"
+  },
+  {
+    "string_id": 2674,
+    "offset": "0xade23",
+    "bytes": 10,
+    "raw_sha256": "6716ab4db628d47ce395569a192835e64765774a5f1d759245d82f1194bbf4c9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/ctrl/set?"
+  },
+  {
+    "string_id": 2678,
+    "offset": "0xade4e",
+    "bytes": 14,
+    "raw_sha256": "74fb046b095810d57ca70ef50e062d8b793ea3bb50e22bbe1658d04419404098",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "fmtNowDateTime"
+  },
+  {
+    "string_id": 2684,
+    "offset": "0xadef5",
+    "bytes": 5,
+    "raw_sha256": "52b3cc6e4f000c70a79583bf814cc5de9d7197281c66aaf56ac9e8e839d86491",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/info"
+  },
+  {
+    "string_id": 2685,
+    "offset": "0xadef6",
+    "bytes": 16,
+    "raw_sha256": "7cee71b6ca9bcdf895adf4364364a4637ac755fde19541ad333d6a58a5fc98b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "info@tartoow.com"
+  },
+  {
+    "string_id": 2712,
+    "offset": "0xae238",
+    "bytes": 7,
+    "raw_sha256": "397f720d8c82e4eca111910d93d5567bd0fc7486113d02be5006ff0ddfb405bb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/reboot"
+  },
+  {
+    "string_id": 2719,
+    "offset": "0xae27a",
+    "bytes": 11,
+    "raw_sha256": "338369bff49a29655d3ae1447e8712715ce83fb989a6969771003a64729cc1ad",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/saved/list"
+  },
+  {
+    "string_id": 2721,
+    "offset": "0xae297",
+    "bytes": 5,
+    "raw_sha256": "a96462bd35ec313c66d7bfadee750937cbdfcf1d92b30330d246fad3d0ed2a62",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/scan"
+  },
+  {
+    "string_id": 2731,
+    "offset": "0xae310",
+    "bytes": 7,
+    "raw_sha256": "7686f78bd78773d9720559669c56e9c8e95949099a68eeb667a251ccac682e75",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "/submit"
+  },
+  {
+    "string_id": 2765,
+    "offset": "0xae86e",
+    "bytes": 36,
+    "raw_sha256": "d1bb8543eb3cdf350c1166705e562801469b3db779c57ec5cb9caf85cdf8a57b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000eee2-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 2772,
+    "offset": "0xae8cc",
+    "bytes": 36,
+    "raw_sha256": "a37f6356ac6de3ba106e36133c97f840ab32ea7b417d694ba7deff39badb9d3f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "0000fff1-0000-1000-8000-00805f9b34fb"
+  },
+  {
+    "string_id": 2794,
+    "offset": "0xaeb30",
+    "bytes": 12,
+    "raw_sha256": "6c32ece15fc470d25a12cb8f7dc246cdf6685d29c54eae98b715741e9f1260a0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFileV2"
+  },
+  {
+    "string_id": 2910,
+    "offset": "0xafe02",
+    "bytes": 44,
+    "raw_sha256": "d2f3428c58d41da4c7624c97ff768c326d50c4731d8b38a5750d2d6f5748d1be",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "http://139.159.158.111/download/upgrade.json"
+  },
+  {
+    "string_id": 2911,
+    "offset": "0xafe09",
+    "bytes": 15,
+    "raw_sha256": "e5d5ea679d98b599f2a11e2b68cb4ae606dabd4e2e30a6643420c6c8f037fe39",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "139.159.158.111"
+  },
+  {
+    "string_id": 2930,
+    "offset": "0xaff49",
+    "bytes": 11,
+    "raw_sha256": "f482d6d4976cb11b2a6a9d5dc15900f4873fa776c8241ca8be8114a572a35ea8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "192.168.4.1"
+  },
+  {
+    "string_id": 3058,
+    "offset": "0xb1b69",
+    "bytes": 16,
+    "raw_sha256": "bacb769b46f6d169fb227ea026550f411d46cbe66a9c2a6ba36449c8cf8e4dea",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "application/json"
+  },
+  {
+    "string_id": 3674,
+    "offset": "0xb6a0f",
+    "bytes": 20,
+    "raw_sha256": "252a94e3eb8a464c79f314b28f042042f216b67d20171e8c7b663af45a7009df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "lastHeartBeatRecvTs:"
+  },
+  {
+    "string_id": 3938,
+    "offset": "0xb96be",
+    "bytes": 19,
+    "raw_sha256": "1296922808c68da220dd62e7c63293151392e5fa6354a4af85a6e590cf3f5891",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "already initialized"
+  },
+  {
+    "string_id": 3956,
+    "offset": "0xb9933",
+    "bytes": 7,
+    "raw_sha256": "8c8dac95aa0a16cdc1d9219faf6edef368449abe8bc11404601ca000013efe9d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "http://"
+  },
+  {
+    "string_id": 3975,
+    "offset": "0xb9da8",
+    "bytes": 16,
+    "raw_sha256": "7a307e3b6cc06cfeff372af89fb1b50772cf95feddea468b47786842ce7fd0c8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPlayInfoUpdate"
+  },
+  {
+    "string_id": 4085,
+    "offset": "0xbafd9",
+    "bytes": 13,
+    "raw_sha256": "00c446bc47242e7073ee678cb890d0f56cdc198f256950f1965b869875a8c22d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "timer stopped"
+  },
+  {
+    "string_id": 4112,
+    "offset": "0xbb7e5",
+    "bytes": 20,
+    "raw_sha256": "371ff12cc6cc589bb2f4b46c63fd5bc283e98ea47dbf9c2082b846f3b7c44f74",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Closing WebSocket..."
+  },
+  {
+    "string_id": 4172,
+    "offset": "0xbbe22",
+    "bytes": 20,
+    "raw_sha256": "2e0b4a7d6c73428b79a9ddf24d347993ca885a29abc2c9add6ea2c13277c4622",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Connection timed out"
+  },
+  {
+    "string_id": 4173,
+    "offset": "0xbbe41",
+    "bytes": 17,
+    "raw_sha256": "f9af1cb08054d6927552d4f4bdf2e8054f60d1d0303fa1489fb3e1cb2cf8b9e3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ConnectionManager"
+  },
+  {
+    "string_id": 4571,
+    "offset": "0xbf9e6",
+    "bytes": 7,
+    "raw_sha256": "f6725f3af08a06a2804bf70e4493e6c78dd37ef533eebf9b419fc48b520ec753",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Expires"
+  },
+  {
+    "string_id": 4618,
+    "offset": "0xc0756",
+    "bytes": 8,
+    "raw_sha256": "85ac8fe8c5263eec02277e53f44f7f49827275352c7a4bdfb2f1f11a6c8b4dec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "no-cache"
+  },
+  {
+    "string_id": 4689,
+    "offset": "0xc14cd",
+    "bytes": 11,
+    "raw_sha256": "ca5d7f8339806fe3f83e3ff01855a8826f79002d8295a3712399c3f527083e09",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "deleteFile "
+  },
+  {
+    "string_id": 4691,
+    "offset": "0xc14e8",
+    "bytes": 9,
+    "raw_sha256": "7efabbbd8c528482e4aa5de830e7c0518748173ed7e43f9530ac29079ee76e03",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playFile "
+  },
+  {
+    "string_id": 4693,
+    "offset": "0xc14f3",
+    "bytes": 11,
+    "raw_sha256": "4576ba44a131c0f33f3eb59d318a061b23b4d987d0551dfb6e6444b764cd5684",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "measureInfo"
+  },
+  {
+    "string_id": 4706,
+    "offset": "0xc1675",
+    "bytes": 9,
+    "raw_sha256": "961f9ba159a8c23c1d172a0bba7ff50dc8b6e66b9f90c9a1a50ed4ce7f129541",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WS send: "
+  },
+  {
+    "string_id": 5057,
+    "offset": "0xc7f2e",
+    "bytes": 16,
+    "raw_sha256": "c155b94e55bcc429b5a753294733061c2ad56ceeec8beb47fdfc51bb3ffebc8e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WebSocket closed"
+  },
+  {
+    "string_id": 5278,
+    "offset": "0xcd1a9",
+    "bytes": 63,
+    "raw_sha256": "1a5a0cd27b6ab6daf16e72676c1d443f38812576ec29b9ad80c118f86b11daa1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "http://www.wkysz.online/handchain/loverlinr/faq_{language}.html"
+  },
+  {
+    "string_id": 5313,
+    "offset": "0xcd5c5",
+    "bytes": 30,
+    "raw_sha256": "089ae9a1121b4c703c14bcca46d35a19c89ad626d9356a272a69469183ff7bd0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "old device connected changed: "
+  },
+  {
+    "string_id": 5754,
+    "offset": "0xd1e5d",
+    "bytes": 7,
+    "raw_sha256": "c53b5555b8a68ead77a34e3e8aa3cab04b430712131167a522ccaa59d38c43a1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "RSP -> "
+  },
+  {
+    "string_id": 5897,
+    "offset": "0xd43ba",
+    "bytes": 16,
+    "raw_sha256": "07543825bca8c7d8887c367dfae1598625e11f558731fb7dc1d6746690c1bd67",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "config is error:"
+  },
+  {
+    "string_id": 6436,
+    "offset": "0xdc881",
+    "bytes": 10,
+    "raw_sha256": "54cc91377dbb2c7d6392f3046bb7ff9a13e27864ded665c43f00b4a744771881",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WS recv1: "
+  },
+  {
+    "string_id": 6437,
+    "offset": "0xdc890",
+    "bytes": 9,
+    "raw_sha256": "56ef5e1a4fa65e7e815e19831eaf03234ff2c4e227f9148d94731d400ff7fcc3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WS recv: "
+  },
+  {
+    "string_id": 6449,
+    "offset": "0xdca55",
+    "bytes": 21,
+    "raw_sha256": "ab24d7b28177987c0d2cd6cd5bf058b6e4ff090112a1027529b054eef167242f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Websocket had started"
+  },
+  {
+    "string_id": 6450,
+    "offset": "0xdcaa8",
+    "bytes": 21,
+    "raw_sha256": "8b5024bedd567573657f607ee0d7124d2335dfaa6abfbe38d0d32733d52028a0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Websocket had stopped"
+  },
+  {
+    "string_id": 6560,
+    "offset": "0xdea6b",
+    "bytes": 9,
+    "raw_sha256": "642238a9c84f5b1cc7b19c1d12ef0dfd61a80a3cbd8ac76d8711da62147ccf81",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "error 1: "
+  },
+  {
+    "string_id": 6565,
+    "offset": "0xdeab4",
+    "bytes": 9,
+    "raw_sha256": "108771f749fa66334e2a9ad288e51361c62072d90397d7c8d736be4c916c57d1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "error 2: "
+  },
+  {
+    "string_id": 6696,
+    "offset": "0xdf536",
+    "bytes": 150,
+    "raw_sha256": "1d45346caa569b79d1c9adf6eff588c9961c03aa4e8979ddf0ee82d2df64a71a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$"
+  },
+  {
+    "string_id": 6749,
+    "offset": "0xdfb34",
+    "bytes": 15,
+    "raw_sha256": "44ffdc85170d4cf0f658a2b505d071869afd05ac7f45d20900d38c592e13db6a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^[0-9]*.[0-9]*$"
+  },
+  {
+    "string_id": 6750,
+    "offset": "0xdfb43",
+    "bytes": 14,
+    "raw_sha256": "e5392693e912fbfe575449e3843312b015890f6adcb1ffe3f475d830a5359fe3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^[0-9]\\d{0,2}$"
+  },
+  {
+    "string_id": 6751,
+    "offset": "0xdfb51",
+    "bytes": 12,
+    "raw_sha256": "21612323c9b603f0ca2b0265379f41745c7726932a6d4400fc8e4c5b3d3c12c7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^[0-9]\\d{1}$"
+  },
+  {
+    "string_id": 6771,
+    "offset": "0xdfc6b",
+    "bytes": 21,
+    "raw_sha256": "be1c8502613caf3eb3d675a331afce8ee7cb78eff6386e4880ca2df8e141f123",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^[a-zA-Z\\-0-9]{0,32}$"
+  },
+  {
+    "string_id": 6778,
+    "offset": "0xdfcbd",
+    "bytes": 9,
+    "raw_sha256": "8c750f52eeeb18b0d2add564b508108a69405acb9dfd99df7c169e2c502ea644",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "^\\d{0,3}$"
+  },
+  {
+    "string_id": 6843,
+    "offset": "0xe08b0",
+    "bytes": 23,
+    "raw_sha256": "317cfa6c59590b3690db09d59f4b234dc6e0f0a30d6c66b492c1de8efc7b9c8e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestPlayInfo error: "
+  },
+  {
+    "string_id": 7243,
+    "offset": "0xe2c71",
+    "bytes": 24,
+    "raw_sha256": "1e86d1bc52f24f75cdba3765b30e79519a49e5dc5c0d27605048b15591e07892",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "application/octet-stream"
+  },
+  {
+    "string_id": 7267,
+    "offset": "0xe2f02",
+    "bytes": 16,
+    "raw_sha256": "4eaf86bae67d8186fba3121928c01c63675b9e6f0d5c3cc4dc5d096f4808fb4d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload progress "
+  },
+  {
+    "string_id": 7801,
+    "offset": "0xea2cf",
+    "bytes": 71,
+    "raw_sha256": "8e1266be76c0493d461fd4f66f0177cb6811d82c15d55479dac67c7b32bc6438",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "http://www.wkysz.online/handchain/loverlinr//tartoow_01_{language}.html"
+  },
+  {
+    "string_id": 7838,
+    "offset": "0xea8d7",
+    "bytes": 10,
+    "raw_sha256": "55c21b4190ba2d0a787288b88bb0d8342f7734e9792badeabf683c52a5673881",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "load DCIM "
+  },
+  {
+    "string_id": 8605,
+    "offset": "0x1069a9",
+    "bytes": 13,
+    "raw_sha256": "0d1c364e6eeb9724ac9da9124889087971fa75660427574a0a380da67f4ee770",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "light-content"
+  },
+  {
+    "string_id": 8620,
+    "offset": "0x106cd6",
+    "bytes": 15,
+    "raw_sha256": "341ad824f9aa8d6a59300391fbc530b6a5708f983f3b2adc121fa696c0030bf6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "network_timeout"
+  },
+  {
+    "string_id": 8757,
+    "offset": "0x1081c1",
+    "bytes": 11,
+    "raw_sha256": "b7d227121a7979888954ef545362da9fe9b65860629cad34fd1d5667b5071ef6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getPlayInfo"
+  },
+  {
+    "string_id": 8863,
+    "offset": "0x10932e",
+    "bytes": 62,
+    "raw_sha256": "74d5c9a7b483210cff73885a48e33bff51e445ad9bf5d605e3c8ddbb82fbcd3d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "http://www.wkysz.online/handchain/loverlinr/ys_{language}.html"
+  },
+  {
+    "string_id": 8902,
+    "offset": "0x10986b",
+    "bytes": 4,
+    "raw_sha256": "4fb62348858c2f6fbd6db27fa4c11edd8559119869d1034e2bd3390fd92b1a04",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "idle"
+  },
+  {
+    "string_id": 8930,
+    "offset": "0x109d25",
+    "bytes": 21,
+    "raw_sha256": "d438130ed2b6be6d3d3c2abc289696f8aa15c451b4f2acda789dcf816f5e84fc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "not support this set "
+  },
+  {
+    "string_id": 8949,
+    "offset": "0x109fa6",
+    "bytes": 16,
+    "raw_sha256": "8c42158a504abcc39571edc73bafdf01efdbae60b97ea3c7c11dab1d60f70eaf",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isGotHttpSession"
+  },
+  {
+    "string_id": 9160,
+    "offset": "0x10c02d",
+    "bytes": 26,
+    "raw_sha256": "30466ce0637baf4b1fe13cb468777587d6c430878dd758fc16c181658692e567",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playPrevious failed error:"
+  },
+  {
+    "string_id": 9243,
+    "offset": "0x10d204",
+    "bytes": 23,
+    "raw_sha256": "c7883f05dd403ac0dfb8820f04dd5a6f456b9b454a856e8b4c199703a1e1d154",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "remove_emitter_listener"
+  },
+  {
+    "string_id": 9283,
+    "offset": "0x10d9db",
+    "bytes": 39,
+    "raw_sha256": "11603acc3168b5fc773db524dcb4560c4c8348ebc211d834b7950efbc346c125",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "start websocket failed, not got session"
+  },
+  {
+    "string_id": 9284,
+    "offset": "0x10d9fb",
+    "bytes": 15,
+    "raw_sha256": "07821d7a1fc48aaa2c31f9010900b8dfc970a9f0c728cfe6e1d18379522cddeb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "session result:"
+  },
+  {
+    "string_id": 9327,
+    "offset": "0x10e31c",
+    "bytes": 14,
+    "raw_sha256": "dde173979a75a7b2e7786bacf572b212e2aac3e72e45845ed416f46a4e35ed3d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "stop websocket"
+  },
+  {
+    "string_id": 9377,
+    "offset": "0x10ec3a",
+    "bytes": 14,
+    "raw_sha256": "04563b4e1d86fb8d61c474331ddd2994ce9e123457458da24fe4c7e95e4351b4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload result "
+  },
+  {
+    "string_id": 9378,
+    "offset": "0x10ec5b",
+    "bytes": 26,
+    "raw_sha256": "671d0eafbda148a63c770d84f920702aad8380a3ff3bdd6827e0422498a1ee86",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFileToDevice error: "
+  },
+  {
+    "string_id": 9379,
+    "offset": "0x10ec86",
+    "bytes": 26,
+    "raw_sha256": "53924e7661bcc04290090ebe9d7f831631b4c81cf35deccc7ac63521bfbac75d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFileToDevice result:"
+  },
+  {
+    "string_id": 9380,
+    "offset": "0x10ecb8",
+    "bytes": 20,
+    "raw_sha256": "631653f8b794adf0054ca1f64dc5439f3bba10604baccd551810720eb98d7782",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFileToDevice: "
+  },
+  {
+    "string_id": 9866,
+    "offset": "0x146068",
+    "bytes": 38,
+    "raw_sha256": "3b3fafcb01f69da3694b7dc22ba87c752645d1a59cce7fe96a2894af02f3137a",
+    "encoding": "utf-16-le",
+    "text": "✅ Upload completed."
+  },
+  {
+    "string_id": 9876,
+    "offset": "0x146268",
+    "bytes": 32,
+    "raw_sha256": "a8169c891d7b9e0f06433a7843fb4c1d3194368588238e76bc41bdae8ac89e13",
+    "encoding": "utf-16-le",
+    "text": "❌ Upload failed."
+  },
+  {
+    "string_id": 10458,
+    "offset": "0x14dd2a",
+    "bytes": 34,
+    "raw_sha256": "eb9a7c8f8885cf4e8abcf6d467ee817b71d2278cd3ab826d98b4e8a23ea40b8a",
+    "encoding": "utf-16-le",
+    "text": "所有的identifier已经用完"
+  },
+  {
+    "string_id": 11293,
+    "offset": "0x1591a8",
+    "bytes": 12,
+    "raw_sha256": "73235e0f52c595b2923b0fd37eed80155305d4a7e014d024d65230e02bd79099",
+    "encoding": "utf-16-le",
+    "text": "解析响应失败"
+  },
+  {
+    "string_id": 12570,
+    "offset": "0x87820",
+    "bytes": 0,
+    "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": ""
+  },
+  {
+    "string_id": 12612,
+    "offset": "0x87ad8",
+    "bytes": 2,
+    "raw_sha256": "b8d31e852725afb1e26d53bab6095b2bff1749c9275be13ed1c05a56ed31ec09",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "on"
+  },
+  {
+    "string_id": 12633,
+    "offset": "0x87deb",
+    "bytes": 6,
+    "raw_sha256": "6d04eed67fce1e5364faab42459074d1546a35b7dd3c182084070e94f79e43e3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "dismis"
+  },
+  {
+    "string_id": 12656,
+    "offset": "0x8802b",
+    "bytes": 8,
+    "raw_sha256": "b5f90a96e680140d51e2ba945461716e44cc385940aee21f66020e66193647b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "progress"
+  },
+  {
+    "string_id": 12657,
+    "offset": "0x88034",
+    "bytes": 5,
+    "raw_sha256": "6105d6cc76af400325e94d588ce511be5bfdbb73b437dc51eca43917d7a43e3d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "image"
+  },
+  {
+    "string_id": 12666,
+    "offset": "0x8821a",
+    "bytes": 4,
+    "raw_sha256": "bb54068aea85faa7e487530083366be9962390af822e4c71ef1aca7033c83e66",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "init"
+  },
+  {
+    "string_id": 12674,
+    "offset": "0x88721",
+    "bytes": 21,
+    "raw_sha256": "6e287cf768a8e65c5207b15b7f1ecdcf271dcee5fa0a5847657955a715e1c92b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onConnectChangedBlock"
+  },
+  {
+    "string_id": 12698,
+    "offset": "0x887f9",
+    "bytes": 11,
+    "raw_sha256": "5667512ca412a03eb9524ffd90ff2deb08bd16a01c68de18fcb1b6a481705f6f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "TRANSPARENT"
+  },
+  {
+    "string_id": 12707,
+    "offset": "0x88866",
+    "bytes": 5,
+    "raw_sha256": "11239872d178729acc9e5aeaf7fc001a0ffd878c922330be43712b9b3be043a7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "total"
+  },
+  {
+    "string_id": 12739,
+    "offset": "0x88b31",
+    "bytes": 24,
+    "raw_sha256": "dfdf17354cb2e523ee31578bf24e05913ee6031ef5d7950fc3fdf64ab38c020e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN_MARQUEE_TEXT"
+  },
+  {
+    "string_id": 12744,
+    "offset": "0x88b7b",
+    "bytes": 12,
+    "raw_sha256": "f6ea19a93da39f750e231e0f7553dd814dbb571bc8f02ba8356a402821ed034b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "responseText"
+  },
+  {
+    "string_id": 12754,
+    "offset": "0x88c9a",
+    "bytes": 9,
+    "raw_sha256": "7ce54cbababdd64826b853179905315617306f430e5154177ddbed04c282b7da",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "websocket"
+  },
+  {
+    "string_id": 12760,
+    "offset": "0x88d5b",
+    "bytes": 1,
+    "raw_sha256": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "_"
+  },
+  {
+    "string_id": 12763,
+    "offset": "0x88d7a",
+    "bytes": 4,
+    "raw_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "POST"
+  },
+  {
+    "string_id": 12784,
+    "offset": "0x88f5b",
+    "bytes": 13,
+    "raw_sha256": "669dc5876d0a3d7f6d388da8ba1ef908935f67f3137431f0786cd66ad15e6923",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Cache-Control"
+  },
+  {
+    "string_id": 12866,
+    "offset": "0x89651",
+    "bytes": 3,
+    "raw_sha256": "51a1f05af85e342e3c849b47d387086476282d5f50dc240c19216d6edfb1eb5a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "bin"
+  },
+  {
+    "string_id": 12884,
+    "offset": "0x8977c",
+    "bytes": 3,
+    "raw_sha256": "5ef5ef0364b6939c4ca61f34b393f7b368d1be8619647aaf83d5b395919ab629",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "all"
+  },
+  {
+    "string_id": 12914,
+    "offset": "0x89aac",
+    "bytes": 24,
+    "raw_sha256": "5cf6d2eded313d30362b4bb6c94f9f507939e7cd511f1a0399ef111918bafbff",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_SERVICE_SHAKE_HANDS"
+  },
+  {
+    "string_id": 12940,
+    "offset": "0x8a0fc",
+    "bytes": 1,
+    "raw_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "\n"
+  },
+  {
+    "string_id": 12946,
+    "offset": "0x8a167",
+    "bytes": 1,
+    "raw_sha256": "e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": ":"
+  },
+  {
+    "string_id": 12950,
+    "offset": "0x8a189",
+    "bytes": 10,
+    "raw_sha256": "d70d5a7909ed5910fbc67667c7464f0b53fd935653afb327e53067bb7ca578ca",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "navigation"
+  },
+  {
+    "string_id": 12954,
+    "offset": "0x8a1a3",
+    "bytes": 3,
+    "raw_sha256": "70e5d7b6a29b392f85076fe15ca2f2053c56c2338728c4e33c9e8ddb1ee827cc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uri"
+  },
+  {
+    "string_id": 12987,
+    "offset": "0x8a477",
+    "bytes": 5,
+    "raw_sha256": "496aca80e4d8f29fb8e8cd816c3afb48d3f103970b3a2ee1600c08ca67326dee",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "block"
+  },
+  {
+    "string_id": 12997,
+    "offset": "0x8a63b",
+    "bytes": 3,
+    "raw_sha256": "7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "one"
+  },
+  {
+    "string_id": 13001,
+    "offset": "0x8a66d",
+    "bytes": 6,
+    "raw_sha256": "ae524b54d9b5acbe3bbf0a4f4825bae82bca8b0a474878c2713394ea284ef929",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "append"
+  },
+  {
+    "string_id": 13034,
+    "offset": "0x9ecd2",
+    "bytes": 4,
+    "raw_sha256": "3b9c358f36f0a31b6ad3e14f309c7cf198ac9246e8316f9ce543d5b19ac02b80",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "file"
+  },
+  {
+    "string_id": 13041,
+    "offset": "0x9ed3e",
+    "bytes": 3,
+    "raw_sha256": "3c367e3dcc8171c287f300e4650f887aa36a046b68257158ae691fb9a9aa5078",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ble"
+  },
+  {
+    "string_id": 13092,
+    "offset": "0x9f427",
+    "bytes": 4,
+    "raw_sha256": "f8d397a33fcb9725db96501e653bf3cfa4455c5639482b9936c22b221634d659",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "port"
+  },
+  {
+    "string_id": 13106,
+    "offset": "0x9f676",
+    "bytes": 1,
+    "raw_sha256": "380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "="
+  },
+  {
+    "string_id": 13118,
+    "offset": "0x9f93a",
+    "bytes": 3,
+    "raw_sha256": "b4dc66dde806261bdda8607d8707aa727d308cd80272381a5583f63899918467",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "off"
+  },
+  {
+    "string_id": 13146,
+    "offset": "0x9fc64",
+    "bytes": 11,
+    "raw_sha256": "657291fe8a82fff187d35d34b602b9c394a8b01318c801839548ab6f08ea6e25",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "FLOAT_REGEX"
+  },
+  {
+    "string_id": 13166,
+    "offset": "0x9fdec",
+    "bytes": 14,
+    "raw_sha256": "e3209b573e320ed9eb70e07000aafbf8a6836ba5262981f570982b247712f855",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setCurrentDCIM"
+  },
+  {
+    "string_id": 13336,
+    "offset": "0xa2104",
+    "bytes": 5,
+    "raw_sha256": "30c471f6aafbca7085640653eeef555e85eb0df1602c98a662814c27767d1188",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "parse"
+  },
+  {
+    "string_id": 13347,
+    "offset": "0xa241e",
+    "bytes": 5,
+    "raw_sha256": "01be30bb4a27765c37462e6bf2a0bf8b6c109f9be9d81e6fd56455db1a736a43",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "reset"
+  },
+  {
+    "string_id": 13391,
+    "offset": "0xa2940",
+    "bytes": 10,
+    "raw_sha256": "aa6ed6c957fcc3809faf05049835f4e5d21b90e8b6ef1500d6b4de8446e7d963",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "brightness"
+  },
+  {
+    "string_id": 13403,
+    "offset": "0xa29fb",
+    "bytes": 5,
+    "raw_sha256": "8a84e406c08ac9594f47222406598f7598e15c55f8044b04813e28c9dee70976",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "route"
+  },
+  {
+    "string_id": 13422,
+    "offset": "0xa2c83",
+    "bytes": 13,
+    "raw_sha256": "7c45bc627e9a7d0782db64b10e86af90f7c2a4370ad7c97a3215c669d3b6a12b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "not_connected"
+  },
+  {
+    "string_id": 13443,
+    "offset": "0xa3213",
+    "bytes": 10,
+    "raw_sha256": "a0e1a519f04a9b3e9837233d253b10ae7e4bcfcafa43be280d0b4573b76db333",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CONNECTING"
+  },
+  {
+    "string_id": 13472,
+    "offset": "0xa33f5",
+    "bytes": 18,
+    "raw_sha256": "e2a13d291e5cee84afaab9ae9e3e38dca4f5f2096cc847ec77aa90dd2c8ae67e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "DeviceEventEmitter"
+  },
+  {
+    "string_id": 13531,
+    "offset": "0xa3a3f",
+    "bytes": 4,
+    "raw_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "stop"
+  },
+  {
+    "string_id": 13618,
+    "offset": "0xa49c3",
+    "bytes": 6,
+    "raw_sha256": "ff4085ad157354dc8ea67a848e7c2270b4a19282713cf3a7ecf8e0ffbb159ed1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload"
+  },
+  {
+    "string_id": 13637,
+    "offset": "0xa4dd7",
+    "bytes": 6,
+    "raw_sha256": "2cab953f2b3607b36259abeb3703329d6b301b31277402ebf9f2b3b93e31dd53",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "loaded"
+  },
+  {
+    "string_id": 13645,
+    "offset": "0xa4fb9",
+    "bytes": 4,
+    "raw_sha256": "efd65fe9559481231eb17eb77672a2e7a362c27ff94fbab6c31a5b5a96eaf6ea",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CONN"
+  },
+  {
+    "string_id": 13646,
+    "offset": "0xa4fbe",
+    "bytes": 11,
+    "raw_sha256": "021af1611796215f47b6abdc5185b3ec267a6abffb52ccb54b497130542b94fb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isConnected"
+  },
+  {
+    "string_id": 13648,
+    "offset": "0xa4fd9",
+    "bytes": 4,
+    "raw_sha256": "230d8358dc8e8890b4c58deeb62912ee2f20357ae92a5cc861b98e68fe31acb5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "body"
+  },
+  {
+    "string_id": 13652,
+    "offset": "0xa5067",
+    "bytes": 4,
+    "raw_sha256": "e42932b7a79c40e45f6b945b9656eeca6a9a9b19fcb3011558e27e1e3f52720b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "blur"
+  },
+  {
+    "string_id": 13655,
+    "offset": "0xa50b8",
+    "bytes": 5,
+    "raw_sha256": "c51faa148557a08cbf790156578b7a82b41f22dd01227f7dde057e34c18a365f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "focus"
+  },
+  {
+    "string_id": 13666,
+    "offset": "0xa51cd",
+    "bytes": 12,
+    "raw_sha256": "dfd15cb6284628bc05a863749700ab848ef1d7db262aa93dd9db32c9bb7e7825",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_AI_TALK"
+  },
+  {
+    "string_id": 13670,
+    "offset": "0xa51ea",
+    "bytes": 6,
+    "raw_sha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "cancel"
+  },
+  {
+    "string_id": 13693,
+    "offset": "0xa568b",
+    "bytes": 6,
+    "raw_sha256": "073c1634c496cdb649d1afe0a312bbb4b7e1741b271542e4a436c3b8824b1761",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "status"
+  },
+  {
+    "string_id": 13709,
+    "offset": "0xa58e4",
+    "bytes": 6,
+    "raw_sha256": "f6a214f7a5fcda0c2cee9660b7fc29f5649e3c68aad48e20e950137c98913a68",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "result"
+  },
+  {
+    "string_id": 13719,
+    "offset": "0xa59d3",
+    "bytes": 6,
+    "raw_sha256": "f179a509d32bd92c923f236324daef85551c03a761bf0188be286a585281b4ac",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "center"
+  },
+  {
+    "string_id": 13722,
+    "offset": "0xa5a97",
+    "bytes": 9,
+    "raw_sha256": "dab71a6dcd9a17267a03108990d65224be9e7e25d9abb5dd4a9c06beeeb5a942",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playPause"
+  },
+  {
+    "string_id": 13779,
+    "offset": "0xa60ac",
+    "bytes": 11,
+    "raw_sha256": "88d0f5ce6881d21dd01de3d0eb3bd2d151662dfcd435781298a17f42c51d1dec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isOldDevice"
+  },
+  {
+    "string_id": 13780,
+    "offset": "0xa610f",
+    "bytes": 6,
+    "raw_sha256": "e904c9ccfa425ff0b055d2c533462314d35a529b055e8abe41d49bb46d827427",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "format"
+  },
+  {
+    "string_id": 13783,
+    "offset": "0xa612c",
+    "bytes": 20,
+    "raw_sha256": "6bafa58a688dde373a1c0e5775e390bffdba6d193ca42e53271c5082712342b3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HEADER_HEIGHT_NORMAL"
+  },
+  {
+    "string_id": 13794,
+    "offset": "0xa6253",
+    "bytes": 7,
+    "raw_sha256": "fdf09cdfc26cccf610edccd7f9b558e1ce0a793a4ee57f8306df9058f1aa929b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "resolve"
+  },
+  {
+    "string_id": 13810,
+    "offset": "0xa6575",
+    "bytes": 8,
+    "raw_sha256": "a9f4b3d22a523fdada41c85c175425bcd15b32b4cd0f54d9433accd52d7195a1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "response"
+  },
+  {
+    "string_id": 13821,
+    "offset": "0xa662e",
+    "bytes": 7,
+    "raw_sha256": "f77d1bb58da886e3cbeebbf35a0b3d217b003506792268052c6a730fbc5ec9bc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "timeout"
+  },
+  {
+    "string_id": 13841,
+    "offset": "0xa679c",
+    "bytes": 4,
+    "raw_sha256": "02bd175f329720378ce83dd56a1b6b1f5291a60182d6c54b5e0d1e8d248a267a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "json"
+  },
+  {
+    "string_id": 13926,
+    "offset": "0xa70c2",
+    "bytes": 10,
+    "raw_sha256": "fb8141d12b9c366f2ef87fd0ca702d1d79c31a5209b73f7a50c40fb7e00110f0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "destroyAll"
+  },
+  {
+    "string_id": 13940,
+    "offset": "0xa72d4",
+    "bytes": 6,
+    "raw_sha256": "713a1417c769dc7584c090ac7ff485481f486a11bb803fbf9ec54289769f2854",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "decode"
+  },
+  {
+    "string_id": 13941,
+    "offset": "0xa72e1",
+    "bytes": 6,
+    "raw_sha256": "b7d18e8f99d59abadbed0da4960b56f8fcc8513f5b27924ef80ca763f7fbc5c1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "encode"
+  },
+  {
+    "string_id": 13952,
+    "offset": "0xa74de",
+    "bytes": 9,
+    "raw_sha256": "c4548ad3005f876a2db4b52823b402f0886df623f2a4cdf30de335537bf87272",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onRefresh"
+  },
+  {
+    "string_id": 13954,
+    "offset": "0xa74ea",
+    "bytes": 4,
+    "raw_sha256": "4740ae6347b0172c01254ff55bae5aff5199f4446e7f6d643d40185b3f475145",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "host"
+  },
+  {
+    "string_id": 13955,
+    "offset": "0xa750f",
+    "bytes": 6,
+    "raw_sha256": "78b49fb2cc2d2ed6c1bb8383b3d267b3bc623a8a0fb4aff4aa5d3db74c3b4967",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "switch"
+  },
+  {
+    "string_id": 13964,
+    "offset": "0xa7628",
+    "bytes": 4,
+    "raw_sha256": "254637f72efcddb6a545bccbd0c3bb84e6393647deb5fd344de6584ccc1e743c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "loop"
+  },
+  {
+    "string_id": 13986,
+    "offset": "0xa7762",
+    "bytes": 5,
+    "raw_sha256": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "empty"
+  },
+  {
+    "string_id": 14130,
+    "offset": "0xa8d67",
+    "bytes": 4,
+    "raw_sha256": "363284b098a7e28e452cf51b89888f69dcc6456001995abc06ecf1311a33a5e3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "DCIM"
+  },
+  {
+    "string_id": 14241,
+    "offset": "0xa9bc7",
+    "bytes": 4,
+    "raw_sha256": "6acc99af99f6b3a1dcc5bbe7d00be59f947cbe8cda444c34fa2f90f1c0d92693",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PORT"
+  },
+  {
+    "string_id": 14262,
+    "offset": "0xaa27e",
+    "bytes": 11,
+    "raw_sha256": "9608448de3f8d1f5ea91b85004b1c17d300cadad7393330f07ef2d319e4aebd0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setHttpInfo"
+  },
+  {
+    "string_id": 14337,
+    "offset": "0xaba31",
+    "bytes": 9,
+    "raw_sha256": "fe0c0a03bca79563867e661a17fa5f35856206174375b8a331e5326603669822",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AGE_REGEX"
+  },
+  {
+    "string_id": 14362,
+    "offset": "0xabf6d",
+    "bytes": 5,
+    "raw_sha256": "49387897bee2bee3878cd5f4fafdcbbfbb372c733a8446631ebb1d28090ce395",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "angle"
+  },
+  {
+    "string_id": 14422,
+    "offset": "0xad100",
+    "bytes": 4,
+    "raw_sha256": "1f5bb9791a310e136d1564ee23d2a3cc32ea7ce6fa26cb8734ec18b4607ad79e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "hide"
+  },
+  {
+    "string_id": 14482,
+    "offset": "0xad7aa",
+    "bytes": 4,
+    "raw_sha256": "2348f998744212575d85959674f9607ab26f67708a917157472832386337c904",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "open"
+  },
+  {
+    "string_id": 14484,
+    "offset": "0xad7af",
+    "bytes": 8,
+    "raw_sha256": "cde0fb0dec1400c54a0f7e7eafa73624c53e4da258bbd34b3380a0defeba95c1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "settings"
+  },
+  {
+    "string_id": 14547,
+    "offset": "0xade0c",
+    "bytes": 11,
+    "raw_sha256": "e7447ef264785de9e38b34084ce8da1ec0c47c520bc59e07d0da24b9b1976cf2",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onLeftPress"
+  },
+  {
+    "string_id": 14550,
+    "offset": "0xade5a",
+    "bytes": 17,
+    "raw_sha256": "95a913a1c6968a65ff091695901bf2d263f3311f1bc44d1d0e48cfab7374f190",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "media_from_select"
+  },
+  {
+    "string_id": 14566,
+    "offset": "0xadf2c",
+    "bytes": 11,
+    "raw_sha256": "1b817797c5c5b59561b9067176e1fa36c13b4b11facc0d58b20c45f7b79aed92",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "EMAIL_REGEX"
+  },
+  {
+    "string_id": 14592,
+    "offset": "0xae258",
+    "bytes": 6,
+    "raw_sha256": "084e990a49ba65e622926853785e0ed05c63fc7fbf798a26e8242b5ee3d7ce9f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "reject"
+  },
+  {
+    "string_id": 14607,
+    "offset": "0xae2f8",
+    "bytes": 5,
+    "raw_sha256": "3d7db37d08f9140fd09f12b9621cd0954b6d56a9d2f357fb2c7f5d62636d2fd1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "files"
+  },
+  {
+    "string_id": 14645,
+    "offset": "0xaea0f",
+    "bytes": 3,
+    "raw_sha256": "b111ab7a65e410edaf2d8b3af61450c515a2507b7eaedd8c32441720d43161c7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "gbk"
+  },
+  {
+    "string_id": 14744,
+    "offset": "0xb00cf",
+    "bytes": 20,
+    "raw_sha256": "cd8d07626ec985fb1d888e2680ae7e6e5eeb36a9c11b24ec790f98d27c9848b6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN_TEXT_360"
+  },
+  {
+    "string_id": 14989,
+    "offset": "0xb47f0",
+    "bytes": 5,
+    "raw_sha256": "4b4ecdff6faa6f38dd30a094e77c0ecd694b9cf8e395b9cc47b4207301be8469",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Utils"
+  },
+  {
+    "string_id": 15018,
+    "offset": "0xb4c08",
+    "bytes": 10,
+    "raw_sha256": "c18f36e3a4abf164284494abc65a58958ff85e40cfc5441fe17c55ea9901d96c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CLOUD_PORT"
+  },
+  {
+    "string_id": 15023,
+    "offset": "0xb4c3f",
+    "bytes": 13,
+    "raw_sha256": "edd121fe4a0eca15bde253635c69a8f4d1f245be573290bb9634db32da3d1aed",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_AI_LOGIN"
+  },
+  {
+    "string_id": 15144,
+    "offset": "0xb5a81",
+    "bytes": 10,
+    "raw_sha256": "0b61ac5d9426518ad7908a62037255c6881f9a5fa404ef3b99c24baa2111a174",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "refreshing"
+  },
+  {
+    "string_id": 15205,
+    "offset": "0xb69ca",
+    "bytes": 14,
+    "raw_sha256": "647c1d493a9e072e3460e2ce1e99d264e67bdb667c8f4e31a2775c44ddc5fddc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "RefreshControl"
+  },
+  {
+    "string_id": 15207,
+    "offset": "0xb6a0f",
+    "bytes": 19,
+    "raw_sha256": "edfc88f0879c5383057cfeed9b23051489b5c9f0074e713d9820ee4dbfed0fe8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "lastHeartBeatRecvTs"
+  },
+  {
+    "string_id": 15343,
+    "offset": "0xb7863",
+    "bytes": 13,
+    "raw_sha256": "87c44dbd0dc8fc9f81c971bf6c17cd02722670481cfb6add1577af4f37521d88",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_SETTINGS"
+  },
+  {
+    "string_id": 15344,
+    "offset": "0xb7863",
+    "bytes": 17,
+    "raw_sha256": "a3d430d8e53e0e9502791cbbaa86c58a4d378353e174f64b369e44cfbd9194be",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_SETTINGS_OLD"
+  },
+  {
+    "string_id": 15345,
+    "offset": "0xb7871",
+    "bytes": 23,
+    "raw_sha256": "9bc38b568581b7467bf0d31d22c024a4856a331f54ea40dfa55a0fc47912c9cd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "OLD_DEVICE_COMMAND_PORT"
+  },
+  {
+    "string_id": 15385,
+    "offset": "0xb81c6",
+    "bytes": 5,
+    "raw_sha256": "310ff200149b44a32f124023d7caba19a1a890763a980606813d3a3d4a085d36",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "close"
+  },
+  {
+    "string_id": 15398,
+    "offset": "0xb82f7",
+    "bytes": 3,
+    "raw_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "GET"
+  },
+  {
+    "string_id": 15476,
+    "offset": "0xb94ea",
+    "bytes": 17,
+    "raw_sha256": "8f27f7fc2cf71d923d06e5ba751d15761332aa22fbd7efbf94921e758fc65c35",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestDeviceDCIM"
+  },
+  {
+    "string_id": 15499,
+    "offset": "0xb9642",
+    "bytes": 6,
+    "raw_sha256": "e9696fc6c19fc0521db04735acf8b2d1cb6db8212dca4e3fe8a8f55b3e08384b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onopen"
+  },
+  {
+    "string_id": 15568,
+    "offset": "0xb9f9c",
+    "bytes": 4,
+    "raw_sha256": "e6640de835ad09fb0a7367ee2e0ba99d0142c139db0272146e35538bd07479fc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "find"
+  },
+  {
+    "string_id": 15589,
+    "offset": "0xba10a",
+    "bytes": 2,
+    "raw_sha256": "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ok"
+  },
+  {
+    "string_id": 15595,
+    "offset": "0xba272",
+    "bytes": 5,
+    "raw_sha256": "e7d3799ecc09f5cbc446aa0a79bb1fb9d0126395fa19a5903b7425f42e5e92e7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "fetch"
+  },
+  {
+    "string_id": 15668,
+    "offset": "0xba92c",
+    "bytes": 9,
+    "raw_sha256": "15865b885e1dbc770ad06eb0306b325f10f2d2687433f95866ef771c679fe9a7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "netconfig"
+  },
+  {
+    "string_id": 15721,
+    "offset": "0xbae72",
+    "bytes": 11,
+    "raw_sha256": "e4f86ccbed50b38254271b909badcfd0bb9fceb0594553cda6527e751cefaed9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "local_media"
+  },
+  {
+    "string_id": 15729,
+    "offset": "0xbafd9",
+    "bytes": 5,
+    "raw_sha256": "cd94ec90364da372eb1a980c7ffb36e5654d7e2cd92cb810be418adb36fe2434",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "timer"
+  },
+  {
+    "string_id": 15767,
+    "offset": "0xbb7ed",
+    "bytes": 9,
+    "raw_sha256": "2adc1280d346d502068cf26f4abac8c4cb06f31dc140f266b2584bf0ac882ddc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "WebSocket"
+  },
+  {
+    "string_id": 15806,
+    "offset": "0xbbda2",
+    "bytes": 21,
+    "raw_sha256": "cf8c650e5c70375b4ee3c63afa68a7f87af050ba75414e08afd56cd9f9023eab",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "checkWebsocketConnect"
+  },
+  {
+    "string_id": 15828,
+    "offset": "0xbbf3b",
+    "bytes": 10,
+    "raw_sha256": "73f9663d308e02f76c4a117428acf65bb5eb4b59f13f6fc799cc26dc3dc70cf3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onprogress"
+  },
+  {
+    "string_id": 15862,
+    "offset": "0xbc54b",
+    "bytes": 3,
+    "raw_sha256": "c8e5998f6a3955c21d858936fe05c69621724d7f825c6e17793002a0fa798bf9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "API"
+  },
+  {
+    "string_id": 15904,
+    "offset": "0xbcb1a",
+    "bytes": 2,
+    "raw_sha256": "bf5505174a73b2832a95fef91403b87f99df3b1d283ad26729e4cfd22e96f208",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "IP"
+  },
+  {
+    "string_id": 15922,
+    "offset": "0xbccc7",
+    "bytes": 9,
+    "raw_sha256": "b1b2b21ca85ebabf200dd484553cded2591a94c830286fe8b557739e4771655a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "StatusBar"
+  },
+  {
+    "string_id": 15933,
+    "offset": "0xbcd6d",
+    "bytes": 26,
+    "raw_sha256": "2116888bbd3e32ed97fa96506c182de29611e5439a293775f3e3e6cf85d37151",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_MUTIPLE_DEVICE_SPLICE"
+  },
+  {
+    "string_id": 15951,
+    "offset": "0xbcf4d",
+    "bytes": 12,
+    "raw_sha256": "d43285f01ae7f7b4a7354420bf9712e801725362d887f469e94e7421d1f2eab3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playLoopMode"
+  },
+  {
+    "string_id": 15960,
+    "offset": "0xbd13e",
+    "bytes": 16,
+    "raw_sha256": "4f570d0b89d1862fb169d08d8bc6b9345d38e9caaee03f47c258116ce46eb65d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_AI_REGISTER"
+  },
+  {
+    "string_id": 15976,
+    "offset": "0xbd233",
+    "bytes": 14,
+    "raw_sha256": "d3b006036252bc3aa5e08fd04cfb2540f456a28147e689659b8df453e585589f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getIsOldDevice"
+  },
+  {
+    "string_id": 15989,
+    "offset": "0xbd346",
+    "bytes": 22,
+    "raw_sha256": "5d153f2368acd2169195af6549f57203b5a1e064a6264ab44dfabce2bfabe246",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onFileListChangedBlock"
+  },
+  {
+    "string_id": 16010,
+    "offset": "0xbd675",
+    "bytes": 7,
+    "raw_sha256": "378f37b1fb33fa4dafba6519a48e06447ecaa58af290729cc3d357bcadd9926c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "headers"
+  },
+  {
+    "string_id": 16026,
+    "offset": "0xbd744",
+    "bytes": 15,
+    "raw_sha256": "18a754964b0488944a0e7a580b3d2febc46b245099c39a6729513de5f3ac4698",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPressDownload"
+  },
+  {
+    "string_id": 16037,
+    "offset": "0xbd7e8",
+    "bytes": 17,
+    "raw_sha256": "6ea2f25fe96cbdee724d06c3f3a57ff58af51b348870dce029606332c8ccc29e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HEADER_HEIGHT_MIN"
+  },
+  {
+    "string_id": 16049,
+    "offset": "0xbd903",
+    "bytes": 11,
+    "raw_sha256": "7d5d94559e385c9a7ec0cebb07e864e0d29b9256a36293420c22526bfcea3b3b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getFileList"
+  },
+  {
+    "string_id": 16155,
+    "offset": "0xbe9bd",
+    "bytes": 14,
+    "raw_sha256": "9047ec9e6bcc94a840062bab24515e237c31058fdb7ca9b78964059b4447394d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "goto_connected"
+  },
+  {
+    "string_id": 16208,
+    "offset": "0xbf198",
+    "bytes": 11,
+    "raw_sha256": "496daa8b6d8ed5299e567e82c297afe6ce5766e0f7761f35dd187264c5f5d108",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN"
+  },
+  {
+    "string_id": 16209,
+    "offset": "0xbf198",
+    "bytes": 19,
+    "raw_sha256": "98941d5ba993926b93d206eda269cc6a0e23ec18dd92921b8206863a498b90d3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN_GALLERY"
+  },
+  {
+    "string_id": 16238,
+    "offset": "0xbf4e6",
+    "bytes": 15,
+    "raw_sha256": "6dee66e8e9503f08893a14202c82b22f91a3d2f88855312fc44d3a9f9aa79cd4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AbortController"
+  },
+  {
+    "string_id": 16259,
+    "offset": "0xbf7df",
+    "bytes": 14,
+    "raw_sha256": "54c039ffa4d10008a64436109401cc168bc1b54635893ee17fa2196ec1311861",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CLOUD_PROTOCOL"
+  },
+  {
+    "string_id": 16260,
+    "offset": "0xbf7e5",
+    "bytes": 8,
+    "raw_sha256": "bd651bb2f2afc4908630e5a1b51e49e6cf5e39384c7724e2722c225759f1f426",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PROTOCOL"
+  },
+  {
+    "string_id": 16261,
+    "offset": "0xbf7eb",
+    "bytes": 13,
+    "raw_sha256": "913c7d043dd340f841fd3661272b1acf13e074baa69a262df7c05c4f7d42a639",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "OLD_DEVICE_IP"
+  },
+  {
+    "string_id": 16287,
+    "offset": "0xbfad1",
+    "bytes": 6,
+    "raw_sha256": "d041924c15885af6d06530a425c6dbffc80520150c4dd264f40b4364b12421a8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "signal"
+  },
+  {
+    "string_id": 16288,
+    "offset": "0xbfadc",
+    "bytes": 5,
+    "raw_sha256": "3a53db8a2c8a17ee3ea667bc146718c004d4446dee670a46d426e563ced7bc2f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "abort"
+  },
+  {
+    "string_id": 16291,
+    "offset": "0xbfb1c",
+    "bytes": 8,
+    "raw_sha256": "0ef4d057bbd936465a58dee790ddc13c4c13aff89c46a6e458622afb2725bf00",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_FAQ"
+  },
+  {
+    "string_id": 16347,
+    "offset": "0xc0e86",
+    "bytes": 6,
+    "raw_sha256": "7684a44b00f37df5f43aa74547761f1af96ca96f9ce7a6df94e1a2ee0b16fed4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "substr"
+  },
+  {
+    "string_id": 16364,
+    "offset": "0xc11e8",
+    "bytes": 14,
+    "raw_sha256": "27ec23febc09f3c9c66b9ebba9afbd89a9a68ce6732f5ae58e26d7294db6742b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "XMLHttpRequest"
+  },
+  {
+    "string_id": 16395,
+    "offset": "0xc14cd",
+    "bytes": 10,
+    "raw_sha256": "7e3079d63e40a4648ed38d3a4fb2aed0fb97ce3c86c17a5c458ca5f733179bd8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "deleteFile"
+  },
+  {
+    "string_id": 16397,
+    "offset": "0xc14e8",
+    "bytes": 8,
+    "raw_sha256": "ffefc7aa410b6c53e195d9c4df04d5f9828d04bbd39a683a961fbbd16322403a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playFile"
+  },
+  {
+    "string_id": 16461,
+    "offset": "0xc23f8",
+    "bytes": 12,
+    "raw_sha256": "02b9f5e8285a97d2697fe20cdfc0782862c2906f3a04e4af785007acfeb0d39a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "clearTimeout"
+  },
+  {
+    "string_id": 16482,
+    "offset": "0xc2b99",
+    "bytes": 18,
+    "raw_sha256": "80e54952049beeb2514b54007e6174c8b9a265556f37c8c4dee8d1e9c2ade2df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "decodeGBKHexString"
+  },
+  {
+    "string_id": 16508,
+    "offset": "0xc2fb6",
+    "bytes": 21,
+    "raw_sha256": "fcdf0f2b5f6b1f23840bec0d0d8bf2423f19e14dfa827d5c9a3f75abc3de9aa7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "_handleDeviceFileList"
+  },
+  {
+    "string_id": 16547,
+    "offset": "0xc3a22",
+    "bytes": 11,
+    "raw_sha256": "67b5d70880cd23a4deeeb15ecb144e0b219d9dc1dc7d67323e989e98bb659604",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getFullYear"
+  },
+  {
+    "string_id": 16606,
+    "offset": "0xc464d",
+    "bytes": 9,
+    "raw_sha256": "f0c32e1effc7929b812417b5eba59fb24caad20e89e2ea4feb5360257ecac1b6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "marginTop"
+  },
+  {
+    "string_id": 16638,
+    "offset": "0xc4f1d",
+    "bytes": 12,
+    "raw_sha256": "d926796e01cc0331e7558454f490f6ecfb89d5ed6d139205f9c8a71a2f0f5809",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_AI_HOME"
+  },
+  {
+    "string_id": 16652,
+    "offset": "0xc4fe7",
+    "bytes": 10,
+    "raw_sha256": "448259443c864c8559bda91ce1cd8dc9bf3c9add5d7e7b415651a2164036aea5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HeaderView"
+  },
+  {
+    "string_id": 16703,
+    "offset": "0xc5444",
+    "bytes": 8,
+    "raw_sha256": "08434ba9cdf55a02284e2913400586cd289878e0f055f7bb0b07ce392caeb989",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "shutdown"
+  },
+  {
+    "string_id": 16891,
+    "offset": "0xc8672",
+    "bytes": 17,
+    "raw_sha256": "e8645a47d617442e018fc5fcc45f774d22a801642aa17d25195e915b235b3b78",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "oldModelConnected"
+  },
+  {
+    "string_id": 16892,
+    "offset": "0xc8683",
+    "bytes": 13,
+    "raw_sha256": "ac4e6d7c350c1e7057e5ec4112d0796dfff96601577e876299931bcb3f8d0bf7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CONTACT_EMAIL"
+  },
+  {
+    "string_id": 16933,
+    "offset": "0xc8e06",
+    "bytes": 12,
+    "raw_sha256": "85eb00994d09e4d052a0480491f909eaf1674566972877d1a5932d0f014444b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Content-Type"
+  },
+  {
+    "string_id": 16948,
+    "offset": "0xc8ef7",
+    "bytes": 8,
+    "raw_sha256": "63c881908ca12832d034fb60ef82753a32e730439379334c9cded608877f48e4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "padStart"
+  },
+  {
+    "string_id": 17008,
+    "offset": "0xc981e",
+    "bytes": 13,
+    "raw_sha256": "2dec1990e89a17f43bc8f8fb7f2e9c39f0c13a0c359bb7b21deaeea1a0b68efc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "closeOnScroll"
+  },
+  {
+    "string_id": 17075,
+    "offset": "0xccccf",
+    "bytes": 17,
+    "raw_sha256": "e4ee37ee53cf3e90f4de05a014dda31c7bf8bb0eefd905d255759a29eb249981",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AP_NET_CFG_SUBMIT"
+  },
+  {
+    "string_id": 17085,
+    "offset": "0xccdf3",
+    "bytes": 9,
+    "raw_sha256": "20066313d6f05a46e07d9e2539edcf29f50aa68aaeb9fb49a13f68f52fb7495d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setConfig"
+  },
+  {
+    "string_id": 17158,
+    "offset": "0xcd66e",
+    "bytes": 29,
+    "raw_sha256": "f2612b9153a59c1f2e71cd6b96fe0a61905aab0355642f363a505b2562fdd93d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "EVENT_REMOVE_EMITTER_LISTENER"
+  },
+  {
+    "string_id": 17164,
+    "offset": "0xcd6bb",
+    "bytes": 10,
+    "raw_sha256": "cc718204fdf82db60982b7f640c4242b1bfe3198273e8cb319c53cfb5c16f002",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "TEXT_COLOR"
+  },
+  {
+    "string_id": 17233,
+    "offset": "0xcdc86",
+    "bytes": 16,
+    "raw_sha256": "d4a734e197b146300ad9ba43d94bc057759b75778a2f6348b81f38bc6769ac8f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "supportNetconfig"
+  },
+  {
+    "string_id": 17239,
+    "offset": "0xcdd08",
+    "bytes": 10,
+    "raw_sha256": "6a70c6d723570f710dfa2e6f9ce0982863c82103bebb86dae9ff6f8fcc79f00d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "modalProps"
+  },
+  {
+    "string_id": 17249,
+    "offset": "0xce742",
+    "bytes": 22,
+    "raw_sha256": "656ae7b62dacae0364aeb74241c8fae20537cbb804a07ac3707268996b8c04ec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "DISABLE_TEXT_SELECTION"
+  },
+  {
+    "string_id": 17260,
+    "offset": "0xce843",
+    "bytes": 23,
+    "raw_sha256": "e2a70834c8c4cd7b496d993786d069de7edba5c910585bfc97f1bce2fcc5f516",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_NET_CONFIG_PREPARE"
+  },
+  {
+    "string_id": 17266,
+    "offset": "0xce960",
+    "bytes": 26,
+    "raw_sha256": "faf940382347b4c9432ef2e78ce223affa00bfbba9c762df697df7c6d87439bc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_READ_SOFTWARE_VERSION"
+  },
+  {
+    "string_id": 17267,
+    "offset": "0xce994",
+    "bytes": 29,
+    "raw_sha256": "44413fdbd256d1cf081f6e5d9b5ba484e2249516a1a8f59450db60200f614926",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_SERVICE_SOFTWARE_VERSION"
+  },
+  {
+    "string_id": 17290,
+    "offset": "0xcebe0",
+    "bytes": 20,
+    "raw_sha256": "e137781a38a6c9e80ff9cc9e5dade6e6fe2812658e51663310be5ffe5b564336",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_NET_CONFIG_DONE"
+  },
+  {
+    "string_id": 17303,
+    "offset": "0xcec63",
+    "bytes": 4,
+    "raw_sha256": "6e10953f3e4ca159285c03a116d60c5086727c958dc25b31c39848ffea1dcdfe",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "OPEN"
+  },
+  {
+    "string_id": 17355,
+    "offset": "0xcf087",
+    "bytes": 8,
+    "raw_sha256": "11da8b1975abd4e710117d98ac0c2384cd739283d5ea609ab03c008a016f6558",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "CLOUD_IP"
+  },
+  {
+    "string_id": 17373,
+    "offset": "0xcf14e",
+    "bytes": 2,
+    "raw_sha256": "deae2d4d75857c1081f113bcfc950dca567dd5a2e14e6ac8fb8e5785ff4dd5ec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "F1"
+  },
+  {
+    "string_id": 17376,
+    "offset": "0xcf1b7",
+    "bytes": 26,
+    "raw_sha256": "e2d4da9cadd23b1aa751cf66435b5d8ce40f5ef35f45390282a467ed65c6b792",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_NET_CONFIG_WIFI_INPUT"
+  },
+  {
+    "string_id": 17527,
+    "offset": "0xd0c3d",
+    "bytes": 22,
+    "raw_sha256": "59e38c8df62ac84916d44a4f1874f808aed472736875c5e4b195b3b96e97809b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "MODAL_BACKGROUND_COLOR"
+  },
+  {
+    "string_id": 17528,
+    "offset": "0xd0c55",
+    "bytes": 12,
+    "raw_sha256": "81f945c1f0938743a6982fb99a7a00781379120919271b6f04982924d570494f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "SafeAreaView"
+  },
+  {
+    "string_id": 17538,
+    "offset": "0xd0d3a",
+    "bytes": 18,
+    "raw_sha256": "2ad0fcc8725946490110b7a65b5b87a8418167e27881c2a9886f4bda52e39be4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "TEXT_DISABLE_COLOR"
+  },
+  {
+    "string_id": 17604,
+    "offset": "0xd151d",
+    "bytes": 16,
+    "raw_sha256": "ea4cb9d65ccd1030ec7d37f7637cda70452759851aea4c29e188515bd4d7d43f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "placeholderStyle"
+  },
+  {
+    "string_id": 17683,
+    "offset": "0xd1e64",
+    "bytes": 14,
+    "raw_sha256": "66afe1d1503c48388afe32db947f5686245d2666fef531f67a55e1d18c46c0f0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_ADD_MEDIA"
+  },
+  {
+    "string_id": 17950,
+    "offset": "0xd603b",
+    "bytes": 7,
+    "raw_sha256": "54a8c97ae52daa0cda20ca6249ed3a426e4bfc337b2f97a260b83eca2dcf7952",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getDate"
+  },
+  {
+    "string_id": 18024,
+    "offset": "0xd70e9",
+    "bytes": 18,
+    "raw_sha256": "1867087b1c690bdc424af619d34049327649523c8a9c373e3059e09690156e05",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onDialogStateBlock"
+  },
+  {
+    "string_id": 18060,
+    "offset": "0xd79d5",
+    "bytes": 5,
+    "raw_sha256": "9f925cdc4feedda4d9ae06f2e1b476680f4781ac2e0fb95fcc819be70328453d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "catch"
+  },
+  {
+    "string_id": 18113,
+    "offset": "0xd7dd5",
+    "bytes": 23,
+    "raw_sha256": "8f303b36dfd791857e17c5e311dbcb1bd8e23ade02c0735682e9cc7d9a553349",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_NOTIFY_SHAKE_HANDS"
+  },
+  {
+    "string_id": 18115,
+    "offset": "0xd7e01",
+    "bytes": 22,
+    "raw_sha256": "31be81658c2cb916f06dd2bf8747d6551cfbe3c85bfe0b6cafb18eb9f2eb08bb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_WRITE_SHAKE_HANDS"
+  },
+  {
+    "string_id": 18122,
+    "offset": "0xd7f51",
+    "bytes": 20,
+    "raw_sha256": "eff3536e95cd58bd5ad66369b20f67882e500717561af522ed448ec4ac4dce78",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "closeOnRowBeginSwipe"
+  },
+  {
+    "string_id": 18174,
+    "offset": "0xd8392",
+    "bytes": 6,
+    "raw_sha256": "3626e7fdea1cea3e30207f6d0637263aa6e13b9f7f7047b3d4f409cec6f02437",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Styles"
+  },
+  {
+    "string_id": 18178,
+    "offset": "0xd8535",
+    "bytes": 17,
+    "raw_sha256": "ea3dc03df65952d70dd75a32d07a2cfc2eb4e6e3b75b7be8edbe00f3e1a4508c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AP_NET_CFG_REBOOT"
+  },
+  {
+    "string_id": 18204,
+    "offset": "0xd8a08",
+    "bytes": 10,
+    "raw_sha256": "d4527d38a92fb0d0d104e022a837c51678ce82c0de9aa4acad67bb9d0b3ad41b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_MEDIA"
+  },
+  {
+    "string_id": 18205,
+    "offset": "0xd8a0d",
+    "bytes": 12,
+    "raw_sha256": "ec503977ff9c28c851ba515e0fe6ba03a7bf67ffcc343bc308da46fd483f5d92",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "MEDIA_MODULE"
+  },
+  {
+    "string_id": 18208,
+    "offset": "0xd8a1a",
+    "bytes": 12,
+    "raw_sha256": "5a70259b4fbe6e3218bfeffabf25ca16461766e0b8757ccd30b5d02ae9b01fc9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "LANGUAGE_KEY"
+  },
+  {
+    "string_id": 18215,
+    "offset": "0xd8af9",
+    "bytes": 22,
+    "raw_sha256": "9b923a2b91cb278e5c46ccceefc10e9efc8b3949ffe0d4d6bb3bf4b00abc11c9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "OLD_DEVICE_UPLOAD_PORT"
+  },
+  {
+    "string_id": 18217,
+    "offset": "0xd8b76",
+    "bytes": 10,
+    "raw_sha256": "e676d5d12ba5e8519a5865173615b79cd6f308ebecccb24df54d732a0058d07e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_ABOUT"
+  },
+  {
+    "string_id": 18221,
+    "offset": "0xd8bda",
+    "bytes": 23,
+    "raw_sha256": "a03eca37c458f46883a23709676bd028fce61639546b8d996f55127624952706",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN_SPHERE_TEXT"
+  },
+  {
+    "string_id": 18279,
+    "offset": "0xd9712",
+    "bytes": 7,
+    "raw_sha256": "57fff65be99cd4c148718b5b8d208f5d68074a40724064d7d5d2a609b7d8693e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getTime"
+  },
+  {
+    "string_id": 18305,
+    "offset": "0xd9956",
+    "bytes": 10,
+    "raw_sha256": "2d086ce9c6612b6a69ff7c173bd3c99c3c857cd854ade0eaaaad3fb025170c45",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onProgress"
+  },
+  {
+    "string_id": 18374,
+    "offset": "0xda1d9",
+    "bytes": 19,
+    "raw_sha256": "5d29049b82819e0059f643ad644d48776965a69ee623bd891e552717912b9911",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AP_NET_CFG_BASE_URL"
+  },
+  {
+    "string_id": 18378,
+    "offset": "0xda241",
+    "bytes": 25,
+    "raw_sha256": "1c20a638c819864d2ab2c0c1721d4ee3f798afd640af19a3fcbe4936071a171a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AP_NET_CFG_SAVED_LIST_URL"
+  },
+  {
+    "string_id": 18381,
+    "offset": "0xda288",
+    "bytes": 19,
+    "raw_sha256": "1ab05fc57e080802b2a7b14fea732658b081d4ca6df5a2c642af9565e843b3cc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AP_NET_CFG_SCAN_URL"
+  },
+  {
+    "string_id": 18384,
+    "offset": "0xda2ca",
+    "bytes": 7,
+    "raw_sha256": "b4e06185171e5faccc33da93821d7fc30232908420426192a72f36a385d30b3b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "FAQ_URL"
+  },
+  {
+    "string_id": 18388,
+    "offset": "0xda3d4",
+    "bytes": 12,
+    "raw_sha256": "2b579d45c3c002591e15f1fb67c378c59345f7cdeefea5bd9b7935a2e328ccd6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_PRIVACY"
+  },
+  {
+    "string_id": 18389,
+    "offset": "0xda3d9",
+    "bytes": 11,
+    "raw_sha256": "e4a431dd23b5bb2cc71d827e497b7cb10a05e71028e91f8e9a36599be4e046f9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PRIVACY_URL"
+  },
+  {
+    "string_id": 18391,
+    "offset": "0xda481",
+    "bytes": 12,
+    "raw_sha256": "695c6808ff04cf9aeb899f221882a1bac4230c72c8409d60af264e9c6b4ec647",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "keyExtractor"
+  },
+  {
+    "string_id": 18398,
+    "offset": "0xda4dd",
+    "bytes": 11,
+    "raw_sha256": "29d2fd5599656346bfd31c02c351181915ec89702db80dee4c5ae44536f87f24",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "SERVICE_URL"
+  },
+  {
+    "string_id": 18454,
+    "offset": "0xdb816",
+    "bytes": 17,
+    "raw_sha256": "00543810613e1cfff4588242f2cf7cb75ca01447fe6cdce1b095ae9040e647f1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "phone_image_media"
+  },
+  {
+    "string_id": 18550,
+    "offset": "0xdc573",
+    "bytes": 10,
+    "raw_sha256": "98ae2195cfa9c541e57ed9591896a67c723f207717757f9cc59cc8c1321ab751",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "renderItem"
+  },
+  {
+    "string_id": 18588,
+    "offset": "0xdca50",
+    "bytes": 14,
+    "raw_sha256": "fdd7fa6e9708eb76869fd226ea54c2435607552e208da77cef1dd89e85620133",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "startWebsocket"
+  },
+  {
+    "string_id": 18599,
+    "offset": "0xdcaa4",
+    "bytes": 13,
+    "raw_sha256": "9607feb1f9d8303009f132537b3bb1a6b50b8363a2d8a6bbc63d52202d816f0c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "stopWebsocket"
+  },
+  {
+    "string_id": 18637,
+    "offset": "0xdcf22",
+    "bytes": 16,
+    "raw_sha256": "05d4f2c489ef30a581e494b19760aa3299dab8e791bd7fc876861d57d5a525b1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_LOCAL_MEDIA"
+  },
+  {
+    "string_id": 18720,
+    "offset": "0xdf8eb",
+    "bytes": 5,
+    "raw_sha256": "ecd3fad7a4d35d7130c6748352d88f164f156375925f87464afe21b344af97dd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "shift"
+  },
+  {
+    "string_id": 18795,
+    "offset": "0xe08b0",
+    "bytes": 15,
+    "raw_sha256": "d772cb997bf49cd167bb5dc17b84e98b198696dda48544057d3a44f88fddf554",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestPlayInfo"
+  },
+  {
+    "string_id": 18808,
+    "offset": "0xe09c7",
+    "bytes": 14,
+    "raw_sha256": "900cca818188f1013aa68629cc1440108dc302f16635e822316bdde922b29960",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "enqueueRequest"
+  },
+  {
+    "string_id": 18810,
+    "offset": "0xe09ea",
+    "bytes": 13,
+    "raw_sha256": "037b3f989baa4412b783cbfb0a437ba61c226fb78e1c79ba3133e670e4f5a524",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "loadAllConfig"
+  },
+  {
+    "string_id": 18875,
+    "offset": "0xe0e2d",
+    "bytes": 24,
+    "raw_sha256": "9d83324d5e9cf72c30b9bf6447cc158370879c7df0708cc65f6f9f9a05f6ce7c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setOnConnectChangedBlock"
+  },
+  {
+    "string_id": 18926,
+    "offset": "0xe1116",
+    "bytes": 8,
+    "raw_sha256": "8fd8b5b81a4bb7a171a7ac08a036a0f07ab5a137f99671ba08dfb088e1ab1204",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "FormData"
+  },
+  {
+    "string_id": 19008,
+    "offset": "0xe1603",
+    "bytes": 16,
+    "raw_sha256": "af06db069b0e1852ae73dfb7d3a8ca14ba6975ea56274cfcfac02a9d0dbca0df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "renderHiddenItem"
+  },
+  {
+    "string_id": 19100,
+    "offset": "0xe1d00",
+    "bytes": 10,
+    "raw_sha256": "a86bc9f7220109100892152eb7fe6104b56430891214bee6f44f0a95d1841c42",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFile"
+  },
+  {
+    "string_id": 19331,
+    "offset": "0xe2e4b",
+    "bytes": 10,
+    "raw_sha256": "03520375963a844f485ab5adbef9324b2c705cf64c21155277591b745b581e9b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "cancelable"
+  },
+  {
+    "string_id": 19769,
+    "offset": "0xe78c9",
+    "bytes": 14,
+    "raw_sha256": "407bd906c96e007ed5c6b879e2832e2be43b44e6ece93b523506fefe28d9bf9a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "refreshControl"
+  },
+  {
+    "string_id": 19935,
+    "offset": "0xe83f6",
+    "bytes": 18,
+    "raw_sha256": "78ca864d06395e7374202a09aa1f277dada718e08c1774760e528ff468800892",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_PREVIEW_MEDIA"
+  },
+  {
+    "string_id": 19936,
+    "offset": "0xe8405",
+    "bytes": 9,
+    "raw_sha256": "285445ba37b716a239195e0af2a0c99eaa59ecc5d94bb7012e6d38d4ab6e9f42",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "DIA_REGEX"
+  },
+  {
+    "string_id": 19950,
+    "offset": "0xe8511",
+    "bytes": 15,
+    "raw_sha256": "995646dd15e7d8499718a0866a2fe404d607390d4867fd11c709dc04e9aea94a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onBackdropPress"
+  },
+  {
+    "string_id": 20171,
+    "offset": "0xe9258",
+    "bytes": 12,
+    "raw_sha256": "caab510dde1b06a9aaca3450066e5904e754afeabb2b1b2d3cc31cc18179514c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "checkConnect"
+  },
+  {
+    "string_id": 20222,
+    "offset": "0xe953c",
+    "bytes": 10,
+    "raw_sha256": "93e04f86ace609f52cca6f770a688ca6be10f54a9e012c5da703068c094055d6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "deviceInfo"
+  },
+  {
+    "string_id": 20395,
+    "offset": "0xea470",
+    "bytes": 6,
+    "raw_sha256": "6ac7d5df1133633bd7e8ba8472e3c0e0c99a0a0be8db3aaf2924c269723b13ba",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onload"
+  },
+  {
+    "string_id": 20461,
+    "offset": "0xea80e",
+    "bytes": 5,
+    "raw_sha256": "f394aa7979e5cc5d490493628d72a3847b31a79c38a81db1da7df4ef1cf8be23",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "edges"
+  },
+  {
+    "string_id": 20588,
+    "offset": "0xeb7eb",
+    "bytes": 16,
+    "raw_sha256": "b3bee67e543fecf13923116794f099443edc351af5602f67647753982e177a9c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PaddingImageView"
+  },
+  {
+    "string_id": 20877,
+    "offset": "0xeda3b",
+    "bytes": 10,
+    "raw_sha256": "0a63dd9aa0a90420bef07f7cd5411b183caca9cb3150cf19733a0316f5335858",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "processing"
+  },
+  {
+    "string_id": 20960,
+    "offset": "0xee535",
+    "bytes": 14,
+    "raw_sha256": "8d3a5b462c0bcc9715357c36a2d4b353eb84af64fe1b477e75bbe19b45d559be",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getRandomTime8"
+  },
+  {
+    "string_id": 20990,
+    "offset": "0xee940",
+    "bytes": 13,
+    "raw_sha256": "f9cdccdf01c795a312849897a2079c5804a0a4e8ce7cedf4ca0910c65d3958cb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "backdropStyle"
+  },
+  {
+    "string_id": 21031,
+    "offset": "0xeec02",
+    "bytes": 8,
+    "raw_sha256": "0f94f2f05f3a88a63c14b583ad085549d1690d3d3728be386a9f35a781dacd49",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playInfo"
+  },
+  {
+    "string_id": 21102,
+    "offset": "0xef04e",
+    "bytes": 16,
+    "raw_sha256": "ca1c0e28556e32106050be622b16d6274177f3c85b6389dbc9e33b435d5eed46",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "lengthComputable"
+  },
+  {
+    "string_id": 21268,
+    "offset": "0xef9ef",
+    "bytes": 5,
+    "raw_sha256": "fe61da860649d14970754fc3599161b52654d35cd8e9365eb08d393792cda565",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "volum"
+  },
+  {
+    "string_id": 21453,
+    "offset": "0xf2641",
+    "bytes": 4,
+    "raw_sha256": "d2a1edd66cf8b3c1cb7370c86ea29af05a88cd4be42e167afad6ad07cfb95376",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "opts"
+  },
+  {
+    "string_id": 21465,
+    "offset": "0xf2a0c",
+    "bytes": 10,
+    "raw_sha256": "b86c5a250a1e5560caeb68d9a6f7d1768f25e0306c0de8a29f6faea2184b9d3e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ScreenUtil"
+  },
+  {
+    "string_id": 21587,
+    "offset": "0xf506a",
+    "bytes": 5,
+    "raw_sha256": "66a424a9a958b152c1c3ba65a2ac6c33ad03333e2e41e7d770b5758d46dd3ef5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "every"
+  },
+  {
+    "string_id": 21698,
+    "offset": "0x10297e",
+    "bytes": 8,
+    "raw_sha256": "a310ad9f6c3bb6be97373920fa93268a40c49b7627e1de4e1cbb7ecaeeb357be",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "endsWith"
+  },
+  {
+    "string_id": 21835,
+    "offset": "0x106a19",
+    "bytes": 16,
+    "raw_sha256": "04c294e4ce99e6901d666d46b199d8b9c8ceee0bf64f5c3220ec8293c4297e82",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "TouchableOpacity"
+  },
+  {
+    "string_id": 22115,
+    "offset": "0x1079b6",
+    "bytes": 7,
+    "raw_sha256": "4e5422e1b9abcaefeeea8c3769b38daf197d5ccd4213db8b46582a306aba53b1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getHost"
+  },
+  {
+    "string_id": 22157,
+    "offset": "0x107d1c",
+    "bytes": 19,
+    "raw_sha256": "691693a01f3cea418a293e5161b83e0307b26ae0e85dda1032cb5b8bc5da09d8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "lastHeartBeatSendTs"
+  },
+  {
+    "string_id": 22185,
+    "offset": "0x107ef6",
+    "bytes": 16,
+    "raw_sha256": "000b94a1cd5bfaf3dca8b105b60a2e52d146c033b134c1fb49cc187b8f66ded5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "disableLeftSwipe"
+  },
+  {
+    "string_id": 22340,
+    "offset": "0x10894e",
+    "bytes": 20,
+    "raw_sha256": "60678720395a16f2f4107ede09d1baccc6a8f55d858052fdb9ea7b621193449f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "encodeGBKToHexString"
+  },
+  {
+    "string_id": 22371,
+    "offset": "0x108b47",
+    "bytes": 6,
+    "raw_sha256": "86e26c0113b13bd6ac1ac29727aa33ec4dbe1e8244608e2e4720297357298c4a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "Pragma"
+  },
+  {
+    "string_id": 22395,
+    "offset": "0x108c97",
+    "bytes": 8,
+    "raw_sha256": "3fc8eb36941deb4ece48c69025db3a739cd27137f08a41688c03bfd910b3f725",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "switcher"
+  },
+  {
+    "string_id": 22406,
+    "offset": "0x108d52",
+    "bytes": 8,
+    "raw_sha256": "19d5a0f79981a12fcd1756969c806a4b5ea780a983f0995fa6419090ee34d6ab",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getMonth"
+  },
+  {
+    "string_id": 22588,
+    "offset": "0x109835",
+    "bytes": 11,
+    "raw_sha256": "23a130e145c7a02c00d230807bbd3323ce6a24fa8eb83f0d608b2f886118939f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setInterval"
+  },
+  {
+    "string_id": 22714,
+    "offset": "0x10a10c",
+    "bytes": 7,
+    "raw_sha256": "6356caab3274bea44cc28db8e606527971b807bd15b7f0adc44ffb7a7a2391d1",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onerror"
+  },
+  {
+    "string_id": 22765,
+    "offset": "0x10a4ee",
+    "bytes": 10,
+    "raw_sha256": "b024da53907818846ebb4472648e28e8ca972860d48886eba9d667b7cfd789f8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "startsWith"
+  },
+  {
+    "string_id": 22904,
+    "offset": "0x10aca6",
+    "bytes": 11,
+    "raw_sha256": "1c1dcf250795556f278e5093c6afbfb58c8fa20f459abff0f1534eeb2943eafa",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "confirm_tip"
+  },
+  {
+    "string_id": 22937,
+    "offset": "0x10ae8d",
+    "bytes": 10,
+    "raw_sha256": "4e388daab3c631be65dc5a43403bb0aa106c2c017646d8397b174a45136307cc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "startTimer"
+  },
+  {
+    "string_id": 22945,
+    "offset": "0x10aed5",
+    "bytes": 2,
+    "raw_sha256": "0f1e18bb4143dc4be22e61ea4deb0491c2bf7018c6504ad631038aed5ca4a0ca",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "fn"
+  },
+  {
+    "string_id": 23239,
+    "offset": "0x10c02d",
+    "bytes": 12,
+    "raw_sha256": "ef12c20f2acceec8295079c7e04793635b62a62f234175ef9d10ca9a8367223f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "playPrevious"
+  },
+  {
+    "string_id": 23270,
+    "offset": "0x10c1a8",
+    "bytes": 11,
+    "raw_sha256": "6b1aea461684e6c2a14899ed4c968c240cf2ae9c77fe50c008f301690df54bdc",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestInfo"
+  },
+  {
+    "string_id": 23442,
+    "offset": "0x10ceaf",
+    "bytes": 7,
+    "raw_sha256": "1a967cc6ee28ef864ad83e4c82621281b91503a1c6f9894669ec4b03c714d961",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setHost"
+  },
+  {
+    "string_id": 23824,
+    "offset": "0x10e603",
+    "bytes": 25,
+    "raw_sha256": "656ca9bfa7073d8143325b9d402b6b958320ec30263fe8ab82a3742de4ea56f5",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setOnFileListChangedBlock"
+  },
+  {
+    "string_id": 23834,
+    "offset": "0x10e6a5",
+    "bytes": 25,
+    "raw_sha256": "403281fe1b5fbffc6ba6b2bf566def119de0b0fb7ca811665942c5f974b4257c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setOnPlayInfoChangedBlock"
+  },
+  {
+    "string_id": 23841,
+    "offset": "0x10e715",
+    "bytes": 24,
+    "raw_sha256": "bc31129b0cc54312c3ccba7ccf4780dabc423621963622e9834a0a9fcccd1b5a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setOnUpdateFileListBlock"
+  },
+  {
+    "string_id": 23923,
+    "offset": "0x10ec5b",
+    "bytes": 18,
+    "raw_sha256": "e37aa7979f702090da2ff163e2c3f53beef30d6ab07462b90ae70fbf911ba028",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "uploadFileToDevice"
+  },
+  {
+    "string_id": 23990,
+    "offset": "0x10f22a",
+    "bytes": 8,
+    "raw_sha256": "2d8629a6053e3510a6ed8a0d0fbb1023b40968512d77fd164fb1380297c8ff53",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "checkUrl"
+  },
+  {
+    "string_id": 24067,
+    "offset": "0x10f675",
+    "bytes": 16,
+    "raw_sha256": "75cffac7a51ef0d4e41bc12aeb6bc53eb9ea05f6d3ef7706e2dfb26dcd5b9e18",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setRequestHeader"
+  },
+  {
+    "string_id": 24082,
+    "offset": "0x10f74b",
+    "bytes": 13,
+    "raw_sha256": "39d06558de9cb571977e5e34c9520108501db2260bd6ae35cc22a890b1cb4445",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "clearInterval"
+  },
+  {
+    "string_id": 24203,
+    "offset": "0x10fdbb",
+    "bytes": 16,
+    "raw_sha256": "51daa8e899931a256ea4e63ed2e33dfec6b5516f5eab80bbfa2b88eac9b5375a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "AppUpdateManager"
+  },
+  {
+    "string_id": 24211,
+    "offset": "0x10fdeb",
+    "bytes": 8,
+    "raw_sha256": "44467285fdb6deb287a02db541a6c9ab9e7a6269f8e916ffd1e1a00eb0e62891",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "SPDialog"
+  },
+  {
+    "string_id": 24216,
+    "offset": "0x10fe09",
+    "bytes": 11,
+    "raw_sha256": "e220ac12c1633b93483c21064b402bb3ef16ecd6aae9783b830d764709055dc9",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "BottomSheet"
+  },
+  {
+    "string_id": 24226,
+    "offset": "0x10fe5b",
+    "bytes": 9,
+    "raw_sha256": "e093f6eb7c99a82f176a4cc46f46417f824ac3142148156b8a9c9cf4449ab261",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "STR_REGEX"
+  },
+  {
+    "string_id": 24273,
+    "offset": "0x110039",
+    "bytes": 11,
+    "raw_sha256": "a314d829369f031ecf660068dd950adb94e3714bf88efc33f65519fca0894e52",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_RECORD"
+  },
+  {
+    "string_id": 24310,
+    "offset": "0x1101a8",
+    "bytes": 11,
+    "raw_sha256": "74a81d2c5d69dbd02167328047ab3bf05ae899cc47fe7f2a9429280d1c096d7b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "MEDIA_EVENT"
+  },
+  {
+    "string_id": 24311,
+    "offset": "0x1101ae",
+    "bytes": 18,
+    "raw_sha256": "f7a4fb3fef06f97a118a7757ee8692a24da9a56ef6759979faeda50fb7cef249",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "EVENT_EMIITER_TYPE"
+  },
+  {
+    "string_id": 24380,
+    "offset": "0x110464",
+    "bytes": 12,
+    "raw_sha256": "9c3bbae3a331fe1ff084fd8e7ba3c73f583736e331a145bec30c3158a7429faa",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestQueue"
+  },
+  {
+    "string_id": 24431,
+    "offset": "0x1106a0",
+    "bytes": 14,
+    "raw_sha256": "14b6358d76a0580087a3ce83c8ba9a4abbff75ade0a2194958aabad2f16b1c1a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "HeaderViewHome"
+  },
+  {
+    "string_id": 24477,
+    "offset": "0x110858",
+    "bytes": 14,
+    "raw_sha256": "858836f467a651a4e6f92f9d0f822ad17817523af3eb22aea208ed80e7623b4d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onStateChanged"
+  },
+  {
+    "string_id": 24501,
+    "offset": "0x11098a",
+    "bytes": 16,
+    "raw_sha256": "d96e8eeb75e8b4266db3e03a492d6fec1a3c582f34bfccf90dd3b070ee98aaa7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_CLOUD_MEDIA"
+  },
+  {
+    "string_id": 24503,
+    "offset": "0x110995",
+    "bytes": 20,
+    "raw_sha256": "d097559a01c7c91a37282f205fca2bc3140f3d540f2327c1b1cb612f18a986ec",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "MEDIA_FUNC_UPLOAD_V2"
+  },
+  {
+    "string_id": 24504,
+    "offset": "0x1109a9",
+    "bytes": 6,
+    "raw_sha256": "b0db1518f3cdfd4db883854f40d1c2b32f687162d0ffb4a5c70637de157a67b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "MIDDLE"
+  },
+  {
+    "string_id": 24592,
+    "offset": "0x110dc9",
+    "bytes": 24,
+    "raw_sha256": "878dd9def8d9003efb4c0ca3dedcf38938362578d0536898c54e9cbce73de243",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DESIGN_SPINNING_BOX"
+  },
+  {
+    "string_id": 24593,
+    "offset": "0x110de1",
+    "bytes": 11,
+    "raw_sha256": "2720e4c865e2db1c7d8ac7600d334201696b4634a4600df6f1d8c8986d8f08e4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_DEVICE"
+  },
+  {
+    "string_id": 24594,
+    "offset": "0x110dec",
+    "bytes": 15,
+    "raw_sha256": "6ec10b0626f0e70fc0d4e0b6cb5f9b0c3f5c09ac04c98784765feb55cc54d61b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_EDIT_MEDIA"
+  },
+  {
+    "string_id": 24595,
+    "offset": "0x110dec",
+    "bytes": 19,
+    "raw_sha256": "b271088c539200715ea5c69b82d48626327a7247797e84a493a6171f7ac4a2b3",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_EDIT_MEDIA_360"
+  },
+  {
+    "string_id": 24596,
+    "offset": "0x110dff",
+    "bytes": 12,
+    "raw_sha256": "afd0780b33297dc7cba29ebe63102da6654acab2e0c8b4a23a459a6ec0e0dace",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_SERVICE"
+  },
+  {
+    "string_id": 24597,
+    "offset": "0x110e0b",
+    "bytes": 11,
+    "raw_sha256": "09dcb600a1c7c197282be04cb824fa15c495f01a4c7b6d7be87a3449a37bedfd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "PAGE_SPLASH"
+  },
+  {
+    "string_id": 24600,
+    "offset": "0x110e25",
+    "bytes": 16,
+    "raw_sha256": "715e4b8925f27d59aabb5e01a246271fd4d8b5bd2cf2c6a94d95ce6f18c0578f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "POST_UPLOAD_FILE"
+  },
+  {
+    "string_id": 24704,
+    "offset": "0x111343",
+    "bytes": 26,
+    "raw_sha256": "79a9bacabb6dc40c31fd391e4103425a855ac3e3d64a92992f817d4368cbdc24",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "req_device_settings_failed"
+  },
+  {
+    "string_id": 24751,
+    "offset": "0x111568",
+    "bytes": 13,
+    "raw_sha256": "1e09455ab36c24183dbe222b0cddf413dff0e66fb99bbe2b6f52ff0e1d0d77ef",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPressSwitch"
+  },
+  {
+    "string_id": 24781,
+    "offset": "0x1116dc",
+    "bytes": 9,
+    "raw_sha256": "08ed5a981ae005d49d7e6ba7f3969a7e38f3341d3d517b00b2d8fe8a652bd67e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "SYS_REGEX"
+  },
+  {
+    "string_id": 24858,
+    "offset": "0x111a47",
+    "bytes": 15,
+    "raw_sha256": "272dc9ac7b43da7a2b0ea6ec820293499974316d79bffac520c9c39149a3c29e",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "supportShutdown"
+  },
+  {
+    "string_id": 24887,
+    "offset": "0x111b53",
+    "bytes": 17,
+    "raw_sha256": "52746fb95f622f9bc85d588167f15077f78d0b97a6eda8f294b97b18caae55cf",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "disableRightSwipe"
+  },
+  {
+    "string_id": 24895,
+    "offset": "0x111b9a",
+    "bytes": 13,
+    "raw_sha256": "084b0bd68e398cbd6a0611556f15ff21b15cf73b70afa5b0f62d858dac3b0cc7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "SwipeListView"
+  },
+  {
+    "string_id": 24930,
+    "offset": "0x111d03",
+    "bytes": 13,
+    "raw_sha256": "475464a021b2eb626ba63ce0324873d2291a6f2105aab3db0b5e47a72312429d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "supportSwitch"
+  },
+  {
+    "string_id": 24958,
+    "offset": "0x111e38",
+    "bytes": 19,
+    "raw_sha256": "25fef11f7e2cbc7e0ca710d4ff99ad42a96385369f94b1955d2002675a41a756",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_NOTIFY_COMMAND"
+  },
+  {
+    "string_id": 24959,
+    "offset": "0x111e4b",
+    "bytes": 20,
+    "raw_sha256": "9fc1cfa41adb3e6fd9305d068df6c61275b1d4bd0025c679c09de14fcda65b1c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_SERVICE_COMMAND"
+  },
+  {
+    "string_id": 24960,
+    "offset": "0x111e5f",
+    "bytes": 18,
+    "raw_sha256": "730d87311f8e1189d131fe1c3bad49617a5fd15a15fd2274bff2cc2390a31e98",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "UUID_WRITE_COMMAND"
+  },
+  {
+    "string_id": 24966,
+    "offset": "0x111e9b",
+    "bytes": 14,
+    "raw_sha256": "50b952b0ca64e3d9342dc4265dd9341c70ba71f579f91ef689f87612686cbc66",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "requestSession"
+  },
+  {
+    "string_id": 25268,
+    "offset": "0x112ce9",
+    "bytes": 14,
+    "raw_sha256": "aa19b8394d31c86398ca725c76411e7e5a82d13cba537f4aee9366773ca0f517",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "resetToDefault"
+  },
+  {
+    "string_id": 25609,
+    "offset": "0x113c54",
+    "bytes": 22,
+    "raw_sha256": "5a7a093dc1aebc9a8cde6f3562bddb831de2ceb686bbd9553dac8cb5a653b094",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPlayInfoChangedBlock"
+  },
+  {
+    "string_id": 25742,
+    "offset": "0x114220",
+    "bytes": 5,
+    "raw_sha256": "31ee45bf7f31b76c141d9a6a6f40f9b5151961d76c6df83c4f88f7e0232e7eab",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "msgId"
+  },
+  {
+    "string_id": 25877,
+    "offset": "0x11470c",
+    "bytes": 12,
+    "raw_sha256": "f670b358903a2d3f529271c2ef6ea09bfe5d99f297855741c078f6cbebf4415a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "processQueue"
+  },
+  {
+    "string_id": 25888,
+    "offset": "0x1147a1",
+    "bytes": 18,
+    "raw_sha256": "ba41a941d8f9b13a9054c23d740812f1a9e9b92bd13fe666cb37cbee11f83143",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "postConnectedState"
+  },
+  {
+    "string_id": 25899,
+    "offset": "0x114835",
+    "bytes": 10,
+    "raw_sha256": "a6bf1ba3c73f5523edf229811c7d0f0eee7c5ffc6ec40e81135ee6ea171e1a07",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "readyState"
+  },
+  {
+    "string_id": 26413,
+    "offset": "0x115cde",
+    "bytes": 13,
+    "raw_sha256": "01e2ee66432e2c4f098221ee9a2345f40e72798ea93e8812c41d4b834133c57c",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "network_error"
+  },
+  {
+    "string_id": 26428,
+    "offset": "0x115d48",
+    "bytes": 17,
+    "raw_sha256": "4fc5b6614e9d1605da0f32ab40e6c735e13cf7917a381037a60df9dc18bd16ab",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "newModelConnected"
+  },
+  {
+    "string_id": 27024,
+    "offset": "0x117376",
+    "bytes": 10,
+    "raw_sha256": "e7a1fe05620f6a7304c8751f867ea238c0852514419a1b5e34d9980a0d52dfdf",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getSeconds"
+  },
+  {
+    "string_id": 28096,
+    "offset": "0x119c4f",
+    "bytes": 8,
+    "raw_sha256": "af901115fb6a2523f9cf6f620556129966642e29e0cb4c0420a2242a9c2e33b7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "barStyle"
+  },
+  {
+    "string_id": 28858,
+    "offset": "0x11ba14",
+    "bytes": 16,
+    "raw_sha256": "a7c75417e932330484396975dc5867ec5be8eaa68a58574ce959fa6349cf65d4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "fetchWithTimeout"
+  },
+  {
+    "string_id": 29146,
+    "offset": "0x11c4ae",
+    "bytes": 21,
+    "raw_sha256": "c7aae5a1039f73431beeb99b5f91b6c45601dbfcfb34d5c7e8f0e8cd64c287f7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "callNativeWithPromise"
+  },
+  {
+    "string_id": 29322,
+    "offset": "0x11cbdc",
+    "bytes": 9,
+    "raw_sha256": "82e516b7da75d53be46ea580e827e4e8d4c05aa9b6055623ba514442ca00476f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "ontimeout"
+  },
+  {
+    "string_id": 29512,
+    "offset": "0x11d2fe",
+    "bytes": 7,
+    "raw_sha256": "fc7d479a3eda9956e171dc29482d267b119d9b12465bacb563e0a57eec15eaa6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "leftImg"
+  },
+  {
+    "string_id": 29801,
+    "offset": "0x11ddd5",
+    "bytes": 14,
+    "raw_sha256": "0b7116302aa29d2134be2419111a25c79d7465c2dd3252c93457f2844a1ab31b",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "rightOpenValue"
+  },
+  {
+    "string_id": 29856,
+    "offset": "0x11e04c",
+    "bytes": 10,
+    "raw_sha256": "e4485809f2d8383543584fc2c1891f4b94c10df1d566a1ce8474330eb0be08dd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "titleStyle"
+  },
+  {
+    "string_id": 29864,
+    "offset": "0x11e0b9",
+    "bytes": 9,
+    "raw_sha256": "56934693fda87675580c4f0da877ff9f4f9feeebf1e62a9c07e52f6e38b90236",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "leftTitle"
+  },
+  {
+    "string_id": 30108,
+    "offset": "0x11ea9d",
+    "bytes": 7,
+    "raw_sha256": "aea8b72f6882732e5b9bbd97495e3ca633c0facb865bd9f37f763d5908c1ee90",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onclose"
+  },
+  {
+    "string_id": 30131,
+    "offset": "0x11eb61",
+    "bytes": 15,
+    "raw_sha256": "309c8de1b47728ce2655338328d30253bb6ec7bec6c54617fdba3b36656bb8df",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "closeOnRowPress"
+  },
+  {
+    "string_id": 30237,
+    "offset": "0x11ef51",
+    "bytes": 3,
+    "raw_sha256": "04dc5b2136328a0dcb189df97734c7c72e5e1227fa0c03469a6ce608f32f1b66",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "cmd"
+  },
+  {
+    "string_id": 30284,
+    "offset": "0x11f0ce",
+    "bytes": 8,
+    "raw_sha256": "ddf55b2c95cbb40e7eab6457395c9ab2785ff188a871c191b54fdbe94acf2b77",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onResult"
+  },
+  {
+    "string_id": 30475,
+    "offset": "0x11f875",
+    "bytes": 15,
+    "raw_sha256": "31e7ceed1064f65ee04a64f4447be20bae789d6c4436b072f334d10259a99c33",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "connectTryTimes"
+  },
+  {
+    "string_id": 30546,
+    "offset": "0x11fc35",
+    "bytes": 13,
+    "raw_sha256": "049a8038958075a4644a65725181421e4e259e79be4de6f39878c2b370ed045a",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "contentCenter"
+  },
+  {
+    "string_id": 30557,
+    "offset": "0x11fcc3",
+    "bytes": 12,
+    "raw_sha256": "3b18a44b6ac25805c05d84ffab4b92c5b519a063512034ba1807b6c301c87468",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "contentStyle"
+  },
+  {
+    "string_id": 31003,
+    "offset": "0x120dfd",
+    "bytes": 16,
+    "raw_sha256": "40d5d8f34b4646db06c69a5039e2a231671e8b307679e807a9bbf742794acee4",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "currentFileIndex"
+  },
+  {
+    "string_id": 31155,
+    "offset": "0x1213f4",
+    "bytes": 12,
+    "raw_sha256": "fd8e5fe565fca142367b445c0b1e8347a375836b77418db4e8c8228fb2ecdbeb",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getIsLoopAll"
+  },
+  {
+    "string_id": 31228,
+    "offset": "0x121665",
+    "bytes": 12,
+    "raw_sha256": "6e1411fcf3e2365efd5f37fa7f387201191812d004de9564b3025514b2d9b024",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isProcessing"
+  },
+  {
+    "string_id": 31243,
+    "offset": "0x1216f0",
+    "bytes": 14,
+    "raw_sha256": "6423c4bef7151dceb8e904dce78b33db28d24860e4d8d43355e7033dff0d519f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getIsConnected"
+  },
+  {
+    "string_id": 31477,
+    "offset": "0x122028",
+    "bytes": 9,
+    "raw_sha256": "84623634d7f705d4bbd3fde90c93dcabdc938ebf46002617ca8a32ca1c052598",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isPlaying"
+  },
+  {
+    "string_id": 31974,
+    "offset": "0x1232cc",
+    "bytes": 17,
+    "raw_sha256": "f3eadc8f6fdf4609dae7564370770a1e2b72810d57a4dca6c9a4d4b4dc8fc50f",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "phone_video_media"
+  },
+  {
+    "string_id": 32266,
+    "offset": "0x123ef8",
+    "bytes": 10,
+    "raw_sha256": "8ea22f0e1086bae839840ec4048c8d6e078dfc7741b5987234c5f4a0ddc81989",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "format_tip"
+  },
+  {
+    "string_id": 32340,
+    "offset": "0x124247",
+    "bytes": 8,
+    "raw_sha256": "8347145a827f5b5eba3fa9cdf213e0129a02be895268afc95b81b0d3a3c1a1fd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getModel"
+  },
+  {
+    "string_id": 32390,
+    "offset": "0x12445a",
+    "bytes": 16,
+    "raw_sha256": "265f48aaabbb610c37281253770f1c0ef3a7ed057ccca7e184fd5b92719b6f06",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "generateFilename"
+  },
+  {
+    "string_id": 32511,
+    "offset": "0x124a8a",
+    "bytes": 8,
+    "raw_sha256": "41a8e23908f7ef3a0f65ec2ed1dff85b9db5cc958b9826cd453c9b63f686ad2d",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getHours"
+  },
+  {
+    "string_id": 32516,
+    "offset": "0x124ab8",
+    "bytes": 11,
+    "raw_sha256": "6fb153842a22df15c0095e1a60a89a9b515a9d9e262387b1764a38d659f219e8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getHttpPort"
+  },
+  {
+    "string_id": 32531,
+    "offset": "0x124bb6",
+    "bytes": 9,
+    "raw_sha256": "e9c6f45c9a58ea53b76b21bfce7cd44a489ce1e40e45947e610dc3c9f443cc54",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getIsOpen"
+  },
+  {
+    "string_id": 32538,
+    "offset": "0x124c19",
+    "bytes": 9,
+    "raw_sha256": "b750e10359c3e09a3b89ed0fd8879dcfd39397cb0c3e6f6034228d6abdf89ab7",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "stopTimer"
+  },
+  {
+    "string_id": 32562,
+    "offset": "0x124dd2",
+    "bytes": 10,
+    "raw_sha256": "6377b55f9f871f395949fdf7b2c659eb7e7dd78e20e389c455a861b3458ab7ce",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "getMinutes"
+  },
+  {
+    "string_id": 32838,
+    "offset": "0x1259b5",
+    "bytes": 10,
+    "raw_sha256": "c554d8d125280aa380f38fc50264706f134449be47fbe8332bd2afa6b09558fd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "gotSession"
+  },
+  {
+    "string_id": 32986,
+    "offset": "0x125f2e",
+    "bytes": 9,
+    "raw_sha256": "8d23dcf7e78a31c93adfe01f314bea732976ae6a5cb95bad8a7e586beccff1c8",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onmessage"
+  },
+  {
+    "string_id": 33147,
+    "offset": "0x126609",
+    "bytes": 9,
+    "raw_sha256": "6b20e9b742e448a5040d026ac2543b7e1901731b50790eea284f575bfccba943",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "heartbeat"
+  },
+  {
+    "string_id": 33272,
+    "offset": "0x126a98",
+    "bytes": 15,
+    "raw_sha256": "038ae0a28b8098c7c3ac26f6a6b844809c5753fd0ef2c7ecce850a8e58c76be0",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "onPressSettings"
+  },
+  {
+    "string_id": 33604,
+    "offset": "0x1279e7",
+    "bytes": 9,
+    "raw_sha256": "c57d3730f92306154669413fd6d9ae486df11a660bd35706141f28cfec4c80bd",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "isVisible"
+  },
+  {
+    "string_id": 34199,
+    "offset": "0x129128",
+    "bytes": 17,
+    "raw_sha256": "01029d00c2681ad346ab67a1944ecb589b572f51688b7b5ebf6ed6f403343d91",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "usedIdentifierSet"
+  },
+  {
+    "string_id": 34448,
+    "offset": "0x129b76",
+    "bytes": 13,
+    "raw_sha256": "4a2d68f551c4126abbba45ce8759b6d327da6923759edcf89c8885f1ee0d9832",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "setupBarColor"
+  },
+  {
+    "string_id": 34542,
+    "offset": "0x12a068",
+    "bytes": 13,
+    "raw_sha256": "c9c5e54927d5004dbf125bb08cf5c9da8b4e78f6428e469f5a686d3fe9d2acf6",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload_failed"
+  },
+  {
+    "string_id": 34544,
+    "offset": "0x12a083",
+    "bytes": 14,
+    "raw_sha256": "68c3731c2722d1cdfe06bc4833ca4c6759069329f827ae8ff4354dc48327e983",
+    "encoding": "latin-1 byte mapping (Hermes parser)",
+    "text": "upload_success"
+  }
+]

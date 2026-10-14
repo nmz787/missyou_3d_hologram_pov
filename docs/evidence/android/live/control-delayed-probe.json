@@ -1,0 +1,38 @@
+[
+  {
+    "action": "pause",
+    "index": 2,
+    "playing": false,
+    "90USB_listed": false
+  },
+  {
+    "action": "play15",
+    "index": 2,
+    "playing": false,
+    "90USB_listed": false
+  },
+  {
+    "action": "resume",
+    "index": 15,
+    "playing": true,
+    "90USB_listed": false
+  },
+  {
+    "action": "play15again",
+    "index": 15,
+    "playing": true,
+    "90USB_listed": false
+  },
+  {
+    "action": "play12",
+    "index": 12,
+    "playing": true,
+    "90USB_listed": false
+  },
+  {
+    "action": "play3",
+    "index": 12,
+    "playing": true,
+    "90USB_listed": false
+  }
+]

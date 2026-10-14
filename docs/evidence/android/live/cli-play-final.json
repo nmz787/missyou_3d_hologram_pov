@@ -1,0 +1,26 @@
+{
+  "protocol": "legacy",
+  "operation": "play",
+  "sent": true,
+  "acknowledged": false,
+  "status": {
+    "protocol": "legacy",
+    "files": [
+      {
+        "index": 1,
+        "name": "90USB.bin",
+        "displayName": "90USB"
+      }
+    ],
+    "complete": true,
+    "issues": [],
+    "current_index": 1,
+    "current": "90USB.bin",
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "01H711"
+  },
+  "requested_state_observed": true
+}

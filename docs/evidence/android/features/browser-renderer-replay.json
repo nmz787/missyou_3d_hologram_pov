@@ -1,0 +1,642 @@
+{
+  "evidence_type": "offline execution of extracted APK rendering scripts in desktop Chrome",
+  "chrome_version": "155.0.8059.39",
+  "playwright_version": "1.64.0",
+  "viewport": [
+    500,
+    500
+  ],
+  "network": "all page requests blocked; image inputs are data URLs",
+  "limits": [
+    "No Android React Native/WebView runtime execution",
+    "No native encoder, phone media save, or display upload execution",
+    "Desktop fonts and SwiftShader can differ from Android rendering",
+    "Chosen demonstration text and packaged default images, not user content"
+  ],
+  "results": [
+    {
+      "renderer": "text-ball",
+      "source_sha256": {
+        "text-ball-360-sphere-html.template.html": "e005bb39f2a935fe5720ff8c0f82d019bdffa38a306b6b996517761d0c486681",
+        "text-ball-360-sphere-script.template.js": "d22f36e4257fe201eb3a72a631b3a3ddf35a0b789764d7509ab89bfb0ab0de44"
+      },
+      "substitutions": {
+        "text": "HELLO",
+        "color": "#25fc11",
+        "platform": "android"
+      },
+      "frame_count": 200,
+      "batch_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "completion": [
+        {
+          "t": "d",
+          "n": 200
+        }
+      ],
+      "selected_frames": [
+        {
+          "index": 0,
+          "file": "browser-text-ball-frame-000.jpg",
+          "bytes": 19472,
+          "sha256": "77c6009d7f96f99ff5e6709fd4b96f0890c2d6a984411e5c9f95d01e19d0f645",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            0.48592592592592593,
+            0.9277488425925926,
+            0.4909664351851852
+          ]
+        },
+        {
+          "index": 50,
+          "file": "browser-text-ball-frame-050.jpg",
+          "bytes": 17855,
+          "sha256": "c95bf8384c85e037b5baba1e0699bca89d455173002429fbaad4b7349d304229",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            0.4406597222222222,
+            0.8530381944444444,
+            0.44081211419753086
+          ]
+        },
+        {
+          "index": 100,
+          "file": "browser-text-ball-frame-100.jpg",
+          "bytes": 19188,
+          "sha256": "83865537e20922678ad9140b43ae6273bed55fd7ae6ee4dacc466c49584bf968",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            0.47755015432098763,
+            0.9183854166666666,
+            0.4825520833333333
+          ]
+        },
+        {
+          "index": 150,
+          "file": "browser-text-ball-frame-150.jpg",
+          "bytes": 18365,
+          "sha256": "be794556a060dd8fb1d3981a4cae1cdff8a904ae3915ef299b7610508c1a0787",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            0.4496045524691358,
+            0.8879513888888889,
+            0.45567515432098765
+          ]
+        },
+        {
+          "index": 199,
+          "file": "browser-text-ball-frame-199.jpg",
+          "bytes": 19636,
+          "sha256": "455a6df96f7a1124bed37df3492a87fb4c1b9680ad9d3d8fbbf078d339613dbf",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            0.48158371913580245,
+            0.9300733024691358,
+            0.48510416666666667
+          ]
+        }
+      ],
+      "difference_from_first_mean_rgb_sum": [
+        3.051994598765432,
+        3.6106095679012347,
+        3.60907600308642,
+        3.096765046296296
+      ],
+      "desktop_ffmpeg_video": {
+        "file": "browser-text-ball.mp4",
+        "sha256": "9e91949830859b069557d33f062188f59986ab6b4b5dd4fc5f4497f6602ba1b5",
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "image2pipe",
+          "-framerate",
+          "20",
+          "-i",
+          "pipe:0",
+          "-c:v",
+          "libx264",
+          "-preset",
+          "ultrafast",
+          "-crf",
+          "23",
+          "-r",
+          "20",
+          "-threads",
+          "4",
+          "-pix_fmt",
+          "yuv420p",
+          "/home/nathan/git/5d_pov/docs/evidence/android/features/browser-text-ball.mp4"
+        ],
+        "expected_duration_seconds": 10
+      },
+      "javascript_errors": []
+    },
+    {
+      "renderer": "box-0",
+      "source_sha256": {
+        "spinning-box-renderer-template.html": "549839e15ce9b5d26e34ce943036e48ac35bb40beb1a8dffadafbff320717d94",
+        "spinning-box-default.jpg": "91dfc7f0c35434d310d31a8320517110012efb6ac5027c33b9ebb0378a65c09a"
+      },
+      "substitutions": {
+        "type": 0,
+        "dist": 20,
+        "images": "the packaged default JPEG on all six faces"
+      },
+      "frame_count": 200,
+      "batch_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "completion": [
+        {
+          "t": "d",
+          "n": 200
+        }
+      ],
+      "selected_frames": [
+        {
+          "index": 0,
+          "file": "browser-box-0-frame-000.jpg",
+          "bytes": 21002,
+          "sha256": "d5d7860f2a08ad0e4ef60edba7263c5fb3fc4f5e9f1dc05a3c71927a907841d5",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            19.308645833333333,
+            23.820860339506172,
+            26.953738425925927
+          ]
+        },
+        {
+          "index": 50,
+          "file": "browser-box-0-frame-050.jpg",
+          "bytes": 19015,
+          "sha256": "3f8db08ada5cfe14b0f3049308abdf719d94e596a3e64c8113ed64bd42290d1f",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            16.790121527777778,
+            21.31449459876543,
+            23.467582947530865
+          ]
+        },
+        {
+          "index": 100,
+          "file": "browser-box-0-frame-100.jpg",
+          "bytes": 20652,
+          "sha256": "484ad9308846195defb86ceb6a51a7539a355658c64c6c91814f7b79a88db5a9",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            21.675216049382716,
+            26.44342785493827,
+            29.435046296296296
+          ]
+        },
+        {
+          "index": 150,
+          "file": "browser-box-0-frame-150.jpg",
+          "bytes": 18677,
+          "sha256": "bf46001533fcba7c9cb1ddb3fb408ab925d515d7aab4a70f8693ec8b6c2c1d0b",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            14.95005401234568,
+            18.362382330246913,
+            20.910212191358024
+          ]
+        },
+        {
+          "index": 199,
+          "file": "browser-box-0-frame-199.jpg",
+          "bytes": 21230,
+          "sha256": "02a9ff2cc49a0dbfc56b97c60b852221ac32a701599afc2898d3461801d39877",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            19.309679783950617,
+            23.829309413580248,
+            26.969903549382718
+          ]
+        }
+      ],
+      "difference_from_first_mean_rgb_sum": [
+        57.12832175925926,
+        55.9627025462963,
+        53.78981674382716,
+        4.182561728395061
+      ],
+      "desktop_ffmpeg_video": {
+        "file": "browser-box-0.mp4",
+        "sha256": "4ee3a2924a70136649050945bc826de18de079f17ab05e5534734c9987cfdf4d",
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "image2pipe",
+          "-framerate",
+          "20",
+          "-i",
+          "pipe:0",
+          "-c:v",
+          "libx264",
+          "-preset",
+          "ultrafast",
+          "-crf",
+          "23",
+          "-r",
+          "20",
+          "-threads",
+          "4",
+          "-pix_fmt",
+          "yuv420p",
+          "/home/nathan/git/5d_pov/docs/evidence/android/features/browser-box-0.mp4"
+        ],
+        "expected_duration_seconds": 10
+      },
+      "javascript_errors": []
+    },
+    {
+      "renderer": "box-1",
+      "source_sha256": {
+        "spinning-box-renderer-template.html": "549839e15ce9b5d26e34ce943036e48ac35bb40beb1a8dffadafbff320717d94",
+        "spinning-box-default.jpg": "91dfc7f0c35434d310d31a8320517110012efb6ac5027c33b9ebb0378a65c09a"
+      },
+      "substitutions": {
+        "type": 1,
+        "dist": 30,
+        "images": "the packaged default JPEG on all six faces"
+      },
+      "frame_count": 200,
+      "batch_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "completion": [
+        {
+          "t": "d",
+          "n": 200
+        }
+      ],
+      "selected_frames": [
+        {
+          "index": 0,
+          "file": "browser-box-1-frame-000.jpg",
+          "bytes": 31088,
+          "sha256": "c99ab181553371cc5b664f7844802ccf878e346b7f0987820eb247ee0a6e483e",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            24.141907793209878,
+            31.441971450617284,
+            36.152808641975305
+          ]
+        },
+        {
+          "index": 50,
+          "file": "browser-box-1-frame-050.jpg",
+          "bytes": 30249,
+          "sha256": "9d180e8a0b79482bb896625bb29eef7cc0bbefe8fee027f5dcf98894fdb28ad5",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            19.937050540123458,
+            25.08764660493827,
+            27.777199074074073
+          ]
+        },
+        {
+          "index": 100,
+          "file": "browser-box-1-frame-100.jpg",
+          "bytes": 30854,
+          "sha256": "98dd1e36b7f45d42fa387a5ab5831a2820595d6e9be66b46da34d1050072a3b6",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            26.279945987654322,
+            33.61525848765432,
+            38.216325231481484
+          ]
+        },
+        {
+          "index": 150,
+          "file": "browser-box-1-frame-150.jpg",
+          "bytes": 28950,
+          "sha256": "be3528979f7983170c347239e91fbdbb575143a6c3c6c8d8f67aefd2bf5ba081",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            18.14327546296296,
+            22.208368055555557,
+            25.313487654320987
+          ]
+        },
+        {
+          "index": 199,
+          "file": "browser-box-1-frame-199.jpg",
+          "bytes": 31156,
+          "sha256": "ea6dace18424558e7e17fa41c1f4eade20ac01f24b3fb9e30c61c6a4c588429b",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            24.16235339506173,
+            31.46244984567901,
+            36.17622685185185
+          ]
+        }
+      ],
+      "difference_from_first_mean_rgb_sum": [
+        89.3085686728395,
+        62.011508487654325,
+        88.03607831790123,
+        10.682004243827162
+      ],
+      "desktop_ffmpeg_video": {
+        "file": "browser-box-1.mp4",
+        "sha256": "7b69d8246f81c6a5d08c3e1aad8c834cde28e8a7497d1a4e08f5c3b002cd93d2",
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "image2pipe",
+          "-framerate",
+          "20",
+          "-i",
+          "pipe:0",
+          "-c:v",
+          "libx264",
+          "-preset",
+          "ultrafast",
+          "-crf",
+          "23",
+          "-r",
+          "20",
+          "-threads",
+          "4",
+          "-pix_fmt",
+          "yuv420p",
+          "/home/nathan/git/5d_pov/docs/evidence/android/features/browser-box-1.mp4"
+        ],
+        "expected_duration_seconds": 10
+      },
+      "javascript_errors": []
+    },
+    {
+      "renderer": "box-2",
+      "source_sha256": {
+        "spinning-box-renderer-template.html": "549839e15ce9b5d26e34ce943036e48ac35bb40beb1a8dffadafbff320717d94",
+        "spinning-box-default.jpg": "91dfc7f0c35434d310d31a8320517110012efb6ac5027c33b9ebb0378a65c09a"
+      },
+      "substitutions": {
+        "type": 2,
+        "dist": 20,
+        "images": "the packaged default JPEG on all six faces"
+      },
+      "frame_count": 200,
+      "batch_sizes": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "completion": [
+        {
+          "t": "d",
+          "n": 200
+        }
+      ],
+      "selected_frames": [
+        {
+          "index": 0,
+          "file": "browser-box-2-frame-000.jpg",
+          "bytes": 27785,
+          "sha256": "becec01bd4af8d1570af62cf515a8a6b373b4b858edffebec7c7bb9b74643084",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            21.824675925925927,
+            28.023699845679012,
+            32.042181712962964
+          ]
+        },
+        {
+          "index": 50,
+          "file": "browser-box-2-frame-050.jpg",
+          "bytes": 30273,
+          "sha256": "5274f2b06a0537591cef29557b1964819e293e147790d791568d993ed4802403",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            19.93579475308642,
+            25.0877237654321,
+            27.773130787037037
+          ]
+        },
+        {
+          "index": 100,
+          "file": "browser-box-2-frame-100.jpg",
+          "bytes": 28066,
+          "sha256": "03415101f1fd3e3b1c39c1d65e7a97913e5ac18782ee478e7b106556921bc5b1",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            24.23768325617284,
+            30.516707175925927,
+            34.44301890432099
+          ]
+        },
+        {
+          "index": 150,
+          "file": "browser-box-2-frame-150.jpg",
+          "bytes": 18715,
+          "sha256": "c23a39a876121dfd5a5600d0bd90afbf6374061b8e46f3511592e28acdf4482a",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            14.952908950617283,
+            18.36514274691358,
+            20.912910879629628
+          ]
+        },
+        {
+          "index": 199,
+          "file": "browser-box-2-frame-199.jpg",
+          "bytes": 28183,
+          "sha256": "3b3e3eac3288133f603e536bfdddd09836965d4d99a5ba3570ac5d6c25a5d505",
+          "size": [
+            720,
+            720
+          ],
+          "mean_rgb": [
+            21.79434413580247,
+            27.943398919753086,
+            31.955929783950616
+          ]
+        }
+      ],
+      "difference_from_first_mean_rgb_sum": [
+        78.24239197530865,
+        61.60377314814815,
+        69.27616512345679,
+        9.859176311728394
+      ],
+      "desktop_ffmpeg_video": {
+        "file": "browser-box-2.mp4",
+        "sha256": "89d8f4027292b2fe2de9bb69b917a2e766ce284806a17c013b86ca9745200819",
+        "command": [
+          "ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-y",
+          "-f",
+          "image2pipe",
+          "-framerate",
+          "20",
+          "-i",
+          "pipe:0",
+          "-c:v",
+          "libx264",
+          "-preset",
+          "ultrafast",
+          "-crf",
+          "23",
+          "-r",
+          "20",
+          "-threads",
+          "4",
+          "-pix_fmt",
+          "yuv420p",
+          "/home/nathan/git/5d_pov/docs/evidence/android/features/browser-box-2.mp4"
+        ],
+        "expected_duration_seconds": 10
+      },
+      "javascript_errors": []
+    }
+  ]
+}

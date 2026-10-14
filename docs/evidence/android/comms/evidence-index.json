@@ -1,0 +1,438 @@
+{
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "operation": "Static APK networking reconstruction and offline control construction replay",
+  "verification": {
+    "function_records_checked": 307,
+    "unique_function_ids": 276,
+    "http_string_ranges_checked": 559,
+    "native_library_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+    "native_symbol_ranges_checked": [
+      {
+        "name": "old_dev_tcp_upload",
+        "elf_vaddr": 1008864,
+        "file_offset": 1008864,
+        "bytes": 1788,
+        "sha256": "12ba7af988fea5c283e42e15b2784f6a8078626af006342aa54e4539227e523b"
+      },
+      {
+        "name": "old_dev_tcp_upload_async",
+        "elf_vaddr": 1011000,
+        "file_offset": 1011000,
+        "bytes": 224,
+        "sha256": "f76ce420a2fb54357e00db94802befa277d5747c022b896763a7580920590ecf"
+      },
+      {
+        "name": "FILE_INFO_HEADER",
+        "elf_vaddr": 2573464,
+        "file_offset": 2565272,
+        "bytes": 6,
+        "sha256": "20c859b68185b51bb713eebe7c7ba35497b57a23724be758bb8b7f10b68910be",
+        "raw_hex": "643331643636",
+        "ascii": "d31d66"
+      },
+      {
+        "name": "FILE_INFO_TAIL",
+        "elf_vaddr": 2573470,
+        "file_offset": 2565278,
+        "bytes": 8,
+        "sha256": "97d68d33efc5b0b98c7dd74ba03e236c5bf51a60962ac31ca99e3984cb4296d7",
+        "raw_hex": "6134613863326533",
+        "ascii": "a4a8c2e3"
+      },
+      {
+        "name": "CHUNK_HEADER",
+        "elf_vaddr": 2573478,
+        "file_offset": 2565286,
+        "bytes": 9,
+        "sha256": "580ac7ba1a8b7cd2605e5a3e4d588c0f33b6db6ec9e887813c3aaca8c38a59c9",
+        "raw_hex": "6433316438384a4d50",
+        "ascii": "d31d88JMP"
+      },
+      {
+        "name": "CHUNK_TAIL",
+        "elf_vaddr": 2573487,
+        "file_offset": 2565295,
+        "bytes": 11,
+        "sha256": "ef0a6d58b3002b6b4b660147df2f0b51949984375c785c1d98fe43738a2667d7",
+        "raw_hex": "3030306134613863326533",
+        "ascii": "000a4a8c2e3"
+      }
+    ],
+    "control_construction_cases": 15
+  },
+  "records": [
+    {
+      "file": "discovery-bytecode.hasm",
+      "bytes": 261180,
+      "sha256": "8e767f02b2f5ce73d21fc27c06e6a6da82296d4c9cc632e4c08cc19a4f98b185"
+    },
+    {
+      "file": "discovery-extract.py",
+      "bytes": 3041,
+      "sha256": "5eae820c3d287c0ec3ececa102621353f053ceb1f3139a9513083c11f5c98f95"
+    },
+    {
+      "file": "discovery-findings.md",
+      "bytes": 13503,
+      "sha256": "f0c0b5fe668c3cac17424d86df10f11fb62da91c71f5b11bbd720573659b5525"
+    },
+    {
+      "file": "discovery-index.json",
+      "bytes": 22542,
+      "sha256": "86bbefa090a818df3f4028d8731ef54f1139d4a46e64b115f07d9740f0d3cf3b"
+    },
+    {
+      "file": "discovery-native-excluded-range.json",
+      "bytes": 7770,
+      "sha256": "7da97f1e4ff77948525de1927b04a3e8c6604d73282d60a3087d06ef3bbe9673"
+    },
+    {
+      "file": "discovery-native-interfaces.json",
+      "bytes": 8906,
+      "sha256": "5b041be51c647d9250e199439a5f164494ce1dcb3ca08c124bb74b352992816a"
+    },
+    {
+      "file": "discovery-native-ipv4.json",
+      "bytes": 9660,
+      "sha256": "be9e604a30d828fd8d89fc5c32cdab6b23624da91b90a2262939012e945fbb43"
+    },
+    {
+      "file": "discovery-native-wifi-ipv4.json",
+      "bytes": 9070,
+      "sha256": "cde63e91fb09e76aa45064e2282a425b6361a06e80b8027102dedfac870e8532"
+    },
+    {
+      "file": "http-bytecode.hasm",
+      "bytes": 483852,
+      "sha256": "6bdda23aabb75bdb74d2e8ca3ce0f5e37506970415af46d5eb4b717677115e17"
+    },
+    {
+      "file": "http-commands.json",
+      "bytes": 22580,
+      "sha256": "07bc93d83ceac1395b7dd27c58252d888b2e33843d1d23b964ddb85845b26797"
+    },
+    {
+      "file": "http-index.json",
+      "bytes": 43718,
+      "sha256": "9415150339a22354dce756bb824775ed3e380ad5b790d0fb9a1004d41740a75a"
+    },
+    {
+      "file": "http-native-provider-unavailable.json",
+      "bytes": 689,
+      "sha256": "ac28d6e8ee2b863562c9c466b428657b1869fc113d5cbf498bab64fccd9b2942"
+    },
+    {
+      "file": "http-protocol.md",
+      "bytes": 15523,
+      "sha256": "9a873ed812340aadc551c41db4e65f7801cdde820e9d7c39933352020287f649"
+    },
+    {
+      "file": "http-strings.json",
+      "bytes": 136044,
+      "sha256": "da6774b278213860e90fc10a6010f48ce9474db47379830b5f8763654bad0891"
+    },
+    {
+      "file": "legacy-control-9294.pseudo.js",
+      "bytes": 286,
+      "sha256": "eba7865b9bdd293133f1370fd47b782d231608b13cc19fe1dc3711953e03104b"
+    },
+    {
+      "file": "legacy-control-9298.pseudo.js",
+      "bytes": 4825,
+      "sha256": "9a0a611cfd383a08a783e78a09a05b08bd4b2eb9b0b4f9b1d91462bd9e8236e2"
+    },
+    {
+      "file": "legacy-control-9304.pseudo.js",
+      "bytes": 2044,
+      "sha256": "c6c6755fc3f677e0f9fb096feee02d914ab4a7995c4535c59509687cff175a22"
+    },
+    {
+      "file": "legacy-control-9305.pseudo.js",
+      "bytes": 2006,
+      "sha256": "6a1fb7ab2a29bb384b91bc7162e87f14a73dd8a43df016ddccb02c092245ab22"
+    },
+    {
+      "file": "legacy-control-9307.pseudo.js",
+      "bytes": 289,
+      "sha256": "3e2cc88f0d4239c5ceea6ec62c714fa0bb050234e601e0e2883f5eb140e22d5e"
+    },
+    {
+      "file": "legacy-control-9308.pseudo.js",
+      "bytes": 285,
+      "sha256": "e054378210adb72ae05df46fe2984c1405fcdff369c8c2f6003ab25a879afece"
+    },
+    {
+      "file": "legacy-control-9309.pseudo.js",
+      "bytes": 286,
+      "sha256": "68e0b02c450044ecc0838bf4d3e3197794d55966660bfce2e3f02dc5844b2a9f"
+    },
+    {
+      "file": "legacy-control-9310.pseudo.js",
+      "bytes": 285,
+      "sha256": "a0da4eaa96e87a02c0747a26fddd6fcfcd810eacd007bba520111de179d02809"
+    },
+    {
+      "file": "legacy-control-9311.pseudo.js",
+      "bytes": 673,
+      "sha256": "bef218bf638cba10f033926bcf98e7af38ac7d9d797fa97ddfb28c2c31274111"
+    },
+    {
+      "file": "legacy-control-9316.pseudo.js",
+      "bytes": 3060,
+      "sha256": "f2a86714d3b0b75280cd98934fe6a1635e35a3ac7676fdb1868b142b5e771aff"
+    },
+    {
+      "file": "legacy-control-9320.pseudo.js",
+      "bytes": 1314,
+      "sha256": "25afe9758e7f22eec50bd3aabc8eae9cd022ca1c89b44bbdb774e4e9bbb3dab9"
+    },
+    {
+      "file": "legacy-control-9324.pseudo.js",
+      "bytes": 1354,
+      "sha256": "a4156398d1766adc43813bc052a01e5ee9b38c914de5704a48d26982b00b4201"
+    },
+    {
+      "file": "legacy-control-9328.pseudo.js",
+      "bytes": 2316,
+      "sha256": "a61d1fbff425fc9f2b1e49e7ae195b86bf5b540d46ab4c2124622835588ead52"
+    },
+    {
+      "file": "legacy-control-bytecode.hasm",
+      "bytes": 107854,
+      "sha256": "9b9d23fe2ae9009f0beab16d46c7eb3a797111f4450d7053e87dd0fc8549c0a1"
+    },
+    {
+      "file": "legacy-control-functions.json",
+      "bytes": 14417,
+      "sha256": "db38540ecd17a005eae06dd4e42977664c4322121bcbd4ef85a0b18dce82ad40"
+    },
+    {
+      "file": "legacy-control-replay.json",
+      "bytes": 6424,
+      "sha256": "b525dde60c3bae9ea3cbc711caddcbe5fec5e6a728c3b7d1740de603cce7e38e"
+    },
+    {
+      "file": "legacy-control.md",
+      "bytes": 7112,
+      "sha256": "e0b6fe84f49e80fbae3f886e658d0d7546452fdcab0739ca507e298507182585"
+    },
+    {
+      "file": "legacy-upload-bytecode.hasm",
+      "bytes": 102836,
+      "sha256": "f09c4f188e80d3ef3d42675f05103a568cc5a8a818f9a3c33f82f951fa6c93f6"
+    },
+    {
+      "file": "legacy-upload-evidence-manifest.json",
+      "bytes": 5187,
+      "sha256": "40d93cc573c10344e87495a14372e9af0f0f973783fb074e08ba7e9210ee2870"
+    },
+    {
+      "file": "legacy-upload-findings.md",
+      "bytes": 11804,
+      "sha256": "d2086dd5d2405a1e2b97a57fc0d7c71cc510d619a0459dd200d28f8d3514c438"
+    },
+    {
+      "file": "legacy-upload-functions.json",
+      "bytes": 6180,
+      "sha256": "2da72cc0e74fdc85d1de510ee5ee08b6c1b41a630ad34b466d09013a7031313f"
+    },
+    {
+      "file": "legacy-upload-jni-method.java.txt",
+      "bytes": 192,
+      "sha256": "e553ecd7016686b5c04e526124926b5e7b185af5f0d8d2a2bc2ed3c50a2d2687"
+    },
+    {
+      "file": "legacy-upload-jni-method.json",
+      "bytes": 7916,
+      "sha256": "66fea467140756477930c591d4e2535403c91450c7e32925a036834c595ad53d"
+    },
+    {
+      "file": "legacy-upload-layout-replay.json",
+      "bytes": 6239,
+      "sha256": "95a1dcc83ccee353aebfd1803748531df5fbaeba8ecd207128ed4b2a32dc4932"
+    },
+    {
+      "file": "legacy-upload-native-ack-function.json",
+      "bytes": 204502,
+      "sha256": "30e546d543022318508f73c0421f927d3b894056c7cee414280636f0a4951afd"
+    },
+    {
+      "file": "legacy-upload-native-ack.asm.txt",
+      "bytes": 2432,
+      "sha256": "4bf9979ae6acf5ea44406016f785e180b113044da5cc37e6679bf3eb4808848f"
+    },
+    {
+      "file": "legacy-upload-native-ack.c.txt",
+      "bytes": 1389,
+      "sha256": "bf9712a87ade9d701e32ef32cc5bb3ccf39df55027e6141cff132a43cac6187d"
+    },
+    {
+      "file": "legacy-upload-native-dispatch.java.txt",
+      "bytes": 13946,
+      "sha256": "a482986b0e02019f9801b5ad8291fcf34077fd2b31ea64777f607020b45e7cfd"
+    },
+    {
+      "file": "legacy-upload-native-dispatch.json",
+      "bytes": 40744,
+      "sha256": "95c2afd81ac16a6ad3ec6c4d4c287c2dda03f1777e4317ad94310fb225716e75"
+    },
+    {
+      "file": "legacy-upload-native-function-address.json",
+      "bytes": 2090000,
+      "sha256": "3e7522936a1fb87526599d278b292c184eaed56b209c5a8575fcd8e03a3a1e9e"
+    },
+    {
+      "file": "legacy-upload-native-function.json",
+      "bytes": 453,
+      "sha256": "764e8a9a49e4ae3dab6bb15a4104997a1c700a3ea36ed70f25cd8fe91f72e805"
+    },
+    {
+      "file": "legacy-upload-native-symbols.json",
+      "bytes": 2469,
+      "sha256": "bc2a15e1dc5711dcfb121e8f287c55cdcc1f9f33ad41e633b5e007df97460258"
+    },
+    {
+      "file": "legacy-upload-native.asm.txt",
+      "bytes": 11804,
+      "sha256": "a84b2a25099762e77e8340b0f5296bc1b95dc04cc37e6371fc22c4bf03393383"
+    },
+    {
+      "file": "legacy-upload-native.c.txt",
+      "bytes": 7676,
+      "sha256": "32bbc52755e6f122175c0ce18672174efe97d7cddca84bbc95f93940042cf6b1"
+    },
+    {
+      "file": "legacy-upload-reference-search.json",
+      "bytes": 2382,
+      "sha256": "3631de0bcf177b42f8133e82753d888137ac50f644b29618b4a2e69bb796f3f8"
+    },
+    {
+      "file": "legacy-upload.pseudo.js.txt",
+      "bytes": 33430,
+      "sha256": "9c1c2f00dc6559184b93ab0e8653350ecaf9125bacd462fa266bc9f4ff2bb704"
+    }
+  ],
+  "rea_records": [
+    {
+      "file": "discovery-native-excluded-range.json",
+      "evidence_id": "ev_c51aaa77103f4d2ec71444935235fa2b3c821b77146527bed8fae5533b6e5509",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-interfaces.json",
+      "evidence_id": "ev_f3e3b9489dbd85e5243a0818d50443b7b3ace9ca0419861dbf27b995411a59da",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-ipv4.json",
+      "evidence_id": "ev_b5f742aad770e273496dd6510565307faaa67443f135362844ec8d8fcb176b48",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "discovery-native-wifi-ipv4.json",
+      "evidence_id": "ev_d65bbcc01fb968a41ad2908d081314edc59015ed38679c4d1980cda464d31c7a",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "legacy-upload-jni-method.json",
+      "evidence_id": "ev_781249aa02ad5e57714d1490772def03f05d57f1a9ced4fbfef15610acd924f1",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "legacy-upload-native-ack-function.json",
+      "evidence_id": "ev_9e44881b9dec968e439e468593da0cb13f23b004b8bfbc37cb0a4e903b6f9461",
+      "operation": "analyze_function",
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "References cover the complete Ghidra function-body AddressSet and exact entry. Dossier incoming edges omit sources owned by that function; procedure_references also retains those internal edges.",
+        "The dossier combines Ghidra FunctionManager, Listing, ReferenceManager, BasicBlockModel, and decompiler observations; provider-specific pseudocode and assembly are not cross-provider text invariants.",
+        "Resolved reference metadata identifies computed, indirect, external, call, jump, and data edges; unresolved targetless flows remain unknown, and function classifications distinguish thunks and externals.",
+        "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+        "The Java bridge serializes one function request per Program and lets each decompilation run until it completes or the caller cancels.",
+        "Ghidra Listing reports a terminal call at 0x1f6d34 to 0x35b620 <EXTERNAL>::__stack_chk_fail (external=false, thunk=true, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return."
+      ]
+    },
+    {
+      "file": "legacy-upload-native-dispatch.json",
+      "evidence_id": "ev_2cebfa0214acbde24db0c605d194be0f4aee2da05cc857dc36b386e5c8d33b63",
+      "operation": "inspect_android_method",
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ]
+    },
+    {
+      "file": "legacy-upload-native-function-address.json",
+      "evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "operation": "analyze_function",
+      "limitations": [
+        "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+        "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+        "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+        "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+        "References cover the complete Ghidra function-body AddressSet and exact entry. Dossier incoming edges omit sources owned by that function; procedure_references also retains those internal edges.",
+        "The dossier combines Ghidra FunctionManager, Listing, ReferenceManager, BasicBlockModel, and decompiler observations; provider-specific pseudocode and assembly are not cross-provider text invariants.",
+        "Resolved reference metadata identifies computed, indirect, external, call, jump, and data edges; unresolved targetless flows remain unknown, and function classifications distinguish thunks and externals.",
+        "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+        "The Java bridge serializes one function request per Program and lets each decompilation run until it completes or the caller cancels.",
+        "Ghidra Listing reports a terminal call at 0x1f6bd8 to 0x35b620 <EXTERNAL>::__stack_chk_fail (external=false, thunk=true, hasNoReturn=true); fallthrough is excluded by Ghidra's flow model. This records Ghidra's FunctionManager flag, not an independent verification that the callee cannot return."
+      ]
+    }
+  ],
+  "supporting_tools": [
+    {
+      "file": "tools/extract_android_control_evidence.py",
+      "sha256": "82d06a8141675bdaff1d9f310e7433c16e85433b24bc00fcbe61cb26e53b46d8"
+    },
+    {
+      "file": "tools/replay_android_legacy_controls.mjs",
+      "sha256": "794024ed967c7d3445322fbe7b53b95100c88312f7c6945ce30a37b1e19e93fe"
+    },
+    {
+      "file": "tools/verify_android_comms_evidence.py",
+      "sha256": "38d2fbb13b02dee2d5e322470fe18b8f080c0669ae556d7cd165e33298851e16"
+    }
+  ],
+  "limits": [
+    "No Android runtime, display connection or upload execution",
+    "User's active transport generation unobserved",
+    "Device-side session/firmware semantics unobserved",
+    "Native V2 HTTP upload body unverified",
+    "Missing file entries still require actual notification capture"
+  ]
+}

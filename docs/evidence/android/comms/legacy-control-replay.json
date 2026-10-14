@@ -1,0 +1,263 @@
+{
+  "evidence_type": "controlled replay of extracted decompiler state machines with a local send recorder",
+  "source_sha256": [
+    {
+      "file": "legacy-control-9294.pseudo.js",
+      "sha256": "eba7865b9bdd293133f1370fd47b782d231608b13cc19fe1dc3711953e03104b"
+    },
+    {
+      "file": "legacy-control-9298.pseudo.js",
+      "sha256": "9a0a611cfd383a08a783e78a09a05b08bd4b2eb9b0b4f9b1d91462bd9e8236e2"
+    },
+    {
+      "file": "legacy-control-9304.pseudo.js",
+      "sha256": "c6c6755fc3f677e0f9fb096feee02d914ab4a7995c4535c59509687cff175a22"
+    },
+    {
+      "file": "legacy-control-9305.pseudo.js",
+      "sha256": "6a1fb7ab2a29bb384b91bc7162e87f14a73dd8a43df016ddccb02c092245ab22"
+    },
+    {
+      "file": "legacy-control-9307.pseudo.js",
+      "sha256": "3e2cc88f0d4239c5ceea6ec62c714fa0bb050234e601e0e2883f5eb140e22d5e"
+    },
+    {
+      "file": "legacy-control-9308.pseudo.js",
+      "sha256": "e054378210adb72ae05df46fe2984c1405fcdff369c8c2f6003ab25a879afece"
+    },
+    {
+      "file": "legacy-control-9309.pseudo.js",
+      "sha256": "68e0b02c450044ecc0838bf4d3e3197794d55966660bfce2e3f02dc5844b2a9f"
+    },
+    {
+      "file": "legacy-control-9310.pseudo.js",
+      "sha256": "a0da4eaa96e87a02c0747a26fddd6fcfcd810eacd007bba520111de179d02809"
+    },
+    {
+      "file": "legacy-control-9311.pseudo.js",
+      "sha256": "bef218bf638cba10f033926bcf98e7af38ac7d9d797fa97ddfb28c2c31274111"
+    },
+    {
+      "file": "legacy-control-9316.pseudo.js",
+      "sha256": "f2a86714d3b0b75280cd98934fe6a1635e35a3ac7676fdb1868b142b5e771aff"
+    },
+    {
+      "file": "legacy-control-9320.pseudo.js",
+      "sha256": "25afe9758e7f22eec50bd3aabc8eae9cd022ca1c89b44bbdb774e4e9bbb3dab9"
+    },
+    {
+      "file": "legacy-control-9324.pseudo.js",
+      "sha256": "a4156398d1766adc43813bc052a01e5ee9b38c914de5704a48d26982b00b4201"
+    },
+    {
+      "file": "legacy-control-9328.pseudo.js",
+      "sha256": "a61d1fbff425fc9f2b1e49e7ae195b86bf5b540d46ab4c2124622835588ead52"
+    }
+  ],
+  "transformations": [
+    "Registers declared per function frame",
+    "Generator bodies treated as plain functions through first send only",
+    "Start/SaveGenerator removed; ResumeGenerator initialized undefined/false"
+  ],
+  "limits": [
+    "Not Hermes bytecode or Android execution",
+    "No network requests or device commands sent",
+    "No queue, native socket, response acknowledgment, or firmware behavior exercised"
+  ],
+  "results": [
+    {
+      "label": "heartbeat",
+      "function_id": 9294,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c38abca4a8c2e3",
+          "hex": "6333316333386162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "previous",
+      "function_id": 9307,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c33abca4a8c2e3",
+          "hex": "6333316333336162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "next",
+      "function_id": 9308,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c32abca4a8c2e3",
+          "hex": "6333316333326162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "pause",
+      "function_id": 9309,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c34abca4a8c2e3",
+          "hex": "6333316333346162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "resume",
+      "function_id": 9310,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c35abca4a8c2e3",
+          "hex": "6333316333356162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "play index 13",
+      "function_id": 9305,
+      "arguments": [
+        13
+      ],
+      "packets": [
+        {
+          "ascii": "c31c40abe13a4a8c2e3",
+          "hex": "63333163343061626531336134613863326533",
+          "bytes": 19
+        }
+      ]
+    },
+    {
+      "label": "play index 7",
+      "function_id": 9305,
+      "arguments": [
+        7
+      ],
+      "packets": [
+        {
+          "ascii": "c31c40abe07a4a8c2e3",
+          "hex": "63333163343061626530376134613863326533",
+          "bytes": 19
+        }
+      ]
+    },
+    {
+      "label": "delete index 13",
+      "function_id": 9298,
+      "arguments": [
+        13
+      ],
+      "packets": [
+        {
+          "ascii": "c31c39abe13a4a8c2e3",
+          "hex": "63333163333961626531336134613863326533",
+          "bytes": 19
+        }
+      ]
+    },
+    {
+      "label": "loop all true",
+      "function_id": 9316,
+      "arguments": [
+        true
+      ],
+      "packets": [
+        {
+          "ascii": "c31c36abca4a8c2e3",
+          "hex": "6333316333366162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "loop all false",
+      "function_id": 9316,
+      "arguments": [
+        false
+      ],
+      "packets": [
+        {
+          "ascii": "c31c37abca4a8c2e3",
+          "hex": "6333316333376162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "open",
+      "function_id": 9320,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c45abca4a8c2e3",
+          "hex": "6333316334356162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "shutdown",
+      "function_id": 9324,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c89abca4a8c2e3",
+          "hex": "6333316338396162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "BLE true",
+      "function_id": 9328,
+      "arguments": [
+        true
+      ],
+      "packets": [
+        {
+          "ascii": "c31c44abca4a8c2e3",
+          "hex": "6333316334346162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "BLE false",
+      "function_id": 9328,
+      "arguments": [
+        false
+      ],
+      "packets": [
+        {
+          "ascii": "c31c43abca4a8c2e3",
+          "hex": "6333316334336162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    },
+    {
+      "label": "format SD",
+      "function_id": 9304,
+      "arguments": [],
+      "packets": [
+        {
+          "ascii": "c31c88abca4a8c2e3",
+          "hex": "6333316338386162636134613863326533",
+          "bytes": 17
+        }
+      ]
+    }
+  ]
+}

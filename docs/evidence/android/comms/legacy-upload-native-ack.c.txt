@@ -1,0 +1,44 @@
+// REA/Ghidra decompiler output; not original source. Evidence ev_9e44881b9dec968e439e468593da0cb13f23b004b8bfbc37cb0a4e903b6f9461
+
+void FUN_001f6bdc(int param_1,int *param_2)
+
+{
+  undefined1 auVar1 [16];
+  long lVar2;
+  ssize_t sVar3;
+  undefined8 uVar4;
+  ulong uVar5;
+  timespec local_110;
+  timespec local_100;
+  int local_f0;
+  short local_ec;
+  long local_70;
+  
+  lVar2 = tpidr_el0;
+  local_70 = *(long *)(lVar2 + 0x28);
+  clock_gettime(1,&local_100);
+  uVar5 = 0;
+  while( true ) {
+    sVar3 = recvfrom(param_1,(void *)((long)&local_f0 + uVar5),0x80 - uVar5,0x40,(sockaddr *)0x0,
+                     (socklen_t *)0x0);
+    if ((((0 < (int)sVar3) && (uVar5 = uVar5 + (long)(int)sVar3, 0xd < uVar5)) &&
+        (local_f0 == *param_2 && local_ec == (short)param_2[1])) &&
+       (*(long *)((long)&local_100.tv_nsec + uVar5) == FILE_INFO_TAIL)) break;
+    clock_gettime(1,&local_110);
+    auVar1 = SEXT816(local_110.tv_nsec - local_100.tv_nsec) * SEXT816(0x431bde82d7b634db);
+    if (5000 < ((int)(auVar1._8_8_ >> 0x12) - (auVar1._12_4_ >> 0x1f)) +
+               ((int)local_110.tv_sec - (int)local_100.tv_sec) * 1000) {
+      uVar4 = 0;
+LAB_001f6cfc:
+      if (*(long *)(lVar2 + 0x28) == local_70) {
+        return;
+      }
+                    /* WARNING: Subroutine does not return */
+      __stack_chk_fail(uVar4);
+    }
+    usleep(5000);
+  }
+  uVar4 = 1;
+  goto LAB_001f6cfc;
+}
+

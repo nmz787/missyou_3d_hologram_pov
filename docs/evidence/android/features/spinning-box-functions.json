@@ -1,0 +1,559 @@
+{
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "functions": [
+    {
+      "function_id": 17444,
+      "name": "",
+      "bytecode_file_offset": 3635065,
+      "bytecode_bytes": 181,
+      "raw_bytecode_sha256": "5f2a5fe12a12cfdefe944d7a8fcbc76ab7c4a74f0deb0dc9d79a6c42605fe7c0"
+    },
+    {
+      "function_id": 17445,
+      "name": "_interopRequireWildcard",
+      "bytecode_file_offset": 3635246,
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "7e76324a4b2fc6e284393ba0307b2bec8a2c05d7e8712f00e0fe80c592528b78"
+    },
+    {
+      "function_id": 17446,
+      "name": "_interopRequireWildcard",
+      "bytecode_file_offset": 1750779,
+      "bytecode_bytes": 273,
+      "raw_bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa"
+    },
+    {
+      "function_id": 17447,
+      "name": "",
+      "bytecode_file_offset": 3635354,
+      "bytecode_bytes": 814,
+      "raw_bytecode_sha256": "e3e83b1935423a818c8df07ff25a369bb9c169a498123432a1e85541acbaadbc"
+    },
+    {
+      "function_id": 17448,
+      "name": "",
+      "bytecode_file_offset": 2693186,
+      "bytecode_bytes": 22,
+      "raw_bytecode_sha256": "85ee346329fe505aac86e338be44fdffcb81183da3dd912d9fe4f442edb69fae"
+    },
+    {
+      "function_id": 17449,
+      "name": "",
+      "bytecode_file_offset": 3636168,
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "50caec368a708612e2a7543f26a4aac2784dd511eb5e4d08c087d1a05381e8f0"
+    },
+    {
+      "function_id": 17450,
+      "name": "",
+      "bytecode_file_offset": 3636183,
+      "bytecode_bytes": 76,
+      "raw_bytecode_sha256": "7c745a597f3f5bdfe416d45d82d99814fbad4d18c8612b5aa597f18cf01cd7ba"
+    },
+    {
+      "function_id": 17451,
+      "name": "reloadWebView",
+      "bytecode_file_offset": 1732443,
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99"
+    },
+    {
+      "function_id": 17452,
+      "name": "pauseAnimation",
+      "bytecode_file_offset": 3636259,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "6af4f876b2e8e90d20acf3908c60aa5d9a2757b42e3ad4b38a4e706d45356082"
+    },
+    {
+      "function_id": 17453,
+      "name": "stepFrame",
+      "bytecode_file_offset": 3636296,
+      "bytecode_bytes": 58,
+      "raw_bytecode_sha256": "6282704022036e826ab21470ff65cbb4398126315736eade0054dfcb95369158"
+    },
+    {
+      "function_id": 17454,
+      "name": "resumeAnimation",
+      "bytecode_file_offset": 3636354,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "0afb59e08a27f4476c99cf35c68952bcae93ffc10856974abf5c65a6253222a3"
+    },
+    {
+      "function_id": 17455,
+      "name": "getTotalSteps",
+      "bytecode_file_offset": 3636391,
+      "bytecode_bytes": 5,
+      "raw_bytecode_sha256": "4655282124728b43b07d7a46a02e1ec58818e51bcf4cc8019a988208bad2196b"
+    },
+    {
+      "function_id": 17456,
+      "name": "getWebViewRef",
+      "bytecode_file_offset": 2625989,
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "ab0f970840ba6c2c3766091a40d28dc1440db6d3a0ff88daca8feeeee5c56864"
+    },
+    {
+      "function_id": 17457,
+      "name": "exportAllFrames",
+      "bytecode_file_offset": 3636396,
+      "bytecode_bytes": 44,
+      "raw_bytecode_sha256": "00c6180b0106bd0a67752823713a4edbfc01ffb0453a21d014e83b4349f4b794"
+    },
+    {
+      "function_id": 17458,
+      "name": "",
+      "bytecode_file_offset": 3636440,
+      "bytecode_bytes": 99,
+      "raw_bytecode_sha256": "78154a81112fa365d431296760c11112bf5822088a507863558ba64a085bbbe6"
+    },
+    {
+      "function_id": 17459,
+      "name": "",
+      "bytecode_file_offset": 3636539,
+      "bytecode_bytes": 346,
+      "raw_bytecode_sha256": "c7b59128aae73593bc91f69a31a82bc367992e57df7cab79b6a19113013610ce"
+    },
+    {
+      "function_id": 17460,
+      "name": "",
+      "bytecode_file_offset": 3636885,
+      "bytecode_bytes": 30,
+      "raw_bytecode_sha256": "32c04c17aa9ce74f67b14734f380f308bf80e273dfef32694118c0bde9ae34ed"
+    },
+    {
+      "function_id": 17461,
+      "name": "tryStart",
+      "bytecode_file_offset": 3636915,
+      "bytecode_bytes": 217,
+      "raw_bytecode_sha256": "29e325c0d72e327ada5c5e3129fcd83bf37b9732f9cad2825082f8e1b117e2dc"
+    },
+    {
+      "function_id": 17462,
+      "name": "",
+      "bytecode_file_offset": 3637132,
+      "bytecode_bytes": 78,
+      "raw_bytecode_sha256": "759f216770095e7d32c3515d6fea268353f3d6ffc030793741657c00ba9aeb24"
+    },
+    {
+      "function_id": 17463,
+      "name": "onLoadEnd",
+      "bytecode_file_offset": 3637210,
+      "bytecode_bytes": 66,
+      "raw_bytecode_sha256": "220c5d8e2c38b58f6ab98eb99e00f7dfdb0a0aeac5f1280b455c428ffd9cfa7d"
+    },
+    {
+      "function_id": 17464,
+      "name": "onMessage",
+      "bytecode_file_offset": 3637276,
+      "bytecode_bytes": 100,
+      "raw_bytecode_sha256": "14445118dd122bbcf52ef63fa2566d065f18c810f185c7bfe287e8c9cea12b09"
+    },
+    {
+      "function_id": 17465,
+      "name": "onError",
+      "bytecode_file_offset": 3637376,
+      "bytecode_bytes": 60,
+      "raw_bytecode_sha256": "c0ec09e2586979ad4c68fd9ffc59fe82d38b3376758f724f6b34c23f988812a6"
+    },
+    {
+      "function_id": 17466,
+      "name": "",
+      "bytecode_file_offset": 3637436,
+      "bytecode_bytes": 55,
+      "raw_bytecode_sha256": "8ab4958c6d454a7c4dfc184946795a081aaeb7250b86e39362401c35ac249bb0"
+    },
+    {
+      "function_id": 17641,
+      "name": "",
+      "bytecode_file_offset": 3660631,
+      "bytecode_bytes": 283,
+      "raw_bytecode_sha256": "f73487add5052033522eea00cb99142d151a9d4a105236757256de4e92e85efb"
+    },
+    {
+      "function_id": 17642,
+      "name": "_interopRequireWildcard",
+      "bytecode_file_offset": 3660914,
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "d0f043659b6fc5b2c6a37b01ab25f3e73e8a9dc01cee4e2d4501fcf1e6ce1d30"
+    },
+    {
+      "function_id": 17643,
+      "name": "_interopRequireWildcard",
+      "bytecode_file_offset": 1750779,
+      "bytecode_bytes": 273,
+      "raw_bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa"
+    },
+    {
+      "function_id": 17644,
+      "name": "DesignSpinningBoxPage",
+      "bytecode_file_offset": 3661022,
+      "bytecode_bytes": 2062,
+      "raw_bytecode_sha256": "c11fd818a5b6eafdd749187a5384b1edc0f2395586b7705e21853e1700b6deff"
+    },
+    {
+      "function_id": 17645,
+      "name": "handleSaveVideo",
+      "bytecode_file_offset": 3663084,
+      "bytecode_bytes": 194,
+      "raw_bytecode_sha256": "2c2da4002637ee7c6e3f3a607a8ad8a78bb449baa22c76f50ae90a364280bcf2"
+    },
+    {
+      "function_id": 17646,
+      "name": "",
+      "bytecode_file_offset": 3663278,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "aaffd71df52be8f0cfcbd8ef7a319c465b4ab84d44f008e6d70be9de3f84e4dc"
+    },
+    {
+      "function_id": 17647,
+      "name": "",
+      "bytecode_file_offset": 3663315,
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "2ed5dda298b0d70a20a28ca428942d625464ef054aac7ae42a26e87bd9484876"
+    },
+    {
+      "function_id": 17648,
+      "name": "?anon_0_",
+      "bytecode_file_offset": 3663324,
+      "bytecode_bytes": 339,
+      "raw_bytecode_sha256": "a943ded777f444cd04c5acdd75dc8c6f2288c35bb2731ab75e33478d10307047"
+    },
+    {
+      "function_id": 17649,
+      "name": "",
+      "bytecode_file_offset": 3663663,
+      "bytecode_bytes": 234,
+      "raw_bytecode_sha256": "9e9c7e6affe8221a37cab572f1e8de717435b3bfc16ac8ac6aa0ff83004d29fc"
+    },
+    {
+      "function_id": 17650,
+      "name": "",
+      "bytecode_file_offset": 3663897,
+      "bytecode_bytes": 244,
+      "raw_bytecode_sha256": "5edcfac4485259f0efe1ae305f80d8ed04d996a91d0c0bd2ef99a1cc485705ce"
+    },
+    {
+      "function_id": 17651,
+      "name": "",
+      "bytecode_file_offset": 3664141,
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "d8c63bf6a634902b5d0b0ee6e07d7d1f3d21716c02915c69877cebafe8324c52"
+    },
+    {
+      "function_id": 17652,
+      "name": "dialogActionBlock",
+      "bytecode_file_offset": 2223524,
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb"
+    },
+    {
+      "function_id": 17653,
+      "name": "dismissDialog",
+      "bytecode_file_offset": 2808396,
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "2efb31546097826180b4a11fc734db41efb4d0ba132395156d42668800fd6b34"
+    },
+    {
+      "function_id": 17654,
+      "name": "showInfoDialog",
+      "bytecode_file_offset": 3664227,
+      "bytecode_bytes": 204,
+      "raw_bytecode_sha256": "3b04ad164b6295546f2d8a2cd88c8829562781c35b23067db42f02ddda498382"
+    },
+    {
+      "function_id": 17655,
+      "name": "onStateChanged",
+      "bytecode_file_offset": 3664431,
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "4f186c7de70cc9dfb09bf54357acc5dab20ca629cbb139d5d569d7ec6393e534"
+    },
+    {
+      "function_id": 17656,
+      "name": "showExitConfirmDialog",
+      "bytecode_file_offset": 3664494,
+      "bytecode_bytes": 229,
+      "raw_bytecode_sha256": "30b93c8e74191f5360d2f005c1b1a69568d55b5284e12d38ed1cfd2d96913f06"
+    },
+    {
+      "function_id": 17657,
+      "name": "func",
+      "bytecode_file_offset": 1732443,
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99"
+    },
+    {
+      "function_id": 17658,
+      "name": "func",
+      "bytecode_file_offset": 3664723,
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "6ca4a634ef719228e0e07f348fa22ad3c27d6bf59628ff4d899889082f07f243"
+    },
+    {
+      "function_id": 17659,
+      "name": "showNameInputDialog",
+      "bytecode_file_offset": 3664744,
+      "bytecode_bytes": 340,
+      "raw_bytecode_sha256": "221ee09b850442fa391e94cc5b0fe3bcd5ae6d3821bfc18372443b02aca5b8ed"
+    },
+    {
+      "function_id": 17660,
+      "name": "",
+      "bytecode_file_offset": 3665084,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "9646914a2117268ef7ad910806c3ac291b9e3e3995ebb6d5c3295717480eb414"
+    },
+    {
+      "function_id": 17661,
+      "name": "func",
+      "bytecode_file_offset": 3665121,
+      "bytecode_bytes": 112,
+      "raw_bytecode_sha256": "6e5ba862d45c6ed3559b00108977e279cee254fc6bfbf7d9bead461fae354301"
+    },
+    {
+      "function_id": 17662,
+      "name": "func",
+      "bytecode_file_offset": 3665233,
+      "bytecode_bytes": 40,
+      "raw_bytecode_sha256": "6b75e351dec7e8bbd6fbf07c79a8530e4a084b4bf049453d270374979feeb9bd"
+    },
+    {
+      "function_id": 17663,
+      "name": "onStateChanged",
+      "bytecode_file_offset": 3664431,
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "4f186c7de70cc9dfb09bf54357acc5dab20ca629cbb139d5d569d7ec6393e534"
+    },
+    {
+      "function_id": 17664,
+      "name": "",
+      "bytecode_file_offset": 3665273,
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "29f34cb20514e2ee33be26791154be118c66c4dfe4c79fcf3a2198d9b2895967"
+    },
+    {
+      "function_id": 17665,
+      "name": "",
+      "bytecode_file_offset": 3632687,
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "2aa35908d09b703619469d31633fe9a74d15abac0ca730eff0040731263d2c66"
+    },
+    {
+      "function_id": 17666,
+      "name": "",
+      "bytecode_file_offset": 3665304,
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "00907015f48c7e4a2c1762e358ba13702adc158d903ab0d9330cae566cb6598d"
+    },
+    {
+      "function_id": 17667,
+      "name": "",
+      "bytecode_file_offset": 1732443,
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99"
+    },
+    {
+      "function_id": 17668,
+      "name": "",
+      "bytecode_file_offset": 3665335,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "b9286e32a63edff2b4700c2bec6045d9c41c04f731a168bbf4590132d4bc3d8c"
+    },
+    {
+      "function_id": 17669,
+      "name": "",
+      "bytecode_file_offset": 3665372,
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "8484b9c23a563edfdffd9af09e783be8423a057cfc627d909a3b3dae997ba819"
+    },
+    {
+      "function_id": 17670,
+      "name": "?anon_0_",
+      "bytecode_file_offset": 3665381,
+      "bytecode_bytes": 130,
+      "raw_bytecode_sha256": "3b1e77a602c74097a2083574533af89858c73e2985b1cfdb195ec863f449ce2b"
+    },
+    {
+      "function_id": 17671,
+      "name": "",
+      "bytecode_file_offset": 3665511,
+      "bytecode_bytes": 148,
+      "raw_bytecode_sha256": "303baf848cab93a966701a2d841bbd2190f43f40f8c3801b5a13d52fd65859ed"
+    },
+    {
+      "function_id": 17672,
+      "name": "composeVideo",
+      "bytecode_file_offset": 2223524,
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb"
+    },
+    {
+      "function_id": 17673,
+      "name": "selectImage",
+      "bytecode_file_offset": 3665659,
+      "bytecode_bytes": 261,
+      "raw_bytecode_sha256": "8e67b178c27214345d11946cf5f8f8705f6822469464c33b3a2fab509fd3b10e"
+    },
+    {
+      "function_id": 17674,
+      "name": "",
+      "bytecode_file_offset": 3665920,
+      "bytecode_bytes": 22,
+      "raw_bytecode_sha256": "e13311e4857efca919cf7e6a8ee6eb97bda72449426555bf0cceb21dcc73d25d"
+    },
+    {
+      "function_id": 17675,
+      "name": "",
+      "bytecode_file_offset": 3665942,
+      "bytecode_bytes": 12,
+      "raw_bytecode_sha256": "86f52673aca50656407bc05b438ff2a600ccb74db83e2b8af9f81a711a1e3d67"
+    },
+    {
+      "function_id": 17676,
+      "name": "",
+      "bytecode_file_offset": 3665954,
+      "bytecode_bytes": 52,
+      "raw_bytecode_sha256": "88898fc87f798408ac2e7ca19fa095bdfc1c71a5f6da5b5ac32e873d79afc7a3"
+    },
+    {
+      "function_id": 17677,
+      "name": "",
+      "bytecode_file_offset": 3666006,
+      "bytecode_bytes": 81,
+      "raw_bytecode_sha256": "7af9adb7e7bc3e04d5b8de3ba2f86c80a4bc73ed6e0758f22f4f516ca6a453fd"
+    },
+    {
+      "function_id": 17678,
+      "name": "",
+      "bytecode_file_offset": 3666087,
+      "bytecode_bytes": 76,
+      "raw_bytecode_sha256": "ddecd9f892070c86b45dca15d4a5a92e182202085ef826addde2ae6ef44fc4ba"
+    },
+    {
+      "function_id": 17679,
+      "name": "removeImage",
+      "bytecode_file_offset": 3666163,
+      "bytecode_bytes": 30,
+      "raw_bytecode_sha256": "1e6037f94cad05210763bda3eb8a3b5edd5e4a4ebcafb715e59f6fc8590f6e5f"
+    },
+    {
+      "function_id": 17680,
+      "name": "",
+      "bytecode_file_offset": 3666193,
+      "bytecode_bytes": 39,
+      "raw_bytecode_sha256": "9e07ca79d2078adf2eb4e28a15e298428b821410c6bbb54578e9fbe72f227a12"
+    },
+    {
+      "function_id": 17681,
+      "name": "renderImage",
+      "bytecode_file_offset": 3666232,
+      "bytecode_bytes": 554,
+      "raw_bytecode_sha256": "66fcbf68e7d30740aa946cde9e3fce66a6eedcc92d1e6506192012b44859d5af"
+    },
+    {
+      "function_id": 17682,
+      "name": "onPress",
+      "bytecode_file_offset": 3666786,
+      "bytecode_bytes": 23,
+      "raw_bytecode_sha256": "0f7afd4acf40db241af30f7ef3910703dd8a8f8faf858430e879aba05047d969"
+    },
+    {
+      "function_id": 17683,
+      "name": "onPress",
+      "bytecode_file_offset": 3666809,
+      "bytecode_bytes": 23,
+      "raw_bytecode_sha256": "4134a32d01d484e0a36a7a500843cb7664b954c4f24ced90d7a51921afb53849"
+    },
+    {
+      "function_id": 17684,
+      "name": "onLeftPress",
+      "bytecode_file_offset": 3666832,
+      "bytecode_bytes": 45,
+      "raw_bytecode_sha256": "61e0a59fee951285d048f9118c24a1f1fde4073aee3eb82eb1745df3fff26644"
+    },
+    {
+      "function_id": 17685,
+      "name": "onRightPress",
+      "bytecode_file_offset": 3666877,
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "0056d5fc613d618d8d539f1d13009cc552ec08d492fa7f0bf907a8ae686f0e37"
+    },
+    {
+      "function_id": 17686,
+      "name": "",
+      "bytecode_file_offset": 2954034,
+      "bytecode_bytes": 16,
+      "raw_bytecode_sha256": "3a0bcbeeca1568c69892bd4dec85b3d757c1705d58daba04713eb5a29a8a826e"
+    },
+    {
+      "function_id": 17687,
+      "name": "onPress",
+      "bytecode_file_offset": 3666892,
+      "bytecode_bytes": 18,
+      "raw_bytecode_sha256": "e70bbab6eee159f4ece68a40dbdddcf612cb360a491bf59d99c6b951dddbbc56"
+    },
+    {
+      "function_id": 17688,
+      "name": "onPress",
+      "bytecode_file_offset": 3666910,
+      "bytecode_bytes": 19,
+      "raw_bytecode_sha256": "70ca254a0d9457e6f710b27e658b3878cf09416849b3bc16ceebaad5a619743b"
+    },
+    {
+      "function_id": 17689,
+      "name": "onPress",
+      "bytecode_file_offset": 3666929,
+      "bytecode_bytes": 19,
+      "raw_bytecode_sha256": "a4f3e434b9f135f8556afb7d6c472810e2fbb8d073e921c93e313830f5ec0891"
+    },
+    {
+      "function_id": 17690,
+      "name": "keyExtractor",
+      "bytecode_file_offset": 3635051,
+      "bytecode_bytes": 14,
+      "raw_bytecode_sha256": "82cccaae942484ab5023e48412d95c907496fff04131d45296cd857270241ad0"
+    }
+  ],
+  "renderer_assembly": "fn17447 +0x200, +0x204, +0x208, +0x20c loads string3419,2491,2499,9490; +0x216 variadic concat(type,dist,JSON images)",
+  "strings": [
+    {
+      "string_id": 3419,
+      "raw_file_offset": 737765,
+      "raw_bytes": 355,
+      "is_utf16": false,
+      "raw_sha256": "7eba6937b99983672b993abc9324e7026819e7145c3d919847fb73615460414a"
+    },
+    {
+      "string_id": 2491,
+      "raw_file_offset": 704363,
+      "raw_bytes": 17,
+      "is_utf16": false,
+      "raw_sha256": "0316c8b10cfbde9d9e6c713f8a0c96fa7cb3b5898cfbe133575c7f1ca2b1f2f7"
+    },
+    {
+      "string_id": 2499,
+      "raw_file_offset": 705334,
+      "raw_bytes": 27,
+      "is_utf16": false,
+      "raw_sha256": "81d437b749c9eab9cc8c5ae9cedb58ef024e7cde1891655a1c774edfef6169ee"
+    },
+    {
+      "string_id": 9490,
+      "raw_file_offset": 1278722,
+      "raw_bytes": 24420,
+      "is_utf16": true,
+      "raw_sha256": "7ddd9865456a8ebb17601b9420363c728551c4cb9d50d4bc27494f6a62b1544f"
+    },
+    {
+      "string_id": 576,
+      "raw_file_offset": 568113,
+      "raw_bytes": 81591,
+      "is_utf16": false,
+      "raw_sha256": "12a878282f433504a7d051cf6768e6fd1d272d4cae00cb4885a3be28a3c9d3ee"
+    }
+  ],
+  "extracted_artifacts": {
+    "spinning-box-renderer-template.html": "549839e15ce9b5d26e34ce943036e48ac35bb40beb1a8dffadafbff320717d94",
+    "spinning-box-default.jpg": "91dfc7f0c35434d310d31a8320517110012efb6ac5027c33b9ebb0378a65c09a",
+    "spinning-box-bytecode.hasm": "a1840dab368d6e5058f12f906b8aecb16f413658daa16017be83149bef53e9e6"
+  }
+}

@@ -1,0 +1,9 @@
+// Static REA/Ghidra decompiler output; not original source. Evidence ev_ac0d77b0c894096c627111a3d880c4621715b383e3577117058c6d48c786555b
+
+undefined8 JNI_OnLoad(undefined8 param_1)
+
+{
+  DAT_00374890 = param_1;
+  return 0x10004;
+}
+

@@ -1,0 +1,1224 @@
+{
+  "client_date": "2026-10-13",
+  "observed_at_utc": "2026-10-14T06:59:44.922494+00:00",
+  "authority": "Direct read-only byte inspection of mounted files; structure interpreted with recovered original C# export algorithm",
+  "source_mount": "/media/nathan/1897-6A82",
+  "operations": "Read files only; no card files renamed, written, deleted, or device network commands sent",
+  "format_basis": {
+    "report": "docs/format.md",
+    "original_cil": "docs/evidence/conversion.cil.txt",
+    "original_methods": {
+      "Bin::.ctor": {
+        "token": "0x060003e6",
+        "listing_line": 429
+      },
+      "Bin::getHeader": {
+        "token": "0x060003e8",
+        "listing_line": 682
+      },
+      "TcpServer::ConvertToFTLVWork": {
+        "token": "0x06000628",
+        "listing_line": 3872
+      }
+    },
+    "independent_original_method_replay": "docs/evidence/original-replay.json",
+    "parser": "povbin/media.py:192",
+    "type_7_record": {
+      "video_bytes": 27000,
+      "audio_bytes": 1600,
+      "frame_bytes": 28600,
+      "fps_assumed_from_export_path": 20
+    }
+  },
+  "fat_alias_basis": "docs/evidence/sd-card-filenames.json; parent investigation may refresh this read-only mapping",
+  "files": [
+    {
+      "path": "/media/nathan/1897-6A82/00_B.bin",
+      "name": "00_B.bin",
+      "file_bytes": 7430400,
+      "sha256": "945b546ea61cf97b61fe0f611049f1e0ca963dba203b55c3547ae46718236ca1",
+      "first_24_bytes_hex": "ee3799b7747775b7717770b7b277b3b77b777ab7b877b9b7",
+      "last_32_bytes_hex": "fdf6db6db3ff24800000968767b1ff39a3ebf49a4936977f0000000000492fff",
+      "header": {
+        "header_bytes": 812,
+        "type_marker": "7",
+        "nonce": "99b7",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "2490260f72703e40982554bc0251bf0cb482a73e2c78b016794a7ba158a5407a",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 93798,
+      "post_header_length": 7429588,
+      "post_header_modulo_28600": 22188,
+      "legacy_payload_length_assuming_100000_trailer": 7329588,
+      "legacy_payload_modulo_28600": 7988,
+      "inspection_error": "Expected 100000 zero trailer bytes"
+    },
+    {
+      "path": "/media/nathan/1897-6A82/01Christmas.bin",
+      "name": "01Christmas.bin",
+      "file_bytes": 10396812,
+      "sha256": "c27ecb1a85ee1de7a6ab44a64ed112e8c6077fcff8458afb90683bbddc491819",
+      "first_24_bytes_hex": "ee3799b7747775b7717770b7b277b3b77b777ab7b877b9b7",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 812,
+        "type_marker": "7",
+        "nonce": "99b7",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "2490260f72703e40982554bc0251bf0cb482a73e2c78b016794a7ba158a5407a",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 10396000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 10296000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/01Christmas.bin",
+        "file_bytes": 10396812,
+        "header_bytes": 812,
+        "type_marker": "7",
+        "nonce": "99b7",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 360,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 18.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "2cf4ac52859095a73c2476704a371b63d5896bab508bcc78f602b9fe49c41fe2",
+      "video_slots": {
+        "count": 360,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 4417436
+      },
+      "audio_slots": {
+        "count": 360,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 576000,
+        "min_byte": 75,
+        "max_byte": 178,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 812,
+          "video_length": 27000,
+          "video_sha256": "62f8c58f0c843c3046426fba9de0a2e9f844387b246361792ec76645de99d828",
+          "audio_offset": 27812,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 180,
+          "video_offset": 5148812,
+          "video_length": 27000,
+          "video_sha256": "1f0f194a592627341f0285508c6c179f1fcdf0e92f3597a92f876fe20a4f3682",
+          "audio_offset": 5175812,
+          "audio_length": 1600,
+          "audio_sha256": "5ad796ec922fe1e60cbc2573175808c82f7f29608ce0b792de9abb9eaac50e47"
+        },
+        {
+          "zero_based_frame": 359,
+          "video_offset": 10268212,
+          "video_length": 27000,
+          "video_sha256": "099cadd373f57b72d667269bebb0aaa34064c40d9a3c1c62f44dca32d2fddc3a",
+          "audio_offset": 10295212,
+          "audio_length": 1600,
+          "audio_sha256": "e9ca65a3a375881d3dc041c3e0213b63cdf2756215c40e2556d580aabc966bd4"
+        }
+      ],
+      "trailer_offset": 10296812
+    },
+    {
+      "path": "/media/nathan/1897-6A82/01_LC.bin",
+      "name": "01_LC.bin",
+      "file_bytes": 86400,
+      "sha256": "f7a2efe37f1e84f6de8a1cacae349589d1b599eb65295b03972dbc78df2f8625",
+      "first_24_bytes_hex": "ee3799b7747775b7717770b7b277b3b77b777ab7b877b9b7",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 812,
+        "type_marker": "7",
+        "nonce": "99b7",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "2490260f72703e40982554bc0251bf0cb482a73e2c78b016794a7ba158a5407a",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 36702,
+      "post_header_length": 85588,
+      "post_header_modulo_28600": 28388,
+      "legacy_payload_length_assuming_100000_trailer": -14412,
+      "legacy_payload_modulo_28600": 14188,
+      "inspection_error": "File is too short for its header and trailer"
+    },
+    {
+      "path": "/media/nathan/1897-6A82/02Father Christmas.bin",
+      "name": "02Father Christmas.bin",
+      "file_bytes": 5820108,
+      "sha256": "e58b8747c513a8d590caf7dc0f3c81d346740510abd0c97e4096ba7610c80260",
+      "first_24_bytes_hex": "ee37b4a4676466a4626463a4a164a0a4686469a4ab64aaa4",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 108,
+        "type_marker": "7",
+        "nonce": "b4a4",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "f0a35201a72f32b7574165ab5db11a1e4c21f72401be548c06c22d2b06c473d6",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 5820000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 5720000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/02Father Christmas.bin",
+        "file_bytes": 5820108,
+        "header_bytes": 108,
+        "type_marker": "7",
+        "nonce": "b4a4",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 200,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 10.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "39ff5b0bf35ff956bc3cd6bae11d3bd57f7aee7247c6c0ac169031153837c6a2",
+      "video_slots": {
+        "count": 200,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 2056412
+      },
+      "audio_slots": {
+        "count": 200,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 320000,
+        "min_byte": 41,
+        "max_byte": 209,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 108,
+          "video_length": 27000,
+          "video_sha256": "6f627f6fdb0288a5e63e09e0d6e5872b5fa06460ae9ac8541b432184b7cb73a1",
+          "audio_offset": 27108,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 100,
+          "video_offset": 2860108,
+          "video_length": 27000,
+          "video_sha256": "ea38351b94a6115219fdaf53f5638d2a841612bbe5b32f1aa93e36c93db51f58",
+          "audio_offset": 2887108,
+          "audio_length": 1600,
+          "audio_sha256": "afb5d77b23dd27118ddcb9d83c983482f414b27a77b70dc7662ac89b01eff7a3"
+        },
+        {
+          "zero_based_frame": 199,
+          "video_offset": 5691508,
+          "video_length": 27000,
+          "video_sha256": "3d75ac10c0113d3948abc7a998b3480c9f86bbe97d1a8e4506b49287655cce53",
+          "audio_offset": 5718508,
+          "audio_length": 1600,
+          "audio_sha256": "e315e99a7009ac87736524935a2e4f057ec4e49a737de87c11628dd04295f216"
+        }
+      ],
+      "trailer_offset": 5720108
+    },
+    {
+      "path": "/media/nathan/1897-6A82/03Father Christmas.bin",
+      "name": "03Father Christmas.bin",
+      "file_bytes": 10968620,
+      "sha256": "70509d977a1648f5fc59229f131145ed83d15e31b7e8fa52870fca9c333d7d59",
+      "first_24_bytes_hex": "ee3743ad6e6d6fad6b6d6aada86da9ad616d60ada26da3ad",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 620,
+        "type_marker": "7",
+        "nonce": "43ad",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "5ba1f2455bd56b950363c22de587eb652fc108e4b22f1f4af8ebbd7e96de1138",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 10968000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 10868000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/03Father Christmas.bin",
+        "file_bytes": 10968620,
+        "header_bytes": 620,
+        "type_marker": "7",
+        "nonce": "43ad",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 380,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 19.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "07ea9bfa8d63fa66e2c013660c3d43fbef16d992c1513c338acbd26b3eab3431",
+      "video_slots": {
+        "count": 380,
+        "bytes_each": 27000,
+        "all_zero_slots": 9,
+        "nonzero_bytes_total": 3460064
+      },
+      "audio_slots": {
+        "count": 380,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 608000,
+        "min_byte": 31,
+        "max_byte": 228,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 620,
+          "video_length": 27000,
+          "video_sha256": "d4902002bff1daf21917e31d6360b1094d1c29c4054cea41930449787caa6f71",
+          "audio_offset": 27620,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 190,
+          "video_offset": 5434620,
+          "video_length": 27000,
+          "video_sha256": "1b32962b26fbb175985c8376a24e071c059a434b20db9161ec9c710dff2d6482",
+          "audio_offset": 5461620,
+          "audio_length": 1600,
+          "audio_sha256": "0473efeb0e65d5cb8c5e0f8817045756de247c6c9c97156561d0255e4ccc2237"
+        },
+        {
+          "zero_based_frame": 379,
+          "video_offset": 10840020,
+          "video_length": 27000,
+          "video_sha256": "6fcba6947a9735d1416f4d8e37d6baabb034f3502082b780ba35edf941d7ea9d",
+          "audio_offset": 10867020,
+          "audio_length": 1600,
+          "audio_sha256": "5a9d3313495aab77097c939053511a1d4667ce52536b43a14a78232cda7e6f42"
+        }
+      ],
+      "trailer_offset": 10868620
+    },
+    {
+      "path": "/media/nathan/1897-6A82/04count.bin",
+      "name": "04count.bin",
+      "file_bytes": 26984416,
+      "sha256": "3dfc29afdb4e81b06473815de64cbddb06eafe0a6085bfbdbed1aad99f45b995",
+      "first_24_bytes_hex": "ee37368a494a488a4c4a4d8a8f4a8e8a464a478a854a848a",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 416,
+        "type_marker": "7",
+        "nonce": "368a",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "b88d849255c13c93d47ebf51ad85091213df7d6e1f60e33cec6c835a649db00a",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 26984000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 26884000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/04count.bin",
+        "file_bytes": 26984416,
+        "header_bytes": 416,
+        "type_marker": "7",
+        "nonce": "368a",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 940,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 47.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "e1fba909a7d3018cdefe9d731e309be8e680b0017f078b9f3fc69d96e1293592",
+      "video_slots": {
+        "count": 940,
+        "bytes_each": 27000,
+        "all_zero_slots": 2,
+        "nonzero_bytes_total": 7865086
+      },
+      "audio_slots": {
+        "count": 940,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 1503573,
+        "min_byte": 0,
+        "max_byte": 255,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 416,
+          "video_length": 27000,
+          "video_sha256": "531ac530993c531cf07e4c4c0a480892c7833f89929a0146098339adffd2980f",
+          "audio_offset": 27416,
+          "audio_length": 1600,
+          "audio_sha256": "1e14bb3bd01bdd1a0670784f80d2f4979daf9cf25cf62efefe7dfaf774f98bda"
+        },
+        {
+          "zero_based_frame": 470,
+          "video_offset": 13442416,
+          "video_length": 27000,
+          "video_sha256": "e5dc0d1b7cb84245c9ca1169902467b6f6c03d7375dac17a0aac2c816e249bde",
+          "audio_offset": 13469416,
+          "audio_length": 1600,
+          "audio_sha256": "4545de3085745239c209ef6f6c60bad0f193d7bcd95f06555c8337fc790feea7"
+        },
+        {
+          "zero_based_frame": 939,
+          "video_offset": 26855816,
+          "video_length": 27000,
+          "video_sha256": "8fc5fc5948f8725d901e6d82010e6516c86d95d1c0d5e46e48ae36917bb55876",
+          "audio_offset": 26882816,
+          "audio_length": 1600,
+          "audio_sha256": "e80279b6957cc4e681d246364a42fd5555911d75f612a7f52074cf752e533157"
+        }
+      ],
+      "trailer_offset": 26884416
+    },
+    {
+      "path": "/media/nathan/1897-6A82/05Christmas.bin",
+      "name": "05Christmas.bin",
+      "file_bytes": 10396112,
+      "sha256": "be224d8fe589bde5e358ce2fc96478987c3d807ccaea053c2b4b6c17110a708b",
+      "first_24_bytes_hex": "ee371c0fcccfcd0fc9cfc80f0acf0b0fc3cfc20f00cf010f",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 112,
+        "type_marker": "7",
+        "nonce": "1c0f",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "8d7e40b8ee0eb8ba429ef28bd88c1613e9c1c70acc999bc6c42c2506362363bd",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 10396000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 10296000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/05Christmas.bin",
+        "file_bytes": 10396112,
+        "header_bytes": 112,
+        "type_marker": "7",
+        "nonce": "1c0f",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 360,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 18.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "0b18b29423da70dc6dba54858d10fadb0e2ee6c8b0e9c415864f738b7b56fca0",
+      "video_slots": {
+        "count": 360,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 5674045
+      },
+      "audio_slots": {
+        "count": 360,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 576000,
+        "min_byte": 2,
+        "max_byte": 255,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 112,
+          "video_length": 27000,
+          "video_sha256": "82ad737bef0a008ecb0b85640178a2756b1f8612c8a23a385d87b9e726d00eed",
+          "audio_offset": 27112,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 180,
+          "video_offset": 5148112,
+          "video_length": 27000,
+          "video_sha256": "5dc9f43f2e8c2b15896025e2af8420d41f64baa5941ba917e03c3ac6500fe57c",
+          "audio_offset": 5175112,
+          "audio_length": 1600,
+          "audio_sha256": "f23bb614658e0d0826a25b0f8ac99a7b15c9389039271e2f31444174e1bce1b9"
+        },
+        {
+          "zero_based_frame": 359,
+          "video_offset": 10267512,
+          "video_length": 27000,
+          "video_sha256": "8d18fc135263d19298d7b9727bb020c8d7fac18f7acd78b0ad1a8667ac247df7",
+          "audio_offset": 10294512,
+          "audio_length": 1600,
+          "audio_sha256": "e64406917e6362f5621eea3ddd54ea162cb8468acc4c02e00d1226d35c1e2da2"
+        }
+      ],
+      "trailer_offset": 10296112
+    },
+    {
+      "path": "/media/nathan/1897-6A82/06Jellyfish.bin",
+      "name": "06Jellyfish.bin",
+      "file_bytes": 10396740,
+      "sha256": "a34afa82adc2cd016a50ab685bfd3ab3c413e667bc47005b5c7e69daed9b89b3",
+      "first_24_bytes_hex": "ee37df498a898b498f898e494c894d498589844946894749",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 740,
+        "type_marker": "7",
+        "nonce": "df49",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "3d21eb8442c093496e5813e43a4bddf0f1d9a5e47873983f145e937f6dfde825",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 10396000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 10296000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/06Jellyfish.bin",
+        "file_bytes": 10396740,
+        "header_bytes": 740,
+        "type_marker": "7",
+        "nonce": "df49",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 360,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 18.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "6539c2f3b3ba1d7a59f4ad8cf68eb6f4e058cb48cb0cf3f6e2248b92d42deae4",
+      "video_slots": {
+        "count": 360,
+        "bytes_each": 27000,
+        "all_zero_slots": 17,
+        "nonzero_bytes_total": 3284024
+      },
+      "audio_slots": {
+        "count": 360,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 576000,
+        "min_byte": 58,
+        "max_byte": 201,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 740,
+          "video_length": 27000,
+          "video_sha256": "d4902002bff1daf21917e31d6360b1094d1c29c4054cea41930449787caa6f71",
+          "audio_offset": 27740,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 180,
+          "video_offset": 5148740,
+          "video_length": 27000,
+          "video_sha256": "2a03d465d0e077dfe2ca43d8e5e8566813e60e613184d34e4f48a5399fd3a668",
+          "audio_offset": 5175740,
+          "audio_length": 1600,
+          "audio_sha256": "1a47dadda10917de192280614acbfed91bee1416a8be49122066ac96aa69299f"
+        },
+        {
+          "zero_based_frame": 359,
+          "video_offset": 10268140,
+          "video_length": 27000,
+          "video_sha256": "d4902002bff1daf21917e31d6360b1094d1c29c4054cea41930449787caa6f71",
+          "audio_offset": 10295140,
+          "audio_length": 1600,
+          "audio_sha256": "96e1de9378ed293b6131c040103bf35d30642dfdf887e9cbb7667abf2fe59aee"
+        }
+      ],
+      "trailer_offset": 10296740
+    },
+    {
+      "path": "/media/nathan/1897-6A82/07Sing.bin",
+      "name": "07Sing.bin",
+      "file_bytes": 12112268,
+      "sha256": "4c8c22a397d6b67e552f85f337200e78cc15827575d8b417816bf85240a90a4e",
+      "first_24_bytes_hex": "ee375e905350529056505790955094905c505d909f509e90",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 268,
+        "type_marker": "7",
+        "nonce": "5e90",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "0fb1e1e74a7898381183c01f3f5b173bb6bb368cee6f5c1492278f43b9d56005",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 12112000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 12012000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/07Sing.bin",
+        "file_bytes": 12112268,
+        "header_bytes": 268,
+        "type_marker": "7",
+        "nonce": "5e90",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 420,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 21.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "1c77627e1192517ba45758ccdd8edf73e989c38739b6724dd5cd29f06f2f5ad2",
+      "video_slots": {
+        "count": 420,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 3087564
+      },
+      "audio_slots": {
+        "count": 420,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 672000,
+        "min_byte": 3,
+        "max_byte": 250,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 268,
+          "video_length": 27000,
+          "video_sha256": "4a3521d54aa4e24fa47141944f035857cecd90fb44659b6d75ae827cb74c6e5e",
+          "audio_offset": 27268,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 210,
+          "video_offset": 6006268,
+          "video_length": 27000,
+          "video_sha256": "ddf20ded4f83be5a31a03c3e3f554de49d5d470dc84705f1f387f717c4b137b0",
+          "audio_offset": 6033268,
+          "audio_length": 1600,
+          "audio_sha256": "b204c21e4877b9756569b19e6402e81eec6cb1a84f69789d25218c8463eb2a26"
+        },
+        {
+          "zero_based_frame": 419,
+          "video_offset": 11983668,
+          "video_length": 27000,
+          "video_sha256": "2a351d8dbe163ec91807ea6e29fbd876382d95ecea32bffd9b3af960e9add3ec",
+          "audio_offset": 12010668,
+          "audio_length": 1600,
+          "audio_sha256": "2983868685c9d584edb65ac538a6129570299e69ed424a752984ccb3f3db0120"
+        }
+      ],
+      "trailer_offset": 12012268
+    },
+    {
+      "path": "/media/nathan/1897-6A82/08butterfly.bin",
+      "name": "08butterfly.bin",
+      "file_bytes": 3532920,
+      "sha256": "923716507e937f7bfd63817ddc45e9e903069ae7af624b1d3050175b6583e826",
+      "first_24_bytes_hex": "ee379eda191a18da1c1a1ddadf1adeda161a17dad51ad4da",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 920,
+        "type_marker": "7",
+        "nonce": "9eda",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "1c56d64bfad5613cb0125f1358407a222e1bf535757efc7b226fac3d86bb9fec",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 3532000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 3432000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/08butterfly.bin",
+        "file_bytes": 3532920,
+        "header_bytes": 920,
+        "type_marker": "7",
+        "nonce": "9eda",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 120,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 6.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "23bb46fdafd59a41c294ced9e9d51a11b9325609235bdf05c35df5eb8e982ea0",
+      "video_slots": {
+        "count": 120,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 701807
+      },
+      "audio_slots": {
+        "count": 120,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 192000,
+        "min_byte": 68,
+        "max_byte": 189,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 920,
+          "video_length": 27000,
+          "video_sha256": "6cdfbe47f2d292c2a1e6d0047523513e42be1b1ee39bd8bdac50d53b4f750ab4",
+          "audio_offset": 27920,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 60,
+          "video_offset": 1716920,
+          "video_length": 27000,
+          "video_sha256": "1ae0909d54705cb48aac48695cbd8e13442b81bf529730ad954864af43db583a",
+          "audio_offset": 1743920,
+          "audio_length": 1600,
+          "audio_sha256": "05924f9842399416ba813a5b21664aea4a2858ebf76eedb2a604570eba3e4de3"
+        },
+        {
+          "zero_based_frame": 119,
+          "video_offset": 3404320,
+          "video_length": 27000,
+          "video_sha256": "2bb18b7abf23ae6428485d7cbcbcdb6da9434d212e787abaed4c8df9fcf1fa2b",
+          "audio_offset": 3431320,
+          "audio_length": 1600,
+          "audio_sha256": "d3f7e2040725ef846c03020a85433477f3e9a378c6473a0a49ee93209afd7982"
+        }
+      ],
+      "trailer_offset": 3432920
+    },
+    {
+      "path": "/media/nathan/1897-6A82/09Christmas.bin",
+      "name": "09Christmas.bin",
+      "file_bytes": 4104248,
+      "sha256": "36b93d2215280cf321bbbf11923c3f68f1f97064164b82be65c751ee0165d126",
+      "first_24_bytes_hex": "ee377a1edddedc1ed8ded91e1bde1a1ed2ded31e11de101e",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 248,
+        "type_marker": "7",
+        "nonce": "7a1e",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "07bf78b4ea93200e41ade790e1fbd60de39e34cd1b24c278b8b3be3c99bc9834",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 4104000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 4004000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/09Christmas.bin",
+        "file_bytes": 4104248,
+        "header_bytes": 248,
+        "type_marker": "7",
+        "nonce": "7a1e",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 140,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 7.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "bc71394372ce088311b932a49ebaf76a14b1ba79f8ac4792d15f92c0b659d988",
+      "video_slots": {
+        "count": 140,
+        "bytes_each": 27000,
+        "all_zero_slots": 3,
+        "nonzero_bytes_total": 862087
+      },
+      "audio_slots": {
+        "count": 140,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 224000,
+        "min_byte": 12,
+        "max_byte": 226,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 248,
+          "video_length": 27000,
+          "video_sha256": "d4902002bff1daf21917e31d6360b1094d1c29c4054cea41930449787caa6f71",
+          "audio_offset": 27248,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 70,
+          "video_offset": 2002248,
+          "video_length": 27000,
+          "video_sha256": "1adca0a4cecf1162c0f8625d0459126def8068d7482a50715c281bfe03243ed4",
+          "audio_offset": 2029248,
+          "audio_length": 1600,
+          "audio_sha256": "e289de4e516500b208ada00c6a020ab4b4d5326162b9905ef5d4f3ea79a5f0da"
+        },
+        {
+          "zero_based_frame": 139,
+          "video_offset": 3975648,
+          "video_length": 27000,
+          "video_sha256": "c0ebc7e5018796aa16d983ad38a35d602c459d15bfbf534ba9d52368d88d892c",
+          "audio_offset": 4002648,
+          "audio_length": 1600,
+          "audio_sha256": "2f69636a1c8ee2e4d8e9506ba89c7ec5f6d54eddbbe4015dab23a9fff0ad7bea"
+        }
+      ],
+      "trailer_offset": 4004248
+    },
+    {
+      "path": "/media/nathan/1897-6A82/11cc30e49.bin",
+      "name": "11cc30e49.bin",
+      "file_bytes": 18845900,
+      "sha256": "d18ff394f0f09cf6327739ce59fe4f67b173ec5f02dc26bd416bc64a34c675ec",
+      "first_24_bytes_hex": "ee372d3bf8fbf93bfdfbfc3b3efb3f3bf7fbf63b34fb353b",
+      "last_32_bytes_hex": "0000000000055efb80000000000000000000000000000009fbff200000000000",
+      "header": {
+        "header_bytes": 100,
+        "type_marker": "7",
+        "nonce": "2d3b",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "c7a7ec35c668668ea810c27b3512f8295a3353c6908d05926c78e3758c2342a9",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 43101,
+      "post_header_length": 18845800,
+      "post_header_modulo_28600": 27000,
+      "legacy_payload_length_assuming_100000_trailer": 18745800,
+      "legacy_payload_modulo_28600": 12800,
+      "inspection_error": "Expected 100000 zero trailer bytes"
+    },
+    {
+      "path": "/media/nathan/1897-6A82/12e8f9052a.bin",
+      "name": "12e8f9052a.bin",
+      "file_bytes": 9252708,
+      "sha256": "9787bd474c0e90d36a042f8b165e9309dae5b709f78df8d6239ffdb8783d678e",
+      "first_24_bytes_hex": "ee3766ee2d2e2cee282e29eeeb2eeaee222e23eee12ee0ee",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 708,
+        "type_marker": "7",
+        "nonce": "66ee",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "252ac8d7679338140804da7546e2483a0b79d752b95a3205ddb2ecf456c311a1",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 9252000,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 9152000,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/12e8f9052a.bin",
+        "file_bytes": 9252708,
+        "header_bytes": 708,
+        "type_marker": "7",
+        "nonce": "66ee",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 320,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 16.0
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "b823d22ce6a75dd0761169aa22973a85107a7dfc6a5902414aac35d9225ba18b",
+      "video_slots": {
+        "count": 320,
+        "bytes_each": 27000,
+        "all_zero_slots": 28,
+        "nonzero_bytes_total": 1875522
+      },
+      "audio_slots": {
+        "count": 320,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 512000,
+        "min_byte": 11,
+        "max_byte": 255,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 708,
+          "video_length": 27000,
+          "video_sha256": "d4902002bff1daf21917e31d6360b1094d1c29c4054cea41930449787caa6f71",
+          "audio_offset": 27708,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 160,
+          "video_offset": 4576708,
+          "video_length": 27000,
+          "video_sha256": "2260a6daa3fcc44148de6e645e92023a49935224c2e1bcf38c51dfbe3ce8441e",
+          "audio_offset": 4603708,
+          "audio_length": 1600,
+          "audio_sha256": "9dc3618a56906862564c1f88c4a7b6a7ca3d1c73f52ddaa7b8a777b78fa22030"
+        },
+        {
+          "zero_based_frame": 319,
+          "video_offset": 9124108,
+          "video_length": 27000,
+          "video_sha256": "c6ba0de4db65ac686d484ca85b8d044fbe811629607b8d1023e43fc75111653d",
+          "audio_offset": 9151108,
+          "audio_length": 1600,
+          "audio_sha256": "1301e536bb0ff4afd0ee324da130fac65603b9c0f8066fd95e81ab31cfc25838"
+        }
+      ],
+      "trailer_offset": 9152708
+    },
+    {
+      "path": "/media/nathan/1897-6A82/13_tractor.bin",
+      "name": "13_tractor.bin",
+      "file_bytes": 6907564,
+      "sha256": "7267a68ae34cb2da2166befafa806b5526a863445c640d444ca1e8003ce9c3c5",
+      "first_24_bytes_hex": "ee37db44878486448284834441844044888489444b844a44",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 764,
+        "type_marker": "7",
+        "nonce": "db44",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "eec4a5a1f1e0791a38cf8b37608dca417f45acac05b173b00e8381fe2b4f20a0",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 6906800,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 6806800,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/13_tractor.bin",
+        "file_bytes": 6907564,
+        "header_bytes": 764,
+        "type_marker": "7",
+        "nonce": "db44",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 238,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 11.9
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "fe3abfe4b2bead6df92e613b780516b07ea238a9459bc62f039ed5ec9056fca3",
+      "video_slots": {
+        "count": 238,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 3088635
+      },
+      "audio_slots": {
+        "count": 238,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 380800,
+        "min_byte": 35,
+        "max_byte": 213,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 764,
+          "video_length": 27000,
+          "video_sha256": "854b7661402d3709eb3ba9ffc36f6c63e5bc00eef62194f2215806029c0a763d",
+          "audio_offset": 27764,
+          "audio_length": 1600,
+          "audio_sha256": "1719c8cde412ad396875d1ec9dd0abb9ff55124502e40873a90105c220ea3015"
+        },
+        {
+          "zero_based_frame": 119,
+          "video_offset": 3404164,
+          "video_length": 27000,
+          "video_sha256": "a2c73e13f5bb365a7a2d5cb0393e667b29a22070a1be0c6a7c5b217705c47e4f",
+          "audio_offset": 3431164,
+          "audio_length": 1600,
+          "audio_sha256": "07d376124c76e59b91ff2e64cdedb0cf19144fafab1e646a47140d292347054f"
+        },
+        {
+          "zero_based_frame": 237,
+          "video_offset": 6778964,
+          "video_length": 27000,
+          "video_sha256": "e8862c970c2c2716a739d3f16be74818896e19de812117d904fb1a586aa5a1aa",
+          "audio_offset": 6805964,
+          "audio_length": 1600,
+          "audio_sha256": "6d444d2adb6cc6d207b6f378daa8f570b39a02aa806c9b094f7954f684ffd405"
+        }
+      ],
+      "trailer_offset": 6807564,
+      "local_source_comparison": {
+        "path": "/home/nathan/git/5d_pov/13_tractor.bin",
+        "sha256": "7267a68ae34cb2da2166befafa806b5526a863445c640d444ca1e8003ce9c3c5",
+        "file_bytes": 6907564,
+        "identical_to_sd": true
+      }
+    },
+    {
+      "path": "/media/nathan/1897-6A82/14_cd.bin",
+      "name": "14_cd.bin",
+      "file_bytes": 358172,
+      "sha256": "9313725e3f4aa0a866255fb102871786ce1599a4c7521c391e04417d2b25d404",
+      "first_24_bytes_hex": "ee37e7d1121113d1171116d1d411d5d11d111cd1de11dfd1",
+      "last_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "header": {
+        "header_bytes": 772,
+        "type_marker": "7",
+        "nonce": "e7d1",
+        "device_types": [
+          7
+        ]
+      },
+      "header_sha256": "7813df74dbfd927113dc6e8be9b0575056723fab76919acf2a103d1aa5db0823",
+      "header_matches_original_algorithm": true,
+      "last_100000_nonzero_bytes": 0,
+      "post_header_length": 357400,
+      "post_header_modulo_28600": 14200,
+      "legacy_payload_length_assuming_100000_trailer": 257400,
+      "legacy_payload_modulo_28600": 0,
+      "inspection": {
+        "path": "/media/nathan/1897-6A82/14_cd.bin",
+        "file_bytes": 358172,
+        "header_bytes": 772,
+        "type_marker": "7",
+        "nonce": "e7d1",
+        "device_types": [
+          7
+        ],
+        "trailer_bytes": 100000,
+        "candidates": [
+          {
+            "device_type": 7,
+            "profile": "F-Mini11",
+            "frames": 9,
+            "frame_bytes": 28600,
+            "duration_at_20fps": 0.45
+          }
+        ],
+        "ambiguous_type_marker": false
+      },
+      "payload_sha256": "a5a8a6896a34ea27a481b6187c12296da62b0565176b7d6b07780fcc50dbb1b2",
+      "video_slots": {
+        "count": 9,
+        "bytes_each": 27000,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 209617
+      },
+      "audio_slots": {
+        "count": 9,
+        "bytes_each": 1600,
+        "all_zero_slots": 0,
+        "nonzero_bytes_total": 14400,
+        "min_byte": 119,
+        "max_byte": 139,
+        "interpretation": "U8 mono 32 kHz PCM according to recovered export path; sound quality and physical playback unobserved here"
+      },
+      "boundary_samples": [
+        {
+          "zero_based_frame": 0,
+          "video_offset": 772,
+          "video_length": 27000,
+          "video_sha256": "833405f03a0db17decc04ae369d143bebd37de7f300f11d0b23d3b8becd5e67c",
+          "audio_offset": 27772,
+          "audio_length": 1600,
+          "audio_sha256": "bee78fabbf08ee1fee160c219222d21142c1cdf88b1bdb66d7514617f2cd6db5"
+        },
+        {
+          "zero_based_frame": 4,
+          "video_offset": 115172,
+          "video_length": 27000,
+          "video_sha256": "626e35fcdc2e967cae37880bfb2db44bc223191ab753d52fe50e7abcb0082346",
+          "audio_offset": 142172,
+          "audio_length": 1600,
+          "audio_sha256": "44301fa5257daefc7fef4c32f86e85f44d83b16c74a71e415bc4fedca874ff5d"
+        },
+        {
+          "zero_based_frame": 8,
+          "video_offset": 229572,
+          "video_length": 27000,
+          "video_sha256": "38585202f7756b938a32287799ca10746d493dc1fe7a8ea77f8774dc277a3cf2",
+          "audio_offset": 256572,
+          "audio_length": 1600,
+          "audio_sha256": "13147c8dbeee35994b766a644cfd48fa1fcea7682072143b8468cd191ec2ed02"
+        }
+      ],
+      "trailer_offset": 258172,
+      "local_source_comparison": {
+        "path": "/home/nathan/git/5d_pov/cd.bin",
+        "sha256": "9313725e3f4aa0a866255fb102871786ce1599a4c7521c391e04417d2b25d404",
+        "file_bytes": 358172,
+        "identical_to_sd": true
+      }
+    }
+  ],
+  "findings": [
+    {
+      "evidence_type": "observed-bytes-and-derived-structure",
+      "statement": "13_tractor.bin is byte-identical to local source and conforms to recovered type-7 layout: valid 764-byte header + 238 complete records * 28600 + 100000 zero trailer."
+    },
+    {
+      "evidence_type": "derived-structure",
+      "statement": "No wrong model marker, partial record, bad filler, missing trailer, or all-black video was found in 13_tractor.bin."
+    },
+    {
+      "evidence_type": "bounded-inference",
+      "statement": "This structural comparison does not explain device enumeration. Android protocol parsing and firmware filename scanning remain separate evidence questions."
+    },
+    {
+      "evidence_type": "limitation",
+      "statement": "Some preloaded files fail this offline-export parser. That does not establish their invalidity: specialized or partial formats, padding, and device acceptance are unknown."
+    }
+  ],
+  "limitations": [
+    "No device firmware or live file-list response captured here.",
+    "No physical playback of 13_tractor.bin observed.",
+    "Frame rate and audio interpretation are assumptions from recovered export path, not metadata present in bin bytes.",
+    "A valid file format does not establish firmware inclusion or Android visibility."
+  ]
+}

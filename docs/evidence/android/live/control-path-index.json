@@ -1,0 +1,403 @@
+{
+  "scope": "Static APK/UI/index/send/socket encoding trace with controlled offline recorder replay",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "functions": [
+    {
+      "function_id": 9090,
+      "name": "generateFilename",
+      "bundle_file_offset": "0x29c20d",
+      "code_bytes": 229,
+      "original_code_sha256": "cdb33d49e2de0908a9a8561ddb564786344ef1aec2e4c508bf2cc9d2239b353f"
+    },
+    {
+      "function_id": 9105,
+      "name": "uploadFile",
+      "bundle_file_offset": "0x29cb84",
+      "code_bytes": 137,
+      "original_code_sha256": "2f35cb75b7f3937a616134d4df00063d9c4df520b4db5566a084a89d7e1510d1"
+    },
+    {
+      "function_id": 9112,
+      "name": "playFile",
+      "bundle_file_offset": "0x29cfc9",
+      "code_bytes": 165,
+      "original_code_sha256": "33ec9d9d116f3aa1dbe9ddcb3a09635f058c49223d3f31bd317f48dab53928a7"
+    },
+    {
+      "function_id": 9120,
+      "name": "playPause",
+      "bundle_file_offset": "0x29d21a",
+      "code_bytes": 104,
+      "original_code_sha256": "9e22bcc40e0a0fac00170ffe22ae25bdd9683bf667fe808f60a92fb3852b11b6"
+    },
+    {
+      "function_id": 9141,
+      "name": "getIsOldDevice",
+      "bundle_file_offset": "0x29da18",
+      "code_bytes": 47,
+      "original_code_sha256": "2502505e87aa0f023d3fb19f48b9a847bac569bdc173020965c9261f091e9e93"
+    },
+    {
+      "function_id": 9271,
+      "name": "startHeartBeatTimer",
+      "bundle_file_offset": "0x2a13ac",
+      "code_bytes": 146,
+      "original_code_sha256": "9aa8c4c10c3c34604a30c326ddb24aaa8b8a8b446da491fcbd2a10480ade11d2"
+    },
+    {
+      "function_id": 9274,
+      "name": "_connectAction",
+      "bundle_file_offset": "0x2a14f6",
+      "code_bytes": 236,
+      "original_code_sha256": "ce731eb24a560ac7259a7667ffc7734d2063fec70a573d95810946347699b668"
+    },
+    {
+      "function_id": 9275,
+      "name": "",
+      "bundle_file_offset": "0x2a15e2",
+      "code_bytes": 89,
+      "original_code_sha256": "f5a3d1fdbc21d440e83862b0fe27052927061763388ee0a90259d24b412b3193"
+    },
+    {
+      "function_id": 9282,
+      "name": "send",
+      "bundle_file_offset": "0x2a17f3",
+      "code_bytes": 95,
+      "original_code_sha256": "03018c99b966b335cae12d06d70cb25877fb992f0f1a5ee5a5846681e42b4270"
+    },
+    {
+      "function_id": 9283,
+      "name": "",
+      "bundle_file_offset": "0x2a1852",
+      "code_bytes": 187,
+      "original_code_sha256": "ec1d5b9edc0892f546f1b9bc12389eebcde13396a4b8ec0be1d3fe6017d10bb3"
+    },
+    {
+      "function_id": 9288,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2a19ab",
+      "code_bytes": 322,
+      "original_code_sha256": "96be34b29783c11dce03d84f86fbe8abfc0f8ab92982fe3632e531779e92b4ac"
+    },
+    {
+      "function_id": 9294,
+      "name": "heartBeat",
+      "bundle_file_offset": "0x2a2012",
+      "code_bytes": 22,
+      "original_code_sha256": "c164a5d437c104cda8c986757cdca73e2dd1316c8b7794d3bf7791b9a6f30bda"
+    },
+    {
+      "function_id": 9305,
+      "name": "playFile",
+      "bundle_file_offset": "0x2a2279",
+      "code_bytes": 183,
+      "original_code_sha256": "0ab724d6d45933185c77a84ba6a377d2c29d30548be4c31102b91f0a7b166f26"
+    },
+    {
+      "function_id": 9306,
+      "name": "",
+      "bundle_file_offset": "0x2a21ae",
+      "code_bytes": 17,
+      "original_code_sha256": "4c2948797121a5609007433c7cad1b3f56ab6c492a687fe9a7c173343ddd2ba1"
+    },
+    {
+      "function_id": 9309,
+      "name": "playPause",
+      "bundle_file_offset": "0x2a235c",
+      "code_bytes": 22,
+      "original_code_sha256": "6bc9ef8227ca68e7af40d74e10d91aced274481acfd2767714daa05e719927df"
+    },
+    {
+      "function_id": 9310,
+      "name": "playPlay",
+      "bundle_file_offset": "0x2a2372",
+      "code_bytes": 22,
+      "original_code_sha256": "cb6176eac9c6c0316545407c9f11dc37c28883913b912afc03109212dce3fc9d"
+    },
+    {
+      "function_id": 9347,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x2a2c3c",
+      "code_bytes": 618,
+      "original_code_sha256": "6b606c43132a52aaef8967e65bbe630be735a0eb30abcd514375fd28695934ed"
+    },
+    {
+      "function_id": 9366,
+      "name": "createConnection",
+      "bundle_file_offset": "0x2a3376",
+      "code_bytes": 52,
+      "original_code_sha256": "1d8381edccf0f9aa3f1ac76c7a3879e70f1e9678017cec3f71808b972a916ac4"
+    },
+    {
+      "function_id": 9424,
+      "name": "connect",
+      "bundle_file_offset": "0x2a4f23",
+      "code_bytes": 179,
+      "original_code_sha256": "e1dc6e986e3b78314650202a81dc38ff92fa31f3003888c770aa64a1193727f8"
+    },
+    {
+      "function_id": 9439,
+      "name": "write",
+      "bundle_file_offset": "0x2a5353",
+      "code_bytes": 306,
+      "original_code_sha256": "8973de16674e47b146ac09606d23f34b4152ae522f96a23d08c81474fe2e4fc3"
+    },
+    {
+      "function_id": 9456,
+      "name": "_generateSendBuffer",
+      "bundle_file_offset": "0x2a5abf",
+      "code_bytes": 225,
+      "original_code_sha256": "f92bca59779057bb135cf4d7537b01b94534ed2eec1c343185ab5cfd0ebf6144"
+    },
+    {
+      "function_id": 12317,
+      "name": "handlePlay",
+      "bundle_file_offset": "0x2ecec5",
+      "code_bytes": 175,
+      "original_code_sha256": "1841a28e1e84fc1d264c57fb06e32a3dfce26658b867956344df9a8c5cd9e0b4"
+    },
+    {
+      "function_id": 12320,
+      "name": "handlePause",
+      "bundle_file_offset": "0x2ecf93",
+      "code_bytes": 174,
+      "original_code_sha256": "42b268923dfe9d01586c36bd90620e84921bd511797fec30fb5b3856957d0cee"
+    },
+    {
+      "function_id": 12323,
+      "name": "renderItem",
+      "bundle_file_offset": "0x2ed060",
+      "code_bytes": 1014,
+      "original_code_sha256": "b965477fd500741294f70d658f4453aff460047d671af5d07cd51caaf4eaf4a6"
+    },
+    {
+      "function_id": 12324,
+      "name": "onPress",
+      "bundle_file_offset": "0x2ed456",
+      "code_bytes": 23,
+      "original_code_sha256": "a7b50a27a2cbe21b8e2c507dcb86a497fef1faea6da4f58fa5cd6bd307f97b4f"
+    },
+    {
+      "function_id": 12325,
+      "name": "onPress",
+      "bundle_file_offset": "0x2ed46d",
+      "code_bytes": 108,
+      "original_code_sha256": "6094ac9434b8f9582258660c9d1c8dc35e8eddafd15e90c8a04283709c5ecd5d"
+    },
+    {
+      "function_id": 17190,
+      "name": "truncateGBK",
+      "bundle_file_offset": "0x343e2a",
+      "code_bytes": 171,
+      "original_code_sha256": "176e65a12fc33ebfb0c4f612a5eb0d727355d30f3917f27958e31533909c2baf"
+    },
+    {
+      "function_id": 17192,
+      "name": "",
+      "bundle_file_offset": "0x36fd07",
+      "code_bytes": 100,
+      "original_code_sha256": "cebdf0303cc42e1b7176f09eba345011a2ffd52de458f0bbeea826489de614fd"
+    },
+    {
+      "function_id": 17197,
+      "name": "",
+      "bundle_file_offset": "0x36fddc",
+      "code_bytes": 109,
+      "original_code_sha256": "9a82fa3f6fdbc8dea7fdfc949276f9c4fccbb6f5729e16b499988da82c5738ae"
+    },
+    {
+      "function_id": 17198,
+      "name": "calculateSizeInfo",
+      "bundle_file_offset": "0x36fe49",
+      "code_bytes": 983,
+      "original_code_sha256": "4027c3fa5a353e704212cd12411cf1d446a4f4eaed4875550687e11127c786cc"
+    },
+    {
+      "function_id": 17199,
+      "name": "",
+      "bundle_file_offset": "0x370220",
+      "code_bytes": 416,
+      "original_code_sha256": "b0cbf98c77059f279d97bbde2c7eb646dd3bb56e3cff88baaf31f946fd5d6586"
+    },
+    {
+      "function_id": 17204,
+      "name": "?anon_0_",
+      "bundle_file_offset": "0x370400",
+      "code_bytes": 154,
+      "original_code_sha256": "6c433aae88c00d0598fa35355baa54ee7164e2c6633bade9e990c821fbe6aef7"
+    },
+    {
+      "function_id": 17264,
+      "name": "func",
+      "bundle_file_offset": "0x372524",
+      "code_bytes": 40,
+      "original_code_sha256": "f82a8c66210adfe455f37cd179c67f3c2a5d75a305eb34ddf7ae6d76ace6a722"
+    },
+    {
+      "function_id": 17269,
+      "name": "",
+      "bundle_file_offset": "0x372a21",
+      "code_bytes": 475,
+      "original_code_sha256": "525b1d5d4aad3dc58856e86f842a781637688b2ccbd11ac291226b0d046ccfbc"
+    },
+    {
+      "function_id": 17271,
+      "name": "uploadMedia",
+      "bundle_file_offset": "0x372bfc",
+      "code_bytes": 136,
+      "original_code_sha256": "b2224be1d627a67c46ad40fbdea59e9594e343836844b373813c911f315e0bab"
+    },
+    {
+      "function_id": 17273,
+      "name": "onResult",
+      "bundle_file_offset": "0x372cef",
+      "code_bytes": 120,
+      "original_code_sha256": "c66efe4ee07ec79f4aa5e0530554f872bf499abfbb15b3eddde3a91c42d0fa24"
+    }
+  ],
+  "native_evidence": [
+    {
+      "file": "control-path-native-TcpSocketClient-connect.json",
+      "sha256": "d448b2fe8a22cb16b11dc6df2aa37040edeb7dbb1cc37478b403df5518ee7e5c",
+      "evidence_id": "ev_a660ea363ebdb96f7a5512e1b991acf0ca624eb95cd50ad4919a778f3d282463",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.asterinet.react.tcpsocket.TcpSocketClient",
+        "method_name": "connect"
+      }
+    },
+    {
+      "file": "control-path-native-TcpSocketClient.json",
+      "sha256": "bbd115f3ebb4822ea75874899327ff71d43112310ad4dbdabae4035dda64d761",
+      "evidence_id": "ev_f5febab9c9dd05bf86ed79c94788f0b60559eeb6a9402cb7c634d79a13e86807",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.asterinet.react.tcpsocket.TcpSocketClient",
+        "method_name": "write"
+      }
+    },
+    {
+      "file": "control-path-native-TcpSocketModule-connect.json",
+      "sha256": "11a96cf2652749980b87835e44145e6abbcfc76fe9d9d6e828c472c93db72cc1",
+      "evidence_id": "ev_457b71684f8effb0042260b759b5a2004ccdc01a65af66dc1a5aedda8bff21b6",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.asterinet.react.tcpsocket.TcpSocketModule",
+        "method_name": "connect"
+      }
+    },
+    {
+      "file": "control-path-native-TcpSocketModule.json",
+      "sha256": "99526e4020efad39b1759cf6c98daa303b9461906a264c9e2f575fb93d7a68be",
+      "evidence_id": "ev_fdae5b568c205f16d5c892797f59026a87a273adc10ca58b959dd23426e02e82",
+      "parameters": {
+        "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+        "class_name": "com.asterinet.react.tcpsocket.TcpSocketModule",
+        "method_name": "write"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "control-path-12317.pseudo.js",
+      "bytes": 2598,
+      "sha256": "f65083c7598b63453521b5bb372873d8e8eaffa32e03da3fa0463f24f2fad776"
+    },
+    {
+      "path": "control-path-12320.pseudo.js",
+      "bytes": 2595,
+      "sha256": "f19a707ee244aa8d26a58bd08c0bbbe6ed1a580e50f0ef1ec177cb68bab0fbaa"
+    },
+    {
+      "path": "control-path-12324.pseudo.js",
+      "bytes": 317,
+      "sha256": "89328901e7f722d77e57464c5ac479e413491635c32be91809731e4e3b02ef4d"
+    },
+    {
+      "path": "control-path-12325.pseudo.js",
+      "bytes": 1751,
+      "sha256": "43872c1ffb5c1662665c9c14050c5b430bb0241279a6859ea2d9523e7aee680d"
+    },
+    {
+      "path": "control-path-9112.pseudo.js",
+      "bytes": 4371,
+      "sha256": "fea0af55dc2bc38e112d7f4b63d2b81eb0ebdb14fff2ce37258154e6c7e2c93b"
+    },
+    {
+      "path": "control-path-9120.pseudo.js",
+      "bytes": 3775,
+      "sha256": "a289734a57de484e31b6a951ec2cc6bb8ab5bae1e3caeb1c993fb11cc0c3262e"
+    },
+    {
+      "path": "control-path-9305.pseudo.js",
+      "bytes": 2006,
+      "sha256": "6a1fb7ab2a29bb384b91bc7162e87f14a73dd8a43df016ddccb02c092245ab22"
+    },
+    {
+      "path": "control-path-9309.pseudo.js",
+      "bytes": 286,
+      "sha256": "68e0b02c450044ecc0838bf4d3e3197794d55966660bfce2e3f02dc5844b2a9f"
+    },
+    {
+      "path": "control-path-9310.pseudo.js",
+      "bytes": 285,
+      "sha256": "a0da4eaa96e87a02c0747a26fddd6fcfcd810eacd007bba520111de179d02809"
+    },
+    {
+      "path": "control-path-9439.pseudo.js",
+      "bytes": 5676,
+      "sha256": "8db97eb909b27d782d9a79e9f407b3f4280bee6670de9d7ab19cb36b55a51455"
+    },
+    {
+      "path": "control-path-9456.pseudo.js",
+      "bytes": 2456,
+      "sha256": "a3e463e50f4281a85dbd84e307798bec072e55059ff0628878c20be00233152a"
+    },
+    {
+      "path": "control-path-bytecode.hasm",
+      "bytes": 140249,
+      "sha256": "b3a1fb3c310369ad79069ef599269f6670d7be1f8b7baa7823e109bad793aa70"
+    },
+    {
+      "path": "control-path-extract.py",
+      "bytes": 2950,
+      "sha256": "96186131492fcd546ff011a8950da60b8ac4a80406fa4ddf32e255bc5729386d"
+    },
+    {
+      "path": "control-path-findings.md",
+      "bytes": 9293,
+      "sha256": "8e7464dd51ab86df06b23354ed4eb6ba537dc3b6de51d4cc69ab7572f9b56752"
+    },
+    {
+      "path": "control-path-native-TcpSocketClient-connect.json",
+      "bytes": 11031,
+      "sha256": "d448b2fe8a22cb16b11dc6df2aa37040edeb7dbb1cc37478b403df5518ee7e5c"
+    },
+    {
+      "path": "control-path-native-TcpSocketClient.json",
+      "bytes": 9652,
+      "sha256": "bbd115f3ebb4822ea75874899327ff71d43112310ad4dbdabae4035dda64d761"
+    },
+    {
+      "path": "control-path-native-TcpSocketModule-connect.json",
+      "bytes": 13753,
+      "sha256": "11a96cf2652749980b87835e44145e6abbcfc76fe9d9d6e828c472c93db72cc1"
+    },
+    {
+      "path": "control-path-native-TcpSocketModule.json",
+      "bytes": 10675,
+      "sha256": "99526e4020efad39b1759cf6c98daa303b9461906a264c9e2f575fb93d7a68be"
+    },
+    {
+      "path": "control-path-replay.json",
+      "bytes": 7594,
+      "sha256": "859bdd311db99d6abe48b2c15395963c4ff84f59adbb4e8c1bd62647a16597d2"
+    },
+    {
+      "path": "control-path-replay.mjs",
+      "bytes": 5173,
+      "sha256": "fc6346202af93676324029c92d8343a25b78f39d33abaab1b13eb44e207edace"
+    }
+  ]
+}

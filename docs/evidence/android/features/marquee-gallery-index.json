@@ -1,0 +1,1136 @@
+{
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "format": "Hermes version 96",
+  "decompiler": "hermes-dec 0.1.6; existing bundle.hasm and bundle.pseudo.js reused",
+  "evidence_kind": "static shipped bytecode + exact string-table data",
+  "function_ids": [
+    {
+      "function_id": 17575,
+      "name": "",
+      "offset": "0x37baf6",
+      "bytecode_bytes": 241,
+      "raw_bytecode_sha256": "9d6a2b22c1036ceb1a9b33cc63b15ef6bb9ba50668f7718a082dc665993bb700",
+      "source_hasm_line": 671964
+    },
+    {
+      "function_id": 17576,
+      "name": "_interopRequireWildcard",
+      "offset": "0x37bbe7",
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "a08834b85781d3c3a679c16d77cb6d94894f0dac9bbe6f7c96b2a7fdefd8356a",
+      "source_hasm_line": 672032
+    },
+    {
+      "function_id": 17577,
+      "name": "_interopRequireWildcard",
+      "offset": "0x1ab6fb",
+      "bytecode_bytes": 273,
+      "raw_bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "source_hasm_line": 672068
+    },
+    {
+      "function_id": 17578,
+      "name": "DesignMarqueeTextPage",
+      "offset": "0x37bc53",
+      "bytecode_bytes": 1250,
+      "raw_bytecode_sha256": "a20cd65723e42e4f8242f8009edecb83bfa3c98b184f1f5630ece51c9206bdf2",
+      "source_hasm_line": 672147
+    },
+    {
+      "function_id": 17579,
+      "name": "handleSaveVideo",
+      "offset": "0x37c135",
+      "bytecode_bytes": 194,
+      "raw_bytecode_sha256": "a401dcc8a9f323bfeb27852d7909175a84f5c1891e798594e7b12acd981fb429",
+      "source_hasm_line": 672432
+    },
+    {
+      "function_id": 17580,
+      "name": "",
+      "offset": "0x37c1f7",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "8c272a482a6e53fc3fe8681ca6d432de8b61d127aabb7bfef287c672c56d20f2",
+      "source_hasm_line": 672488
+    },
+    {
+      "function_id": 17581,
+      "name": "",
+      "offset": "0x37c21c",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "9253419bd70eba86347e34dc18040e2a00f3ebd088482ad04e8626b104fa230c",
+      "source_hasm_line": 672506
+    },
+    {
+      "function_id": 17582,
+      "name": "?anon_0_",
+      "offset": "0x37c225",
+      "bytecode_bytes": 339,
+      "raw_bytecode_sha256": "828ae413189078130f50b3505779a5064709c992d5ee05ccd747f1d3bc93fc9d",
+      "source_hasm_line": 672517
+    },
+    {
+      "function_id": 17583,
+      "name": "",
+      "offset": "0x37c378",
+      "bytecode_bytes": 234,
+      "raw_bytecode_sha256": "1c7bb67a76c9c32ab28ad46f7c43a63039b2510115bd4ebcf0b498011bfb7631",
+      "source_hasm_line": 672609
+    },
+    {
+      "function_id": 17584,
+      "name": "",
+      "offset": "0x37c462",
+      "bytecode_bytes": 244,
+      "raw_bytecode_sha256": "d9b6fb16d19a9082d99bbf4aa40bbe1cddddea107ec78a5e0255c715524bb6bc",
+      "source_hasm_line": 672675
+    },
+    {
+      "function_id": 17585,
+      "name": "",
+      "offset": "0x37c556",
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "aaf103475d9c0b677cd3f3e77d586aef0fcc288551388d5ca7b19e016ae0261b",
+      "source_hasm_line": 672742
+    },
+    {
+      "function_id": 17586,
+      "name": "dialogActionBlock",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 672771
+    },
+    {
+      "function_id": 17587,
+      "name": "dismissDialog",
+      "offset": "0x37c5ac",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "508fbcd9dabfdaec440f2365136bbd13d2be8b847bf07febbac77c8b2a07cabb",
+      "source_hasm_line": 672788
+    },
+    {
+      "function_id": 17588,
+      "name": "showInfoDialog",
+      "offset": "0x37c5d5",
+      "bytecode_bytes": 204,
+      "raw_bytecode_sha256": "3b2cb7e0b6f3891475d6d7e66c84c4e1312f5e8b02b6d6f174781023cbb6f747",
+      "source_hasm_line": 672807
+    },
+    {
+      "function_id": 17589,
+      "name": "onStateChanged",
+      "offset": "0x33d21b",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "16f42f4f7a4d81c8eca21a82f169fbb5b59844346d38c75386ef51e33082d4ee",
+      "source_hasm_line": 672866
+    },
+    {
+      "function_id": 17590,
+      "name": "showExitConfirmDialog",
+      "offset": "0x37c6a1",
+      "bytecode_bytes": 229,
+      "raw_bytecode_sha256": "3a004deaae74487dcda459888542b15561f103e88b935b4a2095e7caeacbb335",
+      "source_hasm_line": 672891
+    },
+    {
+      "function_id": 17591,
+      "name": "func",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 672955
+    },
+    {
+      "function_id": 17592,
+      "name": "func",
+      "offset": "0x343e15",
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "06aad5e6413d466f30c172e427f9655d87f2162809a22f7ce37be2f2f1f14a43",
+      "source_hasm_line": 672965
+    },
+    {
+      "function_id": 17593,
+      "name": "showNameInputDialog",
+      "offset": "0x37c786",
+      "bytecode_bytes": 340,
+      "raw_bytecode_sha256": "4764dbcf690bf1d8a584b4a2f5a1241a9705b9df1ee335be3ca7f07fb8b1e08b",
+      "source_hasm_line": 672979
+    },
+    {
+      "function_id": 17594,
+      "name": "",
+      "offset": "0x37c8da",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "d19684f5d0f213020c24a223d42e06afbb3f9cfe05691b1976cd8bde5310c56d",
+      "source_hasm_line": 673068
+    },
+    {
+      "function_id": 17595,
+      "name": "func",
+      "offset": "0x37c8ff",
+      "bytecode_bytes": 112,
+      "raw_bytecode_sha256": "4c486d9ad96b4fae2afde211671108e6dc5c23cab4703d595477c8329cc04c37",
+      "source_hasm_line": 673086
+    },
+    {
+      "function_id": 17596,
+      "name": "func",
+      "offset": "0x37c96f",
+      "bytecode_bytes": 40,
+      "raw_bytecode_sha256": "0cdb80fa04dc5322ae1f9ea5aa1421d53ec07f5c17981a3b98c5f8ce960e3d84",
+      "source_hasm_line": 673122
+    },
+    {
+      "function_id": 17597,
+      "name": "onStateChanged",
+      "offset": "0x33d21b",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "16f42f4f7a4d81c8eca21a82f169fbb5b59844346d38c75386ef51e33082d4ee",
+      "source_hasm_line": 673142
+    },
+    {
+      "function_id": 17598,
+      "name": "showColorPicker",
+      "offset": "0x37c997",
+      "bytecode_bytes": 194,
+      "raw_bytecode_sha256": "f5458897b1a1da43fc26b81f62392a89ca8f7987a220501066acacaa0e9fd1b0",
+      "source_hasm_line": 673167
+    },
+    {
+      "function_id": 17599,
+      "name": "func",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 673221
+    },
+    {
+      "function_id": 17600,
+      "name": "onStateChanged",
+      "offset": "0x33d21b",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "16f42f4f7a4d81c8eca21a82f169fbb5b59844346d38c75386ef51e33082d4ee",
+      "source_hasm_line": 673231
+    },
+    {
+      "function_id": 17601,
+      "name": "",
+      "offset": "0x37ca59",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "da3244e5f5ba7ec370fcb6542265f0cc0cfa78ba41d2a7104a5396e4cce16e32",
+      "source_hasm_line": 673256
+    },
+    {
+      "function_id": 17602,
+      "name": "",
+      "offset": "0x37ca78",
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "232f7215e76229758e0ca09dc1ac86c245abe2cb72378eb9d2257321d61baa52",
+      "source_hasm_line": 673272
+    },
+    {
+      "function_id": 17603,
+      "name": "",
+      "offset": "0x37cace",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "3da91105a3453100a7dbd817500350a4b699776ae39b25ea2f774f9f5f6367be",
+      "source_hasm_line": 673300
+    },
+    {
+      "function_id": 17604,
+      "name": "",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 673316
+    },
+    {
+      "function_id": 17605,
+      "name": "",
+      "offset": "0x37caed",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "3b669d546f730d861bccaa3a641701b012c1e49e0dbd2cd1264cae9746429be5",
+      "source_hasm_line": 673326
+    },
+    {
+      "function_id": 17606,
+      "name": "",
+      "offset": "0x37cb12",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "3df455caf25f47ad077072c097b4857ea1d4a99e0f89ed476fb6904f7c6f882b",
+      "source_hasm_line": 673344
+    },
+    {
+      "function_id": 17607,
+      "name": "?anon_0_",
+      "offset": "0x37cb1b",
+      "bytecode_bytes": 130,
+      "raw_bytecode_sha256": "e3a2d815f3672a9a8ff71899a10761b528ad5afb340ee6b001ff14972885cefd",
+      "source_hasm_line": 673355
+    },
+    {
+      "function_id": 17608,
+      "name": "",
+      "offset": "0x37cb9d",
+      "bytecode_bytes": 148,
+      "raw_bytecode_sha256": "62771f80da712bb3b840e3a5971b69f7b1a7eec1a2e83fb3a43631267d1fb44c",
+      "source_hasm_line": 673397
+    },
+    {
+      "function_id": 17609,
+      "name": "composeVideo",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 673440
+    },
+    {
+      "function_id": 17610,
+      "name": "ColorPickerView",
+      "offset": "0x37cc31",
+      "bytecode_bytes": 381,
+      "raw_bytecode_sha256": "3fb69735995b0e292c6f59e5f558c710dded805cc2ce5f8fdfda74579c909863",
+      "source_hasm_line": 673457
+    },
+    {
+      "function_id": 17611,
+      "name": "ref",
+      "offset": "0x37718b",
+      "bytecode_bytes": 20,
+      "raw_bytecode_sha256": "ea19aef1967be4a0879d6fe37f502e152f640c990c18ebc630f94f4237786136",
+      "source_hasm_line": 673550
+    },
+    {
+      "function_id": 17612,
+      "name": "onColorChangeComplete",
+      "offset": "0x37cdae",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "255ecf82949eb0d4e542694ee47c7e556e2e369cfc7d8f4fb5b8975824019f71",
+      "source_hasm_line": 673564
+    },
+    {
+      "function_id": 17613,
+      "name": "renderItems",
+      "offset": "0x37cdcd",
+      "bytecode_bytes": 1902,
+      "raw_bytecode_sha256": "fbb16f130e430799685e41ef9b190a0a87cb96fd251673bb6443c44c5faef8f8",
+      "source_hasm_line": 673581
+    },
+    {
+      "function_id": 17614,
+      "name": "onPress",
+      "offset": "0x3776ed",
+      "bytecode_bytes": 20,
+      "raw_bytecode_sha256": "c460dd11f8f65faf79945542dbe98554b22deb1b91b7c249f3aa04d7ba064cb4",
+      "source_hasm_line": 673997
+    },
+    {
+      "function_id": 17615,
+      "name": "onChangeText",
+      "offset": "0x37d53b",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "c782aec3caa9a71aac9eb95d9fca70dbc560db845e8c2d5d3f6caa04ed72ede1",
+      "source_hasm_line": 674011
+    },
+    {
+      "function_id": 17616,
+      "name": "onPress",
+      "offset": "0x37d55a",
+      "bytecode_bytes": 19,
+      "raw_bytecode_sha256": "dba4f56972a512b2277e5c11c0df7278a469048ebe2786d39c83b356e9994238",
+      "source_hasm_line": 674028
+    },
+    {
+      "function_id": 17617,
+      "name": "onChangeText",
+      "offset": "0x37d56d",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "931f40f7611db591806a1c4f2c06fcdb81c45ff68c5c159558703135eff7faeb",
+      "source_hasm_line": 674042
+    },
+    {
+      "function_id": 17618,
+      "name": "onPress",
+      "offset": "0x37d5ac",
+      "bytecode_bytes": 17,
+      "raw_bytecode_sha256": "6a26ff219db687d0fcaaf600974f0455c54176b2eaa4a3ea30e98a091bc136e1",
+      "source_hasm_line": 674067
+    },
+    {
+      "function_id": 17619,
+      "name": "onLeftPress",
+      "offset": "0x37d5bd",
+      "bytecode_bytes": 45,
+      "raw_bytecode_sha256": "b1a5ed74f249cd1babc9e023f42500346991cbb7c66947e26e0b8e4458296196",
+      "source_hasm_line": 674080
+    },
+    {
+      "function_id": 17620,
+      "name": "onRightPress",
+      "offset": "0x37d5ea",
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "a95c63d093b8990dc526e0a4bd4f722bcf0549f09994ed1bc2490ba27473306c",
+      "source_hasm_line": 674101
+    },
+    {
+      "function_id": 17621,
+      "name": "keyExtractor",
+      "offset": "0x37776b",
+      "bytecode_bytes": 14,
+      "raw_bytecode_sha256": "82cccaae942484ab5023e48412d95c907496fff04131d45296cd857270241ad0",
+      "source_hasm_line": 674114
+    },
+    {
+      "function_id": 17622,
+      "name": "",
+      "offset": "0x37d5f9",
+      "bytecode_bytes": 148,
+      "raw_bytecode_sha256": "f988bb9d20e4ad875fbd0042e4b1ce9d3829565a34be22e801871f6fa24d2d5a",
+      "source_hasm_line": 674126
+    },
+    {
+      "function_id": 17623,
+      "name": "_interopRequireWildcard",
+      "offset": "0x37d68d",
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "70cf3c6407dc2c43e1e4284ddfc4562f107ab42c9c2aa5f8ba6ece043098b570",
+      "source_hasm_line": 674171
+    },
+    {
+      "function_id": 17624,
+      "name": "_interopRequireWildcard",
+      "offset": "0x1ab6fb",
+      "bytecode_bytes": 273,
+      "raw_bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "source_hasm_line": 674207
+    },
+    {
+      "function_id": 17625,
+      "name": "",
+      "offset": "0x37d6f9",
+      "bytecode_bytes": 449,
+      "raw_bytecode_sha256": "490ac70895650055a1a3fe1a87a36689a3300fbb65005f41da7574720d6aea9d",
+      "source_hasm_line": 674286
+    },
+    {
+      "function_id": 17626,
+      "name": "",
+      "offset": "0x37d8ba",
+      "bytecode_bytes": 76,
+      "raw_bytecode_sha256": "0ee9c3e359b341a84cd0dc8cf4a66bdbb044039744189ab09f026eee76a2bcc1",
+      "source_hasm_line": 674394
+    },
+    {
+      "function_id": 17627,
+      "name": "reloadWebView",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 674419
+    },
+    {
+      "function_id": 17628,
+      "name": "pauseAnimation",
+      "offset": "0x37d906",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "07c400822f56f62e702824aff1944dd97c9320a6e37705bc7b3d8be0d40169c5",
+      "source_hasm_line": 674429
+    },
+    {
+      "function_id": 17629,
+      "name": "resumeAnimation",
+      "offset": "0x3785db",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "81203c38c80730d26df339e7a62c3f233a785de833d45f0e8d1df9b7447a82d3",
+      "source_hasm_line": 674447
+    },
+    {
+      "function_id": 17630,
+      "name": "stepFrame",
+      "offset": "0x37d92b",
+      "bytecode_bytes": 58,
+      "raw_bytecode_sha256": "d9380c02d6d25675ac8e3178fd9444e52959a6328eaf83e4092a4f6953ae33fb",
+      "source_hasm_line": 674465
+    },
+    {
+      "function_id": 17631,
+      "name": "getTotalSteps",
+      "offset": "0x377ca7",
+      "bytecode_bytes": 5,
+      "raw_bytecode_sha256": "4655282124728b43b07d7a46a02e1ec58818e51bcf4cc8019a988208bad2196b",
+      "source_hasm_line": 674489
+    },
+    {
+      "function_id": 17632,
+      "name": "getWebViewRef",
+      "offset": "0x2811c5",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "ab0f970840ba6c2c3766091a40d28dc1440db6d3a0ff88daca8feeeee5c56864",
+      "source_hasm_line": 674499
+    },
+    {
+      "function_id": 17633,
+      "name": "exportAllFrames",
+      "offset": "0x37d965",
+      "bytecode_bytes": 44,
+      "raw_bytecode_sha256": "a3d4a8d711147ff69f18c0858e5d7752b085de59e55db7b4379bfd8b31e88fd1",
+      "source_hasm_line": 674510
+    },
+    {
+      "function_id": 17634,
+      "name": "",
+      "offset": "0x37d991",
+      "bytecode_bytes": 99,
+      "raw_bytecode_sha256": "65d11f40ebbd3932df3f3006f47be4b978a14f97ab05336933da4b8044023a3d",
+      "source_hasm_line": 674530
+    },
+    {
+      "function_id": 17635,
+      "name": "",
+      "offset": "0x37d9f4",
+      "bytecode_bytes": 244,
+      "raw_bytecode_sha256": "ea6cd010fd6d61501d3ffcf8aa95c21a08cea8c5f7760db82a7ae4525770d6fd",
+      "source_hasm_line": 674563
+    },
+    {
+      "function_id": 17636,
+      "name": "",
+      "offset": "0x377e95",
+      "bytecode_bytes": 30,
+      "raw_bytecode_sha256": "32c04c17aa9ce74f67b14734f380f308bf80e273dfef32694118c0bde9ae34ed",
+      "source_hasm_line": 674635
+    },
+    {
+      "function_id": 17637,
+      "name": "",
+      "offset": "0x377f8c",
+      "bytecode_bytes": 78,
+      "raw_bytecode_sha256": "759f216770095e7d32c3515d6fea268353f3d6ffc030793741657c00ba9aeb24",
+      "source_hasm_line": 674651
+    },
+    {
+      "function_id": 17638,
+      "name": "onLoadEnd",
+      "offset": "0x37dae8",
+      "bytecode_bytes": 51,
+      "raw_bytecode_sha256": "4f50e16255abb8ccfbbaa0f8d87020cd9a54a9e02100f18c690b1a71071f1afd",
+      "source_hasm_line": 674681
+    },
+    {
+      "function_id": 17639,
+      "name": "onMessage",
+      "offset": "0x378783",
+      "bytecode_bytes": 36,
+      "raw_bytecode_sha256": "41972892cb3e557d2314c9d4ccaacfca4febb48fdfd2890c82862fd9ba053d9c",
+      "source_hasm_line": 674702
+    },
+    {
+      "function_id": 17640,
+      "name": "onError",
+      "offset": "0x37db1b",
+      "bytecode_bytes": 60,
+      "raw_bytecode_sha256": "18a6701eb06ae5548fc30c55113ba2480bbb50b9f5388de98ffee88b162d45d6",
+      "source_hasm_line": 674720
+    },
+    {
+      "function_id": 17691,
+      "name": "",
+      "offset": "0x37f404",
+      "bytecode_bytes": 326,
+      "raw_bytecode_sha256": "40c88a42cbdf90c9f9e71b182d1a5a03717a7e8430f69f2a190a4d3d1ce75bce",
+      "source_hasm_line": 676799
+    },
+    {
+      "function_id": 17692,
+      "name": "_interopRequireWildcard",
+      "offset": "0x37f54a",
+      "bytecode_bytes": 108,
+      "raw_bytecode_sha256": "e854f0b190634e3b6920fd35ce348fc1a64b93ded349ab70298816803cc8fd99",
+      "source_hasm_line": 676888
+    },
+    {
+      "function_id": 17693,
+      "name": "_interopRequireWildcard",
+      "offset": "0x1ab6fb",
+      "bytecode_bytes": 273,
+      "raw_bytecode_sha256": "9ae866f230103613d4fff832b63581f8b01f1cb720ac9166b0481d51c01820fa",
+      "source_hasm_line": 676924
+    },
+    {
+      "function_id": 17694,
+      "name": "DesignGalleryPage",
+      "offset": "0x37f5b6",
+      "bytecode_bytes": 1510,
+      "raw_bytecode_sha256": "d2534bbe51d6eeea90eec16975d07ad8fbadd38ec362cc74a5e8da1fd232a3f8",
+      "source_hasm_line": 677003
+    },
+    {
+      "function_id": 17695,
+      "name": "handleSaveVideo",
+      "offset": "0x37fb9c",
+      "bytecode_bytes": 194,
+      "raw_bytecode_sha256": "2c6682ea78902eda00f8128c3411b8867f15b0a621a8fc0f38658c554a2d9acf",
+      "source_hasm_line": 677339
+    },
+    {
+      "function_id": 17696,
+      "name": "",
+      "offset": "0x37fc5e",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "678577b8a64016b8ee16da61aef0ea92f6bf7f9d8e0b43965b106e13a60b226f",
+      "source_hasm_line": 677395
+    },
+    {
+      "function_id": 17697,
+      "name": "",
+      "offset": "0x37fc83",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "36e931057fda1707322358a327f9dd61fe301ad86fb8c6036f161dea68c26c20",
+      "source_hasm_line": 677413
+    },
+    {
+      "function_id": 17698,
+      "name": "?anon_0_",
+      "offset": "0x37fc8c",
+      "bytecode_bytes": 339,
+      "raw_bytecode_sha256": "1ed79ccdf612867049bc795356c661254f2e3c50e1b21fca06032b89684899bd",
+      "source_hasm_line": 677424
+    },
+    {
+      "function_id": 17699,
+      "name": "",
+      "offset": "0x37fddf",
+      "bytecode_bytes": 234,
+      "raw_bytecode_sha256": "da4e1cf704c5b8f4356d97a08f727abad87908bdd31016009c84f1e052235f64",
+      "source_hasm_line": 677516
+    },
+    {
+      "function_id": 17700,
+      "name": "",
+      "offset": "0x37fec9",
+      "bytecode_bytes": 244,
+      "raw_bytecode_sha256": "7d5b3070f15f35682daad86623201fb3470c6da26bcafad94181f01ae7c4d253",
+      "source_hasm_line": 677582
+    },
+    {
+      "function_id": 17701,
+      "name": "",
+      "offset": "0x37ffbd",
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "92b050517c4fd1635f12bfb11dd66cc1ccd161d1ce8d5b8600ec2dfacf16fbb9",
+      "source_hasm_line": 677649
+    },
+    {
+      "function_id": 17702,
+      "name": "dialogActionBlock",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 677678
+    },
+    {
+      "function_id": 17703,
+      "name": "dismissDialog",
+      "offset": "0x2ada23",
+      "bytecode_bytes": 41,
+      "raw_bytecode_sha256": "a0d59dab89e00d0011ceb97bfd711f96a7ba5e58364cd87d431257bb82f9bd02",
+      "source_hasm_line": 677695
+    },
+    {
+      "function_id": 17704,
+      "name": "showInfoDialog",
+      "offset": "0x380013",
+      "bytecode_bytes": 204,
+      "raw_bytecode_sha256": "2172531c3ac3ede5f14edab65ab5fd7b7c11ce0db15370a129e0dc7653665c53",
+      "source_hasm_line": 677714
+    },
+    {
+      "function_id": 17705,
+      "name": "onStateChanged",
+      "offset": "0x3800df",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "a0fba0cec2cae2a6cd9dd3da45832031f32efca090aa603ecec8d8fd529b2e32",
+      "source_hasm_line": 677773
+    },
+    {
+      "function_id": 17706,
+      "name": "showExitConfirmDialog",
+      "offset": "0x38011e",
+      "bytecode_bytes": 229,
+      "raw_bytecode_sha256": "8126cc10604f45bd347a835910f91181607e50f1455ca6be3e4953af2ee5293b",
+      "source_hasm_line": 677798
+    },
+    {
+      "function_id": 17707,
+      "name": "func",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 677862
+    },
+    {
+      "function_id": 17708,
+      "name": "func",
+      "offset": "0x37eb53",
+      "bytecode_bytes": 21,
+      "raw_bytecode_sha256": "6ca4a634ef719228e0e07f348fa22ad3c27d6bf59628ff4d899889082f07f243",
+      "source_hasm_line": 677872
+    },
+    {
+      "function_id": 17709,
+      "name": "showNameInputDialog",
+      "offset": "0x380203",
+      "bytecode_bytes": 340,
+      "raw_bytecode_sha256": "4f701842564325bf90ece7b07015a93af8a143798d7cb5b9ad636cef89be49a7",
+      "source_hasm_line": 677886
+    },
+    {
+      "function_id": 17710,
+      "name": "",
+      "offset": "0x380357",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "e890ce2a470f7682b4db7e73ea8a3fb7bf2ceda8528a90cb9095547810b6e71f",
+      "source_hasm_line": 677975
+    },
+    {
+      "function_id": 17711,
+      "name": "func",
+      "offset": "0x38037c",
+      "bytecode_bytes": 112,
+      "raw_bytecode_sha256": "28240e3582e44e44db7452823d0bc6609f2f87be60214c7c7eae56c2c1d4b9df",
+      "source_hasm_line": 677993
+    },
+    {
+      "function_id": 17712,
+      "name": "func",
+      "offset": "0x3803ec",
+      "bytecode_bytes": 40,
+      "raw_bytecode_sha256": "23e915f984e71593a191c7153b413231b498f511608362e070c3b70ad18da36a",
+      "source_hasm_line": 678029
+    },
+    {
+      "function_id": 17713,
+      "name": "onStateChanged",
+      "offset": "0x3800df",
+      "bytecode_bytes": 63,
+      "raw_bytecode_sha256": "a0fba0cec2cae2a6cd9dd3da45832031f32efca090aa603ecec8d8fd529b2e32",
+      "source_hasm_line": 678049
+    },
+    {
+      "function_id": 17714,
+      "name": "",
+      "offset": "0x380414",
+      "bytecode_bytes": 59,
+      "raw_bytecode_sha256": "e58fd529b59894832da942b2b57c52865fec5025c2c6c0a6908540b84afdf914",
+      "source_hasm_line": 678074
+    },
+    {
+      "function_id": 17715,
+      "name": "design_galleryJs1",
+      "offset": "0x38044f",
+      "bytecode_bytes": 180,
+      "raw_bytecode_sha256": "e06a5225b4972615c677f1bc2225df7a8f6fd1a104e30a10acc6cf0b7edd13de",
+      "source_hasm_line": 678095
+    },
+    {
+      "function_id": 17716,
+      "name": "",
+      "offset": "0x380503",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "57e91735480a2181254393cf0076dd76b44e7fcffa6ebe6f0e5af35ffe5264ac",
+      "source_hasm_line": 678143
+    },
+    {
+      "function_id": 17717,
+      "name": "",
+      "offset": "0x380522",
+      "bytecode_bytes": 86,
+      "raw_bytecode_sha256": "0d35ad88ee3c381659b624cd7078839a9e0654bb0903b3c57710a203401759a8",
+      "source_hasm_line": 678159
+    },
+    {
+      "function_id": 17718,
+      "name": "",
+      "offset": "0x380578",
+      "bytecode_bytes": 31,
+      "raw_bytecode_sha256": "86fdf9a62d85db4530b76690241a99cedbfd3e5667062d398b6b6efafd83ff7d",
+      "source_hasm_line": 678187
+    },
+    {
+      "function_id": 17719,
+      "name": "",
+      "offset": "0x1a6f5b",
+      "bytecode_bytes": 4,
+      "raw_bytecode_sha256": "07855901df0c8bd7d0a581d64051816eb5467778d3b0601f190d209770b87b99",
+      "source_hasm_line": 678203
+    },
+    {
+      "function_id": 17720,
+      "name": "",
+      "offset": "0x380597",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "fa2866867ab839545dd947c084ee25d2bff074d3ab8ac1596c01a6d987feb8a7",
+      "source_hasm_line": 678213
+    },
+    {
+      "function_id": 17721,
+      "name": "",
+      "offset": "0x3805bc",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "71defedfa811d90261df3da3fe8a7ee08ee8eb2e23abeaf8f81dfd8127c54675",
+      "source_hasm_line": 678231
+    },
+    {
+      "function_id": 17722,
+      "name": "?anon_0_",
+      "offset": "0x3805c5",
+      "bytecode_bytes": 224,
+      "raw_bytecode_sha256": "8ac1499b9fd597988ee58e48fdbdeaf1a7f45f1e6a3b975c331820714ced146a",
+      "source_hasm_line": 678242
+    },
+    {
+      "function_id": 17723,
+      "name": "",
+      "offset": "0x291842",
+      "bytecode_bytes": 22,
+      "raw_bytecode_sha256": "85ee346329fe505aac86e338be44fdffcb81183da3dd912d9fe4f442edb69fae",
+      "source_hasm_line": 678305
+    },
+    {
+      "function_id": 17724,
+      "name": "",
+      "offset": "0x3806a5",
+      "bytecode_bytes": 148,
+      "raw_bytecode_sha256": "2927e27f42756877002dc8e19f7ce5e821bd3d69160d4edc82e88c4dc58e61da",
+      "source_hasm_line": 678320
+    },
+    {
+      "function_id": 17725,
+      "name": "",
+      "offset": "0x3806a5",
+      "bytecode_bytes": 148,
+      "raw_bytecode_sha256": "2927e27f42756877002dc8e19f7ce5e821bd3d69160d4edc82e88c4dc58e61da",
+      "source_hasm_line": 678363
+    },
+    {
+      "function_id": 17726,
+      "name": "composeVideo",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 678406
+    },
+    {
+      "function_id": 17727,
+      "name": "selectImage",
+      "offset": "0x380739",
+      "bytecode_bytes": 261,
+      "raw_bytecode_sha256": "7ea25cabfa1c1610ec448af45f3edd20f5f622f44622b4d63887f27ce600e61b",
+      "source_hasm_line": 678423
+    },
+    {
+      "function_id": 17728,
+      "name": "",
+      "offset": "0x38083e",
+      "bytecode_bytes": 22,
+      "raw_bytecode_sha256": "2a626599fdf8d757de87353bc9a733eea8a089e571b75ee16ec5a5b79b1fdd52",
+      "source_hasm_line": 678488
+    },
+    {
+      "function_id": 17729,
+      "name": "",
+      "offset": "0x37f016",
+      "bytecode_bytes": 12,
+      "raw_bytecode_sha256": "86f52673aca50656407bc05b438ff2a600ccb74db83e2b8af9f81a711a1e3d67",
+      "source_hasm_line": 678502
+    },
+    {
+      "function_id": 17730,
+      "name": "",
+      "offset": "0x380854",
+      "bytecode_bytes": 131,
+      "raw_bytecode_sha256": "9b99475948fa63c8b07e06dc635ee652708032f89ef8c7179923f98c4c5d01e9",
+      "source_hasm_line": 678514
+    },
+    {
+      "function_id": 17731,
+      "name": "",
+      "offset": "0x3808d7",
+      "bytecode_bytes": 47,
+      "raw_bytecode_sha256": "84fce7cb4faadcccad23fe45a9725a11663465ace1d81239a254fe71624c67c5",
+      "source_hasm_line": 678554
+    },
+    {
+      "function_id": 17732,
+      "name": "",
+      "offset": "0x380906",
+      "bytecode_bytes": 76,
+      "raw_bytecode_sha256": "2436463eb191039646a716e51918f7365f255ffc20657e1d333af2051c044044",
+      "source_hasm_line": 678575
+    },
+    {
+      "function_id": 17733,
+      "name": "removeImage",
+      "offset": "0x380952",
+      "bytecode_bytes": 30,
+      "raw_bytecode_sha256": "0a89a2b0f1f8b3ec3508f558bc9f9e621f78c97ee876c7bae5f1e86a8567daa6",
+      "source_hasm_line": 678602
+    },
+    {
+      "function_id": 17734,
+      "name": "",
+      "offset": "0x37f111",
+      "bytecode_bytes": 39,
+      "raw_bytecode_sha256": "9e07ca79d2078adf2eb4e28a15e298428b821410c6bbb54578e9fbe72f227a12",
+      "source_hasm_line": 678619
+    },
+    {
+      "function_id": 17735,
+      "name": "renderImage",
+      "offset": "0x380970",
+      "bytecode_bytes": 554,
+      "raw_bytecode_sha256": "dd4860ac3b2ce086ef309daceac7863d70004df6f2e36542dfd7b71056988d7a",
+      "source_hasm_line": 678638
+    },
+    {
+      "function_id": 17736,
+      "name": "onPress",
+      "offset": "0x37f362",
+      "bytecode_bytes": 23,
+      "raw_bytecode_sha256": "0f7afd4acf40db241af30f7ef3910703dd8a8f8faf858430e879aba05047d969",
+      "source_hasm_line": 678767
+    },
+    {
+      "function_id": 17737,
+      "name": "onPress",
+      "offset": "0x37f379",
+      "bytecode_bytes": 23,
+      "raw_bytecode_sha256": "4134a32d01d484e0a36a7a500843cb7664b954c4f24ced90d7a51921afb53849",
+      "source_hasm_line": 678782
+    },
+    {
+      "function_id": 17738,
+      "name": "onLeftPress",
+      "offset": "0x380b9a",
+      "bytecode_bytes": 45,
+      "raw_bytecode_sha256": "1990cd3951f150ac49ca26d9575261f4d3b32fee0d0a22be63fa2229b190be61",
+      "source_hasm_line": 678797
+    },
+    {
+      "function_id": 17739,
+      "name": "onRightPress",
+      "offset": "0x37f3bd",
+      "bytecode_bytes": 15,
+      "raw_bytecode_sha256": "0056d5fc613d618d8d539f1d13009cc552ec08d492fa7f0bf907a8ae686f0e37",
+      "source_hasm_line": 678818
+    },
+    {
+      "function_id": 17740,
+      "name": "renderItem",
+      "offset": "0x380bc7",
+      "bytecode_bytes": 168,
+      "raw_bytecode_sha256": "88ef4052c788d8b30e62bd5ab29e9a195afb6329958055ba39756ea201d49f39",
+      "source_hasm_line": 678831
+    },
+    {
+      "function_id": 17741,
+      "name": "keyExtractor",
+      "offset": "0x37776b",
+      "bytecode_bytes": 14,
+      "raw_bytecode_sha256": "82cccaae942484ab5023e48412d95c907496fff04131d45296cd857270241ad0",
+      "source_hasm_line": 678880
+    },
+    {
+      "function_id": 8364,
+      "name": "generateGalleryVideo",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 338771
+    },
+    {
+      "function_id": 8365,
+      "name": "",
+      "offset": "0x2912b2",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "dba41dfc8287ea2239bb529110ec3e266af34b279cf9e85834b2d3d1616fa11b",
+      "source_hasm_line": 338788
+    },
+    {
+      "function_id": 8366,
+      "name": "?anon_0_",
+      "offset": "0x2912bb",
+      "bytecode_bytes": 1415,
+      "raw_bytecode_sha256": "fdd4fb4f513c6e51a40b0de8d9521496465c2e45a0d4c9a8112e26e7b1da8005",
+      "source_hasm_line": 338799
+    },
+    {
+      "function_id": 8367,
+      "name": "",
+      "offset": "0x291842",
+      "bytecode_bytes": 22,
+      "raw_bytecode_sha256": "85ee346329fe505aac86e338be44fdffcb81183da3dd912d9fe4f442edb69fae",
+      "source_hasm_line": 339182
+    },
+    {
+      "function_id": 8368,
+      "name": "",
+      "offset": "0x291858",
+      "bytecode_bytes": 32,
+      "raw_bytecode_sha256": "a0a20afb4f9f52d65971d793c8e49deaaaa8d3d9c2bdb964bb4355d8bd17dd50",
+      "source_hasm_line": 339197
+    },
+    {
+      "function_id": 8369,
+      "name": "",
+      "offset": "0x291878",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "a08b3478dc60037386214baf07733479dbb2519562126abb48fa874ae822397f",
+      "source_hasm_line": 339213
+    },
+    {
+      "function_id": 8370,
+      "name": "generateStaticVideo",
+      "offset": "0x21eda4",
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb",
+      "source_hasm_line": 339231
+    },
+    {
+      "function_id": 8371,
+      "name": "",
+      "offset": "0x29189d",
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "7d96dcf1a702745cb937c30cc44bf8f488ceebedb2d62b093e4a6b150128e039",
+      "source_hasm_line": 339248
+    },
+    {
+      "function_id": 8372,
+      "name": "?anon_0_",
+      "offset": "0x2918a6",
+      "bytecode_bytes": 682,
+      "raw_bytecode_sha256": "a19896ce545df17c434cf508192940893da3dff5d2b43b1d2eccdec2faeb2335",
+      "source_hasm_line": 339259
+    },
+    {
+      "function_id": 8373,
+      "name": "",
+      "offset": "0x291b50",
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "258b36de30dd026eb30e7e39c3dc3cb3419e00011c346ee7d753fa199f2e8442",
+      "source_hasm_line": 339439
+    },
+    {
+      "function_id": 18651,
+      "name": "",
+      "offset": "0x398aa5",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "1d45aafcb1cf0b5f4d0cf507532b1bac31f7755dcd3c7d92c5f8f5087ca15cfb",
+      "source_hasm_line": 712602
+    },
+    {
+      "function_id": 18652,
+      "name": "",
+      "offset": "0x398ae9",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "a04686a1e7e562e24cbe86ddbd35f403b037a86bc7cf385032f539c579f19988",
+      "source_hasm_line": 712624
+    },
+    {
+      "function_id": 18653,
+      "name": "",
+      "offset": "0x398b2d",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "9da90cbf0495ae37cf700b75fe08488cda9a6bdbd29ceb91c4ab52d9344a6ecd",
+      "source_hasm_line": 712646
+    },
+    {
+      "function_id": 18654,
+      "name": "",
+      "offset": "0x398b71",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "8f7d3f0b3feb08756696ecb47c83ed78b702d204b8b5f71857a1bf997f85c05d",
+      "source_hasm_line": 712668
+    },
+    {
+      "function_id": 18655,
+      "name": "",
+      "offset": "0x398bb5",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "521538cadc577f5da2799472c721b693a4b2da02318cbe1a8ae9d059bc25d4b9",
+      "source_hasm_line": 712690
+    },
+    {
+      "function_id": 18656,
+      "name": "",
+      "offset": "0x398bf9",
+      "bytecode_bytes": 68,
+      "raw_bytecode_sha256": "815aa7a3d51ce44f4f7760305797d8fb1ed5ba7092f44315fd76e7128b87abcb",
+      "source_hasm_line": 712712
+    }
+  ],
+  "marquee_module": 1477,
+  "marquee_renderer_module": 1478,
+  "gallery_module": 1480,
+  "gallery_sample_modules": [
+    1642,
+    1643,
+    1644,
+    1645,
+    1646,
+    1647
+  ],
+  "limits": [
+    "No Android app or display execution performed.",
+    "Pseudocode is tool generated and contains register/call reconstruction artifacts; bytecode is authoritative.",
+    "HTML instantiation uses demonstration arguments Hello, #25fc11, fontSize42; exact shipped string pieces separately retained."
+  ],
+  "retained_files": [
+    {
+      "path": "marquee-gallery-browser-probe.html",
+      "bytes": 5857,
+      "sha256": "019b3f975b225c07d7dfbfd768b0eb72f8f65e53fc3b649f780e46b075bc32e7"
+    },
+    {
+      "path": "marquee-gallery-browser-replay.json",
+      "bytes": 3443,
+      "sha256": "5a419255480466edcd01ab91ce2d2523d81f60432fd148e2326f2d8737c124a6"
+    },
+    {
+      "path": "marquee-gallery-browser-replay.py",
+      "bytes": 1196,
+      "sha256": "9e5dace4c7c5e0828b9d198e5a2af312252a88e662c2f794b3efe5aaf1bd5a07"
+    },
+    {
+      "path": "marquee-gallery-bytecode.hasm",
+      "bytes": 368910,
+      "sha256": "8524e4caf4242e68e9d2cac2b6b2cac070a7a1bb0f5f72f06add8b422f98478c"
+    },
+    {
+      "path": "marquee-gallery-marquee.html",
+      "bytes": 4225,
+      "sha256": "1940dff621bf340952e47f7f02a95f90cb295465bcd5c2375d5ea4af10f97535"
+    },
+    {
+      "path": "marquee-gallery-replay.cjs",
+      "bytes": 3153,
+      "sha256": "0ca7a592e1dc557bf8e46f8b85560523b0b435d22293082f6a5aaf49baf2dce4"
+    },
+    {
+      "path": "marquee-gallery-replay.json",
+      "bytes": 4602,
+      "sha256": "c735afbd838e4e63f341a20c7036d46107b1099a66cdf69ae473c183e7b7733d"
+    },
+    {
+      "path": "marquee-gallery-strings.json",
+      "bytes": 17934,
+      "sha256": "0921bc612151afbfab30a07f13fb5d09da6fc582b752e810e4f38c6ef6240531"
+    },
+    {
+      "path": "marquee-gallery.md",
+      "bytes": 10106,
+      "sha256": "5404f429617376844c4643735ba51b022a6b7af3f93dc243781820d9d1bd141c"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "authority": "Local evidence artifact hashes; static investigation; no APK/device execution",
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "files": [
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-bytecode.hasm",
+      "bytes": 102836,
+      "sha256": "f09c4f188e80d3ef3d42675f05103a568cc5a8a818f9a3c33f82f951fa6c93f6"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-findings.md",
+      "bytes": 11804,
+      "sha256": "d2086dd5d2405a1e2b97a57fc0d7c71cc510d619a0459dd200d28f8d3514c438"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-functions.json",
+      "bytes": 6180,
+      "sha256": "2da72cc0e74fdc85d1de510ee5ee08b6c1b41a630ad34b466d09013a7031313f"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-jni-method.java.txt",
+      "bytes": 192,
+      "sha256": "e553ecd7016686b5c04e526124926b5e7b185af5f0d8d2a2bc2ed3c50a2d2687"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-jni-method.json",
+      "bytes": 7916,
+      "sha256": "66fea467140756477930c591d4e2535403c91450c7e32925a036834c595ad53d"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-layout-replay.json",
+      "bytes": 6239,
+      "sha256": "95a1dcc83ccee353aebfd1803748531df5fbaeba8ecd207128ed4b2a32dc4932"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-ack-function.json",
+      "bytes": 204502,
+      "sha256": "30e546d543022318508f73c0421f927d3b894056c7cee414280636f0a4951afd"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-ack.asm.txt",
+      "bytes": 2432,
+      "sha256": "4bf9979ae6acf5ea44406016f785e180b113044da5cc37e6679bf3eb4808848f"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-ack.c.txt",
+      "bytes": 1389,
+      "sha256": "bf9712a87ade9d701e32ef32cc5bb3ccf39df55027e6141cff132a43cac6187d"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-dispatch.java.txt",
+      "bytes": 13946,
+      "sha256": "a482986b0e02019f9801b5ad8291fcf34077fd2b31ea64777f607020b45e7cfd"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-dispatch.json",
+      "bytes": 40744,
+      "sha256": "95c2afd81ac16a6ad3ec6c4d4c287c2dda03f1777e4317ad94310fb225716e75"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-function-address.json",
+      "bytes": 2090000,
+      "sha256": "3e7522936a1fb87526599d278b292c184eaed56b209c5a8575fcd8e03a3a1e9e"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-function.json",
+      "bytes": 453,
+      "sha256": "764e8a9a49e4ae3dab6bb15a4104997a1c700a3ea36ed70f25cd8fe91f72e805"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native-symbols.json",
+      "bytes": 2469,
+      "sha256": "bc2a15e1dc5711dcfb121e8f287c55cdcc1f9f33ad41e633b5e007df97460258"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native.asm.txt",
+      "bytes": 11804,
+      "sha256": "a84b2a25099762e77e8340b0f5296bc1b95dc04cc37e6371fc22c4bf03393383"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-native.c.txt",
+      "bytes": 7676,
+      "sha256": "32bbc52755e6f122175c0ce18672174efe97d7cddca84bbc95f93940042cf6b1"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload-reference-search.json",
+      "bytes": 2382,
+      "sha256": "3631de0bcf177b42f8133e82753d888137ac50f644b29618b4a2e69bb796f3f8"
+    },
+    {
+      "path": "docs/evidence/android/comms/legacy-upload.pseudo.js.txt",
+      "bytes": 33430,
+      "sha256": "9c1c2f00dc6559184b93ab0e8653350ecaf9125bacd462fa266bc9f4ff2bb704"
+    }
+  ],
+  "reproduction": {
+    "hermes_selector": "python3 tools/select_legacy_upload_evidence.py",
+    "native_dispatch": "rea inspect-android-method /home/nathan/git/5d_pov/5D-Holo-android.apk com.sp.holographic.react.MiddleNativeModule handleCmd --format json",
+    "jni_declaration": "rea inspect-android-method /home/nathan/git/5d_pov/5D-Holo-android.apk com.sp.core.jni.NativeCore oldDevUploadFile --format json",
+    "native_dossier": "rea function /home/nathan/git/5d_pov/analysis/android/libSPCore.so 0x1f64e0 --provider ghidra --format json",
+    "native_ack_dossier": "rea function /home/nathan/git/5d_pov/analysis/android/libSPCore.so 0x1f6bdc --provider ghidra --format json",
+    "field_replay": "python3 tools/replay_legacy_upload_layout.py"
+  },
+  "limitations": [
+    "Static evidence and analyst offline reconstruction only; no target APK execution or device/network operations.",
+    "REA CLI supplied JDK/JADX/Ghidra environment required, as documented in docs/android.md."
+  ],
+  "evidence_ids": {
+    "native_dispatch": "ev_2cebfa0214acbde24db0c605d194be0f4aee2da05cc857dc36b386e5c8d33b63",
+    "jni_declaration": "ev_781249aa02ad5e57714d1490772def03f05d57f1a9ced4fbfef15610acd924f1",
+    "native_sender": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+    "native_ack": "ev_9e44881b9dec968e439e468593da0cb13f23b004b8bfbc37cb0a4e903b6f9461"
+  }
+}

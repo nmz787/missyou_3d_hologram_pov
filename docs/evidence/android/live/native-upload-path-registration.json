@@ -1,0 +1,243 @@
+{
+  "authority": "Direct offline ELF bytes, dynamic relocations, JNI table, and bounded BL decoding",
+  "path": "analysis/android/libSPCore.so",
+  "member_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+  "jni_method_table_elf_vaddr": 2573152,
+  "method_count": 13,
+  "method_count_basis": "nativeInit Ghidra RegisterNatives argument 0xd",
+  "jni_registration_table": [
+    {
+      "index": 0,
+      "entry_elf_vaddr": 2573152,
+      "name_elf_vaddr": 541108,
+      "name": "nativeVersion",
+      "signature_elf_vaddr": 538116,
+      "jni_signature": "()Ljava/lang/String;",
+      "function_elf_vaddr": 984696,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573152,
+        2573160,
+        2573168
+      ]
+    },
+    {
+      "index": 1,
+      "entry_elf_vaddr": 2573176,
+      "name_elf_vaddr": 562286,
+      "name": "nativeSetNotify",
+      "signature_elf_vaddr": 553047,
+      "jni_signature": "(Ljava/lang/Object;)V",
+      "function_elf_vaddr": 984716,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573176,
+        2573184,
+        2573192
+      ]
+    },
+    {
+      "index": 2,
+      "entry_elf_vaddr": 2573200,
+      "name_elf_vaddr": 578061,
+      "name": "nativeSetLogLevel",
+      "signature_elf_vaddr": 550215,
+      "jni_signature": "(I)V",
+      "function_elf_vaddr": 984820,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573200,
+        2573208,
+        2573216
+      ]
+    },
+    {
+      "index": 3,
+      "entry_elf_vaddr": 2573224,
+      "name_elf_vaddr": 534811,
+      "name": "nativeLog",
+      "signature_elf_vaddr": 575231,
+      "jni_signature": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "function_elf_vaddr": 984828,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573224,
+        2573232,
+        2573240
+      ]
+    },
+    {
+      "index": 4,
+      "entry_elf_vaddr": 2573248,
+      "name_elf_vaddr": 547027,
+      "name": "mediaConvert",
+      "signature_elf_vaddr": 596960,
+      "jni_signature": "(Ljava/lang/String;Lcom/sp/core/bean/OnFun2Listener;)Z",
+      "function_elf_vaddr": 985008,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573248,
+        2573256,
+        2573264
+      ]
+    },
+    {
+      "index": 5,
+      "entry_elf_vaddr": 2573272,
+      "name_elf_vaddr": 585567,
+      "name": "udpStart",
+      "signature_elf_vaddr": 555086,
+      "jni_signature": "(Ljava/lang/String;)Z",
+      "function_elf_vaddr": 985128,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573272,
+        2573280,
+        2573288
+      ]
+    },
+    {
+      "index": 6,
+      "entry_elf_vaddr": 2573296,
+      "name_elf_vaddr": 591240,
+      "name": "udpStop",
+      "signature_elf_vaddr": 570223,
+      "jni_signature": "()Z",
+      "function_elf_vaddr": 985424,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573296,
+        2573304,
+        2573312
+      ]
+    },
+    {
+      "index": 7,
+      "entry_elf_vaddr": 2573320,
+      "name_elf_vaddr": 582758,
+      "name": "udpSendActPkg",
+      "signature_elf_vaddr": 550220,
+      "jni_signature": "(Ljava/lang/String;Lcom/sp/core/bean/OnFun2Listener;)V",
+      "function_elf_vaddr": 985484,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573320,
+        2573328,
+        2573336
+      ]
+    },
+    {
+      "index": 8,
+      "entry_elf_vaddr": 2573344,
+      "name_elf_vaddr": 597015,
+      "name": "udpSendRspToServer",
+      "signature_elf_vaddr": 528921,
+      "jni_signature": "(ILjava/lang/String;)V",
+      "function_elf_vaddr": 985848,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573344,
+        2573352,
+        2573360
+      ]
+    },
+    {
+      "index": 9,
+      "entry_elf_vaddr": 2573368,
+      "name_elf_vaddr": 588148,
+      "name": "oldDevUploadFile",
+      "signature_elf_vaddr": 550275,
+      "jni_signature": "([BILjava/lang/String;Lcom/sp/core/bean/OnFun2Listener;Lcom/sp/core/bean/OnFun2Listener;)V",
+      "function_elf_vaddr": 986028,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573368,
+        2573376,
+        2573384
+      ]
+    },
+    {
+      "index": 10,
+      "entry_elf_vaddr": 2573392,
+      "name_elf_vaddr": 570227,
+      "name": "wsSenderInit",
+      "signature_elf_vaddr": 547040,
+      "jni_signature": "(Ljava/lang/String;)J",
+      "function_elf_vaddr": 986504,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573392,
+        2573400,
+        2573408
+      ]
+    },
+    {
+      "index": 11,
+      "entry_elf_vaddr": 2573416,
+      "name_elf_vaddr": 547062,
+      "name": "wsSenderDestroy",
+      "signature_elf_vaddr": 534821,
+      "jni_signature": "(J)V",
+      "function_elf_vaddr": 987128,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573416,
+        2573424,
+        2573432
+      ]
+    },
+    {
+      "index": 12,
+      "entry_elf_vaddr": 2573440,
+      "name_elf_vaddr": 580521,
+      "name": "wsSenderPutAud",
+      "signature_elf_vaddr": 599850,
+      "jni_signature": "(J[SI)I",
+      "function_elf_vaddr": 987144,
+      "relocation_type": "R_AARCH64_RELATIVE (1027)",
+      "relocation_targets": [
+        2573440,
+        2573448,
+        2573456
+      ]
+    }
+  ],
+  "worker": {
+    "start_elf_vaddr": 1011224,
+    "end_exclusive_elf_vaddr": 1011300,
+    "raw_hex": "fd7bbea9f30b00f9fd030091f30300aa000040f9618a40a9639241a9651640f9a2930594600240f910920594600640f90e920594e00313aa0c920594f30b40f9e0031faafd7bc2a8c0035fd6",
+    "raw_sha256": "ded64248caf981279bff0e740a6fe12fcc58bddf289177867ae562da0e1a4908",
+    "bounds_basis": "async pthread_create worker address and next exported function create_twofish_crypter_for_log",
+    "decoded_direct_calls": [
+      {
+        "source_elf_vaddr": 1011256,
+        "instruction_word_hex": "940593a2",
+        "target_elf_vaddr": 2473152,
+        "plt_symbol": "old_dev_tcp_upload"
+      },
+      {
+        "source_elf_vaddr": 1011264,
+        "instruction_word_hex": "94059210",
+        "target_elf_vaddr": 2471552,
+        "plt_symbol": "free"
+      },
+      {
+        "source_elf_vaddr": 1011272,
+        "instruction_word_hex": "9405920e",
+        "target_elf_vaddr": 2471552,
+        "plt_symbol": "free"
+      },
+      {
+        "source_elf_vaddr": 1011280,
+        "instruction_word_hex": "9405920c",
+        "target_elf_vaddr": 2471552,
+        "plt_symbol": "free"
+      }
+    ]
+  },
+  "limitations": [
+    "Static registration and calls do not independently establish application execution.",
+    "Worker bytes are retained in full; only direct BL instructions are decoded by this script.",
+    "All addresses are original ELF virtual addresses; Ghidra dossiers add a 0x100000 image base."
+  ]
+}

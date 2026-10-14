@@ -1,0 +1,61 @@
+// Static REA/Ghidra decompiler output; not original source. Evidence ev_01a623c7c3a89388f1fe665a3dd8787e32307c3f19d086a66b46d1d339fb89ae
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8
+Java_com_sp_core_jni_NativeCore_nativeInit
+          (long *param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,undefined8 param_5
+          )
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  
+  uVar2 = (**(code **)(*param_1 + 0x548))(param_1,param_5,0);
+  init_f_log(param_4,uVar2);
+  f_log(0,1,&DAT_0018946b,&DAT_00181c51,"Java_com_sp_core_jni_NativeCore_nativeInit");
+  check_access(DAT_00374890,param_1,param_3);
+  pthread_mutex_init((pthread_mutex_t *)&DAT_00374898,(pthread_mutexattr_t *)0x0);
+  pthread_mutex_init((pthread_mutex_t *)&DAT_003748d8,(pthread_mutexattr_t *)0x0);
+  uRam00000000003748a0 = 0;
+  _DAT_00374898 = 0;
+  uRam00000000003748b0 = 0;
+  _DAT_003748a8 = 0;
+  DAT_003748c0 = 0;
+  _DAT_003748b8 = 0;
+  DAT_003748d0 = 0;
+  DAT_003748c8 = 0;
+  DAT_00374900 = 0;
+  DAT_003748c0 = new_global_ref_with_class_str(param_1,"com/sp/core/jni/NativeCore");
+  DAT_003748c8 = new_global_ref_with_class_str(param_1,"com/sp/core/bean/OnFun2Listener");
+  if (DAT_003748c8 != 0) {
+    DAT_003748d0 = get_method(param_1,DAT_003748c8,"onFun2","(ZLjava/lang/String;)V");
+  }
+  iVar1 = (**(code **)(*param_1 + 0x6b8))(param_1,DAT_003748c0,&PTR_s_nativeVersion_00374360,0xd);
+  if (iVar1 == 0) {
+    (**(code **)(*param_1 + 0x530))(param_1,param_5,uVar2);
+    uVar2 = 0;
+  }
+  else {
+    del_global_ref(param_1,DAT_003748c0);
+    DAT_003748c0 = 0;
+    del_global_ref(param_1,DAT_003748c8);
+    DAT_003748c8 = 0;
+    del_global_ref(param_1,DAT_00374908);
+    DAT_00374908 = 0;
+    del_global_ref(param_1,DAT_00374910);
+    DAT_00374910 = 0;
+    uRam00000000003748a0 = 0;
+    _DAT_00374898 = 0;
+    uRam00000000003748b0 = 0;
+    _DAT_003748a8 = 0;
+    DAT_003748c0 = 0;
+    _DAT_003748b8 = 0;
+    DAT_003748d0 = 0;
+    DAT_003748c8 = 0;
+    pthread_mutex_destroy((pthread_mutex_t *)&DAT_00374898);
+    uVar2 = 0xffffffff;
+  }
+  return uVar2;
+}
+

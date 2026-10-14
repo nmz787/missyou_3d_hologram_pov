@@ -1,0 +1,144 @@
+{
+  "evidence_id": "ev_0f7d1c25824b6fd989c559586eea623b13df3a835e363cc398a4bfbd6dd3956f",
+  "subject": {
+    "name": "5D-Holo-android.apk",
+    "digest": {
+      "sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9"
+    },
+    "format": "apk",
+    "architecture": null,
+    "local_path": "/home/nathan/git/5d_pov/5D-Holo-android.apk"
+  },
+  "provider": {
+    "id": "jadx",
+    "name": "JADX headless",
+    "version": "0.7.1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis",
+  "operation": "inspect_android_method",
+  "parameters": {
+    "path": "/home/nathan/git/5d_pov/5D-Holo-android.apk",
+    "class_name": "com.sp.holographic.react.MiddleNativeModule",
+    "method_name": "getConstants"
+  },
+  "raw_result": {
+    "server": {
+      "name": "rea-jadx-bridge",
+      "version": "1"
+    },
+    "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+    "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "loaded": {
+      "state": "LOADED",
+      "apk_path": "/tmp/rea-android-rTlDst/target.apk",
+      "class_count": 14384,
+      "resource_count": 2109,
+      "threads": 1,
+      "resources": "full"
+    },
+    "calls": [
+      {
+        "operation": "rea_jvm_status",
+        "input": {},
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"max_heap_bytes\":10443816960,\"java_version\":\"25.0.4.1\",\"available_processors\":16,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\"}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "load_apk",
+        "input": {
+          "path": "/tmp/rea-android-rTlDst/target.apk",
+          "threads": 1,
+          "resources": "full"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-rTlDst/target.apk\",\"class_count\":14384,\"raw_class_count\":14384,\"resource_count\":2109,\"load_duration_ms\":7857,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+            }
+          ]
+        }
+      },
+      {
+        "operation": "get_class_summary",
+        "input": {
+          "class_name": "com.sp.holographic.react.MiddleNativeModule"
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"methods\":[{\"signature\":\"$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg(com.sp.holographic.react.MiddleNativeModule, java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"is_constructor\":false,\"name\":\"$r8$lambda$fK5FobVS_RVwCHS_jBbaeVr9yVg\",\"def_pos\":0},{\"signature\":\"\\u003cclinit\\u003e(): void\",\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0},{\"signature\":\"\\u003cinit\\u003e(com.facebook.react.bridge.ReactApplicationContext): void\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0},{\"signature\":\"access$000(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"is_constructor\":false,\"name\":\"access$000\",\"def_pos\":0},{\"signature\":\"access$100(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"is_constructor\":false,\"name\":\"access$100\",\"def_pos\":0},{\"signature\":\"access$200(com.sp.holographic.react.MiddleNativeModule): com.facebook.react.bridge.ReactApplicationContext\",\"is_constructor\":false,\"name\":\"access$200\",\"def_pos\":0},{\"signature\":\"addListener(java.lang.String): void\",\"is_constructor\":false,\"name\":\"addListener\",\"def_pos\":0},{\"signature\":\"callNativeNoReturn(java.lang.String, java.lang.String, int): void\",\"is_constructor\":false,\"name\":\"callNativeNoReturn\",\"def_pos\":0},{\"signature\":\"callNativeWithCallback(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback): void\",\"is_constructor\":false,\"name\":\"callNativeWithCallback\",\"def_pos\":0},{\"signature\":\"callNativeWithEvent(java.lang.String, java.lang.String, int): void\",\"is_constructor\":false,\"name\":\"callNativeWithEvent\",\"def_pos\":0},{\"signature\":\"callNativeWithPromise(java.lang.String, java.lang.String, int, com.facebook.react.bridge.Promise): void\",\"is_constructor\":false,\"name\":\"callNativeWithPromise\",\"def_pos\":0},{\"signature\":\"changeLanguage(java.lang.String): void\",\"is_constructor\":false,\"name\":\"changeLanguage\",\"def_pos\":0},{\"signature\":\"closePCMFile(): void\",\"is_constructor\":false,\"name\":\"closePCMFile\",\"def_pos\":0},{\"signature\":\"connectWSS(java.lang.String): boolean\",\"is_constructor\":false,\"name\":\"connectWSS\",\"def_pos\":0},{\"signature\":\"disconnectWSS(): boolean\",\"is_constructor\":false,\"name\":\"disconnectWSS\",\"def_pos\":0},{\"signature\":\"getConstants(): java.util.Map\\u003cjava.lang.String, java.lang.Object\\u003e\",\"is_constructor\":false,\"name\":\"getConstants\",\"def_pos\":0},{\"signature\":\"getName(): java.lang.String\",\"is_constructor\":false,\"name\":\"getName\",\"def_pos\":0},{\"signature\":\"getRecordState(): java.lang.String\",\"is_constructor\":false,\"name\":\"getRecordState\",\"def_pos\":0},{\"signature\":\"handleCmd(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"is_constructor\":false,\"name\":\"handleCmd\",\"def_pos\":0},{\"signature\":\"lambda$closePCMFile$0(): void\",\"is_constructor\":false,\"name\":\"lambda$closePCMFile$0\",\"def_pos\":0},{\"signature\":\"lambda$handleCmd$1(java.util.List, java.lang.String, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"is_constructor\":false,\"name\":\"lambda$handleCmd$1\",\"def_pos\":0},{\"signature\":\"log(int, java.lang.String): void\",\"is_constructor\":false,\"name\":\"log\",\"def_pos\":0},{\"signature\":\"m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0(com.sp.holographic.react.MiddleNativeModule): void\",\"is_constructor\":false,\"name\":\"m1301$r8$lambda$qRevH_Pic3ryP2fkER64D5z1U0\",\"def_pos\":0},{\"signature\":\"m1302$$Nest$fgetaudSenderHandle(com.sp.holographic.react.MiddleNativeModule): long\",\"is_constructor\":false,\"name\":\"m1302$$Nest$fgetaudSenderHandle\",\"def_pos\":0},{\"signature\":\"m1303$$Nest$fgethandler(com.sp.holographic.react.MiddleNativeModule): android.os.Handler\",\"is_constructor\":false,\"name\":\"m1303$$Nest$fgethandler\",\"def_pos\":0},{\"signature\":\"m1304$$Nest$fgetpcmOut(com.sp.holographic.react.MiddleNativeModule): java.io.FileOutputStream\",\"is_constructor\":false,\"name\":\"m1304$$Nest$fgetpcmOut\",\"def_pos\":0},{\"signature\":\"m1305$$Nest$fgettimer(com.sp.holographic.react.MiddleNativeModule): java.lang.Runnable\",\"is_constructor\":false,\"name\":\"m1305$$Nest$fgettimer\",\"def_pos\":0},{\"signature\":\"m1306$$Nest$mgetRecordState(com.sp.holographic.react.MiddleNativeModule): java.lang.String\",\"is_constructor\":false,\"name\":\"m1306$$Nest$mgetRecordState\",\"def_pos\":0},{\"signature\":\"m1307$$Nest$sfgetTAG(): java.lang.String\",\"is_constructor\":false,\"name\":\"m1307$$Nest$sfgetTAG\",\"def_pos\":0},{\"signature\":\"onCatalystInstanceDestroy(): void\",\"is_constructor\":false,\"name\":\"onCatalystInstanceDestroy\",\"def_pos\":0},{\"signature\":\"onReceiveEvent(java.lang.String): void\",\"is_constructor\":false,\"name\":\"onReceiveEvent\",\"def_pos\":0},{\"signature\":\"parseCmd(int, java.lang.String, java.lang.String, int, com.facebook.react.bridge.Callback, com.facebook.react.bridge.Promise): void\",\"is_constructor\":false,\"name\":\"parseCmd\",\"def_pos\":0},{\"signature\":\"preparePCMFile(android.content.Context): void\",\"is_constructor\":false,\"name\":\"preparePCMFile\",\"def_pos\":0},{\"signature\":\"removeListeners(java.lang.Integer): void\",\"is_constructor\":false,\"name\":\"removeListeners\",\"def_pos\":0},{\"signature\":\"startRecord(java.lang.String): boolean\",\"is_constructor\":false,\"name\":\"startRecord\",\"def_pos\":0},{\"signature\":\"stopRecord(): boolean\",\"is_constructor\":false,\"name\":\"stopRecord\",\"def_pos\":0}],\"method_count\":36,\"inner_class_count\":8,\"inner_classes\":[\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass1\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass2\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass3\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass4\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass5\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass6\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass7\",\"com.sp.holographic.react.MiddleNativeModule.AnonymousClass8\"],\"name\":\"MiddleNativeModule\",\"full_name\":\"com.sp.holographic.react.MiddleNativeModule\",\"field_count\":16,\"fields\":[{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"DEBUG_FILES\"},{\"type\":\"java.lang.String\",\"def_pos\":0,\"name\":\"TAG\"},{\"type\":\"int\",\"def_pos\":0,\"name\":\"TYPE_CALLBACK\"},{\"type\":\"int\",\"def_pos\":0,\"name\":\"TYPE_EVENT\"},{\"type\":\"int\",\"def_pos\":0,\"name\":\"TYPE_NORMAL\"},{\"type\":\"int\",\"def_pos\":0,\"name\":\"TYPE_PROMISE\"},{\"type\":\"long\",\"def_pos\":0,\"name\":\"audSenderHandle\"},{\"type\":\"com.sp.holographic.record.PCMDataCallback\",\"def_pos\":0,\"name\":\"callback\"},{\"type\":\"com.sp.holographic.record.RecorderConfig\",\"def_pos\":0,\"name\":\"config\"},{\"type\":\"android.os.Handler\",\"def_pos\":0,\"name\":\"fileHandler\"},{\"type\":\"android.os.HandlerThread\",\"def_pos\":0,\"name\":\"fileThread\"},{\"type\":\"android.os.Handler\",\"def_pos\":0,\"name\":\"handler\"},{\"type\":\"com.facebook.react.bridge.ReactApplicationContext\",\"def_pos\":0,\"name\":\"mContext\"},{\"type\":\"java.io.FileOutputStream\",\"def_pos\":0,\"name\":\"pcmOut\"},{\"type\":\"com.sp.holographic.record.PCMRecorder\",\"def_pos\":0,\"name\":\"recorder\"},{\"type\":\"java.lang.Runnable\",\"def_pos\":0,\"name\":\"timer\"}]}"
+            }
+          ],
+          "isError": false
+        }
+      },
+      {
+        "operation": "get_method_body",
+        "input": {
+          "class_name": "com.sp.holographic.react.MiddleNativeModule",
+          "method_name": "getConstants",
+          "overload_index": 0,
+          "smali_fallback": true
+        },
+        "response": {
+          "content": [
+            {
+              "type": "text",
+              "text": "{\"markers\":[],\"mode\":\"java\",\"full_name\":\"com.sp.holographic.react.MiddleNativeModule.getConstants\",\"class_name\":\"com.sp.holographic.react.MiddleNativeModule\",\"overload_index\":0,\"fell_back\":false,\"body\":\"    @Override // com.facebook.react.bridge.BaseJavaModule\\n    public Map\\u003cString, Object\\u003e getConstants() {\\n        HashMap map \\u003d new HashMap();\\n        map.put(\\\"PROTOCOL\\\", Constant.PROTOCOL);\\n        map.put(\\\"MODULE_UDP\\\", Constant.MODULE_UDP);\\n        map.put(Constant.UDP_EVENT, Constant.UDP_EVENT);\\n        map.put(Constant.UDP_FUNC_START, Constant.UDP_FUNC_START);\\n        map.put(Constant.UDP_FUNC_STOP, Constant.UDP_FUNC_STOP);\\n        map.put(Constant.UDP_FUNC_SEND_ACT_PKG, Constant.UDP_FUNC_SEND_ACT_PKG);\\n        map.put(Constant.UDP_FUNC_SEND_RSP_TO_SERVER, Constant.UDP_FUNC_SEND_RSP_TO_SERVER);\\n        map.put(Constant.MODULE_LANGUAGE, Constant.MODULE_LANGUAGE);\\n        map.put(\\\"LANGUAGE_SWITCH\\\", Constant.LANGUAGE_SWITCH);\\n        map.put(\\\"MODULE_UI\\\", \\\"UI\\\");\\n        map.put(Constant.UI_FUNC_SET_STATUSBAR_COLOR, Constant.UI_FUNC_SET_STATUSBAR_COLOR);\\n        map.put(Constant.MODULE_MEDIA, Constant.MODULE_MEDIA);\\n        map.put(Constant.MEDIA_EVENT, Constant.MEDIA_EVENT);\\n        map.put(Constant.MEDIA_FUNC_CONVERT, Constant.MEDIA_FUNC_CONVERT);\\n        map.put(Constant.MEDIA_FUNC_UPLOAD, Constant.MEDIA_FUNC_UPLOAD);\\n        map.put(Constant.MEDIA_FUNC_UPLOAD_V2, Constant.MEDIA_FUNC_UPLOAD_V2);\\n        map.put(Constant.MODULE_HTTP, Constant.MODULE_HTTP);\\n        map.put(Constant.MODULE_HTTP_SCAN_LOCAL_NET, Constant.MODULE_HTTP_SCAN_LOCAL_NET);\\n        map.put(\\\"MODULE_WS\\\", Constant.MODULE_WS);\\n        map.put(Constant.WS_FUNC_CONNECT, Constant.WS_FUNC_CONNECT);\\n        map.put(Constant.WS_FUNC_DISCONNECT, Constant.WS_FUNC_DISCONNECT);\\n        map.put(Constant.AUD_RECORD_EVENT, Constant.AUD_RECORD_EVENT);\\n        map.put(Constant.MODULE_AUDIO_RECORD, Constant.MODULE_AUDIO_RECORD);\\n        map.put(Constant.MODULE_AUDIO_RECORD_START, Constant.MODULE_AUDIO_RECORD_START);\\n        map.put(Constant.MODULE_AUDIO_RECORD_STOP, Constant.MODULE_AUDIO_RECORD_STOP);\\n        map.put(Constant.MODULE_AUDIO_RECORD_STATUS, Constant.MODULE_AUDIO_RECORD_STATUS);\\n        return map;\\n    }\",\"overload_count\":1,\"method_name\":\"getConstants\"}"
+            }
+          ],
+          "isError": false
+        }
+      }
+    ]
+  },
+  "normalized_result": {
+    "engine": {
+      "name": "jadx-headless-mcp",
+      "version": "0.7.1",
+      "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+      "worker_count": 1,
+      "heap_limit_mib": 9960
+    },
+    "class_name": "com.sp.holographic.react.MiddleNativeModule",
+    "method": {
+      "name": "getConstants",
+      "reported_signature": "getConstants(): java.util.Map<java.lang.String, java.lang.Object>",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": null
+    },
+    "overload_count": 1,
+    "representation": "java",
+    "body_status": "available",
+    "fell_back": false,
+    "markers": [],
+    "source": {
+      "status": "complete",
+      "text": "    @Override // com.facebook.react.bridge.BaseJavaModule\n    public Map<String, Object> getConstants() {\n        HashMap map = new HashMap();\n        map.put(\"PROTOCOL\", Constant.PROTOCOL);\n        map.put(\"MODULE_UDP\", Constant.MODULE_UDP);\n        map.put(Constant.UDP_EVENT, Constant.UDP_EVENT);\n        map.put(Constant.UDP_FUNC_START, Constant.UDP_FUNC_START);\n        map.put(Constant.UDP_FUNC_STOP, Constant.UDP_FUNC_STOP);\n        map.put(Constant.UDP_FUNC_SEND_ACT_PKG, Constant.UDP_FUNC_SEND_ACT_PKG);\n        map.put(Constant.UDP_FUNC_SEND_RSP_TO_SERVER, Constant.UDP_FUNC_SEND_RSP_TO_SERVER);\n        map.put(Constant.MODULE_LANGUAGE, Constant.MODULE_LANGUAGE);\n        map.put(\"LANGUAGE_SWITCH\", Constant.LANGUAGE_SWITCH);\n        map.put(\"MODULE_UI\", \"UI\");\n        map.put(Constant.UI_FUNC_SET_STATUSBAR_COLOR, Constant.UI_FUNC_SET_STATUSBAR_COLOR);\n        map.put(Constant.MODULE_MEDIA, Constant.MODULE_MEDIA);\n        map.put(Constant.MEDIA_EVENT, Constant.MEDIA_EVENT);\n        map.put(Constant.MEDIA_FUNC_CONVERT, Constant.MEDIA_FUNC_CONVERT);\n        map.put(Constant.MEDIA_FUNC_UPLOAD, Constant.MEDIA_FUNC_UPLOAD);\n        map.put(Constant.MEDIA_FUNC_UPLOAD_V2, Constant.MEDIA_FUNC_UPLOAD_V2);\n        map.put(Constant.MODULE_HTTP, Constant.MODULE_HTTP);\n        map.put(Constant.MODULE_HTTP_SCAN_LOCAL_NET, Constant.MODULE_HTTP_SCAN_LOCAL_NET);\n        map.put(\"MODULE_WS\", Constant.MODULE_WS);\n        map.put(Constant.WS_FUNC_CONNECT, Constant.WS_FUNC_CONNECT);\n        map.put(Constant.WS_FUNC_DISCONNECT, Constant.WS_FUNC_DISCONNECT);\n        map.put(Constant.AUD_RECORD_EVENT, Constant.AUD_RECORD_EVENT);\n        map.put(Constant.MODULE_AUDIO_RECORD, Constant.MODULE_AUDIO_RECORD);\n        map.put(Constant.MODULE_AUDIO_RECORD_START, Constant.MODULE_AUDIO_RECORD_START);\n        map.put(Constant.MODULE_AUDIO_RECORD_STOP, Constant.MODULE_AUDIO_RECORD_STOP);\n        map.put(Constant.MODULE_AUDIO_RECORD_STATUS, Constant.MODULE_AUDIO_RECORD_STATUS);\n        return map;\n    }",
+      "reported_total_bytes": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+    "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+    "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+    "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

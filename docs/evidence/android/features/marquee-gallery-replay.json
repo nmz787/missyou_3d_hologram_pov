@@ -1,0 +1,228 @@
+{
+  "evidence_kind": "offline replay with mocked Canvas/JPEG/WebView; Gallery duration algebra evaluated separately",
+  "source_string_id": 9488,
+  "source_sha256": "2226d20688e4ea6b11b0234d05a05597a59ab5f9a3bd6ca8f9d7b47b7145371f",
+  "renderer_probes": [
+    {
+      "S": 360,
+      "measuredTextWidth": 120,
+      "preview_segmentWidth": 180,
+      "preview_stepSize": 0.9,
+      "preview_pixels_per_ms": 0.018,
+      "export_frames": 200,
+      "batch_lengths": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "final_message": {
+        "t": "d",
+        "n": 200
+      },
+      "first_frame": {
+        "format": "image/jpeg",
+        "quality": 0.9,
+        "draw": [
+          {
+            "text": "Hello",
+            "x": -2,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 358,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 718,
+            "y": 360
+          }
+        ]
+      },
+      "last_frame": {
+        "format": "image/jpeg",
+        "quality": 0.9,
+        "draw": [
+          {
+            "text": "Hello",
+            "x": -40,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 320,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 680,
+            "y": 360
+          }
+        ]
+      }
+    },
+    {
+      "S": 400,
+      "measuredTextWidth": 137,
+      "preview_segmentWidth": 197,
+      "preview_stepSize": 0.985,
+      "preview_pixels_per_ms": 0.0197,
+      "export_frames": 200,
+      "batch_lengths": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "final_message": {
+        "t": "d",
+        "n": 200
+      },
+      "first_frame": {
+        "format": "image/jpeg",
+        "quality": 0.9,
+        "draw": [
+          {
+            "text": "Hello",
+            "x": -2,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 352.6,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 707.2,
+            "y": 360
+          }
+        ]
+      },
+      "last_frame": {
+        "format": "image/jpeg",
+        "quality": 0.9,
+        "draw": [
+          {
+            "text": "Hello",
+            "x": -45.39999999999998,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 309.20000000000005,
+            "y": 360
+          },
+          {
+            "text": "Hello",
+            "x": 663.8000000000001,
+            "y": 360
+          }
+        ]
+      }
+    }
+  ],
+  "gallery_duration_math": [
+    {
+      "picked_images": 1,
+      "segment_seconds": 10,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": []
+    },
+    {
+      "picked_images": 2,
+      "segment_seconds": 5.25,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": [
+        "4.75"
+      ]
+    },
+    {
+      "picked_images": 3,
+      "segment_seconds": 3.666666666666667,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": [
+        "3.17",
+        "6.33"
+      ]
+    },
+    {
+      "picked_images": 4,
+      "segment_seconds": 2.875,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": [
+        "2.38",
+        "4.75",
+        "7.13"
+      ]
+    },
+    {
+      "picked_images": 5,
+      "segment_seconds": 2.4,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": [
+        "1.90",
+        "3.80",
+        "5.70",
+        "7.60"
+      ]
+    },
+    {
+      "picked_images": 6,
+      "segment_seconds": 2.0833333333333335,
+      "transition_seconds": 0.5,
+      "ideal_final_duration": 10,
+      "transition_offsets": [
+        "1.58",
+        "3.17",
+        "4.75",
+        "6.33",
+        "7.92"
+      ]
+    }
+  ],
+  "limitations": [
+    "No browser font rasterization or JPEG encoding occurs.",
+    "Text widths and viewport sizes are explicit probe inputs, not phone measurements.",
+    "Gallery results verify duration algebra, not FFmpeg execution or final frame counts."
+  ]
+}

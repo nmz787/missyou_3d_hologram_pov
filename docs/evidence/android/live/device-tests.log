@@ -1,0 +1,31 @@
+test_header_corruption_and_first_digit_alias (test_codec.FormatEdges) ... ok
+test_leading_padding_and_plane_order (test_codec.FormatEdges) ... ok
+test_only_top_bits_are_written (test_codec.FormatEdges) ... ok
+test_scanline_alignment_and_input_shape (test_codec.FormatEdges) ... ok
+test_original_methods_all_eleven_profiles (test_codec.OriginalMethodParity) ... ok
+test_tables_match_artifact_initializer_bytes (test_codec.OriginalMethodParity) ... ok
+test_code_one_setting_failure_is_not_reported_as_success (test_device.HTTPWireTests) ... ok
+test_gbk_filename_list_play_delete_and_multipart_upload (test_device.HTTPWireTests) ... ok
+test_settings_parse_server_values_and_send_exact_key (test_device.HTTPWireTests) ... ok
+test_adb_transport_uses_nonpty_shell_and_binary_duplex_pipes (test_device.LegacyWireTests) ... ok
+test_coalesced_notifications_do_not_create_spurious_records (test_device.LegacyWireTests) ... ok
+test_control_messages_use_device_index_not_filename_prefix (test_device.LegacyWireTests) ... ok
+test_control_polls_until_delayed_state_is_observed (test_device.LegacyWireTests) ... ok
+test_existing_destination_refused_before_upload_socket (test_device.LegacyWireTests) ... ok
+test_format_observes_complete_empty_directory (test_device.LegacyWireTests) ... ok
+test_fragmented_notification_keeps_all_names_and_gbk (test_device.LegacyWireTests) ... ok
+test_incomplete_listing_blocks_unapproved_upload (test_device.LegacyWireTests) ... ok
+test_recorded_firmware_length_bug_salvages_later_files_and_model (test_device.LegacyWireTests) ... ok
+test_unconfirmed_upload_status_aborts_before_data (test_device.LegacyWireTests) ... ok
+test_unknown_model_does_not_hide_otherwise_valid_files (test_device.LegacyWireTests) ... ok
+test_upload_matches_full_native_frame_layout_and_ack_windows (test_device.LegacyWireTests) ... ok
+test_upload_missing_or_wrong_data_ack_fails_without_completion (test_device.LegacyWireTests) ... ok
+test_export_to_filesystem_without_hard_links (test_media.VideoIntegration) ... ok
+test_invalid_video_leaves_no_output (test_media.VideoIntegration) ... ok
+test_no_audio_trim_and_overwrite_protection (test_media.VideoIntegration) ... ok
+test_video_frame_boundaries_audio_and_trailer (test_media.VideoIntegration) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 13.429s
+
+OK

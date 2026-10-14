@@ -1,0 +1,59 @@
+{
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "search_boundary": "All property-identifier instruction references in complete bundle.hasm",
+  "hits": {
+    "_recvAckOfSendFileInfo": [
+      {
+        "hasm_line": 364672,
+        "instruction": "==> 0000006b: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 8, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)"
+      },
+      {
+        "hasm_line": 366642,
+        "instruction": "==> 00000007: <GetById>: <Reg8: 0, Reg8: 0, UInt8: 1, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)"
+      },
+      {
+        "hasm_line": 366655,
+        "instruction": "==> 0000003b: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)"
+      }
+    ],
+    "_recvAckOfIntervalPkgs": [
+      {
+        "hasm_line": 364673,
+        "instruction": "==> 00000071: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 9, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)"
+      },
+      {
+        "hasm_line": 366762,
+        "instruction": "==> 00000007: <GetById>: <Reg8: 0, Reg8: 0, UInt8: 1, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)"
+      },
+      {
+        "hasm_line": 366775,
+        "instruction": "==> 0000003b: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)"
+      }
+    ],
+    "_waitSendFileInfoAck": [
+      {
+        "hasm_line": 364545,
+        "instruction": "==> 000002bf: <LoadConstString>: <Reg8: 6, string_id: 7015>  # String: '_waitSendFileInfoAck' (String)"
+      }
+    ],
+    "_waitSendPackagesIntervalAck": [
+      {
+        "hasm_line": 364551,
+        "instruction": "==> 000002d6: <LoadConstString>: <Reg8: 6, string_id: 7017>  # String: '_waitSendPackagesIntervalAck' (String)"
+      }
+    ],
+    "_connectUploadSocket": [
+      {
+        "hasm_line": 364563,
+        "instruction": "==> 00000304: <LoadConstString>: <Reg8: 6, string_id: 5995>  # String: '_connectUploadSocket' (String)"
+      }
+    ],
+    "_disconnectUploadSocket": [
+      {
+        "hasm_line": 364557,
+        "instruction": "==> 000002ed: <LoadConstString>: <Reg8: 6, string_id: 6870>  # String: '_disconnectUploadSocket' (String)"
+      }
+    ]
+  },
+  "limitation": "Does not exclude indirect dynamic lookup or code outside this artifact."
+}

@@ -1,0 +1,192 @@
+{
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "bundle_sha256": "8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2",
+  "functions": [
+    {
+      "function_id": 5334,
+      "name": "",
+      "bytecode_file_offset": 2307962,
+      "bytecode_bytes": 1274,
+      "raw_bytecode_sha256": "c6c38273acb65aaaff56ff38ad812dee2428a0c255079f7f31c55c4a080512b9"
+    },
+    {
+      "function_id": 9265,
+      "name": "",
+      "bytecode_file_offset": 2756100,
+      "bytecode_bytes": 1058,
+      "raw_bytecode_sha256": "bf338310ed681a7ab14dd114136a79636e8f94cac26dfd645f0386dea66f2fd9"
+    },
+    {
+      "function_id": 9266,
+      "name": "TCPClient",
+      "bytecode_file_offset": 2757158,
+      "bytecode_bytes": 207,
+      "raw_bytecode_sha256": "6f04b2cd47c156e4bee9994bd217a20dc864cd0293bc7a9ed355fd1c12d44d7d"
+    },
+    {
+      "function_id": 9290,
+      "name": "_handleData",
+      "bytecode_file_offset": 2759428,
+      "bytecode_bytes": 20,
+      "raw_bytecode_sha256": "28da45460eb9082fa9e4b49ab33e3878804c8833d132636a53146b9ad6f7e26e"
+    },
+    {
+      "function_id": 9329,
+      "name": "_waitSendFileInfoAck",
+      "bytecode_file_offset": 2762316,
+      "bytecode_bytes": 84,
+      "raw_bytecode_sha256": "c4c81a44c1fcfc28180d372902739a65adbebec81607c270ac0ed444f146fea4"
+    },
+    {
+      "function_id": 9330,
+      "name": "",
+      "bytecode_file_offset": 2762400,
+      "bytecode_bytes": 84,
+      "raw_bytecode_sha256": "7c0c05b990d0ab2fbec446272442b3284e50572fee9fa65302fa873764e2e2f4"
+    },
+    {
+      "function_id": 9331,
+      "name": "",
+      "bytecode_file_offset": 2762484,
+      "bytecode_bytes": 91,
+      "raw_bytecode_sha256": "34afcbfe23588a1873c15e781c7b48735b98b2d187b09ddca1a164b507539aed"
+    },
+    {
+      "function_id": 9332,
+      "name": "",
+      "bytecode_file_offset": 2762575,
+      "bytecode_bytes": 77,
+      "raw_bytecode_sha256": "6e1c72de1a08afea3240abc99904ae3c9a8225ab4f00e6b350cf292932f6dfb1"
+    },
+    {
+      "function_id": 9333,
+      "name": "_waitSendPackagesIntervalAck",
+      "bytecode_file_offset": 2762652,
+      "bytecode_bytes": 84,
+      "raw_bytecode_sha256": "36cf4b7afe5e628b74cd7c36959418680a8d42a722c76851e2fd95c8ddc68b47"
+    },
+    {
+      "function_id": 9334,
+      "name": "",
+      "bytecode_file_offset": 2762736,
+      "bytecode_bytes": 84,
+      "raw_bytecode_sha256": "4d9d5117538e112111926569590de70640cf780a747cb0714f40d83c8fa29263"
+    },
+    {
+      "function_id": 9335,
+      "name": "",
+      "bytecode_file_offset": 2762820,
+      "bytecode_bytes": 91,
+      "raw_bytecode_sha256": "2014886a821039c72b41fc139c931a4da2655d24b2f3796950782a30fb8bf46e"
+    },
+    {
+      "function_id": 9336,
+      "name": "",
+      "bytecode_file_offset": 2762911,
+      "bytecode_bytes": 77,
+      "raw_bytecode_sha256": "dab0171da263ea8d53a598798fd8b25428614a05c7047261f337e2624baea646"
+    },
+    {
+      "function_id": 9337,
+      "name": "_disconnectUploadSocket",
+      "bytecode_file_offset": 2762988,
+      "bytecode_bytes": 51,
+      "raw_bytecode_sha256": "985ba2f07c46e020370d59c57ab31b3b0b61f1d38456c23a9feb6b0b7475e106"
+    },
+    {
+      "function_id": 9338,
+      "name": "_connectUploadSocket",
+      "bytecode_file_offset": 2763039,
+      "bytecode_bytes": 93,
+      "raw_bytecode_sha256": "00f2d6ed973004d86df553b7c7a05880210e140ed47d6d05bcd981cc3a67714f"
+    },
+    {
+      "function_id": 9339,
+      "name": "",
+      "bytecode_file_offset": 2763132,
+      "bytecode_bytes": 224,
+      "raw_bytecode_sha256": "abef332a96b749470660d7a4d9d406f865bb0e33971f4d29980683cb3b0b6b52"
+    },
+    {
+      "function_id": 9340,
+      "name": "",
+      "bytecode_file_offset": 2763356,
+      "bytecode_bytes": 74,
+      "raw_bytecode_sha256": "4951c7c40aeae97bbeb4257bded1856f81eba4503a6ac88c01ec1136e09604d6"
+    },
+    {
+      "function_id": 9341,
+      "name": "",
+      "bytecode_file_offset": 2763430,
+      "bytecode_bytes": 127,
+      "raw_bytecode_sha256": "4227fb8e41396756431ecf8b6f296327ad51d8badcb49327a015266674eae4a6"
+    },
+    {
+      "function_id": 9342,
+      "name": "",
+      "bytecode_file_offset": 2763557,
+      "bytecode_bytes": 103,
+      "raw_bytecode_sha256": "76c625edad4a38a6d73ce401b83c2ab85061ee2c044e02669ff19c5490f3fcde"
+    },
+    {
+      "function_id": 9343,
+      "name": "",
+      "bytecode_file_offset": 2763660,
+      "bytecode_bytes": 130,
+      "raw_bytecode_sha256": "f1160232a6180138c9cba1b8c166587695513922879c55ce0d4e5655b3485203"
+    },
+    {
+      "function_id": 9344,
+      "name": "",
+      "bytecode_file_offset": 2763790,
+      "bytecode_bytes": 37,
+      "raw_bytecode_sha256": "53f4791e284912f47949775ed057bc6bd4fe1c48d96954a95847c3e9a1966400"
+    },
+    {
+      "function_id": 9345,
+      "name": "uploadFile",
+      "bytecode_file_offset": 2223524,
+      "bytecode_bytes": 29,
+      "raw_bytecode_sha256": "5dfd22fac35c1fbd5dd8f4ac4a007644f187ef03f147af438c0c614759ba54cb"
+    },
+    {
+      "function_id": 9346,
+      "name": "",
+      "bytecode_file_offset": 2763827,
+      "bytecode_bytes": 9,
+      "raw_bytecode_sha256": "a27521ae1856fc381f73bd70fbf85e8bc75b0676f75823784d9ece74724050a7"
+    },
+    {
+      "function_id": 9347,
+      "name": "?anon_0_",
+      "bytecode_file_offset": 2763836,
+      "bytecode_bytes": 618,
+      "raw_bytecode_sha256": "6b606c43132a52aaef8967e65bbe630be735a0eb30abcd514375fd28695934ed"
+    },
+    {
+      "function_id": 9348,
+      "name": "",
+      "bytecode_file_offset": 2764454,
+      "bytecode_bytes": 134,
+      "raw_bytecode_sha256": "00a7b401861c974b697aed17fe77c18c94ea4c9368a636ced77a1b276ef2c613"
+    },
+    {
+      "function_id": 9349,
+      "name": "postResult",
+      "bytecode_file_offset": 2764588,
+      "bytecode_bytes": 172,
+      "raw_bytecode_sha256": "98cc1b98c1da5e2fe49bcf55ceabb13d044270a2d4b5462d39f6f57007398214"
+    }
+  ],
+  "pseudo_source_slices": [
+    {
+      "path": "analysis/android/bundle.pseudo.js",
+      "start_line": 335509,
+      "end_line": 336259
+    }
+  ],
+  "limitations": [
+    "Static disassembly/decompiler output; target APK not executed.",
+    "Function IDs and byte offsets are specific to this artifact."
+  ]
+}

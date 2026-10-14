@@ -1,0 +1,126 @@
+{
+  "apk_sha256": "8a83b1f128beb43341eefd2b4ad743512d0193ff6dd4e7b56feba138fb4b63c9",
+  "operation": "Offline APK analysis and extracted-renderer desktop replay; no Android execution or device network requests",
+  "records": [
+    {
+      "file": "AndroidManifest.xml",
+      "bytes": 9948,
+      "sha256": "5f308cb95f0f789702489fef11820c62527478bb7a6409c62bff2f22b4b5be60"
+    },
+    {
+      "file": "artifact-manifest.json",
+      "bytes": 226873,
+      "sha256": "d0777a8119e82c01c4e4ec06d269b809f6ab5eccaa02f9dd1dc6ab1002bedede"
+    },
+    {
+      "file": "family-bytecode.hasm",
+      "bytes": 71831,
+      "sha256": "77223e291a7831a1f5f86a011478cca4638fc97da75b32730709d8e7be0fd179"
+    },
+    {
+      "file": "family-findings.md",
+      "bytes": 7880,
+      "sha256": "cac354627531811314eb1ede4f53f2f61c937edb1746cdc419134d06bc8b49bd"
+    },
+    {
+      "file": "family-profiles.json",
+      "bytes": 7526,
+      "sha256": "cc0e72629a96fbaf60d4d030ad7913dbb057a0c438aaa3e9b1cc0b18668a9807"
+    },
+    {
+      "file": "file-list-bytecode.hasm",
+      "bytes": 157620,
+      "sha256": "abe2b4e9f0379be540774573441c8d384c33ad8429b07e4d513262f93bdc532c"
+    },
+    {
+      "file": "file-list-functions.json",
+      "bytes": 6318,
+      "sha256": "53102a133db16b8b1987ae65996ac3c547c0e5b9a76a80b0e2ed9d0f10e48e25"
+    },
+    {
+      "file": "file-list-replay.json",
+      "bytes": 3082,
+      "sha256": "d5934163ce7f9a820f2dcae4fb0496d567a059cc1e57c3fc3c005cd40e43c271"
+    },
+    {
+      "file": "function-9132.pseudo.js",
+      "bytes": 3349,
+      "sha256": "613836e1383a3f9e33767803152b4f0c4fad7c91b18f7b37bcd6c6a0c07607ea"
+    },
+    {
+      "file": "function-9290.pseudo.js",
+      "bytes": 263,
+      "sha256": "39f5a4df72cc5d54914116de6afe90777a9b0e6f344f6d398400a4fdef9803ab"
+    },
+    {
+      "file": "function-9292.pseudo.js",
+      "bytes": 6958,
+      "sha256": "4bf987174ee9e65a0dc9e9b1246e3373a1200a3c3f7d99438362d748bee5899f"
+    },
+    {
+      "file": "function-9293.pseudo.js",
+      "bytes": 4538,
+      "sha256": "bf88e422384529375e94607884373305bf3583e7164a8b01f2b83ccbee88448f"
+    },
+    {
+      "file": "rea-class-search-limitation.json",
+      "bytes": 409,
+      "sha256": "173d5eaef47df49b58dbd5665ed571dc0f45d1a21d58f73e03d163a3075759c2"
+    },
+    {
+      "file": "rea-middle-class.json",
+      "bytes": 22546,
+      "sha256": "9fd3df6e45eb77818809c6419c031cd3a188fef5ae7267a4d889f1fa9aecbc09"
+    },
+    {
+      "file": "rea-middle-constants.json",
+      "bytes": 16840,
+      "sha256": "b62bc890558844ab52946b3d77cebc1c64a1c945ad19d5d4d3e253b7e903202c"
+    },
+    {
+      "file": "rea-middle-dispatch.json",
+      "bytes": 13093,
+      "sha256": "6447bdbab48106d0ebc5951545f851d0a1ae2a72802452edf857d596f7621265"
+    },
+    {
+      "file": "rea-package.json",
+      "bytes": 26764,
+      "sha256": "d2b9aec5898919a79dc50139170cf2964518e3e3353034c6d3e999ce74a25b2e"
+    },
+    {
+      "file": "tractor-file.json",
+      "bytes": 44662,
+      "sha256": "d434aaf13ea8cb2c4b2da95e1ed36d5e95f6e6afea3458b94bb6f16ad95256e8"
+    },
+    {
+      "file": "tractor-findings.md",
+      "bytes": 3393,
+      "sha256": "7a7e91cf1b65b4f44bf65804bfb2c3a4d46751805c3f7848d343f39613672e1a"
+    },
+    {
+      "file": "features/evidence-index.json",
+      "bytes": 12617,
+      "sha256": "97f8ba21653c8fc058c3cba61a655c872ecb9150b1708a172c97e6299da1bbba"
+    },
+    {
+      "file": "comms/evidence-index.json",
+      "bytes": 20773,
+      "sha256": "295202a9f93b0aea687a5fb977e8d74e960cb972ed3243e3203169312b8a7954"
+    }
+  ],
+  "verification": {
+    "selected_function_range_hashes": "27 checked against original Hermes bytes",
+    "parser_replay": "assertions passed and repeated output identical",
+    "capture_helper": "syntax and --help checked; live capture not performed",
+    "design_features": "Five feature paths traced; feature index retains byte-range verification and offline rendered-media checks",
+    "network_protocol": "307 Hermes function records and559 string ranges checked; six native symbol ranges checked against original APK; 15 offline control construction cases; native upload layout/ACK replay"
+  },
+  "remaining_unknowns": [
+    "Actual device notification bytes",
+    "Installed phone app version equivalence",
+    "Cause of prior Wi-Fi upload failures",
+    "Native BIN encoder packing/header internals remain unknown; legacy upload wire construction recovered separately",
+    "Exact JNI upload callback wiring and native V2 HTTP request construction",
+    "Actual transport selected on the user phone"
+  ]
+}

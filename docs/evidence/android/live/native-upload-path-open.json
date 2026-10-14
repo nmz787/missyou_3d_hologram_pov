@@ -1,0 +1,9 @@
+{
+  "result": {
+    "path": "/home/nathan/git/5d_pov/analysis/android/libSPCore.so",
+    "format": "elf",
+    "kind": "executable",
+    "sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+    "architecture": "arm64"
+  }
+}

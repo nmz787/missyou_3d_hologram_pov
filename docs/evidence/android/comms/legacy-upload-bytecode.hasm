@@ -1,0 +1,1400 @@
+Source: assets/index.android.bundle in 5D-Holo-android.apk
+Hermes bundle SHA256: 8389750af87d60e75bbd7d93ba57d1bd239008812c8c5ef7ecc84cf2a46777e2
+Tool: hermes-dec 0.1.6; Hermes bytecode 96; no APK execution.
+
+=> [Function #5334 "" of 1274 bytes]: 8 params, frame size=20, strict=0, exc handler=0, debug info=0  @ offset 0x0023377a
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 2, UInt8: 6>
+==> 00000003: <GetGlobalObject>: <Reg8: 1>
+==> 00000005: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 34>  # String: 'Object' (Identifier)
+==> 0000000b: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 123>  # String: 'defineProperty' (Identifier)
+==> 00000010: <NewObject>: <Reg8: 3>
+==> 00000012: <LoadConstTrue>: <Reg8: 0>
+==> 00000014: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 0, string_id: 251>  # String: 'value' (Identifier)
+==> 00000018: <LoadConstString>: <Reg8: 0, string_id: 58>  # String: '__esModule' (Identifier)
+==> 0000001c: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 0, Reg8: 3>
+==> 00000023: <LoadConstUndefined>: <Reg8: 0>
+==> 00000025: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 14337>  # String: 'AGE_REGEX' (Identifier)
+==> 0000002b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 2, string_id: 18374>  # String: 'AP_NET_CFG_BASE_URL' (Identifier)
+==> 00000031: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 3, string_id: 18178>  # String: 'AP_NET_CFG_REBOOT' (Identifier)
+==> 00000037: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 4, string_id: 18378>  # String: 'AP_NET_CFG_SAVED_LIST_URL' (Identifier)
+==> 0000003d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 5, string_id: 18381>  # String: 'AP_NET_CFG_SCAN_URL' (Identifier)
+==> 00000043: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 6, string_id: 17075>  # String: 'AP_NET_CFG_SUBMIT' (Identifier)
+==> 00000049: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 7, string_id: 17355>  # String: 'CLOUD_IP' (Identifier)
+==> 0000004f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 8, string_id: 15018>  # String: 'CLOUD_PORT' (Identifier)
+==> 00000055: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 9, string_id: 16259>  # String: 'CLOUD_PROTOCOL' (Identifier)
+==> 0000005b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 10, string_id: 16892>  # String: 'CONTACT_EMAIL' (Identifier)
+==> 00000061: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 11, string_id: 19936>  # String: 'DIA_REGEX' (Identifier)
+==> 00000067: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 12, string_id: 17249>  # String: 'DISABLE_TEXT_SELECTION' (Identifier)
+==> 0000006d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 13, string_id: 14566>  # String: 'EMAIL_REGEX' (Identifier)
+==> 00000073: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 14, string_id: 24311>  # String: 'EVENT_EMIITER_TYPE' (Identifier)
+==> 00000079: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 15, string_id: 17158>  # String: 'EVENT_REMOVE_EMITTER_LISTENER' (Identifier)
+==> 0000007f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 16, string_id: 18384>  # String: 'FAQ_URL' (Identifier)
+==> 00000085: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 17, string_id: 13146>  # String: 'FLOAT_REGEX' (Identifier)
+==> 0000008b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 18, string_id: 16037>  # String: 'HEADER_HEIGHT_MIN' (Identifier)
+==> 00000091: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 19, string_id: 13783>  # String: 'HEADER_HEIGHT_NORMAL' (Identifier)
+==> 00000097: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 20, string_id: 15904>  # String: 'IP' (Identifier)
+==> 0000009d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 21, string_id: 18208>  # String: 'LANGUAGE_KEY' (Identifier)
+==> 000000a3: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 22, string_id: 15345>  # String: 'OLD_DEVICE_COMMAND_PORT' (Identifier)
+==> 000000a9: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 23, string_id: 16261>  # String: 'OLD_DEVICE_IP' (Identifier)
+==> 000000af: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 24, string_id: 18215>  # String: 'OLD_DEVICE_UPLOAD_PORT' (Identifier)
+==> 000000b5: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 25, string_id: 18217>  # String: 'PAGE_ABOUT' (Identifier)
+==> 000000bb: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 26, string_id: 17683>  # String: 'PAGE_ADD_MEDIA' (Identifier)
+==> 000000c1: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 27, string_id: 16638>  # String: 'PAGE_AI_HOME' (Identifier)
+==> 000000c7: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 28, string_id: 15023>  # String: 'PAGE_AI_LOGIN' (Identifier)
+==> 000000cd: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 29, string_id: 15960>  # String: 'PAGE_AI_REGISTER' (Identifier)
+==> 000000d3: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 30, string_id: 13666>  # String: 'PAGE_AI_TALK' (Identifier)
+==> 000000d9: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 31, string_id: 24501>  # String: 'PAGE_CLOUD_MEDIA' (Identifier)
+==> 000000df: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 32, string_id: 16208>  # String: 'PAGE_DESIGN' (Identifier)
+==> 000000e5: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 33, string_id: 16209>  # String: 'PAGE_DESIGN_GALLERY' (Identifier)
+==> 000000eb: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 34, string_id: 12739>  # String: 'PAGE_DESIGN_MARQUEE_TEXT' (Identifier)
+==> 000000f1: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 35, string_id: 18221>  # String: 'PAGE_DESIGN_SPHERE_TEXT' (Identifier)
+==> 000000f7: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 36, string_id: 24592>  # String: 'PAGE_DESIGN_SPINNING_BOX' (Identifier)
+==> 000000fd: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 37, string_id: 14744>  # String: 'PAGE_DESIGN_TEXT_360' (Identifier)
+==> 00000103: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 38, string_id: 24593>  # String: 'PAGE_DEVICE' (Identifier)
+==> 00000109: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 39, string_id: 24594>  # String: 'PAGE_EDIT_MEDIA' (Identifier)
+==> 0000010f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 40, string_id: 24595>  # String: 'PAGE_EDIT_MEDIA_360' (Identifier)
+==> 00000115: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 41, string_id: 16291>  # String: 'PAGE_FAQ' (Identifier)
+==> 0000011b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 42, string_id: 18637>  # String: 'PAGE_LOCAL_MEDIA' (Identifier)
+==> 00000121: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 43, string_id: 18204>  # String: 'PAGE_MEDIA' (Identifier)
+==> 00000127: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 44, string_id: 15933>  # String: 'PAGE_MUTIPLE_DEVICE_SPLICE' (Identifier)
+==> 0000012d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 45, string_id: 17290>  # String: 'PAGE_NET_CONFIG_DONE' (Identifier)
+==> 00000133: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 46, string_id: 17260>  # String: 'PAGE_NET_CONFIG_PREPARE' (Identifier)
+==> 00000139: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 47, string_id: 17376>  # String: 'PAGE_NET_CONFIG_WIFI_INPUT' (Identifier)
+==> 0000013f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 48, string_id: 19935>  # String: 'PAGE_PREVIEW_MEDIA' (Identifier)
+==> 00000145: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 49, string_id: 18388>  # String: 'PAGE_PRIVACY' (Identifier)
+==> 0000014b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 50, string_id: 24273>  # String: 'PAGE_RECORD' (Identifier)
+==> 00000151: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 51, string_id: 24596>  # String: 'PAGE_SERVICE' (Identifier)
+==> 00000157: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 52, string_id: 15343>  # String: 'PAGE_SETTINGS' (Identifier)
+==> 0000015d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 53, string_id: 15344>  # String: 'PAGE_SETTINGS_OLD' (Identifier)
+==> 00000163: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 54, string_id: 24597>  # String: 'PAGE_SPLASH' (Identifier)
+==> 00000169: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 55, string_id: 14241>  # String: 'PORT' (Identifier)
+==> 0000016f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 56, string_id: 18389>  # String: 'PRIVACY_URL' (Identifier)
+==> 00000175: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 57, string_id: 16260>  # String: 'PROTOCOL' (Identifier)
+==> 0000017b: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 58, string_id: 18398>  # String: 'SERVICE_URL' (Identifier)
+==> 00000181: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 59, string_id: 24226>  # String: 'STR_REGEX' (Identifier)
+==> 00000187: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 60, string_id: 24781>  # String: 'SYS_REGEX' (Identifier)
+==> 0000018d: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 61, string_id: 24958>  # String: 'UUID_NOTIFY_COMMAND' (Identifier)
+==> 00000193: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 62, string_id: 18113>  # String: 'UUID_NOTIFY_SHAKE_HANDS' (Identifier)
+==> 00000199: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 63, string_id: 17266>  # String: 'UUID_READ_SOFTWARE_VERSION' (Identifier)
+==> 0000019f: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 64, string_id: 24959>  # String: 'UUID_SERVICE_COMMAND' (Identifier)
+==> 000001a5: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 65, string_id: 12914>  # String: 'UUID_SERVICE_SHAKE_HANDS' (Identifier)
+==> 000001ab: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 66, string_id: 17267>  # String: 'UUID_SERVICE_SOFTWARE_VERSION' (Identifier)
+==> 000001b1: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 67, string_id: 24960>  # String: 'UUID_WRITE_COMMAND' (Identifier)
+==> 000001b7: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 68, string_id: 18115>  # String: 'UUID_WRITE_SHAKE_HANDS' (Identifier)
+==> 000001bd: <LoadConstString>: <Reg8: 8, string_id: 3956>  # String: 'http://' (String)
+==> 000001c1: <PutById>: <Reg8: 2, Reg8: 8, UInt8: 57, string_id: 16260>  # String: 'PROTOCOL' (Identifier)
+==> 000001c7: <LoadConstString>: <Reg8: 7, string_id: 2930>  # String: '192.168.4.1' (String)
+==> 000001cb: <PutById>: <Reg8: 2, Reg8: 7, UInt8: 20, string_id: 15904>  # String: 'IP' (Identifier)
+==> 000001d1: <LoadConstUInt8>: <Reg8: 6, UInt8: 80>
+==> 000001d4: <PutById>: <Reg8: 2, Reg8: 6, UInt8: 55, string_id: 14241>  # String: 'PORT' (Identifier)
+==> 000001da: <PutById>: <Reg8: 2, Reg8: 7, UInt8: 23, string_id: 16261>  # String: 'OLD_DEVICE_IP' (Identifier)
+==> 000001e0: <LoadConstInt>: <Reg8: 3, Imm32: 5499>
+==> 000001e6: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 24, string_id: 18215>  # String: 'OLD_DEVICE_UPLOAD_PORT' (Identifier)
+==> 000001ec: <LoadConstInt>: <Reg8: 3, Imm32: 5233>
+==> 000001f2: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 22, string_id: 15345>  # String: 'OLD_DEVICE_COMMAND_PORT' (Identifier)
+==> 000001f8: <PutById>: <Reg8: 2, Reg8: 8, UInt8: 9, string_id: 16259>  # String: 'CLOUD_PROTOCOL' (Identifier)
+==> 000001fe: <LoadConstString>: <Reg8: 3, string_id: 2911>  # String: '139.159.158.111' (String)
+==> 00000202: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 7, string_id: 17355>  # String: 'CLOUD_IP' (Identifier)
+==> 00000208: <PutById>: <Reg8: 2, Reg8: 6, UInt8: 8, string_id: 15018>  # String: 'CLOUD_PORT' (Identifier)
+==> 0000020e: <TryGetById>: <Reg8: 3, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 00000214: <GetByIdShort>: <Reg8: 4, Reg8: 3, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000219: <LoadConstString>: <Reg8: 5, string_id: 12570>  # String: '' (Identifier)
+==> 0000021d: <LoadConstString>: <Reg8: 10, string_id: 12946>  # String: ':' (Identifier)
+==> 00000221: <Mov>: <Reg8: 13, Reg8: 5>
+==> 00000224: <Mov>: <Reg8: 12, Reg8: 8>
+==> 00000227: <Mov>: <Reg8: 11, Reg8: 7>
+==> 0000022a: <Mov>: <Reg8: 9, Reg8: 6>
+==> 0000022d: <Call>: <Reg8: 4, Reg8: 4, UInt8: 5>
+==> 00000231: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 2, string_id: 18374>  # String: 'AP_NET_CFG_BASE_URL' (Identifier)
+==> 00000237: <TryGetById>: <Reg8: 3, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000023d: <GetByIdShort>: <Reg8: 6, Reg8: 3, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000242: <LoadConstString>: <Reg8: 3, string_id: 2719>  # String: '/saved/list' (String)
+==> 00000246: <Call3>: <Reg8: 3, Reg8: 6, Reg8: 5, Reg8: 4, Reg8: 3>
+==> 0000024c: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 4, string_id: 18378>  # String: 'AP_NET_CFG_SAVED_LIST_URL' (Identifier)
+==> 00000252: <TryGetById>: <Reg8: 3, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 00000258: <GetByIdShort>: <Reg8: 6, Reg8: 3, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 0000025d: <LoadConstString>: <Reg8: 3, string_id: 2721>  # String: '/scan' (String)
+==> 00000261: <Call3>: <Reg8: 3, Reg8: 6, Reg8: 5, Reg8: 4, Reg8: 3>
+==> 00000267: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 5, string_id: 18381>  # String: 'AP_NET_CFG_SCAN_URL' (Identifier)
+==> 0000026d: <TryGetById>: <Reg8: 3, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 00000273: <GetByIdShort>: <Reg8: 6, Reg8: 3, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000278: <LoadConstString>: <Reg8: 3, string_id: 2731>  # String: '/submit' (String)
+==> 0000027c: <Call3>: <Reg8: 3, Reg8: 6, Reg8: 5, Reg8: 4, Reg8: 3>
+==> 00000282: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 6, string_id: 17075>  # String: 'AP_NET_CFG_SUBMIT' (Identifier)
+==> 00000288: <TryGetById>: <Reg8: 1, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000028e: <GetByIdShort>: <Reg8: 3, Reg8: 1, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000293: <LoadConstString>: <Reg8: 1, string_id: 2712>  # String: '/reboot' (String)
+==> 00000297: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 5, Reg8: 4, Reg8: 1>
+==> 0000029d: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 3, string_id: 18178>  # String: 'AP_NET_CFG_REBOOT' (Identifier)
+==> 000002a3: <LoadConstString>: <Reg8: 1, string_id: 1899>  # String: '0000eee0-0000-1000-8000-00805f9b34fb' (String)
+==> 000002a7: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 65, string_id: 12914>  # String: 'UUID_SERVICE_SHAKE_HANDS' (Identifier)
+==> 000002ad: <LoadConstString>: <Reg8: 1, string_id: 2013>  # String: '0000eee1-0000-1000-8000-00805f9b34fb' (String)
+==> 000002b1: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 62, string_id: 18113>  # String: 'UUID_NOTIFY_SHAKE_HANDS' (Identifier)
+==> 000002b7: <LoadConstString>: <Reg8: 1, string_id: 2765>  # String: '0000eee2-0000-1000-8000-00805f9b34fb' (String)
+==> 000002bb: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 68, string_id: 18115>  # String: 'UUID_WRITE_SHAKE_HANDS' (Identifier)
+==> 000002c1: <LoadConstString>: <Reg8: 1, string_id: 621>  # String: '0000fff0-0000-1000-8000-00805f9b34fb' (String)
+==> 000002c5: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 64, string_id: 24959>  # String: 'UUID_SERVICE_COMMAND' (Identifier)
+==> 000002cb: <LoadConstString>: <Reg8: 1, string_id: 2772>  # String: '0000fff1-0000-1000-8000-00805f9b34fb' (String)
+==> 000002cf: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 61, string_id: 24958>  # String: 'UUID_NOTIFY_COMMAND' (Identifier)
+==> 000002d5: <LoadConstString>: <Reg8: 1, string_id: 1878>  # String: '0000fff2-0000-1000-8000-00805f9b34fb' (String)
+==> 000002d9: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 67, string_id: 24960>  # String: 'UUID_WRITE_COMMAND' (Identifier)
+==> 000002df: <LoadConstString>: <Reg8: 1, string_id: 1860>  # String: '0000180a-0000-1000-8000-00805f9b34fb' (String)
+==> 000002e3: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 66, string_id: 17267>  # String: 'UUID_SERVICE_SOFTWARE_VERSION' (Identifier)
+==> 000002e9: <LoadConstString>: <Reg8: 1, string_id: 1865>  # String: '00002a26-0000-1000-8000-00805f9b34fb' (String)
+==> 000002ed: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 63, string_id: 17266>  # String: 'UUID_READ_SOFTWARE_VERSION' (Identifier)
+==> 000002f3: <LoadConstUInt8>: <Reg8: 1, UInt8: 60>
+==> 000002f6: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 19, string_id: 13783>  # String: 'HEADER_HEIGHT_NORMAL' (Identifier)
+==> 000002fc: <LoadConstZero>: <Reg8: 1>
+==> 000002fe: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 18, string_id: 16037>  # String: 'HEADER_HEIGHT_MIN' (Identifier)
+==> 00000304: <CreateRegExp>: <Reg8: 1, string_id: 6696, string_id: 12570, UInt32: 47>  # String: '^(([^<>()\\[\\]\\\\.,;:\\s@"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@"]+)*)|(".+"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$' (String)  # String: '' (Identifier)
+==> 00000312: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 13, string_id: 14566>  # String: 'EMAIL_REGEX' (Identifier)
+==> 00000318: <CreateRegExp>: <Reg8: 1, string_id: 6778, string_id: 12570, UInt32: 48>  # String: '^\\d{0,3}$' (String)  # String: '' (Identifier)
+==> 00000326: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 14337>  # String: 'AGE_REGEX' (Identifier)
+==> 0000032c: <CreateRegExp>: <Reg8: 1, string_id: 6771, string_id: 12570, UInt32: 49>  # String: '^[a-zA-Z\\-0-9]{0,32}$' (String)  # String: '' (Identifier)
+==> 0000033a: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 59, string_id: 24226>  # String: 'STR_REGEX' (Identifier)
+==> 00000340: <CreateRegExp>: <Reg8: 1, string_id: 6749, string_id: 12570, UInt32: 50>  # String: '^[0-9]*.[0-9]*$' (String)  # String: '' (Identifier)
+==> 0000034e: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 17, string_id: 13146>  # String: 'FLOAT_REGEX' (Identifier)
+==> 00000354: <CreateRegExp>: <Reg8: 1, string_id: 6750, string_id: 12570, UInt32: 51>  # String: '^[0-9]\\d{0,2}$' (String)  # String: '' (Identifier)
+==> 00000362: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 60, string_id: 24781>  # String: 'SYS_REGEX' (Identifier)
+==> 00000368: <CreateRegExp>: <Reg8: 1, string_id: 6751, string_id: 12570, UInt32: 52>  # String: '^[0-9]\\d{1}$' (String)  # String: '' (Identifier)
+==> 00000376: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 11, string_id: 19936>  # String: 'DIA_REGEX' (Identifier)
+==> 0000037c: <LoadConstString>: <Reg8: 1, string_id: 4693>  # String: 'measureInfo' (String)
+==> 00000380: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 14, string_id: 24311>  # String: 'EVENT_EMIITER_TYPE' (Identifier)
+==> 00000386: <LoadConstString>: <Reg8: 1, string_id: 9243>  # String: 'remove_emitter_listener' (String)
+==> 0000038a: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 15, string_id: 17158>  # String: 'EVENT_REMOVE_EMITTER_LISTENER' (Identifier)
+==> 00000390: <LoadConstString>: <Reg8: 1, string_id: 18208>  # String: 'LANGUAGE_KEY' (Identifier)
+==> 00000394: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 21, string_id: 18208>  # String: 'LANGUAGE_KEY' (Identifier)
+==> 0000039a: <LoadConstString>: <Reg8: 1, string_id: 24597>  # String: 'PAGE_SPLASH' (Identifier)
+==> 0000039e: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 54, string_id: 24597>  # String: 'PAGE_SPLASH' (Identifier)
+==> 000003a4: <LoadConstString>: <Reg8: 1, string_id: 24593>  # String: 'PAGE_DEVICE' (Identifier)
+==> 000003a8: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 38, string_id: 24593>  # String: 'PAGE_DEVICE' (Identifier)
+==> 000003ae: <LoadConstString>: <Reg8: 1, string_id: 18388>  # String: 'PAGE_PRIVACY' (Identifier)
+==> 000003b2: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 49, string_id: 18388>  # String: 'PAGE_PRIVACY' (Identifier)
+==> 000003b8: <LoadConstString>: <Reg8: 1, string_id: 24596>  # String: 'PAGE_SERVICE' (Identifier)
+==> 000003bc: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 51, string_id: 24596>  # String: 'PAGE_SERVICE' (Identifier)
+==> 000003c2: <LoadConstString>: <Reg8: 1, string_id: 16291>  # String: 'PAGE_FAQ' (Identifier)
+==> 000003c6: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 41, string_id: 16291>  # String: 'PAGE_FAQ' (Identifier)
+==> 000003cc: <LoadConstString>: <Reg8: 1, string_id: 18217>  # String: 'PAGE_ABOUT' (Identifier)
+==> 000003d0: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 25, string_id: 18217>  # String: 'PAGE_ABOUT' (Identifier)
+==> 000003d6: <LoadConstString>: <Reg8: 1, string_id: 17260>  # String: 'PAGE_NET_CONFIG_PREPARE' (Identifier)
+==> 000003da: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 46, string_id: 17260>  # String: 'PAGE_NET_CONFIG_PREPARE' (Identifier)
+==> 000003e0: <LoadConstString>: <Reg8: 1, string_id: 17376>  # String: 'PAGE_NET_CONFIG_WIFI_INPUT' (Identifier)
+==> 000003e4: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 47, string_id: 17376>  # String: 'PAGE_NET_CONFIG_WIFI_INPUT' (Identifier)
+==> 000003ea: <LoadConstString>: <Reg8: 1, string_id: 17290>  # String: 'PAGE_NET_CONFIG_DONE' (Identifier)
+==> 000003ee: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 45, string_id: 17290>  # String: 'PAGE_NET_CONFIG_DONE' (Identifier)
+==> 000003f4: <LoadConstString>: <Reg8: 1, string_id: 17683>  # String: 'PAGE_ADD_MEDIA' (Identifier)
+==> 000003f8: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 26, string_id: 17683>  # String: 'PAGE_ADD_MEDIA' (Identifier)
+==> 000003fe: <LoadConstString>: <Reg8: 1, string_id: 24501>  # String: 'PAGE_CLOUD_MEDIA' (Identifier)
+==> 00000402: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 31, string_id: 24501>  # String: 'PAGE_CLOUD_MEDIA' (Identifier)
+==> 00000408: <LoadConstString>: <Reg8: 1, string_id: 18637>  # String: 'PAGE_LOCAL_MEDIA' (Identifier)
+==> 0000040c: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 42, string_id: 18637>  # String: 'PAGE_LOCAL_MEDIA' (Identifier)
+==> 00000412: <LoadConstString>: <Reg8: 1, string_id: 19935>  # String: 'PAGE_PREVIEW_MEDIA' (Identifier)
+==> 00000416: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 48, string_id: 19935>  # String: 'PAGE_PREVIEW_MEDIA' (Identifier)
+==> 0000041c: <LoadConstString>: <Reg8: 1, string_id: 24594>  # String: 'PAGE_EDIT_MEDIA' (Identifier)
+==> 00000420: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 39, string_id: 24594>  # String: 'PAGE_EDIT_MEDIA' (Identifier)
+==> 00000426: <LoadConstString>: <Reg8: 1, string_id: 24595>  # String: 'PAGE_EDIT_MEDIA_360' (Identifier)
+==> 0000042a: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 40, string_id: 24595>  # String: 'PAGE_EDIT_MEDIA_360' (Identifier)
+==> 00000430: <LoadConstString>: <Reg8: 1, string_id: 24273>  # String: 'PAGE_RECORD' (Identifier)
+==> 00000434: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 50, string_id: 24273>  # String: 'PAGE_RECORD' (Identifier)
+==> 0000043a: <LoadConstString>: <Reg8: 1, string_id: 18204>  # String: 'PAGE_MEDIA' (Identifier)
+==> 0000043e: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 43, string_id: 18204>  # String: 'PAGE_MEDIA' (Identifier)
+==> 00000444: <LoadConstString>: <Reg8: 1, string_id: 16208>  # String: 'PAGE_DESIGN' (Identifier)
+==> 00000448: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 32, string_id: 16208>  # String: 'PAGE_DESIGN' (Identifier)
+==> 0000044e: <LoadConstString>: <Reg8: 1, string_id: 15343>  # String: 'PAGE_SETTINGS' (Identifier)
+==> 00000452: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 52, string_id: 15343>  # String: 'PAGE_SETTINGS' (Identifier)
+==> 00000458: <LoadConstString>: <Reg8: 1, string_id: 15344>  # String: 'PAGE_SETTINGS_OLD' (Identifier)
+==> 0000045c: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 53, string_id: 15344>  # String: 'PAGE_SETTINGS_OLD' (Identifier)
+==> 00000462: <LoadConstString>: <Reg8: 1, string_id: 15933>  # String: 'PAGE_MUTIPLE_DEVICE_SPLICE' (Identifier)
+==> 00000466: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 44, string_id: 15933>  # String: 'PAGE_MUTIPLE_DEVICE_SPLICE' (Identifier)
+==> 0000046c: <LoadConstString>: <Reg8: 1, string_id: 18221>  # String: 'PAGE_DESIGN_SPHERE_TEXT' (Identifier)
+==> 00000470: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 35, string_id: 18221>  # String: 'PAGE_DESIGN_SPHERE_TEXT' (Identifier)
+==> 00000476: <LoadConstString>: <Reg8: 1, string_id: 24592>  # String: 'PAGE_DESIGN_SPINNING_BOX' (Identifier)
+==> 0000047a: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 36, string_id: 24592>  # String: 'PAGE_DESIGN_SPINNING_BOX' (Identifier)
+==> 00000480: <LoadConstString>: <Reg8: 1, string_id: 12739>  # String: 'PAGE_DESIGN_MARQUEE_TEXT' (Identifier)
+==> 00000484: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 34, string_id: 12739>  # String: 'PAGE_DESIGN_MARQUEE_TEXT' (Identifier)
+==> 0000048a: <LoadConstString>: <Reg8: 1, string_id: 14744>  # String: 'PAGE_DESIGN_TEXT_360' (Identifier)
+==> 0000048e: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 37, string_id: 14744>  # String: 'PAGE_DESIGN_TEXT_360' (Identifier)
+==> 00000494: <LoadConstString>: <Reg8: 1, string_id: 16209>  # String: 'PAGE_DESIGN_GALLERY' (Identifier)
+==> 00000498: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 33, string_id: 16209>  # String: 'PAGE_DESIGN_GALLERY' (Identifier)
+==> 0000049e: <LoadConstString>: <Reg8: 1, string_id: 15023>  # String: 'PAGE_AI_LOGIN' (Identifier)
+==> 000004a2: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 28, string_id: 15023>  # String: 'PAGE_AI_LOGIN' (Identifier)
+==> 000004a8: <LoadConstString>: <Reg8: 1, string_id: 15960>  # String: 'PAGE_AI_REGISTER' (Identifier)
+==> 000004ac: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 29, string_id: 15960>  # String: 'PAGE_AI_REGISTER' (Identifier)
+==> 000004b2: <LoadConstString>: <Reg8: 1, string_id: 16638>  # String: 'PAGE_AI_HOME' (Identifier)
+==> 000004b6: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 27, string_id: 16638>  # String: 'PAGE_AI_HOME' (Identifier)
+==> 000004bc: <LoadConstString>: <Reg8: 1, string_id: 13666>  # String: 'PAGE_AI_TALK' (Identifier)
+==> 000004c0: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 30, string_id: 13666>  # String: 'PAGE_AI_TALK' (Identifier)
+==> 000004c6: <LoadConstString>: <Reg8: 1, string_id: 557>  # String: "\nconst style = document.createElement('style');\nstyle.type = 'text/css';\nstyle.innerHTML = '* { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }';\ndocument.getElementsByTagName('head')[0].appendChild(style);\n" (String)
+==> 000004ca: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 12, string_id: 17249>  # String: 'DISABLE_TEXT_SELECTION' (Identifier)
+==> 000004d0: <LoadConstString>: <Reg8: 1, string_id: 5278>  # String: 'http://www.wkysz.online/handchain/loverlinr/faq_{language}.html' (String)
+==> 000004d4: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 16, string_id: 18384>  # String: 'FAQ_URL' (Identifier)
+==> 000004da: <LoadConstString>: <Reg8: 1, string_id: 8863>  # String: 'http://www.wkysz.online/handchain/loverlinr/ys_{language}.html' (String)
+==> 000004de: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 56, string_id: 18389>  # String: 'PRIVACY_URL' (Identifier)
+==> 000004e4: <LoadConstString>: <Reg8: 1, string_id: 7801>  # String: 'http://www.wkysz.online/handchain/loverlinr//tartoow_01_{language}.html' (String)
+==> 000004e8: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 58, string_id: 18398>  # String: 'SERVICE_URL' (Identifier)
+==> 000004ee: <LoadConstString>: <Reg8: 1, string_id: 2685>  # String: 'info@tartoow.com' (String)
+==> 000004f2: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 10, string_id: 16892>  # String: 'CONTACT_EMAIL' (Identifier)
+==> 000004f8: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9265 "" of 1058 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x002a0e04
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 5>
+==> 00000002: <CreateClosure>: <Reg8: 3, Reg8: 5, function_id: 9266>  # Function: [#9266 TCPClient of 207 bytes]: 3 params @ offset 0x002a1226
+==> 00000007: <StoreToEnvironment>: <Reg8: 5, UInt8: 0, Reg8: 3>
+==> 0000000b: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000000e: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 4>
+==> 00000012: <GetByIdShort>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 00000017: <NewObject>: <Reg8: 0>
+==> 00000019: <LoadConstString>: <Reg8: 1, string_id: 223>  # String: 'start' (Identifier)
+==> 0000001d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 1, string_id: 172>  # String: 'key' (Identifier)
+==> 00000021: <CreateClosure>: <Reg8: 1, Reg8: 5, function_id: 9267>  # Function: [#9267 start of 71 bytes]: 1 params @ offset 0x002a12f5
+==> 00000026: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 1, string_id: 251>  # String: 'value' (Identifier)
+==> 0000002a: <NewArray>: <Reg8: 1, UInt16: 43>
+==> 0000002e: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 0>
+==> 00000032: <NewObject>: <Reg8: 0>
+==> 00000034: <LoadConstString>: <Reg8: 4, string_id: 13531>  # String: 'stop' (Identifier)
+==> 00000038: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 0000003c: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9269>  # Function: [#9269 stop of 62 bytes]: 1 params @ offset 0x002a1351
+==> 00000041: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 00000045: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 00000049: <NewObject>: <Reg8: 0>
+==> 0000004b: <LoadConstString>: <Reg8: 4, string_id: 30756>  # String: 'updateConnectedState' (Identifier)
+==> 0000004f: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 00000053: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9270>  # Function: [#9270 updateConnectedState of 29 bytes]: 2 params @ offset 0x002a138f
+==> 00000058: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 0000005c: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 2>
+==> 00000060: <NewObject>: <Reg8: 0>
+==> 00000062: <LoadConstString>: <Reg8: 4, string_id: 24796>  # String: 'startHeartBeatTimer' (Identifier)
+==> 00000066: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 0000006a: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9271>  # Function: [#9271 startHeartBeatTimer of 146 bytes]: 1 params @ offset 0x002a13ac
+==> 0000006f: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 00000073: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 3>
+==> 00000077: <NewObject>: <Reg8: 0>
+==> 00000079: <LoadConstString>: <Reg8: 4, string_id: 33273>  # String: 'stopHeartBeatTimer' (Identifier)
+==> 0000007d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 00000081: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9273>  # Function: [#9273 stopHeartBeatTimer of 83 bytes]: 1 params @ offset 0x002a14a3
+==> 00000086: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 0000008a: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 4>
+==> 0000008e: <NewObject>: <Reg8: 0>
+==> 00000090: <LoadConstString>: <Reg8: 4, string_id: 25265>  # String: '_connectAction' (Identifier)
+==> 00000094: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 00000098: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9274>  # Function: [#9274 _connectAction of 236 bytes]: 1 params @ offset 0x002a14f6
+==> 0000009d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 000000a1: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 5>
+==> 000000a5: <NewObject>: <Reg8: 0>
+==> 000000a7: <LoadConstString>: <Reg8: 4, string_id: 25335>  # String: '_disconnectAction' (Identifier)
+==> 000000ab: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 000000af: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9279>  # Function: [#9279 _disconnectAction of 128 bytes]: 1 params @ offset 0x002a16c3
+==> 000000b4: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 000000b8: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 6>
+==> 000000bc: <NewObject>: <Reg8: 0>
+==> 000000be: <LoadConstString>: <Reg8: 4, string_id: 25945>  # String: '_resetAllSettings' (Identifier)
+==> 000000c2: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 000000c6: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9280>  # Function: [#9280 _resetAllSettings of 62 bytes]: 1 params @ offset 0x002a1743
+==> 000000cb: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 000000cf: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 7>
+==> 000000d3: <NewObject>: <Reg8: 0>
+==> 000000d5: <LoadConstString>: <Reg8: 4, string_id: 20420>  # String: '_reconnect' (Identifier)
+==> 000000d9: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 000000dd: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9281>  # Function: [#9281 _reconnect of 114 bytes]: 1 params @ offset 0x002a1781
+==> 000000e2: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 000000e6: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 8>
+==> 000000ea: <NewObject>: <Reg8: 0>
+==> 000000ec: <LoadConstString>: <Reg8: 4, string_id: 216>  # String: 'send' (Identifier)
+==> 000000f0: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 172>  # String: 'key' (Identifier)
+==> 000000f4: <CreateClosure>: <Reg8: 4, Reg8: 5, function_id: 9282>  # Function: [#9282 send of 95 bytes]: 2 params @ offset 0x002a17f3
+==> 000000f9: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 4, string_id: 251>  # String: 'value' (Identifier)
+==> 000000fd: <PutOwnByIndex>: <Reg8: 1, Reg8: 0, UInt8: 9>
+==> 00000101: <NewObject>: <Reg8: 4>
+==> 00000103: <LoadConstString>: <Reg8: 0, string_id: 25876>  # String: '_processQueue' (Identifier)
+==> 00000107: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 0, string_id: 172>  # String: 'key' (Identifier)
+==> 0000010b: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9285>  # Function: [#9285  of 37 bytes]: 1 params @ offset 0x002a197d
+==> 00000110: <LoadConstUndefined>: <Reg8: 0>
+==> 00000112: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 00000116: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000011a: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 10>
+==> 0000011e: <NewObject>: <Reg8: 4>
+==> 00000120: <LoadConstString>: <Reg8: 6, string_id: 19405>  # String: '_handleData' (Identifier)
+==> 00000124: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000128: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9290>  # Function: [#9290 _handleData of 20 bytes]: 2 params @ offset 0x002a1b04
+==> 0000012d: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000131: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 11>
+==> 00000135: <NewObject>: <Reg8: 4>
+==> 00000137: <LoadConstString>: <Reg8: 6, string_id: 20753>  # String: '_parseModel' (Identifier)
+==> 0000013b: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000013f: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9291>  # Function: [#9291 _parseModel of 161 bytes]: 2 params @ offset 0x002a1b18
+==> 00000144: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000148: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 12>
+==> 0000014c: <NewObject>: <Reg8: 4>
+==> 0000014e: <LoadConstString>: <Reg8: 6, string_id: 18984>  # String: '_parseFileList' (Identifier)
+==> 00000152: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000156: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9292>  # Function: [#9292 _parseFileList of 728 bytes]: 3 params @ offset 0x002a1bb9
+==> 0000015b: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000015f: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 13>
+==> 00000163: <NewObject>: <Reg8: 4>
+==> 00000165: <LoadConstString>: <Reg8: 6, string_id: 25846>  # String: '_parseNotify' (Identifier)
+==> 00000169: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000016d: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9293>  # Function: [#9293 _parseNotify of 385 bytes]: 2 params @ offset 0x002a1e91
+==> 00000172: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000176: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 14>
+==> 0000017a: <NewObject>: <Reg8: 4>
+==> 0000017c: <LoadConstString>: <Reg8: 6, string_id: 19472>  # String: 'heartBeat' (Identifier)
+==> 00000180: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000184: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9294>  # Function: [#9294 heartBeat of 22 bytes]: 1 params @ offset 0x002a2012
+==> 00000189: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000018d: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 15>
+==> 00000191: <NewObject>: <Reg8: 4>
+==> 00000193: <LoadConstString>: <Reg8: 6, string_id: 16395>  # String: 'deleteFile' (Identifier)
+==> 00000197: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000019b: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9295>  # Function: [#9295  of 37 bytes]: 1 params @ offset 0x002a2028
+==> 000001a0: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 000001a4: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000001a8: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 16>
+==> 000001ac: <NewObject>: <Reg8: 4>
+==> 000001ae: <LoadConstString>: <Reg8: 6, string_id: 13517>  # String: 'formatSDCard' (Identifier)
+==> 000001b2: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000001b6: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9301>  # Function: [#9301  of 37 bytes]: 1 params @ offset 0x002a21d4
+==> 000001bb: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 000001bf: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000001c3: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 17>
+==> 000001c7: <NewObject>: <Reg8: 4>
+==> 000001c9: <LoadConstString>: <Reg8: 6, string_id: 16397>  # String: 'playFile' (Identifier)
+==> 000001cd: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000001d1: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9305>  # Function: [#9305 playFile of 183 bytes]: 2 params @ offset 0x002a2279
+==> 000001d6: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000001da: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 18>
+==> 000001de: <NewObject>: <Reg8: 4>
+==> 000001e0: <LoadConstString>: <Reg8: 6, string_id: 23239>  # String: 'playPrevious' (Identifier)
+==> 000001e4: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000001e8: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9307>  # Function: [#9307 playPrevious of 22 bytes]: 1 params @ offset 0x002a2330
+==> 000001ed: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000001f1: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 19>
+==> 000001f5: <NewObject>: <Reg8: 4>
+==> 000001f7: <LoadConstString>: <Reg8: 6, string_id: 8125>  # String: 'playNext' (String)
+==> 000001fb: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000001ff: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9308>  # Function: [#9308 playNext of 22 bytes]: 1 params @ offset 0x002a2346
+==> 00000204: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000208: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 20>
+==> 0000020c: <NewObject>: <Reg8: 4>
+==> 0000020e: <LoadConstString>: <Reg8: 6, string_id: 13722>  # String: 'playPause' (Identifier)
+==> 00000212: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000216: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9309>  # Function: [#9309 playPause of 22 bytes]: 1 params @ offset 0x002a235c
+==> 0000021b: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000021f: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 21>
+==> 00000223: <NewObject>: <Reg8: 4>
+==> 00000225: <LoadConstString>: <Reg8: 6, string_id: 33225>  # String: 'playPlay' (Identifier)
+==> 00000229: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000022d: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9310>  # Function: [#9310 playPlay of 22 bytes]: 1 params @ offset 0x002a2372
+==> 00000232: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000236: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 22>
+==> 0000023a: <NewObject>: <Reg8: 4>
+==> 0000023c: <LoadConstString>: <Reg8: 6, string_id: 13714>  # String: 'bytesToHex' (Identifier)
+==> 00000240: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000244: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9311>  # Function: [#9311 bytesToHex of 36 bytes]: 2 params @ offset 0x002a2388
+==> 00000249: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000024d: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 23>
+==> 00000251: <NewObject>: <Reg8: 4>
+==> 00000253: <LoadConstString>: <Reg8: 6, string_id: 15951>  # String: 'playLoopMode' (Identifier)
+==> 00000257: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000025b: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9313>  # Function: [#9313  of 37 bytes]: 1 params @ offset 0x002a23ac
+==> 00000260: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 00000264: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000268: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 24>
+==> 0000026c: <NewObject>: <Reg8: 4>
+==> 0000026e: <LoadConstString>: <Reg8: 6, string_id: 14482>  # String: 'open' (Identifier)
+==> 00000272: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000276: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9317>  # Function: [#9317  of 37 bytes]: 1 params @ offset 0x002a24b8
+==> 0000027b: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 0000027f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000283: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 25>
+==> 00000287: <NewObject>: <Reg8: 4>
+==> 00000289: <LoadConstString>: <Reg8: 6, string_id: 16703>  # String: 'shutdown' (Identifier)
+==> 0000028d: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000291: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9321>  # Function: [#9321  of 37 bytes]: 1 params @ offset 0x002a2520
+==> 00000296: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 0000029a: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000029e: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 26>
+==> 000002a2: <NewObject>: <Reg8: 4>
+==> 000002a4: <LoadConstString>: <Reg8: 6, string_id: 14950>  # String: 'bleSwitch' (Identifier)
+==> 000002a8: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000002ac: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9325>  # Function: [#9325  of 37 bytes]: 1 params @ offset 0x002a258a
+==> 000002b1: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 000002b5: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000002b9: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 27>
+==> 000002bd: <NewObject>: <Reg8: 4>
+==> 000002bf: <LoadConstString>: <Reg8: 6, string_id: 7015>  # String: '_waitSendFileInfoAck' (String)
+==> 000002c3: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000002c7: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9329>  # Function: [#9329 _waitSendFileInfoAck of 84 bytes]: 1 params @ offset 0x002a264c
+==> 000002cc: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000002d0: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 28>
+==> 000002d4: <NewObject>: <Reg8: 4>
+==> 000002d6: <LoadConstString>: <Reg8: 6, string_id: 7017>  # String: '_waitSendPackagesIntervalAck' (String)
+==> 000002da: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000002de: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9333>  # Function: [#9333 _waitSendPackagesIntervalAck of 84 bytes]: 1 params @ offset 0x002a279c
+==> 000002e3: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000002e7: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 29>
+==> 000002eb: <NewObject>: <Reg8: 4>
+==> 000002ed: <LoadConstString>: <Reg8: 6, string_id: 6870>  # String: '_disconnectUploadSocket' (String)
+==> 000002f1: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000002f5: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9337>  # Function: [#9337 _disconnectUploadSocket of 51 bytes]: 2 params @ offset 0x002a28ec
+==> 000002fa: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000002fe: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 30>
+==> 00000302: <NewObject>: <Reg8: 4>
+==> 00000304: <LoadConstString>: <Reg8: 6, string_id: 5995>  # String: '_connectUploadSocket' (String)
+==> 00000308: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000030c: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9338>  # Function: [#9338 _connectUploadSocket of 93 bytes]: 3 params @ offset 0x002a291f
+==> 00000311: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000315: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 31>
+==> 00000319: <NewObject>: <Reg8: 4>
+==> 0000031b: <LoadConstString>: <Reg8: 6, string_id: 19100>  # String: 'uploadFile' (Identifier)
+==> 0000031f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000323: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9344>  # Function: [#9344  of 37 bytes]: 1 params @ offset 0x002a2c0e
+==> 00000328: <Call1>: <Reg8: 6, Reg8: 6, Reg8: 0>
+==> 0000032c: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000330: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 32>
+==> 00000334: <NewObject>: <Reg8: 4>
+==> 00000336: <LoadConstString>: <Reg8: 6, string_id: 18875>  # String: 'setOnConnectChangedBlock' (Identifier)
+==> 0000033a: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000033e: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9350>  # Function: [#9350 setOnConnectChangedBlock of 15 bytes]: 2 params @ offset 0x002a2fd8
+==> 00000343: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000347: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 33>
+==> 0000034b: <NewObject>: <Reg8: 4>
+==> 0000034d: <LoadConstString>: <Reg8: 6, string_id: 23841>  # String: 'setOnUpdateFileListBlock' (Identifier)
+==> 00000351: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000355: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9351>  # Function: [#9351 setOnUpdateFileListBlock of 15 bytes]: 2 params @ offset 0x002a2fe7
+==> 0000035a: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000035e: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 34>
+==> 00000362: <NewObject>: <Reg8: 4>
+==> 00000364: <LoadConstString>: <Reg8: 6, string_id: 16049>  # String: 'getFileList' (Identifier)
+==> 00000368: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000036c: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9352>  # Function: [#9352 getFileList of 10 bytes]: 1 params @ offset 0x002a2ff6
+==> 00000371: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 00000375: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 35>
+==> 00000379: <NewObject>: <Reg8: 4>
+==> 0000037b: <LoadConstString>: <Reg8: 6, string_id: 8758>  # String: 'getPlayingFileInfo' (String)
+==> 0000037f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 00000383: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9353>  # Function: [#9353 getPlayingFileInfo of 32 bytes]: 1 params @ offset 0x002a3000
+==> 00000388: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 0000038c: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 36>
+==> 00000390: <NewObject>: <Reg8: 4>
+==> 00000392: <LoadConstString>: <Reg8: 6, string_id: 8687>  # String: 'getIsPlaying' (String)
+==> 00000396: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000039a: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9355>  # Function: [#9355 getIsPlaying of 10 bytes]: 1 params @ offset 0x002a303b
+==> 0000039f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000003a3: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 37>
+==> 000003a7: <NewObject>: <Reg8: 4>
+==> 000003a9: <LoadConstString>: <Reg8: 6, string_id: 31155>  # String: 'getIsLoopAll' (Identifier)
+==> 000003ad: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000003b1: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9356>  # Function: [#9356 getIsLoopAll of 10 bytes]: 1 params @ offset 0x002a3045
+==> 000003b6: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000003ba: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 38>
+==> 000003be: <NewObject>: <Reg8: 4>
+==> 000003c0: <LoadConstString>: <Reg8: 6, string_id: 32531>  # String: 'getIsOpen' (Identifier)
+==> 000003c4: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000003c8: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9357>  # Function: [#9357 getIsOpen of 10 bytes]: 1 params @ offset 0x002a304f
+==> 000003cd: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000003d1: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 39>
+==> 000003d5: <NewObject>: <Reg8: 4>
+==> 000003d7: <LoadConstString>: <Reg8: 6, string_id: 22049>  # String: 'getBleIsOpen' (Identifier)
+==> 000003db: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000003df: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9358>  # Function: [#9358 getBleIsOpen of 10 bytes]: 1 params @ offset 0x002a3059
+==> 000003e4: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000003e8: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 40>
+==> 000003ec: <NewObject>: <Reg8: 4>
+==> 000003ee: <LoadConstString>: <Reg8: 6, string_id: 31243>  # String: 'getIsConnected' (Identifier)
+==> 000003f2: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 000003f6: <CreateClosure>: <Reg8: 6, Reg8: 5, function_id: 9359>  # Function: [#9359 getIsConnected of 10 bytes]: 1 params @ offset 0x002a3063
+==> 000003fb: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 251>  # String: 'value' (Identifier)
+==> 000003ff: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 41>
+==> 00000403: <NewObject>: <Reg8: 4>
+==> 00000405: <LoadConstString>: <Reg8: 6, string_id: 32340>  # String: 'getModel' (Identifier)
+==> 00000409: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 6, string_id: 172>  # String: 'key' (Identifier)
+==> 0000040d: <CreateClosure>: <Reg8: 5, Reg8: 5, function_id: 9360>  # Function: [#9360 getModel of 9 bytes]: 1 params @ offset 0x002a306d
+==> 00000412: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 5, string_id: 251>  # String: 'value' (Identifier)
+==> 00000416: <PutOwnByIndex>: <Reg8: 1, Reg8: 4, UInt8: 42>
+==> 0000041a: <Call3>: <Reg8: 0, Reg8: 2, Reg8: 0, Reg8: 3, Reg8: 1>
+==> 00000420: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9266 "TCPClient" of 207 bytes]: 3 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a1226
+
+Bytecode listing:
+
+==> 00000000: <LoadThisNS>: <Reg8: 2>
+==> 00000002: <LoadConstUndefined>: <Reg8: 0>
+==> 00000004: <LoadConstUndefined>: <Reg8: 3>
+==> 00000006: <GetArgumentsLength>: <Reg8: 4, Reg8: 3>
+==> 00000009: <LoadConstUInt8>: <Reg8: 1, UInt8: 2>
+==> 0000000c: <JNotGreater>: <Addr8: 16, Reg8: 4, Reg8: 1>  # Address: 0000001c
+==> 00000010: <GetArgumentsPropByVal>: <Reg8: 4, Reg8: 1, Reg8: 3>
+==> 00000014: <JStrictEqual>: <Addr8: 8, Reg8: 4, Reg8: 0>  # Address: 0000001c
+==> 00000018: <GetArgumentsPropByVal>: <Reg8: 1, Reg8: 1, Reg8: 3>
+==> 0000001c: <GetEnvironment>: <Reg8: 1, UInt8: 1>
+==> 0000001f: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 3>
+==> 00000023: <GetByIdShort>: <Reg8: 3, Reg8: 1, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 00000028: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 0000002b: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 0>
+==> 0000002f: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 2, Reg8: 1>
+==> 00000035: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000038: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 13954>  # String: 'host' (Identifier)
+==> 0000003e: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 00000041: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 2, string_id: 13092>  # String: 'port' (Identifier)
+==> 00000047: <LoadConstNull>: <Reg8: 1>
+==> 00000049: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 3, string_id: 18589>  # String: 'socket' (Identifier)
+==> 0000004f: <LoadConstFalse>: <Reg8: 3>
+==> 00000051: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 4, string_id: 13720>  # String: 'connected' (Identifier)
+==> 00000057: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 5, string_id: 24769>  # String: 'manualDisconnect' (Identifier)
+==> 0000005d: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 6, string_id: 19470>  # String: '_heartBeatTimer' (Identifier)
+==> 00000063: <LoadConstZero>: <Reg8: 4>
+==> 00000065: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 7, string_id: 33693>  # String: 'lastHeartBeatTs' (Identifier)
+==> 0000006b: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 8, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)
+==> 00000071: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 9, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)
+==> 00000077: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 10, string_id: 12674>  # String: 'onConnectChangedBlock' (Identifier)
+==> 0000007d: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 11, string_id: 19049>  # String: 'onUpdateFileListBlock' (Identifier)
+==> 00000083: <NewArray>: <Reg8: 5, UInt16: 0>
+==> 00000087: <PutById>: <Reg8: 2, Reg8: 5, UInt8: 12, string_id: 27691>  # String: 'sendQueue' (Identifier)
+==> 0000008d: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 13, string_id: 32329>  # String: 'isSending' (Identifier)
+==> 00000093: <NewArray>: <Reg8: 5, UInt16: 0>
+==> 00000097: <PutById>: <Reg8: 2, Reg8: 5, UInt8: 14, string_id: 21202>  # String: 'fileList' (Identifier)
+==> 0000009d: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 15, string_id: 16513>  # String: 'playingFileIndex' (Identifier)
+==> 000000a3: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 16, string_id: 31477>  # String: 'isPlaying' (Identifier)
+==> 000000a9: <LoadConstTrue>: <Reg8: 4>
+==> 000000ab: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 17, string_id: 33527>  # String: 'isLoopAll' (Identifier)
+==> 000000b1: <PutById>: <Reg8: 2, Reg8: 4, UInt8: 18, string_id: 33547>  # String: 'isOpen' (Identifier)
+==> 000000b7: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 19, string_id: 33465>  # String: 'isBleOpen' (Identifier)
+==> 000000bd: <LoadConstString>: <Reg8: 3, string_id: 17373>  # String: 'F1' (Identifier)
+==> 000000c1: <PutById>: <Reg8: 2, Reg8: 3, UInt8: 20, string_id: 183>  # String: 'model' (Identifier)
+==> 000000c7: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 21, string_id: 20172>  # String: 'checkConnectTimer' (Identifier)
+==> 000000cd: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9290 "_handleData" of 20 bytes]: 2 params, frame size=11, strict=0, exc handler=0, debug info=0  @ offset 0x002a1b04
+
+Bytecode listing:
+
+==> 00000000: <LoadThisNS>: <Reg8: 2>
+==> 00000002: <GetById>: <Reg8: 1, Reg8: 2, UInt8: 1, string_id: 25846>  # String: '_parseNotify' (Identifier)
+==> 00000008: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 0000000b: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 00000010: <LoadConstUndefined>: <Reg8: 0>
+==> 00000012: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9329 "_waitSendFileInfoAck" of 84 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a264c
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 0>
+==> 00000002: <LoadConstUndefined>: <Reg8: 5>
+==> 00000004: <LoadConstUndefined>: <Reg8: 3>
+==> 00000006: <LoadThisNS>: <Reg8: 1>
+==> 00000008: <StoreToEnvironment>: <Reg8: 0, UInt8: 0, Reg8: 1>
+==> 0000000c: <GetArgumentsLength>: <Reg8: 1, Reg8: 3>
+==> 0000000f: <LoadConstZero>: <Reg8: 2>
+==> 00000011: <Greater>: <Reg8: 4, Reg8: 1, Reg8: 2>
+==> 00000015: <LoadConstUInt8>: <Reg8: 6, UInt8: 5>
+==> 00000018: <Mov>: <Reg8: 1, Reg8: 6>
+==> 0000001b: <JmpFalse>: <Addr8: 18, Reg8: 4>  # Address: 0000002d
+==> 0000001e: <GetArgumentsPropByVal>: <Reg8: 4, Reg8: 2, Reg8: 3>
+==> 00000022: <Mov>: <Reg8: 1, Reg8: 6>
+==> 00000025: <JStrictEqual>: <Addr8: 8, Reg8: 4, Reg8: 5>  # Address: 0000002d
+==> 00000029: <GetArgumentsPropByVal>: <Reg8: 1, Reg8: 2, Reg8: 3>
+==> 0000002d: <StoreToEnvironment>: <Reg8: 0, UInt8: 1, Reg8: 1>
+==> 00000031: <GetGlobalObject>: <Reg8: 1>
+==> 00000033: <TryGetById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 39>  # String: 'Promise' (Identifier)
+==> 00000039: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 149>  # String: 'prototype' (Identifier)
+==> 0000003e: <CreateThis>: <Reg8: 1, Reg8: 1, Reg8: 2>
+==> 00000042: <CreateClosure>: <Reg8: 7, Reg8: 0, function_id: 9330>  # Function: [#9330  of 84 bytes]: 3 params @ offset 0x002a26a0
+==> 00000047: <Mov>: <Reg8: 8, Reg8: 1>
+==> 0000004a: <Construct>: <Reg8: 0, Reg8: 2, UInt8: 2>
+==> 0000004e: <SelectObject>: <Reg8: 0, Reg8: 1, Reg8: 0>
+==> 00000052: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9330 "" of 84 bytes]: 3 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a26a0
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 2>
+==> 00000002: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000005: <StoreToEnvironment>: <Reg8: 2, UInt8: 0, Reg8: 0>
+==> 00000009: <LoadParam>: <Reg8: 0, UInt8: 2>
+==> 0000000c: <StoreToEnvironment>: <Reg8: 2, UInt8: 1, Reg8: 0>
+==> 00000010: <GetGlobalObject>: <Reg8: 1>
+==> 00000012: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 218>  # String: 'setTimeout' (Identifier)
+==> 00000018: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000001b: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 1>
+==> 0000001f: <LoadConstInt>: <Reg8: 0, Imm32: 1000>
+==> 00000025: <Mul>: <Reg8: 4, Reg8: 0, Reg8: 3>
+==> 00000029: <LoadConstUndefined>: <Reg8: 0>
+==> 0000002b: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9331>  # Function: [#9331  of 91 bytes]: 1 params @ offset 0x002a26f4
+==> 00000030: <Call3>: <Reg8: 3, Reg8: 5, Reg8: 0, Reg8: 3, Reg8: 4>
+==> 00000036: <StoreToEnvironment>: <Reg8: 2, UInt8: 2, Reg8: 3>
+==> 0000003a: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 22588>  # String: 'setInterval' (Identifier)
+==> 00000040: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9332>  # Function: [#9332  of 77 bytes]: 1 params @ offset 0x002a274f
+==> 00000045: <LoadConstUInt8>: <Reg8: 1, UInt8: 1>
+==> 00000048: <Call3>: <Reg8: 1, Reg8: 4, Reg8: 0, Reg8: 3, Reg8: 1>
+==> 0000004e: <StoreToEnvironment>: <Reg8: 2, UInt8: 3, Reg8: 1>
+==> 00000052: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9331 "" of 91 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x002a26f4
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 1>
+==> 00000002: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 1, string_id: 24082>  # String: 'clearInterval' (Identifier)
+==> 00000008: <GetEnvironment>: <Reg8: 2, UInt8: 0>
+==> 0000000b: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 3>
+==> 0000000f: <LoadConstUndefined>: <Reg8: 0>
+==> 00000011: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 0, Reg8: 3>
+==> 00000016: <LoadFromEnvironment>: <Reg8: 2, Reg8: 2, UInt8: 1>
+==> 0000001a: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 20>  # String: 'Error' (Identifier)
+==> 00000020: <GetEnvironment>: <Reg8: 3, UInt8: 1>
+==> 00000023: <LoadFromEnvironment>: <Reg8: 6, Reg8: 3, UInt8: 1>
+==> 00000027: <TryGetById>: <Reg8: 1, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000002d: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000032: <LoadConstString>: <Reg8: 3, string_id: 6173>  # String: 'Timeout: No ACK received within ' (String)
+==> 00000036: <LoadConstString>: <Reg8: 1, string_id: 1391>  # String: ' seconds' (String)
+==> 0000003a: <Call3>: <Reg8: 8, Reg8: 5, Reg8: 3, Reg8: 6, Reg8: 1>
+==> 00000040: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 5, string_id: 149>  # String: 'prototype' (Identifier)
+==> 00000045: <CreateThis>: <Reg8: 3, Reg8: 3, Reg8: 4>
+==> 00000049: <Mov>: <Reg8: 9, Reg8: 3>
+==> 0000004c: <Construct>: <Reg8: 1, Reg8: 4, UInt8: 2>
+==> 00000050: <SelectObject>: <Reg8: 1, Reg8: 3, Reg8: 1>
+==> 00000054: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000059: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9332 "" of 77 bytes]: 1 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x002a274f
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 2, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 2, UInt8: 0>
+==> 00000007: <GetById>: <Reg8: 0, Reg8: 0, UInt8: 1, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)
+==> 0000000d: <JmpFalse>: <Addr8: 60, Reg8: 0>  # Address: 00000049
+==> 00000010: <GetGlobalObject>: <Reg8: 3>
+==> 00000012: <TryGetById>: <Reg8: 5, Reg8: 3, UInt8: 2, string_id: 24082>  # String: 'clearInterval' (Identifier)
+==> 00000018: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000001b: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 3>
+==> 0000001f: <LoadConstUndefined>: <Reg8: 1>
+==> 00000021: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 1, Reg8: 4>
+==> 00000026: <TryGetById>: <Reg8: 4, Reg8: 3, UInt8: 3, string_id: 16461>  # String: 'clearTimeout' (Identifier)
+==> 0000002c: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 2>
+==> 00000030: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 1, Reg8: 3>
+==> 00000035: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 0>
+==> 00000039: <LoadConstFalse>: <Reg8: 2>
+==> 0000003b: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 25915>  # String: '_recvAckOfSendFileInfo' (Identifier)
+==> 00000041: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 0>
+==> 00000045: <Call1>: <Reg8: 0, Reg8: 0, Reg8: 1>
+==> 00000049: <LoadConstUndefined>: <Reg8: 0>
+==> 0000004b: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9333 "_waitSendPackagesIntervalAck" of 84 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a279c
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 0>
+==> 00000002: <LoadConstUndefined>: <Reg8: 5>
+==> 00000004: <LoadConstUndefined>: <Reg8: 3>
+==> 00000006: <LoadThisNS>: <Reg8: 1>
+==> 00000008: <StoreToEnvironment>: <Reg8: 0, UInt8: 0, Reg8: 1>
+==> 0000000c: <GetArgumentsLength>: <Reg8: 1, Reg8: 3>
+==> 0000000f: <LoadConstZero>: <Reg8: 2>
+==> 00000011: <Greater>: <Reg8: 4, Reg8: 1, Reg8: 2>
+==> 00000015: <LoadConstUInt8>: <Reg8: 6, UInt8: 5>
+==> 00000018: <Mov>: <Reg8: 1, Reg8: 6>
+==> 0000001b: <JmpFalse>: <Addr8: 18, Reg8: 4>  # Address: 0000002d
+==> 0000001e: <GetArgumentsPropByVal>: <Reg8: 4, Reg8: 2, Reg8: 3>
+==> 00000022: <Mov>: <Reg8: 1, Reg8: 6>
+==> 00000025: <JStrictEqual>: <Addr8: 8, Reg8: 4, Reg8: 5>  # Address: 0000002d
+==> 00000029: <GetArgumentsPropByVal>: <Reg8: 1, Reg8: 2, Reg8: 3>
+==> 0000002d: <StoreToEnvironment>: <Reg8: 0, UInt8: 1, Reg8: 1>
+==> 00000031: <GetGlobalObject>: <Reg8: 1>
+==> 00000033: <TryGetById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 39>  # String: 'Promise' (Identifier)
+==> 00000039: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 149>  # String: 'prototype' (Identifier)
+==> 0000003e: <CreateThis>: <Reg8: 1, Reg8: 1, Reg8: 2>
+==> 00000042: <CreateClosure>: <Reg8: 7, Reg8: 0, function_id: 9334>  # Function: [#9334  of 84 bytes]: 3 params @ offset 0x002a27f0
+==> 00000047: <Mov>: <Reg8: 8, Reg8: 1>
+==> 0000004a: <Construct>: <Reg8: 0, Reg8: 2, UInt8: 2>
+==> 0000004e: <SelectObject>: <Reg8: 0, Reg8: 1, Reg8: 0>
+==> 00000052: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9334 "" of 84 bytes]: 3 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a27f0
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 2>
+==> 00000002: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000005: <StoreToEnvironment>: <Reg8: 2, UInt8: 0, Reg8: 0>
+==> 00000009: <LoadParam>: <Reg8: 0, UInt8: 2>
+==> 0000000c: <StoreToEnvironment>: <Reg8: 2, UInt8: 1, Reg8: 0>
+==> 00000010: <GetGlobalObject>: <Reg8: 1>
+==> 00000012: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 218>  # String: 'setTimeout' (Identifier)
+==> 00000018: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000001b: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 1>
+==> 0000001f: <LoadConstInt>: <Reg8: 0, Imm32: 1000>
+==> 00000025: <Mul>: <Reg8: 4, Reg8: 0, Reg8: 3>
+==> 00000029: <LoadConstUndefined>: <Reg8: 0>
+==> 0000002b: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9335>  # Function: [#9335  of 91 bytes]: 1 params @ offset 0x002a2844
+==> 00000030: <Call3>: <Reg8: 3, Reg8: 5, Reg8: 0, Reg8: 3, Reg8: 4>
+==> 00000036: <StoreToEnvironment>: <Reg8: 2, UInt8: 2, Reg8: 3>
+==> 0000003a: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 22588>  # String: 'setInterval' (Identifier)
+==> 00000040: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9336>  # Function: [#9336  of 77 bytes]: 1 params @ offset 0x002a289f
+==> 00000045: <LoadConstUInt8>: <Reg8: 1, UInt8: 1>
+==> 00000048: <Call3>: <Reg8: 1, Reg8: 4, Reg8: 0, Reg8: 3, Reg8: 1>
+==> 0000004e: <StoreToEnvironment>: <Reg8: 2, UInt8: 3, Reg8: 1>
+==> 00000052: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9335 "" of 91 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x002a2844
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 1>
+==> 00000002: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 1, string_id: 24082>  # String: 'clearInterval' (Identifier)
+==> 00000008: <GetEnvironment>: <Reg8: 2, UInt8: 0>
+==> 0000000b: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 3>
+==> 0000000f: <LoadConstUndefined>: <Reg8: 0>
+==> 00000011: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 0, Reg8: 3>
+==> 00000016: <LoadFromEnvironment>: <Reg8: 2, Reg8: 2, UInt8: 1>
+==> 0000001a: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 20>  # String: 'Error' (Identifier)
+==> 00000020: <GetEnvironment>: <Reg8: 3, UInt8: 1>
+==> 00000023: <LoadFromEnvironment>: <Reg8: 6, Reg8: 3, UInt8: 1>
+==> 00000027: <TryGetById>: <Reg8: 1, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000002d: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000032: <LoadConstString>: <Reg8: 3, string_id: 6174>  # String: 'Timeout: No packages interval ACK received within ' (String)
+==> 00000036: <LoadConstString>: <Reg8: 1, string_id: 1391>  # String: ' seconds' (String)
+==> 0000003a: <Call3>: <Reg8: 8, Reg8: 5, Reg8: 3, Reg8: 6, Reg8: 1>
+==> 00000040: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 5, string_id: 149>  # String: 'prototype' (Identifier)
+==> 00000045: <CreateThis>: <Reg8: 3, Reg8: 3, Reg8: 4>
+==> 00000049: <Mov>: <Reg8: 9, Reg8: 3>
+==> 0000004c: <Construct>: <Reg8: 1, Reg8: 4, UInt8: 2>
+==> 00000050: <SelectObject>: <Reg8: 1, Reg8: 3, Reg8: 1>
+==> 00000054: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000059: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9336 "" of 77 bytes]: 1 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x002a289f
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 2, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 2, UInt8: 0>
+==> 00000007: <GetById>: <Reg8: 0, Reg8: 0, UInt8: 1, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)
+==> 0000000d: <JmpFalse>: <Addr8: 60, Reg8: 0>  # Address: 00000049
+==> 00000010: <GetGlobalObject>: <Reg8: 3>
+==> 00000012: <TryGetById>: <Reg8: 5, Reg8: 3, UInt8: 2, string_id: 24082>  # String: 'clearInterval' (Identifier)
+==> 00000018: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000001b: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 3>
+==> 0000001f: <LoadConstUndefined>: <Reg8: 1>
+==> 00000021: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 1, Reg8: 4>
+==> 00000026: <TryGetById>: <Reg8: 4, Reg8: 3, UInt8: 3, string_id: 16461>  # String: 'clearTimeout' (Identifier)
+==> 0000002c: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 2>
+==> 00000030: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 1, Reg8: 3>
+==> 00000035: <LoadFromEnvironment>: <Reg8: 3, Reg8: 2, UInt8: 0>
+==> 00000039: <LoadConstFalse>: <Reg8: 2>
+==> 0000003b: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 25910>  # String: '_recvAckOfIntervalPkgs' (Identifier)
+==> 00000041: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 0>
+==> 00000045: <Call1>: <Reg8: 0, Reg8: 0, Reg8: 1>
+==> 00000049: <LoadConstUndefined>: <Reg8: 0>
+==> 0000004b: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9337 "_disconnectUploadSocket" of 51 bytes]: 2 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x002a28ec
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000003: <JmpFalse>: <Addr8: 44, Reg8: 1>  # Address: 0000002f
+==> 00000006: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000009: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 0000000d: <GetByIdShort>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 00000012: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 00000017: <LoadConstString>: <Reg8: 2, string_id: 1216>  # String: 'TCPClient' (String)
+==> 0000001b: <LoadConstString>: <Reg8: 0, string_id: 12440>  # String: '🔴 Disconnecting upload socket...' (String)
+==> 0000001f: <Call3>: <Reg8: 0, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 0>
+==> 00000025: <GetById>: <Reg8: 0, Reg8: 1, UInt8: 3, string_id: 13925>  # String: 'destroy' (Identifier)
+==> 0000002b: <Call1>: <Reg8: 0, Reg8: 0, Reg8: 1>
+==> 0000002f: <LoadConstUndefined>: <Reg8: 0>
+==> 00000031: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9338 "_connectUploadSocket" of 93 bytes]: 3 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a291f
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 0>
+==> 00000002: <LoadConstUndefined>: <Reg8: 5>
+==> 00000004: <LoadConstUndefined>: <Reg8: 3>
+==> 00000006: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000009: <StoreToEnvironment>: <Reg8: 0, UInt8: 0, Reg8: 1>
+==> 0000000d: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 00000010: <StoreToEnvironment>: <Reg8: 0, UInt8: 1, Reg8: 1>
+==> 00000014: <GetArgumentsLength>: <Reg8: 1, Reg8: 3>
+==> 00000017: <LoadConstUInt8>: <Reg8: 2, UInt8: 2>
+==> 0000001a: <Greater>: <Reg8: 4, Reg8: 1, Reg8: 2>
+==> 0000001e: <LoadConstUInt8>: <Reg8: 6, UInt8: 5>
+==> 00000021: <Mov>: <Reg8: 1, Reg8: 6>
+==> 00000024: <JmpFalse>: <Addr8: 18, Reg8: 4>  # Address: 00000036
+==> 00000027: <GetArgumentsPropByVal>: <Reg8: 4, Reg8: 2, Reg8: 3>
+==> 0000002b: <Mov>: <Reg8: 1, Reg8: 6>
+==> 0000002e: <JStrictEqual>: <Addr8: 8, Reg8: 4, Reg8: 5>  # Address: 00000036
+==> 00000032: <GetArgumentsPropByVal>: <Reg8: 1, Reg8: 2, Reg8: 3>
+==> 00000036: <StoreToEnvironment>: <Reg8: 0, UInt8: 2, Reg8: 1>
+==> 0000003a: <GetGlobalObject>: <Reg8: 1>
+==> 0000003c: <TryGetById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 39>  # String: 'Promise' (Identifier)
+==> 00000042: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 2, string_id: 149>  # String: 'prototype' (Identifier)
+==> 00000047: <CreateThis>: <Reg8: 1, Reg8: 1, Reg8: 2>
+==> 0000004b: <CreateClosure>: <Reg8: 7, Reg8: 0, function_id: 9339>  # Function: [#9339  of 224 bytes]: 3 params @ offset 0x002a297c
+==> 00000050: <Mov>: <Reg8: 8, Reg8: 1>
+==> 00000053: <Construct>: <Reg8: 0, Reg8: 2, UInt8: 2>
+==> 00000057: <SelectObject>: <Reg8: 0, Reg8: 1, Reg8: 0>
+==> 0000005b: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9339 "" of 224 bytes]: 3 params, frame size=23, strict=0, exc handler=0, debug info=0  @ offset 0x002a297c
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 2>
+==> 00000002: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000005: <StoreToEnvironment>: <Reg8: 2, UInt8: 0, Reg8: 0>
+==> 00000009: <LoadParam>: <Reg8: 0, UInt8: 2>
+==> 0000000c: <StoreToEnvironment>: <Reg8: 2, UInt8: 1, Reg8: 0>
+==> 00000010: <GetEnvironment>: <Reg8: 4, UInt8: 2>
+==> 00000013: <LoadFromEnvironment>: <Reg8: 0, Reg8: 4, UInt8: 5>
+==> 00000017: <GetByIdShort>: <Reg8: 9, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000001c: <GetByIdShort>: <Reg8: 8, Reg8: 9, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 00000021: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000024: <LoadFromEnvironment>: <Reg8: 7, Reg8: 0, UInt8: 0>
+==> 00000028: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 1>
+==> 0000002c: <GetGlobalObject>: <Reg8: 1>
+==> 0000002e: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 00000034: <GetByIdShort>: <Reg8: 11, Reg8: 5, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000039: <LoadConstString>: <Reg8: 16, string_id: 12437>  # String: '🔌 Connecting to upload ' (String)
+==> 0000003d: <LoadConstString>: <Reg8: 14, string_id: 12946>  # String: ':' (Identifier)
+==> 00000041: <LoadConstString>: <Reg8: 12, string_id: 754>  # String: '...' (String)
+==> 00000045: <Mov>: <Reg8: 15, Reg8: 7>
+==> 00000048: <Mov>: <Reg8: 13, Reg8: 3>
+==> 0000004b: <Call>: <Reg8: 6, Reg8: 11, UInt8: 5>
+==> 0000004f: <LoadConstString>: <Reg8: 5, string_id: 1216>  # String: 'TCPClient' (String)
+==> 00000053: <Call3>: <Reg8: 5, Reg8: 8, Reg8: 9, Reg8: 5, Reg8: 6>
+==> 00000059: <LoadConstNull>: <Reg8: 5>
+==> 0000005b: <StoreNPToEnvironment>: <Reg8: 2, UInt8: 2, Reg8: 5>
+==> 0000005f: <LoadConstFalse>: <Reg8: 5>
+==> 00000061: <StoreNPToEnvironment>: <Reg8: 2, UInt8: 3, Reg8: 5>
+==> 00000065: <LoadFromEnvironment>: <Reg8: 4, Reg8: 4, UInt8: 6>
+==> 00000069: <GetByIdShort>: <Reg8: 6, Reg8: 4, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000006e: <GetById>: <Reg8: 5, Reg8: 6, UInt8: 5, string_id: 15814>  # String: 'createConnection' (Identifier)
+==> 00000074: <NewObject>: <Reg8: 4>
+==> 00000076: <PutNewOwnById>: <Reg8: 4, Reg8: 7, string_id: 13954>  # String: 'host' (Identifier)
+==> 0000007b: <PutNewOwnById>: <Reg8: 4, Reg8: 3, string_id: 13092>  # String: 'port' (Identifier)
+==> 00000080: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9340>  # Function: [#9340  of 74 bytes]: 1 params @ offset 0x002a2a5c
+==> 00000085: <Call3>: <Reg8: 6, Reg8: 5, Reg8: 6, Reg8: 4, Reg8: 3>
+==> 0000008b: <StoreToEnvironment>: <Reg8: 2, UInt8: 4, Reg8: 6>
+==> 0000008f: <GetById>: <Reg8: 5, Reg8: 6, UInt8: 6, string_id: 12612>  # String: 'on' (Identifier)
+==> 00000095: <LoadConstString>: <Reg8: 4, string_id: 135>  # String: 'error' (Identifier)
+==> 00000099: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9341>  # Function: [#9341  of 127 bytes]: 2 params @ offset 0x002a2aa6
+==> 0000009e: <Call3>: <Reg8: 3, Reg8: 5, Reg8: 6, Reg8: 4, Reg8: 3>
+==> 000000a4: <GetById>: <Reg8: 5, Reg8: 6, UInt8: 6, string_id: 12612>  # String: 'on' (Identifier)
+==> 000000aa: <LoadConstString>: <Reg8: 4, string_id: 15385>  # String: 'close' (Identifier)
+==> 000000ae: <CreateClosure>: <Reg8: 3, Reg8: 2, function_id: 9342>  # Function: [#9342  of 103 bytes]: 1 params @ offset 0x002a2b25
+==> 000000b3: <Call3>: <Reg8: 3, Reg8: 5, Reg8: 6, Reg8: 4, Reg8: 3>
+==> 000000b9: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 7, string_id: 218>  # String: 'setTimeout' (Identifier)
+==> 000000bf: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 2>
+==> 000000c3: <LoadConstInt>: <Reg8: 0, Imm32: 1000>
+==> 000000c9: <Mul>: <Reg8: 3, Reg8: 1, Reg8: 0>
+==> 000000cd: <LoadConstUndefined>: <Reg8: 0>
+==> 000000cf: <CreateClosure>: <Reg8: 1, Reg8: 2, function_id: 9343>  # Function: [#9343  of 130 bytes]: 1 params @ offset 0x002a2b8c
+==> 000000d4: <Call3>: <Reg8: 1, Reg8: 4, Reg8: 0, Reg8: 1, Reg8: 3>
+==> 000000da: <StoreToEnvironment>: <Reg8: 2, UInt8: 2, Reg8: 1>
+==> 000000de: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9340 "" of 74 bytes]: 1 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x002a2a5c
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000003: <LoadConstTrue>: <Reg8: 0>
+==> 00000005: <StoreNPToEnvironment>: <Reg8: 1, UInt8: 3, Reg8: 0>
+==> 00000009: <GetEnvironment>: <Reg8: 0, UInt8: 3>
+==> 0000000c: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 00000010: <GetByIdShort>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 00000015: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 0000001a: <LoadConstString>: <Reg8: 2, string_id: 1216>  # String: 'TCPClient' (String)
+==> 0000001e: <LoadConstString>: <Reg8: 0, string_id: 9865>  # String: '✅ Connected to upload server' (String)
+==> 00000022: <Call3>: <Reg8: 0, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 0>
+==> 00000028: <GetGlobalObject>: <Reg8: 0>
+==> 0000002a: <TryGetById>: <Reg8: 3, Reg8: 0, UInt8: 3, string_id: 16461>  # String: 'clearTimeout' (Identifier)
+==> 00000030: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 2>
+==> 00000034: <LoadConstUndefined>: <Reg8: 0>
+==> 00000036: <Call2>: <Reg8: 2, Reg8: 3, Reg8: 0, Reg8: 2>
+==> 0000003b: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 0>
+==> 0000003f: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 4>
+==> 00000043: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000048: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9341 "" of 127 bytes]: 2 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a2aa6
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 3>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 00000007: <GetByIdShort>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000000c: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 00000011: <LoadConstString>: <Reg8: 1, string_id: 1216>  # String: 'TCPClient' (String)
+==> 00000015: <LoadConstString>: <Reg8: 0, string_id: 739>  # String: 'Error on upload server' (String)
+==> 00000019: <Call3>: <Reg8: 0, Reg8: 2, Reg8: 3, Reg8: 1, Reg8: 0>
+==> 0000001f: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000022: <LoadFromEnvironment>: <Reg8: 0, Reg8: 1, UInt8: 3>
+==> 00000026: <JmpTrue>: <Addr8: 85, Reg8: 0>  # Address: 0000007b
+==> 00000029: <GetGlobalObject>: <Reg8: 0>
+==> 0000002b: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 3, string_id: 16461>  # String: 'clearTimeout' (Identifier)
+==> 00000031: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 2>
+==> 00000035: <LoadConstUndefined>: <Reg8: 2>
+==> 00000037: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 3>
+==> 0000003c: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 1>
+==> 00000040: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 4, string_id: 20>  # String: 'Error' (Identifier)
+==> 00000046: <LoadParam>: <Reg8: 3, UInt8: 1>
+==> 00000049: <GetByIdShort>: <Reg8: 5, Reg8: 3, UInt8: 5, string_id: 181>  # String: 'message' (Identifier)
+==> 0000004e: <TryGetById>: <Reg8: 0, Reg8: 0, UInt8: 6, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 00000054: <GetByIdShort>: <Reg8: 3, Reg8: 0, UInt8: 7, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000059: <LoadConstString>: <Reg8: 0, string_id: 9869>  # String: '❌ Failed to connect: ' (String)
+==> 0000005d: <Call2>: <Reg8: 7, Reg8: 3, Reg8: 0, Reg8: 5>
+==> 00000062: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 8, string_id: 149>  # String: 'prototype' (Identifier)
+==> 00000067: <CreateThis>: <Reg8: 3, Reg8: 3, Reg8: 4>
+==> 0000006b: <Mov>: <Reg8: 8, Reg8: 3>
+==> 0000006e: <Construct>: <Reg8: 0, Reg8: 4, UInt8: 2>
+==> 00000072: <SelectObject>: <Reg8: 0, Reg8: 3, Reg8: 0>
+==> 00000076: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 0000007b: <LoadConstUndefined>: <Reg8: 0>
+==> 0000007d: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9342 "" of 103 bytes]: 1 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x002a2b25
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 3>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 00000007: <GetByIdShort>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000000c: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 00000011: <LoadConstString>: <Reg8: 1, string_id: 1216>  # String: 'TCPClient' (String)
+==> 00000015: <LoadConstString>: <Reg8: 0, string_id: 4111>  # String: 'Close on upload server' (String)
+==> 00000019: <Call3>: <Reg8: 0, Reg8: 2, Reg8: 3, Reg8: 1, Reg8: 0>
+==> 0000001f: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000022: <LoadFromEnvironment>: <Reg8: 0, Reg8: 1, UInt8: 3>
+==> 00000026: <JmpTrue>: <Addr8: 61, Reg8: 0>  # Address: 00000063
+==> 00000029: <GetGlobalObject>: <Reg8: 0>
+==> 0000002b: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 3, string_id: 16461>  # String: 'clearTimeout' (Identifier)
+==> 00000031: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 2>
+==> 00000035: <LoadConstUndefined>: <Reg8: 2>
+==> 00000037: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 3>
+==> 0000003c: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 1>
+==> 00000040: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 4, string_id: 20>  # String: 'Error' (Identifier)
+==> 00000046: <GetByIdShort>: <Reg8: 0, Reg8: 4, UInt8: 5, string_id: 149>  # String: 'prototype' (Identifier)
+==> 0000004b: <CreateThis>: <Reg8: 3, Reg8: 0, Reg8: 4>
+==> 0000004f: <LoadConstString>: <Reg8: 6, string_id: 9867>  # String: '❌ Connection closed before established' (String)
+==> 00000053: <Mov>: <Reg8: 7, Reg8: 3>
+==> 00000056: <Construct>: <Reg8: 0, Reg8: 4, UInt8: 2>
+==> 0000005a: <SelectObject>: <Reg8: 0, Reg8: 3, Reg8: 0>
+==> 0000005e: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 00000063: <LoadConstUndefined>: <Reg8: 0>
+==> 00000065: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9343 "" of 130 bytes]: 1 params, frame size=17, strict=0, exc handler=0, debug info=0  @ offset 0x002a2b8c
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 1, UInt8: 3>
+==> 00000007: <JmpTrue>: <Addr8: 119, Reg8: 0>  # Address: 0000007e
+==> 0000000a: <GetEnvironment>: <Reg8: 0, UInt8: 3>
+==> 0000000d: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 00000011: <GetByIdShort>: <Reg8: 5, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 00000016: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 0000001b: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 0000001e: <LoadFromEnvironment>: <Reg8: 7, Reg8: 0, UInt8: 2>
+==> 00000022: <GetGlobalObject>: <Reg8: 0>
+==> 00000024: <TryGetById>: <Reg8: 2, Reg8: 0, UInt8: 3, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000002a: <GetByIdShort>: <Reg8: 6, Reg8: 2, UInt8: 4, string_id: 100>  # String: 'concat' (Identifier)
+==> 0000002f: <LoadConstString>: <Reg8: 3, string_id: 9832>  # String: '⏰ Connection timeout (' (String)
+==> 00000033: <LoadConstString>: <Reg8: 2, string_id: 1347>  # String: 's)' (String)
+==> 00000037: <Call3>: <Reg8: 3, Reg8: 6, Reg8: 3, Reg8: 7, Reg8: 2>
+==> 0000003d: <LoadConstString>: <Reg8: 2, string_id: 1216>  # String: 'TCPClient' (String)
+==> 00000041: <Call3>: <Reg8: 2, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 3>
+==> 00000047: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 4>
+==> 0000004b: <GetById>: <Reg8: 2, Reg8: 3, UInt8: 5, string_id: 13925>  # String: 'destroy' (Identifier)
+==> 00000051: <Call1>: <Reg8: 2, Reg8: 2, Reg8: 3>
+==> 00000055: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 1>
+==> 00000059: <TryGetById>: <Reg8: 3, Reg8: 0, UInt8: 6, string_id: 20>  # String: 'Error' (Identifier)
+==> 0000005f: <GetByIdShort>: <Reg8: 0, Reg8: 3, UInt8: 7, string_id: 149>  # String: 'prototype' (Identifier)
+==> 00000064: <CreateThis>: <Reg8: 1, Reg8: 0, Reg8: 3>
+==> 00000068: <LoadConstString>: <Reg8: 9, string_id: 6172>  # String: 'Timeout: Could not connect within 10 seconds' (String)
+==> 0000006c: <Mov>: <Reg8: 10, Reg8: 1>
+==> 0000006f: <Construct>: <Reg8: 0, Reg8: 3, UInt8: 2>
+==> 00000073: <SelectObject>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000077: <LoadConstUndefined>: <Reg8: 0>
+==> 00000079: <Call2>: <Reg8: 0, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 0000007e: <LoadConstUndefined>: <Reg8: 0>
+==> 00000080: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9344 "" of 37 bytes]: 1 params, frame size=12, strict=0, exc handler=0, debug info=0  @ offset 0x002a2c0e
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 0>
+==> 00000002: <GetEnvironment>: <Reg8: 1, UInt8: 1>
+==> 00000005: <LoadFromEnvironment>: <Reg8: 1, Reg8: 1, UInt8: 2>
+==> 00000009: <GetByIdShort>: <Reg8: 3, Reg8: 1, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000000e: <LoadConstUndefined>: <Reg8: 2>
+==> 00000010: <CreateGeneratorClosure>: <Reg8: 1, Reg8: 0, function_id: 9346>  # Function: [#9346  of 9 bytes]: 3 params @ offset 0x002a2c33
+==> 00000015: <Call2>: <Reg8: 1, Reg8: 3, Reg8: 2, Reg8: 1>
+==> 0000001a: <StoreToEnvironment>: <Reg8: 0, UInt8: 0, Reg8: 1>
+==> 0000001e: <CreateClosure>: <Reg8: 0, Reg8: 0, function_id: 9345>  # Function: [#9345 uploadFile of 29 bytes]: 3 params @ offset 0x0021eda4
+==> 00000023: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9345 "uploadFile" of 29 bytes]: 3 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x0021eda4
+
+Bytecode listing:
+
+==> 00000000: <LoadConstUndefined>: <Reg8: 0>
+==> 00000002: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000005: <LoadFromEnvironment>: <Reg8: 3, Reg8: 1, UInt8: 0>
+==> 00000009: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 1, string_id: 78>  # String: 'apply' (Identifier)
+==> 0000000e: <ReifyArguments>: <Reg8: 0>
+==> 00000010: <Mov>: <Reg8: 1, Reg8: 0>
+==> 00000013: <LoadThisNS>: <Reg8: 0>
+==> 00000015: <Call3>: <Reg8: 0, Reg8: 2, Reg8: 3, Reg8: 0, Reg8: 1>
+==> 0000001b: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9346 "" of 9 bytes]: 3 params, frame size=1, strict=0, exc handler=0, debug info=0  @ offset 0x002a2c33
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 0>
+==> 00000002: <CreateGenerator>: <Reg8: 0, Reg8: 0, function_id: 9347>  # Function: [#9347 ?anon_0_ of 618 bytes]: 3 params @ offset 0x002a2c3c
+==> 00000007: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9347 "?anon_0_" of 618 bytes]: 3 params, frame size=27, strict=0, exc handler=1, debug info=0  @ offset 0x002a2c3c
+  [Exception handlers: [start=0xe2, end=0x1e8, target=0x1ff] [start=0xe2, end=0x1ea, target=0x251] [start=0x1ff, end=0x23c, target=0x251] ]
+
+Bytecode listing:
+
+==> 00000000: <StartGenerator>: <>
+==> 00000001: <CreateEnvironment>: <Reg8: 4>
+==> 00000003: <ResumeGenerator>: <Reg8: 0, Reg8: 1>
+==> 00000006: <JmpTrueLong>: <Addr32: 609, Reg8: 1>  # Address: 00000267
+==> 0000000c: <LoadConstUndefined>: <Reg8: 1>
+==> 0000000e: <LoadConstUndefined>: <Reg8: 8>
+==> 00000010: <LoadParam>: <Reg8: 16, UInt8: 1>
+==> 00000013: <LoadParam>: <Reg8: 15, UInt8: 2>
+==> 00000016: <StoreNPToEnvironment>: <Reg8: 4, UInt8: 0, Reg8: 1>
+==> 0000001a: <LoadConstUndefined>: <Reg8: 2>
+==> 0000001c: <LoadConstUndefined>: <Reg8: 3>
+==> 0000001e: <LoadConstUndefined>: <Reg8: 7>
+==> 00000020: <LoadConstUndefined>: <Reg8: 9>
+==> 00000022: <GetArgumentsLength>: <Reg8: 5, Reg8: 8>
+==> 00000025: <LoadConstUInt8>: <Reg8: 6, UInt8: 2>
+==> 00000028: <JNotGreater>: <Addr8: 12, Reg8: 5, Reg8: 6>  # Address: 00000034
+==> 0000002c: <GetArgumentsPropByVal>: <Reg8: 5, Reg8: 6, Reg8: 8>
+==> 00000030: <JStrictNotEqual>: <Addr8: 8, Reg8: 5, Reg8: 1>  # Address: 00000038
+==> 00000034: <NewObject>: <Reg8: 5>
+==> 00000036: <Jmp>: <Addr8: 6>  # Address: 0000003c
+==> 00000038: <GetArgumentsPropByVal>: <Reg8: 5, Reg8: 6, Reg8: 8>
+==> 0000003c: <StoreToEnvironment>: <Reg8: 4, UInt8: 0, Reg8: 5>
+==> 00000040: <LoadConstNull>: <Reg8: 8>
+==> 00000042: <LoadConstNull>: <Reg8: 2>
+==> 00000044: <GetById>: <Reg8: 5, Reg8: 5, UInt8: 1, string_id: 18305>  # String: 'onProgress' (Identifier)
+==> 0000004a: <JmpFalseLong>: <Addr32: 147, Reg8: 5>  # Address: 000000dd
+==> 00000050: <GetEnvironment>: <Reg8: 5, UInt8: 3>
+==> 00000053: <LoadFromEnvironment>: <Reg8: 6, Reg8: 5, UInt8: 8>
+==> 00000057: <GetByIdShort>: <Reg8: 6, Reg8: 6, UInt8: 2, string_id: 37>  # String: 'Platform' (Identifier)
+==> 0000005c: <GetByIdShort>: <Reg8: 10, Reg8: 6, UInt8: 3, string_id: 32>  # String: 'OS' (Identifier)
+==> 00000061: <LoadConstString>: <Reg8: 6, string_id: 13516>  # String: 'ios' (Identifier)
+==> 00000065: <JStrictEqual>: <Addr8: 16, Reg8: 10, Reg8: 6>  # Address: 00000075
+==> 00000069: <LoadFromEnvironment>: <Reg8: 6, Reg8: 5, UInt8: 8>
+==> 0000006d: <GetById>: <Reg8: 11, Reg8: 6, UInt8: 4, string_id: 13472>  # String: 'DeviceEventEmitter' (Identifier)
+==> 00000073: <Jmp>: <Addr8: 58>  # Address: 000000ad
+==> 00000075: <LoadFromEnvironment>: <Reg8: 6, Reg8: 5, UInt8: 8>
+==> 00000079: <GetById>: <Reg8: 12, Reg8: 6, UInt8: 5, string_id: 16182>  # String: 'NativeEventEmitter' (Identifier)
+==> 0000007f: <LoadFromEnvironment>: <Reg8: 10, Reg8: 5, UInt8: 0>
+==> 00000083: <LoadFromEnvironment>: <Reg8: 13, Reg8: 5, UInt8: 1>
+==> 00000087: <LoadConstUInt8>: <Reg8: 6, UInt8: 11>
+==> 0000008a: <GetByVal>: <Reg8: 6, Reg8: 13, Reg8: 6>
+==> 0000008e: <Call2>: <Reg8: 6, Reg8: 10, Reg8: 1, Reg8: 6>
+==> 00000093: <GetById>: <Reg8: 19, Reg8: 6, UInt8: 6, string_id: 24504>  # String: 'MIDDLE' (Identifier)
+==> 00000099: <GetByIdShort>: <Reg8: 10, Reg8: 12, UInt8: 7, string_id: 149>  # String: 'prototype' (Identifier)
+==> 0000009e: <CreateThis>: <Reg8: 10, Reg8: 10, Reg8: 12>
+==> 000000a2: <Mov>: <Reg8: 20, Reg8: 10>
+==> 000000a5: <Construct>: <Reg8: 6, Reg8: 12, UInt8: 2>
+==> 000000a9: <SelectObject>: <Reg8: 11, Reg8: 10, Reg8: 6>
+==> 000000ad: <GetByIdShort>: <Reg8: 10, Reg8: 11, UInt8: 8, string_id: 70>  # String: 'addListener' (Identifier)
+==> 000000b2: <LoadFromEnvironment>: <Reg8: 6, Reg8: 5, UInt8: 0>
+==> 000000b6: <LoadFromEnvironment>: <Reg8: 12, Reg8: 5, UInt8: 1>
+==> 000000ba: <LoadConstUInt8>: <Reg8: 5, UInt8: 11>
+==> 000000bd: <GetByVal>: <Reg8: 5, Reg8: 12, Reg8: 5>
+==> 000000c1: <Call2>: <Reg8: 5, Reg8: 6, Reg8: 1, Reg8: 5>
+==> 000000c6: <GetById>: <Reg8: 5, Reg8: 5, UInt8: 6, string_id: 24504>  # String: 'MIDDLE' (Identifier)
+==> 000000cc: <GetById>: <Reg8: 6, Reg8: 5, UInt8: 9, string_id: 24310>  # String: 'MEDIA_EVENT' (Identifier)
+==> 000000d2: <CreateClosure>: <Reg8: 5, Reg8: 4, function_id: 9348>  # Function: [#9348  of 134 bytes]: 2 params @ offset 0x002a2ea6
+==> 000000d7: <Call3>: <Reg8: 2, Reg8: 10, Reg8: 11, Reg8: 6, Reg8: 5>
+==> 000000dd: <CreateClosure>: <Reg8: 3, Reg8: 4, function_id: 9349>  # Function: [#9349 postResult of 172 bytes]: 2 params @ offset 0x002a2f2c
+==> 000000e2: <Mov>: <Reg8: 5, Reg8: 15>
+==> 000000e5: <GetById>: <Reg8: 4, Reg8: 5, UInt8: 10, string_id: 22765>  # String: 'startsWith' (Identifier)
+==> 000000eb: <LoadConstString>: <Reg8: 10, string_id: 593>  # String: 'file://' (String)
+==> 000000ef: <Call2>: <Reg8: 4, Reg8: 4, Reg8: 5, Reg8: 10>
+==> 000000f4: <JmpFalse>: <Addr8: 21, Reg8: 4>  # Address: 00000109
+==> 000000f7: <Mov>: <Reg8: 6, Reg8: 15>
+==> 000000fa: <GetByIdShort>: <Reg8: 5, Reg8: 6, UInt8: 11, string_id: 207>  # String: 'replace' (Identifier)
+==> 000000ff: <LoadConstString>: <Reg8: 4, string_id: 12570>  # String: '' (Identifier)
+==> 00000103: <Call3>: <Reg8: 15, Reg8: 5, Reg8: 6, Reg8: 10, Reg8: 4>
+==> 00000109: <GetEnvironment>: <Reg8: 6, UInt8: 3>
+==> 0000010c: <LoadFromEnvironment>: <Reg8: 10, Reg8: 6, UInt8: 0>
+==> 00000110: <LoadFromEnvironment>: <Reg8: 11, Reg8: 6, UInt8: 1>
+==> 00000114: <LoadConstUInt8>: <Reg8: 4, UInt8: 11>
+==> 00000117: <GetByVal>: <Reg8: 5, Reg8: 11, Reg8: 4>
+==> 0000011b: <Call2>: <Reg8: 5, Reg8: 10, Reg8: 1, Reg8: 5>
+==> 00000120: <GetById>: <Reg8: 13, Reg8: 5, UInt8: 6, string_id: 24504>  # String: 'MIDDLE' (Identifier)
+==> 00000126: <GetById>: <Reg8: 12, Reg8: 13, UInt8: 12, string_id: 29146>  # String: 'callNativeWithPromise' (Identifier)
+==> 0000012c: <GetByVal>: <Reg8: 5, Reg8: 11, Reg8: 4>
+==> 00000130: <Call2>: <Reg8: 5, Reg8: 10, Reg8: 1, Reg8: 5>
+==> 00000135: <GetById>: <Reg8: 5, Reg8: 5, UInt8: 13, string_id: 18205>  # String: 'MEDIA_MODULE' (Identifier)
+==> 0000013b: <GetByVal>: <Reg8: 4, Reg8: 11, Reg8: 4>
+==> 0000013f: <Call2>: <Reg8: 4, Reg8: 10, Reg8: 1, Reg8: 4>
+==> 00000144: <GetById>: <Reg8: 4, Reg8: 4, UInt8: 6, string_id: 24504>  # String: 'MIDDLE' (Identifier)
+==> 0000014a: <GetById>: <Reg8: 4, Reg8: 4, UInt8: 14, string_id: 24502>  # String: 'MEDIA_FUNC_UPLOAD' (Identifier)
+==> 00000150: <Add>: <Reg8: 11, Reg8: 5, Reg8: 4>
+==> 00000154: <GetGlobalObject>: <Reg8: 5>
+==> 00000156: <TryGetById>: <Reg8: 14, Reg8: 5, UInt8: 15, string_id: 24>  # String: 'JSON' (Identifier)
+==> 0000015c: <GetByIdShort>: <Reg8: 10, Reg8: 14, UInt8: 16, string_id: 226>  # String: 'stringify' (Identifier)
+==> 00000161: <NewObject>: <Reg8: 4>
+==> 00000163: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 16, string_id: 185>  # String: 'name' (Identifier)
+==> 00000167: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 15, string_id: 196>  # String: 'path' (Identifier)
+==> 0000016b: <Call2>: <Reg8: 10, Reg8: 10, Reg8: 14, Reg8: 4>
+==> 00000170: <LoadConstZero>: <Reg8: 4>
+==> 00000172: <Call4>: <Reg8: 4, Reg8: 12, Reg8: 13, Reg8: 11, Reg8: 10, Reg8: 4>
+==> 00000179: <SaveGenerator>: <Addr8: 4>  # Address: 0000017d
+==> 0000017b: <Ret>: <Reg8: 4>
+==> 0000017d: <ResumeGenerator>: <Reg8: 4, Reg8: 10>
+==> 00000180: <JmpTrue>: <Addr8: 106, Reg8: 10>  # Address: 000001ea
+==> 00000183: <Mov>: <Reg8: 9, Reg8: 4>
+==> 00000186: <LoadFromEnvironment>: <Reg8: 6, Reg8: 6, UInt8: 5>
+==> 0000018a: <GetByIdShort>: <Reg8: 11, Reg8: 6, UInt8: 17, string_id: 121>  # String: 'default' (Identifier)
+==> 0000018f: <GetByIdShort>: <Reg8: 10, Reg8: 11, UInt8: 18, string_id: 1>  # String: 'i' (Identifier)
+==> 00000194: <TryGetById>: <Reg8: 12, Reg8: 5, UInt8: 15, string_id: 24>  # String: 'JSON' (Identifier)
+==> 0000019a: <GetByIdShort>: <Reg8: 6, Reg8: 12, UInt8: 16, string_id: 226>  # String: 'stringify' (Identifier)
+==> 0000019f: <Call2>: <Reg8: 12, Reg8: 6, Reg8: 12, Reg8: 4>
+==> 000001a4: <TryGetById>: <Reg8: 5, Reg8: 5, UInt8: 19, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 000001aa: <GetByIdShort>: <Reg8: 6, Reg8: 5, UInt8: 20, string_id: 100>  # String: 'concat' (Identifier)
+==> 000001af: <LoadConstString>: <Reg8: 5, string_id: 9377>  # String: 'upload result ' (String)
+==> 000001b3: <Call2>: <Reg8: 6, Reg8: 6, Reg8: 5, Reg8: 12>
+==> 000001b8: <LoadConstString>: <Reg8: 5, string_id: 1216>  # String: 'TCPClient' (String)
+==> 000001bc: <Call3>: <Reg8: 5, Reg8: 10, Reg8: 11, Reg8: 5, Reg8: 6>
+==> 000001c2: <Mov>: <Reg8: 6, Reg8: 3>
+==> 000001c5: <Eq>: <Reg8: 10, Reg8: 4, Reg8: 8>
+==> 000001c9: <LoadConstUndefined>: <Reg8: 5>
+==> 000001cb: <JmpTrue>: <Addr8: 9, Reg8: 10>  # Address: 000001d4
+==> 000001ce: <GetById>: <Reg8: 5, Reg8: 9, UInt8: 21, string_id: 13709>  # String: 'result' (Identifier)
+==> 000001d4: <Mov>: <Reg8: 7, Reg8: 5>
+==> 000001d7: <Neq>: <Reg8: 8, Reg8: 5, Reg8: 8>
+==> 000001db: <LoadConstFalse>: <Reg8: 5>
+==> 000001dd: <JmpFalse>: <Addr8: 6, Reg8: 8>  # Address: 000001e3
+==> 000001e0: <Mov>: <Reg8: 5, Reg8: 7>
+==> 000001e3: <Call2>: <Reg8: 5, Reg8: 6, Reg8: 1, Reg8: 5>
+==> 000001e8: <Jmp>: <Addr8: 84>  # Address: 0000023c
+==> 000001ea: <Mov>: <Reg8: 5, Reg8: 2>
+==> 000001ed: <JmpFalse>: <Addr8: 15, Reg8: 5>  # Address: 000001fc
+==> 000001f0: <Mov>: <Reg8: 6, Reg8: 2>
+==> 000001f3: <GetByIdShort>: <Reg8: 5, Reg8: 6, UInt8: 22, string_id: 60>  # String: 'remove' (Identifier)
+==> 000001f8: <Call1>: <Reg8: 5, Reg8: 5, Reg8: 6>
+==> 000001fc: <CompleteGenerator>: <>
+==> 000001fd: <Ret>: <Reg8: 4>
+==> 000001ff: <Catch>: <Reg8: 8>
+==> 00000201: <GetEnvironment>: <Reg8: 4, UInt8: 3>
+==> 00000204: <LoadFromEnvironment>: <Reg8: 4, Reg8: 4, UInt8: 5>
+==> 00000208: <GetByIdShort>: <Reg8: 7, Reg8: 4, UInt8: 17, string_id: 121>  # String: 'default' (Identifier)
+==> 0000020d: <GetByIdShort>: <Reg8: 6, Reg8: 7, UInt8: 18, string_id: 1>  # String: 'i' (Identifier)
+==> 00000212: <GetGlobalObject>: <Reg8: 4>
+==> 00000214: <TryGetById>: <Reg8: 4, Reg8: 4, UInt8: 19, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000021a: <GetByIdShort>: <Reg8: 5, Reg8: 4, UInt8: 20, string_id: 100>  # String: 'concat' (Identifier)
+==> 0000021f: <LoadConstString>: <Reg8: 4, string_id: 1096>  # String: 'upload error ' (String)
+==> 00000223: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 4, Reg8: 8>
+==> 00000228: <LoadConstString>: <Reg8: 4, string_id: 1216>  # String: 'TCPClient' (String)
+==> 0000022c: <Call3>: <Reg8: 4, Reg8: 6, Reg8: 7, Reg8: 4, Reg8: 5>
+==> 00000232: <Mov>: <Reg8: 4, Reg8: 3>
+==> 00000235: <LoadConstFalse>: <Reg8: 3>
+==> 00000237: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 1, Reg8: 3>
+==> 0000023c: <Mov>: <Reg8: 3, Reg8: 2>
+==> 0000023f: <JmpFalse>: <Addr8: 15, Reg8: 3>  # Address: 0000024e
+==> 00000242: <Mov>: <Reg8: 4, Reg8: 2>
+==> 00000245: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 22, string_id: 60>  # String: 'remove' (Identifier)
+==> 0000024a: <Call1>: <Reg8: 3, Reg8: 3, Reg8: 4>
+==> 0000024e: <CompleteGenerator>: <>
+==> 0000024f: <Ret>: <Reg8: 1>
+==> 00000251: <Catch>: <Reg8: 1>
+==> 00000253: <Mov>: <Reg8: 3, Reg8: 2>
+==> 00000256: <JmpFalse>: <Addr8: 15, Reg8: 3>  # Address: 00000265
+==> 00000259: <Mov>: <Reg8: 3, Reg8: 2>
+==> 0000025c: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 22, string_id: 60>  # String: 'remove' (Identifier)
+==> 00000261: <Call1>: <Reg8: 2, Reg8: 2, Reg8: 3>
+==> 00000265: <Throw>: <Reg8: 1>
+==> 00000267: <CompleteGenerator>: <>
+==> 00000268: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9348 "" of 134 bytes]: 2 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x002a2ea6
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 3, UInt8: 1>
+==> 00000003: <GetEnvironment>: <Reg8: 0, UInt8: 4>
+==> 00000006: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 5>
+==> 0000000a: <GetByIdShort>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 121>  # String: 'default' (Identifier)
+==> 0000000f: <GetByIdShort>: <Reg8: 2, Reg8: 4, UInt8: 2, string_id: 1>  # String: 'i' (Identifier)
+==> 00000014: <GetGlobalObject>: <Reg8: 0>
+==> 00000016: <TryGetById>: <Reg8: 5, Reg8: 0, UInt8: 3, string_id: 24>  # String: 'JSON' (Identifier)
+==> 0000001c: <GetByIdShort>: <Reg8: 1, Reg8: 5, UInt8: 4, string_id: 226>  # String: 'stringify' (Identifier)
+==> 00000021: <Call2>: <Reg8: 5, Reg8: 1, Reg8: 5, Reg8: 3>
+==> 00000026: <TryGetById>: <Reg8: 0, Reg8: 0, UInt8: 5, string_id: 21>  # String: 'HermesInternal' (Identifier)
+==> 0000002c: <GetByIdShort>: <Reg8: 1, Reg8: 0, UInt8: 6, string_id: 100>  # String: 'concat' (Identifier)
+==> 00000031: <LoadConstString>: <Reg8: 0, string_id: 7267>  # String: 'upload progress ' (String)
+==> 00000035: <Call2>: <Reg8: 1, Reg8: 1, Reg8: 0, Reg8: 5>
+==> 0000003a: <LoadConstString>: <Reg8: 0, string_id: 1216>  # String: 'TCPClient' (String)
+==> 0000003e: <Call3>: <Reg8: 0, Reg8: 2, Reg8: 4, Reg8: 0, Reg8: 1>
+==> 00000044: <GetEnvironment>: <Reg8: 1, UInt8: 0>
+==> 00000047: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 0>
+==> 0000004b: <LoadConstNull>: <Reg8: 0>
+==> 0000004d: <JEqual>: <Addr8: 53, Reg8: 2, Reg8: 0>  # Address: 00000082
+==> 00000051: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 0>
+==> 00000055: <GetById>: <Reg8: 2, Reg8: 2, UInt8: 7, string_id: 18305>  # String: 'onProgress' (Identifier)
+==> 0000005b: <JEqual>: <Addr8: 39, Reg8: 2, Reg8: 0>  # Address: 00000082
+==> 0000005f: <LoadFromEnvironment>: <Reg8: 2, Reg8: 1, UInt8: 0>
+==> 00000063: <GetById>: <Reg8: 1, Reg8: 2, UInt8: 7, string_id: 18305>  # String: 'onProgress' (Identifier)
+==> 00000069: <Eq>: <Reg8: 4, Reg8: 3, Reg8: 0>
+==> 0000006d: <LoadConstUndefined>: <Reg8: 0>
+==> 0000006f: <JmpTrue>: <Addr8: 9, Reg8: 4>  # Address: 00000078
+==> 00000072: <GetById>: <Reg8: 0, Reg8: 3, UInt8: 8, string_id: 12656>  # String: 'progress' (Identifier)
+==> 00000078: <JmpTrue>: <Addr8: 5, Reg8: 0>  # Address: 0000007d
+==> 0000007b: <LoadConstZero>: <Reg8: 0>
+==> 0000007d: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 2, Reg8: 0>
+==> 00000082: <LoadConstUndefined>: <Reg8: 0>
+==> 00000084: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9349 "postResult" of 172 bytes]: 2 params, frame size=17, strict=0, exc handler=0, debug info=0  @ offset 0x002a2f2c
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 5, UInt8: 1>
+==> 00000003: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000006: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 0>
+==> 0000000a: <GetById>: <Reg8: 1, Reg8: 1, UInt8: 1, string_id: 30284>  # String: 'onResult' (Identifier)
+==> 00000010: <JmpFalse>: <Addr8: 18, Reg8: 1>  # Address: 00000022
+==> 00000013: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 0>
+==> 00000017: <GetById>: <Reg8: 0, Reg8: 1, UInt8: 1, string_id: 30284>  # String: 'onResult' (Identifier)
+==> 0000001d: <Call2>: <Reg8: 0, Reg8: 0, Reg8: 1, Reg8: 5>
+==> 00000022: <GetEnvironment>: <Reg8: 0, UInt8: 4>
+==> 00000025: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 5>
+==> 00000029: <GetByIdShort>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 121>  # String: 'default' (Identifier)
+==> 0000002e: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 3, string_id: 1>  # String: 'i' (Identifier)
+==> 00000033: <LoadConstString>: <Reg8: 2, string_id: 1216>  # String: 'TCPClient' (String)
+==> 00000037: <JmpTrue>: <Addr8: 15, Reg8: 5>  # Address: 00000046
+==> 0000003a: <LoadConstString>: <Reg8: 1, string_id: 9876>  # String: '❌ Upload failed.' (String)
+==> 0000003e: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 1>
+==> 00000044: <Jmp>: <Addr8: 12>  # Address: 00000050
+==> 00000046: <LoadConstString>: <Reg8: 1, string_id: 9866>  # String: '✅ Upload completed.' (String)
+==> 0000004a: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 1>
+==> 00000050: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 7>
+==> 00000054: <GetByIdShort>: <Reg8: 3, Reg8: 1, UInt8: 2, string_id: 121>  # String: 'default' (Identifier)
+==> 00000059: <GetByIdShort>: <Reg8: 2, Reg8: 3, UInt8: 4, string_id: 25>  # String: 'show' (Identifier)
+==> 0000005e: <NewObject>: <Reg8: 1>
+==> 00000060: <LoadFromEnvironment>: <Reg8: 6, Reg8: 0, UInt8: 0>
+==> 00000064: <LoadFromEnvironment>: <Reg8: 4, Reg8: 0, UInt8: 1>
+==> 00000068: <LoadConstUInt8>: <Reg8: 0, UInt8: 12>
+==> 0000006b: <GetByVal>: <Reg8: 4, Reg8: 4, Reg8: 0>
+==> 0000006f: <LoadConstUndefined>: <Reg8: 0>
+==> 00000071: <Call2>: <Reg8: 4, Reg8: 6, Reg8: 0, Reg8: 4>
+==> 00000076: <GetByIdShort>: <Reg8: 7, Reg8: 4, UInt8: 5, string_id: 227>  # String: 'strings' (Identifier)
+==> 0000007b: <JmpTrue>: <Addr8: 14, Reg8: 5>  # Address: 00000089
+==> 0000007e: <LoadConstString>: <Reg8: 4, string_id: 34542>  # String: 'upload_failed' (Identifier)
+==> 00000082: <Call2>: <Reg8: 4, Reg8: 7, Reg8: 0, Reg8: 4>
+==> 00000087: <Jmp>: <Addr8: 11>  # Address: 00000092
+==> 00000089: <LoadConstString>: <Reg8: 6, string_id: 34544>  # String: 'upload_success' (Identifier)
+==> 0000008d: <Call2>: <Reg8: 4, Reg8: 7, Reg8: 0, Reg8: 6>
+==> 00000092: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 4, string_id: 233>  # String: 'text1' (Identifier)
+==> 00000096: <LoadConstString>: <Reg8: 4, string_id: 135>  # String: 'error' (Identifier)
+==> 0000009a: <JmpFalse>: <Addr8: 7, Reg8: 5>  # Address: 000000a1
+==> 0000009d: <LoadConstString>: <Reg8: 4, string_id: 228>  # String: 'success' (Identifier)
+==> 000000a1: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 4, string_id: 150>  # String: 'type' (Identifier)
+==> 000000a5: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 3, Reg8: 1>
+==> 000000aa: <Ret>: <Reg8: 0>
+
+
+===============
+

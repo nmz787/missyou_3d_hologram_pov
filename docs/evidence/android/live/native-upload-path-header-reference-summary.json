@@ -1,0 +1,490 @@
+{
+  "authority": "Static Ghidra ReferenceManager observations from complete analyzed library",
+  "member_sha256": "20d90219ddf46083844ace9bb225f583f44802d78d05e2f409cd189f0654645b",
+  "search_boundary": "Each byte of FILE_INFO_HEADER, FILE_INFO_TAIL, CHUNK_HEADER and CHUNK_TAIL; all direct xrefs within analyzed Program",
+  "xrefs": [
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-0.json",
+      "evidence_id": "ev_53b20fabfdfaa68efa1c9c103ab91adfb7488007cbc49c762944c2fdd644d804",
+      "parameters": {
+        "address": "0x3744a6"
+      },
+      "xref_sources": [
+        "0x1f6934",
+        "0x36f7d0"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-1.json",
+      "evidence_id": "ev_7ce2e0be556445d41ed51b19cf7bb409fa8c1bec744c94fa2ed4c646a44361ed",
+      "parameters": {
+        "address": "0x3744a7"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-2.json",
+      "evidence_id": "ev_a89a40d9830979798695344ef9bdce1ae9083fe682fedf7a155ee02fe5d9650a",
+      "parameters": {
+        "address": "0x3744a8"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-3.json",
+      "evidence_id": "ev_a6e0e9907bddf5397d242fa35f5365ba26f7ac86fdea52e3b7fd78d6a7571ea1",
+      "parameters": {
+        "address": "0x3744a9"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-4.json",
+      "evidence_id": "ev_78a9217d3df956992b37ac971d7483bf8cdc5c0fa8815acb150918013fd1360e",
+      "parameters": {
+        "address": "0x3744aa"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-5.json",
+      "evidence_id": "ev_d8f38758665a842c419e5ef5664e72dad6d5ddfbf9e31544e7d514a736bff1b7",
+      "parameters": {
+        "address": "0x3744ab"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-6.json",
+      "evidence_id": "ev_57991e534993b064e67f85596214d30837ed0078c14365fa328728bd7016ed36",
+      "parameters": {
+        "address": "0x3744ac"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-7.json",
+      "evidence_id": "ev_ca4d1c9039540dcedfcfd799281cc3545f3c263a628cba75cae4a1af697d84d1",
+      "parameters": {
+        "address": "0x3744ad"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-header-8.json",
+      "evidence_id": "ev_3d2b27b5f5c38b5ec63d73f85a62371df46c0cb6327efb14a3677f1a235cc420",
+      "parameters": {
+        "address": "0x3744ae"
+      },
+      "xref_sources": [
+        "0x1f6938"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-0.json",
+      "evidence_id": "ev_a6589eb86f7224d88651c873a991b91d2cfa02e5612c0542eb9ee9be9fc01f8e",
+      "parameters": {
+        "address": "0x3744af"
+      },
+      "xref_sources": [
+        "0x1f694c",
+        "0x36f7d8"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-1.json",
+      "evidence_id": "ev_4ce8454d53bf4a40446221748ff6eb59725642dd4a37ba9ed0f615e4ce554230",
+      "parameters": {
+        "address": "0x3744b0"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-10.json",
+      "evidence_id": "ev_a2fd42a1e42bc47f0a28a54764899764abeabb91303efea8f239a2f8c3f2dda4",
+      "parameters": {
+        "address": "0x3744b9"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-2.json",
+      "evidence_id": "ev_e0e5006ef0bb920e364af892c7859ba6ccff339a362afe1f194d5a0acb78907e",
+      "parameters": {
+        "address": "0x3744b1"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-3.json",
+      "evidence_id": "ev_16032e07a66d900559ab75952a61d70d74df83729c24d5c838d65be58d5b2f4f",
+      "parameters": {
+        "address": "0x3744b2"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-4.json",
+      "evidence_id": "ev_a21631fb7df080765812c5b27eb909aa80bb3ce5bb9feef412ef9c0b73de4c63",
+      "parameters": {
+        "address": "0x3744b3"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-5.json",
+      "evidence_id": "ev_fed88359369ef0d91292c959de6b8dcea1eba0a3c82e84cd0ff221611cf911d3",
+      "parameters": {
+        "address": "0x3744b4"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-6.json",
+      "evidence_id": "ev_dc3594ee434f211d6c3f6a67ad5e934280eb7c3b10271cd953b3527ca146c8f7",
+      "parameters": {
+        "address": "0x3744b5"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-7.json",
+      "evidence_id": "ev_6ba0a503d7030cf8a7af0d899b22feffbf25442e6c89f6cfdbeeed0e554bd294",
+      "parameters": {
+        "address": "0x3744b6"
+      },
+      "xref_sources": [
+        "0x1f6950"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-8.json",
+      "evidence_id": "ev_866c8a0fa6efe7049392cd51d73b1926d6631e09fc6daac466d0f8982be5e8ad",
+      "parameters": {
+        "address": "0x3744b7"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-chunk-tail-9.json",
+      "evidence_id": "ev_f47c3c57d90ad54d799fe012af3015ba13979e34fe167119762149a17987e7e5",
+      "parameters": {
+        "address": "0x3744b8"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-0.json",
+      "evidence_id": "ev_65ed81dbe9086c5e9db46832a0c1bf599e14228f733b6b696003160c92a569b0",
+      "parameters": {
+        "address": "0x374498"
+      },
+      "xref_sources": [
+        "0x1f6624",
+        "0x36f7c0"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-1.json",
+      "evidence_id": "ev_6dac3c4e93fad3f18df6a5485f50cbed9dd94438eb44e9ff9f2a7954a4753378",
+      "parameters": {
+        "address": "0x374499"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-2.json",
+      "evidence_id": "ev_312569e6f5011ff07d9c151c8b43a6dab53e824163ee3bd95d30fa991d004979",
+      "parameters": {
+        "address": "0x37449a"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-3.json",
+      "evidence_id": "ev_6dd0157c97136953ebf54de6148ea6cf19bcdb4141014004efe54a136f3e6a09",
+      "parameters": {
+        "address": "0x37449b"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-4.json",
+      "evidence_id": "ev_1ac99f88d883da0396921c37c561cfee6ae7bb5d9f803d012b51eee7a8f61949",
+      "parameters": {
+        "address": "0x37449c"
+      },
+      "xref_sources": [
+        "0x1f6628"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-header-5.json",
+      "evidence_id": "ev_953e8b539b35a10101f57d700b9c54bebc5c0196a684b38bde6374560e34ca0d",
+      "parameters": {
+        "address": "0x37449d"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-0.json",
+      "evidence_id": "ev_2596bae75fec5a85457b191122c63e68803de8b622b8cbdb8a0900eb1f9a33ae",
+      "parameters": {
+        "address": "0x37449e"
+      },
+      "xref_sources": [
+        "0x1f6654",
+        "0x1f6c9c",
+        "0x36f7c8"
+      ]
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-1.json",
+      "evidence_id": "ev_75a867ef2c3cee88aba00b9df1082ff1672c78127a3118f9b35488394ec706de",
+      "parameters": {
+        "address": "0x37449f"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-2.json",
+      "evidence_id": "ev_a7b32076e5056c4cdad1ecf6deb26b528e51f1759cdd292de107e24bdd038f92",
+      "parameters": {
+        "address": "0x3744a0"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-3.json",
+      "evidence_id": "ev_523d0c94047d5cfb7f37d6ffb09d3750f26af8b2fe25664575e52485cd741c4b",
+      "parameters": {
+        "address": "0x3744a1"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-4.json",
+      "evidence_id": "ev_6b02b5fe1e71369b9f9952097be03b282a24bfb1847d1130393d4c665d12a85d",
+      "parameters": {
+        "address": "0x3744a2"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-5.json",
+      "evidence_id": "ev_2b6c04477ca82381dabb8cfefacec9d1baa29d6722b636cdf15d5cbce88755ec",
+      "parameters": {
+        "address": "0x3744a3"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-6.json",
+      "evidence_id": "ev_c166f40eaeb5d8dbd9b3afece056547b9b638243b7d15f08fad59611e32a6e71",
+      "parameters": {
+        "address": "0x3744a4"
+      },
+      "xref_sources": []
+    },
+    {
+      "evidence_file": "docs/evidence/android/live/native-upload-path-xref-file-info-tail-7.json",
+      "evidence_id": "ev_97b20913458277cab316db6541165fd7aa8c29048b489a4962bc3cf7579f5ff3",
+      "parameters": {
+        "address": "0x3744a5"
+      },
+      "xref_sources": []
+    }
+  ],
+  "resolved_instruction_references": [
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6624",
+      "target_address": "0x374498",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6628",
+      "target_address": "0x37449c",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6654",
+      "target_address": "0x37449e",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6934",
+      "target_address": "0x3744a6",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6938",
+      "target_address": "0x3744ae",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f694c",
+      "target_address": "0x3744af",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_e192f9195ec436822d2a54b62d100f0eeeea6b3071541258e89227a881107b4c",
+      "source_address": "0x1f6950",
+      "target_address": "0x3744b6",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    },
+    {
+      "source_evidence_id": "ev_9e44881b9dec968e439e468593da0cb13f23b004b8bfbc37cb0a4e903b6f9461",
+      "source_address": "0x1f6c9c",
+      "target_address": "0x37449e",
+      "kind": {
+        "available": true,
+        "provenance": "ghidra-reference-manager",
+        "type": "READ",
+        "flow": false,
+        "call": false,
+        "jump": false,
+        "data": true,
+        "read": true,
+        "write": false,
+        "indirect": false,
+        "computed": false,
+        "conditional": false,
+        "terminal": false,
+        "primary": true,
+        "operand_index": 1,
+        "external": false
+      }
+    }
+  ],
+  "observed_write_references": 0,
+  "limitations": [
+    "Address-derived/indirect writes can lack direct xrefs; writable segment status is not immutability.",
+    "NativeInit transitive callees init_f_log and check_access were not individually decompiled for this follow-up.",
+    "Static absence of observed writes does not verify memory during app execution."
+  ]
+}

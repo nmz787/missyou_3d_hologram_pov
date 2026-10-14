@@ -1,0 +1,447 @@
+{
+  "test_file": "90USB.bin",
+  "upload_stream_held_open_seconds": 1,
+  "before": {
+    "protocol": "legacy",
+    "files": [
+      {
+        "index": 1,
+        "name": "00_B.bin",
+        "displayName": "00.B"
+      },
+      {
+        "index": 2,
+        "name": "01CHRI~1.bin",
+        "displayName": "01CHRI~1"
+      },
+      {
+        "index": 3,
+        "name": "01_LC.bin",
+        "displayName": "01.LC"
+      },
+      {
+        "index": 4,
+        "name": "02FATH~1.bin",
+        "displayName": "02FATH~1"
+      },
+      {
+        "index": 5,
+        "name": "03FATH~1.bin",
+        "displayName": "03FATH~1"
+      },
+      {
+        "index": 12,
+        "name": "10CD.bin",
+        "displayName": "10CD",
+        "recovered": true
+      },
+      {
+        "index": 13,
+        "name": "11CC30~1.bin",
+        "displayName": "11CC30~1",
+        "recovered": true
+      },
+      {
+        "index": 14,
+        "name": "12E8F9~1.bin",
+        "displayName": "12E8F9~1",
+        "recovered": true
+      },
+      {
+        "index": 15,
+        "name": "13_TRA~1.bin",
+        "displayName": "13.TRA~1",
+        "recovered": true
+      }
+    ],
+    "complete": false,
+    "issues": [
+      "Record at byte 97 overlaps a later record; discarded"
+    ],
+    "current_index": 8,
+    "current": null,
+    "model": "F-MINI11",
+    "model_flag": "H7",
+    "model_recognized": true,
+    "is_playing": true,
+    "raw_tail": "08H711",
+    "raw_frame_hex": "6333306333386172683133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3038483731316134613863326533"
+  },
+  "acknowledgments": [
+    {
+      "expected": "d30d66",
+      "received_ascii": "d30d66DEJffffa4a8c2e3",
+      "received_hex": "64333064363644454a666666666134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJffffa4a8c2e3",
+      "received_hex": "64333064383844454a666666666134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "expected": "d30d88",
+      "received_ascii": "d30d88DEJ0000a4a8c2e3",
+      "received_hex": "64333064383844454a303030306134613863326533"
+    },
+    {
+      "after_completion_hex": "64333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064383844454a30303030613461386332653364333064"
+    }
+  ],
+  "after": [
+    {
+      "delay_from_previous_seconds": 0,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "00_B.bin",
+            "displayName": "00.B"
+          },
+          {
+            "index": 2,
+            "name": "01CHRI~1.bin",
+            "displayName": "01CHRI~1"
+          },
+          {
+            "index": 3,
+            "name": "01_LC.bin",
+            "displayName": "01.LC"
+          },
+          {
+            "index": 4,
+            "name": "02FATH~1.bin",
+            "displayName": "02FATH~1"
+          },
+          {
+            "index": 5,
+            "name": "03FATH~1.bin",
+            "displayName": "03FATH~1"
+          },
+          {
+            "index": 12,
+            "name": "10CD.bin",
+            "displayName": "10CD",
+            "recovered": true
+          },
+          {
+            "index": 13,
+            "name": "11CC30~1.bin",
+            "displayName": "11CC30~1",
+            "recovered": true
+          },
+          {
+            "index": 14,
+            "name": "12E8F9~1.bin",
+            "displayName": "12E8F9~1",
+            "recovered": true
+          },
+          {
+            "index": 15,
+            "name": "13_TRA~1.bin",
+            "displayName": "13.TRA~1",
+            "recovered": true
+          },
+          {
+            "index": 16,
+            "name": "90USB.bin",
+            "displayName": "90USB",
+            "recovered": true
+          }
+        ],
+        "complete": false,
+        "issues": [
+          "Record at byte 97 overlaps a later record; discarded"
+        ],
+        "current_index": 8,
+        "current": null,
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "08H711",
+        "raw_frame_hex": "6333306333386173673133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3134313631362e39305553422e62696e3038483731316134613863326533"
+      }
+    },
+    {
+      "delay_from_previous_seconds": 1,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "00_B.bin",
+            "displayName": "00.B"
+          },
+          {
+            "index": 2,
+            "name": "01CHRI~1.bin",
+            "displayName": "01CHRI~1"
+          },
+          {
+            "index": 3,
+            "name": "01_LC.bin",
+            "displayName": "01.LC"
+          },
+          {
+            "index": 4,
+            "name": "02FATH~1.bin",
+            "displayName": "02FATH~1"
+          },
+          {
+            "index": 5,
+            "name": "03FATH~1.bin",
+            "displayName": "03FATH~1"
+          },
+          {
+            "index": 12,
+            "name": "10CD.bin",
+            "displayName": "10CD",
+            "recovered": true
+          },
+          {
+            "index": 13,
+            "name": "11CC30~1.bin",
+            "displayName": "11CC30~1",
+            "recovered": true
+          },
+          {
+            "index": 14,
+            "name": "12E8F9~1.bin",
+            "displayName": "12E8F9~1",
+            "recovered": true
+          },
+          {
+            "index": 15,
+            "name": "13_TRA~1.bin",
+            "displayName": "13.TRA~1",
+            "recovered": true
+          },
+          {
+            "index": 16,
+            "name": "90USB.bin",
+            "displayName": "90USB",
+            "recovered": true
+          }
+        ],
+        "complete": false,
+        "issues": [
+          "Record at byte 97 overlaps a later record; discarded"
+        ],
+        "current_index": 8,
+        "current": null,
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "08H711",
+        "raw_frame_hex": "6333306333386173673133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3134313631362e39305553422e62696e3038483731316134613863326533"
+      }
+    },
+    {
+      "delay_from_previous_seconds": 2,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "00_B.bin",
+            "displayName": "00.B"
+          },
+          {
+            "index": 2,
+            "name": "01CHRI~1.bin",
+            "displayName": "01CHRI~1"
+          },
+          {
+            "index": 3,
+            "name": "01_LC.bin",
+            "displayName": "01.LC"
+          },
+          {
+            "index": 4,
+            "name": "02FATH~1.bin",
+            "displayName": "02FATH~1"
+          },
+          {
+            "index": 5,
+            "name": "03FATH~1.bin",
+            "displayName": "03FATH~1"
+          },
+          {
+            "index": 12,
+            "name": "10CD.bin",
+            "displayName": "10CD",
+            "recovered": true
+          },
+          {
+            "index": 13,
+            "name": "11CC30~1.bin",
+            "displayName": "11CC30~1",
+            "recovered": true
+          },
+          {
+            "index": 14,
+            "name": "12E8F9~1.bin",
+            "displayName": "12E8F9~1",
+            "recovered": true
+          },
+          {
+            "index": 15,
+            "name": "13_TRA~1.bin",
+            "displayName": "13.TRA~1",
+            "recovered": true
+          },
+          {
+            "index": 16,
+            "name": "90USB.bin",
+            "displayName": "90USB",
+            "recovered": true
+          }
+        ],
+        "complete": false,
+        "issues": [
+          "Record at byte 97 overlaps a later record; discarded"
+        ],
+        "current_index": 8,
+        "current": null,
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "08H711",
+        "raw_frame_hex": "6333306333386173673133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3134313631362e39305553422e62696e3038483731316134613863326533"
+      }
+    },
+    {
+      "delay_from_previous_seconds": 4,
+      "status": {
+        "protocol": "legacy",
+        "files": [
+          {
+            "index": 1,
+            "name": "00_B.bin",
+            "displayName": "00.B"
+          },
+          {
+            "index": 2,
+            "name": "01CHRI~1.bin",
+            "displayName": "01CHRI~1"
+          },
+          {
+            "index": 3,
+            "name": "01_LC.bin",
+            "displayName": "01.LC"
+          },
+          {
+            "index": 4,
+            "name": "02FATH~1.bin",
+            "displayName": "02FATH~1"
+          },
+          {
+            "index": 5,
+            "name": "03FATH~1.bin",
+            "displayName": "03FATH~1"
+          },
+          {
+            "index": 12,
+            "name": "10CD.bin",
+            "displayName": "10CD",
+            "recovered": true
+          },
+          {
+            "index": 13,
+            "name": "11CC30~1.bin",
+            "displayName": "11CC30~1",
+            "recovered": true
+          },
+          {
+            "index": 14,
+            "name": "12E8F9~1.bin",
+            "displayName": "12E8F9~1",
+            "recovered": true
+          },
+          {
+            "index": 15,
+            "name": "13_TRA~1.bin",
+            "displayName": "13.TRA~1",
+            "recovered": true
+          },
+          {
+            "index": 16,
+            "name": "90USB.bin",
+            "displayName": "90USB",
+            "recovered": true
+          }
+        ],
+        "complete": false,
+        "issues": [
+          "Record at byte 97 overlaps a later record; discarded"
+        ],
+        "current_index": 8,
+        "current": null,
+        "model": "F-MINI11",
+        "model_flag": "H7",
+        "model_recognized": true,
+        "is_playing": true,
+        "raw_tail": "08H711",
+        "raw_frame_hex": "6333306333386173673133303130312e30305f422e62696e3137303230322e3031434852497e312e62696e3134303330332e30315f4c432e62696e3137303430342e3032464154487e312e62696e3137303530352e3033464154487e312e62696e3136303630362e3034696e3133313231322e313043442e62696e3137313331332e3131434333307e312e62696e3137313431342e3132453846397e312e62696e3137313531352e31335f5452417e312e62696e3134313631362e39305553422e62696e3038483731316134613863326533"
+      }
+    }
+  ]
+}
